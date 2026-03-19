@@ -1,0 +1,109 @@
+Template se.tr.d014.ve
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+	//	Set_Date month 3 day 5 End_Date
+			Page_Header_Even
+				center @lookup sid ve.pdf.header rid daVE.OnTheEveningBefore.text lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid ve.pdf.header rid daVE.OnTheEveningBefore.text lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		//Insert_template ematins.cover.ve End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance01
+		Insert_section ST.ve.tr_mode End-Insert
+		Insert_section VE._01_Beginning__.vespers End-Insert
+		Insert_section VE._02_LordIHaveCried__.modeofweek__.for6 End-Insert
+		Insert_section VE._03_Stichera__.octr__.m_123as567 End-Insert
+		Insert_section TI.stp.tr.triodion End-Insert
+		Insert_section VE._03_Stichera__.tr__.p_123as8910 End-Insert
+		Insert_section VE._03_Stichera__.glory__.tr__.gloryasglory_ End-Insert
+		Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
+		Insert_section VE._04_Middle__.noentrance End-Insert
+		Insert_section VE._06_Litanies__.noektenia End-Insert
+		Section block1
+			Actor sid ac.Choir End-Actor
+			Title role desig sid ti.Aposticha End-Title
+			Title role mode rid octrVE.Stichera4.mode End-Title
+			Media rid octrVE.Stichera4.text End-Media
+			Hymn rid octrVE.Stichera4.text @ver media-off End-Hymn
+			Insert_section PsalmVerses.forDeceased.verse2 End-Insert
+			when-mode-of-week-is
+				M1, M2, M3, M4 use:
+					Media rid ocVE.Aposticha4.text End-Media
+					Hymn rid ocVE.Aposticha4.text @ver media-off End-Hymn
+				M5, M6, M7, M8 use:
+					Media rid ocVE.Aposticha2.text End-Media
+					Hymn rid ocVE.Aposticha2.text @ver media-off End-Hymn
+			end-when
+			Insert_section PsalmVerses.forDeceased.verse1 End-Insert
+			when-mode-of-week-is
+				M1 use:
+					Media rid ocMA.Lauds5.text End-Media
+					Hymn rid ocMA.Lauds5.text @ver media-off End-Hymn
+				M2, M3 use:
+					Media rid ocMA.Lauds4.text End-Media
+					Hymn rid ocMA.Lauds4.text @ver media-off End-Hymn
+				M4 use:
+					Media rid ocMA.LaudsGlory.text End-Media
+					Hymn rid ocMA.LaudsGlory.text @ver media-off End-Hymn
+				M5, M6, M7, M8 use:
+					Media rid ocVE.Aposticha3.text End-Media
+					Hymn rid ocVE.Aposticha3.text @ver media-off End-Hymn
+			end-when
+		End-Section
+		Insert_section VE._08_Aposticha__.glory__.tr_ End-Insert
+		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Insert_section VE._08_Aposticha__.both__.tr_.hymn End-Insert
+		Insert_section VE._09_Symeon_Trisagion__.Priest.symeon End-Insert
+
+		Break line End_Break
+		Insert_section FU._05_Canon_ End-Insert
+		Break line End_Break
+
+		Insert_section VE._09_Symeon_Trisagion__.Priest.trisagion End-Insert
+		Insert_section AP.tr12t End-Insert
+		Insert_section LN.FervLitany_short_deacon_parentheses End-Insert
+		Insert_section FU._01_TrisagionTroparia_ End-Insert
+		Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
+		Insert_section FU._04_Everlasting_ End-Insert
+		Insert_section VE._10_End__.wisdom123.part1 End-Insert
+		Insert_section VE._11_Dismissal__.nocommemoration End-Insert
+	End-Section
+
+End-Template

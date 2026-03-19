@@ -1,0 +1,125 @@
+Template bk.skeleton.weekday_vespers
+
+Status Draft
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+//		Set_Date month day End_Date
+			Page_Header_Even
+				center @lookup sid ve.pdf.header lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid ve.pdf.header lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				center @pageNbr
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				center @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		//Insert_template ematins.cover.ve End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance01
+		Insert_section VE._01_Beginning__.vespers End-Insert
+		Section LIHC
+			Actor sid ac.Choir End-Actor
+			Title role mode sid ti.Mode End-Title
+			Insert_section VE.LIHC_1 End-Insert
+			Insert_section VE.LIHC_2 End-Insert
+		End-Section
+		Section octoechos
+			Insert_section VE.LIHC_Verses.v05 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section VE.LIHC_Verses.v06 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt;background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section VE.LIHC_Verses.v07 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt;background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+		End-Section
+		Section menaion
+			Title role desig sid ti.Stichera sid ti.Menaion End-Title
+			Insert_section VE.LIHC_Verses.v08 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt;background-color:aliceblue;\">Menaion:<br>day of month</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section VE.LIHC_Verses.v09 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt;background-color:aliceblue;\">Menaion:<br>day of month</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section VE.LIHC_Verses.v10 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt;background-color:aliceblue;\">Menaion:<br>day of month</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Menaion:<br>Glory, (Doxasticon, if there is one);<br>Both now, Theotokion</p></td></tr>" END-Passthrough-Html
+		End-Section //Stichera
+		Section noentrance
+			Break line End_Break
+			Rubric sid ru.NoEntrance End-Rubric
+			Break line End_Break
+			Actor sid ac.Reader End-Actor
+			Reading sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Reading
+		End-Section
+		Section intro
+			Actor sid ac.Priest End-Actor
+			Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1109.text End-Dialog
+			Actor sid ac.Choir End-Actor
+		End-Section
+		Section onWednesday
+			Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode5</>End-Title
+			Media sid ho.ho10_gr_GR_cog.hoVE.MM.WednesdayProkeimenon.text End-Media
+			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v1.text @ver<r>sid ru.Twice media-off</>End-Hymn
+			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v2.text End-Verse
+			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v1.text End-Hymn
+		End-Section
+		Insert_section VE._06_Litanies__.noektenia End-Insert
+		Section Aposticha
+			Actor sid ac.Choir End-Actor
+			Title role desig sid ti.Aposticha End-Title
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">From Menaion, if exist. Otherwise:</p></td></tr>" END-Passthrough-Html
+			Title role mode sid ti.Mode End-Title
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section PsalmVerses.forVespersAposticha.weekday.verse1 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+			Insert_section PsalmVerses.forVespersAposticha.weekday.verse2 End-Insert
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+		End-Section
+		Section AposTheotokion
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Glory, and Both now, from Menaion, if exists. Otherwise:</p></td></tr>" END-Passthrough-Html
+			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Octoechos:<br>mode and day of week</p></td></tr>" END-Passthrough-Html
+			Break line End_Break
+		End-Section
+		Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
+		Passthrough-Html "<tr><td><p style=\"text-align:center; color:red; font-size:12pt; background-color:aliceblue;\">Apolytikion.<br>Glory; both now.<br>Theotokion</p></td></tr>" END-Passthrough-Html
+		Break line End_Break
+		Insert_section VE._10_End__.ektenia_wisdom End-Insert
+		Insert_section VE._11_Dismissal__.nocommemoration End-Insert
+
+	End-Section
+End-Template

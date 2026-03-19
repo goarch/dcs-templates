@@ -1,0 +1,469 @@
+Template LectionaryEpistleText
+
+Status Draft
+
+	import le.ep.mc.*
+	import le.ep.me.*
+	import le.go.lu.*
+	import le.go.mc.*
+	import le.go.me.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 2 day 17 year 2025 End_Date
+	End_Head
+
+	Section Epistle_Text
+		when-Lukan-Cycle-Day-is
+			119 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use: Reading sid le.ep.me.m01.dSunAE_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+					Sep 16 use: Reading sid le.ep.me.m01.dSunAE_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+					Sep 17 use: Reading sid le.ep.me.m01.dSunAE_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			126 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d323_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d337_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d337_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d337_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d337_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			133 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d344_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			140 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.me.m02.d02_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.me.m02.d02_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.me.m02.d02_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.me.m02.d02_gr_GR_cog.lemeLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d218_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d218_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			147 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d225_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			154 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d232_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 18 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 19 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 20 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 21 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+				end-when
+			161 use:
+				when-Sunday-after-Elevation-of-Cross-is
+					Sep 15 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 16 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					Sep 17 use:
+						when-sundays-before-triodion-is
+							1 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							2 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							3 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							4 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							5 use: Reading rid lemcLI.Epistle.text @ver End-Reading
+							6 use: Reading sid le.ep.mc.d239_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+						end-when
+					otherwise use:
+						Reading rid lemcLI.Epistle.text @ver End-Reading
+				end-when
+			otherwise use:
+				when-movable-cycle-day-is
+					2 use:
+						Reading sid le.ep.mc.d352_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					3 use:
+						Reading sid le.ep.mc.d353_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					4 use:
+						Reading sid le.ep.mc.d354_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					5 use:
+						Reading sid le.ep.mc.d355_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					6 use:
+						Reading sid le.ep.mc.d356_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					7 use:
+						Reading sid le.ep.mc.d357_gr_GR_cog.lemcLI.Epistle.text @ver End-Reading
+					otherwise use:
+						Reading rid lemcLI.Epistle.text @ver End-Reading
+				end-when
+		end-when
+	End-Section
+
+	Section Vespers_Epistle_Text
+		when-movable-cycle-day-is
+			69 use:
+				Reading sid le.ep.mc.d069_gr_GR_cog.lemcVE.Epistle.text @ver End-Reading
+			70 use:
+				Reading sid le.ep.mc.d070_gr_GR_cog.lemcVE.Epistle.text @ver End-Reading
+			71 use:
+				Reading sid le.ep.mc.d071_gr_GR_cog.lemcVE.Epistle.text @ver End-Reading
+		end-when
+	End-Section
+
+End-Template

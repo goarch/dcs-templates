@@ -1,0 +1,118 @@
+Template se.tr.d043.ma
+
+Status NA
+
+	import tr.d043_gr_GR_cog.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+	//	Set_Date month 3 day 11 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		//Insert_template ematins.cover.ma End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance01
+		Insert_section ST.ma.oc_tr End-Insert
+		Insert_section MA._01_Beginning__.modeofweek End-Insert
+		Insert_section se.tr.d043.ve.Instance01.apolytikia End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.oc__.sunday__.lent End-Insert
+		Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath212223 End-Insert
+		Title role desig sid ti.Kathisma3 sid ti.Cross End-Title
+		Insert_section MA._05_Kathisma3__.append__.tr__.kath31gb31_.hymns End-Insert
+//		Insert_section ResEvlogitaria End-Insert
+		Insert_section MA._06_Antiphons__.sunday_ End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+		Insert_section MA._11_Kontakion__.sunday End-Insert
+		Insert_section TI.k.tr.triodion End-Insert
+		Insert_section MA._11_Kontakion__.append__.tr_.konoik_nt_ End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+		Insert_section MA._08_Supplication__.priest__.com End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section KA.append__._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.tr1o2ot_ End-Insert
+		Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+		Insert_section MA._13_Lauds__.oc__.s_1234as1234 End-Insert
+		Insert_section TI.cr End-Insert
+		Insert_section MA._13_Lauds__.tr__.p_1123as5678_.hymns End-Insert
+		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
+		Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+
+		Section Veneration
+			Rubric sid client_gr_GR_cog.cl.tr.d043.R001 End-Rubric
+			Actor sid ac.Priest End-Actor
+			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
+			Title role mode sid tr.d043_gr_GR_cog.trVE.Apolytikion1.mode End-Title
+			Media sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
+			Actor sid ac.Choir End-Actor
+			Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text<r>sid ru.Twice media-off</>End-Hymn
+			Actor sid ac.Priest End-Actor
+			Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
+			Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text media-off End-Hymn
+			Actor sid ac.Choir End-Actor
+			Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text<r>sid ru.Twice</>End-Hymn
+			Rubric sid client_gr_GR_cog.cl.tr.d043.R002 End-Rubric
+			Actor sid ac.Choir End-Actor
+			Title role mode sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon1.mode End-Title
+			Media sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon1.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon1.text @ver media-off End-Hymn
+			Title role mode sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon2.mode End-Title
+			Media sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon2.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelon2.text @ver media-off End-Hymn
+			Title sid ti.Glory<Tmode>sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonGlory.mode</>End-Title
+			Media sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonGlory.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonGlory.text @ver media-off End-Hymn
+			Title sid ti.BothNow<Tmode>sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonBoth.mode</><Tmelody>sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonBoth.melody</>End-Title
+			Media sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonBoth.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trMA.AdditionalIdiomelonBoth.text @ver media-off End-Hymn
+			Rubric sid client_gr_GR_cog.cl.tr.d043.R003 End-Rubric
+			Actor sid ac.Choir End-Actor
+			Media sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text End-Media
+			Hymn sid tr.d043_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
+		End-Section
+	End-Section
+
+End-Template

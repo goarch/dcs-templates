@@ -1,0 +1,483 @@
+Template PE
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Section Resurrection_part1
+		Actor sid ac.Choir End-Actor
+		Title role desig sid eo.e07_gr_GR_cog.eo.title<Tmode>sid eo.e07_gr_GR_cog.eo.Doxasticon.mode</>End-Title
+		Media sid eo.e07_gr_GR_cog.eo.Doxasticon.text End-Media
+		Hymn sid eo.e07_gr_GR_cog.eo.Doxasticon.text @ver media-off End-Hymn
+	End-Section
+	Section Resurrection_part2
+		Actor sid ac.Priest End-Actor
+		Title role mode sid pe.d071_gr_GR_cog.peMO.Troparion1.mode End-Title
+		Media sid pe.d071_gr_GR_cog.peMO.Troparion1.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMO.Troparion1.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Title role mode sid pe.d071_gr_GR_cog.peMO.Troparion1.mode End-Title
+		Hymn sid pe.d071_gr_GR_cog.peMO.Troparion1.text<r>sid ru.Twice media-off</>End-Hymn
+		Actor sid ac.Priest End-Actor
+		Title role mode sid pe.d071_gr_GR_cog.peMO.Troparion2.mode End-Title
+		Media sid pe.d071_gr_GR_cog.peMO.Troparion2.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMO.Troparion2.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Title role mode sid pe.d071_gr_GR_cog.peMO.Troparion2.mode End-Title
+		Hymn sid pe.d071_gr_GR_cog.peMO.Troparion2.text<r>sid ru.Twice media-off</>End-Hymn
+		Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+	End-Section
+
+	Section ChristIsRisen
+		Section once
+			Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+			Para role source0 sid ti.sourcePentecostarion End-Para
+			Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		End-Section
+		Section twice
+			Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+			Para role source0 sid ti.sourcePentecostarion End-Para
+			Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+			Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		End-Section
+		Section thrice
+			Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+			Para role source0 sid ti.sourcePentecostarion End-Para
+			Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver<r>sid ru.Thrice media-off</>End-Hymn
+		End-Section
+	End-Section
+
+	Section Pascha_Beginning
+		Actor sid ac.Priest End-Actor
+		Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+		Para role source0 sid ti.sourcePentecostarion End-Para
+		Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion1a.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Para role hymnlinelast sid pe.d071_gr_GR_cog.peMA.Troparion1b.text End-Para
+		Actor sid ac.Priest End-Actor
+		Media sid pe.d071_gr_GR_cog.peMA.Troparion1a.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion1a.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Para role hymnlinelast sid pe.d071_gr_GR_cog.peMA.Troparion1b.text End-Para
+		Actor sid ac.Priest End-Actor
+		Media sid pe.d071_gr_GR_cog.peMA.Troparion1a.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion1a.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Para role hymnlinelast sid pe.d071_gr_GR_cog.peMA.Troparion1b.text End-Para
+		Actor sid ac.Priest End-Actor
+		Verse<bnr>sid misc.vVerse1</>sid movable.verses_gr_GR_cog.psPA.stichera.v1.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Verse<bnr>sid misc.vVerse2</>sid movable.verses_gr_GR_cog.psPA.stichera.v2.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Verse<bnr>sid misc.vVerse3</>sid movable.verses_gr_GR_cog.psPA.stichera.v3.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Verse<bnr>sid misc.vVerse4</>sid movable.verses_gr_GR_cog.psPA.stichera.v4.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Verse sid pr.BothNowAndEver.text End-Verse
+		Actor sid ac.Choir End-Actor
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+		Actor sid ac.Priest End-Actor
+		Media sid pe.d071_gr_GR_cog.peMA.Troparion2a.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Troparion2a.text @ver media-off End-Hymn
+		Actor sid ac.Choir End-Actor
+		Para role hymnlinelast sid pe.d071_gr_GR_cog.peMA.Troparion2b.text End-Para
+	End-Section
+
+	Section Pascha_Ode1
+		Actor sid ac.Choir End-Actor
+		Title role desig sid ti.TheCanon End-Title
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode1C1H.ode<Tmode>sid pe.d071_gr_GR_cog.peMA.Ode1C1H.mode</><Tdesig>sid ti.Heirmos</>End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode1C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode1C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode1C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode1C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode1C12.text @ver media-off End-Hymn
+		Verse sid pr.BothNowAndEver.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode1C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode1C12.text @ver media-off End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode1K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode1K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany02_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+
+	Section Pascha_Ode3
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode3C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode3C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode3C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode3C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory sid ti.BothNow End-Title
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode3C12.text<r>sid ru.Twice media-off</>End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode3K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode3K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany08_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode4
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode4C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode4C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode4C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode4C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C12.text @ver media-off End-Hymn
+		Title sid ti.BothNow End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode4C13.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C13.text @ver media-off End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode4K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode4K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany03_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode5
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode5C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode5C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode5C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode5C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory sid ti.BothNow End-Title
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode5C12.text<r>sid ru.Twice media-off</>End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode5K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode5K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany16_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode6
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode6C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode6C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode6C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode6C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory sid ti.BothNow End-Title
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode6C12.text<r>sid ru.Twice media-off</>End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode6K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode6K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany09_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode7
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode7C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode7C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode7C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode7C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C12.text @ver media-off End-Hymn
+		Title sid ti.BothNow End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode7C13.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C13.text @ver media-off End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode7K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode7K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany14_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode8
+		Actor sid ac.Choir End-Actor
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode8C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode8C1H.text End-Media
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode8C1H.text<r>sid ru.Twice</>End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pr.verse_Resurrection.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C11.text<r>sid ru.Twice media-off</>End-Hymn
+		Title sid ti.Glory End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode8C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C12.text @ver media-off End-Hymn
+		Title sid ti.BothNow End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode8C13.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C13.text @ver media-off End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode8K.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode8K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany04_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+	Section Pascha_Ode9
+		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Title role desig sid pe.d071_gr_GR_cog.peMA.Ode9C1H.ode sid ti.Heirmos End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Ode9C1H.text End-Media
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1M01.text End-Verse
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode9C1H.text End-Para
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1M02.text End-Verse
+		Para role heirmos sid pe.d071_gr_GR_cog.peMA.Ode9C1H.text End-Para
+		Title role desig sid ti.Troparia End-Title
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1M03.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode9C11.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C11.text @ver media-off End-Hymn
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1M04.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode9C11.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C11.text @ver media-off End-Hymn
+		Title sid ti.Glory End-Title
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1MTr.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode9C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C12.text @ver media-off End-Hymn
+		Title sid ti.BothNow End-Title
+		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1MTh.text End-Verse
+		Media sid pe.d071_gr_GR_cog.peMA.Ode9C12.text End-Media
+		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C12.text @ver media-off End-Hymn
+		Section Katavasia_Litany
+			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
+			Media sid pe.d071_gr_GR_cog.peMA.Ode9K.text End-Media
+			Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1MKa.text End-Verse
+			Hymn sid pe.d071_gr_GR_cog.peMA.Ode9K.text media-off End-Hymn
+			Media sid pe.d071_gr_GR_cog.peMA.TroparionShort.text End-Media
+			Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
+			Insert_section LN.ShortLitany10_deacon_parentheses End-Insert
+		End-Section
+	End-Section
+
+	Section Pascha_SticheraOfPascha
+		Para role source sid ti.sourcePentecostarion End-Para
+		Title role desig sid ti.SticheraPascha End-Title
+		Title role mode sid pe.d071_gr_GR_cog.peMA.Stichera1.mode End-Title
+		Media sid pe.d071_gr_GR_cog.peMA.Stichera1.text End-Media
+		Verse<bnr>sid misc.vVerse1</>sid movable.verses_gr_GR_cog.psPA.stichera.v1.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Stichera1.text @ver media-off End-Hymn
+		Media sid pe.d071_gr_GR_cog.peMA.Stichera2.text End-Media
+		Verse<bnr>sid misc.vVerse2</>sid movable.verses_gr_GR_cog.psPA.stichera.v2.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Stichera2.text @ver media-off End-Hymn
+		Media sid pe.d071_gr_GR_cog.peMA.Stichera3.text End-Media
+		Verse<bnr>sid misc.vVerse3</>sid movable.verses_gr_GR_cog.psPA.stichera.v3.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Stichera3.text @ver media-off End-Hymn
+		Media sid pe.d071_gr_GR_cog.peMA.Stichera4.text End-Media
+		Verse<bnr>sid misc.vVerse4</>sid movable.verses_gr_GR_cog.psPA.stichera.v4.text End-Verse
+		Hymn sid pe.d071_gr_GR_cog.peMA.Stichera4.text @ver media-off End-Hymn
+	End-Section
+
+	Section Pascha_Homily
+		Actor sid ac.Priest End-Actor
+		Title<b>sid pe.d071_gr_GR_cog.peMA.Homily.title</>End-Title
+		Reading sid pe.d071_gr_GR_cog.peMA.Homily.text End-Reading
+		Actor sid ac.Choir End-Actor
+		Title role mode sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+		Media sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.text End-Media
+		Hymn sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+	End-Section
+
+	Section Pascha_Hour1
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.end.hours End-Insert
+	End-Section
+
+	Section Pascha_Hours36
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.enarxis01.text End-Dialog
+		Actor sid ac.Reader End-Actor
+		Dialog sid pr.res04.text End-Dialog
+		Insert_section Pascha_Hours_Parts.beginning End-Insert
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.end.hours End-Insert
+	End-Section
+
+	Section Pascha_Hour9
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.enarxis01.text End-Dialog
+		Actor sid ac.Reader End-Actor
+		Dialog sid pr.res04.text End-Dialog
+		Insert_section Pascha_Hours_Parts.beginning End-Insert
+		Insert_section Pascha_Hours_Parts.end.hours End-Insert
+	End-Section
+
+	Section Pascha_Compline
+		Insert_section ST.co.ho_pa End-Insert
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.enarxis01.text End-Dialog
+		Actor sid ac.Reader End-Actor
+		Dialog sid pr.res04.text End-Dialog
+		Insert_section Pascha_Hours_Parts.beginning End-Insert
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.end.compline End-Insert
+	End-Section
+
+	Section Pascha_MidnightOffice
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.enarxis01.text End-Dialog
+		Actor sid ac.Reader End-Actor
+		Dialog sid pr.res04.text End-Dialog
+		Insert_section Pascha_Hours_Parts.beginning End-Insert
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.middle End-Insert
+		Insert_section Pascha_Hours_Parts.end.midnightoffice End-Insert
+	End-Section
+
+	Section Pascha_Hours_Parts
+		Section beginning
+			Actor sid ac.Priest End-Actor
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver End-Reading
+			Actor sid ac.Reader End-Actor
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver<r>sid ru.Twice</>End-Reading
+			Insert_section troparia End-Insert
+		End-Section
+		Section middle
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver<r>sid ru.Thrice</>End-Reading
+			Insert_section troparia End-Insert
+		End-Section
+		Section end
+			Section compline
+				Actor sid ac.Priest End-Actor
+				Dialog sid pr.pet00.text End-Dialog
+				Actor sid ac.Choir End-Actor
+				Dialog sid pr.res01.text End-Dialog
+				Para role prayer sid pe.d121_gr_GR_cog.pePE.Prayer21.text sid pe.d121_gr_GR_cog.pePE.Prayer22.text @ver End-Para
+				Actor sid ac.Reader End-Actor
+				Dialog sid pr.res04.text End-Dialog
+				Dialog sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver<r>sid ru.Thrice</>End-Dialog
+				Dialog sid pr.res01.text sid pr.res01.text sid pr.res01.text End-Dialog
+				Dialog sid pr.Bless_father.text End-Dialog
+				Actor sid ac.Priest End-Actor
+				Insert_section Selector_Dismissals.dismissal_01 End-Insert
+				Insert_section bk.ho.ho13.SmallCompline5.litany End-Insert
+				Actor sid ac.Priest End-Actor
+				Dialog sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver End-Dialog
+				Actor sid ac.People End-Actor
+				Dialog sid pr.PaschaDialog6.text End-Dialog
+			End-Section
+			Section hours
+				Dialog sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver<r>sid ru.Thrice</>End-Dialog
+				Dialog sid pr.res01.text sid pr.res01.text sid pr.res01.text End-Dialog
+				Dialog sid pr.Bless_father.text End-Dialog
+				Actor sid ac.Priest End-Actor
+				Insert_section Selector_Dismissals.dismissal_01 End-Insert
+				Actor sid ac.Priest End-Actor
+				Dialog sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver End-Dialog
+				Actor sid ac.People End-Actor
+				Dialog sid pr.PaschaDialog6.text End-Dialog
+			End-Section
+			Section midnightoffice
+				Dialog sid ho.ho14_gr_GR_cog.hoPH.Troparion1.text @ver<r>sid ru.Thrice</>End-Dialog
+				Dialog sid pr.res01.text sid pr.res01.text sid pr.res01.text End-Dialog
+				Dialog sid pr.Bless_father.text End-Dialog
+				Actor sid ac.Priest End-Actor
+				Insert_section Selector_Dismissals.dismissal_01 End-Insert
+				Insert_section bk.ho.ho13.SmallCompline5.litany End-Insert
+				Actor sid ac.Priest End-Actor
+				Dialog sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver End-Dialog
+				Actor sid ac.People End-Actor
+				Dialog sid pr.PaschaDialog6.text End-Dialog
+			End-Section
+		End-Section
+		Section troparia
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion2.text @ver<r>sid ru.Thrice</>End-Reading
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion3.text @ver End-Reading
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion4.text @ver End-Reading
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion5.text @ver End-Reading
+			Title sid ti.Glory End-Title
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion6.text @ver End-Reading
+			Title sid ti.BothNow End-Title
+			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion7.text @ver End-Reading
+			Reading sid pr.res01.text<r>sid ru.Forty</>End-Reading
+			Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
+			Reading sid pr.GreaterInHonor.text End-Reading
+			Reading sid pr.InTheNameOfLordBless_father.text End-Reading
+			Actor sid ac.Priest End-Actor
+			Reading sid pr.ThroughThePrayers_fathers.text End-Reading
+			Actor sid ac.Reader End-Actor
+			Reading sid pr.res04.text End-Reading
+		End-Section
+	End-Section
+
+	Section SundayVespersGospel
+		Title role desig sid ti.Gospel End-Title
+		Actor sid ac.Deacon End-Actor
+		Dialog sid pr.gos01.text End-Dialog
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
+		Actor sid ac.Deacon End-Actor
+		Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.pet31.text End-Dialog
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
+		Actor sid ac.Priest End-Actor
+		Dialog sid pr.gos03a.text sid le.go.mc.d072_gr_GR_cog.lemcVE.Gospel.book_string sid pr.gos03b.text End-Dialog
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
+		Actor sid ac.Priest End-Actor
+		Title role chapverse sid le.go.mc.d072_gr_GR_cog.lemcVE.Gospel.chapverse End-Title
+		Reading sid le.go.mc.d072_gr_GR_cog.lemcVE.Gospel.part1.text End-Reading
+		Reading sid le.go.mc.d072_gr_GR_cog.lemcVE.Gospel.part2.text End-Reading
+		Reading sid le.go.mc.d072_gr_GR_cog.lemcVE.Gospel.part3.text @ver End-Reading
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
+	End-Section
+
+End-Template

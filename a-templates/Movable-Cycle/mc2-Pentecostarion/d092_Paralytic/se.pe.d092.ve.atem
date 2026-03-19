@@ -1,0 +1,69 @@
+Template se.pe.d092.ve
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+	//	Set_Date month 5 day 3 End_Date
+			Page_Header_Even
+				center @lookup sid pe.peDA.commemoration.short sid ve.pdf.header sid d.onSaturdayEvening lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid pe.peDA.commemoration.short sid ve.pdf.header sid d.onSaturdayEvening lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		//Insert_template ematins.cover.ve End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance01
+		Insert_section ST.ve.pe End-Insert
+		Insert_section VE._01_Beginning__.vespers End-Insert
+		Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
+		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234567as1234567 End-Insert
+		Insert_section TI.pe._03_paralytic End-Insert
+		Insert_section VE._03_Stichera__.pe__.i_9910as8910 End-Insert
+		Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_ End-Insert
+		Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
+		Insert_section VE._04_Middle__.entrance End-Insert
+		Insert_section VE._06_Litanies__.fullektenia End-Insert
+		Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1_ End-Insert
+		Insert_section VE._08_Aposticha__.append__.pascha End-Insert
+		Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_ End-Insert
+		Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+		Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
+		Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
+		Insert_section AP.res__.modeofweek End-Insert
+		Insert_section AP.gloryboth__.primarytheotokion__.modeofweek End-Insert
+		Insert_section VE._10_End__.wisdom123.part1 End-Insert
+		Insert_section VE._11_Dismissal__.nocommemoration End-Insert
+	End-Section
+End-Template

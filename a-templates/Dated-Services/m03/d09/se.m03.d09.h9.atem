@@ -1,0 +1,99 @@
+Template se.m03.d09.h9
+
+Status Final
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 3 day 9 year 2026 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.h9.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.h9.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	when-movable-cycle-day-is
+		1 thru 23 use:
+		24 thru 62 use: //not sure of mc span
+			Section beforepresanctified
+				Title role desig sid ho.ho09_gr_GR_cog.hoH9.title End-Title
+				Insert_section HR._01_Intro_ End-Insert
+				Insert_section HR._02_Psalms__.h9 End-Insert
+				Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
+				Insert_section PS._08_Hour9__.rubric End-Insert
+				Rubric sid ru.AndThen End-Rubric
+				Insert_section AP.me1_ End-Insert
+				Insert_section HR._03__.h9 End-Insert
+				Insert_section KO.me1_ End-Insert
+				Insert_section HR._04__.h9_lent End-Insert
+				Section before_presanctified
+					Insert_section TR.StEphraimPrayer_short End-Insert
+					Section h9
+						Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01 End-Rubric
+						Actor sid ac.Priest End-Actor
+						Title role desig sid ho.ho09_gr_GR_cog.hoH9.Prayer.title End-Title
+						Para role prayeroptional sid ho.ho09_gr_GR_cog.hoH9.Prayer.text End-Para
+						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+					End-Section
+					Insert_section HR._08_Typika__.with_priest_.beatitudes End-Insert
+					Insert_section HR._08_Typika__.with_priest_.prayers End-Insert
+					Insert_section KO.me1_ End-Insert
+					Section prayers
+						Reading sid pr.res01.text<r>sid ru.Forty</>End-Reading
+						Reading sid pr.PrayerOfHours.text End-Reading
+						Reading sid pr.res01.text<r>sid ru.Thrice</>End-Reading
+						Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
+						Reading sid pr.GreaterInHonor.text End-Reading
+						Reading sid pr.InTheNameOfLordBless_father.text End-Reading
+						Actor sid ac.Priest End-Actor
+						Dialog sid pr.MayGodHaveCompassion.text End-Dialog
+						Actor sid ac.Reader End-Actor
+						Dialog sid pr.res04.text End-Dialog
+						Actor sid ac.Priest End-Actor
+						Insert_section TR.StEphraimPrayer_long End-Insert
+						Actor sid ac.Reader End-Actor
+						Insert_section HR._01_Intro_.append.Trisagion_Prayers End-Insert
+						Actor sid ac.Reader End-Actor
+						Dialog sid pr.res04.text End-Dialog
+						Reading sid pr.res01.text<r>sid ru.Twelve</>End-Reading
+						Actor sid ac.Priest End-Actor
+						Reading sid ho.ho07_gr_GR_cog.hoTY.Key0501.text End-Reading
+						Actor sid ac.Reader End-Actor
+						Reading sid pr.res04.text End-Reading
+					End-Section
+				End-Section
+				Insert_section HR._07_Dismissal End-Insert
+			End-Section
+		otherwise use:
+
+	end-when
+
+End-Template

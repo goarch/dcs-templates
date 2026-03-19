@@ -1,0 +1,632 @@
+Template Selector_LentHoursTroparia
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Section h1__
+		Section apolytikia
+			when-movable-cycle-day-is
+				1, 8, 15, 22 use:
+					Section tr_sundays
+						Insert_section AP.NM.res__.modeofweek End-Insert
+					End-Section
+				29 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.f End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				36 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._07_hierarch_.m End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				43 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.cr End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				50 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.m End-Insert
+					Insert_section AP.NM.ganame.Lent4__.john_.hymn End-Insert
+				57 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.w End-Insert
+					Insert_section AP.NM.ganame.Lent5__.mary_.hymn End-Insert
+				14, 21 use:
+					Section tr_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				18, 20 use:
+					Section cheese_week
+						Rubric sid ru.Read End-Rubric
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH1.v1.text @ver End-Verse
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH1.v2.text End-Verse
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 51, 52, 53, 54, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Actor sid ac.Choir End-Actor
+						Title role mode sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.mode End-Title
+						Media sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text End-Media
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH1.v1.text @ver End-Verse
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH1.v2.text End-Verse
+						Hymn sid ho.ho04_gr_GR_cog.hoH1.LentTroparion.text @ver media-off End-Hymn
+						Actor sid ac.Reader End-Actor
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				28, 35, 42, 49, 56 use:
+					Section lent_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				63, 64 use:
+					Section lazarus_palm
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trVE.Apolytikion1.text @ver media-off End-Hymn
+					End-Section
+				65 use:
+					Section holyweek_2
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d065_gr_GR_cog.trMA.Troparion.text sid da.d2_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				66 use:
+					Section holyweek_3
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d066_gr_GR_cog.trMA.Troparion.text sid da.d3_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				67 use:
+					Section holyweek_4
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d067_gr_GR_cog.trMA.Troparion.text sid da.d4_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				68 use:
+					Section holythursday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trMA.Troparion.text @ver media-off End-Hymn
+					End-Section
+				70 use:
+					Section holysaturday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Apolytikion End-Title
+						Hymn rid trVE.Apolytikion2.text @ver media-off End-Hymn
+					End-Section
+			end-when
+		End-Section
+		Section kontakia
+			when-movable-cycle-day-is
+				1, 8, 15, 22, 29, 36, 43, 50, 57 use:
+					Section tr_sundays
+						Insert_section KO.NM.hypakoe__.sunday__.modeofweek End-Insert
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				14, 21 use:
+					Section tr_saturdays
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text @ver media-off End-Hymn
+					End-Section
+				18, 20, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 38, 40, 41, 51, 52, 53, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						when-name-of-day-is
+							Monday, Tuesday, Thursday use:
+								Title role desig sid ti.Theotokion End-Title
+								Hymn sid oc.m6.d2_gr_GR_cog.ocMA.Kathisma33.text @ver media-off End-Hymn
+							Wednesday, Friday use:
+								Title role desig sid ti.Stavrotheotokion End-Title
+								Hymn sid he.a.m4_gr_GR_cog.heAU.TachyProkatalave.text @ver media-off End-Hymn
+						end-when
+					End-Section
+				28, 56 use:
+					Section lent_saturdays15
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				35, 42, 49 use:
+					Section lent_saturdays234
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d014_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				44 thru 48 use:
+					Section week4
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d043_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				54 use:
+					Section great_canon
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d054_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				63, 64, 65, 66, 67, 68, 70 use:
+					Section holyweek
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+			end-when
+		End-Section
+	End-Section
+	Section h3__
+		Section apolytikia
+			when-movable-cycle-day-is
+				1, 8, 15, 22 use:
+					Section tr_sundays
+						Insert_section AP.NM.res__.modeofweek End-Insert
+					End-Section
+				29 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.f End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				36 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._07_hierarch_.m End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				43 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.cr End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				50 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.m End-Insert
+					Insert_section AP.NM.ganame.Lent4__.john_.hymn End-Insert
+				57 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.w End-Insert
+					Insert_section AP.NM.ganame.Lent5__.mary_.hymn End-Insert
+				14, 21 use:
+					Section tr_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				18, 20 use:
+					Section cheese_week
+						Rubric sid ru.Read End-Rubric
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH3.v1.text @ver End-Verse
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH3.v2.text End-Verse
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 51, 52, 53, 54, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Actor sid ac.Choir End-Actor
+						Title role mode sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.mode End-Title
+						Media sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text End-Media
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH3.v1.text @ver End-Verse
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH3.v2.text End-Verse
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.LentTroparion.text @ver media-off End-Hymn
+						Actor sid ac.Reader End-Actor
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				28, 35, 42, 49, 56 use:
+					Section lent_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				63, 64 use:
+					Section lazarus_palm
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trVE.Apolytikion1.text @ver media-off End-Hymn
+					End-Section
+				65 use:
+					Section holyweek_2
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d065_gr_GR_cog.trMA.Troparion.text sid da.d2_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				66 use:
+					Section holyweek_3
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d066_gr_GR_cog.trMA.Troparion.text sid da.d3_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				67 use:
+					Section holyweek_4
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d067_gr_GR_cog.trMA.Troparion.text sid da.d4_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				68 use:
+					Section holythursday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trMA.Troparion.text @ver media-off End-Hymn
+					End-Section
+				70 use:
+					Section holysaturday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Apolytikion End-Title
+						Hymn rid trVE.Apolytikion1.text @ver media-off End-Hymn
+					End-Section
+			end-when
+		End-Section
+		Section kontakia
+			when-movable-cycle-day-is
+				1, 8, 15, 22, 29, 36, 43, 50, 57 use:
+					Section tr_sundays
+						Insert_section KO.NM.hypakoe__.sunday__.modeofweek End-Insert
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				14, 21 use:
+					Section tr_saturdays
+						Title role desig sid ti.Kontakion End-Title
+						Media sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text End-Media
+						Hymn sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text @ver media-off End-Hymn
+					End-Section
+				18, 20, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 38, 40, 41, 51, 52, 53, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Media sid ho.ho05_gr_GR_cog.hoH3.Troparion1.text End-Media
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.Troparion1.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Media sid ho.ho05_gr_GR_cog.hoH3.Troparion2.text End-Media
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.Troparion2.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Media sid ho.ho05_gr_GR_cog.hoH3.Troparion3.text End-Media
+						Hymn sid ho.ho05_gr_GR_cog.hoH3.Troparion3.text @ver media-off End-Hymn
+					End-Section
+				28, 56 use:
+					Section lent_saturdays15
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				35, 42, 49 use:
+					Section lent_saturdays234
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d014_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				44 thru 48 use:
+					Section week4
+						Title role desig sid ti.Kontakion End-Title
+						Media sid tr.d043_gr_GR_cog.trMA.Kontakion1.text End-Media
+						Hymn sid tr.d043_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				54 use:
+					Section great_canon
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d054_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				63, 64, 65, 66, 67, 68, 70 use:
+					Section holyweek
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+			end-when
+		End-Section
+	End-Section
+	Section h6__
+		Section apolytikia
+			when-movable-cycle-day-is
+				1, 8, 15, 22 use:
+					Section tr_sundays
+						Insert_section AP.NM.res__.modeofweek End-Insert
+					End-Section
+				29 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.f End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				36 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._07_hierarch_.m End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				43 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.cr End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				50 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.m End-Insert
+					Insert_section AP.NM.ganame.Lent4__.john_.hymn End-Insert
+				57 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.w End-Insert
+					Insert_section AP.NM.ganame.Lent5__.mary_.hymn End-Insert
+				14, 21 use:
+					Section tr_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				18, 20 use:
+					Section cheese_week
+						Rubric sid ru.Read End-Rubric
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH6.v1.text @ver End-Verse
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH6.v2.text End-Verse
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 51, 52, 53, 54, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Actor sid ac.Choir End-Actor
+						Title role mode sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.mode End-Title
+						Media sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text End-Media
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH6.v1.text @ver End-Verse
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH6.v2.text End-Verse
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.LentTroparion.text @ver media-off End-Hymn
+						Actor sid ac.Reader End-Actor
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				28, 35, 42, 49, 56 use:
+					Section lent_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				63, 64 use:
+					Section lazarus_palm
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trVE.Apolytikion1.text @ver media-off End-Hymn
+					End-Section
+				65 use:
+					Section holyweek_2
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d065_gr_GR_cog.trMA.Troparion.text sid da.d2_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				66 use:
+					Section holyweek_3
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d066_gr_GR_cog.trMA.Troparion.text sid da.d3_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				67 use:
+					Section holyweek_4
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d067_gr_GR_cog.trMA.Troparion.text sid da.d4_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				68 use:
+					Section holythursday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trMA.Troparion.text @ver media-off End-Hymn
+					End-Section
+				70 use:
+					Section holysaturday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Apolytikion End-Title
+						Hymn rid trVE.Apolytikion3.text @ver media-off End-Hymn
+					End-Section
+			end-when
+		End-Section
+		Section kontakia
+			when-movable-cycle-day-is
+				1, 8, 15, 22, 29, 36, 43, 50, 57 use:
+					Section tr_sundays
+						Insert_section KO.NM.hypakoe__.sunday__.modeofweek End-Insert
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				14, 21 use:
+					Section tr_saturdays
+						Title role desig sid ti.Kontakion End-Title
+						Media sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text End-Media
+						Hymn sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text @ver media-off End-Hymn
+					End-Section
+				18, 20, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 38, 40, 41, 51, 52, 53, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Media sid ho.ho06_gr_GR_cog.hoH6.Troparion1.text End-Media
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.Troparion1.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Media sid ho.ho06_gr_GR_cog.hoH6.Troparion2.text End-Media
+						Hymn sid ho.ho06_gr_GR_cog.hoH6.Troparion2.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						when-name-of-day-is
+							Monday, Tuesday, Thursday use:
+								Reading sid ho.ho06_gr_GR_cog.hoH6.Troparion3.text @ver End-Reading
+							Wednesday, Friday use:
+								Hymn sid ho.ho06_gr_GR_cog.hoH6.Troparion4.text @ver media-off End-Hymn
+						end-when
+					End-Section
+				28, 56 use:
+					Section lent_saturdays15
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				35, 42, 49 use:
+					Section lent_saturdays234
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d014_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				44 thru 48 use:
+					Section week4
+						Title role desig sid ti.Kontakion End-Title
+						Media sid tr.d043_gr_GR_cog.trMA.Kontakion1.text End-Media
+						Hymn sid tr.d043_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				54 use:
+					Section great_canon
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d054_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				63, 64, 65, 66, 67, 68, 70 use:
+					Section holyweek
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+			end-when
+		End-Section
+	End-Section
+	Section h9__
+		Section apolytikia
+			when-movable-cycle-day-is
+				1, 8, 15, 22 use:
+					Section tr_sundays
+						Insert_section AP.NM.res__.modeofweek End-Insert
+					End-Section
+				29 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.f End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				36 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._07_hierarch_.m End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				43 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.cr End-Insert
+					Insert_section AP.NM.tr1_.hymn End-Insert
+				50 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.m End-Insert
+					Insert_section AP.NM.ganame.Lent4__.john_.hymn End-Insert
+				57 use:
+					Insert_section AP.NM.res__.modeofweek End-Insert
+					Insert_section TI.s._10_monastic_.w End-Insert
+					Insert_section AP.NM.ganame.Lent5__.mary_.hymn End-Insert
+				50 use:
+					Section tr_sunday4
+						Insert_section AP.NM.res__.modeofweek End-Insert
+						Insert_section AP.NM.ganame.Lent4__.john_ End-Insert
+					End-Section
+				57 use:
+					Section tr_sunday5
+						Insert_section AP.NM.res__.modeofweek End-Insert
+						Insert_section AP.NM.ganame.Lent5__.mary_ End-Insert
+					End-Section
+				14, 21 use:
+					Section tr_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				18, 20 use:
+					Section cheese_week
+						Rubric sid ru.Read End-Rubric
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH9.v1.text @ver End-Verse
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH9.v2.text End-Verse
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 44, 45, 46, 47, 48, 51, 52, 53, 54, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Actor sid ac.Choir End-Actor
+						Title role mode sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.mode End-Title
+						Media sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text End-Media
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse1</>sid liturgical.verses_gr_GR_cog.psH9.v1.text @ver End-Verse
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Verse<bnr>sid misc.vVerse2</>sid liturgical.verses_gr_GR_cog.psH9.v2.text End-Verse
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.LentTroparion.text @ver media-off End-Hymn
+						Actor sid ac.Reader End-Actor
+						Reading sid pr.GloryToTheFather.text End-Reading
+					End-Section
+				28, 35, 42, 49, 56 use:
+					Section lent_saturdays
+					//	Title sid ti.Glory End-Title
+						Insert_section AP.NM.tr1_ End-Insert
+					End-Section
+				63, 64 use:
+					Section lazarus_palm
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trVE.Apolytikion1.text @ver media-off End-Hymn
+					End-Section
+				65 use:
+					Section holyweek_2
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d065_gr_GR_cog.trMA.Troparion.text sid da.d2_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				66 use:
+					Section holyweek_3
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d066_gr_GR_cog.trMA.Troparion.text sid da.d3_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				67 use:
+					Section holyweek_4
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn sid tr.d067_gr_GR_cog.trMA.Troparion.text sid da.d4_gr_GR_cog.daMA.Triadic1Ending.text @ver media-off End-Hymn
+					End-Section
+				68 use:
+					Section holythursday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Troparion End-Title
+						Hymn rid trMA.Troparion.text @ver media-off End-Hymn
+					End-Section
+				70 use:
+					Section holysaturday
+					//	Title sid ti.Glory End-Title
+						Title role desig sid ti.Apolytikion End-Title
+						Hymn rid trVE.Apolytikion2.text @ver media-off End-Hymn
+					End-Section
+			end-when
+		End-Section
+		Section kontakia
+			when-movable-cycle-day-is
+				1, 8, 15, 22, 29, 36, 43, 50, 57 use:
+					Section tr_sundays
+						Insert_section KO.NM.hypakoe__.sunday__.modeofweek End-Insert
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				14, 21 use:
+					Section tr_saturdays
+						Title role desig sid ti.Kontakion End-Title
+						Media sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text End-Media
+						Hymn sid he.a.m8_gr_GR_cog.heAU.OsAparchas.text @ver media-off End-Hymn
+					End-Section
+				18, 20, 23, 24, 25, 26, 27, 30, 31, 32, 33, 34, 37, 38, 38, 40, 41, 51, 52, 53, 55, 58, 59, 60, 61, 62 use:
+					Section lent_wkds
+						Media sid ho.ho09_gr_GR_cog.hoH9.Troparion1.text End-Media
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.Troparion1.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Media sid ho.ho09_gr_GR_cog.hoH9.Troparion2.text End-Media
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.Troparion2.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						Media sid ho.ho09_gr_GR_cog.hoH9.Troparion3.text End-Media
+						Hymn sid ho.ho09_gr_GR_cog.hoH9.Troparion3.text @ver media-off End-Hymn
+					End-Section
+				28, 56 use:
+					Section lent_saturdays15
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+				35, 42, 49 use:
+					Section lent_saturdays234
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d014_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				44 thru 48 use:
+					Section week4
+						Title role desig sid ti.Kontakion End-Title
+						Media sid tr.d043_gr_GR_cog.trMA.Kontakion1.text End-Media
+						Hymn sid tr.d043_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				54 use:
+					Section great_canon
+						Title role desig sid ti.Kontakion End-Title
+						Hymn sid tr.d054_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
+					End-Section
+				63, 64, 65, 66, 67, 68, 70 use:
+					Section holyweek
+						Insert_section KO.NM.tr1_ End-Insert
+					End-Section
+			end-when
+		End-Section
+	End-Section
+
+End-Template

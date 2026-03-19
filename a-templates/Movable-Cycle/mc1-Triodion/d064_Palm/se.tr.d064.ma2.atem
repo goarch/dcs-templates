@@ -1,0 +1,162 @@
+Template se.tr.d064.ma2
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+	//	Set_Date month 4 day 9 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		//Insert_template ematins.cover.ma End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance01
+		Insert_section ST.ma.tr End-Insert
+		Insert_section MA._01_Beginning__.mode1 End-Insert
+		Insert_section AP.tr112 End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.tr__.kath11gb12 End-Insert
+		Insert_section MA._03_Kathisma2__.append__.tr__.kath21gb22 End-Insert
+		Insert_section MA._05_Kathisma3__.append__.tr__.kath31gb31_ End-Insert
+		Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+		Insert_section MA._08_Supplication__.priest__.com End-Insert
+		Section options
+			Section block02_odes13
+				Para role bmc_ode1_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1trcanon1 End-Para
+					Actor sid ac.Choir End-Actor
+					Insert_section TI.c.f End-Insert
+					Insert_section TI.o._1 End-Insert
+					Insert_section CAv.ode1.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode1_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._1 End-Insert
+				Para role bmc_ode3_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode3trcanon1 End-Para
+					Insert_section TI.o._3 End-Insert
+					Insert_section CAv.ode3.append.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode3_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._3 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode3 End-Insert
+			End-Section
+			Section block04_ode3kathisma
+				Para role bmc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.ode3.kathisma End-Para
+					Insert_section MA._10_Canon__.hypakoe__.tr End-Insert
+				Para role emc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+			End-Section
+			Section block05_odes456
+				Para role bmc_ode4_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode4trcanon1 End-Para
+					Actor sid ac.Choir End-Actor
+					Insert_section TI.o._4 End-Insert
+					Insert_section CAv.ode4.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode4_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._4 End-Insert
+				Para role bmc_ode5_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode5trcanon1 End-Para
+					Insert_section TI.o._5 End-Insert
+					Insert_section CAv.ode5.append.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode5_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._5 End-Insert
+				Para role bmc_ode6_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode6trcanon1 End-Para
+					Insert_section TI.o._6 End-Insert
+					Insert_section CAv.ode6.append.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode6_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._6 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+			End-Section
+			Section block06_kontakionposition1
+				Para role bmc_kontakion_position1 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position1 End-Para
+					Insert_section MA._11_Kontakion__.tr_ End-Insert
+					Insert_section SY.Synaxarion End-Insert
+				Para role emc_kontakion_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+			End-Section
+			Section block07_odes78
+				Para role bmc_ode7_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode7trcanon1 End-Para
+					Actor sid ac.Choir End-Actor
+					Insert_section TI.o._7 End-Insert
+					Insert_section CAv.ode7.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode7_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._7 End-Insert
+				Para role bmc_ode8_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode8trcanon1 End-Para
+					Insert_section TI.o._8 End-Insert
+					Insert_section CAv.ode8.append.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode8_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._8 End-Insert
+			End-Section
+			Section block08_kontakionposition12
+				Para role bmc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position12 End-Para
+					Insert_section MA._11_Kontakion__.tr_ End-Insert
+					Insert_section SY.Synaxarion End-Insert
+				Para role emc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+			End-Section
+			Section block09_katavasias1345678
+				Insert_section KA.choir__._1345678 End-Insert
+			End-Section
+			Section block11_ode9
+				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Para role bmc_ode9_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode9trcanon1 End-Para
+					Insert_section TI.o._9 End-Insert
+					Insert_section CAv.ode9.tr1.nt_hh1123as00VVGB End-Insert
+				Para role emc_ode9_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				Insert_section KA.append__._9 End-Insert
+			End-Section
+		End-Section
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Section block1
+			Actor sid ac.Choir End-Actor
+			Title role mode sid misc.Mode2 End-Title
+			Media sid tr.d064_gr_GR_cog.trMA.Exaposteilarion1.text End-Media
+			Hymn sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text @ver<r>sid ru.Thrice</>End-Hymn
+		End-Section
+		Section block2
+			Break line End_Break
+			Title role desig sid hi.hi17_gr_GR_cog.hiPR.Key0600.title End-Title
+			Title role desig sid hi.hi17_gr_GR_cog.hiPR.Key0601.title End-Title
+			Title role desig sid hi.hi17_gr_GR_cog.hiPR.Key0602.title End-Title
+			Actor sid ac.PriestOrDeacon End-Actor
+			Dialog sid pr.pet00.text End-Dialog
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
+			Actor sid ac.Priest End-Actor
+			Para role prayer sid hi.hi17_gr_GR_cog.hiPR.Key0603.text End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+		End-Section
+		Insert_section MA._13_Lauds__.mode4__.for6_nocollapse End-Insert
+		Insert_section MA._13_Lauds__.tr__.i_112234as123456 End-Insert
+		Insert_section MA._13_Lauds__.gloryboth__.tr__.gloryasgloryboth_ End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+		Insert_section AP.tr2_ End-Insert
+		Insert_section MA2._19_End_Options End-Insert
+		Insert_section MA._20_Dismissal__.nocommemoration End-Insert
+	End-Section
+End-Template

@@ -1,0 +1,190 @@
+Template se.m02.d23.ma
+
+Status Final
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 2 day 23 year 2026 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template pdf.cover.ma.me End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	when-movable-cycle-day-is
+		1, 8, 14, 15, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 28, 29, 30, 31 use:
+			Insert_section mc.map.ma.Instance01 End-Insert
+
+		13 use:
+			Section Instance01 //2063
+				Break line End_Break
+				Rubric sid me.m02.d23_gr_GR_cog.meR001 End-Rubric
+				Break line End_Break
+ 			End-Section
+
+		22 use:
+			Section Instance02 //2031
+				Break line End_Break
+				Rubric sid me.m02.d23_gr_GR_cog.meR001 End-Rubric
+				Break line End_Break
+				Section oc_tr_me1
+					Para role servicesourcestitle sid misc.book.BooksSources.title End-Para
+					Para role servicesources sid misc.book.Octoechos.name sid misc.separator.hyphen rid ocVE.Stichera1.mode End-Para
+					Insert_section Selector_ServiceTitle.on_morning End-Insert
+					Para role servicesources sid misc.book.Triodion.name End-Para
+					Para role servicesourcessection rid trDA.commemoration.short End-Para
+					Para role servicesources sid misc.book.Menaion.name sid misc.separator.hyphen sid me.m02.d24_gr_GR_cog.meDA.date End-Para
+					Para role servicesourcessection sid me.m02.d24_gr_GR_cog.meDA.commemoration.first_short End-Para
+					Title sid misc.horizontal_line.solid1 End-Title
+					Break line End_Break
+					Title<bnr>sid ma.html.tab</>End-Title
+				End-Section
+				Insert_section MA._01_Beginning__.modeofweek End-Insert
+				Insert_section AP.res__.modeofweek End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section TI.g.me.com1 End-Insert
+				Insert_section AP.me1_.hymn End-Insert
+				Insert_section AP.both__.primarytheotokion__.mode4 End-Insert
+				Insert_section MA._02_Kathisma1__.litany End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section MA._02_Kathisma1__.oc__.sunday__.whenmode4 End-Insert
+				Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath212223 End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section TI.ka3.me.com1 End-Insert
+				Insert_section MA._05_Kathisma3__.append__.me__.kath31o323t_.hymns End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
+				Insert_section MA._06_Antiphons__.sunday_ End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+				Insert_section MA._11_Kontakion__.sunday End-Insert
+				Insert_section TI.k.tr.triodion End-Insert
+				Insert_section MA._11_Kontakion__.append__.tr_.konoik_nt_ End-Insert
+				Insert_section SY.Synaxarion End-Insert
+				Insert_section KA.choir__._1345678 End-Insert
+				Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+				Insert_section KA.append__._9 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.tr1o2ot_.exap1_ End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section TI.me.com1 End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.me__.exap123t End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+				Insert_section MA._13_Lauds__.oc__.s_123as123 End-Insert
+				Insert_section MA._13_Lauds__.tr__.i_12as45_ End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section TI.me.com1 End-Insert
+				Insert_section MA._13_Lauds__.me__.p_123as6forerunner32 End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
+				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
+				Insert_section MA._14_Doxology__.sunday End-Insert
+			End-Section
+
+		otherwise use:
+			when-name-of-day-is
+				Saturday use:
+					Section Instance_Saturday
+						Insert_section ST.ma.ho_oc_me1 End-Insert
+						Insert_section MA._01_Beginning__.alleluia__.mode2_saturday End-Insert
+						Insert_section AP.da__.matins_begin End-Insert
+						Insert_section MA._02_Kathisma1__.oc__.alleluia_saturday12 End-Insert
+						Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+						Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
+						Insert_section SY.Synaxarion End-Insert
+						Insert_section MA._10_Canon__.ode8_heirmos__.me1 End-Insert
+						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA._10_Canon__.magnificat__.mode2 End-Insert
+						Insert_section MA._10_Canon__.ode9_heirmos__.me1 End-Insert
+						Insert_section MA._10_Canon__.ode9_end End-Insert
+						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
+						Insert_section TI.me.com1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.me__.theotokion End-Insert
+						Insert_section MA._13_Lauds__.modeofweek__.for4 End-Insert
+						Insert_section MA._13_Lauds__.oc__.saturday_ End-Insert
+						Insert_section MA._14_Doxology__.small End-Insert
+						Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
+						Insert_section MA._16_Aposticha__.oc_ End-Insert
+						Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+						Insert_section AP.da__.matins_end End-Insert
+						Insert_section MA._18_End__.ektenia_wisdom End-Insert
+						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
+						Rubric sid ru.Or End-Rubric
+						Insert_section MA._20_Dismissal__.nocommemoration End-Insert
+					End-Section
+				otherwise use:
+					Section Instance_Weekday
+						Insert_section ST.ma.ho_oc_me1 End-Insert
+						Insert_section MA._01_Beginning__.modeofday End-Insert
+						Insert_section AP.da__.matins_begin End-Insert
+						Insert_section MA._02_Kathisma1__.oc__.weekday123 End-Insert
+						Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+						Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
+						Insert_section SY.Synaxarion End-Insert
+						Insert_section MA._10_Canon__.ode8_heirmos__.me1 End-Insert
+						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA._10_Canon__.magnificat__.mode2 End-Insert
+						Insert_section MA._10_Canon__.ode9_heirmos__.me1 End-Insert
+						Insert_section MA._10_Canon__.ode9_end End-Insert
+						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
+						Insert_section TI.me.com1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.me__.theotokion End-Insert
+						Insert_section MA._13_Lauds__.read__.all End-Insert
+						Insert_section MA._14_Doxology__.append_small End-Insert
+						Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
+						Insert_section MA._16_Aposticha__.oc_ End-Insert
+						Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+						Insert_section AP.da__.matins_end End-Insert
+						Insert_section MA._18_End__.ektenia_wisdom End-Insert
+						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
+						Rubric sid ru.Or End-Rubric
+						Insert_section MA._20_Dismissal__.nocommemoration End-Insert
+					End-Section
+			end-when
+	end-when
+
+End-Template
