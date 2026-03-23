@@ -1,4 +1,4 @@
-Template LI_prev
+Template LI1
 
 Status NA
 
@@ -22,88 +22,124 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
-			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.res08.text</>End-Dialog
-			Actor <apr>sid ac.Priest </>End-Actor
-			Dialog <dpr>sid pr.enarxis02.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			when-movable-cycle-day-is
-				71, 72, 73, 74, 75, 76, 77, 109 use:
-					Section pascha
-						Insert_section PE.Pascha_Beginning End-Insert
-					End-Section
-				78 thru 108 use:
-					Section afterpascha
-						Actor <apr>sid ac.Priest </>End-Actor
-						Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
-						Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
-						Hymn  <dpr>sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off </>End-Hymn
-						Actor <ach>sid ac.Choir </>End-Actor
-						Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
-						Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
-						Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
-						Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
-					End-Section
-			end-when
-			Insert_section LN.GreatLitany_deacon_choir End-Insert
-			Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.title</>End-Title
-			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.text</> End-Para
-			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-			Dialog <dpr>sid pr.exc01.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			Para role bkmrk01 sid misc.bookmark End-Para
+			Para role bcc_li_enarxis sid misc.custcontent End-Para
+				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
+				Actor <ade>sid ac.Deacon </>End-Actor
+				Dialog <dde>sid pr.res08.text</>End-Dialog
+				Actor <apr>sid ac.Priest </>End-Actor
+				Dialog <dpr>sid pr.enarxis02.text</> End-Dialog
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+				when-movable-cycle-day-is
+					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Section pascha
+							Insert_section PE.Pascha_Beginning End-Insert
+						End-Section
+					78 thru 108 use:
+						Section afterpascha
+							Actor <apr>sid ac.Priest </>End-Actor
+							Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+							Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+							Hymn  <dpr>sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off </>End-Hymn
+							Actor <ach>sid ac.Choir </>End-Actor
+							Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+							Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+							Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+							Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+						End-Section
+				end-when
+				Insert_section LN.GreatLitany_deacon_choir End-Insert
+				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.title</>End-Title
+				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.text</> End-Para
+				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+				Dialog <dpr>sid pr.exc01.text</> End-Dialog
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+				Para role bkmrk01 sid misc.bookmark End-Para
+			Para role ecc_li_enarxis sid misc.custcontent End-Para
+			Para role bcc_hli_enarxis sid misc.custcontent End-Para
+				Insert_section hLI._01_Enarxis__.daily End-Insert
+			Para role ecc_hli_enarxis sid misc.custcontent End-Para
 		End-Section
 		Section vesperal
-			Actor <apr>sid ac.Priest </>End-Actor
-			Dialog <dpr>sid pr.enarxis02.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			Insert_section VE._01_Beginning__.vespers.introductorypsalm End-Insert
-			Insert_section VE._01_Beginning__.vespers.litany End-Insert
+			Para role bcc_li_enarxis sid misc.custcontent End-Para
+				Actor <apr>sid ac.Priest </>End-Actor
+				Dialog <dpr>sid pr.enarxis02.text</> End-Dialog
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+				Insert_section VE._01_Beginning__.vespers.introductorypsalm End-Insert
+				Insert_section VE._01_Beginning__.vespers.litany End-Insert
+			Para role ecc_li_enarxis sid misc.custcontent End-Para
+			Para role bcc_hli_enarxis sid misc.custcontent End-Para
+				Insert_section hLI._01_Enarxis__.vesperal End-Insert
+			Para role ecc_hli_enarxis sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
 	Section _02_Antiphons__
 		Section sundays_weekdays_feasts
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Insert_section Selector_Antiphons.antiphon1__.specific_day End-Insert
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon2__.specific_day End-Insert
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.specific_day End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.sundays_weekdays_feasts End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.title End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.verses End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.celebrated_saint End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint_mealt1
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.title End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.verses End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.celebrated_saint_mealt1 End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint_mealt2
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.title End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.verses End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.celebrated_saint_mealt2 End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section feast_mealt1
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.feast_mealt1 End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section psalm102
+		Para role bcc_li_antiphons sid misc.custcontent End-Para
 			Actor <ach>sid ac.Choir </>End-Actor
 			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title @ver End-Title
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm102.text End-Media
@@ -133,26 +169,35 @@ Status NA
 			Reading sid pr.BothNowAndEver.text End-Reading
 			Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.end.text End-Reading
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
+		Para role ecc_li_antiphons sid misc.custcontent End-Para
+		Para role bcc_hli_antiphons sid misc.custcontent End-Para
+			Insert_section hLI._02_Antiphons__.psalm102 End-Insert
+		Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section psalm145
-			Actor <ach>sid ac.Choir </>End-Actor
-			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title @ver End-Title
-			Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm145.text End-Media
-			Reading sid pr.GloryToTheFather2.text End-Reading
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v1.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v2.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v3.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v4.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v5.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v6.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v7.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v8.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v9.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v10.text End-Hymn
-			Verse sid pr.BothNowAndEver.text End-Verse
-			Media sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text End-Media
-			Hymn sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text media-off End-Hymn
-			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
+			Para role bcc_li_antiphons sid misc.custcontent End-Para
+				Actor <ach>sid ac.Choir </>End-Actor
+				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title @ver End-Title
+				Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm145.text End-Media
+				Reading sid pr.GloryToTheFather2.text End-Reading
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v1.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v2.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v3.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v4.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v5.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v6.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v7.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v8.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v9.text End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v10.text End-Hymn
+				Verse sid pr.BothNowAndEver.text End-Verse
+				Media sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text End-Media
+				Hymn sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text media-off End-Hymn
+				Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
+			Para role ecc_li_antiphons sid misc.custcontent End-Para
+			Para role bcc_hli_antiphons sid misc.custcontent End-Para
+				Insert_section hLI._02_Antiphons__.psalm145 End-Insert
+			Para role ecc_hli_antiphons sid misc.custcontent End-Para
 		End-Section
 		Section typika_rubrics
 			Actor <ach>sid ac.Choir </>End-Actor
@@ -1979,23 +2024,8 @@ Status NA
 		End-Section
 	End-Section
 
-	Section _04_Entrance__
-		Section parish
-			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
-			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
-			Insert_section LI.entrance_prayer End-Insert
-			Actor <ach>sid ac.Choir </>End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
-			Actor <ach>sid ac.Choir </>End-Actor
-			Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
-			Rubric sid ru.TwOrMorePriests End-Rubric
-			Actor sid ac.Clergy End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
-			Actor <ach>sid ac.Choir </>End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
-		End-Section
-		Section choir
+	Section _04_Entrance
+		Para role bcc_li_smallentrance sid misc.custcontent End-Para
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
 			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
@@ -2003,381 +2033,140 @@ Status NA
 			Actor <ach>sid ac.Choir </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
 			Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
-		End-Section
-		Section clergy
-			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
-			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
-			Insert_section LI.entrance_prayer End-Insert
-			Actor sid ac.Clergy End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
-			Actor <ach>sid ac.Choir </>End-Actor
-			Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
-		End-Section
+		Para role ecc_li_smallentrance sid misc.custcontent End-Para
+		Para role bcc_hli_smallentrance sid misc.custcontent End-Para
+			Insert_section hLI._04_Entrance__.hierarch End-Insert
+		Para role ecc_hli_smallentrance sid misc.custcontent End-Para
 	End-Section
 
 	Section _05_AfterEntranceHymns__
-		Section choir
-			Title role desig sid ti.HymnsAfterSmallEntrance End-Title
-			Actor <ach>sid ac.Choir </>End-Actor
+		Section apolytikion1
+			Para role bcc_li_apolytikion1 sid misc.custcontent End-Para
+				Title role desig sid ti.HymnsAfterSmallEntrance End-Title
+				Actor <ach>sid ac.Choir </>End-Actor
+			Para role ecc_li_apolytikion1 sid misc.custcontent End-Para
+			Para role bcc_hli_apolytikion1 sid misc.custcontent End-Para
+				Title role desig sid ti.HymnsAfterSmallEntrance End-Title
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+			Para role ecc_hli_apolytikion1 sid misc.custcontent End-Para
 		End-Section
-		Section clergy
-			Title role desig sid ti.HymnsAfterSmallEntrance End-Title
-			Actor sid ac.Clergy End-Actor
+		Section apolytikion2
+			Para role bcc_hli_apolytikion2 sid misc.custcontent End-Para
+				Actor <ahi>sid ac.Choir</>End-Actor
+			Para role ecc_hli_apolytikion2 sid misc.custcontent End-Para
 		End-Section
 		Section local_rubric
-			Rubric sid ru.LocalChurchApolytikionSung sid ru.Then End-Rubric
-			Break line End_Break
-		End-Section
-		Section client_church_apolytikion
 			Rubric sid ru.LocalChurchApolytikionSung End-Rubric
-			Title role desig sid client_gr_GR_cog.cl.Apolytikion1.title End-Title
-			Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
-			Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media
-			Hymn sid client_gr_GR_cog.cl.Apolytikion1.text @ver media-off End-Hymn
+			Insert_section AP.client1_ End-Insert
 		End-Section
+ 		Section kontakion
+	 		Para role bcc_li_kontakion sid misc.custcontent End-Para
+				Insert_section Selector_Kontakion.SeasonalKontakion End-Insert
+	 		Para role ecc_li_kontakion sid misc.custcontent End-Para
+	 		Para role bcc_hli_kontakion sid misc.custcontent End-Para
+	 			Actor <ahi>sid ac.Hierarch</>End-Actor
+	 			Insert_section Selector_Kontakion.SeasonalKontakion End-Insert
+	 		Para role ecc_hli_kontakion sid misc.custcontent End-Para
+ 		End-Section
 	End-Section
 
 	Section _06_Trisagion__
 		Section basil
+		Para role bcc_li_trisagion sid misc.custcontent End-Para
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0600.title</>End-Title
 			Insert_section LI.trisagion_prayer End-Insert
 			Insert_section Selector_Trisagion.Basil End-Insert
 			Para role bkmrk04 sid misc.bookmark End-Para
+		Para role ecc_li_trisagion sid misc.custcontent End-Para
+		Para role bcc_hli_trisagion sid misc.custcontent End-Para
+			Insert_section hLI._06_Trisagion__.one_choir__.basil End-Insert
+		Para role ecc_hli_trisagion sid misc.custcontent End-Para
 		End-Section
 		Section chrys
+		Para role bcc_li_trisagion sid misc.custcontent End-Para
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0600.title</>End-Title
 			Insert_section LI.trisagion_prayer End-Insert
 			Insert_section Selector_Trisagion.Chrysostom End-Insert
 			Para role bkmrk04 sid misc.bookmark End-Para
+		Para role ecc_li_trisagion sid misc.custcontent End-Para
+		Para role bcc_hli_trisagion sid misc.custcontent End-Para
+			Insert_section hLI._06_Trisagion__.one_choir__.chrys End-Insert
+		Para role ecc_hli_trisagion sid misc.custcontent End-Para
 		End-Section
+	End-Section
+	
+	Section _07_Fimi__
+		Para role bcc_hli_fimi sid misc.custcontent End-Para
+			Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
+			Insert_section hLI._07_Fimi__.one_choir__.part2__.bishop0andbishop1 End-Insert
+		Para role ecc_hli_fimi sid misc.custcontent End-Para
 	End-Section
 
 	Section _08_Liturgy__
 		Section basil
-			Section aftergospel_cherubic
-				Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.basil.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1003.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				when-movable-cycle-day-is
-					69 use:
-						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
-						Para role bkmrk06 sid misc.bookmark End-Para
-						Title role desig sid tr.d069_gr_GR_cog.trLI.CherubicHymn.title End-Title
-						Title role mode sid tr.d069_gr_GR_cog.trLI.CherubicHymn.mode End-Title
-						Media sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
-						Hymn sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart1.text media-off End-Hymn
-						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
-						Actor <ade>sid ac.Deacon </>End-Actor
-						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-						Hymn sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart2.text End-Hymn
-					71 use:
-						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
-						Para role bkmrk06 sid misc.bookmark End-Para
-						Title role desig sid tr.d071_gr_GR_cog.trLI.CherubicHymn.title End-Title
-						Title role mode sid tr.d071_gr_GR_cog.trLI.CherubicHymn.mode End-Title
-						Media sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
-						Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text media-off End-Hymn
-						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
-						Actor <ade>sid ac.Deacon </>End-Actor
-						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-						Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text End-Hymn
-					otherwise use:
-						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
-						Para role bkmrk06 sid misc.bookmark End-Para
-						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text media-off sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text End-Hymn
-						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
-						Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text sid misc.separator.asterisk sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text<r>sid ru.Thrice</>End-Para
-						Actor <ade>sid ac.Deacon </>End-Actor
-						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
-				end-when
-			End-Section
-			Section litany_creed
-				Insert_section LN.CompLitanyLI_deacon_choir End-Insert
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.title</>End-Title
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.basil.par1.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.basil.par2.text</> End-Para
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-				Actor <ade>sid ac.Deacon </>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text</>End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text media-off End-Hymn
-				Para role inaudible<inr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1206.rubric</>End-Para
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key1206.text End-Media
-				Para role inaudible <dch>sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver</>End-Para
-				Actor <ade>sid ac.Deacon </>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1208.text</>End-Dialog
-				Para role bkmrk07 sid misc.bookmark End-Para
-				Actor <ape>sid ac.People</>End-Actor
-				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1209.title End-Title
-				Reading <dpe>sid pr.Creed.text</>End-Reading
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			End-Section
-			Section anaphora
-				Title sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.title End-Title
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.text End-Media
-				Actor <ade>sid ac.Deacon </>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1301.text</>End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1302.text</>End-Dialog
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1303.text</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1304.text</>End-Dialog
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1305.text</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1306.text</>End-Dialog
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1307.text</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1308.text</>End-Dialog
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par1.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par2.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par3.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1310.text</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text media-off End-Hymn
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par1.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par2.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par3.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par4.text</> End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par5.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1313.basil.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1314.basil.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1315.basil.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1316.basil.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1317.text</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text media-off End-Hymn
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.basil.text</> End-Para
-				Para role inaudible<bnr>sid ac.Deacon</><smallred>sid ru.InALowVoice</>End-Para
-				Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text</>End-Para
-				Para role inaudible<bnr>sid ac.Priest</>End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.basil.text</> End-Para
-				Para role inaudible<bnr>sid ac.Deacon</>End-Para
-				Para role inaudible <dde>sid pr.res04.text</>End-Para
-				Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text</>End-Para
-				Para role inaudible<bnr>sid ac.Priest</>End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1323.basil.text</> End-Para
-				Para role inaudible<bnr>sid ac.Deacon</>End-Para
-				Para role inaudible <dde>sid pr.res04.text</>End-Para
-				Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text</>End-Para
-				Para role inaudible<bnr>sid ac.Priest</>End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1325.basil.text</> End-Para
-				Para role inaudible<bnr>sid ac.Deacon</>End-Para
-				Para role inaudible <dde>sid pr.res10.text</>End-Para
-				Para role inaudible<bnr>sid ac.Priest</>End-Para
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.basil.text</> End-Para
-				Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1327.basil.text</> End-Dialog
-			End-Section
-			Section theotokoshymn
-				Actor <ach>sid ac.Choir </>End-Actor
-				Title role desig sid ti.HymnToTheotokos End-Title
-				Insert_section Selector_Megalynarion.Basil End-Insert
-			End-Section
-			Section commemorations
-				Section saints
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par1.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par2.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par3.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par4.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par5.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par6.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par7.text</> End-Para
-				End-Section
-				Section hierarch
-					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				End-Section
-				Section all
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				End-Section
-				Section world
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.basil.par1.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.basil.par2.text</> End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1334.text</> End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Actor <apr>sid ac.Priest </>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1335.text</> End-Dialog
-					Actor <ach>sid ac.Choir </>End-Actor
-					Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1336.text</>End-Dialog
-				End-Section
-			End-Section
-			Section megalynarion_basil
-				when-date-is
-					Jan 1 use:
-						Rubric sid me.m01.d01_gr_GR_cog.meLI.Megalynarion.rubric End-Rubric
-						Actor <ach>sid ac.Choir </>End-Actor
-						Title role desig sid ti.Megalynarion End-Title
-						Media sid me.m01.d01_gr_GR_cog.meLI.Megalynarion2.text End-Media
-						Hymn sid me.m01.d01_gr_GR_cog.meLI.Megalynarion2.text @ver media-off End-Hymn
-				end-when
-			End-Section
-			Section litany_upto_communion
-				Section block1
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1400.title</>End-Title
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1401.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1402.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				End-Section
-				Section block2
-					Break line End_Break
-					Title role bmc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.top End-Title
-						Title<r>sid misc.horizontal_line.solid1</>End-Title
-						Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.rubric End-Rubric
-						Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
-						Title<r>sid misc.horizontal_line.solid1</>End-Title
-					Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.bottom End-Title
-					Break line End_Break
-			 	End-Section
-				Section block3
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.basil.par1.text</> End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.basil.par2.text</> End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1406.text</> End-Dialog
-					Para role bkmrk08 sid misc.bookmark End-Para
-					Actor <ape>sid ac.People</>End-Actor
-					Title role desig sid pr.OurFather.title End-Title
-					Reading <dpe>sid pr.OurFather.text</>End-Reading
-					Actor <apr>sid ac.Priest </>End-Actor
-					Dialog <dpr>sid pr.exc20.text</> End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.title</>End-Title
-					Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid pr.pet32.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.basil.text</> End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1408.text</> End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.title</>End-Title
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text</> End-Para
-					Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
-					Actor <apr>sid ac.Priest </>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1410.text</> End-Dialog
-					Actor <ach>sid ac.Choir </>End-Actor
-					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text End-Media
-					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
-				End-Section
-			End-Section
-			Insert_section LI.prayers_before_communion End-Insert
-			Section communionhymn
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_CommunionHymn.Basil End-Insert
-			End-Section
-			Insert_section LI.call_to_communion End-Insert
-			Insert_section LI.hymns_during_communion End-Insert
-			Insert_section LI.after_communion.basil.part1 End-Insert
-			Insert_section LI.after_communion.basil.part3 End-Insert
-			Section ambo_prayer
-				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1700.title</>End-Title
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1701.text End-Para
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				Actor <apr>sid ac.Priest </>End-Actor
-				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.title</>End-Title
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par1.text</> End-Dialog
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par2.text</> End-Dialog
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par3.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
-				Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice</>End-Hymn
-				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.title</>End-Title
-				Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-				Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.basil.text </>End-Para
-			End-Section
-			Insert_section LI.memorial_service End-Insert
-		End-Section
-		Section chrys_default
-			Section part1
+			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Section aftergospel_cherubic
 					Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.basil.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1003.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
-					Para role bkmrk06 sid misc.bookmark End-Para
-					Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
-					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text End-Media
-					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text media-off sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text End-Hymn
-					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text </>End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text sid misc.separator.asterisk sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text<r>sid ru.Thrice</></>End-Para
-					Actor <ade>sid ac.Deacon </>End-Actor
-					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
+					when-movable-cycle-day-is
+						69 use:
+							Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
+							Para role bkmrk06 sid misc.bookmark End-Para
+							Title role desig sid tr.d069_gr_GR_cog.trLI.CherubicHymn.title End-Title
+							Title role mode sid tr.d069_gr_GR_cog.trLI.CherubicHymn.mode End-Title
+							Media sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
+							Hymn sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart1.text media-off End-Hymn
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Hymn sid tr.d069_gr_GR_cog.trLI.CherubicHymnPart2.text End-Hymn
+						71 use:
+							Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
+							Para role bkmrk06 sid misc.bookmark End-Para
+							Title role desig sid tr.d071_gr_GR_cog.trLI.CherubicHymn.title End-Title
+							Title role mode sid tr.d071_gr_GR_cog.trLI.CherubicHymn.mode End-Title
+							Media sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
+							Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text media-off End-Hymn
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text End-Hymn
+						otherwise use:
+							Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
+							Para role bkmrk06 sid misc.bookmark End-Para
+							Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text media-off sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text End-Hymn
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</> End-Para
+							Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text sid misc.separator.asterisk sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text<r>sid ru.Thrice</>End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
+					end-when
 				End-Section
 				Section litany_creed
 					Insert_section LN.CompLitanyLI_deacon_choir End-Insert
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.title</>End-Title
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.text </>End-Para
-					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.basil.par1.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.basil.par2.text</> End-Para
+					Actor <apr>sid ac.Priest </>End-Actor
 					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.title</>End-Title
 					Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 					Actor <ade>sid ac.Deacon </>End-Actor
@@ -2387,17 +2176,17 @@ Status NA
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text media-off End-Hymn
 					Para role inaudible<inr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1206.rubric</>End-Para
 					Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key1206.text End-Media
-					Para role inaudible sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver End-Para
+					Para role inaudible <dch>sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver</>End-Para
 					Actor <ade>sid ac.Deacon </>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1208.text</>End-Dialog
 					Para role bkmrk07 sid misc.bookmark End-Para
-					Actor sid ac.People End-Actor
+					Actor <ape>sid ac.People</>End-Actor
 					Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1209.title End-Title
-					Reading sid pr.Creed.text End-Reading
+					Reading <dpe>sid pr.Creed.text</>End-Reading
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				End-Section
 				Section anaphora
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.title</>End-Title
+					Title sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.title End-Title
 					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.text End-Media
 					Actor <ade>sid ac.Deacon </>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1301.text</>End-Dialog
@@ -2416,65 +2205,77 @@ Status NA
 					Actor <ach>sid ac.Choir </>End-Actor
 					Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1308.text</>End-Dialog
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par1.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par2.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.basil.par3.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1310.text</> End-Dialog
 					Actor <ach>sid ac.Choir </>End-Actor
 					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text End-Media
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text media-off End-Hymn
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par1.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par2.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par3.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par4.text</> End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.basil.par5.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1313.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1313.basil.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1314.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1314.basil.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1315.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1315.basil.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1316.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1316.basil.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1317.text</> End-Dialog
 					Actor <ach>sid ac.Choir </>End-Actor
 					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text End-Media
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text media-off End-Hymn
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.text </>End-Para
-					Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
-					Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text End-Para
-					Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.text </>End-Para
-					Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
-					Para role inaudible sid pr.res04.text End-Para
-					Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text End-Para
-					Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1323.text </>End-Para
-					Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
-					Para role inaudible sid pr.res04.text End-Para
-					Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text End-Para
-					Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1325.text </>End-Para
-					Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
-					Para role inaudible sid pr.res10.text End-Para
-					Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.basil.text</> End-Para
+					Para role inaudible<bnr>sid ac.Deacon</><smallred>sid ru.InALowVoice</>End-Para
+					Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text</>End-Para
+					Para role inaudible<bnr>sid ac.Priest</>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.basil.text</> End-Para
+					Para role inaudible<bnr>sid ac.Deacon</>End-Para
+					Para role inaudible <dde>sid pr.res04.text</>End-Para
+					Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text</>End-Para
+					Para role inaudible<bnr>sid ac.Priest</>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1323.basil.text</> End-Para
+					Para role inaudible<bnr>sid ac.Deacon</>End-Para
+					Para role inaudible <dde>sid pr.res04.text</>End-Para
+					Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text</>End-Para
+					Para role inaudible<bnr>sid ac.Priest</>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1325.basil.text</> End-Para
+					Para role inaudible<bnr>sid ac.Deacon</>End-Para
+					Para role inaudible <dde>sid pr.res10.text</>End-Para
+					Para role inaudible<bnr>sid ac.Priest</>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.basil.text</> End-Para
 					Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1327.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1327.basil.text</> End-Dialog
 				End-Section
 				Section theotokoshymn
 					Actor <ach>sid ac.Choir </>End-Actor
 					Title role desig sid ti.HymnToTheotokos End-Title
-					Insert_section Selector_Megalynarion.Chrysostom End-Insert
+					Insert_section Selector_Megalynarion.Basil End-Insert
 				End-Section
 				Section commemorations
 					Section saints
 						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par1.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par2.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par3.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par4.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par5.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par6.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.basil.par7.text</> End-Para
 					End-Section
 					Section hierarch
 						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_co</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
 					Section all
@@ -2482,19 +2283,10 @@ Status NA
 						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
-					Section megalynarion_brightfriday
-						when-movable-cycle-day-is
-							76 use:
-								Rubric sid pe.d076_gr_GR_cog.peLI.Megalynarion.rubric End-Rubric
-								Actor <ach>sid ac.Choir </>End-Actor
-								Title role desig sid ti.Megalynarion End-Title
-								Media sid pe.d076_gr_GR_cog.peLI.Megalynarion.text End-Media
-								Hymn sid pe.d076_gr_GR_cog.peLI.Megalynarion.text @ver media-off End-Hymn
-						end-when
-					End-Section
 					Section world
 						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.basil.par1.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.basil.par2.text</> End-Para
 						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1334.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -2503,6 +2295,16 @@ Status NA
 						Actor <ach>sid ac.Choir </>End-Actor
 						Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1336.text</>End-Dialog
 					End-Section
+				End-Section
+				Section megalynarion_basil
+					when-date-is
+						Jan 1 use:
+							Rubric sid me.m01.d01_gr_GR_cog.meLI.Megalynarion.rubric End-Rubric
+							Actor <ach>sid ac.Choir </>End-Actor
+							Title role desig sid ti.Megalynarion End-Title
+							Media sid me.m01.d01_gr_GR_cog.meLI.Megalynarion2.text End-Media
+							Hymn sid me.m01.d01_gr_GR_cog.meLI.Megalynarion2.text @ver media-off End-Hymn
+					end-when
 				End-Section
 				Section litany_upto_communion
 					Section block1
@@ -2532,7 +2334,8 @@ Status NA
 						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.basil.par1.text</> End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.basil.par2.text</> End-Para
 						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1406.text</> End-Dialog
 						Para role bkmrk08 sid misc.bookmark End-Para
@@ -2549,13 +2352,13 @@ Status NA
 						Dialog <dde>sid pr.pet32.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.basil.text</> End-Para
 						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1408.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.title</>End-Title
 						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text</> End-Para
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
 						Actor <apr>sid ac.Priest </>End-Actor
 						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1410.text</> End-Dialog
@@ -2565,17 +2368,14 @@ Status NA
 					End-Section
 				End-Section
 				Insert_section LI.prayers_before_communion End-Insert
-			//	Insert_section LI.prayers_before_communion_no_collapse End-Insert
-			End-Section
-			Section communionhymn
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_CommunionHymn.Chrysostom End-Insert
-			End-Section
-			Section part2
+				Section communionhymn
+					Actor <ach>sid ac.Choir </>End-Actor
+					Insert_section Selector_CommunionHymn.Basil End-Insert
+				End-Section
 				Insert_section LI.call_to_communion End-Insert
 				Insert_section LI.hymns_during_communion End-Insert
-				Insert_section LI.after_communion.chrys.part1 End-Insert
-				Insert_section LI.after_communion.chrys.part3 End-Insert
+				Insert_section LI.after_communion.basil.part1 End-Insert
+				Insert_section LI.after_communion.basil.part3 End-Insert
 				Section ambo_prayer
 					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1700.title</>End-Title
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1701.text End-Para
@@ -2583,134 +2383,404 @@ Status NA
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					Actor <apr>sid ac.Priest </>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.title</>End-Title
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par1.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par2.text</> End-Dialog
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par3.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-						when-movable-cycle-day-is
-							71, 72, 73, 74, 75, 76, 77, 109 use:
-								Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703_pascha.text End-Title
-								Title role mode sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.mode End-Title
-								Hymn sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.text<r>sid ru.Thrice media-off</>End-Hymn
-							otherwise use:
-								Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
-								Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice media-off</>End-Hymn
-						end-when
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
+					Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice</>End-Hymn
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.title</>End-Title
 					Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.text </>End-Para
+					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.basil.text </>End-Para
 				End-Section
 				Insert_section LI.memorial_service End-Insert
-			End-Section
+			Para role ecc_li_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.basil End-Insert
+			Para role ecc_hli_liturgy sid misc.custcontent End-Para
+		End-Section
+		Section chrys_default
+			Para role bcc_li_liturgy sid misc.custcontent End-Para
+				Section part1
+					Section aftergospel_cherubic
+						Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1003.text</> End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
+						Para role bkmrk06 sid misc.bookmark End-Para
+						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text End-Media
+						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text media-off sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text End-Hymn
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text </>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text sid misc.separator.asterisk sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text<r>sid ru.Thrice</></>End-Para
+						Actor <ade>sid ac.Deacon </>End-Actor
+						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
+					End-Section
+					Section litany_creed
+						Insert_section LN.CompLitanyLI_deacon_choir End-Insert
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.title</>End-Title
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1202.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text</> End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.title</>End-Title
+						Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
+						Actor <ade>sid ac.Deacon </>End-Actor
+						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text</>End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text End-Media
+						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text media-off End-Hymn
+						Para role inaudible<inr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1206.rubric</>End-Para
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key1206.text End-Media
+						Para role inaudible sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver End-Para
+						Actor <ade>sid ac.Deacon </>End-Actor
+						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1208.text</>End-Dialog
+						Para role bkmrk07 sid misc.bookmark End-Para
+						Actor sid ac.People End-Actor
+						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1209.title End-Title
+						Reading sid pr.Creed.text End-Reading
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+					End-Section
+					Section anaphora
+						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.title</>End-Title
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.text End-Media
+						Actor <ade>sid ac.Deacon </>End-Actor
+						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1301.text</>End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1302.text</>End-Dialog
+						Actor <apr>sid ac.Priest </>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1303.text</> End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1304.text</>End-Dialog
+						Actor <apr>sid ac.Priest </>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1305.text</> End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1306.text</>End-Dialog
+						Actor <apr>sid ac.Priest </>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1307.text</> End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1308.text</>End-Dialog
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1309.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1310.text</> End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text End-Media
+						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1311.text media-off End-Hymn
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1312.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1313.text</> End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1314.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1315.text</> End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1316.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1317.text</> End-Dialog
+						Actor <ach>sid ac.Choir </>End-Actor
+						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text End-Media
+						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text media-off End-Hymn
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.text </>End-Para
+						Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+						Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text End-Para
+						Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.text </>End-Para
+						Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+						Para role inaudible sid pr.res04.text End-Para
+						Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text End-Para
+						Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1323.text </>End-Para
+						Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+						Para role inaudible sid pr.res04.text End-Para
+						Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text End-Para
+						Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1325.text </>End-Para
+						Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+						Para role inaudible sid pr.res10.text End-Para
+						Para role actorinaudible <apr>sid ac.Priest<smallred>sid ru.InALowVoice</></>End-Para
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.text </>End-Para
+						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1327.text</> End-Dialog
+					End-Section
+					Section theotokoshymn
+						Actor <ach>sid ac.Choir </>End-Actor
+						Title role desig sid ti.HymnToTheotokos End-Title
+						Insert_section Selector_Megalynarion.Chrysostom End-Insert
+					End-Section
+					Section commemorations
+						Section saints
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.text </>End-Para
+						End-Section
+						Section hierarch
+							Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_co</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						End-Section
+						Section all
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						End-Section
+						Section megalynarion_brightfriday
+							when-movable-cycle-day-is
+								76 use:
+									Rubric sid pe.d076_gr_GR_cog.peLI.Megalynarion.rubric End-Rubric
+									Actor <ach>sid ac.Choir </>End-Actor
+									Title role desig sid ti.Megalynarion End-Title
+									Media sid pe.d076_gr_GR_cog.peLI.Megalynarion.text End-Media
+									Hymn sid pe.d076_gr_GR_cog.peLI.Megalynarion.text @ver media-off End-Hymn
+							end-when
+						End-Section
+						Section world
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.text </>End-Para
+							Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1334.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1335.text</> End-Dialog
+							Actor <ach>sid ac.Choir </>End-Actor
+							Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1336.text</>End-Dialog
+						End-Section
+					End-Section
+					Section litany_upto_communion
+						Section block1
+							Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1400.title</>End-Title
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1401.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1402.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						End-Section
+						Section block2
+							Break line End_Break
+							Title role bmc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.top End-Title
+								Title<r>sid misc.horizontal_line.solid1</>End-Title
+								Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.rubric End-Rubric
+								Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
+								Title<r>sid misc.horizontal_line.solid1</>End-Title
+							Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.bottom End-Title
+							Break line End_Break
+					 	End-Section
+						Section block3
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.text </>End-Para
+							Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1406.text</> End-Dialog
+							Para role bkmrk08 sid misc.bookmark End-Para
+							Actor <ape>sid ac.People</>End-Actor
+							Title role desig sid pr.OurFather.title End-Title
+							Reading <dpe>sid pr.OurFather.text</>End-Reading
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.exc20.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.title</>End-Title
+							Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
+							Actor <ade>sid ac.Deacon </>End-Actor
+							Dialog <dde>sid pr.pet32.text</>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.text </>End-Para
+							Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1408.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.title</>End-Title
+							Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+							Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text </>End-Para
+							Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1410.text</> End-Dialog
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
+						End-Section
+					End-Section
+					Insert_section LI.prayers_before_communion End-Insert
+				//	Insert_section LI.prayers_before_communion_no_collapse End-Insert
+				End-Section
+				Insert_section LI.communionhymn End-Insert
+				Section part2
+					Insert_section LI.call_to_communion End-Insert
+					Insert_section LI.hymns_during_communion End-Insert
+					Insert_section LI.after_communion.chrys.part1 End-Insert
+					Insert_section LI.after_communion.chrys.part3 End-Insert
+					Section ambo_prayer
+						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1700.title</>End-Title
+						Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1701.text End-Para
+						Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						Actor <apr>sid ac.Priest </>End-Actor
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.title</>End-Title
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.text</> End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							when-movable-cycle-day-is
+								71, 72, 73, 74, 75, 76, 77, 109 use:
+									Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703_pascha.text End-Title
+									Title role mode sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.mode End-Title
+									Hymn sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.text<r>sid ru.Thrice media-off</>End-Hymn
+								otherwise use:
+									Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
+									Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice media-off</>End-Hymn
+							end-when
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.title</>End-Title
+						Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.text </>End-Para
+					End-Section
+					Insert_section LI.memorial_service End-Insert
+				End-Section
+			Para role ecc_li_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_default End-Insert
+			Para role ecc_hli_liturgy sid misc.custcontent End-Para
 		End-Section
 		Section chrys_mealt1
-			Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
-			Section communionhymn
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_CommunionHymn.mealt1 End-Insert
-			End-Section
-			Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
+			Para role bcc_li_liturgy sid misc.custcontent End-Para
+				Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
+				Insert_section LI.mealt1_communionhymn End-Insert
+				Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
+			Para role ecc_li_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_mealt1 End-Insert
+			Para role ecc_hli_liturgy sid misc.custcontent End-Para
 		End-Section
 		Section chrys_mealt2
-			Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
-			Section communionhymn
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_CommunionHymn.mealt2 End-Insert
-			End-Section
-			Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
+			Para role bcc_li_liturgy sid misc.custcontent End-Para
+				Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
+				Insert_section LI.mealt2_communionhymn End-Insert
+				Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
+			Para role ecc_li_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_mealt2 End-Insert
+			Para role ecc_hli_liturgy sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
 	Section _09_Dismissal__
 		Section commemoration
-			when-movable-cycle-day-is
-				69 use:
-					Section holythursday
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					End-Section
-				71, 72, 73, 74, 75, 76, 77, 109 use:
-					Section pascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				78 thru 108 use:
-					Section afterpascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				otherwise use:
-					Section notpaschal
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					End-Section
-			end-when
+			Para role bcc_li_dismissal sid misc.custcontent End-Para
+				when-movable-cycle-day-is
+					69 use:
+						Section holythursday
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
+					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Section pascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					78 thru 108 use:
+						Section afterpascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					otherwise use:
+						Section notpaschal
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
+				end-when
+			Para role ecc_li_dismissal sid misc.custcontent End-Para
+			Para role bcc_hli_dismissal sid misc.custcontent End-Para
+				Insert_section hLI._09_Dismissal__.commemoration End-Insert
+			Para role ecc_hli_dismissal sid misc.custcontent End-Para
 		End-Section
 		Section mealt1_commemoration
-			when-movable-cycle-day-is
-				71, 72, 73, 74, 75, 76, 77, 109 use:
-					Section pascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				78 thru 108 use:
-					Section afterpascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				otherwise use:
-					Section notpaschal
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					End-Section
-			end-when
+			Para role bcc_li_dismissal sid misc.custcontent End-Para
+				when-movable-cycle-day-is
+					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Section pascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					78 thru 108 use:
+						Section afterpascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					otherwise use:
+						Section notpaschal
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
+				end-when
+			Para role ecc_li_dismissal sid misc.custcontent End-Para
+			Para role bcc_hli_dismissal sid misc.custcontent End-Para
+				Insert_section hLI._09_Dismissal__.mealt1_commemoration End-Insert
+			Para role ecc_hli_dismissal sid misc.custcontent End-Para
 		End-Section
 		Section me1_mealt1_commemoration
 			when-movable-cycle-day-is
@@ -2753,44 +2823,49 @@ Status NA
 			end-when
 		End-Section
 		Section mealt2_commemoration
-			when-movable-cycle-day-is
-				71, 72, 73, 74, 75, 76, 77, 109 use:
-					Section pascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				78 thru 108 use:
-					Section afterpascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
-					End-Section
-				otherwise use:
-					Section notpaschal
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					End-Section
-			end-when
+			Para role bcc_li_dismissal sid misc.custcontent End-Para
+				when-movable-cycle-day-is
+					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Section pascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					78 thru 108 use:
+						Section afterpascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+						End-Section
+					otherwise use:
+						Section notpaschal
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
+				end-when
+			Para role ecc_li_dismissal sid misc.custcontent End-Para
+			Para role bcc_hli_dismissal sid misc.custcontent End-Para
+				Insert_section hLI._09_Dismissal__.mealt2_commemoration End-Insert
+			Para role ecc_hli_dismissal sid misc.custcontent End-Para
 		End-Section
 		Section pealt1_commemoration
 			when-movable-cycle-day-is
@@ -2833,78 +2908,98 @@ Status NA
 			end-when
 		End-Section
 		Section nocommemoration
-			when-movable-cycle-day-is
-				71, 72, 73, 74, 75, 76, 77, 109 use:
-					Section pascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_No.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_No.part2 End-Insert
-					End-Section
-				78 thru 108 use:
-					Section afterpascha
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Insert_section LI.dismissal_intro_paschal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_No.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_No.part2 End-Insert
-					End-Section
-				otherwise use:
-					Section notpaschal
-						Insert_section LI.blessing_before_dismissal End-Insert
-						Actor <apr>sid ac.Priest </>End-Actor
-						Insert_section Selector_Dismissals.Com_No.part1 End-Insert
-						Actor <ach>sid ac.Choir </>End-Actor
-						Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-						Actor <apr>sid ac.Priest </>End-Actor
-						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-					End-Section
-			end-when
+			Para role bcc_li_dismissal sid misc.custcontent End-Para
+				when-movable-cycle-day-is
+					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Section pascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_No.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_No.part2 End-Insert
+						End-Section
+					78 thru 108 use:
+						Section afterpascha
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Insert_section LI.dismissal_intro_paschal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_No.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_No.part2 End-Insert
+						End-Section
+					otherwise use:
+						Section notpaschal
+							Insert_section LI.blessing_before_dismissal End-Insert
+							Actor <apr>sid ac.Priest </>End-Actor
+							Insert_section Selector_Dismissals.Com_No.part1 End-Insert
+							Actor <ach>sid ac.Choir </>End-Actor
+							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+							Actor <apr>sid ac.Priest </>End-Actor
+							Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
+				end-when
+			Para role ecc_li_dismissal sid misc.custcontent End-Para
+			Para role bcc_hli_dismissal sid misc.custcontent End-Para
+				Insert_section hLI._09_Dismissal__.nocommemoration End-Insert
+			Para role ecc_hli_dismissal sid misc.custcontent End-Para
 		End-Section
 		Section specificcommemoration__
 			Section holysaturdayliturgy
-				Insert_section LI.blessing_before_dismissal End-Insert
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-				Actor <apr>sid ac.Priest </>End-Actor
-				Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+				Para role bcc_li_dismissal sid misc.custcontent End-Para
+					Insert_section LI.blessing_before_dismissal End-Insert
+					Actor <apr>sid ac.Priest </>End-Actor
+					Dialog <dpr>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
+					Actor <ach>sid ac.Choir </>End-Actor
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+					Actor <apr>sid ac.Priest </>End-Actor
+					Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+				Para role ecc_li_dismissal sid misc.custcontent End-Para
+				Para role bcc_hli_dismissal sid misc.custcontent End-Para
+					Insert_section hLI._09_Dismissal__.specificcommemoration__.holysaturdayliturgy End-Insert
+				Para role ecc_hli_dismissal sid misc.custcontent End-Para
 			End-Section
 			Section brightweek_stgeorge
-				Insert_section LI.blessing_before_dismissal End-Insert
-				Insert_section LI.dismissal_intro_paschal End-Insert
-				Actor <apr>sid ac.Priest </>End-Actor
-				Insert_section Selector_Dismissals.dismissal_stgeorge End-Insert
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-				Actor <apr>sid ac.Priest </>End-Actor
-				Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+				Para role bcc_li_dismissal sid misc.custcontent End-Para
+					Insert_section LI.blessing_before_dismissal End-Insert
+					Insert_section LI.dismissal_intro_paschal End-Insert
+					Actor <apr>sid ac.Priest </>End-Actor
+					Insert_section Selector_Dismissals.dismissal_stgeorge End-Insert
+					Actor <ach>sid ac.Choir </>End-Actor
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+					Actor <apr>sid ac.Priest </>End-Actor
+					Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+				Para role ecc_li_dismissal sid misc.custcontent End-Para
+				Para role bcc_hli_dismissal sid misc.custcontent End-Para
+					Insert_section hLI._09_Dismissal__.specificcommemoration__.brightweek_stgeorge End-Insert
+				Para role ecc_hli_dismissal sid misc.custcontent End-Para
 			End-Section
 			Section brightweek_stmark
-				Insert_section LI.blessing_before_dismissal End-Insert
-				Insert_section LI.dismissal_intro_paschal End-Insert
-				Actor <apr>sid ac.Priest </>End-Actor
-				Insert_section Selector_Dismissals.dismissal_stmark End-Insert
-				Actor <ach>sid ac.Choir </>End-Actor
-				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
-				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
-				Actor <apr>sid ac.Priest </>End-Actor
-				Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+				Para role bcc_li_dismissal sid misc.custcontent End-Para
+					Insert_section LI.blessing_before_dismissal End-Insert
+					Insert_section LI.dismissal_intro_paschal End-Insert
+					Actor <apr>sid ac.Priest </>End-Actor
+					Insert_section Selector_Dismissals.dismissal_stmark End-Insert
+					Actor <ach>sid ac.Choir </>End-Actor
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
+					Actor <apr>sid ac.Priest </>End-Actor
+					Insert_section Selector_Dismissals.Com_Yes.part2 End-Insert
+				Para role ecc_li_dismissal sid misc.custcontent End-Para
+				Para role bcc_hli_dismissal sid misc.custcontent End-Para
+					Insert_section hLI._09_Dismissal__.specificcommemoration__.brightweek_stmark End-Insert
+				Para role ecc_hli_dismissal sid misc.custcontent End-Para
 			End-Section
 			Section brightweek_stathanasios
 				Insert_section LI.blessing_before_dismissal End-Insert
@@ -4039,6 +4134,7 @@ Status NA
 		End-Section
 	End-Section
 
+/* 
 		Section short_litany_after_antiphon1_deacon_choir
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0202.title End-Title
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
@@ -4430,5 +4526,5 @@ Status NA
 				Insert_section FU._04_Everlasting_ End-Insert
 			End-Section
 		End-Section
-
+ */
 End-Template

@@ -126,6 +126,13 @@ Status NA
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.title End-Insert
 			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.verses End-Insert
 		End-Section
+		Section feast_mealt1
+			Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
+			Insert_section hLI.short_litany_after_antiphon1_deacon_choir End-Insert
+			Insert_section Selector_Antiphons.antiphon2__.feast_mealt1 End-Insert
+			Insert_section hLI.short_litany_after_antiphon2_deacon_choir End-Insert
+			Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+		End-Section
 		Section psalm102
 			Actor <ach>sid ac.Choir</>End-Actor
 			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title @ver End-Title
