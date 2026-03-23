@@ -32,7 +32,7 @@ Switch-Version L2 End-Switch-Version
 				Section title_me
 					when-date-is
 						Jan 1 use:
-							Title role cover1 sid li1.pdf.cover End-Title
+							Title role cover1 sid lib.pdf.cover End-Title
 							Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
 						otherwise use:
 							Title role cover1 sid li.pdf.cover End-Title
@@ -135,7 +135,7 @@ Switch-Version L2 End-Switch-Version
 				Section Jan06
 					when-name-of-day-is
 						Sunday, Monday use:
-							Title role cover1 sid li1.pdf.cover End-Title
+							Title role cover1 sid lib.pdf.cover End-Title
 							Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
 						otherwise use:
 							Insert_section title_me End-Insert
@@ -5875,7 +5875,7 @@ Switch-Version L2 End-Switch-Version
 				Section Dec25
 					when-name-of-day-is
 						Sunday, Monday use:
-							Title role cover1 sid li1.pdf.cover End-Title
+							Title role cover1 sid lib.pdf.cover End-Title
 							Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
 						otherwise use:
 							Insert_section title_me End-Insert

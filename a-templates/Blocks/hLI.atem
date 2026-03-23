@@ -1136,7 +1136,7 @@ Status NA
 					Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r05 End-Rubric
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
 					Actor <ahi>sid ac.Hierarch</>End-Actor
-					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.DE.p207.text </>End-Dialog
+					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.DE.p207a.text sid client_gr_GR_cog.cl.ordinand.deacon.acc.text sid eu.ordination_gr_GR_cog.euORD.DE.p207c.text</>End-Dialog
 					Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r06 End-Rubric
 					Actor sid ac.Chanter End-Actor
 					Dialog sid pr.res06.text End-Dialog
