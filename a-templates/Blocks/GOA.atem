@@ -1,0 +1,255 @@
+Template GOA
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+	import ty.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Section pet06
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.pet06.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section pet19
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.pet19.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section fimi
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.fimi.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section away_fimi
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.away_fimi.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section entrance
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.entrance.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section commemoration
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+	Section con_ord_petition
+		Para role bcc_hir_goa_ame sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierAME.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_ame sid misc.custcontent End-Para
+		Para role bcc_hir_goa_atl sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierATL.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_atl sid misc.custcontent End-Para
+		Para role bcc_hir_goa_bos sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierBOS.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_bos sid misc.custcontent End-Para
+		Para role bcc_hir_goa_chi sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierCHI.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_chi sid misc.custcontent End-Para
+		Para role bcc_hir_goa_den sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDEN.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_den sid misc.custcontent End-Para
+		Para role bcc_hir_goa_det sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierDET.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_det sid misc.custcontent End-Para
+		Para role bcc_hir_goa_ecu sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierECU.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_ecu sid misc.custcontent End-Para
+		Para role bcc_hir_goa_new sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierNEW.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_new sid misc.custcontent End-Para
+		Para role bcc_hir_goa_pit sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierPIT.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_pit sid misc.custcontent End-Para
+		Para role bcc_hir_goa_san sid misc.custcontent End-Para
+			Dialog <dde>sid hierarchs_gr_GR_cog.hierSAN.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+		Para role ecc_hir_goa_san sid misc.custcontent End-Para
+	End-Section
+
+
+End-Template

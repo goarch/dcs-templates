@@ -2940,7 +2940,7 @@ Status NA
 			Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
 			Actor <apr>sid ac.Priest </>End-Actor
 			Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
-				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
 	End-Section
 
