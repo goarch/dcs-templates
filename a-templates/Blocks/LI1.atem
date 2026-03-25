@@ -2398,6 +2398,12 @@ Status NA
 			Para role bcc_hli_liturgy sid misc.custcontent End-Para
 				Insert_section hLI._08_Liturgy__.basil End-Insert
 			Para role ecc_hli_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_ordination_deacon sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.basil_ordination__.deacon End-Insert
+			Para role ecc_hli_ordination_deacon sid misc.custcontent End-Para
+			Para role bcc_hli_ordination_priest sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.basil_ordination__.priest End-Insert
+			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
 		End-Section
 		Section chrys_default
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
@@ -2656,6 +2662,12 @@ Status NA
 			Para role bcc_hli_liturgy sid misc.custcontent End-Para
 				Insert_section hLI._08_Liturgy__.chrys_default End-Insert
 			Para role ecc_hli_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_ordination_deacon sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon End-Insert
+			Para role ecc_hli_ordination_deacon sid misc.custcontent End-Para
+			Para role bcc_hli_ordination_priest sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest End-Insert
+			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
 		End-Section
 		Section chrys_mealt1
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
