@@ -1991,6 +1991,7 @@ Status NA
 
 	Section _08_Liturgy__
 		Section basil
+			Insert_section LI1.after_gospel_litanies.basil End-Insert
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.basil End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
@@ -2005,6 +2006,7 @@ Status NA
 			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
 		End-Section
 		Section chrys_default
+			Insert_section LI1.after_gospel_litanies.chrys End-Insert
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_default End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
@@ -2019,6 +2021,7 @@ Status NA
 			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
 		End-Section
 		Section chrys_mealt1
+			Insert_section LI1.after_gospel_litanies.chrys End-Insert
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_mealt1 End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
@@ -2027,6 +2030,7 @@ Status NA
 			Para role ecc_hli_liturgy sid misc.custcontent End-Para
 		End-Section
 		Section chrys_mealt2
+			Insert_section LI1.after_gospel_litanies.chrys End-Insert
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_mealt2 End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
@@ -2144,5 +2148,87 @@ Status NA
 			Para role ecc_hli_dismissal sid misc.custcontent End-Para
 		End-Section
 	End-Section
+
+	//Blocks
+		Section after_gospel_litanies
+			Section chrys
+				Para role bcc_li_opt_litanies sid misc.custcontent End-Para
+					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section LI.after_gospel_litanies.chrys.ForCatechumens End-Insert
+					Insert_section LI.after_gospel_litanies.chrys.FirstPrayerOfFaithful End-Insert
+					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
+				Para role ecc_li_opt_litanies sid misc.custcontent End-Para
+				Para role bcc_hli_opt_litanies sid misc.custcontent End-Para
+					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section hLI.after_gospel_litanies.chrys.ForCatechumens End-Insert
+					Insert_section hLI.after_gospel_litanies.chrys.FirstPrayerOfFaithful End-Insert
+					Insert_section hLI.after_gospel_litanies.chrys.ShortLitany End-Insert
+				Para role ecc_hli_opt_litanies sid misc.custcontent End-Para
+			End-Section
+			Section basil
+				Para role bcc_li_opt_litanies sid misc.custcontent End-Para
+					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section LI.after_gospel_litanies.basil.ForCatechumens End-Insert
+					Insert_section LI.after_gospel_litanies.basil.FirstPrayerOfFaithful End-Insert
+					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
+				Para role ecc_li_opt_litanies sid misc.custcontent End-Para
+				Para role bcc_hli_opt_litanies sid misc.custcontent End-Para
+					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section hLI.after_gospel_litanies.basil.ForCatechumens End-Insert
+					Insert_section hLI.after_gospel_litanies.basil.FirstPrayerOfFaithful End-Insert
+					Insert_section hLI.after_gospel_litanies.chrys.ShortLitany End-Insert
+				Para role ecc_hli_opt_litanies sid misc.custcontent End-Para
+			End-Section
+		End-Section
+
+	/* This section is handled in LI.atem and hLI.atem
+	 * Section prayers_before_communion
+			Para role bcc_li_opt_precommunionprayers sid misc.custcontent End-Para
+				Insert_section LI.prayers_before_communion End-Insert
+			Para role ecc_li_opt_precommunionprayers sid misc.custcontent End-Para
+			Para role bcc_hli_opt_precommunionprayers sid misc.custcontent End-Para
+				Insert_section LI.prayers_before_communion End-Insert
+			Para role ecc_hli_opt_precommunionprayers sid misc.custcontent End-Para
+		End-Section */
+
+		Section memorial_service
+			Para role bcc_li_opt_memorial sid misc.custcontent End-Para
+				Para role bkmrk09 sid misc.bookmark End-Para
+				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
+				Actor <ach>sid ac.Choir</>End-Actor
+				Insert_section LI.memorial_service.FuneralEvlogitaria End-Insert
+				Title role desig sid ti.Kontakion<Tmode>sid eu.funeral_gr_GR_cog.euFUN.Key0700.mode</>End-Title
+				Media sid eu.funeral_gr_GR_cog.euFUN.Key0700.text End-Media
+				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0700.text @ver media-off End-Hymn
+				Insert_section LI.memorial_service.MemorialTroparia End-Insert
+				Insert_section LN.ForMemorial_deacon_choir End-Insert
+				Actor <apr>sid ac.Priest </>End-Actor
+				Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0107.text<r>sid ru.Thrice</>End-Dialog
+				Actor <ach>sid ac.Choir</>End-Actor
+				Title role mode sid misc.Mode3 End-Title
+				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
+				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+			Para role ecc_li_opt_memorial sid misc.custcontent End-Para
+			Para role bcc_hli_opt_memorial sid misc.custcontent End-Para
+				Para role bkmrk09 sid misc.bookmark End-Para
+				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
+				Actor <ach>sid ac.Choir</>End-Actor
+				Insert_section LI.memorial_service.FuneralEvlogitaria End-Insert
+				Title role desig sid ti.Kontakion<Tmode>sid eu.funeral_gr_GR_cog.euFUN.Key0700.mode</>End-Title
+				Media sid eu.funeral_gr_GR_cog.euFUN.Key0700.text End-Media
+				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0700.text @ver media-off End-Hymn
+				Insert_section LI.memorial_service.MemorialTroparia End-Insert
+				Insert_section LN.hForMemorial_deacon_choir End-Insert
+				Actor <apr>sid ac.Hierarch </>End-Actor
+				Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0107.text<r>sid ru.Thrice</>End-Dialog
+				Actor <ach>sid ac.Choir</>End-Actor
+				Title role mode sid misc.Mode3 End-Title
+				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
+				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+				Title<r>sid misc.horizontal_line.solid1</>End-Title
+			Para role ecc_hli_opt_memorial sid misc.custcontent End-Para
+	 	End-Section
+
+
 
 End-Template

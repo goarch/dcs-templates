@@ -1715,7 +1715,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1733,7 +1733,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierATL.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1751,7 +1751,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierBOS.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1769,7 +1769,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1787,7 +1787,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierDEN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1805,7 +1805,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierDET.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1825,7 +1825,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1843,7 +1843,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierNEW.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1861,7 +1861,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierPIT.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1886,7 +1886,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6_with_letourmouths End-Insert
@@ -1904,7 +1904,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.athenagoras.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1922,7 +1922,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.ioannis.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1940,7 +1940,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.joachim.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1958,7 +1958,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.nektarios.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -1976,7 +1976,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.timothy.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2014,7 +2014,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2050,7 +2050,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2086,7 +2086,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2122,7 +2122,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2158,7 +2158,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2194,7 +2194,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2230,7 +2230,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2266,7 +2266,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2309,7 +2309,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6_with_letourmouths End-Insert
@@ -2345,7 +2345,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2381,7 +2381,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2415,7 +2415,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2447,7 +2447,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierATL.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2479,7 +2479,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierBOS.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2511,7 +2511,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2543,7 +2543,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierDEN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2575,7 +2575,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierDET.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2607,7 +2607,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierNEW.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2639,7 +2639,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierPIT.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6 End-Insert
@@ -2678,7 +2678,7 @@ Status NA
 					Dialog <dcl>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Insert_section HIRgoa.chrysostom_parts.block4_ordination_priest End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.chrysostom_parts.block5 End-Insert
 				Insert_section HIRgoa.chrysostom_parts.block6_with_letourmouths End-Insert
@@ -2697,7 +2697,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2713,7 +2713,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierATL.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2729,7 +2729,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierBOS.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2745,7 +2745,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2761,7 +2761,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierDEN.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2777,7 +2777,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierDET.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2793,7 +2793,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierNEW.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2809,7 +2809,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierPIT.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2832,7 +2832,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6_with_letourmouths End-Insert
 			End-Section
@@ -2855,7 +2855,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.ioannis.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6_with_letourmouths End-Insert
 			End-Section
@@ -2871,7 +2871,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.joachim.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2887,7 +2887,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.nektarios.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
 			End-Section
@@ -2924,7 +2924,7 @@ Status NA
 					Insert_section ORD.deacon__._09_extendedlitany End-Insert
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6 End-Insert
@@ -2958,7 +2958,7 @@ Status NA
 				Dialog <dcl>sid hierarchs_gr_GR_cog.bishop.ioannis.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Insert_section HIRgoa.basil_parts.block4_ordination_priest End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 			//	Insert_section hLI.Communion End-Insert
 				Insert_section HIRgoa.basil_parts.block5 End-Insert
 				Insert_section HIRgoa.basil_parts.block6_with_letourmouths End-Insert

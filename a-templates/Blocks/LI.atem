@@ -2317,7 +2317,7 @@ Status NA
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 				End-Section
 			End-Section
-			Insert_section LI.prayers_before_communion End-Insert
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Section communionhymn
 				Actor <ach>sid ac.Choir </>End-Actor
 				Insert_section Selector_CommunionHymn.Basil End-Insert
@@ -2564,8 +2564,8 @@ Status NA
 						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 					End-Section
 				End-Section
-				Insert_section LI.prayers_before_communion End-Insert
-			//	Insert_section LI.prayers_before_communion_no_collapse End-Insert
+				Insert_section LI.prayers_before_communion_collapsible End-Insert
+			//	Insert_section LI.prayers_before_communion_collapsible_no_collapse End-Insert
 			End-Section
 			Insert_section LI.communionhymn End-Insert
 			Section part2
@@ -4170,8 +4170,14 @@ Status NA
 				Break page End_Break
 			End-Section
 		End-Section
-		Section prayers_before_communion
+		Section prayers_before_communion_collapsible
+			Para role bcc_li_opt_precommunionprayers sid misc.custcontent End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Title
+			Insert_section LI.prayers_before_communion End-Insert
+			Title role emc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.bottom End-Title
+			Para role ecc_li_opt_precommunionprayers sid misc.custcontent End-Para
+		End-Section
+		Section prayers_before_communion
 			Actor <ape>sid ac.People</>End-Actor
 			Title role smalldesig sid ho.ho21_gr_GR_cog.hoPrayer.title End-Title
 			Rubric sid ho.ho21_gr_GR_cog.hoPrayer.note1 End-Rubric
@@ -4183,21 +4189,6 @@ Status NA
 			Reading <dpe>sid ho.ho21_gr_GR_cog.hoPrayer.Key151.text</>End-Reading
 			Reading <dpe>sid ho.ho21_gr_GR_cog.hoPrayer.Key161.text</>End-Reading
 			Reading <dpe>sid ho.ho21_gr_GR_cog.hoPrayer.Key121.text</>End-Reading
-			Title role emc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.bottom End-Title
-		End-Section
-		Section prayers_before_communion_no_collapse
-			Para role prayersbeforecommunionlink sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Para
-			Actor <pbc><ape>sid ac.People</></>End-Actor
-			Title role smalldesig <pbc>sid ho.ho21_gr_GR_cog.hoPrayer.title</>End-Title
-			Rubric <pbc>sid ho.ho21_gr_GR_cog.hoPrayer.note1</>End-Rubric
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key101.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key110.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key121.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key130.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key141.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key151.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key161.text</></>End-Reading
-			Reading <dpe><pbc>sid ho.ho21_gr_GR_cog.hoPrayer.Key121.text</></>End-Reading
 		End-Section
 		Section fraction_of_gifts
 			Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor

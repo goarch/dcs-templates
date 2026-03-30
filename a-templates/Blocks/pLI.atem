@@ -2332,7 +2332,7 @@ Status NA
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 				End-Section
 			End-Section
-			Insert_section LI.prayers_before_communion End-Insert
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Section communionhymn
 				Actor <ach>sid ac.Choir </>End-Actor
 				Insert_section Selector_CommunionHymn.Basil End-Insert
@@ -2623,7 +2623,7 @@ Status NA
 						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 					End-Section
 				End-Section
-				Insert_section LI.prayers_before_communion End-Insert
+				Insert_section LI.prayers_before_communion_collapsible End-Insert
 			End-Section
 			Section communionhymn
 				Actor <ach>sid ac.Choir </>End-Actor

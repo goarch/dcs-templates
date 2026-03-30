@@ -188,7 +188,7 @@ Status NA
 	End-Section
 	Insert_section LI._08_Liturgy__.chrys_default.part1.commemorations End-Insert
 	Insert_section LI._08_Liturgy__.chrys_default.part1.litany_upto_communion End-Insert
-	Insert_section LI.prayers_before_communion End-Insert
+	Insert_section LI.prayers_before_communion_collapsible End-Insert
 
 	Section communionhymn
 		Actor sid ac.Choir End-Actor

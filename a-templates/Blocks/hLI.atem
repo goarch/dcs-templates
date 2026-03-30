@@ -681,7 +681,7 @@ Status NA
 					End-Section
 				End-Section
 			End-Section
-			Insert_section hLI.prayers_before_communion End-Insert
+			Insert_section hLI.prayers_before_communion_collapsible End-Insert
 			Section communionhymn
 				Actor <ach>sid ac.Choir</>End-Actor
 				Insert_section Selector_CommunionHymn.Basil End-Insert
@@ -734,7 +734,7 @@ Status NA
 				Insert_section ORD.deacon__._09_extendedlitany End-Insert
 				Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
 				Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI.clergy_communion End-Insert
 				Insert_section hLI._08_Liturgy__.basil.part2 End-Insert
@@ -774,7 +774,7 @@ Status NA
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
 					Insert_section ORD.priest__._10_before_communion End-Insert
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI.call_to_communion End-Insert
@@ -1006,7 +1006,7 @@ Status NA
 					End-Section
 				End-Section
 			End-Section
-			Insert_section hLI.prayers_before_communion End-Insert
+			Insert_section hLI.prayers_before_communion_collapsible End-Insert
 			Insert_section hLI.communionhymn End-Insert
 			Section part2
 				Insert_section hLI.call_to_communion End-Insert
@@ -1045,13 +1045,13 @@ Status NA
 		End-Section
 		Section chrys_mealt1
 			Insert_section hLI._08_Liturgy__.chrys_default.part1 End-Insert
-			Insert_section prayers_before_communion End-Insert
+			Insert_section hLI.prayers_before_communion_collapsible End-Insert
 			Insert_section hLI.mealt1_communionhymn End-Insert
 			Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
 		End-Section
 		Section chrys_mealt2
 			Insert_section hLI._08_Liturgy__.chrys_default.part1 End-Insert
-			Insert_section prayers_before_communion End-Insert
+			Insert_section hLI.prayers_before_communion_collapsible End-Insert
 			Insert_section hLI.mealt2_communionhymn End-Insert
 			Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
 		End-Section
@@ -1105,7 +1105,7 @@ Status NA
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion End-Insert
 				End-Section
-				Insert_section prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Section communionhymn
 					Actor <ach>sid ac.Choir</>End-Actor
 					Insert_section Selector_CommunionHymn.Chrysostom End-Insert
@@ -1161,7 +1161,7 @@ Status NA
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.theotokoshymn End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Section part3_communionhymn
 					Insert_section hLI.communionhymn End-Insert
@@ -1211,7 +1211,7 @@ Status NA
 				Insert_section ORD.deacon__._09_extendedlitany End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-				Insert_section hLI.prayers_before_communion End-Insert
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI.clergy_communion End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
@@ -1253,7 +1253,7 @@ Status NA
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section ORD.priest__._10_before_communion End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion End-Insert
+					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI.call_to_communion End-Insert
@@ -1670,7 +1670,8 @@ Status NA
 			Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.bottom End-Title
 			Break line End_Break
 		End-Section
-		Section prayers_before_communion
+		Section prayers_before_communion_collapsible
+			Para role bcc_hli_opt_precommunionprayers sid misc.custcontent End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Title
 			Actor sid ac.People End-Actor
 			Title role smalldesig sid ho.ho21_gr_GR_cog.hoPrayer.title End-Title
@@ -1690,6 +1691,7 @@ Status NA
 			Reading sid ho.ho21_gr_GR_cog.hoPrayer.Key161.text End-Reading
 			Reading sid ho.ho21_gr_GR_cog.hoPrayer.Key121.text End-Reading
 			Title role emc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.bottom End-Title
+			Para role ecc_hli_opt_precommunionprayers sid misc.custcontent End-Para
 		End-Section
 		Section fraction_of_gifts
 			Actor <ade>sid ac.Deacon<smaller>sid ru.InALowVoice</></>End-Actor

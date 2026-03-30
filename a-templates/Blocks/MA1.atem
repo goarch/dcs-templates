@@ -30,19 +30,19 @@ Status NA
 					Actor sid ac.Reader End-Actor
 					Reading sid pr.res01.text<r>sid ru.Thrice</>End-Reading
 					Reading sid ti.GloryBothNow End-Reading
-					Para role bcc_hma sid misc.custcontent End-Para
+					Para role bcc_hma_matins sid misc.custcontent End-Para
 						Actor sid ac.Hierarch End-Actor
-					Para role ecc_hma sid misc.custcontent End-Para
+					Para role ecc_hma_matins sid misc.custcontent End-Para
 					Insert_section LiturgicalPsalms.Psalm_50_Paragraph End-Insert
 				End-Section
 				Section psalm50
 					Para role bkmrk08 sid misc.bookmark End-Para
-					Para role bcc_ma sid misc.custcontent End-Para
+					Para role bcc_ma_matins sid misc.custcontent End-Para
 						Actor sid ac.Reader End-Actor
-					Para role ecc_ma sid misc.custcontent End-Para
-					Para role bcc_hma sid misc.custcontent End-Para
+					Para role ecc_ma_matins sid misc.custcontent End-Para
+					Para role bcc_hma_matins sid misc.custcontent End-Para
 						Actor sid ac.Hierarch End-Actor
-					Para role ecc_hma sid misc.custcontent End-Para
+					Para role ecc_hma_matins sid misc.custcontent End-Para
 					when-movable-cycle-day-is
 						63 use:
 							Reading sid ho.ho03_gr_GR_cog.hoMA.SunPostGospel.text @ver End-Reading
@@ -60,52 +60,52 @@ Status NA
 		End-Section
 		Section yes__
 			Section eo
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_eo End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_eo End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 			Section mc
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_mc End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_mc End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 			Section me
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_me End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_me End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 			Section mealt1
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_mealt1 End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_mealt1 End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 			Section mealt2
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_mealt2 End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_mealt2 End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 			Section pealt1
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_hierarch_pealt1 End-Insert
-				Para role ecc_hma sid misc.custcontent End-Para
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Insert_section Selector_MatinsGospel.gospel_priest_pealt1 End-Insert
-				Para role ecc_ma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
 			End-Section
 		End-Section
 	End-Section
@@ -163,17 +163,17 @@ Status NA
 
 	Section _09_KA__
 		Section _1345678
-			Para role bcc_ma sid misc.custcontent End-Para
+			Para role bcc_ma_matins sid misc.custcontent End-Para
 				Insert_section KA.choir__._1345678 End-Insert
-			Para role ecc_ma sid misc.custcontent End-Para
-			Para role bcc_hma sid misc.custcontent End-Para
+			Para role ecc_ma_matins sid misc.custcontent End-Para
+			Para role bcc_hma_matins sid misc.custcontent End-Para
 				Insert_section hKA._1345678 End-Insert
-			Para role ecc_hma sid misc.custcontent End-Para
+			Para role ecc_hma_matins sid misc.custcontent End-Para
 		End-Section
 		Section _9
-			Para role bcc_hma sid misc.custcontent End-Para
+			Para role bcc_hma_matins sid misc.custcontent End-Para
 				Actor sid ac.Hierarch End-Actor
-			Para role ecc_hma sid misc.custcontent End-Para
+			Para role ecc_hma_matins sid misc.custcontent End-Para
 			Insert_section KA.append__._9 End-Insert
 		End-Section
 	End-Section
@@ -1154,12 +1154,12 @@ Status NA
 			Rubric sid ru.standing.prefix sid ru.standing.matins.ode9 End-Rubric
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.exc15.text End-Dialog
-			Para role bcc_ma sid misc.custcontent End-Para
+			Para role bcc_ma_matins sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
-			Para role ecc_ma sid misc.custcontent End-Para
-			Para role bcc_hma sid misc.custcontent End-Para
+			Para role ecc_ma_matins sid misc.custcontent End-Para
+			Para role bcc_hma_matins sid misc.custcontent End-Para
 				Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-			Para role ecc_hma sid misc.custcontent End-Para
+			Para role ecc_hma_matins sid misc.custcontent End-Para
 		End-Section
 		Section magnificat__
 			Section modeofcanon__
@@ -1324,12 +1324,12 @@ Status NA
 	Section _12_Exaposteilarion__
 		Section intro_
 			Section part1
-				Para role bcc_ma sid misc.custcontent End-Para
+				Para role bcc_ma_matins sid misc.custcontent End-Para
 					Actor sid ac.Choir End-Actor
-				Para role ecc_ma sid misc.custcontent End-Para
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role ecc_ma_matins sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role mode sid misc.Mode2 End-Title
 				Media sid ho.ho03_gr_GR_cog.hoMA.SunExapVerse1.text End-Media
 				Para role chant sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text media-off<r>sid ru.Twice</>End-Para
@@ -1522,9 +1522,9 @@ Status NA
 			end-when
 		End-Section
 		Section festal
-			Para role bcc_hma sid misc.custcontent End-Para
+			Para role bcc_hma_matins sid misc.custcontent End-Para
 				Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-			Para role ecc_hma sid misc.custcontent End-Para
+			Para role ecc_hma_matins sid misc.custcontent End-Para
 			when-movable-cycle-day-is
 				70 use:
 					Section holyfridaynight
@@ -1542,9 +1542,9 @@ Status NA
 		Section me__
 			Section alt1__
 				Section exap12
-					Para role bcc_hma sid misc.custcontent End-Para
+					Para role bcc_hma_matins sid misc.custcontent End-Para
 						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-					Para role ecc_hma sid misc.custcontent End-Para
+					Para role ecc_hma_matins sid misc.custcontent End-Para
 					Title role desig sid ti.Exaposteilaria End-Title
 					Para role source0 sid ti.sourceMeSupplement End-Para
 					Title role mode rid alt1.meMA.Exaposteilarion1.mode<Tmelody>rid alt1.meMA.Exaposteilarion1.melody</>End-Title
@@ -1559,9 +1559,9 @@ Status NA
 				End-Section
 				Section exap123t
 					Section exap1
-						Para role bcc_hma sid misc.custcontent End-Para
+						Para role bcc_hma_matins sid misc.custcontent End-Para
 							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-						Para role ecc_hma sid misc.custcontent End-Para
+						Para role ecc_hma_matins sid misc.custcontent End-Para
 						Title role desig sid ti.Exaposteilarion End-Title
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
@@ -1619,9 +1619,9 @@ Status NA
 			End-Section
 			Section alt2__
 				Section exap12
-					Para role bcc_hma sid misc.custcontent End-Para
+					Para role bcc_hma_matins sid misc.custcontent End-Para
 						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-					Para role ecc_hma sid misc.custcontent End-Para
+					Para role ecc_hma_matins sid misc.custcontent End-Para
 					Title role desig sid ti.Exaposteilaria End-Title
 					Para role source0 sid ti.sourceMeSupplement End-Para
 					Title role mode rid alt2.meMA.Exaposteilarion1.mode<Tmelody>rid alt2.meMA.Exaposteilarion1.melody</>End-Title
@@ -1636,9 +1636,9 @@ Status NA
 				End-Section
 				Section exap123t
 					Section exap1
-						Para role bcc_hma sid misc.custcontent End-Para
+						Para role bcc_hma_matins sid misc.custcontent End-Para
 							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-						Para role ecc_hma sid misc.custcontent End-Para
+						Para role ecc_hma_matins sid misc.custcontent End-Para
 						Title role desig sid ti.Exaposteilarion End-Title
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
@@ -1695,9 +1695,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap1_
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourceMenaion End-Para
@@ -1708,9 +1708,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap111_
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -1720,9 +1720,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap12
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceMenaion End-Para
 				Title role mode rid meMA.Exaposteilarion1.mode<Tmelody>rid meMA.Exaposteilarion1.melody</>End-Title
@@ -1737,9 +1737,9 @@ Status NA
 			End-Section
 			Section exap123t
 				Section exap1
-					Para role bcc_hma sid misc.custcontent End-Para
+					Para role bcc_hma_matins sid misc.custcontent End-Para
 						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-					Para role ecc_hma sid misc.custcontent End-Para
+					Para role ecc_hma_matins sid misc.custcontent End-Para
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -1796,9 +1796,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap2_
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourceMenaion End-Para
@@ -1809,9 +1809,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap22
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourceMenaion End-Para
@@ -1823,9 +1823,9 @@ Status NA
 		End-Section
 		Section pascha__
 			Section once_
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1835,9 +1835,9 @@ Status NA
 				End-Section
 			End-Section
 			Section thrice_
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1848,9 +1848,9 @@ Status NA
 		End-Section
 		Section pe__
 			Section exap1
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1861,9 +1861,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap1t
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1877,9 +1877,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap11
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1889,9 +1889,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap111
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1901,9 +1901,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap112
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilaria End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1918,9 +1918,9 @@ Status NA
 				End-Section
 			End-Section
 			Section exap12
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilaria End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -1937,9 +1937,9 @@ Status NA
 			End-Section
 		End-Section
 		Section photagogics
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 			Title role desig sid ti.PhotagogicHymns End-Title
 			Para role source0 sid ti.sourceHorologion End-Para
 			Title role mode rid octrMA.Photagogic.mode @day D2 End-Title
@@ -1955,9 +1955,9 @@ Status NA
 			end-when
 		End-Section
 		Section photagogic_first
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 			Title role desig sid ti.PhotagogicHymns End-Title
 			Para role source0 sid ti.sourceHorologion End-Para
 			Title role mode rid octrMA.Photagogic.mode @day D2 End-Title
@@ -1970,9 +1970,9 @@ Status NA
 		End-Section
 		Section tr__
 			Section exap11
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilarion End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -1981,9 +1981,9 @@ Status NA
 				Hymn rid trMA.Exaposteilarion1.text @ver media-off<r>sid ru.Twice</>End-Hymn
 			End-Section
 			Section exap111
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -1992,9 +1992,9 @@ Status NA
 				Hymn rid trMA.Exaposteilarion1.text @ver media-off<r>sid ru.Thrice</>End-Hymn
 			End-Section
 			Section exap112
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -2006,9 +2006,9 @@ Status NA
 				Hymn rid trMA.Exaposteilarion2.text @ver media-off End-Hymn
 			End-Section
 			Section exap1o2ot
-				Para role bcc_hma sid misc.custcontent End-Para
+				Para role bcc_hma_matins sid misc.custcontent End-Para
 					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
-				Para role ecc_hma sid misc.custcontent End-Para
+				Para role ecc_hma_matins sid misc.custcontent End-Para
 				Section exap1_
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
@@ -2056,11 +2056,11 @@ Status NA
 
 	Section _13_Lauds__
 		Section hierarch
-			Para role bcc_hma sid misc.custcontent End-Para
+			Para role bcc_hma_matins sid misc.custcontent End-Para
 				Actor sid ac.Chanter End-Actor
 				Dialog sid pr.Command_holybishop.text rid ocMA.Lauds1.mode @day D1 End-Dialog
 				Actor sid ac.Choir End-Actor
-			Para role ecc_hma sid misc.custcontent End-Para
+			Para role ecc_hma_matins sid misc.custcontent End-Para
 		End-Section
 		Section hierarch_kairo
 			Para role bcc_hma_kairo sid misc.custcontent End-Para
