@@ -133,15 +133,15 @@ Status Final
 			End-Section
 		End-Section
 		Section liturgy
-			Insert_section LI._08_Liturgy__.basil.aftergospel_cherubic End-Insert
-			Insert_section LI._08_Liturgy__.basil.litany_creed End-Insert
-			Insert_section LI._08_Liturgy__.basil.anaphora End-Insert
+			Insert_section LI._08_Liturgy__.basil.part1.aftergospel_cherubic End-Insert
+			Insert_section LI._08_Liturgy__.basil.part1.litany_creed End-Insert
+			Insert_section LI._08_Liturgy__.basil.part1.anaphora End-Insert
 			Actor sid ac.Choir End-Actor
 			Title role desig sid skeletons_gr_GR_cog.skLI.TheotokosHymn.title End-Title
 			Title<rubric>sid skeletons_gr_GR_cog.skLI.TheotokosHymn.text</>End-Title
 			Break line End_Break
-			Insert_section LI._08_Liturgy__.basil.commemorations End-Insert
-			Insert_section LI._08_Liturgy__.basil.litany_upto_communion End-Insert
+			Insert_section LI._08_Liturgy__.basil.part1.commemorations End-Insert
+			Insert_section LI._08_Liturgy__.basil.part1.litany_upto_communion End-Insert
 			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Section communionhymn
 				Actor sid ac.Choir End-Actor
@@ -183,7 +183,7 @@ Status Final
 				Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1607.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
-			Insert_section LI._08_Liturgy__.basil.ambo_prayer End-Insert
+			Insert_section LI._08_Liturgy__.basil.part2.ambo_prayer End-Insert
 		End-Section
 		Section dismissal
 			Actor sid ac.Priest End-Actor

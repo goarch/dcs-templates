@@ -1856,11 +1856,8 @@ Status NA
 		End-Section
 		Section memorial_service
 			Para role bkmrk09 sid misc.bookmark End-Para
-			Title<r>sid misc.horizontal_line.solid1</>End-Title
-			Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
-			Break line End_Break
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.memorialservice.top End-Title
-				Break line End_Break
+				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
 				Actor <ach>sid ac.Choir</>End-Actor
 				Section FuneralEvlogitaria
 					Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key0600.title End-Title

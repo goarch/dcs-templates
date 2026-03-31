@@ -2159,7 +2159,7 @@ Status NA
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
 				Para role ecc_li_opt_litanies sid misc.custcontent End-Para
 				Para role bcc_hli_opt_litanies sid misc.custcontent End-Para
-					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section LN.hFervLitanyLI_deacon_choir End-Insert
 					Insert_section hLI.after_gospel_litanies.chrys.ForCatechumens End-Insert
 					Insert_section hLI.after_gospel_litanies.chrys.FirstPrayerOfFaithful End-Insert
 					Insert_section hLI.after_gospel_litanies.chrys.ShortLitany End-Insert
@@ -2173,7 +2173,7 @@ Status NA
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
 				Para role ecc_li_opt_litanies sid misc.custcontent End-Para
 				Para role bcc_hli_opt_litanies sid misc.custcontent End-Para
-					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
+					Insert_section LN.hFervLitanyLI_deacon_choir End-Insert
 					Insert_section hLI.after_gospel_litanies.basil.ForCatechumens End-Insert
 					Insert_section hLI.after_gospel_litanies.basil.FirstPrayerOfFaithful End-Insert
 					Insert_section hLI.after_gospel_litanies.chrys.ShortLitany End-Insert
