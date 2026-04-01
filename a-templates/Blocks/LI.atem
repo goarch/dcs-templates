@@ -2318,8 +2318,8 @@ Status NA
 						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 					End-Section
 				End-Section
-				Insert_section LI.prayers_before_communion_collapsible End-Insert
 			End-Section
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Section communionhymn
 				Actor <ach>sid ac.Choir </>End-Actor
 				Insert_section Selector_CommunionHymn.Basil End-Insert
@@ -2568,9 +2568,8 @@ Status NA
 						Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text media-off End-Hymn
 					End-Section
 				End-Section
-				Insert_section LI.prayers_before_communion_collapsible End-Insert
-			//	Insert_section LI.prayers_before_communion_collapsible_no_collapse End-Insert
 			End-Section
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Insert_section LI.communionhymn End-Insert
 			Section part2
 				Insert_section LI.call_to_communion End-Insert
@@ -2608,12 +2607,14 @@ Status NA
 		End-Section
 		Section chrys_mealt1
 			Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Insert_section LI.mealt1_communionhymn End-Insert
 			Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
 			Insert_section LI.memorial_service End-Insert
 		End-Section
 		Section chrys_mealt2
 			Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
+			Insert_section LI.prayers_before_communion_collapsible End-Insert
 			Insert_section LI.mealt2_communionhymn End-Insert
 			Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
 			Insert_section LI.memorial_service End-Insert

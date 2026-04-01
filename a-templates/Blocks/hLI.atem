@@ -693,54 +693,61 @@ Status NA
 				Insert_section hLI.after_communion.basil.part1 End-Insert
 				Insert_section hLI.after_communion.basil.part3 End-Insert
 				Section ambo_prayer
-					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1700.title</>End-Title
-					Actor <ahi>sid ac.Hierarch</>End-Actor
-					Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1701.text </>End-Dialog
-					Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-					Actor <apr>sid ac.Priest</>End-Actor
-					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.title</>End-Title
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par1.text</>End-Dialog
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par2.text</>End-Dialog
-					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par3.text</>End-Dialog
-					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-						when-movable-cycle-day-is
-							71, 72, 73, 74, 75, 76, 77, 109 use:
-								Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703_pascha.text End-Title
-								Title role mode sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.mode End-Title
-								Hymn sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.text<r>sid ru.Thrice media-off</>End-Hymn
-							otherwise use:
-								Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
-								Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice media-off</>End-Hymn
-						end-when
-					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.title</>End-Title
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
-					Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.basil.text</>End-Para
+					Section prayer_hymn
+						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1700.title</>End-Title
+						Actor <ahi>sid ac.Hierarch</>End-Actor
+						Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1701.text </>End-Dialog
+						Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						Actor <apr>sid ac.Priest</>End-Actor
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.title</>End-Title
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par1.text</>End-Dialog
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par2.text</>End-Dialog
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1702.basil.par3.text</>End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							when-movable-cycle-day-is
+								71, 72, 73, 74, 75, 76, 77, 109 use:
+									Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703_pascha.text End-Title
+									Title role mode sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.mode End-Title
+									Hymn sid pe.d071_gr_GR_cog.peLI.AfterCommunion2.text<r>sid ru.Thrice media-off</>End-Hymn
+								otherwise use:
+									Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703.text End-Media
+									Hymn sid liturgical.verses_gr_GR_cog.psLI.aftercommunion.v1.text @ver<r>sid ru.Thrice media-off</>End-Hymn
+							end-when
+					End-Section
+					Section collect_gifts
+						Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.title</>End-Title
+						Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+						Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.basil.text</>End-Para
+					End-Section
 				End-Section
-				Insert_section hLI.blessing_before_dismissal End-Insert
 			End-Section
 		End-Section
 		Section basil_ordination__
 			Section deacon
-				Insert_section hLI._08_Liturgy__.basil.part1.aftergospel_cherubic_part1 End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.greatentrance End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.cherubic_part2 End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.litany_creed End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.anaphora End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.theotokoshymn End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.commemorations End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.ordination End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block1 End-Insert
-				Insert_section ORD.deacon__._09_extendedlitany End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
+				Section do_block1	
+					Insert_section hLI._08_Liturgy__.basil.part1.aftergospel_cherubic_part1 End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.greatentrance End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.cherubic_part2 End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.litany_creed End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.anaphora End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.theotokoshymn End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.commemorations End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.do_block1.ordination End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block1 End-Insert
+					Insert_section ORD.deacon__._09_extendedlitany End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
+				End-Section
 				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
-				Insert_section hLI.clergy_communion End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part2 End-Insert
+				Section do_block2
+					Insert_section hLI.clergy_communion End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part2 End-Insert
+				End-Section
 			End-Section
 			Section priest
-				Section block1
+				Section po_block1
 					Insert_section hLI._08_Liturgy__.basil.part1.aftergospel_cherubic_part1 End-Insert
 					Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112.rubric End-Rubric
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -774,16 +781,16 @@ Status NA
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block3 End-Insert
 					Insert_section ORD.priest__._10_before_communion End-Insert
 					Insert_section hLI._08_Liturgy__.basil.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
-				Insert_section hLI.call_to_communion End-Insert
-				Insert_section hLI.after_communion.chrys.part1 End-Insert
-				Insert_section hLI.after_communion.chrys.part3 End-Insert
-				Insert_section hLI._08_Liturgy__.basil.part2.ambo_prayer End-Insert
-				Insert_section hLI.blessing_before_dismissal End-Insert
+				Section po_block2
+					Insert_section hLI.call_to_communion End-Insert
+					Insert_section hLI.after_communion.chrys.part1 End-Insert
+					Insert_section hLI.after_communion.chrys.part3 End-Insert
+					Insert_section hLI._08_Liturgy__.basil.part2.ambo_prayer End-Insert
+				End-Section
 			End-Section
-
 		End-Section
 		Section chrys_default
 			Section part1
@@ -1040,7 +1047,6 @@ Status NA
 						Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.text</>End-Para
 					End-Section
 				End-Section
-				Insert_section hLI.blessing_before_dismissal End-Insert
 			End-Section
 		End-Section
 		Section chrys_mealt1
@@ -1185,39 +1191,42 @@ Status NA
 				End-Section
 			End-Section
 			Section deacon
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.greatentrance_bishop0 End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.cherubic_part2 End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.theotokoshymn End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations End-Insert
-				Break line End_Break
-				Section ordination
-					Insert_section ORD.deacon__._01_presentation End-Insert
-					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.DE.p207a.text sid client_gr_GR_cog.cl.ordinand.deacon.acc.text sid eu.ordination_gr_GR_cog.euORD.DE.p207c.text</>End-Dialog
-					Insert_section ORD.deacon__._02_after_proclamation_prayer1 End-Insert
-					Insert_section ORD.deacon__._03_litany_before_inserts End-Insert
-					Dialog <dde>sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
-					Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-					Actor <ade>sid ac.Deacon</>End-Actor
-					Dialog <dde>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.deacon.gen.text sid pr.petOrdination02c_deacon.text</>End-Dialog
-					Insert_section ORD.deacon__._04_litany_after_inserts End-Insert
-					Insert_section ORD.deacon__._05_prayer2 End-Insert
-					Insert_section ORD.deacon__._06_vesting End-Insert
-					Insert_section ORD.deacon__._08_rubrics End-Insert
+				Section do_block1
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.greatentrance_bishop0 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.cherubic_part2 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.theotokoshymn End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations End-Insert
+					Section ordination
+						Insert_section ORD.deacon__._01_presentation End-Insert
+						Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.DE.p207a.text sid client_gr_GR_cog.cl.ordinand.deacon.acc.text sid eu.ordination_gr_GR_cog.euORD.DE.p207c.text</>End-Dialog
+						Insert_section ORD.deacon__._02_after_proclamation_prayer1 End-Insert
+						Insert_section ORD.deacon__._03_litany_before_inserts End-Insert
+						Dialog <dde>sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
+						Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
+						Actor <ade>sid ac.Deacon</>End-Actor
+						Dialog <dde>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.deacon.gen.text sid pr.petOrdination02c_deacon.text</>End-Dialog
+						Insert_section ORD.deacon__._04_litany_after_inserts End-Insert
+						Insert_section ORD.deacon__._05_prayer2 End-Insert
+						Insert_section ORD.deacon__._06_vesting End-Insert
+						Insert_section ORD.deacon__._08_rubrics End-Insert
+					End-Section
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block1 End-Insert
+					Insert_section ORD.deacon__._09_extendedlitany End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
 				End-Section
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block1 End-Insert
-				Insert_section ORD.deacon__._09_extendedlitany End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
 				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
-				Insert_section hLI.clergy_communion End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
+				Section do_block2
+					Insert_section hLI.clergy_communion End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
+				End-Section
 			End-Section
 			Section priest
-				Section block1
+				Section po_block1
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
 					Actor <ahi>sid ac.Hierarch</>End-Actor
 					Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112.rubric End-Rubric
@@ -1253,14 +1262,77 @@ Status NA
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
 					Insert_section ORD.priest__._10_before_communion End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
-					Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				End-Section
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
 				Insert_section hLI.communionhymn End-Insert
-				Insert_section hLI.call_to_communion End-Insert
-				Insert_section hLI.after_communion.chrys.part1 End-Insert
-				Insert_section hLI.after_communion.chrys.part3 End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_default.part2.ambo_prayer End-Insert
-				Insert_section hLI.blessing_before_dismissal End-Insert
+				Section po_block2
+					Insert_section hLI.call_to_communion End-Insert
+					Insert_section hLI.after_communion.chrys.part1 End-Insert
+					Insert_section hLI.after_communion.chrys.part3 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part2.ambo_prayer End-Insert
+				End-Section
+			End-Section
+			Section priest_and_deacon
+				Section pdo_block1
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
+					Actor <ahi>sid ac.Hierarch</>End-Actor
+					Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112.rubric End-Rubric
+					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+					Actor <apr>sid ac.Priest</>End-Actor
+					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
+					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+					Actor <ahi>sid ac.Hierarch</>End-Actor
+					Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1113.rubric End-Rubric
+					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text End-Media
+					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
+					Insert_section ORD.priest__._01_presentation End-Insert
+					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.PR.p304a.text sid client_gr_GR_cog.cl.ordinand.priest.acc.text sid eu.ordination_gr_GR_cog.euORD.PR.p304c.text</>End-Dialog
+					Insert_section ORD.priest__._02_after_proclamation_prayer1 End-Insert
+					Dialog <dpr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
+					Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
+					Actor <apr>sid ac.Priest1</>End-Actor
+					Dialog <dpr>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.priest.gen.text sid pr.petOrdination02c_priest.text</>End-Dialog
+					Insert_section ORD.priest__._04_litany_after_inserts End-Insert
+					Insert_section ORD.priest__._05_prayer2 End-Insert
+					Insert_section ORD.priest__._06_vesting End-Insert
+					Insert_section ORD.priest__._08_rubrics End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
+					Insert_section ORD.priest__._09_after_consecration End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.theotokoshymn End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations.saints End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations.bishop0bishop1 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations.all End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.commemorations.world End-Insert
+					Section deacon_ordination
+						Insert_section ORD.deacon__._01_presentation End-Insert
+						Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.DE.p207a.text sid client_gr_GR_cog.cl.ordinand.deacon.acc.text sid eu.ordination_gr_GR_cog.euORD.DE.p207c.text</>End-Dialog
+						Insert_section ORD.deacon__._02_after_proclamation_prayer1 End-Insert
+						Insert_section ORD.deacon__._03_litany_before_inserts End-Insert
+						Dialog <dde>sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
+						Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
+						Actor <ade>sid ac.Deacon</>End-Actor
+						Dialog <dde>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.deacon.gen.text sid pr.petOrdination02c_deacon.text</>End-Dialog
+						Insert_section ORD.deacon__._04_litany_after_inserts End-Insert
+						Insert_section ORD.deacon__._05_prayer2 End-Insert
+						Insert_section ORD.deacon__._06_vesting End-Insert
+						Insert_section ORD.deacon__._08_rubrics End-Insert
+					End-Section
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block1 End-Insert
+					Insert_section ORD.deacon__._09_extendedlitany End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block3 End-Insert
+					Insert_section ORD.priest__._10_before_communion End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_upto_communion.block4 End-Insert
+				End-Section
+				Insert_section hLI.prayers_before_communion_collapsible End-Insert
+				Insert_section hLI.communionhymn End-Insert
+				Section pdo_block2
+					Insert_section hLI.call_to_communion End-Insert
+					Insert_section hLI.after_communion.chrys.part1 End-Insert
+					Insert_section hLI.after_communion.chrys.part3 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part2.ambo_prayer End-Insert
+				End-Section
 			End-Section
 		End-Section
 	End-Section
@@ -1270,12 +1342,14 @@ Status NA
 			when-movable-cycle-day-is
 				69 use:
 					Section holythursday
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Dialog <dhi>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</>End-Dialog
 						Insert_section hLI.dismissal_part2 End-Insert
 					End-Section
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
@@ -1287,6 +1361,7 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
@@ -1298,6 +1373,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section notpaschal
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.Com_Yes.part1 End-Insert
 						Insert_section hLI.dismissal_part2 End-Insert
@@ -1308,6 +1384,7 @@ Status NA
 			when-movable-cycle-day-is
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.me1_mealt1_Com_Yes.part1 End-Insert
@@ -1318,6 +1395,7 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.me1_mealt1_Com_Yes.part1 End-Insert
@@ -1328,6 +1406,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section notpaschal
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.me1_mealt1_Com_Yes.part1 End-Insert
 						Insert_section hLI.dismissal_part2 End-Insert
@@ -1338,6 +1417,7 @@ Status NA
 			when-movable-cycle-day-is
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
@@ -1348,6 +1428,7 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
@@ -1358,6 +1439,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section notpaschal
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.mealt1_Com_Yes.part1 End-Insert
 						Insert_section hLI.dismissal_part2 End-Insert
@@ -1368,6 +1450,7 @@ Status NA
 			when-movable-cycle-day-is
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.mealt2_Com_Yes.part1 End-Insert
@@ -1398,6 +1481,7 @@ Status NA
 			when-movable-cycle-day-is
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.pealt1_Com_Yes.part1 End-Insert
@@ -1408,6 +1492,7 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.pealt1_Com_Yes.part1 End-Insert
@@ -1418,6 +1503,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section notpaschal
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.pealt1_Com_Yes.part1 End-Insert
 						Insert_section hLI.dismissal_part2 End-Insert
@@ -1428,6 +1514,7 @@ Status NA
 			when-movable-cycle-day-is
 				71, 72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.Com_No.part1 End-Insert
@@ -1438,6 +1525,7 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha
+						Insert_section hLI.blessing_before_dismissal End-Insert
 						Insert_section dismissal_intro_paschal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Insert_section Selector_Dismissals.Com_No.part1 End-Insert
@@ -1456,11 +1544,13 @@ Status NA
 		End-Section
 		Section specificcommemoration__
 			Section holysaturdayliturgy
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</>End-Dialog
 				Insert_section hLI.dismissal_part2 End-Insert
 			End-Section
 			Section brightweek_stgeorge
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Insert_section dismissal_intro_paschal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Insert_section Selector_Dismissals.dismissal_stgeorge End-Insert
@@ -1470,6 +1560,7 @@ Status NA
 				Insert_section Selector_Dismissals.hierarchical.part2 End-Insert
 			End-Section
 			Section brightweek_stmark
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Insert_section dismissal_intro_paschal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Insert_section Selector_Dismissals.dismissal_stmark End-Insert
@@ -1479,6 +1570,7 @@ Status NA
 				Insert_section Selector_Dismissals.hierarchical.part2 End-Insert
 			End-Section
 			Section brightweek_stathanasios
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Insert_section dismissal_intro_paschal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Insert_section Selector_Dismissals.dismissal_stathanasios End-Insert
@@ -1488,6 +1580,7 @@ Status NA
 				Insert_section Selector_Dismissals.hierarchical.part2 End-Insert
 			End-Section
 			Section brightweek_stjohn
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Insert_section dismissal_intro_paschal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Insert_section Selector_Dismissals.dismissal_stjohn End-Insert
@@ -1497,12 +1590,14 @@ Status NA
 				Insert_section Selector_Dismissals.hierarchical.part2 End-Insert
 			End-Section
 			Section dec19_when_saturday
+				Insert_section hLI.blessing_before_dismissal End-Insert
 				Actor <apr>sid ac.Hierarch </>End-Actor
 				Dialog <dpr>sid dis00 rid meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid me.m12.d20_gr_GR_cog.meDA.insert1 sid me.m12.d20_gr_GR_cog.meDA.insert2 sid dis10 sid dis88</> End-Dialog
 				Insert_section hLI.dismissal_part2 End-Insert
 			End-Section
 		End-Section
 		Section tr1_me1_commemoration
+			Insert_section hLI.blessing_before_dismissal End-Insert
 			Actor <apr>sid ac.Hierarch </>End-Actor
 			Insert_section Selector_Dismissals.tr1_me1_Com_Yes.part1 End-Insert
 			Insert_section hLI.dismissal_part2 End-Insert

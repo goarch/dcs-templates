@@ -1,4 +1,4 @@
-Template LI1
+Template LI12
 
 Status NA
 
@@ -2023,58 +2023,35 @@ Status NA
 		End-Section
 		Section chrys_default
 			Insert_section LI1.after_gospel_litanies.chrys End-Insert
-
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_default.part1 End-Insert
-			Para role ecc_li_liturgy sid misc.custcontent End-Para
-
-			Para role bcc_hli_liturgy sid misc.custcontent End-Para
-				Insert_section hLI._08_Liturgy__.chrys_default.part1 End-Insert
-			Para role ecc_hli_liturgy sid misc.custcontent End-Para
-
-			Para role bcc_hli_ordination_deacon sid misc.custcontent End-Para
-				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.do_block1 End-Insert
-			Para role ecc_hli_ordination_deacon sid misc.custcontent End-Para
-
-			Para role bcc_hli_ordination_priest sid misc.custcontent End-Para
-				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest.po_block1 End-Insert
-			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
-
-			Para role bcc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
-				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest_and_deacon.pdo_block1 End-Insert
-			Para role ecc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
-
-			Insert_section LI1.prayers_before_communion End-Insert
-
-			Para role bcc_li_liturgy sid misc.custcontent End-Para
+				Insert_section LI1.prayers_before_communion End-Insert
 				Insert_section LI.communionhymn End-Insert
 				Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
+				Insert_section LI1.memorial_service End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
-
 			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_default.part1 End-Insert
+				Insert_section LI1.prayers_before_communion End-Insert
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
+				Insert_section LI1.memorial_service End-Insert
 			Para role ecc_hli_liturgy sid misc.custcontent End-Para
-
 			Para role bcc_hli_ordination_deacon sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.do_block1 End-Insert
+				Insert_section LI1.prayers_before_communion End-Insert
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.do_block2 End-Insert
+				Insert_section LI1.memorial_service End-Insert
 			Para role ecc_hli_ordination_deacon sid misc.custcontent End-Para
-
 			Para role bcc_hli_ordination_priest sid misc.custcontent End-Para
+				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest.po_block1 End-Insert
+				Insert_section LI1.prayers_before_communion End-Insert
 				Insert_section hLI.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest.po_block2 End-Insert
+				Insert_section LI1.memorial_service End-Insert
 			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
-
-			Para role bcc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
-				Insert_section hLI.communionhymn End-Insert
-				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest_and_deacon.pdo_block2 End-Insert
-			Para role ecc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
-
-			Insert_section LI1.memorial_service End-Insert
-
 		End-Section
-
 		Section chrys_mealt1
 			Insert_section LI1.after_gospel_litanies.chrys End-Insert
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
