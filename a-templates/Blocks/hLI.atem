@@ -1953,6 +1953,7 @@ Status NA
 			Para role bkmrk09 sid misc.bookmark End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.memorialservice.top End-Title
 				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
+				Title<rubric>sid rubrical_gr_GR_cog.ru.AsAllowedAndNeeded</>End-Title
 				Actor <ach>sid ac.Choir</>End-Actor
 				Section FuneralEvlogitaria
 					Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key0600.title End-Title
