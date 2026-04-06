@@ -1,0 +1,138 @@
+Template se.m02.d23.li1
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 2 day 23 year 2026 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.li4.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.li4.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template pdf.cover.li.me End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	when-movable-cycle-day-is
+		1, 8, 14, 15, 16, 17, 19, 21, 28, 29 use:
+			Insert_section mc.map.li.Instance01 End-Insert
+
+		13 use:
+			Section Instance01 //2063
+				Break line End_Break
+				Rubric sid me.m02.d23_gr_GR_cog.meR001 End-Rubric
+				Break line End_Break
+ 			End-Section
+
+		22 use:
+			Section Instance02
+				Break line End_Break
+				Rubric sid me.m02.d23_gr_GR_cog.meR001 End-Rubric
+				Break line End_Break
+				Section ST
+					Para role servicesourcestitle sid misc.book.BooksSources.title End-Para
+					Para role servicesources sid misc.book.Octoechos.name sid misc.separator.hyphen rid ocVE.Stichera1.mode End-Para
+					Insert_section Selector_ServiceTitle.on_morning End-Insert
+					Para role servicesources sid misc.book.Triodion.name End-Para
+					Para role servicesourcessection rid trDA.commemoration.short End-Para
+					Para role servicesources sid misc.book.Menaion.name sid misc.separator.hyphen sid me.m02.d24_gr_GR_cog.meDA.date End-Para
+					Para role servicesourcessection sid me.m02.d24_gr_GR_cog.meDA.commemoration.first_short End-Para
+					Title sid misc.horizontal_line.solid1 End-Title
+					Break line End_Break
+					Title<bnr>sid li.html.tab</>End-Title
+					Insert_section ST.copyright_notice__.goa_liturgy_chrys End-Insert
+				End-Section
+				Insert_section LI1._01_Enarxis__.daily End-Insert
+				Insert_section LI1._02_Antiphons__.sundays_weekdays_feasts End-Insert
+				Insert_section LI1._04_Entrance End-Insert
+				Insert_section LI1._05_AfterEntranceHymns__.apolytikion1 End-Insert
+				Section hymns
+					Insert_section AP.res__.modeofweek End-Insert
+					Insert_section LI1._05_AfterEntranceHymns__.apolytikion2 End-Insert
+					Set_Date month 2 day 24 year 2026 End_Date
+					Insert_section TI.s._06_forerunner End-Insert
+					Insert_section AP.me1_.hymn End-Insert
+					Set_Date month 2 day 23 year 2026 End_Date
+					Insert_section LI1._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI1._05_AfterEntranceHymns__.kontakion End-Insert
+				End-Section
+				Insert_section LI1._06_Trisagion__.chrys End-Insert
+				Set_Date month 2 day 23 year 2026 End_Date
+				Insert_section LE._01_Epistle__.menaion_ End-Insert
+				Set_Date month 2 day 24 year 2026 End_Date
+				Insert_section LE._02_Gospel__.daily_ End-Insert
+				Insert_section LI1._08_Liturgy__.chrys_default End-Insert
+				Section dismissal
+					Actor sid ac.Priest End-Actor
+					Dialog sid pr.GloryToYouOurGod.text End-Dialog
+					Dialog sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid me.m02.d24_gr_GR_cog.meDA.insert2 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
+					Actor sid ac.clChoirL End-Actor
+					Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
+					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text @ver media-off End-Hymn
+					Actor sid ac.Priest End-Actor
+					Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
+					Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+				End-Section
+				Set_Date month 2 day 23 year 2026 End_Date
+			End-Section
+
+		otherwise use:
+			Section Instance_Weekday
+				Insert_section ST.li.ho End-Insert
+				Insert_section LI1._01_Enarxis__.daily End-Insert
+				Insert_section LI1._02_Antiphons__.sundays_weekdays_feasts End-Insert
+				Insert_section AP.da__.dayofweek1_ End-Insert
+				Insert_section LI1._04_Entrance End-Insert
+				Insert_section LI1._05_AfterEntranceHymns__.apolytikion1 End-Insert
+				Section hymns
+					Insert_section AP.da__.liturgy End-Insert
+					Insert_section LI1._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section KO.weekday End-Insert
+				End-Section
+				Insert_section LI1._06_Trisagion__.chrys End-Insert
+				Para role bcc_li_readings sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.pretriodion__.liturgy End-Insert
+					Insert_section LE._02_Gospel__.pretriodion__.liturgy End-Insert
+				Para role ecc_li_readings sid misc.custcontent End-Para
+				Para role bcc_hli_readings sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.pretriodion__.liturgy End-Insert
+					Insert_section LE._02_Gospel__.pretriodion__.liturgy End-Insert
+				Para role ecc_hli_readings sid misc.custcontent End-Para
+				Insert_section LI1._08_Liturgy__.chrys_default End-Insert
+				Insert_section LI1._09_Dismissal__.nocommemoration End-Insert
+			End-Section
+	end-when
+
+End-Template

@@ -2299,6 +2299,28 @@ Status NA
 			Para role ecc_hli_opt_memorial sid misc.custcontent End-Para
 	 	End-Section
 
+		Section sos_trisagion_service
+			Para role bcc_li_liturgy sid misc.custcontent End-Para
+				Insert_section FU._01_TrisagionTroparia_ End-Insert
+				Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
+				Insert_section FU._04_Everlasting_ End-Insert
+			Para role ecc_li_liturgy sid misc.custcontent End-Para
+			Para role bcc_hli_liturgy sid misc.custcontent End-Para
+				Insert_section FU._01_TrisagionTroparia_ End-Insert
+				Insert_section LN.hForSoulSaturday_deacon_choir End-Insert
+				Insert_section FU._04_Everlasting_ End-Insert
+			Para role ecc_hli_liturgy sid misc.custcontent End-Para
+		End-Section
 
+		Section kollyva_prayer__
+			Section tr
+				Para role bcc_li_liturgy sid misc.custcontent End-Para
+					Insert_section LI.kollyva_prayer__.tr End-Insert
+				Para role ecc_li_liturgy sid misc.custcontent End-Para
+				Para role bcc_hli_liturgy sid misc.custcontent End-Para
+					Insert_section hLI.kollyva_prayer__.tr End-Insert
+				Para role ecc_hli_liturgy sid misc.custcontent End-Para
+			End-Section
+		End-Section
 
 End-Template
