@@ -53,7 +53,7 @@ Status NA
 
 		29 use:
 			Section Instnace02 //2051
-				Insert_section mc.map.li.Instance01 End-Insert
+				Insert_section mc.map.li1.Instance01 End-Insert
 			End-Section
 
 		35, 42 use:
@@ -95,7 +95,7 @@ Status NA
 
 		43 use:
 			Section Instance12 //2006, 2079
-				Insert_section mc.map.li.Instance01 End-Insert
+				Insert_section mc.map.li1.Instance01 End-Insert
 			End-Section
 
 		49 use:
@@ -130,7 +130,7 @@ Status NA
 
 		56 use:
 			Section Instance20 //2061
-				Insert_section mc.map.li.Instance01 End-Insert
+				Insert_section mc.map.li1.Instance01 End-Insert
 			End-Section
 
 		57 use:
