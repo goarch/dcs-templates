@@ -1,0 +1,175 @@
+Template se.m12.d26.ma1
+
+Status Final
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 12 day 26 year 2026 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template pdf.cover.ma.me End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	when-name-of-day-is
+		Tuesday, Wednesday, Thursday, Friday, Saturday use:
+			Section Instance_Saturday
+				Insert_section ST.ma.me End-Insert
+				Insert_section MA._01_Beginning__.mode4 End-Insert
+				Insert_section AP.f3 End-Insert
+				Insert_section MA._02_Kathisma1__.litany End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section MA._02_Kathisma1__.me__.kath11gb11_ End-Insert
+					Insert_section MA._03_Kathisma2__.append__.me__.kath21gb21_ End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+				Insert_section MA._11_Kontakion__.festal End-Insert
+				Insert_section TI.k.s._16_theotokos End-Insert
+				Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
+				Insert_section SY.Synaxarion End-Insert
+				Insert_section KA.choir__._1345678 End-Insert
+				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+					Insert_section CAv.ode9.append.me2.ti_hh12asM1M2GMtrBMth End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Insert_section KA.append__._9 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section MA._12_Exaposteilarion__.me__.exap111_ End-Insert
+					Insert_section MA._13_Lauds__.mode4__.for4 End-Insert
+					Insert_section MA._13_Lauds__.me__.p_1234as3456 End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section MA._13_Lauds__.both__.me__.bothasboth_ End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Insert_section MA._14_Doxology__.great End-Insert
+				Insert_section AP.af End-Insert
+			End-Section
+
+		Sunday use:
+			Insert_section se.m12.dAC.ma.Instance01 End-Insert
+
+		Monday use:
+			Section Instance03
+				Section ST
+					Para role servicesourcestitle sid misc.book.BooksSources.title End-Para
+					Para role servicesources sid misc.book.Menaion.name sid misc.separator.hyphen sid me.m12.d26_gr_GR_cog.meDA.date End-Para
+					Para role servicesourcessection sid me.m12.d26_gr_GR_cog.meDA.commemoration.full End-Para
+					Para role servicesourcessection sid me.m12.dAC_gr_GR_cog.meDA.commemoration.first End-Para
+					Title sid misc.horizontal_line.solid1 End-Title
+					Break line End_Break
+					Title<bnr>sid ma.html.tab</>End-Title
+				End-Section
+				Insert_section MA._01_Beginning__.mode4 End-Insert
+				Insert_section AP.af End-Insert
+				Insert_section TI.g.com.decac_.ancestors End-Insert
+				Insert_section AP.com__.DecAC_.hymn End-Insert
+				Insert_section AP.both__.af End-Insert
+				Insert_section MA._02_Kathisma1__.litany End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section MA._02_Kathisma1__.me__.kath11gb11_ End-Insert
+					Insert_section MA._03_Kathisma2__.append__.me__.kath21gb21_ End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+				Insert_section MA._11_Kontakion__.append__.festal End-Insert
+				Section block2
+					Insert_section TI.k.com.decac End-Insert
+					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Kontakion1.mode<Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Kontakion1.melody</>End-Title
+					Reading sid me.m12.dAC_gr_GR_cog.meMA.Kontakion1.text End-Reading
+					Title role desig sid ti.Oikos End-Title
+					Reading sid me.m12.dAC_gr_GR_cog.meMA.Oikos1.text End-Reading
+				End-Section
+				Insert_section SY.Synaxarion End-Insert
+				Insert_section KA.choir__._1345678 End-Insert
+				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+					Set_Date month 12 day 25 year 2026 End_Date
+					Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+				Set_Date month 12 day 26 year 2026 End_Date
+				Section nt_123tasVVGB
+					Title role desig sid me.m12.dAC_gr_GR_cog.meMA.C1.title End-Title
+					Para role source0 sid ti.sourceMenaion End-Para
+					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Ode9C11.mode<Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode9C11.melody</>End-Title
+					Media sid me.m12.dAC_gr_GR_cog.meMA.Ode9C11.text End-Media
+					Verse sid me.m12.dAC_gr_GR_cog.meMA.C1.verse End-Verse
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C11.text @ver media-off End-Hymn
+					Verse sid me.m12.dAC_gr_GR_cog.meMA.C1.verse End-Verse
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C12.text @ver media-off End-Hymn
+					Title sid ti.Glory End-Title
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C13.text @ver End-Hymn
+					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C1T.text @ver End-Hymn
+				End-Section
+				Insert_section KA.append__._9 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Section block3
+					Insert_section TI.e.com.decac End-Insert
+					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Exaposteilarion1.mode<Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Exaposteilarion1.melody</>End-Title
+					Media sid me.m12.dAC_gr_GR_cog.meMA.Exaposteilarion1.text End-Media
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Exaposteilarion1.text @ver media-off End-Hymn
+				End-Section
+				Insert_section MA._12_Exaposteilarion__.append__.festal End-Insert
+				Insert_section MA._13_Lauds__.mode4__.for4 End-Insert
+				Section i_1234as3456
+					Title role desig sid ti.IdiomelaOfFeast End-Title
+					Para role source0 sid ti.sourceMenaion End-Para
+					Media sid me.m12.dAC_gr_GR_cog.meMA.MM.Lauds1234as3456.text End-Media
+					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Lauds1.mode End-Title
+					Insert_section MA.Lauds_Verses.v03 End-Insert
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Lauds1.text @ver media-off End-Hymn
+					Insert_section MA.Lauds_Verses.v04 End-Insert
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Lauds2.text @ver media-off End-Hymn
+					Insert_section MA.Lauds_Verses.v05 End-Insert
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Lauds3.text @ver media-off End-Hymn
+					Insert_section MA.Lauds_Verses.v06 End-Insert
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Lauds4.text @ver media-off End-Hymn
+				End-Section
+				Insert_section TI.g.com.decac_.ancestors End-Insert
+				Section block4
+					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.mode End-Title
+					Media sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.text End-Media
+					Hymn sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
+				End-Section
+				Insert_section TI.b.f End-Insert
+				Insert_section MA._13_Lauds__.both__.me__.gloryasboth_.hymn End-Insert
+				Insert_section MA._14_Doxology__.great End-Insert
+				Insert_section AP.af End-Insert
+			End-Section
+	end-when
+
+End-Template

@@ -48,6 +48,7 @@ Status NA
 		Section hymns
 			Insert_section AP.res__.modeofweek End-Insert
 			Insert_section LI1._05_AfterEntranceHymns__.apolytikion2 End-Insert
+			Insert_section LI1._05_AfterEntranceHymns__.apolytikion2 End-Insert
 			Insert_section AP.pe2_.hymn End-Insert
 			Insert_section AP.pe3_.hymn End-Insert
 			Insert_section LI1._05_AfterEntranceHymns__.local_rubric End-Insert
@@ -55,8 +56,14 @@ Status NA
 		End-Section
 		Insert_section LI1._06_Trisagion__.chrys End-Insert
 		Para role bcc_li_readings sid misc.custcontent End-Para
-			Insert_section LE._01_Epistle__.daily_ End-Insert
-			Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role bcc_li_readings sid misc.custcontent End-Para
+				Insert_section LE._01_Epistle__.daily_ End-Insert
+				Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role ecc_li_readings sid misc.custcontent End-Para
+			Para role bcc_hli_readings sid misc.custcontent End-Para
+				Insert_section hLE._01_Epistle__.daily_ End-Insert
+				Insert_section hLE._02_Gospel__.daily_ End-Insert
+			Para role ecc_hli_readings sid misc.custcontent End-Para
 		Para role ecc_li_readings sid misc.custcontent End-Para
 		Para role bcc_hli_readings sid misc.custcontent End-Para
 			Insert_section hLE._01_Epistle__.daily_ End-Insert

@@ -49,13 +49,20 @@ Status NA
 		Section hymns
 			Insert_section AP.res__.modeofweek End-Insert
 			Insert_section LI1._05_AfterEntranceHymns__.apolytikion2 End-Insert
+			Insert_section LI1._05_AfterEntranceHymns__.apolytikion2 End-Insert
 			Insert_section LI1._05_AfterEntranceHymns__.local_rubric End-Insert
 			Insert_section LI1._05_AfterEntranceHymns__.kontakion End-Insert
 		End-Section
 		Insert_section LI1._06_Trisagion__.chrys End-Insert
 		Para role bcc_li_readings sid misc.custcontent End-Para
-			Insert_section LE._01_Epistle__.triodion__.d022_cheesefare End-Insert
-			Insert_section LE._02_Gospel__.triodion__.d022_cheesefare End-Insert
+			Para role bcc_li_readings sid misc.custcontent End-Para
+				Insert_section LE._01_Epistle__.triodion__.d022_cheesefare End-Insert
+				Insert_section LE._02_Gospel__.triodion__.d022_cheesefare End-Insert
+			Para role ecc_li_readings sid misc.custcontent End-Para
+			Para role bcc_hli_readings sid misc.custcontent End-Para
+				Insert_section hLE._01_Epistle__.triodion__.d022_cheesefare End-Insert
+				Insert_section hLE._02_Gospel__.triodion__.d022_cheesefare End-Insert
+			Para role ecc_hli_readings sid misc.custcontent End-Para
 		Para role ecc_li_readings sid misc.custcontent End-Para
 		Para role bcc_hli_readings sid misc.custcontent End-Para
 			Insert_section hLE._01_Epistle__.triodion__.d022_cheesefare End-Insert

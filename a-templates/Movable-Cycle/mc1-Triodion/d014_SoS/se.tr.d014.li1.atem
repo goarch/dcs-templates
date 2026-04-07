@@ -54,8 +54,14 @@ Status NA
 		End-Section
 		Insert_section LI1._06_Trisagion__.chrys End-Insert
 		Para role bcc_li_readings sid misc.custcontent End-Para
-			Insert_section LE._01_Epistle__.deceased_ End-Insert
-			Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role bcc_li_readings sid misc.custcontent End-Para
+				Insert_section LE._01_Epistle__.deceased_ End-Insert
+				Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role ecc_li_readings sid misc.custcontent End-Para
+			Para role bcc_hli_readings sid misc.custcontent End-Para
+				Insert_section hLE._01_Epistle__.deceased_ End-Insert
+				Insert_section hLE._02_Gospel__.daily_ End-Insert
+			Para role ecc_hli_readings sid misc.custcontent End-Para
 		Para role ecc_li_readings sid misc.custcontent End-Para
 		Para role bcc_hli_readings sid misc.custcontent End-Para
 			Insert_section hLE._01_Epistle__.deceased_ End-Insert

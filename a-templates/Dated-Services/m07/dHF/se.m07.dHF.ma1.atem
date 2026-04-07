@@ -1,0 +1,57 @@
+Template se.m07.dHF.ma1
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Section Instance01
+		Insert_section ST.ma.oc_com End-Insert
+		Insert_section MA._01_Beginning__.modeofweek End-Insert
+		Insert_section AP.res__.modeofweek End-Insert
+		Insert_section AP.glory__.com__.JulHF_ End-Insert
+		Insert_section AP.both__.primarytheotokion__.mode8 End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.oc__.sunday__.whenmode8 End-Insert
+		Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath212223 End-Insert
+		Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
+		Insert_section MA._06_Antiphons__.sunday_ End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+		Insert_section MA._11_Kontakion__.sunday End-Insert
+		Insert_section MA._11_Kontakion__.append__.JulHF End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+		Insert_section MA._08_Supplication__.priest__.com End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section KA.append__._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.me__.JulHF_.exap End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.me__.JulHF_.theotokion End-Insert
+		Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+		Insert_section MA._13_Lauds__.oc__.s_1234as1234 End-Insert
+		Insert_section MA._13_Lauds__.holyfathers_p_1123as5678 End-Insert
+		Insert_section MA._13_Lauds__.glory__.me__.JulHF End-Insert
+		Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
+		Insert_section MA._14_Doxology__.sunday End-Insert
+	End-Section
+
+End-Template

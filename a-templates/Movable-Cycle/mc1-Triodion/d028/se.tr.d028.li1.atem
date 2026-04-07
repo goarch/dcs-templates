@@ -58,8 +58,14 @@ Status NA
 		Insert_section TI.le.ep.s._00_saint_.m End-Insert
 		Insert_section LE._01_Epistle__.daily_.prokeimenon End-Insert
 		Para role bcc_li_readings sid misc.custcontent End-Para
-			Insert_section LE._01_Epistle__.martyr_.lesson End-Insert
-			Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role bcc_li_readings sid misc.custcontent End-Para
+				Insert_section LE._01_Epistle__.martyr_.lesson End-Insert
+				Insert_section LE._02_Gospel__.daily_ End-Insert
+			Para role ecc_li_readings sid misc.custcontent End-Para
+			Para role bcc_hli_readings sid misc.custcontent End-Para
+				Insert_section hLE._01_Epistle__.martyr_.lesson End-Insert
+				Insert_section hLE._02_Gospel__.daily_ End-Insert
+			Para role ecc_hli_readings sid misc.custcontent End-Para
 		Para role ecc_li_readings sid misc.custcontent End-Para
 		Para role bcc_hli_readings sid misc.custcontent End-Para
 			Insert_section hLE._01_Epistle__.martyr_.lesson End-Insert

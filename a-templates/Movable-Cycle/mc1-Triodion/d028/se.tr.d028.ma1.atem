@@ -1,0 +1,51 @@
+Template se.tr.d028.ma1
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Section Instance01
+		Insert_section ST.ma.tr End-Insert
+		Insert_section MA._01_Beginning__.mode2 End-Insert
+		Insert_section AP.tr1_ End-Insert
+		Insert_section TI.g.r End-Insert
+		Insert_section AP.tr1_.hymn End-Insert
+		Insert_section AP.both__.primarytheotokion__.mode2 End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.octr__.saturday_1v2g3bT End-Insert
+		Insert_section MA._03_Kathisma2__.append__.tr__.kath21g22bT23_ End-Insert
+		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+		Insert_section MA._11_Kontakion__.append__.tr_ End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section KA.append__._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA._12_Exaposteilarion__.tr__.exap1o2ot End-Insert
+		Insert_section MA._13_Lauds__.mode1__.for4 End-Insert
+		Insert_section MA._13_Lauds__.tr__.p_1234as3456_ End-Insert
+		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
+		Insert_section MA._13_Lauds__.both__.theotokion__.mode6_vine__.martyr End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+		Insert_section AP.tr1_ End-Insert
+	End-Section
+
+End-Template
