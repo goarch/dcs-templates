@@ -51,10 +51,10 @@ Status NA
 		Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
 		Insert_section MA._11_Kontakion__.append__.pascha_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA1._09_KA__._1345678 End-Insert
 		Insert_section PE.Pascha_Ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.pascha__.thrice_ End-Insert
-		Insert_section MA._13_Lauds__.mode2__.noStichologia End-Insert
+		Insert_section MA1._13_Lauds__.mode2__.noStichologia End-Insert
 		Insert_section MA._13_Lauds__.pe__.s_1234as3456 End-Insert
 		Insert_section MA._13_Lauds__.pascha End-Insert
 		Insert_section MA._13_Lauds__.gloryboth__.pascha_ End-Insert
@@ -79,7 +79,7 @@ Status NA
 			Insert_section MA._01_Beginning__.pascha End-Insert
 			Insert_section MA._06_Antiphons__.mode41_prokeimenon_.antiphon End-Insert
 			Insert_section MA._06_Antiphons__.mode41_prokeimenon_.prokeimenon End-Insert
-			Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+			Insert_section MA1._07_Gospel__.yes__.me End-Insert
 			Insert_section MA._08_Supplication__.priest__.com End-Insert
 			Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
 			Insert_section MA._11_Kontakion__.append__.pascha_ End-Insert
@@ -89,8 +89,8 @@ Status NA
 		End-Section
 	//	Synaxarion inserted in menaion template
 		Section part2
-			Insert_section KA.choir__._1345678 End-Insert
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._09_KA__._1345678 End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section CAv.ode9.pa.ti_hh12asM1M2M3M4 End-Insert
 				Set_Date month 4 day 23 End_Date
 				Set_mcDay day 72 End_mcDay
@@ -110,12 +110,12 @@ Status NA
 		Section part3
 			Set_Date month 4 day 23 End_Date
 			Set_mcDay day 72 End_mcDay
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 			Insert_section MA._12_Exaposteilarion__.pascha__.once_ End-Insert
 			Insert_section TI.s._00_saint_.m End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
-			Insert_section MA._13_Lauds__.mode2__.noStichologia End-Insert
+			Insert_section MA1._13_Lauds__.mode2__.noStichologia End-Insert
 				Insert_section MA._13_Lauds__.pe__.s_1234as1234 End-Insert
 				Insert_section TI.s._00_saint_.m End-Insert
 				Insert_section MA._13_Lauds__.me__.p_1234as56greatmartyrs12 End-Insert

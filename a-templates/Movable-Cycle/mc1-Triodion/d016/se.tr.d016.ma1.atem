@@ -53,7 +53,7 @@ Status NA
 			Insert_section MA._02_Kathisma1__.litany End-Insert
 			Insert_section MA._02_Kathisma1__.octr__.cheese_week End-Insert
 			Insert_section MA._03_Kathisma2__.append__.tr__.kath21gb22 End-Insert
-			Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+			Insert_section MA1._07_Gospel__.no__.read__.intro_psalm50 End-Insert
 			when-exists
 				rid meMA.Kontakion1.text use:
 					Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
@@ -62,11 +62,11 @@ Status NA
 			end-when
 			Insert_section SY.Synaxarion End-Insert
 			Insert_section MA._10_Canon__.ode8_heirmos__.tr2 End-Insert
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section MA._10_Canon__.magnificat__.mode1 End-Insert
 			Insert_section MA._10_Canon__.ode9_heirmos__.tr2 End-Insert
 			Insert_section MA._10_Canon__.ode9_end End-Insert
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 			when-exists
 				rid meMA.Exaposteilarion1.text use:
 					Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
@@ -80,7 +80,7 @@ Status NA
 			Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
 			Insert_section MA._16_Aposticha__.tr__.weekday_ End-Insert
 			Insert_section MA._16_Aposticha__.gloryboth__.tr__.theotokion End-Insert
-			Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+			Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 		End-Section
 		Insert_section AP.da__.matins_end End-Insert
 		Insert_section MA._18_End__.ektenia_no_dismissal End-Insert

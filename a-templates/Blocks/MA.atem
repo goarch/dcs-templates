@@ -7992,7 +7992,7 @@ Status NA
 		End-Section
 		Section intro_
 			Section part1
-				Actor sid ac.Choir End-Actor
+			//	Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid ho.ho03_gr_GR_cog.hoMA.SunExapVerse1.text End-Media
 				Para role chant sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text media-off<r>sid ru.Twice</>End-Para

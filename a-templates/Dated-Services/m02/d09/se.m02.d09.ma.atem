@@ -186,13 +186,13 @@ Status Final
 					Insert_section KA.append__._9 End-Insert
 				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 					Insert_section TI.e.f End-Insert
-					Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 					Set_Date month 2 day 10 year 2026 End_Date
 					Insert_section TI.s._00_saint_.m End-Insert
-					Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 					Set_Date month 2 day 2 year 2026 End_Date
 					Insert_section TI.f End-Insert
-					Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section MA._13_Lauds__.mode4__.for6 End-Insert
 					Insert_section TI.stp.f End-Insert
 					Insert_section MA._13_Lauds__.me__.p_123as123 End-Insert

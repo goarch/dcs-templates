@@ -409,7 +409,7 @@ Status NA
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode8K.text @ver End-Hymn
 		End-Section
-		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA1._10_Canon__.ode9_intro End-Insert
 		Section Ode9
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Ode9C1H.ode sid ti.Heirmos End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Ode9C1H.text End-Media
@@ -442,7 +442,7 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Dialog sid pr.GloryToYourForbearance.text End-Dialog
 		End-Section
-		Insert_section MA._13_Lauds__.mode3__.noStichologia End-Insert
+		Insert_section MA1._13_Lauds__.mode3__.noStichologia End-Insert
 		Insert_section MA._13_Lauds__.tr__.i_1123as3456 End-Insert
 		Insert_section TI.g._ End-Insert
 		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_.hymn End-Insert
@@ -497,7 +497,7 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Dialog sid pr.GloryToYouLord.text End-Dialog
 		End-Section
-		Insert_section MA._17_ItIsGood_Trisagion__.holyweek_.part1 End-Insert
+		Insert_section MA1._17_ItIsGood_Trisagion__.holyweek_.part1 End-Insert
 		Section Apolytikion
 			Actor sid ac.Choir End-Actor
 			Title role desig sid ti.Apolytikion<Tmode>sid tr.d069_gr_GR_cog.trMA.Apolytikion1.mode</>End-Title

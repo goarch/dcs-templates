@@ -55,13 +55,13 @@ Status NA
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Insert_section MA._02_Kathisma1__.tr__.kath11g12bT13 End-Insert
 		Insert_section MA._03_Kathisma2__.append__.tr__.kath21g22bT23_ End-Insert
-		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+		Insert_section MA1._07_Gospel__.no__.read__.psalm50 End-Insert
 		Insert_section MA._11_Kontakion__.append__.tr_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA1._09_KA__._1345678 End-Insert
 		Section block5
 			Rubric sid client_gr_GR_cog.cl.tr.d021.R001 End-Rubric
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
 			Title role desig sid tr.d021_gr_GR_cog.trMA.Ode9C1H.ode<Tmode>sid tr.d021_gr_GR_cog.trMA.Ode9C1H.mode</><Tdesig>sid ti.Heirmos</>End-Title
 			Para role greekmelody sid tr.d021_gr_GR_cog.trMA.Ode9C1H.greekmelody End-Para
@@ -88,13 +88,14 @@ Status NA
 			Hymn sid tr.d021_gr_GR_cog.trMA.Ode9C1T.text @ver End-Hymn
 		End-Section
 		Insert_section KA.choir__._9 End-Insert
-		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.tr__.exap1o2ot End-Insert
-		Insert_section MA._13_Lauds__.mode8__.for4 End-Insert
+		Insert_section MA1._13_Lauds__.mode8__.for4 End-Insert
 		Insert_section MA._13_Lauds__.tr__.p_1234as3456_.hymns End-Insert
 		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 		Insert_section MA._13_Lauds__.both__.theotokion__.mode6_vine__.devouts End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.tr1_ End-Insert
+		Insert_section MA1._19_End_Options End-Insert
 	End-Section
 End-Template

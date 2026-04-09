@@ -56,14 +56,14 @@ Status NA
 		Insert_section MA._03_Kathisma2__.evlogetaria_sos End-Insert
 		Insert_section MA._03_Kathisma2__.litany_sos End-Insert
 		Insert_section MA._03_Kathisma2__.sos End-Insert
-		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+		Insert_section MA1._07_Gospel__.no__.read__.psalm50 End-Insert
 		Insert_section MA._11_Kontakion__.append__.tr_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section MA._10_Canon__.ode8_heirmos__.tr1 End-Insert
 		Section ode9
 			Title role desig sid ti.TheCanon End-Title
 			Rubric sid client_gr_GR_cog.cl.tr.d014.R001 End-Rubric
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
 			Title role desig sid misc.Ode9<Tmode>sid tr.d014_gr_GR_cog.trMA.Ode9C1H.mode</><Tdesig>sid tr.d014_gr_GR_cog.trMA.Ode9C1H.melody</>End-Title
 			Hymn sid tr.d014_gr_GR_cog.trMA.Ode9C1H.text @ver End-Hymn
@@ -81,9 +81,9 @@ Status NA
 			Insert_section MA._10_Canon__.ode9_heirmos__.tr1 End-Insert
 			Insert_section MA._10_Canon__.ode9_end End-Insert
 		End-Section
-		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.tr__.exap1o2ot End-Insert
-		Insert_section MA._13_Lauds__.mode8__.for4 End-Insert
+		Insert_section MA1._13_Lauds__.mode8__.for4 End-Insert
 		Insert_section MA._13_Lauds__.tr__.p_1234as3456_ End-Insert
 		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 		Insert_section MA._13_Lauds__.both__.tr__.theotokion_ End-Insert
@@ -92,7 +92,7 @@ Status NA
 		Insert_section MA._16_Aposticha__.tr__.octr__.saturday.part1 End-Insert
 		Insert_section MA._16_Aposticha__.glory__.tr__.gloryasglory_ End-Insert
 		Insert_section MA._16_Aposticha__.both__.tr__.theotokion_ End-Insert
-		Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+		Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 		Insert_section AP.tr12t End-Insert
 		Insert_section MA._18_End__.triodion_ektenia_wisdom End-Insert
 		Insert_section MA._20_Dismissal__.nocommemoration End-Insert

@@ -55,13 +55,13 @@ Status NA
 		Insert_section MA._03_Kathisma2__.evlogetaria_sos End-Insert
 		Insert_section MA._03_Kathisma2__.litany_sos End-Insert
 		Insert_section MA._03_Kathisma2__.pe__.sos End-Insert
-		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+		Insert_section MA1._07_Gospel__.no__.read__.psalm50 End-Insert
 		Insert_section MA._11_Kontakion__.append__.pe1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section MA._10_Canon__.ode8_heirmos__.pe1 End-Insert
 		Section block1
 			Title role desig sid ti.TheCanon End-Title
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section MA._10_Canon__.magnificat__.mode6 End-Insert
 			Title role desig sid misc.Ode9<Tmode>sid pe.d119_gr_GR_cog.peMA.Ode9C11.mode</><Tdesig>sid misc.Heirmos</>End-Title
 			Para role heirmos sid pe.d119_gr_GR_cog.peMA.Ode9C1H.text @ver<inr>sid ru.Twice</>End-Para
@@ -79,10 +79,10 @@ Status NA
 			Title role desig sid misc.Heirmos End-Title
 			Insert_section CA.heirmos.ode9.pe End-Insert
 			Insert_section MA._10_Canon__.ode9_end End-Insert
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 		End-Section
 		Insert_section MA._12_Exaposteilarion__.pe__.exap1t End-Insert
-		Insert_section MA._13_Lauds__.mode6__.for4 End-Insert
+		Insert_section MA1._13_Lauds__.mode6__.for4 End-Insert
 		Insert_section TI.pe._08_souls End-Insert
 		Insert_section MA._13_Lauds__.pe__.p_1234as3456 End-Insert
 		Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_ End-Insert
@@ -92,7 +92,7 @@ Status NA
 		Insert_section MA._16_Aposticha__.pe__.p_deceased2martyrs1 End-Insert
 		Insert_section MA._16_Aposticha__.glory__.pe__.gloryasglory_ End-Insert
 		Insert_section MA._16_Aposticha__.both__.pe__.theotokion_ End-Insert
-		Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+		Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 		Insert_section AP.pe12t End-Insert
 		Insert_section MA._18_End__.triodion_ektenia_wisdom End-Insert
 		Insert_section MA._20_Dismissal__.nocommemoration End-Insert

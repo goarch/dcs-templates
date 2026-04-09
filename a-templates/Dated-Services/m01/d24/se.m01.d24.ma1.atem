@@ -65,18 +65,19 @@ Status Final
 						Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
 						Insert_section MA._11_Kontakion__.sunday End-Insert
 						Insert_section SY.Synaxarion End-Insert
-						Insert_section KA.choir__._1345678 End-Insert
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						Insert_section MA1._09_KA__._1345678 End-Insert
+						Insert_section MA1._07_Gospel__.yes__.eo End-Insert
 						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA1._10_Canon__.ode9_intro End-Insert
 						Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
-						Insert_section KA.append__._9 End-Insert
-						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA1._09_KA__._9 End-Insert
+						Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 						Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_ End-Insert
-						Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+						Insert_section MA1._13_Lauds__.modeofweek__.for6 End-Insert
 						Insert_section MA._13_Lauds__.oc__.sunday End-Insert
 						Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA1._19_End_Options End-Insert
 					End-Section
 
 				Saturday use:
@@ -85,25 +86,25 @@ Status Final
 						Insert_section MA._01_Beginning__.alleluia__.mode2_saturday End-Insert
 						Insert_section AP.da__.matins_begin End-Insert
 						Insert_section MA._02_Kathisma1__.oc__.alleluia_saturday12 End-Insert
-						Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+						Insert_section MA1._07_Gospel__.no__.read__.intro_psalm50 End-Insert
 						Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
 						Insert_section SY.Synaxarion End-Insert
 						Insert_section MA._10_Canon__.ode8_heirmos__.me End-Insert
-						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA1._10_Canon__.ode9_intro End-Insert
 						Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
 						Insert_section MA._10_Canon__.ode9_heirmos__.me End-Insert
 						Insert_section MA._10_Canon__.ode9_end End-Insert
-						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 						Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
 						Insert_section TI.me.com1 End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.me__.theotokion End-Insert
-						Insert_section MA._13_Lauds__.modeofweek__.for4 End-Insert
+						Insert_section MA1._13_Lauds__.modeofweek__.for4 End-Insert
 						Insert_section MA._13_Lauds__.oc__.saturday_ End-Insert
 						Insert_section MA._14_Doxology__.small End-Insert
 						Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
 						Insert_section MA._16_Aposticha__.oc_ End-Insert
-						Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+						Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 						Insert_section AP.da__.matins_end End-Insert
 						Insert_section MA._18_End__.ektenia_wisdom End-Insert
 						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
@@ -117,15 +118,15 @@ Status Final
 						Insert_section MA._01_Beginning__.modeofday End-Insert
 						Insert_section AP.da__.matins_begin End-Insert
 						Insert_section MA._02_Kathisma1__.oc__.weekday123 End-Insert
-						Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+						Insert_section MA1._07_Gospel__.no__.read__.intro_psalm50 End-Insert
 						Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
 						Insert_section SY.Synaxarion End-Insert
 						Insert_section MA._10_Canon__.ode8_heirmos__.me End-Insert
-						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA1._10_Canon__.ode9_intro End-Insert
 						Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
 						Insert_section MA._10_Canon__.ode9_heirmos__.me End-Insert
 						Insert_section MA._10_Canon__.ode9_end End-Insert
-						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 						Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
 						Insert_section TI.s._00_saint_.w End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
@@ -134,7 +135,7 @@ Status Final
 						Insert_section MA._14_Doxology__.append_small End-Insert
 						Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
 						Insert_section MA._16_Aposticha__.oc_ End-Insert
-						Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+						Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 						Insert_section AP.da__.matins_end End-Insert
 						Insert_section MA._18_End__.ektenia_wisdom End-Insert
 						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert

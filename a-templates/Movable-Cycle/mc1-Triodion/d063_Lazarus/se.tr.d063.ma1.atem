@@ -54,17 +54,17 @@ Status NA
 		Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
 		Insert_section MA._03_Kathisma2__.litany End-Insert
 		Insert_section MA._03_Kathisma2__.tr__.kath21gb21 End-Insert
-		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
+		Insert_section MA1._07_Gospel__.no__.read__.psalm50 End-Insert
 		Insert_section MA._11_Kontakion__.append__.tr_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Insert_section KA.choir__._1345678 End-Insert
-		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA1._09_KA__._1345678 End-Insert
+		Insert_section MA1._10_Canon__.ode9_intro End-Insert
 		Rubric sid ru.OmitMagnificat End-Rubric
 		Insert_section CAv.ode9.tr1.ti_hh12as00VV End-Insert
 		Insert_section TI.ct.tr.c2 End-Insert
 		Insert_section CAv.ode9.append.tr2.nt_1234asVVGB End-Insert
-		Insert_section KA.append__._9 End-Insert
-		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA1._09_KA__._9 End-Insert
+		Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 		Section block1
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode2 End-Title
@@ -72,7 +72,7 @@ Status NA
 			Hymn sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text @ver<r>sid ru.Twice</>End-Hymn
 		End-Section
 		Insert_section MA._12_Exaposteilarion__.append__.tr112 End-Insert
-		Insert_section MA._13_Lauds__.mode1__.for6 End-Insert
+		Insert_section MA1._13_Lauds__.mode1__.for6 End-Insert
 		Insert_section MA._13_Lauds__.tr__.i_12345678as12345678 End-Insert
 		Insert_section TI.g._ End-Insert
 		Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_.hymn End-Insert

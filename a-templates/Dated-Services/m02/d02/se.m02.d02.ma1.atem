@@ -64,14 +64,14 @@ Status Final
 				Insert_section MA._06_Antiphons__.sunday_.hypakoe End-Insert
 				Insert_section MA._06_Antiphons__.sunday_.antiphons End-Insert
 				Insert_section MA._06_Antiphons__.mode41_prokeimenon_.prokeimenon End-Insert
-				Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+				Insert_section MA1._07_Gospel__.yes__.me End-Insert
 				Insert_section MA._08_Supplication__.priest__.com End-Insert
 				Insert_section MA._11_Kontakion__.sunday End-Insert
 				Insert_section TI.k.f End-Insert
 				Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
 				Insert_section SY.Synaxarion End-Insert
-				Insert_section KA.choir__._1345678 End-Insert
-				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA1._09_KA__._1345678 End-Insert
+				Insert_section MA1._10_Canon__.ode9_intro End-Insert
 				Section megalynaria
 					Title role desig sid misc.Ode9 End-Title
 					Title role desig sid ti.Megalynaria<Tmode>sid me.m02.d02_gr_GR_cog.meMA.Ode9C1H.mode</>End-Title
@@ -87,14 +87,14 @@ Status Final
 					Para role chant sid me.m02.d02_gr_GR_cog.meMA.Ode9C1M10.text End-Para
 				End-Section
 				Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14MTrMTh End-Insert
-				Insert_section KA.append__._9 End-Insert
-				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA1._09_KA__._9 End-Insert
+				Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
 				Insert_section TI.tr.triodion End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.tr1 End-Insert
 				Insert_section TI.f End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
-				Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+				Insert_section MA1._13_Lauds__.modeofweek__.for6 End-Insert
 				Insert_section MA._13_Lauds__.oc__.s_1234as1234 End-Insert
 				Insert_section TI.f End-Insert
 				Insert_section MA._13_Lauds__.me__.p_1123as56meeting12 End-Insert
@@ -104,6 +104,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.me__.gloryasboth_.hymn End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA1._19_End_Options End-Insert
 			End-Section
 
 		otherwise use:
@@ -126,22 +127,22 @@ Status Final
 						Insert_section MA._06_Antiphons__.sunday_.hypakoe End-Insert
 						Insert_section MA._06_Antiphons__.sunday_.antiphons End-Insert
 						Insert_section MA._06_Antiphons__.mode41_prokeimenon_.prokeimenon End-Insert
-						Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+						Insert_section MA1._07_Gospel__.yes__.me End-Insert
 						Insert_section MA._08_Supplication__.priest__.com End-Insert
 						Insert_section MA._11_Kontakion__.sunday End-Insert
 						Insert_section TI.k.f End-Insert
 						Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
 						Insert_section SY.Synaxarion End-Insert
-						Insert_section KA.choir__._1345678 End-Insert
-						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA1._09_KA__._1345678 End-Insert
+						Insert_section MA1._10_Canon__.ode9_intro End-Insert
 						Insert_section Instance01.megalynaria End-Insert
 						Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14MTrMTh End-Insert
-						Insert_section KA.append__._9 End-Insert
-						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA1._09_KA__._9 End-Insert
+						Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 						Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
 						Insert_section TI.f End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.me__.exap11 End-Insert
-						Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+						Insert_section MA1._13_Lauds__.modeofweek__.for6 End-Insert
 						Insert_section MA._13_Lauds__.oc__.s_1234as1234 End-Insert
 						Insert_section TI.f End-Insert
 						Insert_section MA._13_Lauds__.me__.p_1123as56meeting12 End-Insert
@@ -149,6 +150,7 @@ Status Final
 						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 						Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA1._19_End_Options End-Insert
 					End-Section
 				otherwise use:
 					Section Instance_Weekday
@@ -160,23 +162,24 @@ Status Final
 						Insert_section MA._03_Kathisma2__.append__.me__.kath21gb21_ End-Insert
 						Insert_section MA._05_Kathisma3__.append__.me__.kath31gb31_ End-Insert
 						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
-						Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+						Insert_section MA1._07_Gospel__.yes__.me End-Insert
 						Insert_section MA._08_Supplication__.priest__.com End-Insert
 						Insert_section MA._11_Kontakion__.me1_ End-Insert
 						Insert_section SY.Synaxarion End-Insert
-						Insert_section KA.choir__._1345678 End-Insert
-						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+						Insert_section MA1._09_KA__._1345678 End-Insert
+						Insert_section MA1._10_Canon__.ode9_intro End-Insert
 						Insert_section Instance01.megalynaria End-Insert
 						Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14MTrMTh End-Insert
-						Insert_section KA.append__._9 End-Insert
-						Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+						Insert_section MA1._09_KA__._9 End-Insert
+						Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 						Insert_section MA._12_Exaposteilarion__.me__.exap111_ End-Insert
-						Insert_section MA._13_Lauds__.mode4__.for4 End-Insert
+						Insert_section MA1._13_Lauds__.mode4__.for4 End-Insert
 						Insert_section TI.stp.f End-Insert
 						Insert_section MA._13_Lauds__.me__.p_1123as3456 End-Insert
 						Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 						Insert_section MA._14_Doxology__.great End-Insert
 						Insert_section AP.me1_ End-Insert
+						Insert_section MA1._19_End_Options End-Insert
 					End-Section
 			end-when
 	end-when

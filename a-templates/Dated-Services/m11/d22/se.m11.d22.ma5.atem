@@ -126,7 +126,7 @@ Status Final
 				Insert_section MA._12_Exaposteilarion__.me__.alt1__.exap123t.exap1 End-Insert
 				Set_Date month 11 day 21 year 2026 End_Date
 					Insert_section TI.f End-Insert
-					Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Set_Date month 11 day 22 year 2026 End_Date
 				Insert_section MA._13_Lauds__.mode1__.for4 End-Insert
 				Insert_section TI.stp.s._00_saint_.m End-Insert

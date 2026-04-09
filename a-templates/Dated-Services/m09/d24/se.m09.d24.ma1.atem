@@ -69,19 +69,19 @@ Status Final
 				Insert_section TI.k.s._16_theotokos End-Insert
 				Insert_section MA._11_Kontakion__.append__.mealt11_.konoik_nt End-Insert
 				Insert_section SY.Synaxarion End-Insert
-				Insert_section KA.choir__._1345678 End-Insert
-				Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+				Insert_section MA1._09_KA__._1345678 End-Insert
+				Insert_section MA1._07_Gospel__.yes__.eo End-Insert
 				Insert_section MA._08_Supplication__.priest__.me1_mealt1 End-Insert
-				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA1._10_Canon__.ode9_intro End-Insert
 				Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
-				Insert_section KA.append__._9 End-Insert
-				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA1._09_KA__._9 End-Insert
+				Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
 				Insert_section TI.me.com1 End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section TI.s._16_theotokos End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
-				Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
+				Insert_section MA1._13_Lauds__.modeofweek__.for6 End-Insert
 				Insert_section MA._13_Lauds__.oc__.s_12as12 End-Insert
 				Insert_section TI.s._16_theotokos End-Insert
 				Section block1
@@ -99,6 +99,7 @@ Status Final
 				Insert_section MA._13_Lauds__.me__.i_123as6oneapostle3women2 End-Insert
 				Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA1._19_End_Options End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -114,23 +115,23 @@ Status Final
 				Insert_section MA._03_Kathisma2__.append__.me__.alt1__.kath21gb21_ End-Insert
 			//	Insert_section MA._05_Kathisma3__.append__.me__.alt1__.kath31gb31_ End-Insert
 				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
-				Insert_section MA._07_Gospel__.yes__.priest__.mealt1 End-Insert
+				Insert_section MA1._07_Gospel__.yes__.mealt1 End-Insert
 				Insert_section MA._08_Supplication__.priest__.me1_mealt1 End-Insert
 				Actor sid ac.Reader End-Actor
 				Insert_section TI.k.s._16_theotokos End-Insert
 				Insert_section MA._11_Kontakion__.append__.mealt11_.konoik_nt End-Insert
 				Insert_section SY.Synaxarion End-Insert
-				Insert_section KA.choir__._1345678 End-Insert
-				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA1._09_KA__._1345678 End-Insert
+				Insert_section MA1._10_Canon__.ode9_intro End-Insert
 				Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
-				Insert_section KA.append__._9 End-Insert
-				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA1._09_KA__._9 End-Insert
+				Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 				Actor sid ac.Choir End-Actor
 				Insert_section TI.e.me.com1 End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section TI.s._16_theotokos End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
-				Insert_section MA._13_Lauds__.mode4__.for6 End-Insert
+				Insert_section MA1._13_Lauds__.mode4__.for6 End-Insert
 				Insert_section TI.stp.s._16_theotokos End-Insert
 				Insert_section MA._13_Lauds__.me__.alt1__.p_123as123 End-Insert
 				Insert_section TI.me.com1 End-Insert
@@ -141,6 +142,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.s._16_theotokos End-Insert
 				Insert_section AP.mealt11_.hymn End-Insert
+				Insert_section MA1._19_End_Options End-Insert
 			End-Section
 	end-when
 

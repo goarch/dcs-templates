@@ -39,6 +39,7 @@ Status NA
 			Actor <ade>sid ac.Subdeacon</>End-Actor
 			Dialog <dde>sid eu.ordination_gr_GR_cog.euORD.SD.p102.text<r>sid ru.Thrice</></>End-Dialog
 			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r04 End-Rubric
+			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r05 End-Rubric
 		End-Section
 	End-Section
 

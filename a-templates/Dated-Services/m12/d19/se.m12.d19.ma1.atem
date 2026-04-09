@@ -73,17 +73,17 @@ Status Final
 				Insert_section AP.ga.martyr_mode4_.hymn End-Insert
 				Insert_section AP.both__.theotokion__.mode4_ End-Insert
 				Insert_section MA._02_Kathisma1__.oc__.weekday123 End-Insert
-				Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+				Insert_section MA1._07_Gospel__.no__.read__.intro_psalm50 End-Insert
 				Set_Date month 12 day 20 year 2026 End_Date
 					Insert_section TI.k.me.com2 End-Insert
 					Insert_section MA._11_Kontakion__.append__.me2_.konoik_nt End-Insert
 				Set_Date month 12 day 19 year 2026 End_Date
 				Insert_section SY.Different_Date__.Dec20_StIgnatius End-Insert
-				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA1._10_Canon__.ode9_intro End-Insert
 				Insert_section MA._10_Canon__.magnificat__.mode4 End-Insert
 				Insert_section MA._10_Canon__.ode9_heirmos__.me End-Insert
 				Insert_section MA._10_Canon__.ode9_end End-Insert
-				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 				Set_Date month 12 day 20 year 2026 End_Date
 					Insert_section TI.e.me.com2 End-Insert
 					Insert_section MA._12_Exaposteilarion__.append__.me__.exap2_ End-Insert
@@ -100,7 +100,7 @@ Status Final
 					Insert_section TI.g.me.com2 End-Insert
 					Insert_section MA._16_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode1 End-Insert
-				Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+				Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 					Insert_section TI.a.me.com2 End-Insert
 					Insert_section AP.ganame.Dec20__.ignatius_.hymn End-Insert
 				Set_Date month 12 day 19 year 2026 End_Date
@@ -119,21 +119,21 @@ Status Final
 				Insert_section AP.ga.martyr_mode4_ End-Insert
 				Insert_section AP.gloryboth__.theotokion__.mode4_ End-Insert
 				Insert_section MA._02_Kathisma1__.oc__.weekday123 End-Insert
-				Insert_section MA._07_Gospel__.no__.reader__.intro_psalm50 End-Insert
+				Insert_section MA1._07_Gospel__.no__.read__.intro_psalm50 End-Insert
 				Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
 				Insert_section SY.Synaxarion End-Insert
 				Insert_section MA._10_Canon__.ode8_heirmos__.me End-Insert
-				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+				Insert_section MA1._10_Canon__.ode9_intro End-Insert
 				Insert_section MA._10_Canon__.magnificat__.mode4 End-Insert
 				Insert_section MA._10_Canon__.ode9_heirmos__.me End-Insert
 				Insert_section MA._10_Canon__.ode9_end End-Insert
-				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section MA._12_Exaposteilarion__.weekday__.all End-Insert
 				Insert_section MA._13_Lauds__.read__.all End-Insert
 				Insert_section MA._14_Doxology__.append_small End-Insert
 				Insert_section MA._15_Litanies__.aftersmalldoxology End-Insert
 				Insert_section MA._16_Aposticha__.oc_ End-Insert
-				Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
+				Insert_section MA1._17_ItIsGood_Trisagion__.not_lent End-Insert
 				Insert_section AP.ga.martyr_mode4_ End-Insert
 				Insert_section AP.gloryboth__.endofmatins_theotokion__.mode4_ End-Insert
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert

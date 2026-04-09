@@ -50,10 +50,10 @@ Status NA
 		Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
 		Insert_section MA._11_Kontakion__.pascha_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Insert_section KA.choir__._1345678 End-Insert
+		Insert_section MA1._09_KA__._1345678 End-Insert
 		Insert_section PE.Pascha_Ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.pascha__.thrice_ End-Insert
-		Insert_section MA._13_Lauds__.mode4__.noStichologia End-Insert
+		Insert_section MA1._13_Lauds__.mode4__.noStichologia End-Insert
 		Insert_section MA._13_Lauds__.pe__.s_1234as3456 End-Insert
 		Insert_section MA._13_Lauds__.pascha End-Insert
 		Insert_section MA._13_Lauds__.gloryboth__.pascha_ End-Insert
@@ -84,8 +84,8 @@ Status NA
 		End-Section
 	//	Synaxarion inserted in menaion template
 		Section part2
-			Insert_section KA.choir__._1345678 End-Insert
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._09_KA__._1345678 End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section CAv.ode9.pa.ti_hh12asM1M2M3M4 End-Insert
 			Insert_section TI.c.s._05_evangelist End-Insert
 			Section ode9_me1_nt_123tasApApGB
@@ -112,7 +112,7 @@ Status NA
 			End-Section
 		End-Section
 		Section part3
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 			Insert_section MA._12_Exaposteilarion__.pascha__.once_ End-Insert
 			Insert_section TI.s._05_evangelist End-Insert
 			Section me_exap1
@@ -122,7 +122,7 @@ Status NA
 				Hymn sid me.m04.d25_gr_GR_cog.meMA.Exaposteilarion1.text @ver media-off End-Hymn
 			End-Section
 			Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
-			Insert_section MA._13_Lauds__.mode3__.noStichologia End-Insert
+			Insert_section MA1._13_Lauds__.mode3__.noStichologia End-Insert
 			Insert_section MA._13_Lauds__.pe__.s_123as123 End-Insert
 			Insert_section TI.s._05_evangelist End-Insert
 			Section lauds_me_p_123as456
@@ -175,8 +175,8 @@ Status NA
 		Section part2
 			Set_Date month 5 day 2 End_Date
 			Set_mcDay day 74 End_mcDay
-			Insert_section KA.choir__._1345678 End-Insert
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._09_KA__._1345678 End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section CAv.ode9.pa.ti_hh12asM1M2M3M4 End-Insert
 			Insert_section TI.c.s._00_saint_.m End-Insert
 			Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
@@ -194,12 +194,12 @@ Status NA
 		Section part3
 			Set_Date month 5 day 2 End_Date
 			Set_mcDay day 74 End_mcDay
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 			Insert_section MA._12_Exaposteilarion__.pascha__.once_ End-Insert
 			Insert_section TI.s._00_saint_.m End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
-			Insert_section MA._13_Lauds__.mode4__.noStichologia End-Insert
+			Insert_section MA1._13_Lauds__.mode4__.noStichologia End-Insert
 			Insert_section MA._13_Lauds__.pe__.s_123as123 End-Insert
 			Insert_section TI.s._00_saint_.m End-Insert
 			Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
@@ -230,7 +230,7 @@ Status NA
 			Insert_section MA._01_Beginning__.pascha End-Insert
 			Insert_section MA._06_Antiphons__.mode41_prokeimenon_.antiphon End-Insert
 			Insert_section MA._06_Antiphons__.mode41_prokeimenon_.prokeimenon End-Insert
-			Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+			Insert_section MA1._07_Gospel__.yes__.me End-Insert
 			Insert_section MA._08_Supplication__.priest__.com End-Insert
 			Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
 			Insert_section MA._11_Kontakion__.append__.pascha_ End-Insert
@@ -242,8 +242,8 @@ Status NA
 		Section part2
 			Set_Date month 5 day 8 End_Date
 			Set_mcDay day 74 End_mcDay
-			Insert_section KA.choir__._1345678 End-Insert
-			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA1._09_KA__._1345678 End-Insert
+			Insert_section MA1._10_Canon__.ode9_intro End-Insert
 			Insert_section CAv.ode9.pa.ti_hh12asM1M2M3M4 End-Insert
 			Insert_section TI.c.s._05_evangelist End-Insert
 			Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
@@ -261,12 +261,12 @@ Status NA
 		Section part3
 			Set_Date month 5 day 8 End_Date
 			Set_mcDay day 74 End_mcDay
-			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+			Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 			Insert_section MA._12_Exaposteilarion__.pascha__.once_ End-Insert
 			Insert_section TI.s._05_evangelist End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 			Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
-			Insert_section MA._13_Lauds__.mode4__.noStichologia End-Insert
+			Insert_section MA1._13_Lauds__.mode4__.noStichologia End-Insert
 			Insert_section MA._13_Lauds__.pe__.s_1234as1234 End-Insert
 			Insert_section TI.s._05_evangelist End-Insert
 			Insert_section MA._13_Lauds__.me__.p_1123as56apostles12 End-Insert

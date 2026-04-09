@@ -176,7 +176,7 @@ Status Final
 				Insert_section MA._12_Exaposteilarion__.festal End-Insert
 				Set_Date month 5 day 25 year 2026 End_Date
 				Insert_section TI.me.com1 End-Insert
-				Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.festal2 End-Insert
 				Insert_section MA._13_Lauds__.mode2__.for6 End-Insert
 				Insert_section MA._13_Lauds__.pe__.i_123as123 End-Insert

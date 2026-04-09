@@ -79,7 +79,7 @@ Status Final
 				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
 				Insert_section TI.e.me.com1 End-Insert
-				Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section TI.fsm End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap3_.nt End-Insert
 				Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
@@ -150,7 +150,7 @@ Status Final
 				Insert_section KA.append__._9 End-Insert
 				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section TI.e.me.com1 End-Insert
-				Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section TI.fsm End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap3_.nt End-Insert
 				Insert_section MA._13_Lauds__.mode1__.for6 End-Insert

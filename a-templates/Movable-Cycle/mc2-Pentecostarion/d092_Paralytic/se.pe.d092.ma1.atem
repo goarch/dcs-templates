@@ -57,24 +57,25 @@ Status NA
 		Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
 		Insert_section MA._11_Kontakion__.pe1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Insert_section KA.choir__._1345678 End-Insert
-		Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+		Insert_section MA1._09_KA__._1345678 End-Insert
+		Insert_section MA1._07_Gospel__.yes__.mc End-Insert
 		Insert_section MA._08_Supplication__.priest__.com End-Insert
-		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+		Insert_section MA1._10_Canon__.ode9_intro End-Insert
 		Insert_section CAv.ode9.pa.ti_hh12asM1M2M3M4 End-Insert
 		Insert_section CAv.ode9.append.pa.ti_t1t2asGMtrBMTh End-Insert
-		Insert_section KA.append__._9 End-Insert
-		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA1._09_KA__._9 End-Insert
+		Insert_section MA1._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.intro_ End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
 		Insert_section TI.pe._03_paralytic End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.pe__.exap1 End-Insert
-		Insert_section MA._13_Lauds__.modeofweek__.for4 End-Insert
+		Insert_section MA1._13_Lauds__.modeofweek__.for4 End-Insert
 		Insert_section MA._13_Lauds__.pe__.s_1234as3456 End-Insert
 		Insert_section MA._13_Lauds__.pascha End-Insert
 		Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_ End-Insert
 		Insert_section MA._13_Lauds__.both__.pascha_ End-Insert
 		Insert_section MA._14_Doxology__.sunday End-Insert
+		Insert_section MA1._19_End_Options End-Insert
 	End-Section
 
 End-Template
