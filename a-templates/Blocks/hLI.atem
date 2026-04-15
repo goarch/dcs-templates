@@ -73,7 +73,7 @@ Status NA
 		Section daily_double_commemoration
 			Insert_section hLI._01_Enarxis__.daily._01 End-Insert
 			Section _02
-				Insert_section LN.GreatLitany_double_commemoration_deacon_parentheses End-Insert
+				Insert_section LN.GreatLitany_double_commemoration_deacon_choir End-Insert
 				Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
 				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.title</>End-Title
 				Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.text</>End-Para
