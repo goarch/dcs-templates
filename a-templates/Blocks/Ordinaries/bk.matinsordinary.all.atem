@@ -1,0 +1,65 @@
+Template bk.matinsordinary.all
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+	Section paschal
+		Para role brc_matinsordinary_paschal sid misc.custcontent End-Para
+		Insert_section MA._00_Ordinary__.part1__.afterpascha End-Insert
+		Insert_section MA._00_Ordinary__.part2__.afterpascha End-Insert
+		Insert_section MA._00_Ordinary__.part3 End-Insert
+		Break page End_Break
+		Title role bmc_collapse sid template.titles_gr_GR_cog.clps.prayers.top End-Title
+		Insert_section MA._00_Ordinary__.part4 End-Insert
+		Title role emc_collapse sid template.titles_gr_GR_cog.clps.prayers.bottom End-Title
+		Break page End_Break
+		Insert_section MA._00_Ordinary__.part5 End-Insert
+		Insert_section MA._00_Ordinary__.part6 End-Insert
+		Para role erc_matinsordinary_paschal sid misc.custcontent End-Para
+	End-Section
+	Section ascension
+		Para role brc_matinsordinary_ascension sid misc.custcontent End-Para
+		Insert_section MA._00_Ordinary__.part1__.ascension End-Insert
+		Insert_section MA._00_Ordinary__.part2__.ascension End-Insert
+		Insert_section MA._00_Ordinary__.part3 End-Insert
+		Break page End_Break
+		Title role bmc_collapse sid template.titles_gr_GR_cog.clps.prayers.top End-Title
+		Insert_section MA._00_Ordinary__.part4 End-Insert
+		Title role emc_collapse sid template.titles_gr_GR_cog.clps.prayers.bottom End-Title
+		Break page End_Break
+		Insert_section MA._00_Ordinary__.part5 End-Insert
+		Insert_section MA._00_Ordinary__.part6 End-Insert
+		Para role erc_matinsordinary_ascension sid misc.custcontent End-Para
+	End-Section
+	Section normal
+		Para role brc_matinsordinary_normal sid misc.custcontent End-Para
+		Insert_section MA._00_Ordinary__.part1__.normal End-Insert
+		Insert_section MA._00_Ordinary__.part2__.parish End-Insert
+		Insert_section MA._00_Ordinary__.part3 End-Insert
+		Break page End_Break
+		Title role bmc_collapse sid template.titles_gr_GR_cog.clps.prayers.top End-Title
+		Insert_section MA._00_Ordinary__.part4 End-Insert
+		Title role emc_collapse sid template.titles_gr_GR_cog.clps.prayers.bottom End-Title
+		Break page End_Break
+		Insert_section MA._00_Ordinary__.part5 End-Insert
+		Insert_section MA._00_Ordinary__.part6 End-Insert
+		Para role erc_matinsordinary_normal sid misc.custcontent End-Para
+	End-Section
+
+End-Template

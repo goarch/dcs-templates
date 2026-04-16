@@ -47,6 +47,25 @@ Status NA
 				Insert_section Selector_MatinsOrdinary.parish End-Insert
 			Para role emc_matinsordinary sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 		End-Section
+		Section replace_content
+			when-movable-cycle-day-is
+				78 thru 108 use:
+					Section paschal
+						Para role brc_matinsordinary_paschal sid misc.custcontent End-Para
+						Para role erc_matinsordinary_paschal sid misc.custcontent End-Para
+					End-Section
+				110 thru 119 use:
+					Section ascension
+						Para role brc_matinsordinary_ascension sid misc.custcontent End-Para
+						Para role erc_matinsordinary_ascension sid misc.custcontent End-Para
+					End-Section
+				otherwise use:
+					Section normal
+						Para role brc_matinsordinary_normal sid misc.custcontent End-Para
+						Para role erc_matinsordinary_normal sid misc.custcontent End-Para
+					End-Section
+			end-when
+		End-Section
 		Section part1__
 			Section afterpascha
 				Title role desig sid ho.ho03_gr_GR_cog.hoMA.MatinsOrdinary.title End-Title
@@ -276,7 +295,7 @@ Status NA
 	Section _01_Beginning__
 		Section alleluia__
 			Section mode2_deceased
-			//	Insert_section MA._00_Ordinary__.html_link End-Insert
+				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
 				Actor sid ac.Choir End-Actor
@@ -290,7 +309,7 @@ Status NA
 				Para role chant sid pr.Alleluia3.text End-Para
 			End-Section
 			Section mode2_saturday
-			//	Insert_section MA._00_Ordinary__.html_link End-Insert
+				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
 				Actor sid ac.Choir End-Actor
@@ -305,7 +324,7 @@ Status NA
 				Para role chant sid pr.Alleluia3.text End-Para
 			End-Section
 			Section mode8_deceased
-			//	Insert_section MA._00_Ordinary__.html_link End-Insert
+				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
 				Actor sid ac.Choir End-Actor
@@ -322,7 +341,7 @@ Status NA
 		End-Section
 		Section lent__
 			Section alleluia
-			//	Insert_section MA._00_Ordinary__.html_link End-Insert
+				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
 				Actor sid ac.Choir End-Actor
@@ -351,7 +370,7 @@ Status NA
 			End-Section
 		End-Section
 		Section modeofday
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -379,7 +398,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section modeofweek
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -389,7 +408,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode1
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -399,7 +418,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode2
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -409,7 +428,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode3
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -419,7 +438,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode4
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Section hymn
 				Para role bkmrk02 sid misc.bookmark End-Para
@@ -431,7 +450,7 @@ Status NA
 			End-Section
 		End-Section
 		Section mode5
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -441,7 +460,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode6
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -451,7 +470,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode7
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
@@ -461,7 +480,7 @@ Status NA
 			Insert_section verses End-Insert
 		End-Section
 		Section mode8
-		//	Insert_section MA._00_Ordinary__.html_link End-Insert
+			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Actor sid ac.Choir End-Actor
