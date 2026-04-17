@@ -22,6 +22,7 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
+			Para role brc_conli_part1 sid misc.custcontent End-Para
 			Para role bcc_li_enarxis sid misc.custcontent End-Para
 				Insert_section LI._01_Enarxis__.daily End-Insert
 			Para role ecc_li_enarxis sid misc.custcontent End-Para
@@ -1967,7 +1968,9 @@ Status NA
 				Insert_section LI._06_Trisagion__.basil End-Insert
 			Para role ecc_li_trisagion sid misc.custcontent End-Para
 			Para role bcc_hli_trisagion sid misc.custcontent End-Para
-				Insert_section hLI._06_Trisagion__.one_choir__.basil End-Insert
+				Insert_section hLI._06_Trisagion__.one_choir__.basil.title_prayer End-Insert
+				Para role erc_conli_part1 sid misc.custcontent End-Para
+				Insert_section hLI._06_Trisagion__.one_choir__.basil.hymn End-Insert
 			Para role ecc_hli_trisagion sid misc.custcontent End-Para
 			Insert_section LI1._07_Fimi End-Insert
 		End-Section
@@ -1976,7 +1979,9 @@ Status NA
 				Insert_section LI._06_Trisagion__.chrys End-Insert
 			Para role ecc_li_trisagion sid misc.custcontent End-Para
 			Para role bcc_hli_trisagion sid misc.custcontent End-Para
-				Insert_section hLI._06_Trisagion__.one_choir__.chrys End-Insert
+				Insert_section hLI._06_Trisagion__.one_choir__.chrys.title_prayer End-Insert
+				Para role erc_conli_part1 sid misc.custcontent End-Para
+				Insert_section hLI._06_Trisagion__.one_choir__.chrys.hymn End-Insert
 			Para role ecc_hli_trisagion sid misc.custcontent End-Para
 			Insert_section LI1._07_Fimi End-Insert
 		End-Section
@@ -2047,27 +2052,27 @@ Status NA
 			Insert_section LI1.prayers_before_communion End-Insert
 
 			Para role bcc_li_liturgy sid misc.custcontent End-Para
-				Insert_section LI.communionhymn End-Insert
+				Insert_section LI1.communionhymn End-Insert
 				Insert_section LI._08_Liturgy__.chrys_default.part2 End-Insert
 			Para role ecc_li_liturgy sid misc.custcontent End-Para
 
 			Para role bcc_hli_liturgy sid misc.custcontent End-Para
-				Insert_section hLI.communionhymn End-Insert
+				Insert_section LI1.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_default.part2 End-Insert
 			Para role ecc_hli_liturgy sid misc.custcontent End-Para
 
 			Para role bcc_hli_ordination_deacon sid misc.custcontent End-Para
-				Insert_section hLI.communionhymn End-Insert
+				Insert_section LI1.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_ordination__.deacon.do_block2 End-Insert
 			Para role ecc_hli_ordination_deacon sid misc.custcontent End-Para
 
 			Para role bcc_hli_ordination_priest sid misc.custcontent End-Para
-				Insert_section hLI.communionhymn End-Insert
+				Insert_section LI1.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest.po_block2 End-Insert
 			Para role ecc_hli_ordination_priest sid misc.custcontent End-Para
 
 			Para role bcc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
-				Insert_section hLI.communionhymn End-Insert
+				Insert_section LI1.communionhymn End-Insert
 				Insert_section hLI._08_Liturgy__.chrys_ordination__.priest_and_deacon.pdo_block2 End-Insert
 			Para role ecc_hli_ordination_priest_and_deacon sid misc.custcontent End-Para
 
@@ -2250,6 +2255,39 @@ Status NA
 					Insert_section hLI.after_gospel_litanies.chrys.ShortLitany End-Insert
 				Para role ecc_hli_opt_litanies sid misc.custcontent End-Para
 			End-Section
+		End-Section
+
+		Section LI_chrys_default_part1
+			Insert_section LI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.theotokoshymn End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.commemorations.saints End-Insert
+		//	Para role bcc_select_com_bishop1 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_bishop1 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_bishop12 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_bishop12 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_bishop13 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_bishop13 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_bishop3 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_bishop3 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_clergy1 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_clergy1 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_clergy3 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_clergy3 sid misc.custcontent End-Para
+		
+			
+			
+			Insert_section LI._08_Liturgy__.chrys_default.part1.commemorations.all End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.commemorations.world End-Insert
+			Insert_section LI._08_Liturgy__.chrys_default.part1.litany_upto_communion End-Insert
+		End-Section
+
+		Section communionhymn
+			Para role brc_conli_communionhymn sid misc.custcontent End-Para
+				Actor <ach>sid ac.Choir</>End-Actor
+				Insert_section Selector_CommunionHymn.Chrysostom End-Insert
+			Para role erc_conli_communionhymn sid misc.custcontent End-Para
 		End-Section
 
 		Section prayers_before_communion

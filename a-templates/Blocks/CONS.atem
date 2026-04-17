@@ -515,248 +515,285 @@ Status NA
 
 	Section LI_01
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4000.title End-Title
-		Actor <ahi>sid ac.Hierarch</>End-Actor
-		Dialog <dhi>sid prayers_gr_GR_cog.pr.enarxis02.text</>End-Dialog
-		Para role dialogwithactor<dware><actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text</>End-Para
-		Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
-		Insert_section LN.ShortLitany00_deacon_choir End-Insert
-		Actor <ahi>sid ac.Hierarch</>End-Actor
-		Dialog <dhi>sid pr.exc05.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet01.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ahi>sid ac.Hierarch</>End-Actor
-
-		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4101.text</>End-Para
-		Para role prayer <dhi>sid pr.exc07b.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.pet32.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-		Actor <ahi>sid ac.Hierarch</>End-Actor
-		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4102.text</>End-Para
-		Para role prayer <dhi>sid pr.exc14.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-
-		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4200.title End-Title
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4201.rubric End-Rubric
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4202.rubric End-Rubric
-		Section ode1
-			Actor <ach>sid ac.Choir</>End-Actor
-			Insert_section TI.c.con End-Insert
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role desig sid misc.Ode1 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode1.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode11.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode11.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode11.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode12.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode13.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode1T.text @ver media-off End-Hymn
+	//	Actor <ahi>sid ac.Hierarch</>End-Actor
+	//	Dialog <dhi>sid prayers_gr_GR_cog.pr.enarxis02.text</>End-Dialog
+		Section Enarxis
+			when-movable-cycle-day-is
+				71, 72, 73, 74, 75, 76, 77, 109 use:
+					Section pascha
+					//	Actor <ade>sid ac.Deacon</>End-Actor
+					//	Dialog <dde>sid pr.res08.text </>End-Dialog
+						Actor <ahi>sid ac.Hierarch</>End-Actor
+						Dialog <dhi>sid pr.enarxis02.text </>End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Insert_section hPE.Pascha_Beginning End-Insert
+					End-Section
+				78 thru 108 use:
+					Section afterpascha
+					//	Actor <ade>sid ac.Deacon</>End-Actor
+					//	Dialog <dde>sid pr.res08.text </>End-Dialog
+						Actor <apr>sid ac.Hierarch</>End-Actor
+						Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
+						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Actor <ahi>sid ac.Hierarch</>End-Actor
+						Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+						Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+						Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+						Actor <ach>sid ac.Choir</>End-Actor
+						Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+						Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+						Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+						Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+					End-Section
+				otherwise use:
+				//	Actor <ade>sid ac.Deacon</>End-Actor
+				//	Dialog <dde>sid pr.res08.text </>End-Dialog
+					Actor <apr>sid ac.Hierarch</>End-Actor
+					Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
+					Para role dialogwithactor<dware><actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text</>End-Para
+			end-when
 		End-Section
-		Section ode3
-			Title role desig sid misc.Ode3 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode3.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode31.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode31.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode31.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode32.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode33.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode3T.text @ver media-off End-Hymn
-		End-Section
-
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4203.rubric End-Rubric
-		Title role mode sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.mode End-Title
-		Hymn sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.text @ver End-Hymn
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4204.rubric End-Rubric
-
-		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
-		Section Epistle1
-			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4206.title End-Title
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Actor <are>sid ac.Reader</>End-Actor
-			Insert_section bk.ap.va.forConsecration.ep1_title End-Insert
-			Insert_section bk.ap.va.forConsecration.ep1_prokeimenon End-Insert
-			Insert_section bk.ap.va.forConsecration.ep1_verse End-Insert
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
-			Actor <are>sid ac.Reader</>End-Actor
-			Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.book_string sid pr.epi01b.text</>End-Dialog
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Actor <are>sid ac.Reader</>End-Actor
-			Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.chapverse End-Title
-			Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.text @ver</>End-Reading
+		Section Procession
+			Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
+			Insert_section LN.ShortLitany00_deacon_choir End-Insert
 			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Dialog <dhi>sid pr.epi02.text</>End-Dialog
-		End-Section
-		Section Gospel1
-			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4207.title End-Title
-			Actor <ach>sid ac.Choir</>End-Actor
-			Media sid pr.Alleluia3.text End-Media
-			Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+			Dialog <dhi>sid pr.exc05.text</>End-Dialog
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet01.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+			Actor <ahi>sid ac.Hierarch</>End-Actor
+	
+			Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4101.text</>End-Para
+			Para role prayer <dhi>sid pr.exc07b.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Dialog <dhi>sid pr.gos03a.text sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.book_string sid pr.gos03b.text</>End-Dialog
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
-			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Title role chapverse sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.chapverse End-Title
-			Reading <dhi>sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.text @ver</>End-Reading
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
-		End-Section
-
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4208.rubric End-Rubric
-		Section ode4
-			Actor <ach>sid ac.Choir</>End-Actor
-			Title role desig sid misc.Ode4 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode4.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode41.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode41.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode41.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode42.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode43.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode4T.text @ver media-off End-Hymn
-		End-Section
-		Section ode5
-			Title role desig sid misc.Ode5 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode5.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode51.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode51.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode51.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode52.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode53.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode5T.text @ver media-off End-Hymn
-		End-Section
-		Section ode6
-			Title role desig sid misc.Ode6 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode6.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode61.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode61.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode61.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode62.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode63.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode6T.text @ver media-off End-Hymn
-		End-Section
-
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4209.rubric End-Rubric
-		Title role mode sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.mode End-Title
-		Hymn sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.text @ver End-Hymn
-
-		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
-		Section Epistle2
-			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4210.title End-Title
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Insert_section bk.ap.va.forConsecration.ep2_title End-Insert
-			Insert_section bk.ap.va.forConsecration.ep2_prokeimenon End-Insert
-			Insert_section bk.ap.va.forConsecration.ep2_verse End-Insert
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
-			Actor <are>sid ac.Reader</>End-Actor
-			Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.book_string sid pr.epi01b.text</>End-Dialog
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Actor <are>sid ac.Reader</>End-Actor
-			Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.chapverse End-Title
-			Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.text @ver</>End-Reading
-			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Dialog <dhi>sid pr.epi02.text</>End-Dialog
-		End-Section
-		Section Gospel2
-			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4211.title End-Title
-			Actor <ach>sid ac.Choir</>End-Actor
-			Media sid pr.Alleluia3.text End-Media
-			Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
 			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
-			Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
+			Dialog <dde>sid pr.pet32.text</>End-Dialog
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Dialog <dhi>sid pr.gos03a.text sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+			Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4102.text</>End-Para
+			Para role prayer <dhi>sid pr.exc14.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+	
+			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4200.title End-Title
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4201.rubric End-Rubric
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4202.rubric End-Rubric
+			Section ode1
+				Actor <ach>sid ac.Choir</>End-Actor
+				Insert_section TI.c.con End-Insert
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role desig sid misc.Ode1 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode1.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode11.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode11.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode11.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode12.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode13.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode1T.text @ver media-off End-Hymn
+			End-Section
+			Section ode3
+				Title role desig sid misc.Ode3 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode3.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode31.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode31.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode31.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode32.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode33.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode3T.text @ver media-off End-Hymn
+			End-Section
+	
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4203.rubric End-Rubric
+			Title role mode sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.mode End-Title
+			Hymn sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.text @ver End-Hymn
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4204.rubric End-Rubric
+	
+			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
+			Section Epistle1
+				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4206.title End-Title
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Actor <are>sid ac.Reader</>End-Actor
+				Insert_section bk.ap.va.forConsecration.ep1_title End-Insert
+				Insert_section bk.ap.va.forConsecration.ep1_prokeimenon End-Insert
+				Insert_section bk.ap.va.forConsecration.ep1_verse End-Insert
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
+				Actor <are>sid ac.Reader</>End-Actor
+				Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.book_string sid pr.epi01b.text</>End-Dialog
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Actor <are>sid ac.Reader</>End-Actor
+				Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.chapverse End-Title
+				Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.text @ver</>End-Reading
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Dialog <dhi>sid pr.epi02.text</>End-Dialog
+			End-Section
+			Section Gospel1
+				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4207.title End-Title
+				Actor <ach>sid ac.Choir</>End-Actor
+				Media sid pr.Alleluia3.text End-Media
+				Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
+				Actor <ade>sid ac.Deacon</>End-Actor
+				Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+				Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Dialog <dhi>sid pr.gos03a.text sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.book_string sid pr.gos03b.text</>End-Dialog
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Title role chapverse sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.chapverse End-Title
+				Reading <dhi>sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.text @ver</>End-Reading
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+			End-Section
+	
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4208.rubric End-Rubric
+			Section ode4
+				Actor <ach>sid ac.Choir</>End-Actor
+				Title role desig sid misc.Ode4 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode4.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode41.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode41.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode41.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode42.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode43.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode4T.text @ver media-off End-Hymn
+			End-Section
+			Section ode5
+				Title role desig sid misc.Ode5 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode5.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode51.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode51.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode51.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode52.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode53.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode5T.text @ver media-off End-Hymn
+			End-Section
+			Section ode6
+				Title role desig sid misc.Ode6 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode6.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode61.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode61.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode61.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode62.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode63.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode6T.text @ver media-off End-Hymn
+			End-Section
+	
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4209.rubric End-Rubric
+			Title role mode sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.mode End-Title
+			Hymn sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.text @ver End-Hymn
+	
+			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
+			Section Epistle2
+				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4210.title End-Title
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Insert_section bk.ap.va.forConsecration.ep2_title End-Insert
+				Insert_section bk.ap.va.forConsecration.ep2_prokeimenon End-Insert
+				Insert_section bk.ap.va.forConsecration.ep2_verse End-Insert
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
+				Actor <are>sid ac.Reader</>End-Actor
+				Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.book_string sid pr.epi01b.text</>End-Dialog
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Actor <are>sid ac.Reader</>End-Actor
+				Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.chapverse End-Title
+				Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.text @ver</>End-Reading
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Dialog <dhi>sid pr.epi02.text</>End-Dialog
+			End-Section
+			Section Gospel2
+				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4211.title End-Title
+				Actor <ach>sid ac.Choir</>End-Actor
+				Media sid pr.Alleluia3.text End-Media
+				Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
+				Actor <ade>sid ac.Deacon</>End-Actor
+				Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+				Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Dialog <dhi>sid pr.gos03a.text sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
+				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Title role chapverse sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.chapverse End-Title
+				Reading <dhi>sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.text @ver</>End-Reading
+				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+			End-Section
+	
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4212.rubric End-Rubric
+			Section ode7
+				Actor <ach>sid ac.Choir</>End-Actor
+				Title role desig sid misc.Ode7 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode7.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode71.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode71.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode71.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode72.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode73.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode7T.text @ver media-off End-Hymn
+			End-Section
+			Section ode8
+				Title role desig sid misc.Ode8 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode8.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode81.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode81.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode81.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode82.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode83.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode8T.text @ver media-off End-Hymn
+			End-Section
+			Section ode9
+				Title role desig sid misc.Ode9 End-Title
+				Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode9.text End-Media
+				Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode91.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode91.melody</>End-Title
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver End-Hymn
+				Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode93.text @ver End-Hymn
+				Verse sid pr.verse_Theotokos.text End-Verse
+				Title role desig sid ti.Theotokion End-Title
+				Hymn sid eu.consecration_gr_GR_cog.euCA.Ode9T.text @ver media-off End-Hymn
+			End-Section
+	
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4213.rubric End-Rubric
+			Title role mode sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4214.mode End-Title
+			Hymn sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4215.text	@ver End-Hymn
+			Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4216.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor
-			Title role chapverse sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.chapverse End-Title
-			Reading <dhi>sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.text @ver</>End-Reading
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
+			Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4217.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+			Actor <ahi>sid ac.Hierarch</>End-Actor
 		End-Section
-
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4212.rubric End-Rubric
-		Section ode7
-			Actor <ach>sid ac.Choir</>End-Actor
-			Title role desig sid misc.Ode7 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode7.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode71.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode71.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode71.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode72.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode73.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode7T.text @ver media-off End-Hymn
-		End-Section
-		Section ode8
-			Title role desig sid misc.Ode8 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode8.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode81.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode81.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode81.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode82.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode83.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode8T.text @ver media-off End-Hymn
-		End-Section
-		Section ode9
-			Title role desig sid misc.Ode9 End-Title
-			Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode9.text End-Media
-			Title role desig sid eu.consecration_gr_GR_cog.euCA.Ode91.mode<Tmode>sid eu.consecration_gr_GR_cog.euCA.Ode91.melody</>End-Title
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver End-Hymn
-			Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode93.text @ver End-Hymn
-			Verse sid pr.verse_Theotokos.text End-Verse
-			Title role desig sid ti.Theotokion End-Title
-			Hymn sid eu.consecration_gr_GR_cog.euCA.Ode9T.text @ver media-off End-Hymn
-		End-Section
-
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4213.rubric End-Rubric
-		Title role mode sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4214.mode End-Title
-		Hymn sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4215.text	@ver End-Hymn
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4216.rubric End-Rubric
-		Actor <ahi>sid ac.Hierarch</>End-Actor
-		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4217.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ahi>sid ac.Hierarch</>End-Actor
 	End-Section
 	Section LI_02_
 		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4218.text sid client_gr_GR_cog.cl.consecration.prayer1 sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4219.text</>End-Para
@@ -808,7 +845,7 @@ Status NA
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 	End-Section
 	Section LI_04_
-		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4405.text sid client_gr_GR_cog.cl.relics.saint1 sid client_gr_GR_cog.cl.relics.saint2 sid client_gr_GR_cog.cl.relics.saint3 sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4406.text</>End-Para
+		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4405.text sid client_gr_GR_cog.cl.relic_saints.text sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4406.text</>End-Para
 	End-Section
 	Section LI_05
 		Para role prayer <dhi>sid pr.exc20.text</>End-Para
@@ -1069,6 +1106,10 @@ Status NA
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1003.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+		Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
+		Para role bkmrk06 sid misc.bookmark End-Para
+
+	//	Para role brc_conli_cherubic sid misc.custcontent End-Para
 		Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
 		Media sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
 		Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text @ver media-off End-Hymn
@@ -1098,6 +1139,8 @@ Status NA
 	Section LI_23
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver End-Hymn
+	//	Para role erc_conli_cherubic sid misc.custcontent End-Para
+
 		Section litany_creed
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1140.rubric End-Rubric
 			Insert_section LN.CompLitanyLI_deacon_choir End-Insert
