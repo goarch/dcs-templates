@@ -233,18 +233,18 @@ Status NA
 
 	Section GreatLitany_double_commemoration_deacon_choir
 		Insert_section GreatLitany_deacon_choir.part1 End-Insert
-		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
+		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Insert_section GreatLitany_deacon_choir.part2 End-Insert
 	End-Section
 	Section GreatLitany_double_commemoration_deacon_compact
 		Insert_section GreatLitany_deacon_compact.part1 End-Insert
-		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
+		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
 		Insert_section GreatLitany_deacon_compact.part2 End-Insert
 	End-Section
 	Section GreatLitany_double_commemoration_deacon_parentheses
 		Insert_section GreatLitany_deacon_parentheses.part1 End-Insert
-		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
+		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
 		Dialog<i>sid misc.parenthesis.open sid pr.res01.text sid misc.parenthesis.close</>End-Dialog
 		Dialog sid pr.pet07L.text End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res01.text sid misc.parenthesis.close</>End-Dialog
@@ -513,18 +513,18 @@ Status NA
 
 	Section GreatLitany_Vespers_HolySpirit_double_commemoration_deacon_choir
 		Insert_section GreatLitany_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
+		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Insert_section GreatLitany_Vespers_HolySpirit_deacon_choir.part2 End-Insert
 	End-Section
 	Section GreatLitany_Vespers_HolySpirit_double_commemoration_deacon_compact
 		Insert_section GreatLitany_deacon_compact.part1 End-Insert
-		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
+		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
 		Insert_section GreatLitany_Vespers_HolySpirit_deacon_compact.part2 End-Insert
 	End-Section
 	Section GreatLitany_Vespers_HolySpirit_double_commemoration_deacon_parentheses
 		Insert_section GreatLitany_deacon_parentheses.part1 End-Insert
-		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
+		Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_c sid pr.pet06b.text</> End-Dialog //with client specific bishop's name
 		Insert_section GreatLitany_Vespers_HolySpirit_deacon_parentheses.part2 End-Insert
 	End-Section
 
@@ -1053,7 +1053,7 @@ Status NA
 
 	Section FervLitany_long_double_commemoration_deacon_choir
 		Insert_section LN.FervLitany_long_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dde>sid pr.exc11.text</> End-Dialog
@@ -1061,7 +1061,7 @@ Status NA
 	End-Section
 	Section FervLitany_long_double_commemoration_deacon_compact
 		Insert_section LN.FervLitany_long_deacon_compact.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_compact.part2 End-Insert
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dde>sid pr.exc11.text</> End-Dialog
@@ -1069,7 +1069,7 @@ Status NA
 	End-Section
 	Section FervLitany_long_double_commemoration_deacon_parentheses
 		Insert_section LN.FervLitany_long_deacon_parentheses.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_parentheses.part2 End-Insert
 		Insert_section LN.FervLitany_long_deacon_parentheses.part3 End-Insert
 	End-Section
@@ -1215,17 +1215,17 @@ Status NA
 
 	Section FervLitany_short_double_commemoration_deacon_choir
 		Insert_section LN.FervLitany_short_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_short_deacon_choir.part2 End-Insert
 	End-Section
 	Section FervLitany_short_double_commemoration_deacon_compact
 		Insert_section LN.FervLitany_short_deacon_compact.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_short_deacon_compact.part2 End-Insert
 	End-Section
 	Section FervLitany_short_double_commemoration_deacon_parentheses
 		Insert_section LN.FervLitany_short_deacon_parentheses.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid ru.And sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_short_deacon_parentheses.part2 End-Insert
 	End-Section
 

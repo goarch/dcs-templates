@@ -2267,14 +2267,10 @@ Status NA
 		//	Para role ecc_select_com_bishop1 sid misc.custcontent End-Para
 		//	Para role bcc_select_com_bishop12 sid misc.custcontent End-Para
 		//	Para role ecc_select_com_bishop12 sid misc.custcontent End-Para
-		//	Para role bcc_select_com_bishop13 sid misc.custcontent End-Para
-		//	Para role ecc_select_com_bishop13 sid misc.custcontent End-Para
-		//	Para role bcc_select_com_bishop3 sid misc.custcontent End-Para
-		//	Para role ecc_select_com_bishop3 sid misc.custcontent End-Para
 		//	Para role bcc_select_com_clergy1 sid misc.custcontent End-Para
 		//	Para role ecc_select_com_clergy1 sid misc.custcontent End-Para
-		//	Para role bcc_select_com_clergy3 sid misc.custcontent End-Para
-		//	Para role ecc_select_com_clergy3 sid misc.custcontent End-Para
+		//	Para role bcc_select_com_clergy2 sid misc.custcontent End-Para
+		//	Para role ecc_select_com_clergy2 sid misc.custcontent End-Para
 		
 			
 			
