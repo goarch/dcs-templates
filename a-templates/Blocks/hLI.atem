@@ -26,19 +26,19 @@ Status NA
 			Section _01
 				when-movable-cycle-day-is
 					71, 72, 73, 74, 75, 76, 77, 109 use:
+						Actor <ade>sid ac.Deacon</>End-Actor
+						Dialog <dde>sid pr.res08.text </>End-Dialog
+						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Section pascha
-							Actor <ade>sid ac.Deacon</>End-Actor
-							Dialog <dde>sid pr.res08.text </>End-Dialog
-							Actor <ahi>sid ac.Hierarch</>End-Actor
 							Dialog <dhi>sid pr.enarxis02.text </>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 							Insert_section hPE.Pascha_Beginning End-Insert
 						End-Section
 					78 thru 108 use:
+						Actor <ade>sid ac.Deacon</>End-Actor
+						Dialog <dde>sid pr.res08.text </>End-Dialog
+						Actor <apr>sid ac.Priest</>End-Actor
 						Section afterpascha
-							Actor <ade>sid ac.Deacon</>End-Actor
-							Dialog <dde>sid pr.res08.text </>End-Dialog
-							Actor <apr>sid ac.Priest</>End-Actor
 							Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 							Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -55,8 +55,10 @@ Status NA
 						Actor <ade>sid ac.Deacon</>End-Actor
 						Dialog <dde>sid pr.res08.text </>End-Dialog
 						Actor <apr>sid ac.Priest</>End-Actor
-						Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						Section normal
+							Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+						End-Section
 				end-when
 			End-Section
 			Section _02
@@ -824,7 +826,7 @@ Status NA
 						Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text </>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					End-Section
-					Section greatentrance_bishop0
+					Section great_entrance
 						Actor <ahi>sid ac.Hierarch</>End-Actor
 						Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112.rubric End-Rubric
 					//	Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112a.text sid client_gr_GR_cog.cl.bishop0.name_c sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112b.text </>End-Dialog
@@ -950,12 +952,8 @@ Status NA
 						Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
 						Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-						Para role brc_conli_additional_metropolitan sid misc.custcontent End-Para
-						Para role erc_conli_additional_metropolitan sid misc.custcontent End-Para
-						Para role brc_conli_priests_for_bishop sid misc.custcontent End-Para
-							Actor <apr>sid ac.Priests</>End-Actor
-							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
-						Para role erc_conli_priests_for_bishop sid misc.custcontent End-Para
+						Actor <apr>sid ac.Priests</>End-Actor
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
 					Section all
@@ -1174,7 +1172,7 @@ Status NA
 				End-Section
 				Section part2_theotokoshymn
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
-					Insert_section hLI._08_Liturgy__.chrys_default.part1.greatentrance_bishop0 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.great_entrance End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.cherubic_part2 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
@@ -1207,7 +1205,7 @@ Status NA
 			Section deacon
 				Section do_block1
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
-					Insert_section hLI._08_Liturgy__.chrys_default.part1.greatentrance_bishop0 End-Insert
+					Insert_section hLI._08_Liturgy__.chrys_default.part1.great_entrance End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.cherubic_part2 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.litany_creed End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.anaphora End-Insert
