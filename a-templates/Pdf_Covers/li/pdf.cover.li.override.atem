@@ -1,0 +1,65 @@
+Template pdf.cover.li.override
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+Switch-Version L2 End-Switch-Version
+
+		Insert_section pdf.cover.links.lookup.invisible End-Insert
+		Title role cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+
+		when-date-is
+			Jan 1 use:
+				Section title_me
+					when-date-is
+						Jan 1 use:
+							Title role cover1 sid lib.pdf.cover End-Title
+							Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
+						otherwise use:
+							Title role cover1 sid li.pdf.cover End-Title
+							Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
+					end-when
+				End-Section
+			May 30 use:
+				Section May30_2026_client_consecration
+					Insert_section title_me End-Insert
+						Section ceremony
+							Title role cover5 sid ti.ConsecrationOfAChurch End-Title
+						End-Section
+					Section commeoration
+						when-name-of-day-is
+							Sunday use:
+							//	Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+							//	Title role cover4 rid meDA.commemoration.first_short End-Title
+							otherwise use:
+								Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+								Title role cover4 rid meDA.commemoration.full End-Title
+						end-when
+					End-Section
+				End-Section
+		end-when
+
+		Title role cover6 sid pref.generation_alwb.cover.version End-Title
+
+Switch-Version Both End-Switch-Version
+
+End-Template

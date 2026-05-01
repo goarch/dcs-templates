@@ -49,14 +49,13 @@ Switch-Version L2 End-Switch-Version
 						Title role cover4 sid me.m02.d07_gr_GR_cog.meDA.commemoration.first End-Title
 					End-Section
 				End-Section
-			May 7 use:
-				Section May7_2022_client_portjeffersonnygoa
+			May 30 use:
+				Section May30_2026_client_consecration
 					Insert_section title End-Insert
 					Section ceremony
-						Title role cover5 sid misc.book.Euchologion.name sid d.delimiter sid ti.ConsecrationOfAChurch End-Title
+						Title role cover5 sid ti.ConsecrationOfAChurch End-Title
 					End-Section
 					Section moveable
-						Insert_section pdf.cover.lookup.mc_vespers_on_day_before End-Insert
 					End-Section
 				End-Section
 			Jun 11 use:

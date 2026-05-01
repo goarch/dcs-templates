@@ -2390,7 +2390,6 @@ Status NA
 				Title role mode sid misc.Mode3 End-Title
 				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
 				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
-				Title<r>sid misc.horizontal_line.solid1</>End-Title
 			Para role ecc_hli_opt_memorial sid misc.custcontent End-Para
 	 	End-Section
 

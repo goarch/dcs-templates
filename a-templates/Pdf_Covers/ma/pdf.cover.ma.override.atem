@@ -73,17 +73,19 @@ Switch-Version L2 End-Switch-Version
 						Title role cover4 sid eu.ordination_gr_GR_cog.euORD.EP.p400.title End-Title
 					End-Section
 				End-Section
-			May 7 use:
-				Section May7_2022_client_portjeffersonnygoa
+			May 30 use:
+				Section May30_2026_client_consecration
 					Insert_section title End-Insert
 						Section ceremony
-							Title role cover5 sid misc.book.Euchologion.name sid d.delimiter sid ti.ConsecrationOfAChurch End-Title
+							Title role cover5 sid ti.ConsecrationOfAChurch End-Title
 						End-Section
 						Section moveable
-							Insert_section pdf.cover.lookup.mc_matins End-Insert
+							Title role cover5 sid me.m05.d30_gr_GR_cog.meDA.date End-Title
 						End-Section
 						Section katavasia
+							Set_mcDay day 118 End_mcDay
 							Insert_section KA._title End-Insert
+							Set_mcDay day 0 End_mcDay
 						End-Section
 				End-Section
 			May 17 use:

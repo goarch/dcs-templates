@@ -1,0 +1,59 @@
+Template bk.covers_01_01
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+Switch-Version L2 End-Switch-Version
+
+		Insert_section pdf.cover.links.lookup.matins End-Insert
+		Title role cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+
+			Section covers
+				Set_Date month 1 day 1 year 2026 End_Date
+					Section title_me
+						Title role cover1 sid ma.pdf.cover End-Title
+						Title role cover3 rid daOnDay.text rid meDA.pdfcoverdate ldp @Service_Year End-Title
+					End-Section
+					Section Jan01
+						Section mode_eothinon
+							when-name-of-day-is
+								Sunday use:
+									Title role cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+									Insert_section pdf.cover.lookup.on_morning End-Insert
+									Title role cover4 sid ti.Eothinon ldp @Eothinon End-Title
+							end-when
+						End-Section
+						Section commeoration
+							Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+							Title role cover4 rid meDA.commemoration.full End-Title
+						End-Section
+						Section katavasia
+							Insert_section KA._title End-Insert
+						End-Section
+		Title role cover6 sid pref.generation_alwb.cover.version End-Title
+					End-Section
+	//	Title role cover6 sid pref.generation_alwb.cover.version End-Title
+	End-Section
+
+Switch-Version Both End-Switch-Version
+
+End-Template
