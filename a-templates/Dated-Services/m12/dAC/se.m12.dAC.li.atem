@@ -52,6 +52,7 @@ Status NA
 		Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 		Section hymns
 			Insert_section AP.res__.modeofweek End-Insert
+			Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 			Insert_section AP.af End-Insert
 			Insert_section TI.com.decac_.ancestors End-Insert
 			Insert_section AP.com__.DecAC_.hymn End-Insert
@@ -61,11 +62,19 @@ Status NA
 		Insert_section LI._06_Trisagion__.chrys End-Insert
 		when-date-is
 			Dec 30, 31 use:
-				Insert_section LE._01_Epistle__.epiphany__.sunBE_ End-Insert
-				Insert_section LE._02_Gospel__.epiphany__.sunBE_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.epiphany__.sunBE_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.epiphany__.sunBE_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 			otherwise use:
-				Insert_section LE._01_Epistle__.christmas__.sunAC_ End-Insert
-				Insert_section LE._02_Gospel__.christmas__.sunAC_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.christmas__.sunAC_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.christmas__.sunAC_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 		end-when
 		Insert_section LI._08_Liturgy__.chrys_default End-Insert
 		Insert_section LI._09_Dismissal__.commemoration End-Insert

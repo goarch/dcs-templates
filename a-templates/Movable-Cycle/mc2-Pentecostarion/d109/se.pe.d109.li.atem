@@ -48,12 +48,17 @@ Status NA
 		Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 		Section hymns
 			Insert_section AP.pascha__.once End-Insert
+			Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 			Insert_section KO.hypakoe__.pascha End-Insert
 			Insert_section KO.seasonal End-Insert
 		End-Section
 		Insert_section LI._06_Trisagion__.chrys End-Insert
-		Insert_section LE._01_Epistle__.daily_ End-Insert
-		Insert_section LE._02_Gospel__.daily_ End-Insert
+		Para role brc_li_epistle sid misc.custcontent End-Para
+			Insert_section LE._01_Epistle__.daily_ End-Insert
+		Para role erc_li_epistle sid misc.custcontent End-Para
+		Para role brc_li_gospel sid misc.custcontent End-Para
+			Insert_section LE._02_Gospel__.daily_ End-Insert
+		Para role erc_li_gospel sid misc.custcontent End-Para
 		Insert_section LI._08_Liturgy__.chrys_default End-Insert
 		Insert_section LI._09_Dismissal__.nocommemoration End-Insert
 	End-Section

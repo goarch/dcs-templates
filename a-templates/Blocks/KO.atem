@@ -24,6 +24,8 @@ Status NA
 
 	Section date__
 		Section Jul18_
+			Para role brc_li_kontakion sid misc.custcontent End-Para
+			Para role erc_li_kontakion sid misc.custcontent End-Para
 			Title role desig sid ti.Kontakion sid ho.ho15.m07_gr_GR_cog.hoD18.Kontakion1.title End-Title
 			Section hymn
 				Para role source0 sid ti.sourceHorologion End-Para
@@ -35,6 +37,8 @@ Status NA
 		End-Section
 	End-Section
 	Section weekday
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Insert_section Selector_Kontakion.DailyKontakion End-Insert
 	End-Section
 	Section hypakoe__
@@ -108,6 +112,8 @@ Status NA
 		End-Section
 	End-Section
 	Section me1_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMenaion End-Para
@@ -118,6 +124,8 @@ Status NA
 		End-Section
 	End-Section
 	Section me2_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMenaion End-Para
@@ -128,6 +136,8 @@ Status NA
 		End-Section
 	End-Section
 	Section me3_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMenaion End-Para
@@ -138,6 +148,8 @@ Status NA
 		End-Section
 	End-Section
 	Section meli_k1_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMenaion End-Para
@@ -148,6 +160,8 @@ Status NA
 		End-Section
 	End-Section
 	Section mealt1li_k1_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMenaion End-Para
@@ -158,6 +172,8 @@ Status NA
 		End-Section
 	End-Section
 	Section mealt11_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceMeSupplement End-Para
@@ -168,12 +184,18 @@ Status NA
 		End-Section
 	End-Section
 	Section pe_weekday
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Insert_section Selector_Kontakion.Pentecostarion_weekday End-Insert
 	End-Section
 	Section seasonal
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Insert_section Selector_Kontakion.SeasonalKontakion End-Insert
 	End-Section
 	Section tr0_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceTriodion End-Para
@@ -184,6 +206,8 @@ Status NA
 		End-Section
 	End-Section
 	Section tr1_
+		Para role brc_li_kontakion sid misc.custcontent End-Para
+		Para role erc_li_kontakion sid misc.custcontent End-Para
 		Title role desig sid ti.Kontakion End-Title
 		Section hymn
 			Para role source0 sid ti.sourceTriodion End-Para

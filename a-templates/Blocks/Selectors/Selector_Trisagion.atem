@@ -214,7 +214,7 @@ Status NA
 
 	//blocks for li
 	Section baptized
-		Para role bcc_li_trisagion_baptized sid misc.custcontent End-Para
+		Para role brc_li_trisagion_baptized sid misc.custcontent End-Para
 			Title role desig sid ho.ho07_gr_GR_cog.hoLI.OsoiEisChriston.title End-Title
 			Title role mode sid misc.Mode1 End-Title
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
@@ -225,12 +225,12 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 			Hymn sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.text End-Hymn
-		Para role ecc_li_trisagion_baptized sid misc.custcontent End-Para
-		Para role bcc_hli_fimi sid misc.custcontent End-Para
-		Para role ecc_hli_fimi sid misc.custcontent End-Para
+		Para role erc_li_trisagion_baptized sid misc.custcontent End-Para
+		Para role brc_li_fimi sid misc.custcontent End-Para
+		Para role erc_li_fimi sid misc.custcontent End-Para
 	End-Section
 	Section cross
-		Para role bcc_li_trisagion_cross sid misc.custcontent End-Para
+		Para role brc_li_trisagion_cross sid misc.custcontent End-Para
 			Title role desig sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.title End-Title
 			Title role mode sid misc.Mode2 End-Title
 			Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
@@ -241,12 +241,12 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 			Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSouDynamis.text End-Hymn
-		Para role ecc_li_trisagion_cross sid misc.custcontent End-Para
-		Para role bcc_hli_fimi sid misc.custcontent End-Para
-		Para role ecc_hli_fimi sid misc.custcontent End-Para
+		Para role erc_li_trisagion_cross sid misc.custcontent End-Para
+		Para role brc_li_fimi sid misc.custcontent End-Para
+		Para role erc_li_fimi sid misc.custcontent End-Para
 	End-Section
 	Section holygod
-		Para role bcc_li_trisagion_holygod sid misc.custcontent End-Para
+		Para role brc_li_trisagion_holygod sid misc.custcontent End-Para
 			Title role desig sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.title End-Title
 			Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 			Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text media-off<r>sid ru.Thrice media-off</>End-Hymn
@@ -256,9 +256,9 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 			Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymnDynamis.text End-Hymn
-		Para role ecc_li_trisagion_holygod sid misc.custcontent End-Para
-		Para role bcc_hli_fimi sid misc.custcontent End-Para
-		Para role ecc_hli_fimi sid misc.custcontent End-Para
+		Para role erc_li_trisagion_holygod sid misc.custcontent End-Para
+		Para role brc_li_fimi sid misc.custcontent End-Para
+		Para role erc_li_fimi sid misc.custcontent End-Para
 	End-Section
 
 		Section dynamis_dialog_priest
@@ -371,7 +371,7 @@ Status NA
 
 	Section concelebration__
 		Section baptized
-			Para role bcc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role brc_li_concelebration_trisagion_baptized sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.OsoiEisChriston.title End-Title
 				Title role mode sid misc.Mode1 End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
@@ -391,10 +391,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
 				Hymn sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.text media-off End-Hymn
-			Para role ecc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role erc_li_concelebration_trisagion_baptized sid misc.custcontent End-Para
 		End-Section
 		Section cross
-			Para role bcc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role brc_li_concelebration_trisagion_cross sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text media-off<r>sid ru.Twice media-off</>End-Hymn
@@ -413,10 +413,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSouDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role erc_li_concelebration_trisagion_cross sid misc.custcontent End-Para
 		End-Section
 		Section holygod
-			Para role bcc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role brc_li_concelebration_trisagion_holygod sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text media-off<r>sid ru.Twice media-off</>End-Hymn
@@ -436,13 +436,13 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymnDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role erc_li_concelebration_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
 	Section hierarchical__
 		Section baptized_one_choir
-			Para role bcc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.OsoiEisChriston.title End-Title
 				Title role mode sid misc.Mode1 End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
@@ -480,10 +480,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
 				Hymn sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.text media-off End-Hymn
-			Para role ecc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
 		End-Section
 		Section baptized_two_choirs
-			Para role bcc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.OsoiEisChriston.title End-Title
 				Title role mode sid misc.Mode1 End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
@@ -526,10 +526,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChriston.text End-Media
 				Hymn sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.text media-off End-Hymn
-			Para role ecc_li_trisagion_baptized sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
 		End-Section
 		Section cross_one_choir
-			Para role bcc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text media-off<r>sid ru.Twice media-off</>End-Hymn
@@ -566,10 +566,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSouDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
 		End-Section
 		Section cross_two_choirs
-			Para role bcc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Actor sid ac.ChoirR End-Actor
@@ -611,10 +611,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TonStavronSouDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_cross sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
 		End-Section
 		Section holygod_one_choir
-			Para role bcc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text media-off<r>sid ru.Twice media-off</>End-Hymn
@@ -651,10 +651,10 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymnDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 		Section holygod_two_choirs
-			Para role bcc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 				Title role desig sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Actor sid ac.ChoirR End-Actor
@@ -696,7 +696,7 @@ Status NA
 				Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn.text End-Media
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymnDynamis.text media-off End-Hymn
-			Para role ecc_li_trisagion_holygod sid misc.custcontent End-Para
+			Para role erc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 	End-Section
 

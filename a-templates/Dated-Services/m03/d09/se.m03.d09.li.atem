@@ -55,12 +55,17 @@ Status Final
 				Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 				Section hymns
 					Insert_section AP.me1_ End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
-				Insert_section LE._01_Epistle__.menaion_ End-Insert
-				Insert_section LE._02_Gospel__.menaion_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.menaion_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.menaion_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_default End-Insert
 				Insert_section LI._09_Dismissal__.commemoration End-Insert
 			End-Section
@@ -92,6 +97,7 @@ Status Final
 				Section hymns
 					Insert_section TI.a.me.com1 End-Insert
 					Insert_section AP.me1_.hymn End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.s._10_monastic_.mp End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
@@ -121,14 +127,19 @@ Status Final
 				Section hymns
 					Insert_section TI.a.me.com1 End-Insert
 					Insert_section AP.me1_.hymn End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.s._00_saint_.m End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
-				Insert_section LE._01_Epistle__.menaion_ End-Insert
-				Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.menaion_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.chrys_default End-Insert
 				Insert_section LI._09_Dismissal__.tr1_me1_commemoration End-Insert
 			End-Section
@@ -142,6 +153,7 @@ Status Final
 				Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 				Section hymns
 					Insert_section AP.res__.modeofweek End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.f End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
 					Insert_section TI.a.me.com1 End-Insert
@@ -150,8 +162,12 @@ Status Final
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.basil End-Insert
-				Insert_section LE._01_Epistle__.menaion_ End-Insert
-				Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.menaion_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.basil End-Insert
 				Insert_section LI._09_Dismissal__.commemoration End-Insert
 				Insert_section TR.IconsProcession End-Insert
@@ -171,6 +187,7 @@ Status Final
 				Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 				Section hymns
 					Insert_section AP.res__.modeofweek End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.s._00_saint_.m End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
 					Insert_section TI.me.com1 End-Insert
@@ -179,8 +196,12 @@ Status Final
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.basil End-Insert
-				Insert_section LE._01_Epistle__.menaion_ End-Insert
-				Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role brc_li_epistle sid misc.custcontent End-Para
+					Insert_section LE._01_Epistle__.menaion_ End-Insert
+				Para role erc_li_epistle sid misc.custcontent End-Para
+				Para role brc_li_gospel sid misc.custcontent End-Para
+					Insert_section LE._02_Gospel__.daily_ End-Insert
+				Para role erc_li_gospel sid misc.custcontent End-Para
 				Insert_section LI._08_Liturgy__.basil End-Insert
 				Insert_section LI._09_Dismissal__.commemoration End-Insert
 			End-Section

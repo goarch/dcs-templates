@@ -60,6 +60,7 @@ Status Final
 				Insert_section LI._05_AfterEntranceHymns__.choir End-Insert
 				Section hymns
 					Insert_section AP.af End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.me.com1 End-Insert
 					Insert_section AP.ga.martyrs_mode1_.hymn End-Insert
 					Insert_section TI.me.com2 End-Insert
@@ -70,11 +71,19 @@ Status Final
 				Insert_section LI._06_Trisagion__.chrys End-Insert
 				when-name-of-day-is
 					Saturday use:
-						Insert_section LE._01_Epistle__.christmas__.satAC_ End-Insert
-						Insert_section LE._02_Gospel__.christmas__.satAC_ End-Insert
+						Para role brc_li_epistle sid misc.custcontent End-Para
+							Insert_section LE._01_Epistle__.christmas__.satAC_ End-Insert
+						Para role erc_li_epistle sid misc.custcontent End-Para
+						Para role brc_li_gospel sid misc.custcontent End-Para
+							Insert_section LE._02_Gospel__.christmas__.satAC_ End-Insert
+						Para role erc_li_gospel sid misc.custcontent End-Para
 					otherwise use:
-						Insert_section LE._01_Epistle__.menaion_ End-Insert
-						Insert_section LE._02_Gospel__.menaion_ End-Insert
+						Para role brc_li_epistle sid misc.custcontent End-Para
+							Insert_section LE._01_Epistle__.menaion_ End-Insert
+						Para role erc_li_epistle sid misc.custcontent End-Para
+						Para role brc_li_gospel sid misc.custcontent End-Para
+							Insert_section LE._02_Gospel__.menaion_ End-Insert
+						Para role erc_li_gospel sid misc.custcontent End-Para
 				end-when
 				Insert_section LI._08_Liturgy__.chrys_default End-Insert
 				Insert_section LI._09_Dismissal__.nocommemoration End-Insert
