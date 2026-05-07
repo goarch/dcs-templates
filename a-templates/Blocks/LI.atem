@@ -4112,7 +4112,7 @@ Status NA
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0301.title</>End-Title
-			Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0301.text </>End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0301.text </>End-Dialog
 			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc02.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -4123,7 +4123,7 @@ Status NA
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0401.title</>End-Title
-			Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0401.text </>End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0401.text </>End-Dialog
 			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc03.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -4133,11 +4133,11 @@ Status NA
 			Para role inaudible <ddebl>sid pr.pet00.text sid pr.res01.text</>End-Para
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.title</>End-Title
-			Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text sid pr.res04.text </>End-Para
-			Actor <adepr>sid ac.sb.DePr<smaller>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text sid pr.res04.text </>End-Dialog
+			Actor <adebl>sid ac.sb.DeBl<smaller>sid ru.InALowVoice</></>End-Actor
+			Dialog <ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text </>End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text </>End-Dialog
 			Actor <adepr>sid ac.sb.DePr<smaller>sid ru.Aloud</></>End-Actor
 			Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 		End-Section
@@ -4146,7 +4146,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0601.title</>End-Title
-			Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0601.text </>End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0601.text </>End-Dialog
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc05a.text</> End-Dialog
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -4160,48 +4160,47 @@ Status NA
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Section ForCatechumens
 						Insert_section LN.ForCatechumens01_deacon_choir End-Insert
-						Actor<apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Actor<aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 						Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.title End-Title
-						Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.text</>End-Para
+						Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.text</>End-Dialog
 						Actor<apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog<dpr>sid pr.petCatechumens09.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res04.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde>sid pr.petCatechumens1011.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.petCatechumens1011.text</>End-Dialog
 					End-Section
 					Section FirstPrayerOfFaithful
 						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1000.title End-Title
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde> sid pr.petCatechumens12.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr> sid pr.petCatechumens12.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res01.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
 						Dialog<dde>sid pr.pet12.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res03.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
 						Dialog<dde>sid pr.exc17.text</>End-Dialog
-						Actor<apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Title role smalldesig<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title</>End-Title
-						Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.text</>End-Para
+						Actor<aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
+						Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title End-Title
+						Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.text</>End-Dialog
 						Actor<apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog<dpr>sid pr.exc01.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res04.text</>End-Dialog
 					End-Section
 					Section ShortLitany
-						Actor<optional>sid ac.Deacon</>End-Actor
-						Dialog<optional>sid pr.pet14.text</>End-Dialog
-						Actor<optional>sid ac.Choir</>End-Actor
-						Dialog<optional>sid pr.res01.text</>End-Dialog
-						Actor<optional>sid ac.Deacon</>End-Actor
-						Dialog<optional>sid pr.pet12.text</>End-Dialog
-						Actor<optional>sid ac.Choir</>End-Actor
-						Dialog<optional>sid pr.res01.text</>End-Dialog
-						Actor<optional>sid ac.Deacon</>End-Actor
-						Dialog<optional>sid pr.exc17.text</>End-Dialog
-						Title sid misc.horizontal_line.solid1 End-Title
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.pet14.text</>End-Dialog
+						Actor<ach>sid ac.Choir</>End-Actor
+						Dialog<dch>sid pr.res01.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.pet12.text</>End-Dialog
+						Actor<ach>sid ac.Choir</>End-Actor
+						Dialog<dch>sid pr.res01.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.exc17.text</>End-Dialog
 					End-Section
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionallitanies.bottom End-Title
 				Break page End_Break
@@ -4212,31 +4211,31 @@ Status NA
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Section ForCatechumens
 						Insert_section LN.ForCatechumens01_deacon_choir End-Insert
-						Actor<apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+						Actor<aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 						Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.title End-Title
-						Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.basil.text</>End-Para
+						Para role inaudible<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.basil.text</>End-Para
 						Actor<apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog<dpr>sid pr.petCatechumens09.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res04.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde>sid pr.petCatechumens1011.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.petCatechumens1011.text</>End-Dialog
 					End-Section
 					Section FirstPrayerOfFaithful
 						Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1000.title End-Title
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde> sid pr.petCatechumens12.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr> sid pr.petCatechumens12.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res01.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde>sid pr.pet12.text</>End-Dialog
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.pet12.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor
 						Dialog<dch>sid pr.res03.text</>End-Dialog
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde>sid pr.exc17.text</>End-Dialog
-						Actor<apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
-						Title role smalldesig<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title</>End-Title
-						Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.basil.text</>End-Para
+						Actor<adepr>sid ac.sb.DePr</>End-Actor
+						Dialog<ddepr>sid pr.exc17.text</>End-Dialog
+						Actor<aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
+						Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title End-Title
+						Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.basil.text</>End-Dialog
 						Actor<apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 						Dialog<dpr>sid pr.exc01.text</>End-Dialog
 						Actor<ach>sid ac.Choir</>End-Actor

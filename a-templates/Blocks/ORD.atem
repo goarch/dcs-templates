@@ -80,16 +80,16 @@ Status NA
 		End-Section
 		Section _03_litany_before_inserts
 			Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r08 End-Rubric
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet01.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet01.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet02.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet02.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet03.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet03.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
 		End-Section
 	//	Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
 	//	Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
@@ -97,20 +97,20 @@ Status NA
 	//	Dialog <dde>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.deacon.gen.text sid pr.petOrdination02c_deacon.text</>End-Dialog
 		Section _04_litany_after_inserts
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.petOrdination03_deacon.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.petOrdination03_deacon.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet08.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet08.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet11.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet11.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet12.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet12.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet13.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet13.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res03.text</>End-Para
 		End-Section
 		Section _05_prayer2
@@ -184,7 +184,7 @@ Status NA
 			Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p206.text End-Hymn
 		//	Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r04 End-Rubric
 		//	Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05a End-Rubric
-			Actor <ade>sid ac.Archdeacon</>End-Actor
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
 			Dialog <dde>sid pr.exc19.text</>End-Dialog
 			Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05b End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor

@@ -77,15 +77,15 @@ Status NA
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</>End-Para
 			Para role inaudible <dhi>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text @ver</>End-Para
-			Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dde>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver </>End-Para
+			Actor <adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Para role inaudible <ddepr>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver </>End-Para
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.rubric End-Rubric
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Insert_section CONS.LI_22_ End-Insert
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para

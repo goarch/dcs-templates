@@ -958,39 +958,39 @@ Status NA
 	Section FervLitany_long_deacon_choir
 		Section part1
 			Title<smallred>sid ti.LitanyFerv.uc</>End-Title
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet15.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet15.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet16.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet16.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet17.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet17.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet18.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet18.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
 		End-Section
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
+		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
 		Section part2
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet20.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet20.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet21.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet21.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet22.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet22.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet23.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet23.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 		End-Section
 		Section part3
 			Actor <apr>sid ac.Priest </>End-Actor
-			Dialog <dde>sid pr.exc11.text</> End-Dialog
+			Dialog <dpr>sid pr.exc11.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
 	End-Section
@@ -1053,10 +1053,10 @@ Status NA
 
 	Section FervLitany_long_double_commemoration_deacon_choir
 		Insert_section LN.FervLitany_long_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Actor <apr>sid ac.Priest </>End-Actor
-		Dialog <dde>sid pr.exc11.text</> End-Dialog
+		Dialog <dpr>sid pr.exc11.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
 	Section FervLitany_long_double_commemoration_deacon_compact
@@ -1076,12 +1076,12 @@ Status NA
 
 	Section FervLitanyLI_deacon_choir
 		Insert_section LN.FervLitany_long_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
+		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Section part3
-			Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.title End-Title
-			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Para
+			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Dialog
 			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc11.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -1138,28 +1138,28 @@ Status NA
 	Section FervLitany_short_deacon_choir
 		Section part1
 			Title<smallred>sid ti.LitanyFerv.uc</>End-Title
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet17.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet17.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet18.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet18.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
 		End-Section
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
+		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</> End-Dialog
 		Section part2
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet20.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet20.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet21.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet21.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet22.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet22.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet23.text</> End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet23.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <apr>sid ac.Priest </>End-Actor
 			Dialog <dpr>sid pr.exc11.text</> End-Dialog
@@ -1215,7 +1215,7 @@ Status NA
 
 	Section FervLitany_short_double_commemoration_deacon_choir
 		Insert_section LN.FervLitany_short_deacon_choir.part1 End-Insert
-		Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
+		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_p</> End-Dialog
 		Insert_section LN.FervLitany_short_deacon_choir.part2 End-Insert
 	End-Section
 	Section FervLitany_short_double_commemoration_deacon_compact
@@ -2500,29 +2500,29 @@ Status NA
 	End-Section
 
 	Section CompLitanyLI2_deacon_choir
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet11.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet11.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet12.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet12.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet25m.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet25m.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet26.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet26.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet27.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet27.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet28.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet28.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet29.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet29.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet30.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet30.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
 	End-Section
 	Section CompLitanyLI2_deacon_compact
@@ -2839,10 +2839,10 @@ Status NA
 	End-Section
 
 	Section NewSupplication_deacon_com
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Para role dialogzero <dde>sid pr.sup00.text</>End-Para
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Para role dialogzero <ddepr>sid pr.sup00.text</>End-Para
 		Insert_section Selector_Commemorations.deacon.whole_year End-Insert
-		Dialog <dde>sid pr.sup99.text</> End-Dialog
+		Dialog <ddepr>sid pr.sup99.text</> End-Dialog
 		Insert_section supplication_part2_choir End-Insert
 	End-Section
 
@@ -3135,29 +3135,29 @@ Status NA
 
 	Section ForCatechumens01_deacon_choir
 		Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0900.title End-Title
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens01.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens01.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens02.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens02.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens03.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens03.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens04.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens04.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens05.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens05.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens06.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens06.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens07.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens07.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens08.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens08.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 	End-Section
 	Section ForCatechumens01_deacon_compact
@@ -3201,14 +3201,14 @@ Status NA
 		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.petCatechumens09.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens1011.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens1011.text</> End-Dialog
 		Title sid eu.lichrysbasil_gr_GR_cog.euLI.Key1000.title End-Title
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens12.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens12.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet12.text sid pr.exc17.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet12.text sid pr.exc17.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 	End-Section
 	Section ForCatechumens02_deacon_parentheses
@@ -3229,35 +3229,35 @@ Status NA
 		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
 		Dialog <dde>sid pr.petCatechumens09.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens10.text sid pr.petCatechumens13.text sid pr.petCatechumens14.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens10.text sid pr.petCatechumens13.text sid pr.petCatechumens14.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens15.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens15.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens16.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens16.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens17.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens17.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens18.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens18.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens19.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens19.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens20.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens20.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens21.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens21.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens07.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens07.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens22.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens22.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 	End-Section
 	Section ForCatechumens03_deacon_compact
@@ -3308,15 +3308,15 @@ Status NA
 	End-Section
 
 	Section ForCatechumens04_deacon_choir
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens23.text</> End-Dialog
-		Dialog <dde>sid pr.petCatechumens11.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens23.text</> End-Dialog
+		Dialog <ddepr>sid pr.petCatechumens11.text</> End-Dialog
 		Title sid eu.lichrysbasil_gr_GR_cog.euLI.Key1000.title End-Title
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.petCatechumens12.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.petCatechumens12.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet12.text sid pr.exc17.text</> End-Dialog
+		Actor <adepr>sid ac.sb.DePr </>End-Actor
+		Dialog <ddepr>sid pr.pet12.text sid pr.exc17.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 	End-Section
 	Section ForCatechumens04_deacon_parentheses

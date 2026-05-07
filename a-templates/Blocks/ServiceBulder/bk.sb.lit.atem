@@ -1,4 +1,4 @@
-Template bk.sb.li
+Template bk.sb.lit
 
 Status NA
 
@@ -125,14 +125,26 @@ Status NA
 			Para role erc_li_kontakion sid misc.custcontent End-Para
 		End-Section
 		Section trisagion_concelebration
-			Insert_section Selector_Trisagion.concelebration__.baptized End-Insert
-			Insert_section Selector_Trisagion.concelebration__.cross End-Insert
-			Insert_section Selector_Trisagion.concelebration__.holygod End-Insert
+			Para role brc_li_concelebration_trisagion_baptized sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.concelebration__.baptized End-Insert
+			Para role erc_li_concelebration_trisagion_baptized sid misc.custcontent End-Para
+			Para role brc_li_concelebration_trisagion_cross sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.concelebration__.cross End-Insert
+			Para role erc_li_concelebration_trisagion_cross sid misc.custcontent End-Para
+			Para role brc_li_concelebration_trisagion_holygod sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.concelebration__.holygod End-Insert
+			Para role erc_li_concelebration_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 		Section trisagion_hierarchical
-			Insert_section Selector_Trisagion.hierarchical__.baptized_one_choir End-Insert
-			Insert_section Selector_Trisagion.hierarchical__.cross_one_choir End-Insert
-			Insert_section Selector_Trisagion.hierarchical__.holygod_one_choir End-Insert
+			Para role brc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.hierarchical__.baptized_one_choir End-Insert
+			Para role erc_li_hierarchical_trisagion_baptized sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.hierarchical__.cross_one_choir End-Insert
+			Para role erc_li_hierarchical_trisagion_cross sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
+				Insert_section Selector_Trisagion.hierarchical__.holygod_one_choir End-Insert
+			Para role erc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 		Section great_entrance_hierarchical
 			Para role brc_li_greatentrance sid misc.custcontent End-Para

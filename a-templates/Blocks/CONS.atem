@@ -568,8 +568,8 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet32.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet32.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4102.text</>End-Para
@@ -619,15 +619,15 @@ Status NA
 			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
 			Section Epistle1
 				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4206.title End-Title
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Actor <are>sid ac.Reader</>End-Actor
 				Insert_section bk.ap.va.forConsecration.ep1_title End-Insert
 				Insert_section bk.ap.va.forConsecration.ep1_prokeimenon End-Insert
 				Insert_section bk.ap.va.forConsecration.ep1_verse End-Insert
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc17.text</>End-Para
 				Actor <are>sid ac.Reader</>End-Actor
 				Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.book_string sid pr.epi01b.text</>End-Dialog
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Actor <are>sid ac.Reader</>End-Actor
 				Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.chapverse End-Title
 				Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle1.text @ver</>End-Reading
@@ -639,13 +639,13 @@ Status NA
 				Actor <ach>sid ac.Choir</>End-Actor
 				Media sid pr.Alleluia3.text End-Media
 				Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 				Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid pr.gos03a.text sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.book_string sid pr.gos03b.text</>End-Dialog
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Title role chapverse sid le.go.va.consecration_gr_GR_cog.levaCON.Gospel1.chapverse End-Title
@@ -705,14 +705,14 @@ Status NA
 			Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4205.title End-Title
 			Section Epistle2
 				Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4210.title End-Title
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Insert_section bk.ap.va.forConsecration.ep2_title End-Insert
 				Insert_section bk.ap.va.forConsecration.ep2_prokeimenon End-Insert
 				Insert_section bk.ap.va.forConsecration.ep2_verse End-Insert
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc17.text</>End-Para
 				Actor <are>sid ac.Reader</>End-Actor
 				Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.book_string sid pr.epi01b.text</>End-Dialog
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Actor <are>sid ac.Reader</>End-Actor
 				Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.chapverse End-Title
 				Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaCON.Epistle2.text @ver</>End-Reading
@@ -724,13 +724,13 @@ Status NA
 				Actor <ach>sid ac.Choir</>End-Actor
 				Media sid pr.Alleluia3.text End-Media
 				Para role chant <dch>sid pr.Alleluia3.text @ver media-off</>End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 				Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid pr.gos03a.text sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
-				Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+				Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Title role chapverse sid le.go.me.m11.d21_gr_GR_cog.lemeLI.Gospel.chapverse End-Title
@@ -871,8 +871,8 @@ Status NA
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Dialog <dhi>sid pr.enarxis01.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.petKneel07.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.petKneel07.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4502.rubric End-Rubric
 		Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -882,62 +882,63 @@ Status NA
 	End-Section
 	Section LI_09
 		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4505.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.petKneel08.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.petKneel08.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4506.rubric End-Rubric
 	End-Section
 	Section LI_10_
 		Section block1
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet01.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet01.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet02.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet02.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet03.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet03.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet04.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet04.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet05.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet05.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4507a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4507b.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4507a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4507b.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4508.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4508.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Section block2
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.petConsecration02.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.petConsecration02.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet07L.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet07L.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet08.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet08.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet09.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet09.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet10.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet10.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4509.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4509.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet11.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet11.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet12.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet12.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
-		Dialog <dde>sid pr.petConsecration13a.text sid client_gr_GR_cog.cl.consecration.greatlitany.finalpetition.name sid pr.petConsecration13b.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.petConsecration13a.text sid client_gr_GR_cog.cl.consecration.greatlitany.finalpetition.name sid pr.petConsecration13b.text</>End-Dialog
 	End-Section
 	Section LI_11
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
@@ -948,7 +949,7 @@ Status NA
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Dialog <dhi>sid pr.InTheNameOfFather.text sid pr.res04.text</>End-Dialog
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4512.rubric End-Rubric
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+		Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.pet00.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4513.rubric End-Rubric
 		Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -1028,7 +1029,7 @@ Status NA
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Dialog <dhi>sid pr.exc01.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+		Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.pet00.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4807.rubric End-Rubric
 		Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -1037,8 +1038,8 @@ Status NA
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.pet32.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.pet32.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4810.rubric End-Rubric
 		Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -1046,12 +1047,12 @@ Status NA
 		Para role prayer <dhi>sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4812.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4813.rubric End-Rubric
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+		Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.pet00.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Dialog <dhi>sid pr.exc05a.text</>End-Dialog
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.exc05b.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.exc05b.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
 	Section LI_Epistle
@@ -1061,10 +1062,10 @@ Status NA
 		Insert_section bk.ap.va.forConsecration.ep_title End-Insert
 		Insert_section bk.ap.va.forConsecration.ep_prokeimenon End-Insert
 		Insert_section bk.ap.va.forConsecration.ep_verse End-Insert
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
+		Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc17.text</>End-Para
 		Actor <are>sid ac.Reader</>End-Actor
 		Dialog <dre>sid pr.epi01a.text sid le.ep.va.consecration_gr_GR_cog.levaLI.Epistle.book_string sid pr.epi01b.text</>End-Dialog
-		Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text</>End-Para
+		Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.exc19.text</>End-Para
 		Actor <are>sid ac.Reader</>End-Actor
 		Title role chapverse sid le.ep.va.consecration_gr_GR_cog.levaLI.Epistle.chapverse End-Title
 		Reading <dre>sid le.ep.va.consecration_gr_GR_cog.levaLI.Epistle.text @ver</>End-Reading
@@ -1081,15 +1082,15 @@ Status NA
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0704.text</>End-Para
 		End-Section
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 		Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid pr.gos03a.text sid le.go.va.consecration_gr_GR_cog.levaLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid pr.gos03a.text sid le.go.va.consecration_gr_GR_cog.levaLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
 		Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.exc19.text</>End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
 		Title role chapverse sid le.go.va.consecration_gr_GR_cog.levaLI.Gospel.chapverse End-Title
 		Reading <dde>sid le.go.va.consecration_gr_GR_cog.levaLI.Gospel.text @ver</>End-Reading
 		Actor <ahi>sid ac.Hierarch</>End-Actor
@@ -1117,15 +1118,15 @@ Status NA
 		Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</>End-Para
 		Para role inaudible <dhi>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text @ver</>End-Para
-		Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
-		Para role inaudible <dde>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver </>End-Para
+		Actor <adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+		Para role inaudible <ddepr>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver </>End-Para
 		Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
 		Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.rubric End-Rubric
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
 	Section LI_22_
@@ -1152,12 +1153,12 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text</>End-Dialog
 			Actor <ach>sid ac.Choir</>End-Actor
 			Hymn sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text End-Hymn
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1208.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1208.text</>End-Dialog
 			Actor <ape>sid ac.People</>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1209.title End-Title
 			Reading <dpe>sid pr.Creed.text @ver</>End-Reading
@@ -1166,8 +1167,8 @@ Status NA
 		Section anaphora
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.title End-Title
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1300.text End-Media
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1301.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1301.text</>End-Dialog
 			Actor <ach>sid ac.Choir</>End-Actor
 			Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1302.text</>End-Dialog
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.BlessingWithTheCross</></>End-Actor
@@ -1206,22 +1207,22 @@ Status NA
 			Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text End-Hymn
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.text</>End-Para
-			Para role actorinaudible <ade>sid ac.Deacon<smallred>sid ru.InALowVoice</></>End-Para
-			Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text</>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr<smallred>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch</>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.text</>End-Para
-			Para role actorinaudible <ade>sid ac.Deacon</>End-Para
-			Para role inaudible <dde>sid pr.res04.text</>End-Para
-			Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text</>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr</>End-Para
+			Para role inaudible <ddepr>sid pr.res04.text</>End-Para
+			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1322.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch</>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1323.text</>End-Para
-			Para role actorinaudible <ade>sid ac.Deacon</>End-Para
-			Para role inaudible <dde>sid pr.res04.text</>End-Para
-			Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text</>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr</>End-Para
+			Para role inaudible <ddepr>sid pr.res04.text</>End-Para
+			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1324.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch </>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1325.text</>End-Para
-			Para role actorinaudible <ade>sid ac.Deacon</>End-Para
-			Para role inaudible <dde>sid pr.res10.text</>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr</>End-Para
+			Para role inaudible <ddepr>sid pr.res10.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch</>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.text</>End-Para
 			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
@@ -1245,8 +1246,8 @@ Status NA
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 	End-Section
 	Section LI_25
-		Actor <ade>sid ac.Deacon</>End-Actor
-		Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text</>End-Dialog
+		Actor <adepr>sid ac.sb.DePr</>End-Actor
+		Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1333.text</>End-Para
@@ -1258,17 +1259,17 @@ Status NA
 		Actor <ach>sid ac.Choir</>End-Actor
 		Dialog <dch>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1336.text</>End-Dialog
 		Section litany_upto_communion
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1401.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1401.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1402.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1402.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1405.text</>End-Para
@@ -1282,8 +1283,8 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Para role dialogwithactor<dwahi><actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text</>End-Para
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet32.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet32.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.text</>End-Para
@@ -1292,8 +1293,8 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.exc19.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.exc19.text</>End-Dialog
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1410.text</>End-Dialog
 			Actor <ach>sid ac.Choir</>End-Actor
@@ -1400,8 +1401,8 @@ Status NA
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1588.rubric End-Rubric
 			End-Section
 			Section call
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1526.text</>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1526.text</>End-Dialog
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1589.rubric End-Rubric
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1528.text media-off</>End-Dialog
@@ -1415,8 +1416,8 @@ Status NA
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1530.title End-Title
 			Insert_section Selector_AfterCommunion.Chrysostom End-Insert
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1621.rubric End-Rubric
-			Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1601.text </>End-Para
+			Actor <adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1601.text </>End-Para
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1622.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1602.text<r>sid ru.Thrice</></>End-Para
@@ -1430,14 +1431,14 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1604.title</>End-Title
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1626.rubric End-Rubric
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1604.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1604.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid pr.pet12.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.pet12.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1605.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1605.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1627.rubric End-Rubric
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1606.title End-Title
