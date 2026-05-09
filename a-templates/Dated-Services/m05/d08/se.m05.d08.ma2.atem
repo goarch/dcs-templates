@@ -1109,41 +1109,58 @@ Status NA
 				Rubric sid misc.FutureInstance End-Rubric
 			End-Section
 
-		101 use:
-			Section Instance12_101
+		96, 97, 98, 100, 101 use:
+			Section Instance11
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
 				Insert_section AP.both__.af End-Insert
 				Insert_section MA._02_Kathisma1__.litany End-Insert
-				Set_mcDay day 99 End_mcDay
-					Actor sid ac.Choir End-Actor
-					Insert_section TI.ka1.res End-Insert
-					Insert_section MA._03_Kathisma2__.append__.pe__.kath22 End-Insert
-					Insert_section TI.gb.th End-Insert
-					Insert_section MA._03_Kathisma2__.append__.pe__.kath23 End-Insert
-				Set_mcDay day 0 End_mcDay
-				Insert_section TI.ka2.me.com1 End-Insert
-				Insert_section MA._03_Kathisma2__.append__.me__.kath21_.hymn End-Insert
-				Set_mcDay day 100 End_mcDay
-					Insert_section TI.gb.f End-Insert
-					Insert_section MA._03_Kathisma2__.append__.pe__.kath21_.hymn End-Insert
-				Set_mcDay day 0 End_mcDay
-				Insert_section TI.ka3.me.com1 End-Insert
-				Insert_section MA._05_Kathisma3__.append__.me__.kath31_.hymn End-Insert
-				Insert_section TI.gb.f End-Insert
-				Insert_section MA._03_Kathisma2__.append__.pe__.kath21_.hymn End-Insert
-				Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+				when-movable-cycle-day-is
+					97, 98 use:
+						Insert_section MA._02_Kathisma1__.pe__.kath11g12b1t End-Insert
+					otherwise use:
+						Insert_section MA._02_Kathisma1__.pe__.kath11_ End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.pe__.kath1t_ End-Insert
+				end-when
+				Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
+				when-movable-cycle-day-is
+					96, 97, 98 use:
+						Section d9697_kathisma22
+						Set_mcDay day 96 End_mcDay
+						Insert_section MA._03_Kathisma2__.gloryboth__.pe__.kath21_ End-Insert
+						Set_mcDay day 0 End_mcDay
+						End-Section
+					100, 101 use:
+						Section d100101_kathisma22
+						Set_mcDay day 107 End_mcDay
+						Insert_section MA._03_Kathisma2__.gloryboth__.pe__.kath21_ End-Insert
+						Set_mcDay day 0 End_mcDay
+						End-Section
+				end-when
+				Insert_section MA._05_Kathisma3__.append__.me__.kath31_ End-Insert
+				when-movable-cycle-day-is
+					96, 97, 98 use:
+						Section d9697_kathisma32
+						Set_mcDay day 97 End_mcDay
+						Insert_section MA._03_Kathisma2__.gloryboth__.pe__.kath21_ End-Insert
+						Set_mcDay day 0 End_mcDay
+						End-Section
+					100, 101 use:
+						Section d100101_kathisma32
+						Set_mcDay day 108 End_mcDay
+						Insert_section MA._03_Kathisma2__.gloryboth__.pe__.kath21_ End-Insert
+						Set_mcDay day 0 End_mcDay
+						End-Section
+				end-when
+				Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
 				Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
 				Insert_section MA._08_Supplication__.priest__.com End-Insert
 				Section options
+					Set_mcDay day 95 End_mcDay
 					Section block02_odes13
 						Para role bmc_ode1_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1pecanon1 End-Para
-							Insert_section TI.c._ End-Insert
-							Insert_section TI.o._1 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode1.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode1.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode1_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode1_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1151,10 +1168,7 @@ Status NA
 						Para role emc_ode1_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._1 End-Insert
 						Para role bmc_ode3_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode3pecanon1 End-Para
-							Insert_section TI.o._3 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode3.append.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode3.append.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode3_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode3_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode3mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1163,13 +1177,10 @@ Status NA
 						Insert_section KA.append__._3 End-Insert
 						Insert_section MA._10_Canon__.litanies__.ode3 End-Insert
 					End-Section
+					Set_mcDay day 0 End_mcDay
 					Section block03_kontakionposition2
 						Para role bmc_kontakion_position2 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position2 End-Para
-							Set_mcDay day 95 End_mcDay
-								Actor sid ac.Reader End-Actor
-								Insert_section TI.k.f End-Insert
-								Insert_section MA._11_Kontakion__.pe1_.kontakion_.nt End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section MA._11_Kontakion__.festal End-Insert
 						Para role emc_kontakion_position2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 					End-Section
 					Section block04_ode3_kathisma
@@ -1177,18 +1188,27 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Insert_section TI.ka.me.com1 End-Insert
 							Insert_section MA._10_Canon__.midodekathisma__.me1_.hymn End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section TI.gb.f End-Insert
-								Insert_section MA._10_Canon__.midodekathisma__.pe1_.hymn End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section TI.gb.f End-Insert
+							when-movable-cycle-day-is
+								96, 97, 98 use:
+									Section d969798_midode
+										Set_mcDay day 98 End_mcDay
+											Insert_section MA._03_Kathisma2__.append__.pe__.kath21_.hymn End-Insert
+										Set_mcDay day 0 End_mcDay
+								End-Section
+								100, 101 use:
+									Section d100101_midode
+										Set_mcDay day 95 End_mcDay
+											Insert_section MA._10_Canon__.midodekathisma__.pe1_.hymn End-Insert
+										Set_mcDay day 0 End_mcDay
+									End-Section								
+							end-when
 						Para role emc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 					End-Section
+					Set_mcDay day 95 End_mcDay
 					Section block05_odes456
 						Para role bmc_ode4_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode4pecanon1 End-Para
-							Insert_section TI.o._4 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode4.append.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode4.append.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode4_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode4_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode4mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1196,10 +1216,7 @@ Status NA
 						Para role emc_ode4_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._4 End-Insert
 						Para role bmc_ode5_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode5pecanon1 End-Para
-							Insert_section TI.o._5 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode5.append.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode5.append.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode5_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode5_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode5mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1207,10 +1224,7 @@ Status NA
 						Para role emc_ode5_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._5 End-Insert
 						Para role bmc_ode6_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode6pecanon1 End-Para
-							Insert_section TI.o._6 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode6.append.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode6.append.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode6_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode6_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode6mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1219,18 +1233,19 @@ Status NA
 						Insert_section KA.append__._6 End-Insert
 						Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
 					End-Section
+					Set_mcDay day 0 End_mcDay
 					Section block06_kontakionposition1
 						Para role bmc_kontakion_position1 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position1 End-Para
-							Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Actor sid ac.Reader End-Actor
+							Insert_section TI.k.me.com1 End-Insert
+							Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
 							Insert_section SY.Synaxarion End-Insert
 						Para role emc_kontakion_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 					End-Section
+					Set_mcDay day 95 End_mcDay
 					Section block07_odes78
 						Para role bmc_ode7_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode7pecanon1 End-Para
-							Insert_section TI.o._7 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode7.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode7.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode7_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode7_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode7mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1238,10 +1253,7 @@ Status NA
 						Para role emc_ode7_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._7 End-Insert
 						Para role bmc_ode8_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode8pecanon1 End-Para
-							Insert_section TI.o._8 End-Insert
-							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode8.append.pe1.ti_h12tas0VVTh End-Insert
-							Set_mcDay day 0 End_mcDay
+							Insert_section CAv.ode8.append.pe1.ti_h12tas0VVTh End-Insert
 						Para role emc_ode8_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode8_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode8mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
@@ -1249,20 +1261,7 @@ Status NA
 						Para role emc_ode8_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._8 End-Insert
 					End-Section
-					Section block08_kontakionposition12
-						Para role bmc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position12 End-Para
-							Set_mcDay day 95 End_mcDay
-								Insert_section TI.k.f End-Insert
-								Insert_section MA._11_Kontakion__.pe1_.kontakion_.nt End-Insert
-							Set_mcDay day 0 End_mcDay
-							Insert_section TI.k.me.com1 End-Insert
-							Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
-							Insert_section SY.Synaxarion End-Insert
-						Para role emc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-					End-Section
-					Section block09_katavasias1345678
-						Insert_section KA.choir__._1345678 End-Insert
-					End-Section
+					Set_mcDay day 0 End_mcDay
 					Section block11_ode9
 						Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
 						Para role bmc_magnificat_modeofcanon sid website.preferences.titles_gr_GR_cog.mc.magnificat.modeofcanon End-Para
@@ -1270,32 +1269,40 @@ Status NA
 						Para role emc_magnificat_modeofcanon sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode9_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode9pecanon1 End-Para
 							Set_mcDay day 95 End_mcDay
-								Insert_section CAv.ode9.append.pe1.ti_h12tas0VVTh End-Insert
+							Insert_section CAv.ode9.pe1.ti_h12tas0VVTh End-Insert
 							Set_mcDay day 0 End_mcDay
 						Para role emc_ode9_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_ode9_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode9mecanon1 End-Para
 							Insert_section TI.ct.me.c1 End-Insert
 							Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 						Para role emc_ode9_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-						Para role bmc_magnificat_modeofkatavasia sid website.preferences.titles_gr_GR_cog.mc.magnificat.modeofkatavasia End-Para
-							Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
-						Para role emc_magnificat_modeofkatavasia sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA.append__._9 End-Insert
 					End-Section
 				End-Section
 				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 				Insert_section MA._12_Exaposteilarion__.me__.exap1_ End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.festal End-Insert
-				Insert_section MA._13_Lauds__.mode8__.for4_nocollapse End-Insert
-				Insert_section MA._13_Lauds__.me__.p_1123as3456 End-Insert
+				when-movable-cycle-day-is
+					98 use:
+						Insert_section MA._13_Lauds__.mode3__.for6 End-Insert
+						Insert_section MA._13_Lauds__.pe__.s_123as123 End-Insert
+						Insert_section TI.stp.me.com1 End-Insert
+						Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
+					otherwise use:
+						Insert_section MA._13_Lauds__.mode8__.for4 End-Insert
+						Insert_section TI.stp.me.com1 End-Insert
+						Insert_section MA._13_Lauds__.me__.p_1123as3456 End-Insert
+				end-when
 				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 				Insert_section TI.b.f End-Insert
-				Insert_section MA._16_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
+				Insert_section MA._13_Lauds__.both__.pe__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
-				Insert_section MA2._19_End_Options End-Insert
+				Insert_section MA._15_Litanies__.aftergreatdoxology End-Insert
+				Insert_section MA._18_End__.wisdom123.part1 End-Insert
 				Insert_section MA._20_Dismissal__.commemoration End-Insert
 			End-Section
+
 
 	end-when
 

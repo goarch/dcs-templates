@@ -132,7 +132,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany02_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany02_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode3
 		Actor sid ac.Choir End-Actor
@@ -149,7 +149,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany08_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany08_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode4
 		Actor sid ac.Choir End-Actor
@@ -170,7 +170,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany03_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany03_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode5
 		Actor sid ac.Choir End-Actor
@@ -187,7 +187,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany16_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany16_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode6
 		Actor sid ac.Choir End-Actor
@@ -204,7 +204,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany09_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany09_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode7
 		Actor sid ac.Choir End-Actor
@@ -225,7 +225,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany14_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany14_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode8
 		Actor sid ac.Choir End-Actor
@@ -246,7 +246,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany04_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany04_deacon_choir End-Insert
 	End-Section
 	Section Pascha_Ode9
 		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
@@ -277,7 +277,7 @@ Status NA
 		Hymn sid pe.d071_gr_GR_cog.peMA.TroparionShort.text<r>sid ru.Thrice media-off</>End-Hymn
 		Media sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text End-Media
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.SunPostGospelIdiomelon.text @ver media-off End-Hymn
-		Insert_section LN.ShortLitany10_deacon_parentheses End-Insert
+		Insert_section LN.ShortLitany10_deacon_choir End-Insert
 	End-Section
 
 	Section Pascha_SticheraOfPascha
