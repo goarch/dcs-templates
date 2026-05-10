@@ -102,9 +102,14 @@ Status NA
 
 	Section sb_parts_insert
 		Section enarxis
-			Para role brc_li_enarxis1 sid misc.custcontent End-Para
-			Para role erc_li_enarxis1 sid misc.custcontent End-Para
-			
+			Para role brc_li_enarxis_deacon sid misc.custcontent End-Para
+				Actor <ade>sid ac.Deacon </>End-Actor
+				Dialog <dde>sid pr.res08.text</>End-Dialog
+				Actor <apr>sid ac.Priest </>End-Actor
+			Para role erc_li_enarxis_deacon sid misc.custcontent End-Para
+			Para role brc_li_enarxis_no_deacon sid misc.custcontent End-Para
+				Actor <apr>sid ac.Priest </>End-Actor
+			Para role erc_li_enarxis_no_deacon sid misc.custcontent End-Para
 		End-Section
 		Section small_entrance_concelebration
 			Para role brc_li_smallentrance sid misc.custcontent End-Para

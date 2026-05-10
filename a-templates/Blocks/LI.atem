@@ -35,11 +35,11 @@ Status NA
 							Insert_section PE.Pascha_Beginning End-Insert
 						End-Section
 					78 thru 108 use:
-						Para role brc_li_enarxis1 sid misc.custcontent End-Para
+						Para role brc_li_enarxis_deacon sid misc.custcontent End-Para
 						Actor <ade>sid ac.Deacon </>End-Actor
 						Dialog <dde>sid pr.res08.text</>End-Dialog
 						Actor <apr>sid ac.Priest </>End-Actor
-						Para role erc_li_enarxis1 sid misc.custcontent End-Para
+						Para role erc_li_enarxis_deacon sid misc.custcontent End-Para
 						Para role brc_li_consecration_enarxis sid misc.custcontent End-Para
 						Para role erc_li_consecration_enarxis sid misc.custcontent End-Para
 						Section afterpascha
@@ -56,11 +56,11 @@ Status NA
 							Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
 						End-Section
 					otherwise use:
-						Para role brc_li_enarxis1 sid misc.custcontent End-Para
-						Actor <ade>sid ac.Deacon</>End-Actor
-						Dialog <dde>sid pr.res08.text </>End-Dialog
-						Actor <apr>sid ac.Priest</>End-Actor
-						Para role erc_li_enarxis1 sid misc.custcontent End-Para
+						Para role brc_li_enarxis_deacon sid misc.custcontent End-Para
+						Actor <ade>sid ac.Deacon </>End-Actor
+						Dialog <dde>sid pr.res08.text</>End-Dialog
+						Actor <apr>sid ac.Priest </>End-Actor
+						Para role erc_li_enarxis_deacon sid misc.custcontent End-Para
 						Section normal
 							Dialog <dpr>sid pr.enarxis02.text </>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
