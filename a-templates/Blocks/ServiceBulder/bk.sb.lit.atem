@@ -39,45 +39,45 @@ Status NA
 	End_Head
 
 
-	Section liturgy_options
+	Section liturgyions
 		Section post_gospel_litanies
 			Section chrys
-				Para role brc_li_opt_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ForCatechumens End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.FirstPrayerOfFaithful End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
-				Para role erc_li_opt_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
-				Para role brc_li_opt_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
-				Para role erc_li_opt_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
 			End-Section
 			Section basil
-				Para role brc_li_opt_post_gospel_litanies_basil_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_basil_on sid misc.custcontent End-Para
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Insert_section LI.after_gospel_litanies.basil.ForCatechumens End-Insert
 					Insert_section LI.after_gospel_litanies.basil.FirstPrayerOfFaithful End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
-				Para role erc_li_opt_post_gospel_litanies_basil_on sid misc.custcontent End-Para
-				Para role brc_li_opt_post_gospel_litanies_basil_off sid misc.custcontent End-Para
-				Para role erc_li_opt_post_gospel_litanies_basil_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_basil_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_basil_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_basil_off sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section extended_completion_litany
-			Para role brc_li_opt_extended_comp_litany_on sid misc.custcontent End-Para
+			Para role brc_li_extended_comp_litany_on sid misc.custcontent End-Para
 				Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
-			Para role erc_li_opt_extended_comp_litany_on sid misc.custcontent End-Para
-			Para role brc_li_opt_extended_comp_litany_off sid misc.custcontent End-Para
-			Para role erc_li_opt_extended_comp_litany_off sid misc.custcontent End-Para
+			Para role erc_li_extended_comp_litany_on sid misc.custcontent End-Para
+			Para role brc_li_extended_comp_litany_off sid misc.custcontent End-Para
+			Para role erc_li_extended_comp_litany_off sid misc.custcontent End-Para
 		End-Section
 		Section precommunion_prayers
-			Para role brc_li_opt_precommunionprayers_on sid misc.custcontent End-Para
+			Para role brc_li_precommunion_prayers_on sid misc.custcontent End-Para
 				Insert_section LI.prayers_before_communion End-Insert
-			Para role erc_li_opt_precommunionprayers_on sid misc.custcontent End-Para
-			Para role brc_li_opt_precommunionprayers_off sid misc.custcontent End-Para
-			Para role erc_li_opt_precommunionprayers_off sid misc.custcontent End-Para
+			Para role erc_li_precommunion_prayers_on sid misc.custcontent End-Para
+			Para role brc_li_precommunion_prayers_off sid misc.custcontent End-Para
+			Para role erc_li_precommunion_prayers_off sid misc.custcontent End-Para
 		End-Section
 		Section memorial_service
-			Para role brc_li_opt_memorial_service_on sid misc.custcontent End-Para
+			Para role brc_li_memorial_service_on sid misc.custcontent End-Para
 				Para role bkmrk09 sid misc.bookmark End-Para
 				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
 				Actor <ach>sid ac.Choir</>End-Actor
@@ -93,9 +93,9 @@ Status NA
 				Title role mode sid misc.Mode3 End-Title
 				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
 				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
-			Para role erc_li_opt_memorial_service_on sid misc.custcontent End-Para
-			Para role brc_li_opt_memorial_service_off sid misc.custcontent End-Para
-			Para role erc_li_opt_memorial_service_off sid misc.custcontent End-Para
+			Para role erc_li_memorial_service_on sid misc.custcontent End-Para
+			Para role brc_li_memorial_service_off sid misc.custcontent End-Para
+			Para role erc_li_memorial_service_off sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
@@ -152,24 +152,24 @@ Status NA
 			Para role erc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
 		Section great_entrance_hierarchical
-			Para role brc_li_greatentrance sid misc.custcontent End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text </>End-Dialog
+			Para role brc_li_great_entrance_hierarchical sid misc.custcontent End-Para
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text </>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
 				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text </>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112.rubric End-Rubric
 			//	Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112a.text sid client_gr_GR_cog.cl.bishop0.name_c sid eu.lichrysbasil_gr_GR_cog.euLI.Key1112b.text </>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-				Actor <ade><apr>sid ac.PriestOrDeacon </></>End-Actor
-				Dialog <dde><dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</></>End-Dialog
+				Actor <apr>sid ac.Priest </>End-Actor
+				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1124.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1113.rubric End-Rubric
 			//	Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1113.text </>End-Dialog
-			Para role erc_li_greatentrance sid misc.custcontent End-Para
+			Para role erc_li_great_entrance_hierarchical sid misc.custcontent End-Para
 			Para role brc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1140.rubric End-Rubric
 			Para role erc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
@@ -181,44 +181,44 @@ Status NA
 			Para role erc_li_kissofpeace sid misc.custcontent End-Para
 		End-Section
 		Section commemorations
-			Para role brc_hli_arch_or_metropolitan sid misc.custcontent End-Para
+			Para role brc_li_archbishop_or_metropolitan sid misc.custcontent End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				Actor <apr>sid ac.Priests</>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
+				Actor <aprcl>sid ac.sb.PrCl</>End-Actor
+				Dialog <dprcl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Para role erc_hli_arch_or_metropolitan sid misc.custcontent End-Para
-			Para role brc_hli_bishop sid misc.custcontent End-Para
+			Para role erc_li_archbishop_or_metropolitan sid misc.custcontent End-Para
+			Para role brc_li_bishop sid misc.custcontent End-Para
 				Actor <ahi>sid ac.Bishop</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				Actor <acl>sid ac.Priests</>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
+				Actor <aprcl>sid ac.sb.PrCl</>End-Actor
+				Dialog <dprcl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop2.rank sid client_gr_GR_cog.cl.bishop2.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Para role erc_hli_bishop sid misc.custcontent End-Para
-			Para role brc_hli_additional_metropolitan sid misc.custcontent End-Para
+			Para role erc_li_bishop sid misc.custcontent End-Para
+			Para role brc_li_additional_metropolitan sid misc.custcontent End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 				Actor <ahi>sid ac.Metropolitan</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				Actor <acl>sid ac.Priests</>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
+				Actor <aprcl>sid ac.sb.PrCl</>End-Actor
+				Dialog <dprcl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Para role erc_hli_additional_metropolitan sid misc.custcontent End-Para
-			Para role brc_hli_additional_bishop sid misc.custcontent End-Para
+			Para role erc_li_additional_metropolitan sid misc.custcontent End-Para
+			Para role brc_li_additional_bishop sid misc.custcontent End-Para
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 				Actor <ahi>sid ac.Bishop</>End-Actor
 				Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-				Actor <acl>sid ac.Priests</>End-Actor
-				Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
+				Actor <aprcl>sid ac.sb.PrCl</>End-Actor
+				Dialog <dprcl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-			Para role erc_hli_additional_bishop sid misc.custcontent End-Para
+			Para role erc_li_additional_bishop sid misc.custcontent End-Para
 		End-Section
 		Section dismissal_part2
 			Para role brc_li_hierarchical_dismissal sid misc.custcontent End-Para

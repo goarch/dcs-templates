@@ -1772,7 +1772,7 @@ Status NA
 			Break line End_Break
 		End-Section
 		Section prayers_before_communion_collapsible
-			Para role brc_li_opt_precommunionprayers sid misc.custcontent End-Para
+			Para role brc_li_precommunion_prayers sid misc.custcontent End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Title
 			Actor sid ac.People End-Actor
 			Title role smalldesig sid ho.ho21_gr_GR_cog.hoPrayer.title End-Title
@@ -1792,7 +1792,7 @@ Status NA
 			Reading sid ho.ho21_gr_GR_cog.hoPrayer.Key161.text End-Reading
 			Reading sid ho.ho21_gr_GR_cog.hoPrayer.Key121.text End-Reading
 			Title role emc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.bottom End-Title
-			Para role erc_li_opt_precommunionprayers sid misc.custcontent End-Para
+			Para role erc_li_precommunion_prayers sid misc.custcontent End-Para
 		End-Section
 		Section fraction_of_gifts
 			Actor <ade>sid ac.Deacon<smaller>sid ru.InALowVoice</></>End-Actor

@@ -2404,12 +2404,12 @@ Status NA
 					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text </>End-Para
 					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.text sid misc.separator.asterisk sid eu.lichrysbasil_gr_GR_cog.euLI.Key1103.text sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text<r>sid ru.Thrice</></>End-Para
 
-					Para role brc_li_greatentrance sid misc.custcontent End-Para
+					Para role brc_li_great_entrance sid misc.custcontent End-Para
 
 					Actor <ade>sid ac.Deacon </>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
 
-					Para role erc_li_greatentrance sid misc.custcontent End-Para
+					Para role erc_li_great_entrance sid misc.custcontent End-Para
 
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1123.text media-off End-Hymn
@@ -4230,11 +4230,11 @@ Status NA
 			End-Section
 		End-Section
 		Section prayers_before_communion_collapsible
-			Para role brc_li_opt_precommunionprayers sid misc.custcontent End-Para
+			Para role brc_li_precommunion_prayers sid misc.custcontent End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Title
 			Insert_section LI.prayers_before_communion End-Insert
 			Title role emc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.bottom End-Title
-			Para role erc_li_opt_precommunionprayers sid misc.custcontent End-Para
+			Para role erc_li_precommunion_prayers sid misc.custcontent End-Para
 		End-Section
 		Section prayers_before_communion
 			Actor <ape>sid ac.People</>End-Actor

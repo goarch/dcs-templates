@@ -262,28 +262,28 @@ Status NA
 	End-Section
 
 		Section dynamis_dialog_priest
-			Actor sid ac.Deacon End-Actor
-			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Dialog
-			Para role actorinaudible sid ac.Deacon<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid pr.Command_bishop.text End-Para
-			Para role actorinaudible sid ac.Priest<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text End-Para
-			Para role actorinaudible sid ac.Deacon<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text End-Para
-			Para role actorinaudible sid ac.Priest<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text End-Para
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text</>End-Dialog
+			Para role actorinaudible <adepr>sid ac.sb.DeBl<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <ddebl>sid pr.Command_bishop.text</>End-Para
+			Para role actorinaudible<apr> sid ac.Priest<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text</>End-Para
+			Para role actorinaudible <adebl>sid ac.sb.DeBl<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text</>End-Para
+			Para role actorinaudible <apr>sid ac.Priest<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text</>End-Para
 		End-Section
 		Section dynamis_dialog_hierarch
-			Actor sid ac.Deacon End-Actor
-			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Dialog
-			Para role actorinaudible sid ac.Deacon<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid pr.Command_bishop.text End-Para
-			Para role actorinaudible sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text End-Para
-			Para role actorinaudible sid ac.Deacon<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text End-Para
-			Para role actorinaudible sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</>End-Para
-			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text End-Para
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text</>End-Dialog
+			Para role actorinaudible <adepr>sid ac.sb.DePr<smallreditalic></>sid ru.InALowVoice</>End-Para
+			Para role inaudible <ddepr>sid pr.Command_bishop.text</>End-Para
+			Para role actorinaudible <ahi>sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text</>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr<smallreditalic></>sid ru.InALowVoice</>End-Para
+			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text</>End-Para
+			Para role actorinaudible <ahi>sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text</>End-Para
 		End-Section
 
 	Section hymnBasil //li2 parts
