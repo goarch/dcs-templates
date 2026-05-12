@@ -2266,7 +2266,7 @@ Status NA
 					End-Section
 					Section hierarch
 						Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
-						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
 					Section all
@@ -2550,7 +2550,7 @@ Status NA
 					Section hierarch
 						Para role brc_li_commemoration_hierarch sid misc.custcontent End-Para
 						Actor <aprcl>sid ac.sb.PrCl<smaller>sid ru.Aloud</></>End-Actor
-						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_co</>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
+						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 						Para role erc_li_commemoration_hierarch sid misc.custcontent End-Para
 					End-Section

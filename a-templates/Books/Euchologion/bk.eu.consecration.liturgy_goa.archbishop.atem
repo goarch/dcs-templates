@@ -416,7 +416,7 @@ Status NA
 		Dialog sid pr.pet03.text End-Dialog
 		Dialog sid pr.pet04.text End-Dialog
 		Dialog sid pr.pet05.text End-Dialog
-		Dialog sid eu.consecrationliturgygoaAB_gr_GR_cog.euCON.Key4507a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid eu.consecrationliturgygoaAB_gr_GR_cog.euCON.Key4507b.text End-Dialog
+		Dialog sid eu.consecrationliturgygoaAB_gr_GR_cog.euCON.Key4507a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid eu.consecrationliturgygoaAB_gr_GR_cog.euCON.Key4507b.text End-Dialog
 		Dialog sid eu.consecrationliturgygoaAB_gr_GR_cog.euCON.Key4508.text End-Dialog
 		Dialog sid pr.petConsecration02.text End-Dialog
 		Dialog sid pr.pet07L.text End-Dialog
@@ -821,12 +821,12 @@ Status NA
 			Actor sid ac.Archbishop<rubric>sid ru.InALowVoice</>End-Actor
 			Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.text End-Para
 			Actor sid ac.Archbishop End-Actor
-			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
+			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
 			Actor sid ac.Metropolitan End-Actor
-			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.rank sid client_gr_GR_cog.cl.bishop0.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
+			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Priests End-Actor
-			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_sc sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
+			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Deacon End-Actor
 			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1331.text End-Dialog

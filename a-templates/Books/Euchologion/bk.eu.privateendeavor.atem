@@ -102,7 +102,7 @@ Status NA
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet02.text End-Dialog
 		Dialog sid pr.pet03.text End-Dialog
-		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text End-Dialog //with client specific bishop's name
+		Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text End-Dialog //with client specific bishop's name
 		Dialog sid misc.parenthesis.open sid pr.pet07S.text sid misc.parenthesis.close End-Dialog
 		Dialog sid pr.petWater01.text End-Dialog
 		Dialog sid eu.privateendeavor_gr_GR_cog.euKey005.text End-Dialog

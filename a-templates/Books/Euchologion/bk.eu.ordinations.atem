@@ -77,7 +77,7 @@ Status NA
 		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r07 End-Rubric
 		Para role prayer sid eu.ordination_gr_GR_cog.euORD.DE.p208.text<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Para
 		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r08 End-Rubric
-		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.petOrdination01b.text End-Dialog
+		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02_deacon.text End-Dialog
 		Dialog sid pr.petOrdination03_deacon.text End-Dialog
 		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r09 End-Rubric
@@ -117,7 +117,7 @@ Status NA
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p305.text End-Dialog
 		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r07b End-Rubric
 
-		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.petOrdination01b.text End-Dialog
+		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02a.text sid pr.petOrdination02b.text sid pr.petOrdination02c_priest.text End-Dialog
 		Dialog sid pr.petOrdination03_priest.text End-Dialog
 
@@ -164,7 +164,7 @@ Status NA
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p415.text End-Dialog
 		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r11 End-Rubric
 
-		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.petOrdination01b.text End-Dialog
+		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02_bishop.text End-Dialog
 		Dialog sid pr.petOrdination03_bishop.text End-Dialog
 

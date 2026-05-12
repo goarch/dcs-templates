@@ -173,7 +173,7 @@ Break page End_Break
 	Dialog sid pr.pet02.text End-Dialog
 	Dialog sid pr.pet03.text End-Dialog
 	Dialog sid pr.pet04.text End-Dialog
-	Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text End-Dialog
+	Dialog sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text End-Dialog
 	Dialog sid pr.petWater01.text End-Dialog
 	Dialog sid pr.petWater03alt.text End-Dialog
 	Dialog sid pr.petWater02.text End-Dialog

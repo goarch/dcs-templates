@@ -64,7 +64,7 @@ Status NA
 			Dialog sid euMORD.CH.key005_female.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Deacon End-Actor
-			Dialog sid euMORD.CH.key006a.text sid cl.bishop1.rank sid cl.bishop1.name_c sid euMORD.CH.key006b.text End-Dialog
+			Dialog sid euMORD.CH.key006a.text sid cl.bishop1.name.petitionC sid euMORD.CH.key006b.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet11.text End-Dialog

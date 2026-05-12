@@ -91,7 +91,7 @@ Status NA
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
 			Actor <adepr>sid ac.sb.DePr</>End-Actor
 		End-Section
-	//	Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
+	//	Dialog <dde>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</>End-Dialog
 	//	Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
 	//	Actor <ade>sid ac.Deacon</>End-Actor
 	//	Dialog <dde>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.deacon.gen.text sid pr.petOrdination02c_deacon.text</>End-Dialog
@@ -209,7 +209,7 @@ Status NA
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
 			Actor <apr>sid ac.Priest1</>End-Actor
 		End-Section
-	//	Dialog <dpr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_c sid pr.pet06b.text</>End-Dialog
+	//	Dialog <dpr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</>End-Dialog
 	//	Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
 	//	Actor <apr>sid ac.Priest1</>End-Actor
 	//	Dialog <dpr>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.priest.gen.text sid pr.petOrdination02c_priest.text</>End-Dialog

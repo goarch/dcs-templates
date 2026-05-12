@@ -280,7 +280,12 @@ Status NA
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia101.text media-off End-Hymn
 
 		End-Section
-		Insert_section LN.ShortLitany04_deacon_parentheses End-Insert
+		Section ShortLitany04_deacon_choir
+			Insert_section LN.ShortLitany00_deacon_choir End-Insert
+			Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+			Dialog <dprhi>sid pr.exc04.text</> End-Dialog
+			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+		End-Section
 		Section block14
 			Title role desig sid tr.d070_gr_GR_cog.trMA.Encomia200.title<Tmode>sid tr.d070_gr_GR_cog.trMA.Encomia200.mode</>End-Title
 
@@ -331,8 +336,8 @@ Status NA
 		End-Section
 		Section block15
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc25.text End-Dialog
+			Actor<aprhi> sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi> sid pr.exc25.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section block16
@@ -399,8 +404,8 @@ Status NA
 		End-Section
 		Section block17
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc26.text End-Dialog
+			Actor<aprhi> sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi> sid pr.exc26.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section block18
@@ -439,59 +444,59 @@ Status NA
 			Rubric sid client_gr_GR_cog.cl.tr.d070.R304 End-Rubric
 			Actor sid ac.Choir End-Actor
 			Hymn sid pr.HolyGod.text @ver End-Hymn
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet17.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet18.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet18.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet19a.text<r>sid client_gr_GR_cog.cl.bishop1.rank sid client_gr_GR_cog.cl.bishop1.name_p</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet19a.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet07Sa.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet07Sa.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc11.text End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 
 			Hymn sid pr.HolyGod.text @ver End-Hymn
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet17.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet21.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet21.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc11.text End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 
 			Hymn sid pr.HolyGod.text @ver End-Hymn
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet17.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.petSouls01.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.petSouls01.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc23.text End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc23.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 
 			Hymn sid pr.HolyGod.text @ver End-Hymn
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet17.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.pet33.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet33.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc11.text End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section block20
 			Rubric sid client_gr_GR_cog.cl.tr.d070.R305 End-Rubric
-			Actor sid ac.Priest End-Actor
-			Dialog sid pr.exc19.text sid pr.pet31.text sid pr.exc17.text End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc19.text sid pr.pet31.text sid pr.exc17.text</>End-Dialog
 			Actor sid ac.Choir End-Actor
 			Title role desig sid ti.Apolytikia<Tmode>sid tr.d070_gr_GR_cog.trVE.Apolytikion1.mode</>End-Title
 			Media sid tr.d070_gr_GR_cog.trVE.Apolytikion3.text End-Media
