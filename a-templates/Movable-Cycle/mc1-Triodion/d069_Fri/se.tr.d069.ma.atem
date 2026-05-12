@@ -485,8 +485,8 @@ Status NA
 		Section GospelReading_12
 			Title role desig sid lemcHW.PassionGospel12.title End-Title
 			Insert_section LN.BeforeGospel_deacon_choir End-Insert
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.gos03a.text sid lemcHW.PassionGospel12.book_string sid pr.gos03b.text End-Dialog
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.gos03a.text sid lemcHW.PassionGospel12.book_string sid pr.gos03b.text</>End-Dialog
 			Actor sid ac.PriestOrDeacon End-Actor
 			Dialog sid pr.exc19.text End-Dialog
 			Actor sid ac.Choir End-Actor

@@ -263,7 +263,8 @@ Status Final
 		Para role prayer sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0502.text End-Para
 		Para role readingcenterzero sid misc.horizontal_line.solid1 End-Para
 		Break line End_Break
-		Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+		Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+		Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para

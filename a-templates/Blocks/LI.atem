@@ -2433,8 +2433,8 @@ Status NA
 					Para role erc_li_consecration_cherubic sid misc.custcontent End-Para
 				End-Section
 				Para role brc_li_ordination_priest_part1 sid misc.custcontent End-Para
-				Para role brc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
-				Para role erc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
+				Para role brc_li_hierarchical_post_cherubic_rubric sid misc.custcontent End-Para 
+				Para role erc_li_hierarchical_post_cherubic_rubric sid misc.custcontent End-Para 
 				Para role erc_li_ordination_priest_part1 sid misc.custcontent End-Para
 				Section litany_creed
 					Insert_section LN.CompLitanyLI_deacon_choir End-Insert
@@ -2445,7 +2445,8 @@ Status NA
 					Dialog <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.title</>End-Title
-					Para role dialogwithactor<dwaprhi><actorwithdialog>sid ac.sb.IL.PrHi</>sid pr.pet31.text</>End-Para
+					Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+					Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 					Actor <ade>sid ac.sb.DePr </>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text</>End-Dialog
@@ -4084,12 +4085,18 @@ Status NA
 			End-Section
 		End-Section
 		Section _4_entrance
-			Para role brc_li_smallentrance sid misc.custcontent End-Para
-			Actor <aclhi>sid ac.sb.ClHi</>End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
-			Actor <ach>sid ac.Choir</>End-Actor
-			Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
-			Para role erc_li_smallentrance sid misc.custcontent End-Para
+			Para role brc_li_smallentrance_choir sid misc.custcontent End-Para
+				Actor <ach>sid ac.Choir </>End-Actor
+				Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
+				Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
+			Para role erc_li_smallentrance_choir sid misc.custcontent End-Para
+			Para role inaudible<inr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1206.rubric</>End-Para
+			Para role brc_li_smallentrance_clhi sid misc.custcontent End-Para
+				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
+				Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
+				Actor <ach>sid ac.Choir</>End-Actor
+				Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
+			Para role erc_li_smallentrance_clhi sid misc.custcontent End-Para
 		End-Section
 		Section _5_trisagionhymn__
 			Section basil
@@ -4150,7 +4157,8 @@ Status NA
 			Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 		End-Section
 		Section trisagion_prayer
-			Para role dialogwithactor<dwadepr><actorwithdialog>sid ac.sb.IL.DePr</>sid pr.pet00.text</>End-Para
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet00.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0601.title</>End-Title
@@ -4470,16 +4478,17 @@ Status NA
 			Break line End_Break
 	 	End-Section
 		Section blessing_before_dismissal
-			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet00.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <aprhi>sid ac.sb.PrHi </>End-Actor
 			Dialog <dprhi>sid pr.pet37.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
 		Section dismissal_intro_paschal
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pe.d071_gr_GR_cog.peMA.Troparion.text media-off</>End-Dialog
-			Dialog <dde>sid pr.res01.text<r>sid ru.Thrice</>sid pr.Bless_father.text</>End-Dialog
+			Actor <adebl>sid ac.sb.DeBl</>End-Actor
+			Dialog <ddebl>sid pe.d071_gr_GR_cog.peMA.Troparion.text media-off</>End-Dialog
+			Dialog <ddebl>sid pr.res01.text<r>sid ru.Thrice</>sid pr.Bless_father.text</>End-Dialog
 		End-Section
 		Section dismissal_part2
 			Para role brc_li_dismissal sid misc.custcontent End-Para

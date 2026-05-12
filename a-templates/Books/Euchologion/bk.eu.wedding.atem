@@ -72,7 +72,8 @@ Status Final
 	Para role prayer sid eu.wedding_gr_GR_cog.euWED.Key0102.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	Actor sid ac.Priest End-Actor
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+	Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+	Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
@@ -252,7 +253,8 @@ Status Final
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.exc20.text End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+	Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+	Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
@@ -289,7 +291,8 @@ Status Final
 	Dialog sid eu.wedding_gr_GR_cog.euWED.Key0311.text End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+	Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+	Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para

@@ -1625,17 +1625,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySunday sid ti.Forefathers End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dFF.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dFF.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1651,17 +1651,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySaturday sid ti.BeforeChristmas End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatBC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatBC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1683,17 +1683,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySunday sid ti.BeforeChristmas End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunBC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunBC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1713,17 +1713,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySaturday sid ti.AfterChristmas End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatAC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatAC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1743,17 +1743,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySunday sid ti.AfterChristmas End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunAC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunAC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1777,17 +1777,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySaturday sid ti.BeforeCross End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSatBC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSatBC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1807,17 +1807,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySaturday sid ti.AfterCross End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSatAC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSatAC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1831,17 +1831,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role desig sid ti.daySunday sid ti.AfterCross End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSunAC.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m09.dSunAC.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1874,17 +1874,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.Forefestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Thursday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Thursday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1898,17 +1898,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.Forefestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1931,17 +1931,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Insert_section bk.ev.me.m12.dSatBE.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatBE.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSatBE.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1963,17 +1963,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Insert_section bk.ev.me.m12.dSunBE.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunBE.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m12.dSunBE.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -1993,17 +1993,17 @@ Status NA
 					Hymn sid pr.Alleluia3.text media-off End-Hymn
 				End-Section //Alleluia
 				Section lesson
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d06.matins.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d06.matins.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2017,17 +2017,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Saturday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p1.Week_01.Day_Saturday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2041,17 +2041,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Week_12.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Week_12.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2065,17 +2065,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2089,17 +2089,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2113,17 +2113,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d12.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d12.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2137,17 +2137,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_11.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_11.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2169,17 +2169,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.PostFestal_Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_01.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2201,17 +2201,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Insert_section bk.ev.me.m01.dSatAE.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.dSatAE.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.dSatAE.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2233,17 +2233,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Insert_section bk.ev.me.m01.dSunAE.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.dSunAE.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.dSunAE.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2290,17 +2290,17 @@ Status NA
 			Section lesson
 				Title role desig sid ti.Gospel End-Title
 				Insert_section bk.ev.me.m01.d17.liturgy.go_title End-Insert
-				Actor sid ac.Deacon End-Actor
-				Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
+				Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.pet31.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m01.d17.liturgy.go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m01.d17.liturgy.go_lesson End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.gos05.text End-Dialog
@@ -2316,17 +2316,17 @@ Status NA
 					Title role desig sid ti.Gospel End-Title
 					Insert_section if_previously_skipped__.gospel__.sunday End-Insert
 					Insert_section bk.ev.mc.p2.Day_Sunday14.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Day_Sunday14.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Day_Sunday14.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2341,17 +2341,17 @@ Status NA
 					Title role desig sid ti.Gospel End-Title
 					Insert_section if_previously_skipped__.gospel__.sunday End-Insert
 					Insert_section bk.ev.mc.p2.Day_Sunday15.liturgy.go_title End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Day_Sunday15.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p2.Day_Sunday15.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2365,17 +2365,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d095_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Thursday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Thursday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2389,17 +2389,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d096_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Friday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Friday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2413,17 +2413,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d097_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Saturday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_14.Day_Saturday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2437,17 +2437,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d099_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2461,17 +2461,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d100_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Tuesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Tuesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2485,17 +2485,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d101_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2509,17 +2509,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d102_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Thursday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Thursday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2533,17 +2533,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d103_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Friday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Friday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2557,17 +2557,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d104_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Saturday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_15.Day_Saturday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2581,17 +2581,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d106_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2605,17 +2605,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d107_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Tuesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Tuesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2629,17 +2629,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d108_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2653,17 +2653,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d109_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Thursday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Thursday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2677,17 +2677,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d110_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Friday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Friday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2701,17 +2701,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d111_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Saturday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_16.Day_Saturday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2725,17 +2725,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d113_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Monday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Monday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2749,17 +2749,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d114_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Tuesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Tuesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2773,17 +2773,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d115_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Wednesday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Wednesday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2797,17 +2797,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d116_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Thursday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Thursday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2821,17 +2821,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d117_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Friday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Friday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2845,17 +2845,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d118_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Saturday.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Week_17.Day_Saturday.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -2880,13 +2880,13 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.gos03a.text sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.book_string sid pr.gos03b.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.gos03a.text sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
@@ -2914,13 +2914,13 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.title End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.gos03a.text sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.book_string sid pr.gos03b.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.gos03a.text sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.book_string sid pr.gos03b.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
@@ -2948,17 +2948,17 @@ Status NA
 			Section lesson
 				Title role desig sid ti.Gospel End-Title
 				Title role smalldesig sid ti.Theotokos End-Title
-				Actor sid ac.Deacon End-Actor
-				Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
+				Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.pet31.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m09.d08.liturgy.go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m09.d08.liturgy.go_lesson End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.gos05.text End-Dialog
@@ -2980,17 +2980,17 @@ Status NA
 			Section lesson
 				Title role desig sid ti.Gospel End-Title
 				Title role smalldesig sid ti.Theotokos End-Title
-				Actor sid ac.Deacon End-Actor
-				Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
+				Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.pet31.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m09.d08.matins.go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section bk.ev.me.m09.d08.matins.go_lesson End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.gos05.text End-Dialog
@@ -3013,17 +3013,17 @@ Status NA
 				End-Section
 				Section lesson
 					Insert_section TI.le.go.triodion.d015_meatfare End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Day_Sunday_Meat.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Day_Sunday_Meat.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3045,17 +3045,17 @@ Status NA
 				End-Section
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d17.matins.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.me.m01.d17.matins.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3077,17 +3077,17 @@ Status NA
 				End-Section
 				Section lesson
 					Insert_section TI.le.go.triodion.d022_cheesefare End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Day_Sunday_Cheese.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p3.Day_Sunday_Cheese.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3109,17 +3109,17 @@ Status NA
 				End-Section
 				Section lesson
 					Insert_section TI.le.go.triodion.d029_lent1 End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Sunday_Lent1.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Sunday_Lent1.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3141,17 +3141,17 @@ Status NA
 				End-Section
 				Section lesson
 					Insert_section TI.le.go.triodion.d043_lent3 End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Sunday_Lent3.liturgy.go_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Sunday_Lent3.liturgy.go_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3174,17 +3174,17 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title role smalldesig sid ti.Theotokos End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Saturday_Lent5.liturgy.go2_book End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Insert_section bk.ev.mc.p4.Day_Saturday_Lent5.liturgy.go2_lesson End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.gos05.text End-Dialog
@@ -3206,8 +3206,8 @@ Status NA
 				End-Section
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
@@ -3239,13 +3239,13 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title<inr>rid lemeVE.Gospel.title</>End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.gos03a.text rid lemeVE.Gospel.book_string sid pr.gos03b.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.gos03a.text rid lemeVE.Gospel.book_string sid pr.gos03b.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog
@@ -3281,13 +3281,13 @@ Status NA
 				Section lesson
 					Title role desig sid ti.Gospel End-Title
 					Title<inr>rid lemcVE.Gospel.title</>End-Title
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.pet31.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.res05.text sid misc.parenthesis.close</>End-Dialog
-					Actor sid ac.Deacon End-Actor
-					Dialog sid pr.gos03a.text rid lemcVE.Gospel.book_string sid pr.gos03b.text End-Dialog
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.gos03a.text rid lemcVE.Gospel.book_string sid pr.gos03b.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc19.text End-Dialog
 					Dialog<i>sid misc.parenthesis.open sid pr.GloryToYouLord.text sid misc.parenthesis.close</>End-Dialog

@@ -39,7 +39,7 @@ Status NA
 	End_Head
 
 
-	Section liturgyions
+	Section liturgy_options
 		Section post_gospel_litanies
 			Section chrys
 				Para role brc_li_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
@@ -99,7 +99,6 @@ Status NA
 		End-Section
 	End-Section
 
-
 	Section sb_parts_insert
 		Section enarxis
 			Para role brc_li_enarxis_deacon sid misc.custcontent End-Para
@@ -111,23 +110,37 @@ Status NA
 				Actor <apr>sid ac.Priest </>End-Actor
 			Para role erc_li_enarxis_no_deacon sid misc.custcontent End-Para
 		End-Section
-		Section small_entrance_concelebration
-			Para role brc_li_smallentrance sid misc.custcontent End-Para
+		Section small_entrance
+			Para role brc_li_smallentrance_choir sid misc.custcontent End-Para
+				Actor <ach>sid ac.Choir </>End-Actor
+				Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
+				Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
+			Para role erc_li_smallentrance_choir sid misc.custcontent End-Para
+			Para role brc_li_smallentrance_clhi sid misc.custcontent End-Para
 				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
 				Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
 				Actor <ach>sid ac.Choir </>End-Actor
 				Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
-			Para role erc_li_smallentrance sid misc.custcontent End-Para
+			Para role erc_li_smallentrance_clhi sid misc.custcontent End-Para
 		End-Section
 		Section apolytikion2
-			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
+			Para role brc_li_apolytikion2_yes sid misc.custcontent End-Para
 				Actor <ach>sid ac.Choir</>End-Actor
-			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
+			Para role erc_li_apolytikion2_yes sid misc.custcontent End-Para
+			Para role brc_li_apolytikion2_no sid misc.custcontent End-Para
+			Para role erc_li_apolytikion2_no sid misc.custcontent End-Para
 		End-Section
-		Section kontakion_concelebration_hierarchical
-			Para role brc_li_kontakion sid misc.custcontent End-Para
+		Section kontakion
+			Para role brc_li_kontakion_choir sid misc.custcontent End-Para
+			Para role erc_li_kontakion_choir sid misc.custcontent End-Para
+			Para role brc_li_kontakion_clhi sid misc.custcontent End-Para
 				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
-			Para role erc_li_kontakion sid misc.custcontent End-Para
+			Para role erc_li_kontakion_clhi sid misc.custcontent End-Para
+		End-Section
+		Section trisagion
+			Insert_section Selector_Trisagion.baptized End-Insert
+			Insert_section Selector_Trisagion.cross End-Insert
+			Insert_section Selector_Trisagion.holygod End-Insert
 		End-Section
 		Section trisagion_concelebration
 			Para role brc_li_concelebration_trisagion_baptized sid misc.custcontent End-Para
@@ -151,8 +164,8 @@ Status NA
 				Insert_section Selector_Trisagion.hierarchical__.holygod_one_choir End-Insert
 			Para role erc_li_hierarchical_trisagion_holygod sid misc.custcontent End-Para
 		End-Section
-		Section great_entrance_hierarchical
-			Para role brc_li_great_entrance_hierarchical sid misc.custcontent End-Para
+		Section great_entrance
+			Para role brc_li_hierarchical_great_entrance sid misc.custcontent End-Para
 				Actor <adepr>sid ac.sb.DePr</>End-Actor
 				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text </>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -169,16 +182,20 @@ Status NA
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1113.rubric End-Rubric
 			//	Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1113.text </>End-Dialog
-			Para role erc_li_great_entrance_hierarchical sid misc.custcontent End-Para
-			Para role brc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
+			Para role erc_li_hierarchical_great_entrance sid misc.custcontent End-Para
+			Para role brc_li_hierarchical_post_cherubic_rubric sid misc.custcontent End-Para 
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1140.rubric End-Rubric
-			Para role erc_li_post_cherubic_hierarchical_rubric sid misc.custcontent End-Para 
+			Para role erc_li_hierarchical_post_cherubic_rubric sid misc.custcontent End-Para 
 		End-Section
 		Section kiss_of_peace
 			Para role brc_li_kissofpeace sid misc.custcontent End-Para
+				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text End-Media
+				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1205.text media-off End-Hymn
+			Para role erc_li_kissofpeace sid misc.custcontent End-Para
+			Para role brc_li_kissofpeace_clhi sid misc.custcontent End-Para
 				Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key1206.text End-Media
 				Para role inaudible sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver End-Para
-			Para role erc_li_kissofpeace sid misc.custcontent End-Para
+			Para role erc_li_kissofpeace_clhi sid misc.custcontent End-Para
 		End-Section
 		Section commemorations
 			Para role brc_li_archbishop_or_metropolitan sid misc.custcontent End-Para

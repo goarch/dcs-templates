@@ -192,7 +192,8 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc12.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
@@ -356,7 +357,8 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc12.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
@@ -537,7 +539,8 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc12.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
@@ -822,7 +825,8 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc12.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog

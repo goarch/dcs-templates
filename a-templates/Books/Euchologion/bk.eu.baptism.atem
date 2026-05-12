@@ -336,7 +336,8 @@ Break page End_Break
 	Para role prayer sid eu.baptism_gr_GR_cog.euBAP.Key0504.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+	Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+	Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
@@ -361,7 +362,8 @@ Break page End_Break
 	Actor sid ac.Priest End-Actor
 	Dialog sid eu.baptism_gr_GR_cog.euBAP.Key0508.text End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+	Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+	Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para

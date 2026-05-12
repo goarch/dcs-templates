@@ -126,12 +126,12 @@ Status Final
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
 				Actor sid ac.Priest End-Actor
-				Dialog sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH1.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+				Dialog<ddepr>sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH1.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 				Actor sid ac.Priest End-Actor
 				Title role chapverse sid le.go.mc.d069_gr_GR_cog.lemcH1.Gospel.chapverse End-Title
-				Reading sid le.go.mc.d069_gr_GR_cog.lemcH1.Gospel.text @ver End-Reading
+				Reading<ddepr>sid le.go.mc.d069_gr_GR_cog.lemcH1.Gospel.text @ver</>End-Reading
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 			End-Section
@@ -232,12 +232,12 @@ Status Final
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
 				Actor sid ac.Priest End-Actor
-				Dialog sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH3.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+				Dialog<ddepr>sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH3.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 				Actor sid ac.Priest End-Actor
 				Title role chapverse sid le.go.mc.d069_gr_GR_cog.lemcH3.Gospel.chapverse End-Title
-				Reading sid le.go.mc.d069_gr_GR_cog.lemcH3.Gospel.text @ver End-Reading
+				Reading<ddepr>sid le.go.mc.d069_gr_GR_cog.lemcH3.Gospel.text @ver</>End-Reading
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 			End-Section
@@ -334,12 +334,12 @@ Status Final
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
 				Actor sid ac.Priest End-Actor
-				Dialog sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH6.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+				Dialog<ddepr>sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH6.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 				Actor sid ac.Priest End-Actor
 				Title role chapverse sid le.go.mc.d069_gr_GR_cog.lemcH6.Gospel.chapverse End-Title
-				Reading sid le.go.mc.d069_gr_GR_cog.lemcH6.Gospel.text @ver End-Reading
+				Reading<ddepr>sid le.go.mc.d069_gr_GR_cog.lemcH6.Gospel.text @ver</>End-Reading
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 			End-Section
@@ -438,12 +438,12 @@ Status Final
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
 				Actor sid ac.Priest End-Actor
-				Dialog sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH9.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+				Dialog<ddepr>sid pr.gos03a.text sid le.go.mc.d069_gr_GR_cog.lemcH9.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 				Actor sid ac.Priest End-Actor
 				Title role chapverse sid le.go.mc.d069_gr_GR_cog.lemcH9.Gospel.chapverse End-Title
-				Reading sid le.go.mc.d069_gr_GR_cog.lemcH9.Gospel.text @ver End-Reading
+				Reading<ddepr>sid le.go.mc.d069_gr_GR_cog.lemcH9.Gospel.text @ver</>End-Reading
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 			End-Section

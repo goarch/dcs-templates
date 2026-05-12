@@ -140,11 +140,11 @@ Status Final
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 							Title role desig sid ti.Gospel End-Title
 							Actor sid ac.Priest End-Actor
-							Dialog sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH1.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+							Dialog<ddepr>sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH1.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 							Actor sid ac.Priest End-Actor
 							Title role chapverse sid le.go.me.m12.d24_gr_GR_cog.lemeH1.Gospel.chapverse End-Title
-							Reading sid le.go.me.m12.d24_gr_GR_cog.lemeH1.Gospel.text @ver End-Reading
+							Reading<ddepr>sid le.go.me.m12.d24_gr_GR_cog.lemeH1.Gospel.text @ver</>End-Reading
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 						End-Section
 						Section block9
@@ -250,11 +250,11 @@ Status Final
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 							Title role desig sid ti.Gospel End-Title
 							Actor sid ac.Priest End-Actor
-							Dialog sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH3.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+							Dialog<ddepr>sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH3.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 							Actor sid ac.Priest End-Actor
 							Title role chapverse sid le.go.me.m12.d24_gr_GR_cog.lemeH3.Gospel.chapverse End-Title
-							Reading sid le.go.me.m12.d24_gr_GR_cog.lemeH3.Gospel.text @ver End-Reading
+							Reading<ddepr>sid le.go.me.m12.d24_gr_GR_cog.lemeH3.Gospel.text @ver</>End-Reading
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 						End-Section
 						Section block9
@@ -339,11 +339,11 @@ Status Final
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 							Title role desig sid ti.Gospel End-Title
 							Actor sid ac.Priest End-Actor
-							Dialog sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH6.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+							Dialog<ddepr>sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH6.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 							Actor sid ac.Priest End-Actor
 							Title role chapverse sid le.go.me.m12.d24_gr_GR_cog.lemeH6.Gospel.chapverse End-Title
-							Reading sid le.go.me.m12.d24_gr_GR_cog.lemeH6.Gospel.text @ver End-Reading
+							Reading<ddepr>sid le.go.me.m12.d24_gr_GR_cog.lemeH6.Gospel.text @ver</>End-Reading
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 						End-Section
 						Section block9
@@ -439,11 +439,11 @@ Status Final
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 							Title role desig sid ti.Gospel End-Title
 							Actor sid ac.Priest End-Actor
-							Dialog sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH9.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text End-Dialog
+							Dialog<ddepr>sid pr.gos03a.text sid le.go.me.m12.d24_gr_GR_cog.lemeH9.Gospel.book_string sid pr.gos03b.text sid pr.exc19.text</>End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 							Actor sid ac.Priest End-Actor
 							Title role chapverse sid le.go.me.m12.d24_gr_GR_cog.lemeH9.Gospel.chapverse End-Title
-							Reading sid le.go.me.m12.d24_gr_GR_cog.lemeH9.Gospel.text @ver End-Reading
+							Reading<ddepr>sid le.go.me.m12.d24_gr_GR_cog.lemeH9.Gospel.text @ver</>End-Reading
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 						End-Section
 						Section block9

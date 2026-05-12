@@ -98,7 +98,8 @@ Status Final
 			Para role prayer sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer39a.text sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer39b.text sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer39c.text sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer39d.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer39e.text End-Para
 			Para role prayer sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer310.text End-Para
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text End-Para
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
