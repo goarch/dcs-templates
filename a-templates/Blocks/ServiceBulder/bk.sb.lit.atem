@@ -39,45 +39,40 @@ Status NA
 	End_Head
 
 
+	Para role brc_delete sid misc.custcontent End-Para
+	Para role erc_delete sid misc.custcontent End-Para
+	
 	Section liturgy_options
 		Section post_gospel_litanies
 			Section chrys
-				Para role brc_li_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_chrys sid misc.custcontent End-Para
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ForCatechumens End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.FirstPrayerOfFaithful End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
-				Para role erc_li_post_gospel_litanies_chrys_on sid misc.custcontent End-Para
-				Para role brc_li_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
-				Para role erc_li_post_gospel_litanies_chrys_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_chrys sid misc.custcontent End-Para
 			End-Section
 			Section basil
-				Para role brc_li_post_gospel_litanies_basil_on sid misc.custcontent End-Para
+				Para role brc_li_post_gospel_litanies_basil sid misc.custcontent End-Para
 					Insert_section LN.FervLitanyLI_deacon_choir End-Insert
 					Insert_section LI.after_gospel_litanies.basil.ForCatechumens End-Insert
 					Insert_section LI.after_gospel_litanies.basil.FirstPrayerOfFaithful End-Insert
 					Insert_section LI.after_gospel_litanies.chrys.ShortLitany End-Insert
-				Para role erc_li_post_gospel_litanies_basil_on sid misc.custcontent End-Para
-				Para role brc_li_post_gospel_litanies_basil_off sid misc.custcontent End-Para
-				Para role erc_li_post_gospel_litanies_basil_off sid misc.custcontent End-Para
+				Para role erc_li_post_gospel_litanies_basil sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section extended_completion_litany
-			Para role brc_li_extended_comp_litany_on sid misc.custcontent End-Para
+			Para role brc_li_extended_comp_litany sid misc.custcontent End-Para
 				Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
-			Para role erc_li_extended_comp_litany_on sid misc.custcontent End-Para
-			Para role brc_li_extended_comp_litany_off sid misc.custcontent End-Para
-			Para role erc_li_extended_comp_litany_off sid misc.custcontent End-Para
+			Para role erc_li_extended_comp_litany sid misc.custcontent End-Para
 		End-Section
 		Section precommunion_prayers
-			Para role brc_li_precommunion_prayers_on sid misc.custcontent End-Para
+			Para role brc_li_precommunion_prayers sid misc.custcontent End-Para
 				Insert_section LI.prayers_before_communion End-Insert
-			Para role erc_li_precommunion_prayers_on sid misc.custcontent End-Para
-			Para role brc_li_precommunion_prayers_off sid misc.custcontent End-Para
-			Para role erc_li_precommunion_prayers_off sid misc.custcontent End-Para
+			Para role erc_li_precommunion_prayers sid misc.custcontent End-Para
 		End-Section
 		Section memorial_service
-			Para role brc_li_memorial_service_on sid misc.custcontent End-Para
+			Para role brc_li_memorial_service sid misc.custcontent End-Para
 				Para role bkmrk09 sid misc.bookmark End-Para
 				Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1500.title End-Title
 				Actor <ach>sid ac.Choir</>End-Actor
@@ -93,9 +88,7 @@ Status NA
 				Title role mode sid misc.Mode3 End-Title
 				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
 				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
-			Para role erc_li_memorial_service_on sid misc.custcontent End-Para
-			Para role brc_li_memorial_service_off sid misc.custcontent End-Para
-			Para role erc_li_memorial_service_off sid misc.custcontent End-Para
+			Para role erc_li_memorial_service sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
@@ -110,29 +103,19 @@ Status NA
 				Actor <apr>sid ac.Priest </>End-Actor
 			Para role erc_li_enarxis_no_deacon sid misc.custcontent End-Para
 		End-Section
-		Section small_entrance
-			Para role brc_li_smallentrance_choir sid misc.custcontent End-Para
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
-				Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
-			Para role erc_li_smallentrance_choir sid misc.custcontent End-Para
-			Para role brc_li_smallentrance_clhi sid misc.custcontent End-Para
-				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
-				Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
-				Actor <ach>sid ac.Choir </>End-Actor
-				Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
-			Para role erc_li_smallentrance_clhi sid misc.custcontent End-Para
-		End-Section
 		Section apolytikion2
-			Para role brc_li_apolytikion2_yes sid misc.custcontent End-Para
+			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
 				Actor <ach>sid ac.Choir</>End-Actor
-			Para role erc_li_apolytikion2_yes sid misc.custcontent End-Para
-			Para role brc_li_apolytikion2_no sid misc.custcontent End-Para
-			Para role erc_li_apolytikion2_no sid misc.custcontent End-Para
+			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
 		End-Section
+		Section local_apolytikion
+			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
+				Title<Tdesig>sid ti.LocalChurch</><Tmode>sid client_gr_GR_cog.cl.Apolytikion1.mode</>End-Title
+				Hymn sid client_gr_GR_cog.cl.Apolytikion1.text media-off End-Hymn
+			Para role erc_li_local_apolytikion sid misc.custcontent End-Para
+		End-Section
+
 		Section kontakion
-			Para role brc_li_kontakion_choir sid misc.custcontent End-Para
-			Para role erc_li_kontakion_choir sid misc.custcontent End-Para
 			Para role brc_li_kontakion_clhi sid misc.custcontent End-Para
 				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
 			Para role erc_li_kontakion_clhi sid misc.custcontent End-Para
