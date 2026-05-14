@@ -2,6 +2,7 @@ Template kMeeting
 
 Status NA
 
+	import actors_gr_GR_cog.*
 	import titles_gr_GR_cog.*
 	import miscellanea_gr_GR_cog.*
 
@@ -19,21 +20,27 @@ Status NA
 			Title role desig sid misc.Ode1<Tmode>sid misc.Mode3</>End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.ChersonAvyssotokon.text @ver media-off End-Hymn
 
+			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
 			Title role desig sid misc.Ode3 End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.ToStereoma.text @ver media-off End-Hymn
 
+			Actor<ablch> sid ac.sb.BlCh</>End-Actor
 			Title role desig sid misc.Ode4 End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.EkalypsenOuranous.text @ver media-off End-Hymn
 
+			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
 			Title role desig sid misc.Ode5 End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.OsEidenIsaias.text @ver media-off End-Hymn
 
+			Actor<ablch> sid ac.sb.BlCh</>End-Actor
 			Title role desig sid misc.Ode6 End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.EvoiseSoi.text @ver media-off End-Hymn
 
+			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
 			Title role desig sid misc.Ode7 End-Title
 			Hymn sid he.h.m3_gr_GR_cog.heHE.SeTonEnPyri.text @ver media-off End-Hymn
 
+			Actor<ablch> sid ac.sb.BlCh</>End-Actor
 			Title role desig sid misc.Ode8 End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
 			Hymn sid he.h.m3_gr_GR_cog.heHE.AstektoPyri.text @ver media-off End-Hymn

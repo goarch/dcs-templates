@@ -70,11 +70,11 @@ Status NA
 		Para role bmc_ode1_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1trcanon1 End-Para
 			Insert_section Canon.Ode1 End-Insert
 		Para role emc_ode1_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._1 End-Insert
+		Insert_section KA2.append__._1 End-Insert
 		Para role bmc_ode3_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode3trcanon1 End-Para
 			Insert_section Canon.Ode3 End-Insert
 		Para role emc_ode3_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._3 End-Insert
+		Insert_section KA2.append__._3 End-Insert
 		Insert_section Kontakion End-Insert
 		Insert_section Stasis3 End-Insert
 		Insert_section Kontakion End-Insert
@@ -85,15 +85,15 @@ Status NA
 		Para role bmc_ode4_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode4trcanon1 End-Para
 			Insert_section Canon.Ode4 End-Insert
 		Para role emc_ode4_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._4 End-Insert
+		Insert_section KA2.append__._4 End-Insert
 		Para role bmc_ode5_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode5trcanon1 End-Para
 			Insert_section Canon.Ode5 End-Insert
 		Para role emc_ode5_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._5 End-Insert
+		Insert_section KA2.append__._5 End-Insert
 		Para role bmc_ode6_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode6trcanon1 End-Para
 			Insert_section Canon.Ode6 End-Insert
 		Para role emc_ode6_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._6 End-Insert
+		Insert_section KA2.append__._6 End-Insert
 		Insert_section Kontakion End-Insert
 		Insert_section Stasis4 End-Insert
 		Insert_section Stasis5 End-Insert
@@ -115,17 +115,17 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Insert_section Canon.Ode7 End-Insert
 		Para role emc_ode7_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._7 End-Insert
+		Insert_section KA2.append__._7 End-Insert
 		Para role bmc_ode8_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode8trcanon1 End-Para
 			Insert_section Canon.Ode8 End-Insert
 		Para role emc_ode8_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._8 End-Insert
+		Insert_section KA2.append__._8 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
 		Para role bmc_ode9_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode9trcanon1 End-Para
 			Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 			Insert_section Canon.Ode9 End-Insert
 		Para role emc_ode9_tr_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		Insert_section KA.append__._9 End-Insert
+		Insert_section KA2.append__._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.tr__.exap11 End-Insert
 		Insert_section MA._13_Lauds__.mode4__.for4_nocollapse End-Insert

@@ -4997,11 +4997,12 @@ Status NA
 					Actor sid ac.Reader End-Actor
 					Reading sid pr.res01.text<r>sid ru.Thrice</>End-Reading
 					Reading sid ti.GloryBothNow End-Reading
+					Actor<ablhi> sid ac.sb.BlHi</>End-Actor
 					Insert_section LiturgicalPsalms.Psalm_50_Paragraph End-Insert
 				End-Section
 				Section psalm50
 					Para role bkmrk08 sid misc.bookmark End-Para
-					Actor sid ac.Reader End-Actor
+					Actor<arehi> sid ac.sb.ReHi</>End-Actor
 					when-movable-cycle-day-is
 						63 use:
 							Reading sid ho.ho03_gr_GR_cog.hoMA.SunPostGospel.text @ver End-Reading
@@ -6087,9 +6088,10 @@ Status NA
 			Section choir
 				Para role bkmrk09 sid misc.bookmark End-Para
 				Rubric sid ru.standing.prefix sid ru.standing.matins.ode9 End-Rubric
-				Actor sid ac.Deacon End-Actor
-				Dialog sid pr.exc15.text End-Dialog
-				Actor sid ac.Choir End-Actor
+				Actor<adepr>sid ac.Deacon</>End-Actor
+				Dialog<ddepr>sid pr.exc15.text</>End-Dialog
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <achhi>sid ac.sb.ChHi</>End-Actor
 			End-Section
 			Section hierarch
 				Para role bkmrk09 sid misc.bookmark End-Para
@@ -8011,7 +8013,8 @@ Status NA
 		End-Section
 		Section intro_
 			Section part1
-			//	Actor sid ac.Choir End-Actor
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid ho.ho03_gr_GR_cog.hoMA.SunExapVerse1.text End-Media
 				Para role chant sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text media-off<r>sid ru.Twice</>End-Para
@@ -8204,6 +8207,8 @@ Status NA
 			end-when
 		End-Section
 		Section festal
+			Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+			Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 			when-movable-cycle-day-is
 				70 use:
 					Section holyfridaynight
@@ -8220,6 +8225,8 @@ Status NA
 		End-Section
 		Section me__
 			Section alt1__
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Section exap12
 					Title role desig sid ti.Exaposteilaria End-Title
 					Para role source0 sid ti.sourceMeSupplement End-Para
@@ -8291,6 +8298,8 @@ Status NA
 				End-Section
 			End-Section
 			Section alt2__
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Section exap12
 					Title role desig sid ti.Exaposteilaria End-Title
 					Para role source0 sid ti.sourceMeSupplement End-Para
@@ -8362,6 +8371,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap1_
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -8372,6 +8383,8 @@ Status NA
 					End-Section
 			End-Section
 			Section exap111_
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -8381,6 +8394,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap12
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceMenaion End-Para
 				Title role mode rid meMA.Exaposteilarion1.mode<Tmelody>rid meMA.Exaposteilarion1.melody</>End-Title
@@ -8394,6 +8409,8 @@ Status NA
 				Hymn rid meMA.Exaposteilarion2.text @ver media-off End-Hymn
 			End-Section
 			Section exap123t
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Section exap1
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
@@ -8451,6 +8468,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap2_
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -8461,6 +8480,8 @@ Status NA
 					End-Section
 			End-Section
 			Section exap22
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -8472,6 +8493,8 @@ Status NA
 		End-Section
 		Section pascha__
 			Section once_
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8481,6 +8504,8 @@ Status NA
 				End-Section
 			End-Section
 			Section thrice_
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8491,6 +8516,8 @@ Status NA
 		End-Section
 		Section pe__
 			Section exap1
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8501,6 +8528,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap1t
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8514,6 +8543,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap11
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8523,6 +8554,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap111
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Section hymn
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8532,6 +8565,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap112
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilaria End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8546,6 +8581,8 @@ Status NA
 				End-Section
 			End-Section
 			Section exap12
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilaria End-Title
 				Section hymns
 					Para role source0 sid ti.sourcePentecostarion End-Para
@@ -8589,6 +8626,8 @@ Status NA
 		End-Section
 		Section tr__
 			Section exap11
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilarion End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -8597,6 +8636,8 @@ Status NA
 				Hymn rid trMA.Exaposteilarion1.text @ver media-off<r>sid ru.Twice</>End-Hymn
 			End-Section
 			Section exap111
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -8605,6 +8646,8 @@ Status NA
 				Hymn rid trMA.Exaposteilarion1.text @ver media-off<r>sid ru.Thrice</>End-Hymn
 			End-Section
 			Section exap112
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Title role desig sid ti.Exaposteilaria End-Title
 				Para role source0 sid ti.sourceTriodion End-Para
 				Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
@@ -8616,6 +8659,8 @@ Status NA
 				Hymn rid trMA.Exaposteilarion2.text @ver media-off End-Hymn
 			End-Section
 			Section exap1o2ot
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Section exap1_
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
@@ -8652,9 +8697,13 @@ Status NA
 		End-Section
 		Section weekday__
 			Section all
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Insert_section Selector_WeekdayExaposteilaria.exap_all End-Insert
 			End-Section
 			Section exap1
+				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Actor <ablhi>sid ac.sb.BlHi</>End-Actor
 				Insert_section Selector_WeekdayExaposteilaria.exap1 End-Insert
 			End-Section
 		End-Section

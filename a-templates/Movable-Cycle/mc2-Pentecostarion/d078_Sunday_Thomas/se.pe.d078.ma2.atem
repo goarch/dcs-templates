@@ -64,11 +64,11 @@ Status NA
 				Para role bmc_ode1_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1pecanon1 End-Para
 					Insert_section CAv.ode1.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode1_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._1 End-Insert
+				Insert_section KA2.append__._1 End-Insert
 				Para role bmc_ode3_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode3pecanon1 End-Para
 					Insert_section CAv.ode3.append.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode3_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._3 End-Insert
+				Insert_section KA2.append__._3 End-Insert
 				Insert_section MA._10_Canon__.litanies__.ode3 End-Insert
 			End-Section
 			Section block04_ode3_kathisma
@@ -80,15 +80,15 @@ Status NA
 				Para role bmc_ode4_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode4pecanon1 End-Para
 					Insert_section CAv.ode4.pe1.ti_hh1234as00VVGB End-Insert
 				Para role emc_ode4_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._4 End-Insert
+				Insert_section KA2.append__._4 End-Insert
 				Para role bmc_ode5_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode5pecanon1 End-Para
 					Insert_section CAv.ode5.append.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode5_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._5 End-Insert
+				Insert_section KA2.append__._5 End-Insert
 				Para role bmc_ode6_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode6pecanon1 End-Para
 					Insert_section CAv.ode6.append.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode6_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._6 End-Insert
+				Insert_section KA2.append__._6 End-Insert
 				Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
 			End-Section
 			Section block06_kontakionposition1
@@ -101,11 +101,11 @@ Status NA
 				Para role bmc_ode7_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode7pecanon1 End-Para
 					Insert_section CAv.ode7.pe1.ti_hh1234as00VVGB End-Insert
 				Para role emc_ode7_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._7 End-Insert
+				Insert_section KA2.append__._7 End-Insert
 				Para role bmc_ode8_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode8pecanon1 End-Para
 					Insert_section CAv.ode8.append.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode8_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._8 End-Insert
+				Insert_section KA2.append__._8 End-Insert
 			End-Section
 			Section block08_kontakionposition12
 				Para role bmc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.kontakion.position12 End-Para
@@ -114,7 +114,7 @@ Status NA
 				Para role emc_kontakion_position12 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 			End-Section
 			Section block09_katavasias1345678
-				Insert_section KA.choir__._1345678 End-Insert
+				Insert_section KA2.choir__._1345678 End-Insert
 			End-Section
 			Section block10_eothinonposition2
 				Para role bmc_eothinongospel_position2 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position2 End-Para
@@ -127,7 +127,7 @@ Status NA
 				Para role bmc_ode9_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode9pecanon1 End-Para
 					Insert_section CAv.ode9.pe1.ti_hh1123as00VVGB End-Insert
 				Para role emc_ode9_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				Insert_section KA.append__._9 End-Insert
+				Insert_section KA2.append__._9 End-Insert
 			End-Section
 		End-Section
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
