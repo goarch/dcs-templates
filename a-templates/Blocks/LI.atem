@@ -2043,13 +2043,12 @@ Status NA
 			Actor sid ac.Clergy End-Actor
 		End-Section
 		Section apolytikion2
+			Actor<ablch>sid ac.sb.BlCh</>End-Actor
 			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
 			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
 		End-Section
 		Section local_rubric
 			Rubric sid ru.LocalChurchApolytikionSung End-Rubric
-			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
-			Para role erc_li_local_apolytikion sid misc.custcontent End-Para
 			Rubric sid ru.Then End-Rubric
 		End-Section
 		Section local_church_apolytikion
