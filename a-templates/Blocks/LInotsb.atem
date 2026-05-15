@@ -2013,8 +2013,6 @@ Status NA
 			Insert_section Selector_Eisodikon.eisodikon_refrain End-Insert
 		End-Section
 		Section choir
-			Para role brc_li_small_entrance sid misc.custcontent End-Para
-			
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
 			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
@@ -2022,8 +2020,6 @@ Status NA
 			Actor <ach>sid ac.Choir </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
 			Dialog <dch>sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text</>End-Dialog
-
-			Para role erc_li_small_entrance sid misc.custcontent End-Para
 		End-Section
 		Section clergy
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title

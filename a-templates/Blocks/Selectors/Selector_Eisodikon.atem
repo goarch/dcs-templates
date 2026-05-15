@@ -701,4 +701,157 @@ Status NA
 	end-when
 	End-Section
 
+
+
+
+
+	Section eisodikon_refrain_sb //when choir repeats refrain after eisodikon_complete
+		when-date-is
+			Jan 1 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.circumcision.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			Jan 6 use:
+				Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.epiphany.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+			Jan 7 thru 14 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.epiphany.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			Feb 2 thru 9 use:
+				when-movable-cycle-day-is
+					1 thru 13 use:
+						when-date-is
+							Feb 2 thru 9 use:
+								Section meeting
+									when-name-of-day-is
+										Sunday use:
+											Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+										otherwise use:
+											Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.meeting.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+										end-when
+								End-Section
+						end-when
+					14 use:
+						when-date-is
+							Feb 2 thru 5 use: Insert_section meeting End-Insert
+						end-when
+					15 use:
+						when-date-is
+							Feb 2 thru 6 use: Insert_section meeting End-Insert
+						end-when
+					16 use:
+						when-date-is
+							Feb 2 thru 7 use: Insert_section meeting End-Insert
+						end-when
+					17 use:
+						when-date-is
+							Feb 2 thru 8 use: Insert_section meeting End-Insert
+						end-when
+					18 use:
+						when-date-is
+							Feb 2 thru 5 use: Insert_section meeting End-Insert
+						end-when
+					19 use:
+						when-date-is
+							Feb 2 thru 6 use: Insert_section meeting End-Insert
+						end-when
+					20 use:
+						when-date-is
+							Feb 2 thru 5 use: Insert_section meeting End-Insert
+						end-when
+					21 use:
+						when-date-is
+							Feb 2, 3 use: Insert_section meeting End-Insert
+						end-when
+					22 use:
+						when-date-is
+							Feb 2 thru 7 use: Insert_section meeting End-Insert
+						end-when
+					23 use:
+						when-date-is
+							Feb 2 use: Insert_section meeting End-Insert
+						end-when
+					otherwise use:
+						when-name-of-day-is
+							Sunday use: Insert_section usualSunday End-Insert
+							otherwise use: Insert_section meeting End-Insert
+						end-when
+				end-when
+			Mar 25 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.annunciation.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			Aug 6 use:
+				Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.transfiguration.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+			Aug 7 thru 12 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.transfiguration.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			Sep 13 use:
+				Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+			Sep 14 use:
+				Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+			Sep 15 thru 21 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			Dec 25 use:
+				Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.christmas.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+			Dec 26 thru 31 use:
+				when-name-of-day-is
+					Sunday use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					otherwise use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.christmas.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			otherwise use:
+				when-movable-cycle-day-is
+					64 use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.palm.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					71 thru 109 use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					110, 118 use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					111 thru 117 use:
+						when-name-of-day-is
+							Sunday use: Insert_section usualSunday End-Insert
+							otherwise use:
+								Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						end-when
+					119 use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.saints.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					120 thru 126 use:
+						Hymn<sbonly>sid pr.antiphon2.pentecost.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+					127 use:
+						Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				otherwise use:
+					when-name-of-day-is
+						Sunday use:
+							Section usualSunday
+								Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off </>End-Hymn
+							End-Section
+						otherwise use:
+							Hymn<sbonly>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.saints.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				end-when
+			end-when
+	end-when
+	End-Section
+
+
+
 End-Template
