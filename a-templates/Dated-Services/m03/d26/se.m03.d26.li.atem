@@ -70,7 +70,7 @@ Status NA
 						Insert_section TI.s._02_archangel End-Insert
 						Insert_section AP.me1_.hymn End-Insert
 					Set_Date month 3 day 26 year 2026 End_Date
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Set_Date month 3 day 25 year 2026 End_Date
 					Insert_section KO.seasonal End-Insert
 					Set_Date month 3 day 26 year 2026 End_Date
@@ -110,7 +110,7 @@ Status NA
 				Section hymns
 					Insert_section AP.res__.modeofweek End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.basil End-Insert

@@ -60,7 +60,7 @@ Status NA
 					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.tr.com1 End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
@@ -116,7 +116,7 @@ Status NA
 					Insert_section TI.tr.com1 End-Insert
 					Insert_section AP.tr1_.hymn End-Insert
 					Set_mcDay day 35 End_mcDay
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
@@ -148,7 +148,7 @@ Status NA
 						Insert_section AP.me1_.hymn End-Insert
 						Insert_section TI.tr.com1 End-Insert
 						Insert_section AP.tr1_.hymn End-Insert
-						Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+						Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 						Insert_section TI.k.bf End-Insert
 						Insert_section KO.meli_k1_.hymn End-Insert
 					End-Section
@@ -184,7 +184,7 @@ Status NA
 						Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 						Insert_section TI.bf End-Insert
 						Insert_section AP.me1_.hymn End-Insert
-						Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+						Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 						Insert_section TI.k.bf End-Insert
 						Insert_section KO.me1_.hymn End-Insert
 					End-Section

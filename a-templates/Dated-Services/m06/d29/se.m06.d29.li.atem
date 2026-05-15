@@ -57,7 +57,7 @@ Status Final
 					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 					Insert_section TI.me.com1 End-Insert
 					Insert_section AP.me1_.hymn End-Insert
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
@@ -85,7 +85,7 @@ Status Final
 					Insert_section AP.pe2_.hymn End-Insert
 					Insert_section TI.me.com1 End-Insert
 					Insert_section AP.me1_.hymn End-Insert
-					Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
 				Insert_section LI._06_Trisagion__.chrys End-Insert
@@ -113,7 +113,7 @@ Status Final
 							Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
 							Insert_section TI.s._01_apostle_.mp End-Insert
 							Insert_section AP.me1_.hymn End-Insert
-							Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+							Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 							Insert_section KO.seasonal End-Insert
 						End-Section
 						Insert_section LI._06_Trisagion__.chrys End-Insert
@@ -137,7 +137,7 @@ Status Final
 						Section hymns
 							Insert_section AP.me1_ End-Insert
 							Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
-							Insert_section LI._05_AfterEntranceHymns__.local_rubric End-Insert
+							Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 							Insert_section KO.seasonal End-Insert
 						End-Section
 						Insert_section LI._06_Trisagion__.chrys End-Insert
