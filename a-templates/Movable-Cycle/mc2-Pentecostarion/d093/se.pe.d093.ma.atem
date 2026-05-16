@@ -48,7 +48,8 @@ Status NA
 		Insert_section ST.ma.pe_me1 End-Insert
 		Insert_section MA._01_Beginning__.modeofweek End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
-		Insert_section AP.gloryboth__.primarytheotokion__.modeofweek End-Insert
+		Insert_section TI.g.r End-Insert
+		Insert_section AP.both__.primarytheotokion__.modeofweek End-Insert
 		Section block1
 			Insert_section MA._02_Kathisma1__.litany End-Insert
 			Insert_section MA._02_Kathisma1__.pe__.weekday End-Insert

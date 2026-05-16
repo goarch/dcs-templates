@@ -500,13 +500,13 @@ Status NA
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
 				Para role source0 sid ti.sourceOctoechos End-Para
 				when-exists
-					rid ocVE.Apolytikion.greekmelody use:
+					rid ocVE.ApolTheotokionVM.greekmelody use:
 						Title role mode rid ocVE.ApolTheotokionVM.mode @day D1<Tmelody>rid ocVE.ApolTheotokionVM.melody @day D1</>End-Title
 						Title role greekmelody rid ocVE.ApolTheotokionVM.greekmelody @day D1 End-Title
 					otherwise use:
 						Title role mode rid ocVE.ApolTheotokionVM.mode @day D1 End-Title
 				end-when
-				Media rid ocVE.ApolTheotokionVM.text End-Media
+				Media rid ocVE.ApolTheotokionVM.text @day D1 End-Media
 				Hymn rid ocVE.ApolTheotokionVM.text @ver media-off @day D1 End-Hymn
 			End-Section
 			Section mode1
