@@ -24,10 +24,10 @@ Status NA
 	Head
 	//	Set_Date month 6 day 18 End_Date
 			Page_Header_Even
-				center @text "ΛΕΙΤΟΥΡΓΙΑ ΙΩ. ΧΡΥΣΟΣΤΟΜΟΥ"
+				center @text ""
 			End_Page_Header_Even
 			Page_Header_Odd
-				center @text "LITURGY OF ST. JOHN CHRYSOSTOM"
+				center @text ""
 			End_Page_Header_Odd
 			Page_Footer_Even
 				center @pageNbr

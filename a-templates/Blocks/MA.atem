@@ -14345,13 +14345,15 @@ Status NA
 		End-Section
 		Section wisdom123
 			Section part1
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.exc17.text End-Para
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.Bless_father.text End-Para
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+				Actor <are>sid ac.Reader</>End-Actor
+				Dialog <dre>sid pr.Bless_father.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.DismissalPrayer1.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-				Actor sid ac.SuperiorOrReader End-Actor
-				Dialog sid pr.DismissalPrayer2.text End-Dialog
+				Actor <aprhi>sid ac.sb.ReHi</>End-Actor
+				Dialog <drehi>sid pr.DismissalPrayer2.text</>End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
 			Section part2
@@ -14375,17 +14377,9 @@ Status NA
 	End-Section
 
 	Section _19_End_Options
-		Section aftergreatdoxology_end_no_dismissal
-			Para role bmc_matins_end_no_dismissal sid website.preferences.titles_gr_GR_cog.mc.matins.end.no.dismissal End-Para
-				Insert_section MA._15_Litanies__.aftergreatdoxology End-Insert
-				Insert_section MA._18_End__.wisdom123.part1 End-Insert
-			Para role emc_matins_end_no_dismissal sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-		End-Section
 		Section aftergreatdoxology_end_before_dismissal
-			Para role bmc_matins_end_before_dismissal sid website.preferences.titles_gr_GR_cog.mc.matins.end.before.dismissal End-Para
 				Insert_section MA._15_Litanies__.aftergreatdoxology End-Insert
 				Insert_section MA._18_End__.wisdom123.part1 End-Insert
-			Para role emc_matins_end_before_dismissal sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 		End-Section
 	End-Section
 
@@ -14556,6 +14550,36 @@ Status NA
 				Insert_section Selector_Dismissals.tr1_me1_Com_Yes.part2 End-Insert
 			Para role emc_matins_close sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 		End-Section
+		Section sb__ //these are used in .ma.atem. By default they show nothing and are activated by code. Regular Pdf should not print this
+			Section commemoration
+				Para role brc_ma_end_litanies sid misc.custcontent End-Para
+				Para role erc_ma_end_litanies sid misc.custcontent End-Para
+				Insert_section Selector_Dismissals_SB.Com_Yes.part1 End-Insert
+				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+			End-Section
+			Section mealt1_commemoration
+				Para role brc_ma_end_litanies sid misc.custcontent End-Para
+				Para role erc_ma_end_litanies sid misc.custcontent End-Para
+					Insert_section Selector_Dismissals_SB.mealt1_Com_Yes.part1 End-Insert
+				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+			End-Section
+			Section mealt2_commemoration
+				Para role brc_ma_end_litanies sid misc.custcontent End-Para
+				Para role erc_ma_end_litanies sid misc.custcontent End-Para
+					Insert_section Selector_Dismissals_SB.mealt2_Com_Yes.part1 End-Insert
+				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+			End-Section
+			Section nocommemoration
+				Para role brc_ma_end_litanies sid misc.custcontent End-Para
+				Para role erc_ma_end_litanies sid misc.custcontent End-Para
+					Insert_section Selector_Dismissals_SB.Com_No.part1 End-Insert
+				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+			End-Section
+		End-Section
 	End-Section
 
 //Blocks
@@ -14576,6 +14600,7 @@ Status NA
 	End-Section
 	Section Lauds_Stichologia
 		Section for_6
+		Para role brc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -14596,8 +14621,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v09.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v08.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
+		Para role erc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
 		End-Section
 		Section for_4
+		Para role brc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -14620,6 +14647,7 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v06.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v05.text End-Para
+		Para role erc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
 		End-Section
 	End-Section
 	Section laudsstichologia_media_modeofweek
