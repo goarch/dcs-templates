@@ -109,6 +109,14 @@ Status NA
 			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
 		End-Section
 
+		Section local_apolytikion
+			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
+				Title role desig sid client_gr_GR_cog.cl.Apolytikion1.title End-Title
+				Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
+				Hymn sid client_gr_GR_cog.cl.Apolytikion1.text media-off End-Hymn
+			Para role erc_li_local_apolytikion sid misc.custcontent End-Para
+		End-Section
+
 		Section kontakion_actor
 			Para role brc_li_kontakion_clhi sid misc.custcontent End-Para
 				Actor <aclhi>sid ac.sb.ClHi</>End-Actor
