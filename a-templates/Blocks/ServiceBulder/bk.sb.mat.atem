@@ -42,6 +42,34 @@ Status NA
 		Para role brc_delete sid misc.custcontent End-Para
 		Para role erc_delete sid misc.custcontent End-Para
 
+		Para role brc_ma_matins_ordinary_section1_paschal sid misc.custcontent End-Para
+			Insert_section Selector_MatinsOrdinary.pdfno.part1__.afterpascha End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part2__.afterpascha End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+		Para role erc_ma_matins_ordinary_section1_paschal sid misc.custcontent End-Para
+
+		Para role brc_ma_matins_ordinary_section1_ascension sid misc.custcontent End-Para
+			Insert_section Selector_MatinsOrdinary.pdfno.part1__.ascension End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part2__.ascension End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+		Para role erc_ma_matins_ordinary_section1_ascension sid misc.custcontent End-Para
+
+		Para role brc_ma_matins_ordinary_section1_normal sid misc.custcontent End-Para
+			Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+		Para role erc_ma_matins_ordinary_section1_normal sid misc.custcontent End-Para
+
+		Para role brc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+			Insert_section Selector_MatinsOrdinary.pdfno.part4 End-Insert
+		Para role erc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+
+		Para role brc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+			Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+			Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
+		Para role erc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+
+
 		Para role brc_ma_hierarchical_kairos sid misc.custcontent End-Para
 			Rubric sid ho.ho03_gr_GR_cog.R_Lauds_Hierarchical End-Rubric
 			Hymn sid eu.beforeliturgy_gr_GR_cog.euBL.Key0100h.text End-Hymn

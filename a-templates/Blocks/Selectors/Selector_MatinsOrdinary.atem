@@ -24,67 +24,67 @@ Status NA
 		when-movable-cycle-day-is
 			23 use:
 				Section cleanmonday
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
-					Actor sid ac.Reader End-Actor
-					Insert_section bk.ho.ho01.Trisagion_Prayers End-Insert
-					Actor sid ac.Priest End-Actor
-					Dialog sid pr.exc20.text End-Dialog
-					Actor sid ac.Reader End-Actor
-					Dialog sid pr.res04.text End-Dialog
-					Dialog sid pr.res01.text<r>sid ru.Twelve</>End-Dialog
-					Dialog sid pr.res04.text sid pr.InTheNameOfLordBless_father.text End-Dialog
-					Actor sid ac.Priest End-Actor
-					Dialog sid pr.enarxis03.text End-Dialog
-					Actor sid ac.Reader End-Actor
-					Dialog sid pr.res04.text End-Dialog
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+					Actor <pdfno>sid ac.Reader </>End-Actor
+					Insert_section Selector_MatinsOrdinary.Trisagion_Prayers End-Insert
+					Actor <pdfno>sid ac.Priest </>End-Actor
+					Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+					Actor <pdfno>sid ac.Reader </>End-Actor
+					Dialog <pdfno>sid pr.res04.text </>End-Dialog
+					Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Twelve</></>End-Dialog
+					Dialog <pdfno>sid pr.res04.text sid pr.InTheNameOfLordBless_father.text </>End-Dialog
+					Actor <pdfno>sid ac.Priest </>End-Actor
+					Dialog <pdfno>sid pr.enarxis03.text </>End-Dialog
+					Actor <pdfno>sid ac.Reader </>End-Actor
+					Dialog <pdfno>sid pr.res04.text </>End-Dialog
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			24 thru 69 use:
 				Section Instance01
 					when-name-of-day-is
 						Saturday, Sunday use:
-							Insert_section MA._00_Ordinary__.part2__.parish End-Insert
+							Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
 						otherwise use:
-							Insert_section MA._00_Ordinary__.part2__.full End-Insert
+							Insert_section Selector_MatinsOrdinary.pdfno.part2__.full End-Insert
 					end-when
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			70 use:
 				Section Instance02
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
-					Insert_section MA._00_Ordinary__.part2__.parish End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 					Break page End_Break
 				End-Section
 			78 thru 108 use:
 				Section Instance03
-					Insert_section MA._00_Ordinary__.part1__.afterpascha End-Insert
-					Insert_section MA._00_Ordinary__.part2__.afterpascha End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.afterpascha End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.afterpascha End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			110 thru 120 use:
 				Section Instance04
-					Insert_section MA._00_Ordinary__.part1__.ascension End-Insert
-					Insert_section MA._00_Ordinary__.part2__.ascension End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.ascension End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.ascension End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			otherwise use:
 				Section Instance05_parish
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
-					Insert_section MA._00_Ordinary__.part2__.parish End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 					Break page End_Break
 				End-Section
 		end-when
@@ -94,70 +94,396 @@ Status NA
 		when-movable-cycle-day-is
 			23 use:
 				Section cleanmonday
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
 					Actor sid ac.Reader End-Actor
 					Insert_section bk.ho.ho01.Trisagion_Prayers End-Insert
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.exc20.text End-Dialog
 					Actor sid ac.Reader End-Actor
 					Dialog sid pr.res04.text End-Dialog
-					Dialog sid pr.res01.text<r>sid ru.Twelve</>End-Dialog
+					Dialog sid pr.res01.text<rubricnopdf>sid ru.Twelve</>End-Dialog
 					Dialog sid pr.res04.text sid pr.InTheNameOfLordBless_father.text End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.enarxis03.text End-Dialog
 					Actor sid ac.Reader End-Actor
 					Dialog sid pr.res04.text End-Dialog
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			24 thru 69 use:
 				Section Instance01
 					when-name-of-day-is
 						Saturday, Sunday use:
-							Insert_section MA._00_Ordinary__.part2__.parish End-Insert
+							Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
 						otherwise use:
-							Insert_section MA._00_Ordinary__.part2__.full End-Insert
+							Insert_section Selector_MatinsOrdinary.pdfno.part2__.full End-Insert
 					end-when
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			70 use:
 				Section Instance02
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
-					Insert_section MA._00_Ordinary__.part2__.parish End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 					Break page End_Break
 				End-Section
 			78 thru 108 use:
 				Section Instance03
-					Insert_section MA._00_Ordinary__.part1__.afterpascha End-Insert
-					Insert_section MA._00_Ordinary__.part2__.afterpascha End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.afterpascha End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.afterpascha End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			110 thru 119 use:
 				Section Instance04
-					Insert_section MA._00_Ordinary__.part1__.ascension End-Insert
-					Insert_section MA._00_Ordinary__.part2__.ascension End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.ascension End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.ascension End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 				End-Section
 			otherwise use:
 				Section Instance05_full
-					Insert_section MA._00_Ordinary__.part1__.normal End-Insert
-					Insert_section MA._00_Ordinary__.part2__.full End-Insert
-					Insert_section MA._00_Ordinary__.part3 End-Insert
-					Insert_section MA._00_Ordinary__.part5 End-Insert
-					Insert_section MA._00_Ordinary__.part6 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part2__.full End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+					Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 					Break page End_Break
 				End-Section
 		end-when
 	End-Section
+
+
+	Section pdfno
+		Section part1__
+			Section afterpascha
+				Title role desig <pdfno>sid ho.ho03_gr_GR_cog.hoMA.MatinsOrdinary.title</>End-Title
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.enarxis01.text </>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Title role mode <pdfno>sid pe.d071_gr_GR_cog.peMA.Troparion.mode </>End-Title
+				Para role source0 <pdfno>sid ti.sourcePentecostarion </>End-Para
+				Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+				Hymn <pdfno>sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off </>End-Hymn
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Title role mode <pdfno>sid pe.d071_gr_GR_cog.peMA.Troparion.mode </>End-Title
+				Para role source0 <pdfno>sid ti.sourcePentecostarion </>End-Para
+				Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+				Hymn <pdfno>sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off </>End-Hymn
+				Hymn <pdfno>sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off </>End-Hymn
+			End-Section
+			Section ascension
+				Title role desig <pdfno>sid ho.ho03_gr_GR_cog.hoMA.MatinsOrdinary.title </>End-Title
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.enarxis01.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+			End-Section
+			Section normal
+				Title role desig <pdfno>sid ho.ho03_gr_GR_cog.hoMA.MatinsOrdinary.title </>End-Title
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.enarxis01.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Reading <pdfno>sid pr.GloryToYouOurGod.text </>End-Reading
+				Reading <pdfno>sid pr.HeavenlyKing.text </>End-Reading
+			End-Section
+		End-Section
+		Section part2__
+			Section afterpascha
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid pr.AllHolyTrinity.text </>End-Reading
+				Reading <pdfno>sid pr.res06.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid pr.OurFather.text </>End-Reading
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text </>End-Reading
+				Verse <pdfno>sid pr.GloryToTheFather.text </>End-Verse
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meMA.Kontakion1.text </>End-Reading
+				Verse <pdfno>sid pr.BothNowAndEver.text </>End-Verse
+				Reading <pdfno>sid ho.ho03_gr_GR_cog.hoMA.Troparion3.text </>End-Reading
+			End-Section
+			Section ascension
+				Section Trisagion_Prayers
+					Title role desig <pdfno>sid ti.Trisagion </>End-Title
+					Reading <pdfno>sid pr.HolyGod.text <rubricnopdf>sid ru.Thrice media-off</></>End-Reading
+					Reading <pdfno>sid pr.GloryBothNow.text </>End-Reading
+					Reading <pdfno>sid pr.AllHolyTrinity.text </>End-Reading
+					Reading <pdfno>sid pr.res06.text </>End-Reading
+					Reading <pdfno>sid pr.GloryBothNow.text </>End-Reading
+					Reading <pdfno>sid pr.OurFather.text </>End-Reading
+				End-Section
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text </>End-Reading
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meMA.Kontakion1.text </>End-Reading
+				Reading <pdfno>sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid ho.ho03_gr_GR_cog.hoMA.Troparion3.text </>End-Reading
+			End-Section
+			Section full
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Insert_section Selector_MatinsOrdinary.Trisagion_Prayers End-Insert
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Reading <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Twelve</></>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid pr.ComeLetUsWorship1.text </>End-Reading
+				Reading <pdfno>sid pr.ComeLetUsWorship2.text </>End-Reading
+				Reading <pdfno>sid pr.ComeLetUsWorship3.text </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa19.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa19.text </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa20.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa20.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Insert_section Selector_MatinsOrdinary.Trisagion_Prayers End-Insert
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text </>End-Reading
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meMA.Kontakion1.text </>End-Reading
+				Reading <pdfno>sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid ho.ho03_gr_GR_cog.hoMA.Troparion3.text </>End-Reading
+			End-Section
+			Section parish
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Insert_section Selector_MatinsOrdinary.Trisagion_Prayers End-Insert
+				Actor <pdfno>sid ac.Priest </>End-Actor
+				Dialog <pdfno>sid pr.exc20.text </>End-Dialog
+				Actor <pdfno>sid ac.Reader </>End-Actor
+				Dialog <pdfno>sid pr.res04.text </>End-Dialog
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text </>End-Reading
+				Reading <pdfno>sid me.m09.d14_gr_GR_cog.meMA.Kontakion1.text </>End-Reading
+				Reading <pdfno>sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid ho.ho03_gr_GR_cog.hoMA.Troparion3.text </>End-Reading
+			End-Section
+		End-Section
+		Section part3
+			Actor <pdfno>sid ac.Priest </>End-Actor
+			Dialog <pdfno>sid pr.pet17.text </>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Dialog
+			Actor <pdfno>sid ac.Priest </>End-Actor
+			Dialog <pdfno>sid pr.pet18.text </>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Dialog
+			Actor <pdfno>sid ac.Priest </>End-Actor
+			Dialog <pdfno>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP </>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Dialog
+			Actor <pdfno>sid ac.Priest </>End-Actor
+			Dialog <pdfno>sid pr.exc11.text </>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res04.text sid pr.InTheNameOfLordBless_father.text </>End-Dialog
+			Actor <pdfno>sid ac.Priest </>End-Actor
+			Dialog <pdfno>sid pr.enarxis03.text </>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res04.text </>End-Dialog
+		End-Section
+		Section part4
+			Rubric <pdfno>sid hi.hi04_gr_GR_cog.hiMA.R101 </>End-Rubric
+		//	Rubric <pdfno>sid hi.hi04_gr_GR_cog.hiMA.R102 </>End-Rubric
+			Rubric <pdfno>sid hi.hi04_gr_GR_cog.hiMA.R103 </>End-Rubric
+			Rubric <pdfno>sid hi.hi04_gr_GR_cog.hiMA.R104 </>End-Rubric
+			Actor <pdfno>sid ac.Priest<rubricnopdf>sid ru.Inaudibly</></>End-Actor
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0101.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0101.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0101.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0102.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0102.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0102.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0103.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0103.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0103.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0104.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0104.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0104.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0105.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0105.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0105.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0106.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0106.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0106.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0107.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0107.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0107.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0108.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0108.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0108.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0109.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0109.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0109.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0110.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0110.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0110.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0111.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0111.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0111.exclamation @ver </>End-Para
+			Title role desig <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.title </>End-Title
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.text @ver </>End-Para
+			Para role prayer <pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.exclamation @ver </>End-Para
+			Break line End_Break
+		End-Section
+		Section part5
+			Para role bkmrk01 <pdfno>sid misc.bookmark </>End-Para
+			Rubric <pdfno>sid ru.standing.prefix sid ru.standing.matins.sixpsalms </>End-Rubric
+			Actor <pdfno>sid ac.Reader </>End-Actor
+			Section psalms
+				Title role desig <pdfno>sid ho.ho03_gr_GR_cog.SixPsalms.title </>End-Title
+				Reading <pdfno>sid le.go.os_gr_GR_cog.leosMA.SixPsalmsIntro1.text<rubricnopdf>sid ru.Thrice</></>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.intro.v2.text<rubricnopdf>sid ru.Twice</></>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa3.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa3.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps3.end.v1.text @ver </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa37.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa37.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps37.end.v1.text @ver </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa62.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa62.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps62.end.v1.text sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps62.end.v2.text @ver </>End-Reading
+
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid pr.Alleluia3Glory.text<rubricnopdf>sid ru.Thrice</></>End-Reading
+			//	Reading <pdfno>sid pr.Alleluia3Glory.text </>End-Reading
+			//	Reading <pdfno>sid pr.Alleluia3Glory.text </>End-Reading
+				Reading <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Reading
+			//	Reading <pdfno>sid pr.res01.text sid pr.res01.text sid pr.res01.text </>End-Reading
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa87.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa87.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps87.end.v1.text @ver </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa102.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa102.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps102.end.v1.text @ver </>End-Reading
+				Title role desig <pdfno>sid ps_gr_GR_cog.psa142.title </>End-Title
+				Reading <pdfno>sid ps_gr_GR_cog.psa142.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps142.end.v1.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps142.end.v1.text </>End-Reading
+				Reading <pdfno>sid liturgical.verses_gr_GR_cog.psMA.sixpsalms.ps142.end.v2.text @ver </>End-Reading
+
+				Reading <pdfno>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text </>End-Reading
+				Reading <pdfno>sid pr.Alleluia3Glory.text </>End-Reading
+				Reading <pdfno>sid pr.Alleluia3Glory.text </>End-Reading
+				Rubric <pdfno>sid ru.Intoned </>End-Rubric
+				Reading <pdfno>sid pr.Alleluia3Glory.text sid pr.OurHopeLord.text </>End-Reading
+			End-Section
+		End-Section
+		Section part6
+			Section GreatLitany_priest_choir
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet01.text</> </>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet02.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet03.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet04.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet05.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet07L.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet08.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet09.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet10.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet11.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet12.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res01.text </>End-Dialog
+				Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+				Dialog <pdfno><dpr>sid pr.pet13.text</></>End-Dialog
+				Actor <pdfno>sid ac.Choir </>End-Actor
+				Dialog <pdfno>sid pr.res03.text </>End-Dialog
+			End-Section
+			Actor <pdfno><apr>sid ac.Priest </></>End-Actor
+			Dialog <pdfno><dpr>sid pr.exc01.text </></>End-Dialog
+			Actor <pdfno>sid ac.Choir </>End-Actor
+			Dialog <pdfno>sid pr.res04.text </>End-Dialog
+		End-Section
+	End-Section
+
+	Section Trisagion_Prayers
+		Title role desig <pdfno>sid ti.Trisagion </>End-Title
+		Reading <pdfno>sid pr.HolyGod.text<rubricnopdf>sid ru.Thrice media-off</></>End-Reading
+		Reading <pdfno>sid pr.GloryBothNow.text </>End-Reading
+		Reading <pdfno>sid pr.AllHolyTrinity.text </>End-Reading
+		Reading <pdfno>sid pr.res06.text </>End-Reading
+		Reading <pdfno>sid pr.GloryBothNow.text </>End-Reading
+		Reading <pdfno>sid pr.OurFather.text </>End-Reading
+	End-Section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 End-Template

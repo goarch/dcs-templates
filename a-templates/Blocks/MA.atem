@@ -51,18 +51,46 @@ Status NA
 			when-movable-cycle-day-is
 				78 thru 108 use:
 					Section paschal
-						Para role brc_matinsordinary_paschal sid misc.custcontent End-Para
-						Para role erc_matinsordinary_paschal sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section1_paschal sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part1__.afterpascha End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part2__.afterpascha End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+						Para role erc_ma_matins_ordinary_section1_paschal sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role erc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
+						Para role erc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
 					End-Section
 				110 thru 119 use:
 					Section ascension
-						Para role brc_matinsordinary_ascension sid misc.custcontent End-Para
-						Para role erc_matinsordinary_ascension sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section1_ascension sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part1__.ascension End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part2__.ascension End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+						Para role erc_ma_matins_ordinary_section1_ascension sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role erc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
+						Para role erc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
 					End-Section
 				otherwise use:
 					Section normal
-						Para role brc_matinsordinary_normal sid misc.custcontent End-Para
-						Para role erc_matinsordinary_normal sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section1_normal sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part1__.normal End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part2__.parish End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part3 End-Insert
+						Para role erc_ma_matins_ordinary_section1_normal sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role erc_ma_matins_ordinary_section2_prayers sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part5 End-Insert
+						//	Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
+						Para role erc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
+						Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 					End-Section
 			end-when
 		End-Section
@@ -74,9 +102,16 @@ Status NA
 				Dialog sid pr.enarxis01.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				Actor sid ac.Priest End-Actor
-				Insert_section PE.ChristIsRisen.once End-Insert
+				Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+				Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
 				Actor sid ac.Choir End-Actor
-				Insert_section PE.ChristIsRisen.twice End-Insert
+				Title role mode sid pe.d071_gr_GR_cog.peMA.Troparion.mode End-Title
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Media sid pe.d071_gr_GR_cog.peMA.Troparion.text End-Media
+				Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
+				Hymn sid pe.d071_gr_GR_cog.peMA.Troparion.text @ver media-off End-Hymn
 			End-Section
 			Section ascension
 				Title role desig sid ho.ho03_gr_GR_cog.hoMA.MatinsOrdinary.title End-Title
@@ -92,7 +127,8 @@ Status NA
 				Dialog sid pr.enarxis01.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
 				Actor sid ac.Priest End-Actor
-				Insert_section bk.ho.ho01.Heavenly_King End-Insert
+				Reading sid pr.GloryToYouOurGod.text End-Reading
+				Reading sid pr.HeavenlyKing.text End-Reading
 			End-Section
 		End-Section
 		Section part2__
@@ -113,7 +149,15 @@ Status NA
 				Reading sid ho.ho03_gr_GR_cog.hoMA.Troparion3.text End-Reading
 			End-Section
 			Section ascension
-				Insert_section bk.ho.ho01.Trisagion_Prayers End-Insert
+				Section Trisagion_Prayers
+					Title role desig sid ti.Trisagion End-Title
+					Reading sid pr.HolyGod.text<r>sid ru.Thrice media-off</>End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.AllHolyTrinity.text End-Reading
+					Reading sid pr.res06.text End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.OurFather.text End-Reading
+				End-Section
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc20.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -125,7 +169,15 @@ Status NA
 			End-Section
 			Section full
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
-				Insert_section bk.ho.ho01.Trisagion_Prayers End-Insert
+				Section Trisagion_Prayers
+					Title role desig sid ti.Trisagion End-Title
+					Reading sid pr.HolyGod.text<r>sid ru.Thrice media-off</>End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.AllHolyTrinity.text End-Reading
+					Reading sid pr.res06.text End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.OurFather.text End-Reading
+				End-Section
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc20.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -151,7 +203,15 @@ Status NA
 			End-Section
 			Section parish
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
-				Insert_section bk.ho.ho01.Trisagion_Prayers End-Insert
+				Section Trisagion_Prayers
+					Title role desig sid ti.Trisagion End-Title
+					Reading sid pr.HolyGod.text<r>sid ru.Thrice media-off</>End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.AllHolyTrinity.text End-Reading
+					Reading sid pr.res06.text End-Reading
+					Reading sid pr.GloryBothNow.text End-Reading
+					Reading sid pr.OurFather.text End-Reading
+				End-Section
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc20.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -278,7 +338,6 @@ Status NA
 			Insert_section part5.psalms End-Insert
 		End-Section
 		Section part6
-			Actor sid ac.Priest End-Actor
 			Insert_section LN.GreatLitany_priest_choir End-Insert
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc01.text End-Dialog
@@ -298,6 +357,7 @@ Status NA
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
+				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid oc.m2.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -312,6 +372,7 @@ Status NA
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
+				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid oc.m2.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -327,6 +388,7 @@ Status NA
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
+				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode8 End-Title
 				Media sid oc.m8.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -344,6 +406,7 @@ Status NA
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
+				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode rid ocVE.Apolytikion.mode @day D1 End-Title
 				Media rid ocMA.MM.Alleluia.text @day D7 End-Media
@@ -373,6 +436,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			when-name-of-day-is
 				Monday use:
@@ -401,6 +465,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode rid ocVE.Apolytikion.mode @day D1 End-Title
 			Media rid ocMA.MM.GodIsTheLord.text @day D1 End-Media
@@ -411,6 +476,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode1 End-Title
 			Media sid oc.m1.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -421,6 +487,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode2 End-Title
 			Media sid oc.m2.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -431,6 +498,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode3 End-Title
 			Media sid oc.m3.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -442,6 +510,7 @@ Status NA
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Section hymn
 				Para role bkmrk02 sid misc.bookmark End-Para
+				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode4 End-Title
 				Media sid oc.m4.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -453,6 +522,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode5 End-Title
 			Media sid oc.m5.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -463,6 +533,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode6 End-Title
 			Media sid oc.m6.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -473,6 +544,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode7 End-Title
 			Media sid oc.m7.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -483,6 +555,7 @@ Status NA
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
+			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode8 End-Title
 			Media sid oc.m8.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
