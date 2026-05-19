@@ -210,7 +210,7 @@ Status Final
 	Section Section09
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet01.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text End-Dialog
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet02.text End-Dialog
@@ -269,9 +269,9 @@ Status Final
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
 		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R601 End-Rubric
-		Actor sid ac.Priest<smallred>sid ru.Inaudibly</>End-Actor
+		Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 		Para role prayer sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0601.text End-Para
-		Actor sid ac.Priest<smallred>sid ru.Aloud</>End-Actor
+		Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 		Dialog sid pr.exc29.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	End-Section
@@ -304,7 +304,7 @@ Status Final
 	Section Section12
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet17.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP End-Dialog

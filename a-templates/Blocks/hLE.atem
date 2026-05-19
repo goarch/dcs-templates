@@ -3206,7 +3206,7 @@ Status NA
 			Section PrayerBeforeGospel
 				Title role desig sid ti.HolyGospel End-Title
 				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0704.title</>End-Title
-				Actor sid ac.Hierarch<smaller>sid ru.InALowVoice</>End-Actor
+				Actor sid ac.Hierarch<rubric>sid ru.InALowVoice</>End-Actor
 				Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0704.text End-Para
 				Para role bkmrk05 sid misc.bookmark End-Para
 			End-Section

@@ -376,7 +376,7 @@ Status NA
 		End-Section
 		Section hierarchical
 			Para role source sid ti.sourceEuchologion End-Para
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</></>End-Actor
 			Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Consecration</>End-Title
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
@@ -1220,7 +1220,7 @@ Status NA
 			Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1318.text End-Hymn
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1319.text</>End-Para
-			Para role actorinaudible <adepr>sid ac.sb.DePr<smallred>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1320.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch</>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1321.text</>End-Para
@@ -1238,7 +1238,7 @@ Status NA
 			Para role inaudible <ddepr>sid pr.res10.text</>End-Para
 			Para role actorinaudible <ahi>sid ac.Hierarch</>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1326.text</>End-Para
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1327.text</>End-Dialog
 		End-Section
 		Section theotokoshymn
@@ -1323,7 +1323,7 @@ Status NA
 		Section Communion
 			Section fraction
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1540.rubric End-Rubric
-				Actor <ade>sid ac.Deacon<smaller>sid ru.InALowVoice</></>End-Actor
+				Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
 				Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1501.text</>End-Para
 				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1541.rubric End-Rubric
 				Actor <ahi>sid ac.Hierarch</>End-Actor

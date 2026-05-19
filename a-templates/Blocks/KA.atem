@@ -2150,7 +2150,7 @@ Status NA
 		when-movable-cycle-day-is
 			21 use:
 				Section trd021_12345678
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Insert_section KA.ka1 End-Insert
 					Actor sid ac.ChoirL End-Actor
 					Insert_section KA.ka2 End-Insert
@@ -2169,7 +2169,7 @@ Status NA
 				End-Section
 			120, 126 use:
 				Section pentecost_double
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Insert_section kPentecost.k1_1 End-Insert
 					Actor sid ac.ChoirL End-Actor
 					Insert_section kPentecost.k2_1 End-Insert
@@ -2202,7 +2202,7 @@ Status NA
 				when-date-is
 					Jan 1, 6, 14 use:
 						Section epiphany_double
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Insert_section kEpiphany.k1_1 End-Insert
 							Actor sid ac.ChoirL End-Actor
 							Insert_section kEpiphany.k2_1 End-Insert
@@ -2233,7 +2233,7 @@ Status NA
 						End-Section
 					Dec 25, 31 use:
 						Section christmas_double
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Insert_section kChristmas.k1_1 End-Insert
 							Actor sid ac.ChoirL End-Actor
 							Insert_section kChristmas.k2_1 End-Insert
@@ -2264,7 +2264,7 @@ Status NA
 						End-Section
 					otherwise use:
 						Section single_katavasias
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Insert_section KA.ka1 End-Insert
 							Actor sid ac.Hierarch End-Actor
 							Insert_section KA.ka3 End-Insert

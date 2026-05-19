@@ -1080,12 +1080,12 @@ Status NA
 				Insert_section CONS.LI_21 End-Insert
 				Insert_section HIRgoa.LI_22__.AME End-Insert
 				Insert_section CONS.LI_23 End-Insert
-				Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+				Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 				Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			End-Section
 			Section commemoration_concelebrarting_Metropolitan
-				Actor <ahi>sid ac.Metropolitan<smaller>sid ru.Aloud</></>End-Actor
+				Actor <ahi>sid ac.Metropolitan<rubric>sid ru.Aloud</></>End-Actor
 				Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			End-Section
@@ -1278,12 +1278,12 @@ Status NA
 				Insert_section CONS.LI_21 End-Insert
 				Insert_section HIRgoa.LI_22__.ECU End-Insert
 				Insert_section CONS.LI_23 End-Insert
-				Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+				Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 				Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			End-Section
 			Section commemoration_concelebrarting_Metropolitan
-				Actor <ahi>sid ac.Metropolitan<smaller>sid ru.Aloud</></>End-Actor
+				Actor <ahi>sid ac.Metropolitan<rubric>sid ru.Aloud</></>End-Actor
 				Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			End-Section
@@ -1706,7 +1706,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.AME End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				End-Section
@@ -1726,7 +1726,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.BOS End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1744,7 +1744,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.BOS End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1762,7 +1762,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.CHI End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1780,7 +1780,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.DEN End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1798,7 +1798,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.DET End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1816,7 +1816,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.ECU End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				End-Section
@@ -1836,7 +1836,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.NEW End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1854,7 +1854,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.PIT End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1879,7 +1879,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.SAN End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1897,7 +1897,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Athenagoras_in_SanFrancisco End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1915,7 +1915,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Ioannis_in_SanFrancisco End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1933,7 +1933,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Joachim_in_Dad End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1951,7 +1951,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Nektarios_in_Dad End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1969,7 +1969,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Timothy_in_Chicago End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -1989,7 +1989,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.AME End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2025,7 +2025,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.ATL End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2061,7 +2061,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.BOS End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2097,7 +2097,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.CHI End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2133,7 +2133,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.DEN End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2169,7 +2169,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.DET End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2205,7 +2205,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.NEW End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2241,7 +2241,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.PIT End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2284,7 +2284,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.SAN End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2320,7 +2320,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Athenagoras_in_SanFrancisco End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2356,7 +2356,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.Bishop_Ioannis_in_SanFrancisco End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block2 End-Insert
 					Insert_section HIRgoa.chrysostom_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -2899,7 +2899,7 @@ Status NA
 					Insert_section HIRgoa.LI_22__.DEN End-Insert
 					Insert_section HIRgoa.basil_parts.block2 End-Insert
 					Insert_section HIRgoa.basil_parts.block3 End-Insert
-					Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+					Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Actor <acl>sid ac.Clergy</>End-Actor
@@ -3159,7 +3159,7 @@ Status NA
 		End-Section
 		Section liturgy_enarxis_block2
 			Insert_section LN.GreatLitany_deacon_choir.part2 End-Insert
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.title</>End-Title
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0201.text</>End-Para
 			Actor <apr>sid ac.Priest</>End-Actor
@@ -3209,7 +3209,7 @@ Status NA
 		End-Section
 
 		Section liturgy_commemoration_concelebrarting_metropolitan
-			Actor <ahi>sid ac.Metropolitan<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Metropolitan<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
@@ -3350,7 +3350,7 @@ Status NA
 			Dialog <dde>sid pr.pet12.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text</>End-Para
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title End-Title
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.basil.text</>End-Para
 			Actor <apr>sid ac.Priest</>End-Actor
@@ -3367,7 +3367,7 @@ Status NA
 
 		Section chrys_catechumens
 			Insert_section LN.ForCatechumens01_deacon_choir End-Insert
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.title End-Title
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0909.text</>End-Para
 			Actor <apr>sid ac.Priest</>End-Actor
@@ -3386,7 +3386,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 			Actor <ade>sid ac.Deacon</>End-Actor
 			Dialog <dde>sid pr.exc17.text</>End-Dialog
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.title End-Title
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1001.text</>End-Para
 			Actor <apr>sid ac.Priest</>End-Actor
@@ -3600,7 +3600,7 @@ Status NA
 	End-Section
 	Section LI_24__
 		Section AME
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3608,7 +3608,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section ATL
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3616,7 +3616,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section BOS
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3624,7 +3624,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section CHI
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3632,7 +3632,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section DEN
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3640,7 +3640,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section DET
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3648,7 +3648,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section ECU
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3656,7 +3656,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section NEW
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3664,7 +3664,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section PIT
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3672,7 +3672,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section SAN
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierECU.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3680,7 +3680,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section Bishop_Athenagoras_in_SanFrancisco
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3688,7 +3688,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section Bishop_Ioannis_in_SanFrancisco
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierSAN.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3696,7 +3696,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section Bishop_Joachim_in_Dad
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3704,7 +3704,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section Bishop_Nektarios_in_Dad
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierAME.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor
@@ -3712,7 +3712,7 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		End-Section
 		Section Bishop_Timothy_in_Chicago
-			Actor <ahi>sid ac.Hierarch<smaller>sid ru.Aloud</></>End-Actor
+			Actor <ahi>sid ac.Hierarch<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dhi>sid hierarchs_gr_GR_cog.hierCHI.commemoration.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <acl>sid ac.Clergy</>End-Actor

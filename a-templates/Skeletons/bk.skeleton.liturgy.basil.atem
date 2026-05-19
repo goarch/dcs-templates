@@ -159,12 +159,12 @@ Status Final
 				Title role desig sid skeletons_gr_GR_cog.skLI.AfterCommunion.title End-Title
 				Title<rubric>sid skeletons_gr_GR_cog.skLI.AfterCommunion.text</>End-Title
 				Break line End_Break
-				Actor sid ac.Deacon<smaller>sid ru.InALowVoice</>End-Actor
+				Actor sid ac.Deacon<rubric>sid ru.InALowVoice</>End-Actor
 				Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1601.text End-Para
-				Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+				Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 				Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1602.text<r>sid ru.Thrice</>End-Para
 				Para role inaudible sid pr.BlessedIsOurGod.text End-Para
-				Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+				Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 				Dialog sid pr.AlwaysNow.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1604.title</>End-Title
@@ -177,10 +177,10 @@ Status Final
 				Actor sid ac.Deacon End-Actor
 				Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1605.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-				Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+				Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 				Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1606.title</>End-Title
 				Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key1606.basil.text End-Para
-				Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+				Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 				Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1607.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section

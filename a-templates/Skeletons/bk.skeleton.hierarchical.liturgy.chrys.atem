@@ -299,7 +299,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet17.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet18.text End-Dialog
@@ -318,7 +318,7 @@ Status NA
 	Section Section16
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petCatechumens01.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petCatechumens02.text End-Dialog
@@ -411,7 +411,7 @@ Status NA
 			Actor sid ac.Deacon End-Actor
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet24.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res01.text End-Dialog
 			Actor sid ac.Deacon End-Actor
 			Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key1201.text End-Dialog
@@ -419,7 +419,7 @@ Status NA
 			Dialog sid pr.pet11.text End-Dialog
 			Dialog sid pr.pet12.text End-Dialog
 			Dialog sid pr.pet25m.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res02.text End-Dialog
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet26.text End-Dialog

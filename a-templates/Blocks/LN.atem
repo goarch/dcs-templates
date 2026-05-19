@@ -71,7 +71,7 @@ Status NA
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet01.text</> End-Dialog
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key0200.text End-Media
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog <dde>sid pr.res01.text</> End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet02.text</> End-Dialog
@@ -1034,7 +1034,7 @@ Status NA
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet17.text</> End-Dialog
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
@@ -1108,10 +1108,10 @@ Status NA
 		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Section part3
-			Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.title End-Title
 			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Dialog
-			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+			Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc11.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
@@ -1141,7 +1141,7 @@ Status NA
 			Dialog<optional>sid pr.res01.text</>End-Dialog
 			Actor<optional>sid ac.Deacon</>End-Actor
 			Dialog<optional>sid pr.pet17.text</>End-Dialog
-			Actor<optional>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor<optional>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog<optional>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
 			Actor<optional>sid ac.Deacon</>End-Actor
 			Dialog<optional>sid pr.pet18.text</>End-Dialog
@@ -1154,10 +1154,10 @@ Status NA
 			Dialog<optional>sid pr.pet23.text</>End-Dialog
 		End-Section
 		Section part3
-			Actor<optional>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor<optional>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.title</>End-Title
 			Para role inaudible<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Para
-			Actor<optional>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+			Actor<optional>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 			Dialog<optional>sid pr.exc11.text</>End-Dialog
 			Actor<optional>sid ac.Choir</>End-Actor
 			Dialog<optional>sid pr.res04.text</>End-Dialog
@@ -1200,7 +1200,7 @@ Status NA
 			Title<smallred>sid ti.LitanyFerv.uc</>End-Title
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet17.text</> End-Dialog
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
@@ -1415,7 +1415,7 @@ Status NA
 	Section Litany_cross_priest_compact
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet17.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dch>sid pr.res01.text<r>sid ru.Forty</></>End-Dialog
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet18.text</> End-Dialog
@@ -1477,7 +1477,7 @@ Status NA
 	Section Litany_paraclesis_priest_compact
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet17.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet18.text</> End-Dialog
@@ -1492,7 +1492,7 @@ Status NA
 	Section Litany_paraclesisend_priest_compact
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet17.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet33.text</> End-Dialog
@@ -1709,7 +1709,7 @@ Status NA
 			Insert_section Selector_Commemorations.deacon.me End-Insert
 			Dialog <dde>sid pr.sup99.text</> End-Dialog
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.LityKyrieEleison.text End-Media
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
@@ -1775,10 +1775,10 @@ Status NA
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Section part3
-			Actor <apr>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor <apr>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.title End-Title
 			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Para
-			Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+			Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dpr>sid pr.exc11.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
@@ -1800,10 +1800,10 @@ Status NA
 		Dialog<optional>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</>End-Dialog
 		Insert_section LN.FervLitanyLI_optional_deacon_compact.part2 End-Insert
 		Section part3
-			Actor<optional>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+			Actor<optional>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role smalldesig<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.title</>End-Title
 			Para role inaudible<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0801.text</>End-Para
-			Actor<optional>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+			Actor<optional>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 			Dialog<optional>sid pr.exc11.text</>End-Dialog
 			Actor<optional>sid ac.Choir</>End-Actor
 			Dialog<optional>sid pr.res04.text</>End-Dialog
@@ -2060,7 +2060,7 @@ Status NA
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.LityKyrieEleison.text End-Media
 			Dialog <dde>sid pr.pet17.text</> End-Dialog
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
@@ -2140,7 +2140,7 @@ Status NA
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.LityKyrieEleison.text End-Media
 			Dialog <dde>sid pr.pet17.text</> End-Dialog
-			Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+			Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 			Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
@@ -2229,7 +2229,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet25v.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res02.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet26.text</> End-Dialog
@@ -2312,7 +2312,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet25m.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dpr>sid pr.res02.text</> End-Dialog
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet26.text</> End-Dialog
@@ -2394,7 +2394,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet25m.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res02.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet26.text</> End-Dialog
@@ -2479,7 +2479,7 @@ Status NA
 		Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1200.text End-Media
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet24.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res01.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1201.text</> End-Dialog
@@ -2487,7 +2487,7 @@ Status NA
 		Dialog <dde>sid pr.pet11.text</> End-Dialog
 		Dialog <dde>sid pr.pet12.text</> End-Dialog
 		Dialog <dde>sid pr.pet25m.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res02.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet26.text</> End-Dialog
@@ -2561,7 +2561,7 @@ Status NA
 		Dialog <dde>sid pr.pet12.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text</>End-Para
 		Dialog <dde>sid pr.pet25m.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res02.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet26.text</> End-Dialog
@@ -2615,7 +2615,7 @@ Status NA
 		Title<smaller>sid eu.lipresanctified_gr_GR_cog.euPL.Key1100.title</>End-Title
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet24v.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res01.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid eu.lipresanctified_gr_GR_cog.euPL.Key1101.text</> End-Dialog
@@ -2623,7 +2623,7 @@ Status NA
 		Dialog <dde>sid pr.pet11.text</> End-Dialog
 		Dialog <dde>sid pr.pet12.text</> End-Dialog
 		Dialog <dde>sid pr.pet25v.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res02.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet26.text</> End-Dialog
@@ -2670,9 +2670,9 @@ Status NA
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.pet32.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc13.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
@@ -2684,9 +2684,9 @@ Status NA
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog <ddepr>sid pr.pet32.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1111.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc14.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
@@ -2697,9 +2697,9 @@ Status NA
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet32.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res03.text sid misc.parenthesis.close</>End-Dialog
-		Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1111.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc14.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	End-Section
@@ -2711,9 +2711,9 @@ Status NA
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog <ddepr>sid pr.pet32.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-		Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1111.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc14.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
@@ -2724,9 +2724,9 @@ Status NA
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet32.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res03.text sid misc.parenthesis.close</>End-Dialog
-		Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1111.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc14.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	End-Section
@@ -2740,9 +2740,9 @@ Status NA
 		Dialog <ddepr>sid pr.pet32.text</> End-Dialog
 		Actor<ach>sid ac.Choir</>End-Actor 
 		Dialog <dch>sid pr.res03.text</>End-Dialog
-		Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible <dprhi>sid hi.hi04_gr_GR_cog.hiMA.Key0113.text</>End-Para
-		Actor <aprhi>sid ac.sb.PrHi<smaller>sid ru.Aloud</></>End-Actor
+		Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dprhi>sid pr.exc13.text</> End-Dialog
 		Actor<ach>sid ac.Choir</>End-Actor 
 		Dialog <dch>sid pr.res04.text</>End-Dialog
@@ -2754,9 +2754,9 @@ Status NA
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet32.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res03.text sid misc.parenthesis.close</>End-Dialog
-		Actor <apr>sid ac.Priest<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc13.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	End-Section
@@ -2767,9 +2767,9 @@ Status NA
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet32.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
-		Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc13.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 	End-Section
@@ -2780,9 +2780,9 @@ Status NA
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.pet32.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res03.text sid misc.parenthesis.close</>End-Dialog
-		Actor <ahi>sid ac.Hierarch<smaller>sid ru.InALowVoice</></>End-Actor
+		Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 		Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.exc13.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	End-Section
@@ -3201,7 +3201,7 @@ Status NA
 		Title role desig<optional>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0900.title</>End-Title
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.petCatechumens01.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res01.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.petCatechumens02.text</> End-Dialog
@@ -3235,7 +3235,7 @@ Status NA
 	End-Section
 
 	Section ForCatechumens02_deacon_choir
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dpr>sid pr.petCatechumens09.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -3249,7 +3249,7 @@ Status NA
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 	End-Section
 	Section ForCatechumens02_deacon_parentheses
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dde>sid pr.petCatechumens09.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
@@ -3263,7 +3263,7 @@ Status NA
 	End-Section
 
 	Section ForCatechumens03_deacon_choir
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dde>sid pr.petCatechumens09.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -3298,12 +3298,12 @@ Status NA
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 	End-Section
 	Section ForCatechumens03_deacon_compact
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dde>sid pr.petCatechumens09.text</> End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.petCatechumens10.text sid pr.petCatechumens13.text sid pr.petCatechumens14.text</> End-Dialog
-		Actor <ach>sid ac.Choir<smaller>sid ru.AfterEachPetition</></>End-Actor
+		Actor <ach>sid ac.Choir<rubric>sid ru.AfterEachPetition</></>End-Actor
 		Dialog <dde>sid pr.res01.text</> End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor
 		Dialog <dde>sid pr.petCatechumens15.text</> End-Dialog
@@ -3318,7 +3318,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
 	End-Section
 	Section ForCatechumens03_deacon_parentheses
-		Actor <apr>sid ac.Priest<smaller>sid ru.Aloud</></>End-Actor
+		Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
 		Dialog <dde>sid pr.petCatechumens09.text</> End-Dialog
 		Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 		Actor <ade>sid ac.Deacon </>End-Actor

@@ -120,7 +120,7 @@ Status NA
 				Actor sid ac.Deacon End-Actor
 				Media sid ho.ho10_gr_GR_cog.hoVE.MM.LityKyrieEleison.text End-Media
 				Dialog sid pr.pet17.text End-Dialog
-				Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+				Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 				Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 				Actor sid ac.Deacon End-Actor
 				Dialog sid pr.pet18.text End-Dialog

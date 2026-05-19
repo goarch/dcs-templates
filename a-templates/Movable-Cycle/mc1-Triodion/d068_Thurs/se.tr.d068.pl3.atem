@@ -228,7 +228,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet01.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet02.text End-Dialog

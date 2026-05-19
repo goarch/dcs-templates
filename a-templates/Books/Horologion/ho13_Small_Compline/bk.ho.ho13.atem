@@ -115,7 +115,7 @@ Template bk.ho.ho13
 		Dialog sid dis00 sid dis01 sid dis02 sid client_gr_GR_cog.cl.localpatronsaint1.dismissal sid dis09 sid dis10 sid dis88 End-Dialog
 		Section litany
 			Dialog sid pr.petCompline01.text End-Dialog
-			Actor sid ac.Reader<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Reader<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res01.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.petCompline02.text End-Dialog

@@ -366,7 +366,7 @@ Status NA
 		Para role prayer sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4505.text End-Para
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petKneel08.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text End-Dialog
 		Section GreatLitany
 			Actor sid ac.Deacon End-Actor

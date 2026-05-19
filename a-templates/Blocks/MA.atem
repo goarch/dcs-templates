@@ -6098,7 +6098,7 @@ Status NA
 				Rubric sid ru.standing.prefix sid ru.standing.matins.ode9 End-Rubric
 				Actor sid ac.Deacon End-Actor
 				Dialog sid pr.exc15.text End-Dialog
-				Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+				Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 			End-Section
 		End-Section
 		Section magnificat__
@@ -7433,7 +7433,7 @@ Status NA
 		Section hierarchical__
 			Section intro_
 				Section part1
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role mode sid misc.Mode2 End-Title
 					Media sid ho.ho03_gr_GR_cog.hoMA.SunExapVerse1.text End-Media
 					Para role chant sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text media-off<r>sid ru.Twice</>End-Para
@@ -7600,7 +7600,7 @@ Status NA
 			End-Section
 			Section con
 				Para role source sid ti.sourceEuchologion End-Para
-				Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+				Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 				Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Consecration</>End-Title
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
@@ -7611,16 +7611,16 @@ Status NA
 					70 use:
 						Section holyfridaynight
 							Para role source sid ti.sourceTriodion End-Para
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Title role desig sid ti.Exaposteilarion<Tmode>sid tr.d070_gr_GR_cog.trMA.Exaposteilarion1.mode</>End-Title
 							Media sid tr.d070_gr_GR_cog.trMA.Exaposteilarion1.text End-Media
 							Hymn sid liturgical.verses_gr_GR_cog.psMA.exapintro.v1.text<r>sid ru.Thrice</>End-Hymn
 						End-Section
 					71 thru 127 use:
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Insert_section Selector_FestalExaposteilarion.pe End-Insert
 					otherwise use:
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Insert_section Selector_FestalExaposteilarion.me End-Insert
 				end-when
 			End-Section
@@ -7628,7 +7628,7 @@ Status NA
 				Section alt1__
 					Section exap12
 						Para role source sid ti.sourceMeSupplement End-Para
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Title role desig sid ti.Exaposteilaria End-Title
 						Title role mode rid alt1.meMA.Exaposteilarion1.mode<Tmelody>rid alt1.meMA.Exaposteilarion1.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Exaposteilarion1.greekmelody End-Title
@@ -7642,7 +7642,7 @@ Status NA
 					End-Section
 					Section exap123t
 						Section exap1
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Title role desig sid ti.Exaposteilarion End-Title
 							Section hymn
 								Para role source0 sid ti.sourceMeSupplement End-Para
@@ -7702,7 +7702,7 @@ Status NA
 				Section alt2__
 					Section exap12
 						Para role source sid ti.sourceMeSupplement End-Para
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Title role desig sid ti.Exaposteilaria End-Title
 						Title role mode rid alt2.meMA.Exaposteilarion1.mode<Tmelody>rid alt2.meMA.Exaposteilarion1.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Exaposteilarion1.greekmelody End-Title
@@ -7716,7 +7716,7 @@ Status NA
 					End-Section
 					Section exap123t
 						Section exap1
-							Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+							Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 							Title role desig sid ti.Exaposteilarion End-Title
 							Section hymn
 								Para role source0 sid ti.sourceMeSupplement End-Para
@@ -7774,7 +7774,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap1_
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
@@ -7785,7 +7785,7 @@ Status NA
 						End-Section
 				End-Section
 				Section exap11_
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -7795,7 +7795,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap111_
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
@@ -7806,7 +7806,7 @@ Status NA
 				End-Section
 				Section exap12
 					Para role source sid ti.sourceMenaion End-Para
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilaria End-Title
 					Title role mode rid meMA.Exaposteilarion1.mode<Tmelody>rid meMA.Exaposteilarion1.melody</>End-Title
 					Title role greekmelody rid meMA.Exaposteilarion1.greekmelody End-Title
@@ -7821,7 +7821,7 @@ Status NA
 				Section exap123t
 					Section exap1
 						Para role source sid ti.sourceMenaion End-Para
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Title role desig sid ti.Exaposteilarion End-Title
 						Section exap1
 							Title role mode rid meMA.Exaposteilarion1.mode<Tmelody>rid meMA.Exaposteilarion1.melody</>End-Title
@@ -7878,7 +7878,7 @@ Status NA
 			End-Section
 			Section pascha__
 				Section once_
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7888,7 +7888,7 @@ Status NA
 					End-Section
 				End-Section
 				Section thrice_
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion sid ti.Pascha End-Title
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7899,7 +7899,7 @@ Status NA
 			End-Section
 			Section pe__
 				Section exap1
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7910,7 +7910,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap1t
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymns
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7924,7 +7924,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap11
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7934,7 +7934,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap111
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilarion End-Title
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7944,7 +7944,7 @@ Status NA
 					End-Section
 				End-Section
 				Section exap112
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilaria End-Title
 					Section hymns
 						Para role source0 sid ti.sourcePentecostarion End-Para
@@ -7960,7 +7960,7 @@ Status NA
 			Section tr__
 				Section exap111
 					Para role source sid ti.sourceTriodion End-Para
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilaria End-Title
 					Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
 					Media rid trMA.Exaposteilarion1.text End-Media
@@ -7968,7 +7968,7 @@ Status NA
 				End-Section
 				Section exap112
 					Para role source sid ti.sourceTriodion End-Para
-					Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+					Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 					Title role desig sid ti.Exaposteilaria End-Title
 					Title role mode rid trMA.Exaposteilarion1.mode<Tmelody>rid trMA.Exaposteilarion1.melody</>End-Title
 					Media rid trMA.Exaposteilarion1.text End-Media
@@ -7979,7 +7979,7 @@ Status NA
 				End-Section
 				Section exap1o2ot
 					Section exap1_
-						Actor sid ac.Hierarch<smaller>sid ru.InPlaceOfRightChoir</>End-Actor
+						Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 						Title role desig sid ti.Exaposteilarion End-Title
 						Section hymn
 							Para role source0 sid ti.sourceTriodion End-Para
@@ -12468,7 +12468,7 @@ Status NA
 			Section all
 				Para role bkmrk11 sid misc.bookmark End-Para
 				Actor sid ac.Reader End-Actor
-				Title role desig sid ti.Lauds<smallred>sid ru.Read</>End-Title
+				Title role desig sid ti.Lauds<rubric>sid ru.Read</>End-Title
 				Title role desig sid ps_gr_GR_cog.psa148.title End-Title
 				Reading sid ps_gr_GR_cog.psa148.text @ver End-Reading
 				Title role desig sid ps_gr_GR_cog.psa149.title End-Title
@@ -12481,7 +12481,7 @@ Status NA
 		Section stichologia__
 			Section read__
 				Section for_4
-					Title role desig sid ti.Stichologia<smallred>sid ru.Read</>End-Title
+					Title role desig sid ti.Stichologia<rubric>sid ru.Read</>End-Title
 					Insert_section Lauds_Stichologia.for_4 End-Insert
 				End-Section
 			End-Section
@@ -12949,7 +12949,7 @@ Status NA
 				Para role bkmrk12 sid misc.bookmark End-Para
 				Rubric sid ru.standing.prefix sid ru.standing.matins.smalldoxology End-Rubric
 				Actor sid ac.Hierarch End-Actor
-				Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<smallred>sid ru.Read</>End-Title
+				Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 				Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology3.text End-Reading
 			End-Section
 		End-Section
@@ -12957,7 +12957,7 @@ Status NA
 			Para role bkmrk12 sid misc.bookmark End-Para
 			Rubric sid ru.standing.prefix sid ru.standing.matins.smalldoxology End-Rubric
 			Actor sid ac.SuperiorOrReader End-Actor
-			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<smallred>sid ru.Read</>End-Title
+			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 			Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text End-Reading
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
 			Actor sid ac.SuperiorOrReader End-Actor
@@ -12967,7 +12967,7 @@ Status NA
 			Para role bkmrk12 sid misc.bookmark End-Para
 			Rubric sid ru.standing.prefix sid ru.standing.matins.smalldoxology End-Rubric
 			Actor sid ac.SuperiorOrReader End-Actor
-			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<smallred>sid ru.Read</>End-Title
+			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 			Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text End-Reading
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
 			Actor sid ac.SuperiorOrReader End-Actor
@@ -14815,7 +14815,7 @@ Status NA
 		End-Section
 	End-Section
 	Section SmallDoxology_Matins
-		Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<smallred>sid ru.Read</>End-Title
+		Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 		Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology3.text End-Reading
 	End-Section
 

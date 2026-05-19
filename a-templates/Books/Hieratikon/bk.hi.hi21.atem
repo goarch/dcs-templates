@@ -86,7 +86,7 @@ Status NA
 	End-Section
 	Break line End_Break
 	Section vesting
-		Title<smaller> sid hiLIPR.Key200.title</>End-Title
+		Title<smaller>sid hiLIPR.Key200.title</>End-Title
 		Rubric sid hiLIPR.Key201.rubric End-Rubric
 		Rubric sid hiLIPR.Key202.rubric End-Rubric
 		Rubric<optional>sid hiLIPR.Key203.note</>End-Rubric

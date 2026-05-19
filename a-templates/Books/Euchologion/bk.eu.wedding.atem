@@ -44,7 +44,7 @@ Status Final
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet01.text End-Dialog
-	Actor sid ac.Choir<smallred>sid ru.AfterEachPetition</>End-Actor
+	Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 	Dialog sid pr.res01.text End-Dialog
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet02.text End-Dialog
@@ -130,7 +130,7 @@ Status Final
 	Title<smallred>sid ti.LitanyGreat.uc</>End-Title
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet01.text End-Dialog
-	Actor sid ac.Choir<smallred>sid ru.AfterEachPetition</>End-Actor
+	Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 	Dialog sid pr.res01.text End-Dialog
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet02.text End-Dialog
@@ -235,7 +235,7 @@ Status Final
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet25m.text End-Dialog
-	Actor sid ac.Choir<smallred>sid ru.AfterEachPetition</>End-Actor
+	Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 	Dialog sid pr.res02.text End-Dialog
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet26.text End-Dialog

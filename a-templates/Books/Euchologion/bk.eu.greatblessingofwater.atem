@@ -59,9 +59,9 @@ Status Final
 		Section block3_prayer1
 			Rubric sid eu.greatblessingofwater_gr_GR_cog.euGW.R03.text End-Rubric
 			Rubric<smaller>sid eu.greatblessingofwater_gr_GR_cog.euGW.note1.text</>End-Rubric
-			Actor sid ac.Priest<smallred>sid ru.Inaudibly</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 			Para role prayer sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer11.text End-Para
-			Actor sid ac.Priest<smallred>sid ru.Aloud</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 			Para role prayer sid eu.greatblessingofwater_gr_GR_cog.euGW.Prayer12.text End-Para
 		End-Section
 		Section block4_prayer2

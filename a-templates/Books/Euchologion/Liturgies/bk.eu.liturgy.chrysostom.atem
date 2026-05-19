@@ -115,13 +115,13 @@ Status NA
 		Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn34.text End-Para
 		Actor sid ac.Deacon End-Actor
 		Dialog sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Dialog
-		Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+		Para role actorinaudible sid ac.Deacon<rubric>sid ru.InALowVoice</>End-Para
 		Para role inaudible sid pr.Command_bishop.text End-Para
-		Para role actorinaudible sid ac.Priest<smallred>sid ru.InALowVoice</>End-Para
+		Para role actorinaudible sid ac.Priest<rubric>sid ru.InALowVoice</>End-Para
 		Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text End-Para
-		Para role actorinaudible sid ac.Deacon<smallred>sid ru.InALowVoice</>End-Para
+		Para role actorinaudible sid ac.Deacon<rubric>sid ru.InALowVoice</>End-Para
 		Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text End-Para
-		Para role actorinaudible sid ac.Priest<smallred>sid ru.InALowVoice</>End-Para
+		Para role actorinaudible sid ac.Priest<rubric>sid ru.InALowVoice</>End-Para
 		Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text End-Para
 		Actor sid ac.Choir End-Actor
 		Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title

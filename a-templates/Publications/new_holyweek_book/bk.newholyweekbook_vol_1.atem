@@ -179,7 +179,7 @@ Status Draft
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet25m.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res02.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet26.text End-Dialog
@@ -198,9 +198,9 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 			Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 			Dialog sid pr.exc13.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
@@ -344,7 +344,7 @@ Status Draft
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet25m.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res02.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet26.text End-Dialog
@@ -363,9 +363,9 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 			Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 			Dialog sid pr.exc13.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
@@ -526,7 +526,7 @@ Status Draft
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet25m.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res02.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet26.text End-Dialog
@@ -545,9 +545,9 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 			Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 			Dialog sid pr.exc13.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
@@ -812,7 +812,7 @@ Status Draft
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet25m.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res02.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet26.text End-Dialog
@@ -831,9 +831,9 @@ Status Draft
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet32.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.InALowVoice</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 			Para role inaudible sid hi.hi04_gr_GR_cog.hiMA.Key0113.text End-Para
-			Actor sid ac.Priest<smaller>sid ru.Aloud</>End-Actor
+			Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
 			Dialog sid pr.exc13.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section

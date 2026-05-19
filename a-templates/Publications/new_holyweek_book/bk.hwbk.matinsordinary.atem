@@ -117,7 +117,7 @@ Status Final
 			Actor sid ac.Priest End-Actor
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key0200.text End-Media
 			Dialog sid pr.pet01.text End-Dialog
-			Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+			Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 			Dialog sid pr.res01.text End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.pet02.text End-Dialog

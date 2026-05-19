@@ -167,7 +167,7 @@ Break page End_Break
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet01.text End-Dialog
-	Actor sid ac.Choir<smallred>sid ru.AfterEachPetition</>End-Actor
+	Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 	Dialog sid pr.res01.text End-Dialog
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet02.text End-Dialog
@@ -191,7 +191,7 @@ Break page End_Break
 	Dialog sid pr.pet13.text End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
 
-	Actor sid ac.Priest<smallred>sid ru.InALowVoice</>End-Actor
+	Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 	Dialog sid pr.pet00.text End-Dialog
 	Dialog<i>sid misc.parenthesis.open sid pr.res01.text sid misc.parenthesis.close</>End-Dialog
 	Para role inaudible sid eu.baptism_gr_GR_cog.euBAP.Key0201.text sid pr.res04.text End-Para

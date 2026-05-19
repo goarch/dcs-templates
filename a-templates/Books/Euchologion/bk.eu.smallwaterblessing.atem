@@ -216,7 +216,7 @@ Status Final
 	Section Section09
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet01.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text End-Dialog
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet02.text End-Dialog
@@ -299,7 +299,7 @@ Status Final
 	Section Section12
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet17.text End-Dialog
-		Actor sid ac.Choir<smaller>sid ru.AfterEachPetition</>End-Actor
+		Actor sid ac.Choir<rubric>sid ru.AfterEachPetition</>End-Actor
 		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP End-Dialog

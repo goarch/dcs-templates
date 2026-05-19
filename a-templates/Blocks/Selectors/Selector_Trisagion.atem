@@ -264,13 +264,13 @@ Status NA
 		Section dynamis_dialog_priest
 			Actor <adepr>sid ac.sb.DePr</>End-Actor
 			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text</>End-Dialog
-			Para role actorinaudible <adepr>sid ac.sb.DeBl<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <adepr>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <ddebl>sid pr.Command_bishop.text</>End-Para
-			Para role actorinaudible<apr> sid ac.Priest<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible<apr> sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text</>End-Para
-			Para role actorinaudible <adebl>sid ac.sb.DeBl<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text</>End-Para
-			Para role actorinaudible <apr>sid ac.Priest<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text</>End-Para
 		End-Section
 		Section dynamis_dialog_hierarch
@@ -278,11 +278,11 @@ Status NA
 			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text</>End-Dialog
 			Para role actorinaudible <adepr>sid ac.sb.DePr<smallreditalic></>sid ru.InALowVoice</>End-Para
 			Para role inaudible <ddepr>sid pr.Command_bishop.text</>End-Para
-			Para role actorinaudible <ahi>sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text</>End-Para
 			Para role actorinaudible <adepr>sid ac.sb.DePr<smallreditalic></>sid ru.InALowVoice</>End-Para
 			Para role inaudible <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text</>End-Para
-			Para role actorinaudible <ahi>sid ac.Hierarch<smallreditalic>sid ru.InALowVoice</></>End-Para
+			Para role actorinaudible <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text</>End-Para
 		End-Section
 
@@ -450,23 +450,23 @@ Status NA
 			Para role chant sid pr.GloryToTheFather.text End-Para
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v3.text sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v4.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChristonBimatos.text End-Media
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
@@ -494,23 +494,23 @@ Status NA
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Actor sid ac.ChoirL End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v3.text sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v4.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.OsoiEisChristonBimatos.text End-Media
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirL</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid liturgical.verses_gr_GR_cog.psLI.trisagionbaptized.v4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
@@ -532,23 +532,23 @@ Status NA
 			Para role chant sid pr.GloryToTheFather.text End-Para
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou3.text sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou4.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.TonStavronSouBimatos.text End-Media
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
@@ -575,23 +575,23 @@ Status NA
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Actor sid ac.ChoirL End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou3.text sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou4.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.TonStavronSouBimatos.text End-Media
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirL</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TonStavronSou4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
@@ -613,23 +613,23 @@ Status NA
 			Para role chant sid pr.GloryToTheFather.text End-Para
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn34.text media-off End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.TrisagiosHymnBimatos.text End-Media
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
@@ -656,23 +656,23 @@ Status NA
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Actor sid ac.ChoirL End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn34.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.TrisagiosHymnBimatos.text End-Media
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn1.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn2.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirL</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn3.text media-off End-Para
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid liturgical.verses_gr_GR_cog.psLI.hierarchical.trisagionblessing.v1.text @ver End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.ChoirR</>sid pr.res04.text End-Para
-			Actor sid ac.Clergy<smallreditalic>sid ru.SlowlyFromWithinTheAltar</>End-Actor
+			Actor sid ac.Clergy<rubric>sid ru.SlowlyFromWithinTheAltar</>End-Actor
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn4.text media-off End-Para
 			Insert_section dynamis_dialog_hierarch End-Insert
 			Actor sid ac.Choir End-Actor
