@@ -6161,7 +6161,7 @@ Status NA
 			Section choir
 				Para role bkmrk09 sid misc.bookmark End-Para
 				Rubric sid ru.standing.prefix sid ru.standing.matins.ode9 End-Rubric
-				Actor<adepr>sid ac.Deacon</>End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc15.text</>End-Dialog
 				Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
 				Actor <achhi>sid ac.sb.ChHi</>End-Actor
