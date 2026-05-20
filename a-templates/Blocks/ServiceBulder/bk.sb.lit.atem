@@ -179,7 +179,7 @@ Status NA
 			Para role erc_li_kissofpeace sid misc.custcontent End-Para
 			Para role brc_li_kissofpeace_clhi sid misc.custcontent End-Para
 				Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key1206.text End-Media
-				Para role inaudible sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver End-Para
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.concelebration.kisshymn.v1.text @ver End-Hymn
 			Para role erc_li_kissofpeace_clhi sid misc.custcontent End-Para
 		End-Section
 		Section commemorations

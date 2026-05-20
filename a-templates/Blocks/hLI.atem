@@ -501,7 +501,8 @@ Status NA
 					Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text </>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.title</>End-Title
-					Para role dialogwithactor<actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text End-Para
+					Actor <ahi>sid ac.Hierarch</>End-Actor
+					Dialog<dhi>sid pr.pet31.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 					Actor <ade>sid ac.Deacon</>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text </>End-Dialog
@@ -851,7 +852,8 @@ Status NA
 					Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1203.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.title</>End-Title
-					Para role dialogwithactor<actorwithdialog>sid ac.IL.Hierarch</>sid pr.pet31.text End-Para
+					Actor <ahi>sid ac.Hierarch</>End-Actor
+					Dialog<dhi>sid pr.pet31.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 					Actor <ade>sid ac.Deacon</>End-Actor
 					Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1204.text </>End-Dialog

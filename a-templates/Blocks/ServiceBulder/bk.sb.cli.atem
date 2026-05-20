@@ -73,13 +73,13 @@ Status NA
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1102.title End-Title
 			Media sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text End-Media
 			Hymn sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text @ver media-off End-Hymn
-			Title role smalldesig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title End-Title
+			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.title</>End-Title
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1101.text</>End-Para
 			Para role inaudible <dhi>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart1.text @ver</>End-Para
 			Actor <adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <ddepr>sid tr.d071_gr_GR_cog.trLI.CherubicHymnPart2.text @ver </>End-Para
-			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title End-Title
+			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
 			Actor <adepr>sid ac.sb.DePr</>End-Actor
 			Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.text</>End-Dialog
 			Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1110.rubric End-Rubric
