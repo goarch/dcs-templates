@@ -22,7 +22,9 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
-			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
+			Para role brc_li_consecration_title sid misc.custcontent End-Para
+				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
+			Para role erc_li_consecration_title sid misc.custcontent End-Para
 			Section _01
 				when-movable-cycle-day-is
 					71, 72, 73, 74, 75, 76, 77, 109 use:

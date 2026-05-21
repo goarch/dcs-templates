@@ -24,10 +24,10 @@ Status NA
 	Head
 	//	Set_Date month 6 day 18 End_Date
 			Page_Header_Even
-				center @text "ΛΕΙΤΟΥΡΓΙΑ ΙΩ. ΧΡΥΣΟΣΤΟΜΟΥ"
+				center @text ""
 			End_Page_Header_Even
 			Page_Header_Odd
-				center @text "LITURGY OF ST. JOHN CHRYSOSTOM"
+				center @text ""
 			End_Page_Header_Odd
 			Page_Footer_Even
 				center @pageNbr
@@ -40,7 +40,10 @@ Status NA
 
 
 
-	Section consecration_liturgy_parts
+		Para role brc_li_consecration_title sid misc.custcontent End-Para
+			Title<bnr>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4100.title</>End-Title
+		Para role erc_li_consecration_title sid misc.custcontent End-Para
+
 		Para role brc_li_consecration_enarxis sid misc.custcontent End-Para
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 		Para role erc_li_consecration_enarxis sid misc.custcontent End-Para
@@ -98,7 +101,6 @@ Status NA
 			Hymn sid liturgical.verses_gr_GR_cog.psLI.sunday.communion.v1.text @ver media-off sid pr.Alleluia1.text End-Hymn
 		Para role erc_li_consecration_communionhymn sid misc.custcontent End-Para
 
-	End-Section
 
 
 
