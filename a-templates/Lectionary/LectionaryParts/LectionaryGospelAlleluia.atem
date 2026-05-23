@@ -206,7 +206,7 @@ Status NA
 					End-Section
 					Para role chant sid pr.Alleluia3.text End-Para
 				End-Section
-			71 use:
+			71, 109 use:
 				Section mc_d071
 					Section al_title_mode
 						Title role desig sid ti.Alleluia sid misc.Mode4 sid movable.verses_gr_GR_cog.psLI.pe.d071.alleluia.title End-Title

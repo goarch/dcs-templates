@@ -83,7 +83,7 @@ Status Draft
 				Section mc_d070
 					Title<r>sid ti.Prokeimenon sid misc.Mode6 sid movable.verses_gr_GR_cog.psMA.tr.d070.prokeimenon.title</>End-Title
 				End-Section
-			71 use:
+			71, 109 use:
 				Section mc_d071
 					Title<r>sid ti.Prokeimenon sid misc.Mode8 sid movable.verses_gr_GR_cog.psLI.pe.d071.prokeimenon.title</>End-Title
 				End-Section
@@ -229,7 +229,7 @@ Status Draft
 					Para role readingzero sid movable.verses_gr_GR_cog.psMA.tr.d070.prokeimenon.v1.text End-Para
 					Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psMA.tr.d070.prokeimenon.v2.text End-Verse
 				End-Section
-			71 use:
+			71, 109 use:
 				Section mc_d071
 					Para role readingzero sid movable.verses_gr_GR_cog.psLI.pe.d071.prokeimenon.v1.text @ver End-Para
 					Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psLI.pe.d071.prokeimenon.v2.text @ver End-Verse

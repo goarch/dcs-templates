@@ -43,251 +43,313 @@ Status NA
 		Dialog sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d01_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d01_gr_GR_cog.meDA.commemoration.second_name</>End-Para
+		Para sid me.m01.d01_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d01_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d07_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d07_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m01.d07_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d07_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d07_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d10_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d10_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m01.d10_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d10_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d10_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d17_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d17_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m01.d17_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d17_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d17_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m01.d25_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d25_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m01.d30_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m01.d30_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m01.d30_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m01.d30_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m01.d30_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d02_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d02_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d02_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d06_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d06_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d06_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m02.d06_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d06_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d06_gr_GR_cog.alt2.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d06_gr_GR_cog.alt2.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d06_gr_GR_cog.alt2.meDA.insert1 End-Para
 		Title role mode sid me.m02.d06_gr_GR_cog.alt2.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d06_gr_GR_cog.alt2.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d08_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d08_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d08_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m02.d08_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d08_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d10_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d10_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d10_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m02.d10_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d10_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m02.d19_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m02.d19_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m02.d19_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m02.d19_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m02.d19_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m03.d17_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m03.d17_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m03.d17_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m03.d17_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m03.d17_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m03.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m03.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m03.d25_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m04.d01_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m04.d01_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m04.d01_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Apr01__.mary_.hymn End-Insert
 
 		Para<smallreditalic>sid me.m04.d23_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m04.d23_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m04.d23_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m04.d23_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m04.d23_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m04.d24_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m04.d24_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m04.d24_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Apr24__.elizabeth_.hymn End-Insert
 
 		Para<smallreditalic>sid me.m04.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m04.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m04.d25_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Apr25__.mark_.hymn End-Insert
 
 		Para<smallreditalic>sid me.m05.d02_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m05.d02_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m05.d02_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m05.d02_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m05.d02_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m05.d09_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m05.d09_gr_GR_cog.meDA.commemoration.second_name</>End-Para
+		Para sid me.m05.d09_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m05.d09_gr_GR_cog.meVE.Apolytikion2.mode End-Title
 		Dialog sid me.m05.d09_gr_GR_cog.meVE.Apolytikion2.text End-Dialog
 
 		Para<smallreditalic>sid me.m05.d21_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m05.d21_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m05.d21_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m05.d21_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m05.d21_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m06.d29_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m06.d29_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m06.d29_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m06.d29_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m06.d29_gr_GR_cog.meDA.commemoration.second_name</>End-Para
+		Para sid me.m06.d29_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m06.d30_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m06.d30_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m06.d30_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m06.d30_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m06.d30_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d20_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d20_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d20_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m07.d20_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m07.d20_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d22_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d22_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d22_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m07.d22_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m07.d22_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d22_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d22_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d22_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m07.d22_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m07.d22_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d25_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m07.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m07.d25_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d26_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d26_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d26_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m07.d26_gr_GR_cog.meVE.Apolytikion2.mode End-Title
 		Dialog sid me.m07.d26_gr_GR_cog.meVE.Apolytikion2.text End-Dialog
 
 		Para<smallreditalic>sid me.m07.d27_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m07.d27_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m07.d27_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m07.d27_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m07.d27_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m08.d06_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m08.d06_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m08.d06_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m08.d10_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m08.d10_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m08.d10_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ga.martyr_mode4_.hymn End-Insert
 		Title role mode sid me.m08.d10_gr_GR_cog.meVE.Apolytikion1ger.mode End-Title
 		Dialog sid me.m08.d10_gr_GR_cog.meVE.Apolytikion1ger.text End-Dialog
 
 		Para<smallreditalic>sid me.m08.d15_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m08.d15_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m08.d15_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m08.d27_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m08.d27_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m08.d27_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m08.d27_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m08.d27_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m09.d06_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m09.d06_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m09.d06_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m09.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m09.d06_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m09.d08_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m09.d08_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m09.d08_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m09.d14_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m09.d14_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m09.d14_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m09.d17_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m09.d17_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m09.d17_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m09.d17_gr_GR_cog.meVE.Apolytikion2ger.mode End-Title
 		Dialog sid me.m09.d17_gr_GR_cog.meVE.Apolytikion2ger.text End-Dialog
 		Title role mode sid me.m09.d17_gr_GR_cog.meVE.Apolytikion3.mode End-Title
 		Dialog sid me.m09.d17_gr_GR_cog.meVE.Apolytikion3.text End-Dialog
 
 		Para<smallreditalic>sid me.m09.d26_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m09.d26_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m09.d26_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m09.d26_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m09.d26_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m10.d06_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d06_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d06_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Oct06__.thomas_.hymn End-Insert
 
 		Para<smallreditalic>sid me.m10.d18_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d18_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d18_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Oct18__.luke_.hymn End-Insert
 		Title role mode sid me.m10.d18_gr_GR_cog.meVE.Apolytikion2ger.mode End-Title
 		Dialog sid me.m10.d18_gr_GR_cog.meVE.Apolytikion2ger.text End-Dialog
 
 		Para<smallreditalic>sid me.m10.d20_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d20_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d20_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m10.d20_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m10.d20_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m10.d23_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d23_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d23_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m10.d23_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m10.d23_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m10.d26_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d26_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d26_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m10.d26_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m10.d26_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m10.d28_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m10.d28_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m10.d28_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m10.d28_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m10.d28_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d01_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d01_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d01_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m11.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d01_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d08_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d08_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d08_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m11.d08_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d08_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d09_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d09_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d09_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m11.d09_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d09_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d13_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d13_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d13_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d14_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d14_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d14_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Nov14__.philip_.hymn End-Insert
 		Title role mode sid me.m11.d14_gr_GR_cog.meVE.Apolytikion2ger.mode End-Title
 		Dialog sid me.m11.d14_gr_GR_cog.meVE.Apolytikion2ger.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d14_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d14_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d14_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m11.d14_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d14_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d16_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d16_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d16_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Nov16__.matthew_.hymn End-Insert
 		Title role mode sid me.m11.d16_gr_GR_cog.meVE.Apolytikion2ger.mode End-Title
 		Dialog sid me.m11.d16_gr_GR_cog.meVE.Apolytikion2ger.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d25_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m11.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d25_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m11.d30_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m11.d30_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m11.d30_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m11.d30_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m11.d30_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d04_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d04_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d04_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d04_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d04_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d06_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d06_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d06_gr_GR_cog.meDA.insert1 End-Para
 		Insert_section AP.ganame.Dec06__.nicholas_.hymn End-Insert
 
 		Para<smallreditalic>sid me.m12.d09_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d09_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d09_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d09_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d09_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d12_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d12_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d12_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d12_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d12_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d15_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d15_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d15_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d15_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d15_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d17_gr_GR_cog.alt1.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d17_gr_GR_cog.alt1.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d17_gr_GR_cog.alt1.meDA.insert1 End-Para
 		Title role mode sid me.m12.d17_gr_GR_cog.alt1.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d17_gr_GR_cog.alt1.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d25_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d25_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d25_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
 		Para<smallreditalic>sid me.m12.d27_gr_GR_cog.meDA.date sid miscellanea_gr_GR_cog.misc.separator.endash sid me.m12.d27_gr_GR_cog.meDA.commemoration.first_name</>End-Para
+		Para sid me.m12.d27_gr_GR_cog.meDA.insert1 End-Para
 		Title role mode sid me.m12.d27_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Dialog sid me.m12.d27_gr_GR_cog.meVE.Apolytikion1.text End-Dialog
 
