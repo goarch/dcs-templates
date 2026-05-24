@@ -24,10 +24,10 @@ Status NA
 	Head
 		Set_Date month 7 day 27 year 2022 End_Date
 			Page_Header_Even
-				center @text "Megalynaria of GOA Churches"
+				center @text "Apolytikia of GOA Churches"
 			End_Page_Header_Even
 			Page_Header_Odd
-				center @text "Megalynaria of GOA Churches"
+				center @text "Apolytikia of GOA Churches"
 			End_Page_Header_Odd
 			Page_Footer_Even
 				center @pageNbr
