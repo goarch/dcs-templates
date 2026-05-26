@@ -435,7 +435,9 @@ Status Final
 					Insert_section MA._13_Lauds__.me__.p_1123as3456 End-Insert
 					Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 					Insert_section TI.b.pe.specific End-Insert
-					Insert_section VE._08_Aposticha__.both__.pe__.gloryasboth_.hymn End-Insert
+					Set_mcDay day 116 End_mcDay
+					Insert_section VE._03_Stichera__.gloryboth__.pe_.hymn End-Insert
+					Set_mcDay day 0 End_mcDay
 					Insert_section MA._14_Doxology__.great End-Insert
 					Insert_section AP.me1_ End-Insert
 				End-Section
