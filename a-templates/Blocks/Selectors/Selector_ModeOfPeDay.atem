@@ -273,11 +273,16 @@ Status NA
 		End-Section
 
 		Section Lauds_ModeOfPeDay
+			Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
+			Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text rid peMA.Lauds1.mode</>End-Dialog
+			Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
 			Title role desig sid ti.Lauds<Tmode>rid peMA.Lauds1.mode</>End-Title
 			Insert_section lauds01_media_modeofpeday End-Insert
 			Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
 			Insert_section lauds02_media_modeofpeday End-Insert
 			Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v2.text @ver media-off End-Hymn
+			Para role brc_ma_hierarchical_kairos sid misc.custcontent End-Para
+			Para role erc_ma_hierarchical_kairos sid misc.custcontent End-Para
 		End-Section
 
 		Section lauds01_media_modeofpeday
