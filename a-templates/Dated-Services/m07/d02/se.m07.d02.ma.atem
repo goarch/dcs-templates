@@ -90,6 +90,7 @@ Status Final
 				Insert_section MA._13_Lauds__.pe__.p_678as6allsaints12 End-Insert
 				Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 			End-Section
 
 		otherwise use:
@@ -131,6 +132,7 @@ Status Final
 						Insert_section MA._13_Lauds__.me__.p_1123as56theotokosrobe12 End-Insert
 						Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 					End-Section
 
 				otherwise use:
@@ -160,6 +162,7 @@ Status Final
 						Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 						Insert_section MA._14_Doxology__.great End-Insert
 						Insert_section AP.me1_ End-Insert
+						Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 					End-Section
 			end-when
 	end-when

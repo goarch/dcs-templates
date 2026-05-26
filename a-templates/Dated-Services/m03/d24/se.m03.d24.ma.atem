@@ -222,6 +222,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
+				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 			End-Section
 
 		29, 43 use:
@@ -315,6 +316,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
+				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 			End-Section
 		otherwise use: // I had to insert this logic, otherwise the template would not process day 35 correctly.
 		when-movable-cycle-day-is
@@ -386,6 +388,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 			End-Section
 
 		41 use:
@@ -591,6 +594,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
+				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
 			End-Section
 
 		end-when
