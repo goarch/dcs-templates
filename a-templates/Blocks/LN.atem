@@ -40,7 +40,9 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
 		End-Section
-		Dialog <ddepr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</> End-Dialog
+		Para role brc_hi_commemoration_great_litany sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</> End-Dialog
+		Para role erc_hi_commemoration_great_litany sid misc.custcontent End-Para
 		Section part2
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -454,7 +456,9 @@ Status NA
 
 	Section GreatLitany_Vespers_HolySpirit_deacon_choir
 		Insert_section GreatLitany_deacon_choir.part1 End-Insert
-		Dialog <ddepr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</> End-Dialog
+		Para role brc_hi_commemoration_great_litany sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet06a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.pet06b.text</> End-Dialog
+		Para role erc_hi_commemoration_great_litany sid misc.custcontent End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 		Section part2
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -1001,7 +1005,9 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
 		End-Section
-		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 		Section part2
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -1105,7 +1111,9 @@ Status NA
 
 	Section FervLitanyLI_deacon_choir
 		Insert_section LN.FervLitany_long_deacon_choir.part1 End-Insert
-		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 		Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
 		Section part3
 			Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
@@ -1175,7 +1183,9 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
 		End-Section
-		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 		Section part2
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -1327,7 +1337,9 @@ Status NA
 		Dialog <ddepr>sid pr.pet18.text</> End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 		Actor <adepr>sid ac.sb.DePr </>End-Actor
-		Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+			Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+		Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 		Actor <apr>sid ac.Priest </>End-Actor
 		Dialog <dpr>sid pr.exc11.text</> End-Dialog
@@ -1676,7 +1688,9 @@ Status NA
 			Dialog <dde>sid pr.pet18.text</> End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+			Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+				Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+			Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
 			Actor <ade>sid ac.Deacon </>End-Actor
 			Dialog <dde>sid pr.pet21a.text</> End-Dialog

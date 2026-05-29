@@ -291,7 +291,9 @@ Status NA
 			Actor <pdfno>sid ac.Choir </>End-Actor
 			Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Dialog
 			Actor <pdfno>sid ac.Priest </>End-Actor
-			Dialog <pdfno>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP </>End-Dialog
+			Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
+				Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+			Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
 			Actor <pdfno>sid ac.Choir </>End-Actor
 			Dialog <pdfno>sid pr.res01.text<rubricnopdf>sid ru.Thrice</></>End-Dialog
 			Actor <pdfno>sid ac.Priest </>End-Actor

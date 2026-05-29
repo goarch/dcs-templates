@@ -2556,11 +2556,11 @@ Status NA
 						Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1329.text </>End-Para
 					End-Section
 					Section hierarch
-						Para role brc_li_commemoration_hierarch sid misc.custcontent End-Para
-						Actor <aprcl>sid ac.sb.PrCl<rubric>sid ru.Aloud</></>End-Actor
-						Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
-						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-						Para role erc_li_commemoration_hierarch sid misc.custcontent End-Para
+						Para role brc_li_diptychs sid misc.custcontent End-Para
+							Actor <aprcl>sid ac.sb.PrCl<rubric>sid ru.Aloud</></>End-Actor
+							Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</> End-Dialog
+							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+						Para role erc_li_diptychs sid misc.custcontent End-Para
 					End-Section
 					Section all
 						Actor <ade>sid ac.sb.DePr </>End-Actor
