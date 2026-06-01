@@ -121,12 +121,12 @@ Status Draft
 			use:
 				Actor sid ac.Reader<rubric>sid ru.Sung</>End-Actor
 				Dialog sid pr.Command.text End-Dialog
-				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0624.text End-Rubric
+				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0624.rubric End-Rubric
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
-				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0625.text End-Rubric
+				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0625.rubric End-Rubric
 				Dialog sid eu.lipresanctified_gr_GR_cog.euPL.Key0701.text sid eu.lipresanctified_gr_GR_cog.euPL.Key0702.text End-Dialog
-				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0703.text End-Rubric
+				Rubric sid eu.lipresanctified_gr_GR_cog.euPL.Key0703.rubric End-Rubric
 				Actor sid ac.Reader End-Actor
 		end-when
 		Section lesson2

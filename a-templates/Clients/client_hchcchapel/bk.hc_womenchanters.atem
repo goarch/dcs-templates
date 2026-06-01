@@ -50,7 +50,7 @@ Status NA
 
 	Section block01
 		Section block01
-			Title role desig sid euMORD.CH.key001_female.text End-Title
+			Title role desig sid euMORD.CH.key001_female.title End-Title
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid pr.enarxis01.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -77,25 +77,25 @@ Status NA
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		End-Section
 		Section block02
-			Rubric sid euMORD.CH.key007.text End-Rubric
+			Rubric sid euMORD.CH.key007.rubric End-Rubric
 			Actor sid ac.Hierarch End-Actor
 			Para role prayer sid euMORD.CH.key008_female.text End-Para
 			Para role prayer sid pr.exc07a.text End-Para
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Rubric sid euMORD.CH.key009.text End-Rubric
+			Rubric sid euMORD.CH.key009.rubric End-Rubric
 			Actor sid ac.Hierarch End-Actor
 			Dialog sid euMORD.CH.key010_female.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Rubric sid euMORD.CH.key011.text End-Rubric
-			Rubric sid euMORD.CH.key012_female.text End-Rubric
+			Rubric sid euMORD.CH.key011.rubric End-Rubric
+			Rubric sid euMORD.CH.key012_female.rubric End-Rubric
 			Actor sid ac.Chanter End-Actor
-			Dialog sid euMORD.CH.key013.text End-Dialog
-			Rubric sid euMORD.CH.key014.text End-Rubric
+			Dialog sid euMORD.CH.key013.title End-Dialog
+			Rubric sid euMORD.CH.key014.rubric End-Rubric
 			Actor sid ac.Hierarch End-Actor
 			Para role prayer sid euMORD.CH.key015_female.text End-Para
 			Para role prayer sid pr.exc07a.text End-Para
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Rubric sid euMORD.CH.key016_female.text End-Rubric
+			Rubric sid euMORD.CH.key016_female.rubric End-Rubric
 		End-Section
 		Section block04
 			Actor sid ac.Hierarch End-Actor
