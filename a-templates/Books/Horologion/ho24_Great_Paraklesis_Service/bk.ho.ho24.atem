@@ -51,11 +51,11 @@ Status NA
 	Insert_section bk.ho.ho23.Section01 End-Insert
 	Section Section02
 		Title role desig sid ti.TheCanon End-Title
-		Rubric sid client_gr_GR_cog.cl.ho.ho23.R001 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho23.R001.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Title role desig sid misc.Ode1<Tmode>sid ho.ho24_gr_GR_cog.hoCA.Ode1H.mode</><Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode11.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode1H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode11.text End-Media
@@ -71,7 +71,7 @@ Status NA
 	Section Section03
 		Title role desig sid misc.Ode3<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode31.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode3H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode31.text End-Media
@@ -100,7 +100,7 @@ Status NA
 	Section Section06
 		Title role desig sid misc.Ode4<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode41.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode4H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode41.text End-Media
@@ -116,7 +116,7 @@ Status NA
 	Section Section07
 		Title role desig sid misc.Ode5<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode51.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode5H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode51.text End-Media
@@ -132,7 +132,7 @@ Status NA
 	Section Section08
 		Title role desig sid misc.Ode6<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode61.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode6H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode61.text End-Media
@@ -170,7 +170,7 @@ Status NA
 	Section Section13
 		Title role desig sid misc.Ode7<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode71.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode7H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode71.text End-Media
@@ -186,7 +186,7 @@ Status NA
 	Section Section14
 		Title role desig sid misc.Ode8<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode81.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode8H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode81.text End-Media
@@ -202,7 +202,7 @@ Status NA
 	Section Section15
 		Title role desig sid misc.Ode9<Tdesig>sid ti.Heirmos</>End-Title
 		Title role greekmelody sid ho.ho24_gr_GR_cog.hoCA.Ode91.greekmelody End-Title
-		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002 End-Title
+		Title role chapverse sid client_gr_GR_cog.cl.ho.ho23.R002.rubric End-Title
 		Para role heirmos sid ho.ho24_gr_GR_cog.hoCA.Ode9H.text End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid ho.ho24_gr_GR_cog.hoCA.Ode91.text End-Media

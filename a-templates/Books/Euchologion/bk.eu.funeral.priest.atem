@@ -42,7 +42,7 @@ Status NA
 	Dialog sid pr.enarxis01.text End-Dialog
 	Actor sid ac.Choir End-Actor
 	Dialog sid pr.res04.text End-Dialog
-	Rubric sid eu.funeral_gr_GR_cog.euFUN.R21 End-Rubric
+	Rubric sid eu.funeral_gr_GR_cog.euFUN.R21.rubric End-Rubric
 	Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key0300.title End-Title
 	Title role mode sid eu.funeral_gr_GR_cog.euFUN.Key0300.mode End-Title
 	Media sid eu.funeral_gr_GR_cog.euFUN.MM.Key0300.text End-Media
@@ -107,7 +107,7 @@ Status NA
 		Media sid eu.funeral_gr_GR_cog.euFUN.Key0601.text End-Media
 		Verse sid ho.ho03_gr_GR_cog.hoMA.FuneralEvlogVerse.text End-Verse
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.FuneralEvlog1.text media-off End-Hymn
-		Rubric sid eu.funeral_gr_GR_cog.euFUN.R061 End-Rubric
+		Rubric sid eu.funeral_gr_GR_cog.euFUN.R061.rubric End-Rubric
 		Verse sid ho.ho03_gr_GR_cog.hoMA.FuneralEvlogVerse.text End-Verse
 		Hymn sid ho.ho03_gr_GR_cog.hoMA.FuneralEvlog2.text End-Hymn
 		Verse sid ho.ho03_gr_GR_cog.hoMA.FuneralEvlogVerse.text End-Verse

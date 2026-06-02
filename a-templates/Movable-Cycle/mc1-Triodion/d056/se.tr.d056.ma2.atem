@@ -61,7 +61,7 @@ Status NA
 		Insert_section Kontakion End-Insert
 		Insert_section PS._03_Matins_2nd__.rubric__.has_litany End-Insert
 		Insert_section MA._03_Kathisma2__.litany End-Insert
-		Rubric sid tr.d056_gr_GR_cog.trAK.R001 End-Rubric
+		Rubric sid tr.d056_gr_GR_cog.trAK.R001.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Insert_section Kontakion End-Insert
 		Insert_section Stasis2 End-Insert

@@ -151,7 +151,7 @@ Status NA
 			Title role desig sid me.m04.d29_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m04.d29_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m04.d29_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog

@@ -38,7 +38,7 @@ Status Final
 
 	Section Instance01
 		Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1100.title End-Title
-		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 		Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 		Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1101.title End-Title
 		Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1101.text @ver End-Para
@@ -61,7 +61,7 @@ Status Final
 		Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1107.title End-Title
 		Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.text @ver End-Para
 		Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.exclamation @ver sid pr.res04.text End-Para
-		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114 End-Rubric
+		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114.rubric End-Rubric
 	End-Section
 
 

@@ -245,10 +245,10 @@ Status NA
 		End-Section
 		Section part4
 			Break line End_Break
-			Rubric sid hi.hi04_gr_GR_cog.hiMA.R101 End-Rubric
-		//	Rubric sid hi.hi04_gr_GR_cog.hiMA.R102 End-Rubric
-			Rubric sid hi.hi04_gr_GR_cog.hiMA.R103 End-Rubric
-			Rubric sid hi.hi04_gr_GR_cog.hiMA.R104 End-Rubric
+			Rubric sid hi.hi04_gr_GR_cog.hiMA.R101.rubric End-Rubric
+		//	Rubric sid hi.hi04_gr_GR_cog.hiMA.R102.rubric End-Rubric
+			Rubric sid hi.hi04_gr_GR_cog.hiMA.R103.rubric End-Rubric
+			Rubric sid hi.hi04_gr_GR_cog.hiMA.R104.rubric End-Rubric
 			Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 			Title role desig sid hi.hi04_gr_GR_cog.hiMA.Key0101.title End-Title
 			Para role prayer sid hi.hi04_gr_GR_cog.hiMA.Key0101.text @ver End-Para
@@ -9391,12 +9391,12 @@ Status NA
 				Insert_section MA._13_Lauds__.mode8__.noStichologia End-Insert
 			End-Section
 			Section ton_despotin
-				Rubric sid ho.ho03_gr_GR_cog.R_Lauds_Hierarchical End-Rubric
+				Rubric sid ho.ho03_gr_GR_cog.R21a.rubric End-Rubric
 				Hymn sid eu.beforeliturgy_gr_GR_cog.euBL.Key0100h.text End-Hymn
 			End-Section
 			Section rubrics__
 				Section kairos_at_lauds
-					Rubric sid rubrical_gr_GR_cog.ru.HierarchicalKairosAtLauds End-Rubric
+					Rubric sid ho.ho03_gr_GR_cog.R21b.rubric End-Rubric
 				End-Section
 			End-Section
 		End-Section
@@ -12984,16 +12984,16 @@ Status NA
 				Section block1
 					Actor sid ac.Archdeacon End-Actor
 					Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p401.text End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r01 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r01.rubric End-Rubric
 				End-Section
 				Actor sid ac.Choir End-Actor
 				Rubric sid ru.standing.prefix sid ru.standing.matins.greatdoxology End-Rubric
 				Insert_section MA.GreatDoxology End-Insert
 				Section block2
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02a End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02a.rubric End-Rubric
 					Actor sid ac.Deacon1 End-Actor
 					Dialog sid pr.exc19.text End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02b End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02b.rubric End-Rubric
 					Actor sid ac.Bishop_Elect End-Actor
 				//	Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p402.text End-Dialog
 					Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p402a.text sid client_gr_GR_cog.cl.euORD.EP.p402a sid eu.ordination_gr_GR_cog.euORD.EP.p402b.text sid client_gr_GR_cog.cl.euORD.EP.p402b sid eu.ordination_gr_GR_cog.euORD.EP.p402c.text End-Dialog
@@ -13004,7 +13004,7 @@ Status NA
 					Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p406.text End-Dialog
 				//	Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p409.text End-Dialog
 					Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p409a.text sid client_gr_GR_cog.cl.euORD.EP.p409a sid eu.ordination_gr_GR_cog.euORD.EP.p409b.text sid client_gr_GR_cog.cl.euORD.EP.p409b sid eu.ordination_gr_GR_cog.euORD.EP.p409c.text End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r03 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r03.rubric End-Rubric
 					Actor sid ac.Deacon1 End-Actor
 					Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p201.text End-Dialog
 					Actor sid ac.Deacon2 End-Actor
@@ -13015,10 +13015,10 @@ Status NA
 					Actor sid ac.Archbishop End-Actor
 				//	Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p410.text End-Dialog
 					Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p410a.text sid client_gr_GR_cog.cl.euORD.EP.p410a End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r04 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r04.rubric End-Rubric
 					Actor sid ac.Choir End-Actor
 					Hymn sid pr.res07.text End-Hymn
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r05 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r05.rubric End-Rubric
 					Actor sid ac.Priest1 End-Actor
 					Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p201.text End-Dialog
 					Actor sid ac.Priest2 End-Actor
@@ -13031,7 +13031,7 @@ Status NA
 					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r06_archbishop End-Rubric
 					Actor sid ac.Choir End-Actor
 					Hymn sid pr.res07.text End-Hymn
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r07 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r07.rubric End-Rubric
 				End-Section
 				Actor sid ac.Choir End-Actor
 			End-Section
@@ -13065,7 +13065,7 @@ Status NA
 		End-Section
 		Section sunday
 			Insert_section MA._14_Doxology__.great End-Insert
-			Rubric sid ho.ho03_gr_GR_cog.R36 End-Rubric
+			Rubric sid ho.ho03_gr_GR_cog.R36.rubric End-Rubric
 			Section hymn
 				Title role mode sid ho.ho03_gr_GR_cog.hoMA.SunTroparion1.mode<rubric>sid ti.OrModeOfWeek</>End-Title
 				Media sid ho.ho03_gr_GR_cog.hoMA.SunTroparion1.text End-Media
@@ -14287,7 +14287,7 @@ Status NA
 		Section hierarchical__
 			Section ektenia_wisdom
 			//	Insert_section LN.FervLitany_short_deacon_choir End-Insert
-				Rubric sid client_gr_GR_cog.cl.ho.ho03.R001 End-Rubric //as of 2022
+				Rubric sid client_gr_GR_cog.cl.ho.ho03.R001.rubric End-Rubric //as of 2022
 				Insert_section wisdom123.part1 End-Insert
 			End-Section
 			Section lent_
@@ -14377,12 +14377,12 @@ Status NA
 		End-Section
 		Section ektenia_wisdom
 		//	Insert_section LN.FervLitany_short_deacon_choir End-Insert
-			Rubric sid client_gr_GR_cog.cl.ho.ho03.R001 End-Rubric //as of 2022
+			Rubric sid client_gr_GR_cog.cl.ho.ho03.R001.rubric End-Rubric //as of 2022
 			Insert_section wisdom123.part1 End-Insert
 		End-Section
 		Section ektenia_no_dismissal
 		//	Insert_section LN.FervLitany_short_deacon_choir End-Insert
-			Rubric sid client_gr_GR_cog.cl.ho.ho03.R001 End-Rubric //as of 2022
+			Rubric sid client_gr_GR_cog.cl.ho.ho03.R001.rubric End-Rubric //as of 2022
 			Insert_section wisdom123.part1 End-Insert
 		End-Section
 		Section lent_
@@ -14413,10 +14413,10 @@ Status NA
 		End-Section
 		Section rubrics__
 			Section begin_first_hour
-				Rubric sid ho.ho03_gr_GR_cog.R27 End-Rubric
+				Rubric sid ho.ho03_gr_GR_cog.R27.rubric End-Rubric
 			End-Section
 			Section lent_begin_first_hour
-				Rubric sid ho.ho03_gr_GR_cog.R35 End-Rubric
+				Rubric sid ho.ho03_gr_GR_cog.R35.rubric End-Rubric
 			End-Section
 		End-Section
 		Section triodion_ektenia_wisdom

@@ -60,7 +60,7 @@ Status NA
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section KA.choir__._1345678 End-Insert
 		Section block5
-			Rubric sid client_gr_GR_cog.cl.tr.d021.R001 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d021.R001.rubric End-Rubric
 			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
 			Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
 			Title role desig sid tr.d021_gr_GR_cog.trMA.Ode9C1H.ode<Tmode>sid tr.d021_gr_GR_cog.trMA.Ode9C1H.mode</><Tdesig>sid ti.Heirmos</>End-Title

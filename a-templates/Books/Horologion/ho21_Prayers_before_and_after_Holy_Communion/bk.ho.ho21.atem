@@ -264,7 +264,7 @@ Template bk.ho.ho21
 		Para role hymnlinemiddle sid ho.ho21_gr_GR_cog.hoPrayer.Key201_4.text End-Para
 		Para role hymnlinelast sid ho.ho21_gr_GR_cog.hoPrayer.Key201_5.text @ver End-Para
 	 */
-		Rubric sid ho.ho21_gr_GR_cog.R04 End-Rubric
+		Rubric sid ho.ho21_gr_GR_cog.R04.rubric End-Rubric
 		Title role desig sid ho.ho21_gr_GR_cog.hoPrayer.Key202.title End-Title
 		Reading sid ho.ho21_gr_GR_cog.hoPrayer.Key202.text @ver End-Reading
 		Title role desig sid ho.ho21_gr_GR_cog.hoPrayer.Key203.title End-Title

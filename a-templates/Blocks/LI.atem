@@ -2007,7 +2007,7 @@ Status NA
 		Section choir //includes service builder items
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 			Insert_section LI.entrance_prayer End-Insert
 			Actor <achclhi>sid ac.sb.ChClHi </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
@@ -2017,7 +2017,7 @@ Status NA
 		Section clergy
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 			Insert_section LI.entrance_prayer End-Insert
 			Actor <acl>sid ac.Clergy</>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
@@ -2099,7 +2099,7 @@ Status NA
 			Section part1
 				Section aftergospel_cherubic
 					Para role brc_li_post_gospel_litanies_basil sid misc.custcontent End-Para
-				//	Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Para role erc_li_post_gospel_litanies_basil sid misc.custcontent End-Para
 					Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
@@ -2404,7 +2404,7 @@ Status NA
 			Section part1
 				Section aftergospel_cherubic
 					Para role brc_li_post_gospel_litanies_chrys sid misc.custcontent End-Para
-				//	Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Para role erc_li_post_gospel_litanies_chrys sid misc.custcontent End-Para
 					Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
@@ -3069,7 +3069,7 @@ Status NA
 		End-Section
 		Section _2_typika__
 			Section rubrics
-				Rubric sid client_gr_GR_cog.cl.LI.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R001.rubric End-Rubric
 				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm102.text End-Media
 				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title End-Title

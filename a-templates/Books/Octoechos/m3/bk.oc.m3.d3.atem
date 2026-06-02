@@ -44,7 +44,7 @@ Status Draft
 	Section mode3_day3
 		Section vespers
 			Title role desig sid ti.OnMonday.uc sid ti.Evening.uc End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002</>sid ti.Prosomia End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001.rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002.rubric</>sid ti.Prosomia End-Rubric
 			Title role desig sid ti.SticheraMaster End-Title
 			Title role mode sid oc.m3.d3_gr_GR_cog.ocVE.Stichera1.mode<Tmelody>sid oc.m3.d3_gr_GR_cog.ocVE.Stichera1.melody</>End-Title
 			Media sid oc.m3.d3_gr_GR_cog.ocVE.Stichera1.text End-Media

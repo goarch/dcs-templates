@@ -24,7 +24,7 @@ Status NA
 
 	Section StEphraimPrayer_long
 		Rubric sid ho.ho02_gr_GR_cog.hoMO.StEphraimPrayerLentenRubrics1.text End-Rubric
-		Rubric sid client_gr_GR_cog.cl.tr.d023.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d023.R003.rubric End-Rubric
 		Title role desig sid ti.PrayerOfStEphraim End-Title
 		Para role prayer sid pr.PrayerOfStEphrem1.text End-Para
 		Para role prayer sid pr.PrayerOfStEphrem2.text End-Para
@@ -34,7 +34,7 @@ Status NA
 	End-Section
 	Section StEphraimPrayer_short
 		Rubric sid ho.ho02_gr_GR_cog.hoMO.StEphraimPrayerLentenRubrics1.text End-Rubric
-		Rubric sid client_gr_GR_cog.cl.tr.d023.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d023.R003.rubric End-Rubric
 		Title role desig sid ti.PrayerOfStEphraim End-Title
 		Para role prayer sid pr.PrayerOfStEphrem1.text End-Para
 		Para role prayer sid pr.PrayerOfStEphrem2.text End-Para

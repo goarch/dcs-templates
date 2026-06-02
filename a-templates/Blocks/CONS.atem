@@ -30,14 +30,14 @@ Status NA
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid pr.enarxis01.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R102 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R102.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 			Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 			Actor <ach>sid ac.Choir</>End-Actor
 			Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 			Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver<r>sid ru.Twice</> End-Hymn
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R105 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R105.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Title role mode sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.mode End-Title
 			Hymn sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.text @ver End-Hymn
@@ -62,27 +62,27 @@ Status NA
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
 		Section Section03
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R106 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R106.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver</>End-Dialog
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R107 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R107.rubric End-Rubric
 			Actor <are>sid ac.Respondent</>End-Actor
 			Dialog <dre>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v2.text @ver</>End-Dialog
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v3.text @ver</>End-Dialog
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver</>End-Dialog
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108.rubric End-Rubric
 			Actor <are>sid ac.Respondent</>End-Actor
 			Dialog <dre>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v2.text @ver</>End-Dialog
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v3.text @ver</>End-Dialog
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver</>End-Dialog
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108.rubric End-Rubric
 			Actor <are>sid ac.Respondent</>End-Actor
 			Dialog <dre>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v4.text @ver</>End-Dialog
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Dialog <dhi>sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v5.text @ver</>End-Dialog
-			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R109 End-Rubric
+			Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R109.rubric End-Rubric
 		End-Section
 		Section Section04
 			Actor <ach>sid ac.Choir</>End-Actor
@@ -487,7 +487,7 @@ Status NA
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
 		End-Section
 		Section prayers
-			Rubric sid eu.consecration_gr_GR_cog.euMA.R001 End-Rubric
+			Rubric sid eu.consecration_gr_GR_cog.euMA.R001.rubric End-Rubric
 			Actor <ahi>sid ac.Hierarch</>End-Actor
 			Title<smallredbold>sid eu.consecration_gr_GR_cog.euCON.Key1001.title</>End-Title
 			Para role prayer <dhi>sid eu.consecration_gr_GR_cog.euCON.Key1001.text</>End-Para
@@ -502,7 +502,7 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_prayers
-		Rubric sid eu.consecration_gr_GR_cog.euMA.R001 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euMA.R001.rubric End-Rubric
 		Actor <ahi>sid ac.Hierarch</>End-Actor
 		Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1001.title End-Title
 		Para role prayer <dhi>sid eu.consecration_gr_GR_cog.euCON.Key1001.text</>End-Para

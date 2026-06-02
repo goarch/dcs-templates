@@ -138,7 +138,7 @@ Status Final
 
 	Break line End_Break
 	Section Readings_of_the_day
-		Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R091 End-Rubric
+		Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R091.rubric End-Rubric
 		Set_mcDay day 75 End_mcDay
 		Insert_section LE._01_Epistle__.daily_ End-Insert
 		Insert_section LE._02_Gospel__.daily_.alleluia End-Insert
@@ -175,7 +175,7 @@ Status Final
 		Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0108.text<r>sid ru.Thrice</>End-Dialog
 	End-Section
 	Break line End_Break
-	Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R111 End-Rubric
+	Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R111.rubric End-Rubric
 	Actor sid ac.Choir End-Actor
 	Insert_section TI.gb._ End-Insert
 	Insert_section MA._13_Lauds__.gloryboth__.pascha_.hymn End-Insert
@@ -184,7 +184,7 @@ Status Final
 	Actor sid ac.People End-Actor
 	Dialog sid pr.PaschaDialog6.text End-Dialog
 	Break line End_Break
-	Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R112 End-Rubric
+	Rubric sid eu.funeral_gr_GR_cog.euFUN.brightweek.R112.rubric End-Rubric
 	Title role mode sid pe.d071_gr_GR_cog.peMA.SticheraGlory.mode End-Title
 	Media sid pe.d071_gr_GR_cog.peMA.SticheraGlory.text End-Media
 	Hymn sid pe.d071_gr_GR_cog.peMA.SticheraGlory.text @ver media-off End-Hymn

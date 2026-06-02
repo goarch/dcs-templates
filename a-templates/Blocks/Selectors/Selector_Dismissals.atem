@@ -146,13 +146,13 @@ Status NA
 					End-Section
 				78 thru 108 use:
 					Section afterpascha_end_1
-						Rubric sid client_gr_GR_cog.cl.pe.d078.R001 End-Rubric
+						Rubric sid client_gr_GR_cog.cl.pe.d078.R001.rubric End-Rubric
 						Dialog <dprhi>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 					End-Section
 					Section afterpascha_end_2
 						Rubric sid ru.Or End-Rubric
-						Rubric sid client_gr_GR_cog.cl.pe.d078.R002 End-Rubric
+						Rubric sid client_gr_GR_cog.cl.pe.d078.R002.rubric End-Rubric
 						Actor <aprhi>sid ac.sb.PrHi </>End-Actor
 						Dialog <dprhi>sid pe.d071_gr_GR_cog.peMA.Troparion.text</> End-Dialog
 						Actor <ape>sid ac.People</>End-Actor
@@ -291,7 +291,7 @@ Status NA
 				78 thru 108 use:
 					Section afterpascha
 						Section end_1
-							Rubric sid client_gr_GR_cog.cl.pe.d078.R001 End-Rubric
+							Rubric sid client_gr_GR_cog.cl.pe.d078.R001.rubric End-Rubric
 							Actor <ahi>sid ac.Hierarch</>End-Actor
 							Dialog <dhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -301,7 +301,7 @@ Status NA
 						End-Section
 						Rubric sid ru.Or End-Rubric
 						Section end_2
-							Rubric sid client_gr_GR_cog.cl.pe.d078.R002 End-Rubric
+							Rubric sid client_gr_GR_cog.cl.pe.d078.R002.rubric End-Rubric
 							Actor <ahi>sid ac.Hierarch</>End-Actor
 							Dialog <dhi>sid pe.d071_gr_GR_cog.peMA.Troparion.text</>End-Dialog
 							Actor <ape>sid ac.People</>End-Actor

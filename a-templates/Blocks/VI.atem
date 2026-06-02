@@ -52,11 +52,11 @@ Status NA
 									Insert_section PE.ChristIsRisen.once End-Insert
 									Actor sid ac.Choir End-Actor
 									Insert_section PE.ChristIsRisen.twice End-Insert
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Hierarch End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Hierarch End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -109,12 +109,12 @@ Status NA
 								Actor sid ac.Choir End-Actor
 								Insert_section PE.ChristIsRisen.twice End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Hierarch End-Actor
 							otherwise use:
 								Insert_section VE.vesperal_prayers_link End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Hierarch End-Actor
 								Reading sid pr.ComeLetUsWorship1.text End-Reading
 								Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -172,11 +172,11 @@ Status NA
 								Insert_section PE.ChristIsRisen.once End-Insert
 								Actor sid ac.Choir End-Actor
 								Insert_section PE.ChristIsRisen.twice End-Insert
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Reader End-Actor
 							otherwise use:
 								Insert_section VE.vesperal_prayers_link End-Insert
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Reader End-Actor
 								Reading sid pr.ComeLetUsWorship1.text End-Reading
 								Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -621,7 +621,7 @@ Status NA
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
 			Section part5_rubric
-				Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b sid hi.hi05_gr_GR_cog.hiVI.R201dalt End-Rubric
+				Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b.rubric sid hi.hi05_gr_GR_cog.hiVI.R201dalt.rubric End-Rubric
 			End-Section
 		End-Section
 		Section AP_theotokoshymn__
@@ -715,7 +715,7 @@ Status NA
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section part5_rubric
-			Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b sid hi.hi05_gr_GR_cog.hiVI.R201dalt End-Rubric
+			Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b.rubric sid hi.hi05_gr_GR_cog.hiVI.R201dalt.rubric End-Rubric
 		End-Section
 	End-Section
 

@@ -178,8 +178,8 @@ Status NA
 			end-when
 		End-Section
 		Section notice
-			Rubric sid client_gr_GR_cog.cl.ho.ho10.R002 End-Rubric
-			Rubric sid client_gr_GR_cog.cl.ho.ho10.R003 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.ho.ho10.R002.rubric End-Rubric
+			Rubric sid client_gr_GR_cog.cl.ho.ho10.R003.rubric End-Rubric
 		End-Section
 		Section number //used in TY
 			when-movable-cycle-day-is

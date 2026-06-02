@@ -149,7 +149,7 @@ Status Draft
 	Section dHF
 		Title role desig sid lecLE.Day1.uc sid lecLE.ofHolyFathers.uc End-Title
 	//	Reading<r>sid me.m07.dHF_gr_GR_cog.meLE.commemoration1</>End-Reading
-		Rubric sid lecEV.me.m07.dHF.R01 End-Rubric
+		Rubric sid lecEV.me.m07.dHF.R01.rubric End-Rubric
 		Section liturgy
 			Section go_title
 			End-Section

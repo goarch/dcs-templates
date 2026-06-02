@@ -42,10 +42,10 @@ Status Final
 //	End-Preface
 
 	Section triadic_hymns
-		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R001 End-Title
-		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R002 End-Title
-		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R003 End-Title
-		Rubric sid misc.separator.asterisk sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R004 End-Rubric
+		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R001.rubric End-Title
+		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R002.rubric End-Title
+		Title role desig sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R003.rubric End-Title
+		Rubric sid misc.separator.asterisk sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R004.rubric End-Rubric
 		Title sid misc.horizontal_line.solid1 End-Title
 
 		Section mode1
@@ -121,8 +121,8 @@ Status Final
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
 		Section endnotes
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R005 End-Rubric
-			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R006</>End-Title
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R005.rubric End-Rubric
+			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R006.rubric</>End-Title
 			Title role desig sid ti.OnMonday End-Title
 			Dialog sid misc.punctuation.ellipsis sid da.d2_gr_GR_cog.daMA.Triadic1Ending.text End-Dialog
 			Title role desig sid ti.OnTuesday End-Title
@@ -131,14 +131,14 @@ Status Final
 			Dialog sid misc.punctuation.ellipsis sid da.d4_gr_GR_cog.daMA.Triadic1Ending.text End-Dialog
 			Title role desig sid ti.OnThursday End-Title
 			Dialog sid misc.punctuation.ellipsis sid da.d5_gr_GR_cog.daMA.Triadic1Ending.text End-Dialog
-			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R007</>End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R008 End-Rubric
-			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R009 End-Dialog
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R010 End-Rubric
-			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R011 End-Dialog
-			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R012</>End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R013 End-Rubric
-			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R014 End-Dialog
+			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R007.rubric</>End-Title
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R008.rubric End-Rubric
+			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R009.rubric End-Dialog
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R010.rubric End-Rubric
+			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R011.rubric End-Dialog
+			Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R012.rubric</>End-Title
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R013.rubric End-Rubric
+			Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocTRIADIC.R014.rubric End-Dialog
 		End-Section
 
 	End-Section

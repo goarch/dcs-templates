@@ -411,7 +411,7 @@ Status NA
 		Section basil
 			Section part1
 				Section aftergospel_cherubic_part1
-				//	Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
 					Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.basil.text</>End-Para
@@ -607,7 +607,7 @@ Status NA
 						Dialog <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop0.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
 						Actor <acl>sid ac.Clergy</>End-Actor
 						Dialog <dcl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330a.text sid client_gr_GR_cog.cl.bishop1.name.commemoration sid eu.lichrysbasil_gr_GR_cog.euLI.Key1330b.text</>End-Dialog
-					//	Rubric sid client_gr_GR_cog.cl.LI.R003 End-Rubric
+					//	Rubric sid client_gr_GR_cog.cl.LI.R003.rubric End-Rubric
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
 					Section all
@@ -802,7 +802,7 @@ Status NA
 		Section chrys_default
 			Section part1
 				Section aftergospel_cherubic_part1
-				//	Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
 					Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.text</>End-Para
@@ -1131,17 +1131,17 @@ Status NA
 		Section chrys_ordination__
 			Section bishop__
 				Section part1_ordination
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r08 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r08.rubric End-Rubric
 					Actor <apr>sid ac.Priest1</>End-Actor
 					Dialog <dpr>sid eu.ordination_gr_GR_cog.euORD.DE.p201.text</>End-Dialog
 					Actor <apr>sid ac.Priest2</>End-Actor
 					Dialog <dpr>sid eu.ordination_gr_GR_cog.euORD.DE.p202.text</>End-Dialog
 					Actor <apr>sid ac.Priest1</>End-Actor
 					Dialog <dpr>sid eu.ordination_gr_GR_cog.euORD.DE.p203.text</>End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r09 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r09.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch</>End-Actor
 					Dialog <dhi>sid pr.InTheNameOfFather.text sid pr.res04.text<inr>sid ru.Thrice</></>End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r10 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r10.rubric End-Rubric
 					Actor <acl>sid ac.Clergy</>End-Actor
 					Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p204.mode End-Title
 					Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p204.text @ver media-off End-Hymn
@@ -1150,21 +1150,21 @@ Status NA
 					Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p206.mode End-Title
 					Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p206.text @ver media-off End-Hymn
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc19.text End-Para
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r11 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r11.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch</>End-Actor
 				//	Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.EP.p412.text </>End-Dialog
 					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.EP.p412a.text sid client_gr_GR_cog.cl.euORD.EP.p412a sid eu.ordination_gr_GR_cog.euORD.EP.p412b.text</>End-Dialog
 				//	Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.EP.p414.text</>End-Dialog
 					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.EP.p414a.text sid client_gr_GR_cog.cl.euORD.EP.p414a sid eu.ordination_gr_GR_cog.euORD.EP.p414b.text sid client_gr_GR_cog.cl.euORD.EP.p414b sid eu.ordination_gr_GR_cog.euORD.EP.p414c.text</>End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r12 End-Rubric
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r13 End-Rubric
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r16 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r12.rubric End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r13.rubric End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r16.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch</>End-Actor
 					Dialog <dhi>sid pr.Axios.text </>End-Dialog
 					Actor <ach>sid ac.Choir</>End-Actor
 					Dialog sid pr.Axios.text<inr>sid ru.Thrice</>End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r17 End-Rubric
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r18 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r17.rubric End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r18.rubric End-Rubric
 				End-Section
 				Section part2_theotokoshymn
 					Insert_section hLI._08_Liturgy__.chrys_default.part1.aftergospel_cherubic_part1 End-Insert
@@ -1185,10 +1185,10 @@ Status NA
 					Insert_section hLI.after_communion.chrys.part1 End-Insert
 					Insert_section hLI.after_communion.chrys.part3 End-Insert
 					Insert_section hLI._08_Liturgy__.chrys_default.part2.ambo_prayer End-Insert
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r19 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r19.rubric End-Rubric
 					Actor <ahi>sid ac.Hierarch</>End-Actor
 					Dialog <dhi>sid eu.ordination_gr_GR_cog.euORD.EP.p417.text </>End-Dialog
-					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r20 End-Rubric
+					Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r20.rubric End-Rubric
 					Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					Actor <ahi>sid ac.Hierarch</>End-Actor

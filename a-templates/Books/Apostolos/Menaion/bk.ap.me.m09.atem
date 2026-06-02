@@ -26,7 +26,7 @@ Status NA
 		Section d01
 			Title role desig sid me.m09.d01_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m09.d01_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m09.d01.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -355,7 +355,7 @@ Status NA
 		Section d08
 			Title role desig sid me.m09.d08_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m09.d08_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m09.d08.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -502,7 +502,7 @@ Status NA
 		Section d13
 			Title role desig sid me.m09.d13_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m09.d13_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m09.d13.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -664,7 +664,7 @@ Status NA
 		Section d14
 			Title role desig sid me.m09.d14_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m09.d14_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m09.d14.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -790,7 +790,7 @@ Status NA
 		Section dSatAC
 			Title role desig sid lecLE.SaturdayAfterCross.uc End-Title
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m09.dSatAC_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog
@@ -804,7 +804,7 @@ Status NA
 		Section dSunAC
 			Title role desig sid lecLE.SundayAfterCross.uc End-Title
 			Section ep_title
-				Title<inr>sid lecAP.R04</>End-Title
+				Title<inr>sid lecAP.R04.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m09.dSunAC_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog

@@ -83,7 +83,7 @@ Status Final
 	Break line End_Break
 
 	Title<r>sid misc.horizontal_line.solid1</>End-Title
-	Rubric sid client_gr_GR_cog.cl.eu.memorial.sos.R001 End-Rubric
+	Rubric sid client_gr_GR_cog.cl.eu.memorial.sos.R001.rubric End-Rubric
 	Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
 	Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0109.text<r>sid ru.Thrice</>End-Dialog
 	Actor <ach>sid ac.Choir</>End-Actor

@@ -412,7 +412,7 @@ Status Final
 				Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
 				Section block1
 					Title role desig rid peMA.Ode9C1H.ode sid ti.Canon1 End-Title
-					Rubric sid client_gr_GR_cog.cl.pe.d110.R001 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.pe.d110.R001.rubric End-Rubric
 					Media rid peMA.Ode9C1H.text End-Media
 					Title role mode rid peMA.Ode9C1H.mode<Tdesig>sid misc.Heirmos</>End-Title
 					Para role heirmos rid peMA.Ode9C1H.text End-Para

@@ -60,7 +60,7 @@ Status Review
 		Actor sid ac.Reader End-Actor
 		Dialog sid pr.res04.text End-Dialog
 		Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
-		Rubric sid ho.ho23_gr_GR_cog.R02 End-Rubric
+		Rubric sid ho.ho23_gr_GR_cog.R02.rubric End-Rubric
 		Section hymn
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode4 End-Title
@@ -165,7 +165,7 @@ Status Review
 		Title role desig sid ti.Kontakion End-Title
 		Title role mode sid other.stgerasimosofamerica1_gr_GR_cog.hoCA.Kontakion.mode<Tmelody>sid other.stgerasimosofamerica1_gr_GR_cog.hoCA.Kontakion.melody</>End-Title
 		Hymn sid other.stgerasimosofamerica1_gr_GR_cog.hoCA.Kontakion.text End-Hymn
-		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003.rubric End-Rubric
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_.antiphon End-Insert
 		Title role desig sid ti.Prokeimenon End-Title
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.hierarch1.prokeimenon.v1.text<r>sid ru.Twice</>End-Hymn

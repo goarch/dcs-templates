@@ -41,7 +41,7 @@ Status NA
 	End_Head
 	Section subdeacon
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.SD.p100.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r01.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Para role prayer sid pr.InTheNameOfFather.text sid pr.res04.text<inr>sid ru.Thrice</>End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
@@ -50,96 +50,96 @@ Status NA
 		Para role prayer sid eu.ordination_gr_GR_cog.euORD.SD.p101.text End-Para
 		Para role prayer sid pr.exc20.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r03 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r03.rubric End-Rubric
 		Actor sid ac.Subdeacon End-Actor
 		Dialog sid eu.ordination_gr_GR_cog.euORD.SD.p102.text<inr>sid ru.Thrice</>End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r04 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r04.rubric End-Rubric
 	End-Section
 	Break page End_Break
 	Section deacon
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.DE.p200.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p201.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p202.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p203.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r02 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r03 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r02.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r03.rubric End-Rubric
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p204.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p204.text End-Hymn
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p205.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p205.text End-Hymn
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p206.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p206.text End-Hymn
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r04 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r05 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r04.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r05.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.DE.p207.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r06 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r07 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r06.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r07.rubric End-Rubric
 		Para role prayer sid eu.ordination_gr_GR_cog.euORD.DE.p208.text<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Para
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r08 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r08.rubric End-Rubric
 		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02_deacon.text End-Dialog
 		Dialog sid pr.petOrdination03_deacon.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r09 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r09.rubric End-Rubric
 		Para role prayer sid eu.ordination_gr_GR_cog.euORD.DE.p209.text<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Para
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r10 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r11 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r12 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r13 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r14 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r15 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r16 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r10.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r11.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r12.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r13.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r14.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r15.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r16.rubric End-Rubric
 
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r17 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r18 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r17.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.DE.r18.rubric End-Rubric
 	End-Section
 	Break page End_Break
 	Section priest
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.PR.p300.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p301.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p302.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p303.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r02 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r03 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r02.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r03.rubric End-Rubric
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p204.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p204.text End-Hymn
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p205.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p205.text End-Hymn
 		Title role mode sid eu.ordination_gr_GR_cog.euORD.DE.p206.mode End-Title
 		Hymn sid eu.ordination_gr_GR_cog.euORD.DE.p206.text End-Hymn
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r04 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05a End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05b End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r04.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05a.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r05b.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p304.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r06 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r07a End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r06.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r07a.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p305.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r07b End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r07b.rubric End-Rubric
 
 		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02a.text sid pr.petOrdination02b.text sid pr.petOrdination02c_priest.text End-Dialog
 		Dialog sid pr.petOrdination03_priest.text End-Dialog
 
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r08 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r08.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p306.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r09 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r10 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r11 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r09.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r10.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r11.rubric End-Rubric
 
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r12 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r13 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r12.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r13.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PR.p307.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r14 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r15 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r16 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r14.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r15.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PR.r16.rubric End-Rubric
 	End-Section
 	Break page End_Break
 	Section bishop
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.EP.p400.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p401.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r02.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p402.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p403.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p404.text End-Dialog
@@ -148,66 +148,66 @@ Status NA
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p407.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p408.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p409.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r03 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r03.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p410.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r04 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r05 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r04.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r05.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p411.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r06 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r07 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r06.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r07.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p412.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r08 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r08.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p413.text End-Dialog
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p414.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r09 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r10 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r09.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r10.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p415.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r11 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r11.rubric End-Rubric
 
 		Dialog sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text End-Dialog
 		Dialog sid pr.petOrdination02_bishop.text End-Dialog
 		Dialog sid pr.petOrdination03_bishop.text End-Dialog
 
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r12 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r12.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p416.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r13 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r13.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.EP.p417.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r14 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r15 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r16 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r14.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r15.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.EP.r16.rubric End-Rubric
 	End-Section
 	Break page End_Break
 	Section archdeacon
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.AD.p500.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.AD.p501.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.AD.p502.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.AD.p503.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.AD.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.AD.p504.text End-Dialog
 	End-Section
 	Break page End_Break
 	Section economos
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.OI.p600.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.OI.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.OI.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.OI.p601.text End-Dialog
 	End-Section
 	Break page End_Break
 	Section spiritualfather
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.SF.p700.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.SF.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.SF.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.SF.p701.text End-Dialog
-		Rubric sid eu.ordination_gr_GR_cog.euORD.SF.r02 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.SF.r02.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.SF.p702.text End-Dialog
 	End-Section
 	Break page End_Break
 	Section protopresbyter
 		Title role desig sid eu.ordination_gr_GR_cog.euORD.PP.p800.title End-Title
-		Rubric sid eu.ordination_gr_GR_cog.euORD.PP.r01 End-Rubric
+		Rubric sid eu.ordination_gr_GR_cog.euORD.PP.r01.rubric End-Rubric
 		Dialog sid eu.ordination_gr_GR_cog.euORD.PP.p801.text End-Dialog
 	End-Section
 End-Template

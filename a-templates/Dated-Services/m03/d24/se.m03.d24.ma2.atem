@@ -358,7 +358,7 @@ Status NA
 							Section block1
 								Actor sid ac.Choir End-Actor
 								Insert_section KO.seasonal End-Insert
-								Rubric sid client_gr_GR_cog.cl.tr.d056.R001 End-Rubric
+								Rubric sid client_gr_GR_cog.cl.tr.d056.R001.rubric End-Rubric
 								Actor sid ac.Priest End-Actor
 								Para role chant sid tr.d056_gr_GR_cog.trMA.Oikos010a.text sid tr.d056_gr_GR_cog.trMA.Oikos010b.text End-Para
 								Reading sid tr.d056_gr_GR_cog.trMA.Oikos011.text End-Reading
@@ -409,7 +409,7 @@ Status NA
 							Section block1
 								Actor sid ac.Choir End-Actor
 								Insert_section KO.seasonal End-Insert
-								Rubric sid client_gr_GR_cog.cl.tr.d056.R001 End-Rubric
+								Rubric sid client_gr_GR_cog.cl.tr.d056.R001.rubric End-Rubric
 								Actor sid ac.Priest End-Actor
 								Para role chant sid tr.d056_gr_GR_cog.trMA.Oikos010a.text sid tr.d056_gr_GR_cog.trMA.Oikos010b.text End-Para
 								Reading sid tr.d056_gr_GR_cog.trMA.Oikos011.text End-Reading

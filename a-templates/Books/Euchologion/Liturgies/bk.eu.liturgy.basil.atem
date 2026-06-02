@@ -61,7 +61,7 @@ Status NA
 
 	Section Section03 //antiphon 1
 		Title role desig sid ti.Antiphon1 End-Title
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R001 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R001.rubric End-Rubric
 		Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 		Break line End_Break
 	End-Section
@@ -77,7 +77,7 @@ Status NA
 
 	Section Section05 //antiphon 2
 		Title role desig sid ti.Antiphon2 End-Title
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R002 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R002.rubric End-Rubric
 		Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
 		Verse sid pr.GloryToTheFather.text End-Verse
 		Verse sid pr.BothNowAndEver.text End-Verse
@@ -97,13 +97,13 @@ Status NA
 
 	Section Section07 //antiphon 3
 		Title role desig sid ti.Antiphon3 End-Title
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R004 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R004.rubric End-Rubric
 		Break line End_Break
 	End-Section
 
 	Section Section08 //entrance
 		Title role desig sid ti.SmallEntrance.uc End-Title
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 		Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
 		Para role inaudible sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text End-Para
 		Actor sid ac.Deacon<rubric>sid ru.InALowVoice</>End-Actor
@@ -118,8 +118,8 @@ Status NA
 		Actor sid ac.Choir End-Actor
 		Title role desig sid ti.EntranceHymn<Tmode>sid misc.Mode2</>End-Title
 		Hymn sid ho.ho07_gr_GR_cog.hoLI.EntranceHymn.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R006 End-Rubric
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R007 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R006.rubric End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R007.rubric End-Rubric
 		Break line End_Break
 	End-Section
 
@@ -164,15 +164,15 @@ Status NA
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R008 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R008.rubric End-Rubric
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.exc17.text End-Dialog
 			Actor sid ac.Reader End-Actor
-			Dialog sid client_gr_GR_cog.cl.eu.lichrysbasil.R009 End-Dialog
+			Dialog sid client_gr_GR_cog.cl.eu.lichrysbasil.R009.rubric End-Dialog
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R010 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R010.rubric End-Rubric
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.epi02.text End-Dialog
 		End-Section
@@ -189,17 +189,17 @@ Status NA
 			Dialog sid pr.pet31.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 			Actor sid ac.Deacon End-Actor
-			Dialog sid client_gr_GR_cog.cl.eu.lichrysbasil.R011 End-Dialog
+			Dialog sid client_gr_GR_cog.cl.eu.lichrysbasil.R011.rubric End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc19.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.GloryToYouLord.text End-Para
 			Actor sid ac.Deacon End-Actor
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R012 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R012.rubric End-Rubric
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.gos06.text End-Dialog
 			Actor sid ac.Choir End-Actor
 			Dialog sid pr.GloryToYouLord.text End-Dialog
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R013 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R013.rubric End-Rubric
 			Break line End_Break
 		End-Section
 	End-Section
@@ -521,7 +521,7 @@ Status NA
 		Actor sid ac.Choir End-Actor
 		Insert_section bk.ap.da.d1.communion_title End-Insert
 		Insert_section bk.ap.da.d1.communion_hymn End-Insert
-		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R014 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R014.rubric End-Rubric
 		Break line End_Break
 	End-Section
 

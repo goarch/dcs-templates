@@ -306,7 +306,7 @@ Status Final
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section MA._13_Lauds__.mode1__.for4 End-Insert
 				Insert_section TI.stp.tr.com1 End-Insert
-				Rubric sid client_gr_GR_cog.cl.se.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.se.R001.rubric End-Rubric
 				Insert_section MA._13_Lauds__.tr__.p_1123as3456_.hymns End-Insert
 				Insert_section TI.g.tr.com1 End-Insert
 				Insert_section VE._08_Aposticha__.glory__.tr_.hymn End-Insert
@@ -564,7 +564,7 @@ Status Final
 				Section block1
 					Actor sid ac.Choir End-Actor
 					Insert_section KO.seasonal End-Insert
-					Rubric sid client_gr_GR_cog.cl.tr.d056.R001 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.tr.d056.R001.rubric End-Rubric
 					Actor sid ac.Priest End-Actor
 					Para role chant sid tr.d056_gr_GR_cog.trMA.Oikos010a.text sid tr.d056_gr_GR_cog.trMA.Oikos010b.text End-Para
 					Reading sid tr.d056_gr_GR_cog.trMA.Oikos011.text End-Reading

@@ -41,7 +41,7 @@ Status NA
 
 		Section Day_PalmSunday
 			Title role smalldesig sid le.ep.mc.d064_gr_GR_cog.lemcLI.Epistle.title End-Title
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid movable.verses_gr_GR_cog.psLI.tr.d064.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -319,7 +319,7 @@ Status NA
 				End-Section
 				Section instead_of_alleluia
 					Section al_title
-						Title<r>sid lecAP.mc.R071a</>End-Title
+						Title<r>sid lecAP.mc.R071a.rubric</>End-Title
 						Title role desig sid misc.Mode7 sid movable.verses_gr_GR_cog.psVL.tr.d071.alleluia.title End-Title
 						Media sid tr.d071_gr_GR_cog.trLI.SaturdayArise.text End-Media
 					End-Section
@@ -328,7 +328,7 @@ Status NA
 						Media sid movable.verses_gr_GR_cog.psVL.tr.d071.alleluia.v0.text End-Media
 						Hymn sid movable.verses_gr_GR_cog.psVL.tr.d071.alleluia.v0.text @ver media-off End-Hymn
 					End-Section
-					Title<r>sid lecAP.mc.R071b</>End-Title
+					Title<r>sid lecAP.mc.R071b.rubric</>End-Title
 					Actor sid ac.Choir End-Actor
 					Section al_verse1
 						Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVL.tr.d071.alleluia.v1.text End-Verse

@@ -2000,7 +2000,7 @@ Status NA
 		Section parish
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 			Insert_section LI.entrance_prayer End-Insert
 			Actor <ach>sid ac.Choir </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
@@ -2015,7 +2015,7 @@ Status NA
 		Section choir
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 			Insert_section LI.entrance_prayer End-Insert
 			Actor <ach>sid ac.Choir </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
@@ -2024,7 +2024,7 @@ Status NA
 		Section clergy
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 			Insert_section LI.entrance_prayer End-Insert
 			Actor sid ac.Clergy End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_part1 End-Insert
@@ -2086,7 +2086,7 @@ Status NA
 		Section basil
 			Section part1
 				Section aftergospel_cherubic
-					Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
 					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.basil.text</> End-Para
@@ -2381,7 +2381,7 @@ Status NA
 		Section chrys_default
 			Section part1
 				Section aftergospel_cherubic
-				//	Rubric sid client_gr_GR_cog.cl.LI.R002 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R002.rubric End-Rubric
 					Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
 					Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.text </>End-Para
@@ -3034,7 +3034,7 @@ Status NA
 		End-Section
 		Section _2_typika__
 			Section rubrics
-				Rubric sid client_gr_GR_cog.cl.LI.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R001.rubric End-Rubric
 				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm102.text End-Media
 				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title End-Title

@@ -42,7 +42,7 @@ Status NA
 
 	Section stanza1
 		Title role desig sid trMA.Encomia.title End-Title
-		Rubric sid cl.tr.d070.R301 End-Rubric
+		Rubric sid cl.tr.d070.R301.rubric End-Rubric
 		Title role desig sid trMA.Encomia100.title<Tmode>sid trMA.Encomia100.mode</>End-Title
 		Hymn sid trMA.Encomia101.text @ver media-off End-Hymn
 		Hymn sid trMA.Encomia102.text End-Hymn
@@ -69,7 +69,7 @@ Status NA
 		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid trMA.Encomia1T.text End-Hymn
 
-		Rubric sid cl.tr.d070.R302 End-Rubric
+		Rubric sid cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid trMA.Encomia101.text media-off End-Hymn
 
 	End-Section
@@ -99,7 +99,7 @@ Status NA
 		Hymn sid trMA.Encomia2Tr.text End-Hymn
 		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid trMA.Encomia2T.text End-Hymn
-		Rubric sid cl.tr.d070.R302 End-Rubric
+		Rubric sid cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid trMA.Encomia201.text media-off End-Hymn
 	End-Section
 
@@ -136,14 +136,14 @@ Status NA
 		Hymn sid trMA.Encomia341.text End-Hymn
 		Hymn sid trMA.Encomia343.text End-Hymn
 		Hymn sid trMA.Encomia344.text End-Hymn
-		Rubric sid cl.tr.d070.R303 End-Rubric
+		Rubric sid cl.tr.d070.R303.rubric End-Rubric
 		Hymn<b>sid trMA.Encomia345.text</>End-Hymn
 		Hymn sid trMA.Encomia346.text End-Hymn
 		Verse<bnr>sid misc.vVerse</>sid pr.GloryToTheFather.text End-Verse
 		Hymn sid trMA.Encomia3Tr.text End-Hymn
 		Verse<bnr>sid misc.vVerse</>sid pr.BothNowAndEver.text End-Verse
 		Hymn sid trMA.Encomia3T.text End-Hymn
-		Rubric sid cl.tr.d070.R302 End-Rubric
+		Rubric sid cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid trMA.Encomia301.text media-off End-Hymn
 	End-Section
 	Section block17

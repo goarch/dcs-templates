@@ -57,7 +57,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R411 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R411.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 
@@ -79,8 +79,8 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4200.title End-Title
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R420 End-Rubric
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R421 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R420.rubric End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R421.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section03
@@ -94,7 +94,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R422 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R422.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section04
@@ -113,7 +113,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R423 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R423.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section05
@@ -162,8 +162,8 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R424 End-Rubric
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R425 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R424.rubric End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R425.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section06
@@ -212,8 +212,8 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R426 End-Rubric
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R427 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R426.rubric End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R427.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section07
@@ -229,7 +229,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R428 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R428.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section08
@@ -248,7 +248,7 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4300.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R430 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R430.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section09
@@ -257,7 +257,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R431 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R431.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section10
@@ -278,7 +278,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R432 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R432.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section11
@@ -290,7 +290,7 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4400.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R440 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R440.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section12
@@ -301,8 +301,8 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R441 End-Rubric
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R442 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R441.rubric End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R442.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section13
@@ -323,7 +323,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R443 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R443.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section14
@@ -333,7 +333,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R444 End-Rubric
+		Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R444.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section15
@@ -344,7 +344,7 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4500.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R450 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R450.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section16
@@ -357,7 +357,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R451 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R451.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section17
@@ -392,7 +392,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R452 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R452.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section18
@@ -408,7 +408,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R453 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R453.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section19
@@ -422,7 +422,7 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4600.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R460 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R460.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section20
@@ -431,7 +431,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R461 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R461.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section21
@@ -446,7 +446,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R462 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R462.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section22
@@ -461,14 +461,14 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R463 End-Rubric
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R464 End-Rubric
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R465 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R463.rubric End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R464.rubric End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R465.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4700.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R470 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R470.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section23
@@ -481,7 +481,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R471 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R471.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section24
@@ -494,8 +494,8 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R472 End-Rubric
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R473 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R472.rubric End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R473.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section25
@@ -506,7 +506,7 @@ Status NA
 
 	Switch-Version L2 End-Switch-Version
 		Title role desig sid eu.consecrationliturgy_gr_GR_cog.euCON.Key4800.title End-Title
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R480 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R480.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section26
@@ -519,7 +519,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R481 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R481.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section27
@@ -539,7 +539,7 @@ Status NA
 	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R482 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R482.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section28
@@ -554,7 +554,7 @@ Status NA
 //	End-Section
 
 	Switch-Version L2 End-Switch-Version
-	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R491 End-Rubric
+	 Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R491.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 	Section Section30
@@ -607,9 +607,9 @@ Status NA
 		Break line End_Break
 
 	Switch-Version L2 End-Switch-Version
-	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R481 End-Rubric
-	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R483 End-Rubric
-	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R484 End-Rubric
+	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R481.rubric End-Rubric
+	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R483.rubric End-Rubric
+	Rubric sid eu.consecrationliturgy_gr_GR_cog.euCON.R484.rubric End-Rubric
 	Switch-Version Both End-Switch-Version
 
 //some hymns?

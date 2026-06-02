@@ -3011,7 +3011,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3040,7 +3040,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3069,7 +3069,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3098,7 +3098,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3127,7 +3127,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3158,7 +3158,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3187,7 +3187,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3216,7 +3216,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3245,7 +3245,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3275,7 +3275,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -3370,7 +3370,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3399,7 +3399,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3602,7 +3602,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3631,7 +3631,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3660,7 +3660,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3691,7 +3691,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3720,7 +3720,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -3750,7 +3750,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -3780,7 +3780,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -3810,7 +3810,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -3840,7 +3840,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -4881,7 +4881,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -4911,7 +4911,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -4942,7 +4942,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -4972,7 +4972,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
@@ -5003,7 +5003,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5032,7 +5032,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5060,7 +5060,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5089,7 +5089,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5118,7 +5118,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5147,7 +5147,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5177,13 +5177,13 @@ Status NA
 					Insert_section LectionaryGospelAlleluia.Gospel_Alleluia End-Insert
 				//	Insert_section bk.ap.mc.p5.Day_Saturday_Lent5.al_title End-Insert
 				//	Para role chant sid pr.Alleluia3.text End-Para
-				//	Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				//	Insert_section bk.ap.mc.p5.Day_Saturday_Lent5.al_verse1 End-Insert
 				//	Para role chant sid pr.Alleluia3.text End-Para
-				//	Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				//	Insert_section bk.ap.mc.p5.Day_Saturday_Lent5.al_verse2 End-Insert
 				//	Para role chant sid pr.Alleluia3.text End-Para
-				//	Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				//	Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5211,7 +5211,7 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 					Para role chant sid pr.Alleluia3.text End-Para
-					Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 				End-Section
 				Insert_section LE.PrayerBeforeGospel End-Insert
 				Section lesson
@@ -5245,7 +5245,7 @@ Status NA
 						otherwise use:
 							Actor sid ac.Choir End-Actor
 							Insert_section LectionaryGospelAlleluia.Vespers_Gospel_Alleluia End-Insert
-						//	Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+						//	Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 						//	Insert_section LectionaryGospelAlleluia.Vespers_Gospel_Alleluia_Mode End-Insert
 						//	Para role chant sid pr.Alleluia3.text End-Para
 						//	Insert_section LectionaryGospelAlleluia.Vespers_Gospel_Alleluia_Verse1 End-Insert

@@ -222,7 +222,7 @@ Status Final
 		End-Section
 		Section block13
 			Title role desig sid tr.d070_gr_GR_cog.trMA.Encomia.title End-Title
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R301 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R301.rubric End-Rubric
 			Title<inr>sid ps_gr_GR_cog.psa118.title</>End-Title
 			Title role desig sid tr.d070_gr_GR_cog.trMA.Encomia100.title<Tmode>sid tr.d070_gr_GR_cog.trMA.Encomia100.mode</>End-Title
 			Media sid tr.d070_gr_GR_cog.trMA.Encomia101.text End-Media
@@ -269,7 +269,7 @@ Status Final
 			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia1T.text End-Hymn
 
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia101.text media-off End-Hymn
 
 		End-Section
@@ -319,7 +319,7 @@ Status Final
 			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia2T.text End-Hymn
 
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia201.text media-off End-Hymn
 		End-Section
 		Section block15
@@ -376,7 +376,7 @@ Status Final
 			Verse<bnr>sid misc.vVerse</>sid ps_gr_GR_cog.psa118.v145.text @ver End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia315.text End-Hymn
 
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R303 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R303.rubric End-Rubric
 			Hymn<b>sid tr.d070_gr_GR_cog.trMA.Encomia345.text</>End-Hymn
 
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia346.text End-Hymn
@@ -387,7 +387,7 @@ Status Final
 			Verse<bnr>sid misc.vVerse</>sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia3T.text End-Hymn
 
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 			Hymn sid tr.d070_gr_GR_cog.trMA.Encomia301.text media-off End-Hymn
 		End-Section
 		Section block17
@@ -430,7 +430,7 @@ Status Final
 		Insert_section MA._13_Lauds__.both__.tr__.theotokion_ End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Section block19
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R304 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R304.rubric End-Rubric
 			Actor sid ac.Choir End-Actor
 			Hymn sid pr.HolyGod.text @ver End-Hymn
 			Actor sid ac.Deacon End-Actor
@@ -474,7 +474,7 @@ Status Final
 			Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 		End-Section
 		Section block20
-			Rubric sid client_gr_GR_cog.cl.tr.d070.R305 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d070.R305.rubric End-Rubric
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc19.text sid pr.pet31.text sid pr.exc17.text End-Dialog
 			Actor sid ac.Choir End-Actor

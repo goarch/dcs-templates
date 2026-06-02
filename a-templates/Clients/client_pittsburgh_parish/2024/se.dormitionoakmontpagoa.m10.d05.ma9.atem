@@ -76,7 +76,7 @@ Status NA
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
 		Insert_section MA._08_Supplication__.priest__.plain End-Insert
 
-	//	Rubric sid cl.client.MA.R001 End-Rubric
+	//	Rubric sid cl.client.MA.R001.rubric End-Rubric
 
 		Set_Date month 10 day 5 year 2024 End_Date
 		Insert_section MA._11_Kontakion__.con End-Insert
@@ -85,7 +85,7 @@ Status NA
 	//	Actor sid ac.Choir End-Actor
 	//	Para role chant sid pr.res07.text End-Para
 
-	//	Rubric sid cl.client.MA.R002 End-Rubric
+	//	Rubric sid cl.client.MA.R002.rubric End-Rubric
 
 		Set_Date month 8 day 15 year 2024 End_Date
 		Insert_section hKA._1345678 End-Insert
@@ -99,7 +99,7 @@ Status NA
 		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
-		Rubric sid eu.consecration_gr_GR_cog.euMA.R001 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euMA.R001.rubric End-Rubric
 		Section prayers
 			Actor sid ac.Hierarch End-Actor
 			Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1001.title End-Title

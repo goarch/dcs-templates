@@ -89,7 +89,7 @@ Status NA
 			Title role desig sid me.m06.d08_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d08_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -139,7 +139,7 @@ Status NA
 			Title role desig sid me.m06.d11_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d11_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -158,7 +158,7 @@ Status NA
 			Title role desig sid me.m06.d12_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d12_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -231,7 +231,7 @@ Status NA
 			Title role desig sid me.m06.d17_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d17_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -343,7 +343,7 @@ Status NA
 			Title role desig sid me.m06.d26_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d26_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -362,7 +362,7 @@ Status NA
 			Title role desig sid me.m06.d27_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m06.d27_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section

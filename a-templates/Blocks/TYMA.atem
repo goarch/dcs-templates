@@ -4367,12 +4367,12 @@ Status NA
 				Insert_section TYMA._13_Lauds__.mode8__.noStichologia End-Insert
 			End-Section
 			Section ton_despotin
-				Rubric sid ho.ho03_gr_GR_cog.R_Lauds_Hierarchical End-Rubric
+				Rubric sid ho.ho03_gr_GR_cog.R21a.rubric End-Rubric
 				Hymn sid eu.beforeliturgy_gr_GR_cog.euBL.Key0100h.text End-Hymn
 			End-Section
 			Section rubrics__
 				Section kairos_at_lauds
-					Rubric sid rubrical_gr_GR_cog.ru.HierarchicalKairosAtLauds End-Rubric
+					Rubric sid ho.ho03_gr_GR_cog.R21b.rubric End-Rubric
 				End-Section
 			End-Section
 		End-Section
@@ -7011,7 +7011,7 @@ Status NA
 		End-Section
 		Section rubrics__
 			Section begin_first_hour
-				Rubric sid ho.ho03_gr_GR_cog.R35 End-Rubric
+				Rubric sid ho.ho03_gr_GR_cog.R35.rubric End-Rubric
 			End-Section
 		End-Section
 		Section wisdom

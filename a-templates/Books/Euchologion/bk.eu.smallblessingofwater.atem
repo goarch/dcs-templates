@@ -33,7 +33,7 @@ Status Final
 	Section Section01
 		Title role desig sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0100.title End-Title
 		Break line End_Break
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R101 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R101.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.enarxis01.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -53,7 +53,7 @@ Status Final
 		Insert_section LiturgicalPsalms.Psalm_50_Paragraph End-Insert
 	End-Section
 	Section Section02
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R201 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R201.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Title role mode sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0201.mode<Tmelody>sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0201.melody</>End-Title
 		Media sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0201.text End-Media
@@ -149,7 +149,7 @@ Status Final
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.exc05.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R301 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R301.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Title role mode sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0301.mode End-Title
 		Media sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0301.text End-Media
@@ -243,7 +243,7 @@ Status Final
 	Section Section10
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet00.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R401 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R401.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Para role prayerzero sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0401a.text End-Para
 		Para role prayerzero sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0401b.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid pr.sup14.text sid pr.sup13.text sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0402.text End-Para
@@ -253,7 +253,7 @@ Status Final
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Break line End_Break
 		Para role readingcenter sid misc.horizontal_line.solid1 End-Para
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R501 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R501.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Para role prayerzero sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0501a.text End-Para
 		Para role prayerzero sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0501b.text<r>sid ru.Thrice</>End-Para
@@ -268,7 +268,7 @@ Status Final
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Priest</>sid pr.pet32.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R601 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R601.rubric End-Rubric
 		Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 		Para role prayer sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0601.text End-Para
 		Actor sid ac.Priest<rubric>sid ru.Aloud</>End-Actor
@@ -276,7 +276,7 @@ Status Final
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	End-Section
 	Section Section11
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R602 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R602.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Media sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Media
@@ -284,13 +284,13 @@ Status Final
 		Actor sid ac.Choir End-Actor
 		Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text<r>sid ru.Twice</>End-Hymn
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R603 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R603.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Title role mode sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.mode End-Title
 		Media sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.text End-Media
 		Hymn sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.text @ver media-off End-Hymn
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R604 End-Rubric
-		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R605 End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R604.rubric End-Rubric
+		Rubric sid eu.smallblessingofwater_gr_GR_cog.euSWB.R605.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Title role mode sid me.m11.d01_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 		Media sid me.m11.d01_gr_GR_cog.meMA.LaudsGlory.text End-Media

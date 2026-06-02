@@ -127,7 +127,7 @@ Status Final
 			Reading sid tr.d070_gr_GR_cog.trMA.Kontakion1.text End-Reading
 			Title role desig sid ti.Oikos End-Title
 			Reading sid tr.d070_gr_GR_cog.trMA.Oikos1.text End-Reading
-			Rubric sid client_gr_GR_cog.cl.tr.d071.mo.R701 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d071.mo.R701.rubric End-Rubric
 		//	Insert_section SY.me End-Insert
 		//	Reading rid sy.syMA.lastline End-Reading
 			Break line End_Break

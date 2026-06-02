@@ -28,7 +28,7 @@ Status NA
 		Section d01
 			Title role desig sid me.m01.d01_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d01_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lectionaries_gr_GR_cog.lecAP.R05</>End-Title
+			Title<r>sid lectionaries_gr_GR_cog.lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m01.d01.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -151,7 +151,7 @@ Status NA
 			Title role desig sid me.m01.d04_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d04_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -273,7 +273,7 @@ Status NA
 		Section d06
 			Title role desig sid me.m01.d06_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d06_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lectionaries_gr_GR_cog.lecAP.R05</>End-Title
+			Title<r>sid lectionaries_gr_GR_cog.lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m01.d06.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -554,7 +554,7 @@ Status NA
 			Title role desig sid me.m01.d14_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d14_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -573,7 +573,7 @@ Status NA
 			Title role desig sid me.m01.d15_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d15_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -675,7 +675,7 @@ Status NA
 			Title role desig sid me.m01.d19_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d19_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -777,7 +777,7 @@ Status NA
 			Title role desig sid me.m01.d23_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d23_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -796,7 +796,7 @@ Status NA
 			Title role desig sid me.m01.d24_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d24_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -877,7 +877,7 @@ Status NA
 			Title role desig sid me.m01.d28_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d28_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section
@@ -896,7 +896,7 @@ Status NA
 			Title role desig sid me.m01.d29_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m01.d29_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03</>End-Title
+				Title<r>sid lectionaries_gr_GR_cog.lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_prokeimenon
 			End-Section

@@ -43,7 +43,7 @@ Status NA
 		Reading sid pe.d071_gr_GR_cog.peDA.commemoration.short End-Reading
 		Break line End_Break
 		Title role desig sid ho.ho14_gr_GR_cog.hoPH.title End-Title
-		Rubric sid ho.ho14_gr_GR_cog.hoPH.R01 End-Rubric
+		Rubric sid ho.ho14_gr_GR_cog.hoPH.R01.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.enarxis01.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -69,7 +69,7 @@ Status NA
 		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 		Actor sid ac.Reader End-Actor
 		Dialog sid pr.res04.text End-Dialog
-		Rubric sid ho.ho14_gr_GR_cog.hoPH.R03 End-Rubric
+		Rubric sid ho.ho14_gr_GR_cog.hoPH.R03.rubric End-Rubric
 		Actor sid ac.Priest End-Actor
 		Para role prayer sid pe.d121_gr_GR_cog.pePE.Prayer21.text sid pe.d121_gr_GR_cog.pePE.Prayer22.text End-Para
 		Actor sid ac.Reader End-Actor

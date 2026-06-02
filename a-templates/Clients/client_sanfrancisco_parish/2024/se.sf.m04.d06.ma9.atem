@@ -76,7 +76,7 @@ Status NA
 		Break page End_Break
 		Section subdeacon
 			Title role desig sid eu.ordination_gr_GR_cog.euORD.SD.p100.title End-Title
-			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r01 End-Rubric
+			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r01.rubric End-Rubric
 			Actor sid ac.Hierarch End-Actor
 			Para role prayer sid pr.InTheNameOfFather.text sid pr.res04.text<r>sid ru.Thrice</>End-Para
 			Actor sid ac.Deacon End-Actor
@@ -88,10 +88,10 @@ Status NA
 			Para role prayer sid pr.exc20.text End-Para
 			Actor sid ac.Choir End-Actor
 			Dialog sid pr.res04.text End-Dialog
-			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r03 End-Rubric
+			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r03.rubric End-Rubric
 			Actor sid ac.Subdeacon End-Actor
 			Dialog sid eu.ordination_gr_GR_cog.euORD.SD.p102.text<inr>sid ru.Thrice</>End-Dialog
-			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r04 End-Rubric
+			Rubric sid eu.ordination_gr_GR_cog.euORD.SD.r04.rubric End-Rubric
 		End-Section
 		Insert_section AP.af End-Insert
 	End-Section

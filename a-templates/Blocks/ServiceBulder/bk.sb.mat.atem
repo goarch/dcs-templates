@@ -71,9 +71,9 @@ Status NA
 
 
 		Para role brc_ma_hierarchical_kairos sid misc.custcontent End-Para
-			Rubric sid ho.ho03_gr_GR_cog.R_Lauds_Hierarchical End-Rubric
+			Rubric sid ho.ho03_gr_GR_cog.R21a.rubric End-Rubric
 			Hymn sid eu.beforeliturgy_gr_GR_cog.euBL.Key0100h.text End-Hymn
-			Rubric sid rubrical_gr_GR_cog.ru.HierarchicalKairosAtLauds End-Rubric
+			Rubric sid ho.ho03_gr_GR_cog.R21b.rubric End-Rubric
 		Para role erc_ma_hierarchical_kairos sid misc.custcontent End-Para
 
 	Section Lauds_Stichologia

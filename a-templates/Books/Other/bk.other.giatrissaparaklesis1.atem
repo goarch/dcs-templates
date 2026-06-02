@@ -144,7 +144,7 @@ Status Review
 		Title role desig sid ti.Kontakion End-Title
 		Title role mode sid other.giatrissaparaklesis1_gr_GR_cog.hoCA.Kontakion.mode<Tmelody>sid other.giatrissaparaklesis1_gr_GR_cog.hoCA.Kontakion.melody</>End-Title
 		Hymn sid other.giatrissaparaklesis1_gr_GR_cog.hoCA.Kontakion.text End-Hymn
-		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003.rubric End-Rubric
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_.antiphon End-Insert
 		Title role desig sid ti.Prokeimenon sid ps_gr_GR_cog.psa44.title End-Title
 		Media sid ps_gr_GR_cog.prokeimenon.MM.ps44v18v11.text End-Media

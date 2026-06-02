@@ -44,7 +44,7 @@ Status Draft
 	Section mode1_day2
 		Section vespers
 			Title role desig sid ti.OnSunday.uc sid ti.Evening.uc End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002</>sid ti.Prosomia End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001.rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002.rubric</>sid ti.Prosomia End-Rubric
 			Title role desig sid ti.SticheraMaster End-Title
 			Title role mode sid oc.m1.d2_gr_GR_cog.ocVE.Stichera1.mode<Tmelody>sid oc.m1.d2_gr_GR_cog.ocVE.Stichera1.melody</>End-Title
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.Stichera1.text End-Media
@@ -82,13 +82,13 @@ Status Draft
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocVE.R013 End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocVE.R013.rubric End-Rubric
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
 		Section matins
 			Title role desig sid ti.OnMonday.uc sid ti.Morning.uc End-Title
 			Title role desig sid ti.Matins.uc End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R007 End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R007.rubric End-Rubric
 			Title role desig sid ti.ForCompunction_hymns End-Title
 			Title role mode sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma11.mode End-Title
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma11.text End-Media
@@ -118,7 +118,7 @@ Status Draft
 			Title role melody sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.melody End-Title
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.text @ver media-off End-Hymn
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R008 End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R008.rubric End-Rubric
 			Title role desig sid oc.m1.d2_gr_GR_cog.ocMA.C1.acrostic.title<Tdesig>sid oc.m1.d2_gr_GR_cog.ocMA.C1.acrostic.notice1</>End-Title
 			Title sid oc.m1.d2_gr_GR_cog.ocMA.C1.acrostic.text End-Title
 			Title role name sid oc.m1.d2_gr_GR_cog.ocMA.C1.poet End-Title

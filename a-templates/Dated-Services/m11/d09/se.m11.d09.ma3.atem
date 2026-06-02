@@ -180,7 +180,7 @@ Status Final
  */
 				Section partial_canon
 					Break line End_Break
-					Rubric sid client_gr_GR_cog.cl.me.m11.d09.R001 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.me.m11.d09.R001.rubric End-Rubric
 					Set_Date month 11 day 30 year 2026 End_Date
 					Insert_section CAv.ode1.me1.ti_hh1234as00VVVV End-Insert
 					Set_Date month 11 day 9 year 2026 End_Date

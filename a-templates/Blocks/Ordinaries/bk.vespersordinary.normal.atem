@@ -47,7 +47,7 @@ Status Final
 			Title<bnr>sid ve.html.tab</>End-Title
 		End-Section
 		Insert_section VE._01_Beginning__.vespers.enarxis End-Insert
-		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 	//	Insert_section VE.vesperal_prayers_collapse End-Insert
 		Actor sid ac.Reader End-Actor
 		Reading sid pr.ComeLetUsWorship1.text End-Reading

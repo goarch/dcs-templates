@@ -72,7 +72,7 @@ Status Final
 		111 use:
 			Section Instance05
 				Break line End_Break
-				Rubric rid me.meR001 End-Rubric
+				Rubric rid me.meR001.rubric End-Rubric
 				Break line End_Break
 				Section pe_me1
 					Para role servicesourcestitle sid misc.book.BooksSources.title End-Para

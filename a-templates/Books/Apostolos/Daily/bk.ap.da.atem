@@ -39,7 +39,7 @@ Status NA
 
 		Section d1
 			Title role desig sid lecAP.forSundays End-Title
-			Title<r>sid lecAP.R01</>End-Title
+			Title<r>sid lecAP.R01.rubric</>End-Title
 			Break line End_Break
 			Section m1
 				Title role desig sid da.d1_gr_GR_cog.daDay.text sid misc.Mode1 End-Title
@@ -214,7 +214,7 @@ Status NA
 
 		Break line End_Break
 		Title role desig sid lecAP.forWeekdays End-Title
-		Title<r>sid lecAP.R02</>End-Title
+		Title<r>sid lecAP.R02.rubric</>End-Title
 		Break line End_Break
 
 		Section d2

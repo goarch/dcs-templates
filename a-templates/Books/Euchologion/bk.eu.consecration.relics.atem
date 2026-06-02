@@ -40,7 +40,7 @@ Status NA
 
 	Section Section00
 		Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1000.title End-Title
-		Rubric sid eu.consecration_gr_GR_cog.euCON.R100 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euCON.R100.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1001.title End-Title
 		Para role prayer sid eu.consecration_gr_GR_cog.euCON.Key1001.text End-Para
@@ -51,7 +51,7 @@ Status NA
 	End-Section
 	Section Section01
 		Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1000.title End-Title
-		Rubric sid eu.consecration_gr_GR_cog.euCON.R101 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euCON.R101.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid pr.enarxis01.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -60,7 +60,7 @@ Status NA
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid pr.exc20.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-		Rubric sid eu.consecration_gr_GR_cog.euCON.R102 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euCON.R102.rubric End-Rubric
 	End-Section
 	Section Section02
 		Insert_section AP.consecration_relics__.saints_123_ End-Insert

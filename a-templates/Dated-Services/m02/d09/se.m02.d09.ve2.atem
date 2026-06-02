@@ -49,7 +49,7 @@ Status NA
 		13 use:
 			Section Instance_Feb10
 				Break line End_Break
-				Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001.rubric End-Rubric
 				Break line End_Break
 				Section block1
 					Para<bnr>sid misc.book.Menaion.name</>End-Para

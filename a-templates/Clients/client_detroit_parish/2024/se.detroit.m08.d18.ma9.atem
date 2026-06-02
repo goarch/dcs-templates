@@ -77,7 +77,7 @@ Status NA
 		Set_Date month 8 day 18 year 2024 End_Date
 		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.modeofweek End-Insert
-		Rubric sid eu.consecration_gr_GR_cog.euMA.R001 End-Rubric
+		Rubric sid eu.consecration_gr_GR_cog.euMA.R001.rubric End-Rubric
 		Section prayers
 			Actor sid ac.Hierarch End-Actor
 			Title role desig sid eu.consecration_gr_GR_cog.euCON.Key1001.title End-Title

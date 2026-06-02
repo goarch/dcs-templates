@@ -54,7 +54,7 @@ Status NA
 			Section Instance_Feb10
 				Section block1
 					Break line End_Break
-					Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001.rubric End-Rubric
 					Break line End_Break
 					Para role servicesourcestitle sid misc.book.BooksSources.title End-Para
 					Para role servicesources sid misc.book.Horologion.name sid misc.separator.hyphen sid mo.pdf.header End-Para

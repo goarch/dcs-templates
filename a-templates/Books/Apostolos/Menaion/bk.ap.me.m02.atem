@@ -57,7 +57,7 @@ Status NA
 		Section d02
 			Title role desig sid me.m02.d02_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m02.d02_gr_GR_cog.meLE.commemoration1</>End-Reading
-			Title<r>sid lecAP.R05</>End-Title
+			Title<r>sid lecAP.R05.rubric</>End-Title
 			Section antiphon1
 				Title role desig sid ti.Antiphon1 sid misc.Mode2 sid menaion.verses_gr_GR_cog.psLI.m02.d02.antiphon1.title End-Title
 				Media sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text End-Media
@@ -313,7 +313,7 @@ Status NA
 			Title role desig sid me.m02.d11_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m02.d11_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m02.d11_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog
@@ -330,7 +330,7 @@ Status NA
 			Title role desig sid me.m02.d15_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m02.d15_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m02.d15_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog
@@ -471,7 +471,7 @@ Status NA
 			Title role desig sid me.m02.d26_gr_GR_cog.meDA.date End-Title
 			Reading<r>sid me.m02.d26_gr_GR_cog.meLE.commemoration1</>End-Reading
 			Section ep_title
-				Title<inr>sid lecAP.R03</>End-Title
+				Title<inr>sid lecAP.R03.rubric</>End-Title
 			End-Section
 			Section ep_book
 				Dialog sid pr.epi01a.text sid le.ep.me.m02.d26_gr_GR_cog.lemeLI.Epistle.book_string sid pr.epi01b.text End-Dialog

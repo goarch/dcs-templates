@@ -5028,7 +5028,7 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 			Para role chant sid pr.Alleluia3.text End-Para
-			Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 		End-Section
 		Section textonly_dailyepistle
 			Section title
@@ -6669,7 +6669,7 @@ Status NA
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
-				Rubric sid client_gr_GR_cog.cl.LI.R004 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
 			Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson

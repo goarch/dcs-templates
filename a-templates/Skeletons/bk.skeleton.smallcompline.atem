@@ -42,7 +42,7 @@ Status Final
 		Insert_section ST.co.ho End-Insert
 		Insert_section HR.smallcompline__.part1 End-Insert
 		Break line End_Break
-		Rubric sid ho.ho13_gr_GR_cog.hoSC.R101 End-Rubric
+		Rubric sid ho.ho13_gr_GR_cog.hoSC.R101.rubric End-Rubric
 		Break line End_Break
 		Section Trisagion_Prayers
 			Actor sid ac.Reader End-Actor
@@ -58,7 +58,7 @@ Status Final
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.res04.text End-Dialog
 		End-Section
-		Rubric sid ho.ho13_gr_GR_cog.hoSC.R201 sid ru.Or End-Rubric
+		Rubric sid ho.ho13_gr_GR_cog.hoSC.R201.rubric sid ru.Or End-Rubric
 		Section block1
 			Hymn<optional>sid ho.ho12_gr_GR_cog.hoCO.Key0804.text @ver</>End-Hymn
 			Title<optional>sid ti.Glory</>End-Title

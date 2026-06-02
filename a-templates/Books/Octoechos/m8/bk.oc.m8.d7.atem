@@ -44,7 +44,7 @@ Status Draft
 	Section mode8_day7
 		Section vespers
 			Title role desig sid ti.OnFriday.uc sid ti.Evening.uc End-Title
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002</>sid ti.Prosomia End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocSV.R001.rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocSV.R002.rubric</>sid ti.Prosomia End-Rubric
 			Title role desig sid ti.SticheraMaster End-Title
 			Title role mode sid oc.m8.d7_gr_GR_cog.ocVE.Stichera1.mode End-Title
 			Media sid oc.m8.d7_gr_GR_cog.ocVE.Stichera1.text End-Media
@@ -333,7 +333,7 @@ Status Draft
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
 			Media sid oc.m8.d7_gr_GR_cog.ocMA.LaudsTheotokion.text End-Media
 			Hymn sid oc.m8.d7_gr_GR_cog.ocMA.LaudsTheotokion.text @ver media-off End-Hymn
-			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R012 End-Rubric
+			Rubric sid octoechos.rubrics_gr_GR_cog.ocMA.R012.rubric End-Rubric
 			Title role mode sid oc.m8.d7_gr_GR_cog.ocMA.Aposticha1.mode<Tmelody>sid oc.m8.d7_gr_GR_cog.ocMA.Aposticha1.melody</>End-Title
 			Media sid oc.m8.d7_gr_GR_cog.ocMA.Aposticha1.text End-Media
 			Hymn sid oc.m8.d7_gr_GR_cog.ocMA.Aposticha1.text @ver media-off End-Hymn

@@ -44,12 +44,12 @@ Status NA
 									Actor sid ac.Choir End-Actor
 									Insert_section PE.ChristIsRisen.twice End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Reader End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Hierarch End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -106,12 +106,12 @@ Status NA
 									Actor sid ac.Choir End-Actor
 									Insert_section PE.ChristIsRisen.twice End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Hierarch End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Hierarch End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -175,12 +175,12 @@ Status NA
 				end-when
 			End-Section
 			Section lent_weekday
-				Rubric sid client_gr_GR_cog.cl.ho.ho10.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.ho.ho10.R001.rubric End-Rubric
 				Insert_section vespers End-Insert
 			End-Section
 		End-Section
 		Section lent_weekday
-			Rubric sid client_gr_GR_cog.cl.ho.ho10.R001 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.ho.ho10.R001.rubric End-Rubric
 			Insert_section vespers End-Insert
 		End-Section
 		Section liturgy
@@ -218,12 +218,12 @@ Status NA
 									Actor sid ac.Choir End-Actor
 									Insert_section PE.ChristIsRisen.twice End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Reader End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 									Actor sid ac.Reader End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -269,12 +269,12 @@ Status NA
 								Actor sid ac.Choir End-Actor
 								Insert_section PE.ChristIsRisen.twice End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Reader End-Actor
 							otherwise use:
 								Insert_section VE.vesperal_prayers_link End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
-								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113 End-Rubric
+								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
 								Actor sid ac.Reader End-Actor
 								Reading sid pr.ComeLetUsWorship1.text End-Reading
 								Reading sid pr.ComeLetUsWorship2.text End-Reading
@@ -8590,7 +8590,7 @@ Status NA
 			End-Section
 			Section ektenia_wisdom
 			//	Insert_section LN.FervLitany_short_deacon_choir End-Insert
-				Rubric sid client_gr_GR_cog.cl.ho.ho10.R004 End-Rubric //as of 2022
+				Rubric sid client_gr_GR_cog.cl.ho.ho10.R004.rubric End-Rubric //as of 2022
 				Insert_section wisdom123.part1 End-Insert
 			End-Section
 			Section lent_
@@ -8668,7 +8668,7 @@ Status NA
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				End-Section
 				Section part5_rubric
-					Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b sid hi.hi05_gr_GR_cog.hiVI.R201dalt End-Rubric
+					Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b.rubric sid hi.hi05_gr_GR_cog.hiVI.R201dalt.rubric End-Rubric
 				End-Section
 			End-Section
 			Section wisdom //before2022
@@ -8765,7 +8765,7 @@ Status NA
 		End-Section
 		Section ektenia_wisdom
 		//	Insert_section LN.FervLitany_short_deacon_parentheses End-Insert
-			Rubric sid client_gr_GR_cog.cl.ho.ho10.R004 End-Rubric //as of 2022
+			Rubric sid client_gr_GR_cog.cl.ho.ho10.R004.rubric End-Rubric //as of 2022
 			Insert_section wisdom123.part1 End-Insert
 		End-Section
 		Section lent_
@@ -8843,7 +8843,7 @@ Status NA
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
 			Section part5_rubric
-				Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b sid hi.hi05_gr_GR_cog.hiVI.R201dalt End-Rubric
+				Rubric sid hi.hi05_gr_GR_cog.hiVI.R201b.rubric sid hi.hi05_gr_GR_cog.hiVI.R201dalt.rubric End-Rubric
 			End-Section
 		End-Section
 		Section wisdom //before 2022
@@ -9203,7 +9203,7 @@ Status NA
 		Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1107.title End-Title
 		Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.text @ver End-Para
 		Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.exclamation @ver sid pr.res04.text End-Para
-		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114 End-Rubric
+		Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114.rubric End-Rubric
 		Title role emc_collapse sid template.titles_gr_GR_cog.clps.prayers.bottom End-Title
 		Break page End_Break
 	End-Section

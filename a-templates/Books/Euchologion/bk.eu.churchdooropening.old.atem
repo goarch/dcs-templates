@@ -46,7 +46,7 @@ Status NA
 	Section Section01
 		Title role desig sid eu.churchdooropening_gr_GR_cog.euCDO.Key0100.title End-Title
 		Break line End_Break
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R101 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R101.rubric End-Rubric
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.res08.text End-Dialog
 		Actor sid ac.Hierarch End-Actor
@@ -152,7 +152,7 @@ Status NA
 	Section Section09
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R103 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R103.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Title<smallredbold>sid eu.churchdooropening_gr_GR_cog.euCDO.Key0101.title</>End-Title
 		Para role prayer sid eu.churchdooropening_gr_GR_cog.euCDO.Key0102.text End-Para
@@ -160,38 +160,38 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	End-Section
 	Section Section10
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R104 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R104.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 		Media sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Media
 		Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 		Break line End_Break
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R105 sid eu.churchdooropening_gr_GR_cog.euCDO.R106 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R105.rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R106.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver End-Dialog
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R107 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R107.rubric End-Rubric
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v2.text @ver End-Dialog
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v3.text @ver End-Dialog
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver End-Dialog
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108.rubric End-Rubric
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v2.text @ver End-Dialog
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v3.text @ver End-Dialog
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v1.text @ver End-Dialog
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R108.rubric End-Rubric
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v4.text @ver End-Dialog
 		Actor sid ac.Hierarch End-Actor
 		Dialog sid liturgical.verses_gr_GR_cog.psEU.churchdooropening.v5.text @ver End-Dialog
 	End-Section
 	Section Section11
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R109 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R109.rubric End-Rubric
 		Title role desig sid ti.Kontakion sid ti.Consecration End-Title
 		Title role mode sid me.m09.d13_gr_GR_cog.meMA.Kontakion1.mode<Tmelody>sid me.m09.d13_gr_GR_cog.meMA.Kontakion1.melody</>End-Title
 		Para role greekmelody sid me.m09.d13_gr_GR_cog.meMA.Kontakion1.greekmelody End-Para
 		Media sid me.m09.d13_gr_GR_cog.meMA.Kontakion1.text End-Media
 		Hymn sid me.m09.d13_gr_GR_cog.meMA.Kontakion1.text @ver media-off End-Hymn
-		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R110 End-Rubric
+		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R110.rubric End-Rubric
 		Title role desig sid client_gr_GR_cog.cl.Apolytikion1.title End-Title
 		Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
 		Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media

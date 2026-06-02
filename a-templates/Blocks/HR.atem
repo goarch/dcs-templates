@@ -327,7 +327,7 @@ Status NA
 				Insert_section HR._05_Lent__.h6 End-Insert
 		end-when
 		Insert_section HR._06_PrayerOfHour__.h6 End-Insert
-		Rubric sid client_gr_GR_cog.cl.ho.ho06.R001 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho06.R001.rubric End-Rubric
 		Insert_section HR._07_Dismissal End-Insert
 	End-Section
 	Section Lent_h9__
@@ -371,7 +371,7 @@ Status NA
 				Monday, Tuesday, Thursday use:
 					Section beforevespers
 						Title role desig sid ho.ho09_gr_GR_cog.hoH9.title End-Title
-						Rubric sid client_gr_GR_cog.cl.ho.ho09.R001 End-Rubric
+						Rubric sid client_gr_GR_cog.cl.ho.ho09.R001.rubric End-Rubric
 						Insert_section HR._01_Intro_ End-Insert
 						Insert_section HR._02_Psalms__.h9 End-Insert
 						Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
@@ -718,7 +718,7 @@ Status NA
 			Section before_vespers
 				Insert_section TR.StEphraimPrayer_short End-Insert
 				Section h9
-					Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01 End-Rubric
+					Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01.rubric End-Rubric
 					Actor sid ac.Priest End-Actor
 					Title role desig sid ho.ho09_gr_GR_cog.hoH9.Prayer.title End-Title
 					Para role prayeroptional sid ho.ho09_gr_GR_cog.hoH9.Prayer.text End-Para
@@ -744,7 +744,7 @@ Status NA
 			Section before_presanctified
 				Insert_section TR.StEphraimPrayer_short End-Insert
 				Section h9
-					Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01 End-Rubric
+					Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01.rubric End-Rubric
 					Actor sid ac.Priest End-Actor
 					Title role desig sid ho.ho09_gr_GR_cog.hoH9.Prayer.title End-Title
 					Para role prayeroptional sid ho.ho09_gr_GR_cog.hoH9.Prayer.text End-Para

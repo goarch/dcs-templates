@@ -40,7 +40,7 @@ Status Final
 
 	Section block13
 		Title role desig sid tr.d070_gr_GR_cog.trMA.Encomia.title End-Title
-		Rubric sid client_gr_GR_cog.cl.tr.d070.R301 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d070.R301.rubric End-Rubric
 		Title<inr>sid ps_gr_GR_cog.psa118.title</>End-Title
 		Title role desig sid tr.d070_gr_GR_cog.trMA.Encomia100.title<Tmode>sid tr.d070_gr_GR_cog.trMA.Encomia100.mode</>End-Title
 		Media sid tr.d070_gr_GR_cog.trMA.Encomia101.text End-Media
@@ -267,7 +267,7 @@ Status Final
 		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia1T.text End-Hymn
 
-		Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia101.text media-off End-Hymn
 
 	End-Section
@@ -462,7 +462,7 @@ Status Final
 		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia2T.text End-Hymn
 
-		Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia201.text media-off End-Hymn
 	End-Section
 	Section block15
@@ -609,7 +609,7 @@ Status Final
 		Verse<bnr>sid misc.vVerse</>sid ps_gr_GR_cog.psa118.v175.text End-Verse
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia345.text End-Hymn
 
-		Rubric sid client_gr_GR_cog.cl.tr.d070.R303 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d070.R303.rubric End-Rubric
 		Hymn<b>sid tr.d070_gr_GR_cog.trMA.Encomia345.text</>End-Hymn
 
 		Verse<bnr>sid misc.vVerse</>sid ps_gr_GR_cog.psa118.v176.text @ver End-Verse
@@ -621,7 +621,7 @@ Status Final
 		Verse<bnr>sid misc.vVerse</>sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia3T.text End-Hymn
 
-		Rubric sid client_gr_GR_cog.cl.tr.d070.R302 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d070.R302.rubric End-Rubric
 		Hymn sid tr.d070_gr_GR_cog.trMA.Encomia301.text media-off End-Hymn
 	End-Section
 	Section block17

@@ -57,7 +57,7 @@ Status Final
 				Section before_presanctified
 					Insert_section TR.StEphraimPrayer_short End-Insert
 					Section h9
-						Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01 End-Rubric
+						Rubric sid ho.ho09_gr_GR_cog.hoH9.Prayer.R01.rubric End-Rubric
 						Actor sid ac.Priest End-Actor
 						Title role desig sid ho.ho09_gr_GR_cog.hoH9.Prayer.title End-Title
 						Para role prayeroptional sid ho.ho09_gr_GR_cog.hoH9.Prayer.text End-Para

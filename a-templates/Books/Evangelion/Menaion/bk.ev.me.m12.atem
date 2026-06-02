@@ -156,7 +156,7 @@ Status Draft
 
 	Section dFF
 		Title role desig sid me.m12.dFF_gr_GR_cog.meLE.commemoration1 End-Title
-		Rubric sid lecEV.me.m12.dFF.R01 End-Rubric
+		Rubric sid lecEV.me.m12.dFF.R01.rubric End-Rubric
 		Section liturgy
 			Section go_title
 			End-Section
@@ -590,7 +590,7 @@ Status Draft
 
 	Break line End_Break
 
-	Rubric sid lecEV.me.m12.dSunBE.R01 End-Rubric
+	Rubric sid lecEV.me.m12.dSunBE.R01.rubric End-Rubric
 
 	Break line End_Break
 

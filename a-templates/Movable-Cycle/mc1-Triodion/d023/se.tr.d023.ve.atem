@@ -48,7 +48,7 @@ Status NA
 	Section Instance01
 		Insert_section ST.ve.tr_mode_me1 End-Insert
 		Insert_section VE._01_Beginning__.vespers End-Insert
-		Rubric sid client_gr_GR_cog.cl.tr.d023.R001 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.tr.d023.R001.rubric End-Rubric
 		Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.tr__.onsunday_.octr End-Insert
 		Insert_section VE._03_Stichera__.tr__.onsunday_.tr End-Insert
@@ -64,7 +64,7 @@ Status NA
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.GloryToYouChrist.text End-Dialog
 			Insert_section Selector_Dismissals.dismissal_01 End-Insert
-			Rubric sid client_gr_GR_cog.cl.tr.d023.R002 End-Rubric
+			Rubric sid client_gr_GR_cog.cl.tr.d023.R002.rubric End-Rubric
 			Actor sid ac.Choir End-Actor
 			Title role mode sid ho.ho23_gr_GR_cog.hoCA.Troparion4.mode<Tmelody>sid ho.ho23_gr_GR_cog.hoCA.Troparion4.melody</>End-Title
 			Media sid ho.ho23_gr_GR_cog.hoCA.Troparion4.text End-Media

@@ -81,7 +81,7 @@ Status Final
 						Insert_section HR._05_Lent__.h6 End-Insert
 				end-when
 				Insert_section HR._06_PrayerOfHour__.h6 End-Insert
-				Rubric sid client_gr_GR_cog.cl.ho.ho06.R001 End-Rubric
+				Rubric sid client_gr_GR_cog.cl.ho.ho06.R001.rubric End-Rubric
 				Insert_section HR._07_Dismissal End-Insert
 			End-Section
 	end-when

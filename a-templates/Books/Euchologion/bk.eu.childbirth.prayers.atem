@@ -24,10 +24,10 @@ Status NA
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.title End-Title
 	Title<inr>sid eu.childbirth_gr_GR_cog.euCHI.translator</>End-Title
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0100.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R101 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R102 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R103 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R104 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R101.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R102.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R103.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R104.rubric End-Rubric
 	Dialog sid eu.childbirth_gr_GR_cog.euCHI.Key0101.text End-Dialog
 	Dialog sid eu.childbirth_gr_GR_cog.euCHI.Key0102.text End-Dialog
 	Dialog sid eu.childbirth_gr_GR_cog.euCHI.Key0103.text End-Dialog
@@ -35,53 +35,53 @@ Status NA
 	Break line End_Break
 
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0200.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R201 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R202 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R201.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R202.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0201.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R203 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R204 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R203.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R204.rubric End-Rubric
 
 	Break line End_Break
 
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0300.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R301 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R302 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R303 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R304 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R301.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R302.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R303.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R304.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0301.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R305 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R306 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R305.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R306.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0302.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R307 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R307.rubric End-Rubric
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0303.title End-Title
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0303.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R308 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R308.rubric End-Rubric
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0304.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R309 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R309.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0304.text @ver End-Para
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0305.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R310 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R310.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0306.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R311 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R311.rubric End-Rubric
 	Para role prayer sid liturgical.verses_gr_GR_cog.psEU.childbirth.fortydays.v1.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R312 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R312.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0308.text End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R313 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R313.rubric End-Rubric
 	Para role prayer sid liturgical.verses_gr_GR_cog.psEU.childbirth.fortydays.v2.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R314 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R314.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0310.text End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R315 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R315.rubric End-Rubric
 	Dialog sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R316 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R317 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R318 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R316.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R317.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R318.rubric End-Rubric
 
 	Break line End_Break
 
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0400.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R401 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R402 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R401.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R402.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0401.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R403 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R403.rubric End-Rubric
 
 End-Template

@@ -22,7 +22,7 @@ Status NA
 	import roles.*
 
 	Title role desig sid eu.childbirth_gr_GR_cog.euCHI.Key0300.title End-Title
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R302 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R302.rubric End-Rubric
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.enarxis01.text End-Dialog
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
@@ -37,13 +37,13 @@ Status NA
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.exc20.text End-Dialog
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R304 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R304.rubric End-Rubric
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet00.text End-Dialog
 	Dialog<i>sid misc.parenthesis.open sid pr.res01.text sid misc.parenthesis.close</>End-Dialog
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0301.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R306alt End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R306alt.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0302.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	Dialog sid pr.pet31.text End-Dialog
@@ -62,25 +62,25 @@ Status NA
 	Dialog<i>sid misc.parenthesis.open sid pr.res01.text sid misc.parenthesis.close</>End-Dialog
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0305.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R310 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R310.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0306.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R311 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R311.rubric End-Rubric
 	Para role prayer sid liturgical.verses_gr_GR_cog.psEU.childbirth.fortydays.v1.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R312 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R312.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0306.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 	Para role prayer sid liturgical.verses_gr_GR_cog.psEU.childbirth.fortydays.v2.text @ver End-Para
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R314 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R314.rubric End-Rubric
 	Para role prayer sid eu.childbirth_gr_GR_cog.euCHI.Key0306.text @ver End-Para
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R315 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R315.rubric End-Rubric
 	Dialog sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver End-Dialog
 	Dialog sid pr.GloryToYouOurGod.text End-Dialog
 	Dialog sid dis00 sid me.m02.d02_gr_GR_cog.meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
 	Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 	Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R317 End-Rubric
-	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R318 End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R317.rubric End-Rubric
+	Rubric sid eu.childbirth_gr_GR_cog.euCHI.R318.rubric End-Rubric
 
 End-Template

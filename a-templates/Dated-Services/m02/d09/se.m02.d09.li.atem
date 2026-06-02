@@ -74,7 +74,7 @@ Status Final
 			Section InstanceFeb10
 				Section block1
 					Para<bnr>sid misc.book.Menaion.name</>End-Para
-					Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001 End-Rubric
+					Rubric sid client_gr_GR_cog.cl.me.m02.d10.R001.rubric End-Rubric
 					Reading<bnr>sid me.m02.d02_gr_GR_cog.meDA.date</>End-Reading
 					Reading sid me.m02.d02_gr_GR_cog.meDA.commemoration.full End-Reading
 					Reading<bnr>sid me.m02.d10_gr_GR_cog.meDA.date</>End-Reading

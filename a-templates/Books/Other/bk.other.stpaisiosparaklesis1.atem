@@ -56,7 +56,7 @@ Status Final
 		Actor sid ac.Reader End-Actor
 		Dialog sid pr.res04.text End-Dialog
 		Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
-		Rubric sid ho.ho23_gr_GR_cog.R02 End-Rubric
+		Rubric sid ho.ho23_gr_GR_cog.R02.rubric End-Rubric
 		Insert_section MA._01_Beginning__.mode4 End-Insert
 		Title role desig sid ti.Troparia End-Title
 		Title role mode sid other.stpaisiosparaklesis1_gr_GR_cog.hoCA.Apolytikion1.mode<Tmelody>sid other.stpaisiosparaklesis1_gr_GR_cog.hoCA.Apolytikion1.melody</>End-Title
@@ -151,7 +151,7 @@ Status Final
 		Title role desig sid ti.Kontakion End-Title
 		Title role mode sid other.stpaisiosparaklesis1_gr_GR_cog.hoCA.Kontakion.mode<Tmelody>sid other.stpaisiosparaklesis1_gr_GR_cog.hoCA.Kontakion.melody</>End-Title
 		Hymn sid other.stpaisiosparaklesis1_gr_GR_cog.hoCA.Kontakion.text @ver End-Hymn
-		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003.rubric End-Rubric
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_.antiphon End-Insert
 		Title role desig sid ti.Prokeimenon End-Title
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.saint3.prokeimenon.v1.text<r>sid ru.Twice</>End-Hymn

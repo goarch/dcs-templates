@@ -243,7 +243,7 @@ Status Final
 							End-Section
 							Section block11_ode9
 								Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
-								Rubric sid client_gr_GR_cog.cl.me.m02.d02.R001 End-Rubric
+								Rubric sid client_gr_GR_cog.cl.me.m02.d02.R001.rubric End-Rubric
 								Insert_section MA._10_Canon__.magnificat__.modeofweek End-Insert
 								Insert_section CAv.ode9.append.oc1.ti_sun_h12tas0GrGrTh End-Insert
 								Insert_section TI.ct.me.c1 End-Insert

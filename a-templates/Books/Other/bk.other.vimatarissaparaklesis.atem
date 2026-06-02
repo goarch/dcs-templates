@@ -54,7 +54,7 @@ Status Final
 		Actor sid ac.Reader End-Actor
 		Dialog sid pr.res04.text End-Dialog
 		Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
-		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R02 End-Rubric
+		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R02.rubric End-Rubric
 		Insert_section MA._01_Beginning__.mode4.hymn End-Insert
 		Title role desig sid ti.Troparia End-Title
 		Title role mode sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Apolytikion1.mode<Tmelody>sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Apolytikion1.melody</>End-Title
@@ -68,14 +68,14 @@ Status Final
 	End-Section
 	Section Section02
 		Title role desig sid ti.TheCanon End-Title
-		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R04 End-Rubric
+		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R04.rubric End-Rubric
 		Actor sid ac.Choir End-Actor
 		Title role desig sid misc.Ode1<Tmode>sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode1H.mode</><Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode1H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode11.text End-Media
-	//	Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R06 End-Rubric
+	//	Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R06.rubric End-Rubric
 	//	Para role alttext sid pr.verse_Theotokos.text End-Para
 	//	Para role alttext sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode10.text @ver media-off End-Para
 		Verse sid pr.verse_Theotokos.text End-Verse
@@ -89,7 +89,7 @@ Status Final
 	End-Section
 	Section Section03
 		Title role desig sid misc.Ode3<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode3H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode31.text End-Media
@@ -115,7 +115,7 @@ Status Final
 	End-Section
 	Section Section06
 		Title role desig sid misc.Ode4<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode4H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode41.text End-Media
@@ -130,7 +130,7 @@ Status Final
 	End-Section
 	Section Section07
 		Title role desig sid misc.Ode5<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode5H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode51.text End-Media
@@ -145,7 +145,7 @@ Status Final
 	End-Section
 	Section Section08
 		Title role desig sid misc.Ode6<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode6H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode61.text End-Media
@@ -167,7 +167,7 @@ Status Final
 		Actor sid ac.Choir End-Actor
 		Title role desig sid ti.Kontakion<Tmode>sid ho.ho07_gr_GR_cog.hoTY.Key0408.mode</>End-Title
 		Hymn sid ho.ho07_gr_GR_cog.hoTY.Key0408.text @ver End-Hymn
-		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003 End-Rubric
+		Rubric sid client_gr_GR_cog.cl.ho.ho23.R003.rubric End-Rubric
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_.antiphon End-Insert
 		Title role desig sid ti.Prokeimenon sid ps_gr_GR_cog.psa44.title End-Title
 		Media sid ps_gr_GR_cog.prokeimenon.MM.ps44v18v11.text End-Media
@@ -217,7 +217,7 @@ Status Final
 	End-Section
 	Section Section13
 		Title role desig sid misc.Ode7<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode7H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode71.text End-Media
@@ -232,7 +232,7 @@ Status Final
 	End-Section
 	Section Section14
 		Title role desig sid misc.Ode8<Tdesig>sid ti.Heirmos</>End-Title
-		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05 End-Title
+		Title role chapverse sid other.vimatarissaparaklesis_gr_GR_cog.R05.rubric End-Title
 		Para role heirmos sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode8H.text @ver End-Para
 		Title role desig sid ti.Troparia End-Title
 		Media sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Ode81.text End-Media
@@ -270,7 +270,7 @@ Status Final
 		Hymn sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Meg04.text @ver End-Hymn
 		Hymn sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Meg05.text @ver End-Hymn
 		Hymn sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Meg06.text @ver End-Hymn
-		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R08 End-Rubric
+		Rubric sid other.vimatarissaparaklesis_gr_GR_cog.R08.rubric End-Rubric
 		Hymn sid other.vimatarissaparaklesis_gr_GR_cog.hoCA.Meg0F.text @ver End-Hymn
 	End-Section
 	Section Section17

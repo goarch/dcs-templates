@@ -520,7 +520,7 @@ Status NA
 		110 use:
 			Section Instance08
 				Break line End_Break
-				Rubric rid me.meR001 End-Rubric
+				Rubric rid me.meR001.rubric End-Rubric
 				Break line End_Break
 				Insert_section se.pe.d110.ma3.Instance01 End-Insert
 			End-Section
