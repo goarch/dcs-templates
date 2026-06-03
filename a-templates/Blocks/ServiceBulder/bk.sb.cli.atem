@@ -39,6 +39,8 @@ Status NA
 	End_Head
 
 
+		Para role brc_delete sid misc.custcontent End-Para
+		Para role erc_delete sid misc.custcontent End-Para
 
 		Para role brc_li_consecration_title sid misc.custcontent End-Para
 			Title<bnr>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4100.title</>End-Title
