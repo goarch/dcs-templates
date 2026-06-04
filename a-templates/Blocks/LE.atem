@@ -3286,13 +3286,13 @@ Status NA
 				Dialog <dprhi>sid pr.pet31.text</> End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section LectionaryGospelBook.Gospel_Book End-Insert
 				Actor <apr>sid ac.Priest </>End-Actor
 				Dialog <dpr>sid pr.exc19.text</> End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section LectionaryGospelChapverse.Gospel_Chapverse End-Insert
 				Insert_section LectionaryGospelText.Gospel_Text End-Insert
 				Actor <aprhi>sid ac.sb.PrHi </>End-Actor
@@ -3305,7 +3305,7 @@ Status NA
 		Section eothinon
 			Actor sid ac.Priest End-Actor
 			Dialog<ddepr>sid pr.gos03a.text rid le.go.eo.leeoMA.Gospel.book_string sid pr.gos03b.text</>End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text End-Dialog
 			Actor sid ac.Choir End-Actor
 			Dialog sid pr.GloryToYouLord.text End-Dialog
@@ -3761,13 +3761,13 @@ Status NA
 				Dialog sid pr.pet31.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.me_go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.me_go_lesson End-Insert
 				Actor <aprhi>sid ac.sb.PrHi</> End-Actor
 				Dialog <dprhi>sid pr.gos05.text </>End-Dialog
@@ -3791,13 +3791,13 @@ Status NA
 				Dialog sid pr.pet31.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.mealt1_go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.mealt1_go_lesson End-Insert
 				Actor <aprhi>sid ac.sb.PrHi</> End-Actor
 				Dialog <dprhi>sid pr.gos05.text </>End-Dialog
@@ -3821,13 +3821,13 @@ Status NA
 				Dialog sid pr.pet31.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.mealt2_go_book End-Insert
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.exc19.text End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
-				Actor sid ac.Deacon End-Actor
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section Selector_GospelLessons_Menaion.mealt2_go_lesson End-Insert
 				Actor <aprhi>sid ac.sb.PrHi</> End-Actor
 				Dialog <dprhi>sid pr.gos05.text </>End-Dialog
@@ -4897,7 +4897,7 @@ Status NA
 					Dialog sid pr.exc19.text End-Dialog
 					Actor sid ac.Choir End-Actor
 					Dialog sid pr.GloryToYouLord.text End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Title role chapverse sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.book_abbr sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.chapverse End-Title
 					Reading<ddepr>sid le.go.lu.d086_gr_GR_cog.leluLI.Gospel.text @ver</>End-Reading
 					Actor <aprhi>sid ac.sb.PrHi</> End-Actor
@@ -4927,7 +4927,7 @@ Status NA
 					Dialog sid pr.exc19.text End-Dialog
 					Actor sid ac.Choir End-Actor
 					Dialog sid pr.GloryToYouLord.text End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Title role chapverse sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.book_abbr sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.chapverse End-Title
 					Reading<ddepr>sid le.go.lu.d090_gr_GR_cog.leluLI.Gospel.text @ver</>End-Reading
 					Actor <aprhi>sid ac.sb.PrHi</> End-Actor
@@ -5227,7 +5227,7 @@ Status NA
 					Dialog sid pr.exc19.text End-Dialog
 					Actor sid ac.Choir End-Actor
 					Dialog sid pr.GloryToYouLord.text End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Title role chapverse rid le.go.me.lemeVE.Gospel.chapverse End-Title
 					Reading<ddepr>rid le.go.me.lemeVE.Gospel.text @ver</>End-Reading
 					Actor <aprhi>sid ac.sb.PrHi</> End-Actor
@@ -5270,7 +5270,7 @@ Status NA
 					Dialog sid pr.exc19.text End-Dialog
 					Actor sid ac.Choir End-Actor
 					Dialog sid pr.GloryToYouLord.text End-Dialog
-					Actor sid ac.Deacon End-Actor
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
 					Title role chapverse rid le.go.mc.lemcVE.Gospel.chapverse End-Title
 					Reading<ddepr>rid le.go.mc.lemcVE.Gospel.text @ver</>End-Reading
 					Actor <aprhi>sid ac.sb.PrHi</> End-Actor
@@ -6288,7 +6288,7 @@ Status NA
 		Section r01
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r01_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6299,7 +6299,7 @@ Status NA
 		Section r02
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r02_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6310,7 +6310,7 @@ Status NA
 		Section r03
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r03_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6321,7 +6321,7 @@ Status NA
 		Section r04
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r04_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6332,7 +6332,7 @@ Status NA
 		Section r05
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m01.d05_gr_GR_cog.lemeH1.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6343,7 +6343,7 @@ Status NA
 		Section r06
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r06_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6354,7 +6354,7 @@ Status NA
 		Section r07
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m01.d05_gr_GR_cog.lemeH3.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6365,7 +6365,7 @@ Status NA
 		Section r08
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r08_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6376,7 +6376,7 @@ Status NA
 		Section r09
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m01.d05_gr_GR_cog.lemeH6.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6387,7 +6387,7 @@ Status NA
 		Section r10
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r10_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6398,7 +6398,7 @@ Status NA
 		Section r11
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m01.d05_gr_GR_cog.lemeH9.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6409,7 +6409,7 @@ Status NA
 		Section r12
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r12_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6420,7 +6420,7 @@ Status NA
 		Section r13
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r13_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6431,7 +6431,7 @@ Status NA
 		Section r14
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r14_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6442,7 +6442,7 @@ Status NA
 		Section r15
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r15_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6453,7 +6453,7 @@ Status NA
 		Section r16
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r16_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6464,7 +6464,7 @@ Status NA
 		Section r17
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r17_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6475,7 +6475,7 @@ Status NA
 		Section r18
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r18_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6486,7 +6486,7 @@ Status NA
 		Section r19
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r19_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6497,7 +6497,7 @@ Status NA
 		Section r20
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r20_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6508,7 +6508,7 @@ Status NA
 		Section r21
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r21_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6519,7 +6519,7 @@ Status NA
 		Section r22
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r22_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6530,7 +6530,7 @@ Status NA
 		Section r23
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r23_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6541,7 +6541,7 @@ Status NA
 		Section r24
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m01.d06_gr_GR_cog.lemeGW.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6552,7 +6552,7 @@ Status NA
 		Section r25
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r25_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6563,7 +6563,7 @@ Status NA
 		Section r26
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r26_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6574,7 +6574,7 @@ Status NA
 		Section r27
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r27_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6585,7 +6585,7 @@ Status NA
 		Section r28
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r28_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6596,7 +6596,7 @@ Status NA
 		Section r29
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r29_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6607,7 +6607,7 @@ Status NA
 		Section r30
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r30_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6618,7 +6618,7 @@ Status NA
 		Section r31
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r31_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6629,7 +6629,7 @@ Status NA
 		Section r32
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r32_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6640,7 +6640,7 @@ Status NA
 		Section r33
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r33_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6651,7 +6651,7 @@ Status NA
 		Section r34
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r34_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6662,7 +6662,7 @@ Status NA
 		Section r35
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r35_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6673,7 +6673,7 @@ Status NA
 		Section r36
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r36_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6684,7 +6684,7 @@ Status NA
 		Section r37
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r37_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6695,7 +6695,7 @@ Status NA
 		Section r38
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r38_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6706,7 +6706,7 @@ Status NA
 		Section r39
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r39_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6717,7 +6717,7 @@ Status NA
 		Section r40
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r40_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6728,7 +6728,7 @@ Status NA
 		Section r41
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r41_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6739,7 +6739,7 @@ Status NA
 		Section r41a
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r41a_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6750,7 +6750,7 @@ Status NA
 		Section r45
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m05.d08_gr_GR_cog.lemeVE.Reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6761,7 +6761,7 @@ Status NA
 		Section r46
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m05.d08_gr_GR_cog.lemeVE.Reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6772,7 +6772,7 @@ Status NA
 		Section r47
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m05.d08_gr_GR_cog.lemeVE.Reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6783,7 +6783,7 @@ Status NA
 		Section r48
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r48_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6794,7 +6794,7 @@ Status NA
 		Section r49
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r49_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6805,7 +6805,7 @@ Status NA
 		Section r50
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r50_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6816,7 +6816,7 @@ Status NA
 		Section r51
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r51_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6827,7 +6827,7 @@ Status NA
 		Section r52
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d19_gr_GR_cog.lemeVE.Reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6838,7 +6838,7 @@ Status NA
 		Section r53
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d19_gr_GR_cog.lemeVE.Reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6849,7 +6849,7 @@ Status NA
 		Section r54
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d19_gr_GR_cog.lemeVE.Reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6860,7 +6860,7 @@ Status NA
 		Section r55
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r55_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6871,7 +6871,7 @@ Status NA
 		Section r56
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r56_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6882,7 +6882,7 @@ Status NA
 		Section r57
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r57_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6893,7 +6893,7 @@ Status NA
 		Section r58
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d29_gr_GR_cog.lemeVE.Reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6904,7 +6904,7 @@ Status NA
 		Section r59
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d29_gr_GR_cog.lemeVE.Reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6915,7 +6915,7 @@ Status NA
 		Section r60
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m06.d29_gr_GR_cog.lemeVE.Reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6926,7 +6926,7 @@ Status NA
 		Section r61
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r61_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6937,7 +6937,7 @@ Status NA
 		Section r62
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r62_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6948,7 +6948,7 @@ Status NA
 		Section r63
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r63_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6959,7 +6959,7 @@ Status NA
 		Section r64
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r64_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6970,7 +6970,7 @@ Status NA
 		Section r65
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r65_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6981,7 +6981,7 @@ Status NA
 		Section r66
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r66_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -6992,7 +6992,7 @@ Status NA
 		Section r67
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r67_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7003,7 +7003,7 @@ Status NA
 		Section r68
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r68_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7014,7 +7014,7 @@ Status NA
 		Section r69
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r69_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7025,7 +7025,7 @@ Status NA
 		Section r71
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r71_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7036,7 +7036,7 @@ Status NA
 		Section r72
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r72_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7047,7 +7047,7 @@ Status NA
 		Section r73
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r73_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7058,7 +7058,7 @@ Status NA
 		Section r74
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r74_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7069,7 +7069,7 @@ Status NA
 		Section r75
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r75_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7080,7 +7080,7 @@ Status NA
 		Section r76
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r76_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7091,7 +7091,7 @@ Status NA
 		Section r77
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r77_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7102,7 +7102,7 @@ Status NA
 		Section r78
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r78_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7113,7 +7113,7 @@ Status NA
 		Section r79
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m10.d06_gr_GR_cog.lemeVE.Reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7124,7 +7124,7 @@ Status NA
 		Section r80
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m10.d06_gr_GR_cog.lemeVE.Reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7135,7 +7135,7 @@ Status NA
 		Section r81
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r81_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7146,7 +7146,7 @@ Status NA
 		Section r82
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r82_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7157,7 +7157,7 @@ Status NA
 		Section r83a
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r83a_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7168,7 +7168,7 @@ Status NA
 		Section r83b
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r83b_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7179,7 +7179,7 @@ Status NA
 		Section r84
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r84_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7190,7 +7190,7 @@ Status NA
 		Section r85
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r85_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7201,7 +7201,7 @@ Status NA
 		Section r86
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m12.d24_gr_GR_cog.lemeH1.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7212,7 +7212,7 @@ Status NA
 		Section r87
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r87_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7223,7 +7223,7 @@ Status NA
 		Section r88
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m12.d24_gr_GR_cog.lemeH3.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7234,7 +7234,7 @@ Status NA
 		Section r89
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r89_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7245,7 +7245,7 @@ Status NA
 		Section r90
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m12.d24_gr_GR_cog.lemeH6.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7256,7 +7256,7 @@ Status NA
 		Section r91
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r91_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7267,7 +7267,7 @@ Status NA
 		Section r92
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m12.d24_gr_GR_cog.lemeH9.Epistle.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7278,7 +7278,7 @@ Status NA
 		Section r93
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r93_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7289,7 +7289,7 @@ Status NA
 		Section r94
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r94_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7300,7 +7300,7 @@ Status NA
 		Section r95
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r95_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7311,7 +7311,7 @@ Status NA
 		Section r96
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r96_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7322,7 +7322,7 @@ Status NA
 		Section r97
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r97_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7333,7 +7333,7 @@ Status NA
 		Section r98
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r98_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7344,7 +7344,7 @@ Status NA
 		Section r99
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r99_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7355,7 +7355,7 @@ Status NA
 		Section r100
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r100_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7366,7 +7366,7 @@ Status NA
 		Section r101
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r101_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7377,7 +7377,7 @@ Status NA
 		Section r102
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m10.d23_gr_GR_cog.lemeVE.Reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7388,7 +7388,7 @@ Status NA
 		Section r103
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m10.d23_gr_GR_cog.lemeVE.Reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7399,7 +7399,7 @@ Status NA
 		Section r104
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.ep.me.m10.d23_gr_GR_cog.lemeVE.Reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc19.text sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7410,7 +7410,7 @@ Status NA
 		Section r105
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r105_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7421,7 +7421,7 @@ Status NA
 		Section r106
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r106_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7432,7 +7432,7 @@ Status NA
 		Section r107
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.tr.d063_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7443,7 +7443,7 @@ Status NA
 		Section r108
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r108_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7454,7 +7454,7 @@ Status NA
 		Section r109
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r109_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7465,7 +7465,7 @@ Status NA
 		Section r110
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.me.r110_gr_GR_cog.leprVE.reading.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7476,7 +7476,7 @@ Status NA
 		Section tr064_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.tr.d064_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7487,7 +7487,7 @@ Status NA
 		Section tr064_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.tr.d064_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7498,7 +7498,7 @@ Status NA
 		Section tr064_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.tr.d064_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7674,7 +7674,7 @@ Status NA
 		Section pe095_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d095_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7685,7 +7685,7 @@ Status NA
 		Section pe095_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d095_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7696,7 +7696,7 @@ Status NA
 		Section pe095_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d095_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7707,7 +7707,7 @@ Status NA
 		Section pe110_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d110_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7718,7 +7718,7 @@ Status NA
 		Section pe110_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d110_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7729,7 +7729,7 @@ Status NA
 		Section pe110_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d110_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7740,7 +7740,7 @@ Status NA
 		Section pe113_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d113_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7751,7 +7751,7 @@ Status NA
 		Section pe113_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d113_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7762,7 +7762,7 @@ Status NA
 		Section pe113_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d113_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7773,7 +7773,7 @@ Status NA
 		Section pe120_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d120_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7784,7 +7784,7 @@ Status NA
 		Section pe120_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d120_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7795,7 +7795,7 @@ Status NA
 		Section pe120_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d120_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7806,7 +7806,7 @@ Status NA
 		Section pe127_r1
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d127_gr_GR_cog.lemcVE.reading1.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7817,7 +7817,7 @@ Status NA
 		Section pe127_r2
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d127_gr_GR_cog.lemcVE.reading2.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
@@ -7828,7 +7828,7 @@ Status NA
 		Section pe127_r3
 			Actor sid ac.Reader End-Actor
 			Dialog sid pr.otr01a.text sid le.pr.pe.d127_gr_GR_cog.lemcVE.reading3.book_string sid pr.otr01b.text End-Dialog
-			Actor sid ac.Deacon End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc19.text End-Dialog
 			Actor sid ac.Reader End-Actor
 			Section lesson
