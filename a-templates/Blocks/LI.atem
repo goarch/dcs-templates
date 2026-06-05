@@ -2007,8 +2007,10 @@ Status NA
 		Section choir //includes service builder items
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0500.title</>End-Title
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
-			Insert_section LI.entrance_prayer End-Insert
+			Para role brc_li_small_entrance sid misc.custcontent End-Para
+				Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
+				Insert_section LI.entrance_prayer End-Insert
+			Para role erc_li_small_entrance sid misc.custcontent End-Para
 			Actor <achclhi>sid ac.sb.ChClHi </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
 			Actor <ablch>sid ac.sb.BlCh </>End-Actor
@@ -4144,7 +4146,7 @@ Status NA
 		End-Section
 		Section entrance_prayer
 			Actor <adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <ddebl>sid pr.pet00.text sid pr.res01.text</>End-Para
+			Dialog<ddebl>sid pr.pet00.text sid pr.res01.text</>End-Dialog
 			Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.title</>End-Title
 			Dialog<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text sid pr.res04.text </>End-Dialog

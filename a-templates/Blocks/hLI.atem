@@ -1635,14 +1635,14 @@ Status NA
 		End-Section
 		Section entrance_prayer
 			Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dde>sid pr.pet00.text sid pr.res01.text</>End-Para
+			Dialog<dde>sid pr.pet00.text sid pr.res01.text</>End-Dialog
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.title</>End-Title
-			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text</>End-Para
+			Dialog<dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text</>End-Dialog
 			Actor <ade>sid ac.Deacon<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Para
+			Dialog<dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor <ahi>sid ac.Hierarch<rubric>sid ru.InALowVoice</></>End-Actor
-			Para role inaudible <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text</>End-Para
+			Dialog<dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text</>End-Dialog
 			Actor <ade>sid ac.Deacon<rubric>sid ru.Aloud</></>End-Actor
 			Dialog <dde>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 		End-Section
