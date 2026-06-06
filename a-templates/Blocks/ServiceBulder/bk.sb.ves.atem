@@ -1,0 +1,213 @@
+Template bk.sb.ves
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+	//	Set_Date month 6 day 18 End_Date
+			Page_Header_Even
+				center @text ""
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @text ""
+			End_Page_Header_Odd
+			Page_Footer_Even
+				center @pageNbr
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				center @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+
+		Para role brc_delete sid misc.custcontent End-Para
+		Para role erc_delete sid misc.custcontent End-Para
+
+		Para role brc_ve_vesperal_prayers sid misc.custcontent End-Para
+			Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1101.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1101.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1101.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1102.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1102.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1102.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1103.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1103.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1103.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1104.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1104.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1104.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1105.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1105.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1105.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1106.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1106.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1106.exclamation @ver sid pr.res04.text End-Para
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1107.title End-Title
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.text @ver End-Para
+			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.exclamation @ver sid pr.res04.text End-Para
+			Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114.rubric End-Rubric
+		Para role erc_ve_vesperal_prayers sid misc.custcontent End-Para
+
+
+
+
+	Section Vespers_Stichologia
+		Section for_10
+		Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v25.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v24.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v23.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v22.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v21.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v20.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v19.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v18.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v17.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v16.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v15.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v14.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v13.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v12.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
+		Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
+		End-Section
+		Section for_8
+		Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v25.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v24.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v23.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v22.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v21.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v20.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v19.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v18.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v17.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v16.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v15.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v14.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v13.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v12.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v10.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
+		Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
+		End-Section
+		Section for_6
+		Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v25.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v24.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v23.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v22.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v21.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v20.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v19.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v18.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v17.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v16.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v15.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v14.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v13.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v12.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v10.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v08.text End-Para
+			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v07.text End-Para
+		Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
+		End-Section
+	End-Section
+
+
+	Section Vespers_Entrance
+		Para role brc_ve_entrance sid misc.custcontent End-Para
+			Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
+			Actor<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddebl>sid pr.pet00.text</>End-Dialog
+			Actor<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
+			Dialog<dpr>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
+			Actor<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
+			Actor<apr>sid ac.Priest</>End-Actor
+			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
+			Actor<acl>sid ac.ClergyAndPeople</>End-Actor
+			Title role mode sid misc.Mode2 End-Title
+			Media sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Media
+			Hymn sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver media-off End-Hymn
+			Para role bkmrk03 sid misc.bookmark End-Para
+		Para role erc_ve_entrance sid misc.custcontent End-Para
+		
+		Para role brc_ve_concelebration_entrance sid misc.custcontent End-Para
+			Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
+			Actor<adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddepr>sid pr.pet00.text</>End-Dialog
+			Actor<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
+			Dialog<dpr>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
+			Actor<apr>sid ac.Priest</>End-Actor
+			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+			Actor<acl>sid ac.Clergy</>End-Actor
+			Title role mode sid misc.Mode2 End-Title
+			Media sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Media
+			Hymn sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver media-off End-Hymn
+			Para role bkmrk03 sid misc.bookmark End-Para
+		Para role erc_ve_concelebration_entrance sid misc.custcontent End-Para
+
+		Para role brc_ve_hierarchical_entrance sid misc.custcontent End-Para
+			Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
+			Actor<adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddepr>sid pr.pet00.text</>End-Dialog
+			Actor<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
+			Dialog<dpr>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
+			Actor<ahi>sid ac.Hierarch</>End-Actor
+			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+			Actor<acl>sid ac.Clergy</>End-Actor
+			Title role mode sid misc.Mode2 End-Title
+			Media sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Media
+			Hymn sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver media-off End-Hymn
+			Para role bkmrk03 sid misc.bookmark End-Para
+		Para role erc_ve_hierarchical_entrance sid misc.custcontent End-Para
+	End-Section
+
+
+End-Template

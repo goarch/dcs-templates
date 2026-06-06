@@ -23,8 +23,8 @@ Status NA
 	Section Concelebration
 		Section EveningProkeimenon
 			Section intro
-				Actor sid ac.Deacon End-Actor
-				Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1109.text End-Dialog
+				Actor<adepr>sid ac.sb.DePr</> End-Actor
+				Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1109.text</>End-Dialog
 				Actor sid ac.Clergy End-Actor
 			End-Section
 			when-date-is
@@ -257,9 +257,9 @@ Status NA
 	Section Deacon
 		Section EveningProkeimenon
 			Section intro
-				Actor sid ac.Deacon End-Actor
-				Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1109.text End-Dialog
-				Actor sid ac.Choir End-Actor
+				Actor<adepr>sid ac.sb.DePr</> End-Actor
+				Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1109.text</>End-Dialog
+				Actor<achclhi>sid ac.sb.ChClHi</> End-Actor
 			End-Section
 			when-date-is
 				Jan 7 use: Insert_section GreatProkeimenon2 End-Insert

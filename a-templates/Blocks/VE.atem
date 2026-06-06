@@ -194,12 +194,12 @@ Status NA
 			when-movable-cycle-day-is
 				72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
-						Actor sid ac.Priest End-Actor
-						Dialog sid pr.enarxis03.text End-Dialog
+						Actor<apr> sid ac.Priest</>End-Actor
+						Dialog<dpr> sid pr.enarxis03.text</>End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						Insert_section PE.Pascha_Beginning End-Insert
 						Insert_section LN.GreatLitany_deacon_choir End-Insert
-						Actor sid ac.Priest End-Actor
+						Dialog<dpr> sid pr.enarxis03.text</>End-Dialog
 						Dialog sid pr.exc01.text End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 					End-Section
@@ -213,18 +213,18 @@ Status NA
 							when-movable-cycle-day-is
 								78 thru 108 use:
 									Insert_section VE.vesperal_prayers_link End-Insert
-									Actor sid ac.Priest End-Actor
+									Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 									Insert_section PE.ChristIsRisen.once End-Insert
 									Actor sid ac.Choir End-Actor
 									Insert_section PE.ChristIsRisen.twice End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-									Actor sid ac.Reader End-Actor
+									Actor<arehi> sid ac.sb.ReHi</>End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-									Actor sid ac.Reader End-Actor
+									Actor<arehi> sid ac.sb.ReHi</>End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
 									Reading sid pr.ComeLetUsWorship3.text End-Reading
@@ -236,6 +236,8 @@ Status NA
 							Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
 							Reading sid pr.Alleluia3.text sid pr.GloryToYouGod.text<r>sid ru.Thrice</>End-Reading
 							Reading sid pr.OurHopeLord.text End-Reading
+							Para role brc_ve_vesperal_prayers sid misc.custcontent End-Para
+							Para role erc_ve_vesperal_prayers sid misc.custcontent End-Para
 						End-Section
 						Section litany
 							when-movable-cycle-day-is
@@ -264,18 +266,18 @@ Status NA
 						when-movable-cycle-day-is
 							78 thru 108 use:
 								Insert_section VE.vesperal_prayers_link End-Insert
-								Actor sid ac.Priest End-Actor
+								Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 								Insert_section PE.ChristIsRisen.once End-Insert
 								Actor sid ac.Choir End-Actor
 								Insert_section PE.ChristIsRisen.twice End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-								Actor sid ac.Reader End-Actor
+								Actor<arehi> sid ac.sb.ReHi</>End-Actor
 							otherwise use:
 								Insert_section VE.vesperal_prayers_link End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-								Actor sid ac.Reader End-Actor
+								Actor<arehi> sid ac.sb.ReHi</>End-Actor
 								Reading sid pr.ComeLetUsWorship1.text End-Reading
 								Reading sid pr.ComeLetUsWorship2.text End-Reading
 								Reading sid pr.ComeLetUsWorship3.text End-Reading
@@ -330,7 +332,7 @@ Status NA
 					Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
 					Break line End_Break
 				End-Section
-			End-Section //LIHC
+			End-Section
 			Section mode1__
 				Section noStichologia
 					Insert_section VE.hLIHC_Mode1 End-Insert
@@ -570,27 +572,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section Selector_ModeOfTrDay.LIHC_ModeOfTrDay End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfTrDay.stichologia_media_modeoftrday End-Insert
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section Selector_ModeOfTrDay.LIHC_ModeOfTrDay End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfTrDay.stichologia_media_modeoftrday End-Insert
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section Selector_ModeOfTrDay.LIHC_ModeOfTrDay End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfTrDay.stichologia_media_modeoftrday End-Insert
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section modeofpeday__
@@ -599,27 +610,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section Selector_ModeOfPeDay.LIHC_ModeOfPeDay End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfPeDay.stichologia_media_modeofpeday End-Insert
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section Selector_ModeOfPeDay.LIHC_ModeOfPeDay End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfPeDay.stichologia_media_modeofpeday End-Insert
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section Selector_ModeOfPeDay.LIHC_ModeOfPeDay End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section Selector_ModeOfPeDay.stichologia_media_modeofpeday End-Insert
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section modeofweek__
@@ -628,27 +648,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_ModeOfWeek End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.stichologia_media_modeofweek End-Insert
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_ModeOfWeek End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.stichologia_media_modeofweek End-Insert
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_ModeOfWeek End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.stichologia_media_modeofweek End-Insert
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode1__
@@ -657,27 +686,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode1 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode1 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode1 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode2__
@@ -686,27 +724,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode2 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode2 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode2 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode3__
@@ -715,27 +762,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode3 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode3 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode3 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode4__
@@ -744,27 +800,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode4 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode4 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode4 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode5__
@@ -773,27 +838,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode5 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode5 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode5 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode6__
@@ -802,27 +876,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode6 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode6 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode6 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode7__
@@ -831,27 +914,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode7 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode7 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode7 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode8__
@@ -860,27 +952,36 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode8 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode8 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode8 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.Stichologia.text End-Media
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section mode0__
@@ -889,24 +990,33 @@ Status NA
 			End-Section
 			Section for6
 				Insert_section VE.LIHC_Mode0 End-Insert
+				Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.Stichologia.for_6 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			End-Section
 			Section for8
 				Insert_section VE.LIHC_Mode0 End-Insert
+				Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.Stichologia.for_8 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			End-Section
 			Section for10
 				Insert_section VE.LIHC_Mode0 End-Insert
+				Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+				Para role brc_ve_stichologia sid misc.custcontent End-Para
 				Title role bmc_collapse sid template.titles_gr_GR_cog.clps.stichologia.top End-Title
 					Insert_section VE.Stichologia.for_10 End-Insert
 				Title role emc_collapse sid template.titles_gr_GR_cog.clps.stichologia.bottom End-Title
-				Break line End_Break
+				Para role erc_ve_stichologia sid misc.custcontent End-Para
+				Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 	End-Section
@@ -4783,35 +4893,21 @@ Status NA
 			Para role bkmrk02 sid misc.bookmark End-Para
 			when-date-is
 				Jan 6 use:
-					Section before_prokeimenon
-						Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
-						Actor sid ac.Deacon<rubric>sid ru.InALowVoice</>End-Actor
-						Dialog sid pr.pet00.text End-Dialog
-						Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
-						Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
-						Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1108.text End-Para
-						Actor sid ac.Deacon End-Actor
-						Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
-						Actor sid ac.ClergyAndPeople End-Actor
-						Title role mode sid misc.Mode2 End-Title
-						Media sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Media
-						Hymn sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver media-off End-Hymn
-						Para role bkmrk03 sid misc.bookmark End-Para
-					End-Section
-					Actor sid ac.Deacon End-Actor
-					Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1110.text End-Dialog
+					Insert_section VE.entrance_before_prokeimenon End-Insert
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1110.text</>End-Dialog
 				Dec 25 use:
-					Insert_section before_prokeimenon End-Insert
-					Actor sid ac.Deacon End-Actor
-					Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1110.text End-Dialog
+					Insert_section VE.entrance_before_prokeimenon End-Insert
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1110.text</>End-Dialog
 				otherwise use:
 					when-movable-cycle-day-is
 						71 use:
-							Insert_section before_prokeimenon End-Insert
-							Actor sid ac.Deacon End-Actor
-							Dialog sid hi.hi01_gr_GR_cog.hiVE.Key1110.text End-Dialog
+							Insert_section VE.entrance_before_prokeimenon End-Insert
+							Actor<adepr>sid ac.sb.DePr</>End-Actor
+							Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1110.text</>End-Dialog
 						otherwise use:
-							Insert_section before_prokeimenon End-Insert
+							Insert_section VE.entrance_before_prokeimenon End-Insert
 							Insert_section Selector_VespersProkeimenon.Deacon.EveningProkeimenon End-Insert
 					end-when
 			end-when
@@ -4822,8 +4918,8 @@ Status NA
 			Rubric sid ru.NoEntrance End-Rubric
 			Break line End_Break
 			Rubric sid ru.standing.prefix sid ru.standing.vespers.gladsomelight End-Rubric
-			Actor sid ac.Reader End-Actor
-			Reading sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver End-Reading
+			Actor<arehi>sid ac.sb.ReHi</>End-Actor
+			Reading<drehi> sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver</>End-Reading
 			Para role bkmrk03 sid misc.bookmark End-Para
 			when-movable-cycle-day-is
 				24, 25, 26, 27, 28, 31, 32, 33, 34, 35, 38, 39, 40, 41, 42, 45, 46, 47, 48, 49, 52, 53, 54, 55, 56, 59, 60, 61, 62, 63, 66, 67, 68 use:
@@ -4834,16 +4930,15 @@ Status NA
 		Section liturgy
 			Para role bkmrk02 sid misc.bookmark End-Para
 			Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
-			Actor sid ac.Deacon End-Actor
-			Rubric sid ru.InALowVoice End-Rubric
-			Dialog sid pr.pet00.text End-Dialog
-			Actor sid ac.Priest<rubric>sid ru.InALowVoice</>End-Actor
+			Actor<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddebl>sid pr.pet00.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
-			Para role inaudible sid hi.hi01_gr_GR_cog.hiVE.Key1108.text End-Para
-			Actor sid ac.Deacon End-Actor
-			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
-			Actor sid ac.Reader End-Actor
-			Reading sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver End-Reading
+			Dialog<dprhi>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+			Actor<are>sid ac.Reader</>End-Actor
+			Reading<dre>sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver</>End-Reading
 			Para role bkmrk03 sid misc.bookmark End-Para
 		End-Section
 	End-Section
@@ -4923,8 +5018,8 @@ Status NA
 			Insert_section LN.FervLitany_long_deacon_choir End-Insert
 			Section prayer
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.prayer End-Rubric
-				Actor <are>sid ac.Reader</>End-Actor
-				Reading <dre>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
+				Actor <arehi>sid ac.sb.ReHi</>End-Actor
+				Reading <drehi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			End-Section
 			Insert_section LN.CompLitanyVE_deacon_choir End-Insert
@@ -8533,14 +8628,16 @@ Status NA
 		Section Priest
 			Section symeon
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.simeonprayer End-Rubric
-				Actor <apr>sid ac.Priest</>End-Actor
+				Actor <aprhi>sid ac.sb.PrHi</>End-Actor
 				Title role desig sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.title End-Title
-				Para role prayer <dpr>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
+				Para role prayer <dprhi>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
 				Insert_section VE.Canon_Bookmark_Logic End-Insert
 			End-Section
 			Section trisagion
 				Para role bkmrk09 sid misc.bookmark End-Para
-				Actor <ape>sid ac.People</>End-Actor
+				Actor <are>sid ac.Reader</>End-Actor
+				Dialog <sbhvetrisagion>sid pr.res07.text</>End-Dialog
+			//	Actor <ape>sid ac.People</>End-Actor
 				Section prayers
 					Title role desig sid ti.Trisagion End-Title
 					Reading <dpe>sid pr.HolyGod.text<r>sid ru.Thrice media-off</></>End-Reading
@@ -8871,13 +8968,15 @@ Status NA
 		End-Section
 		Section wisdom123
 			Section part1
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.exc17.text End-Para
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res08.text End-Para
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+				Actor<are>sid ac.Reader</>End-Actor
+				Dialog <dre>sid pr.res08.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.DismissalPrayer1.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-				Actor sid ac.SuperiorOrReader End-Actor
-				Dialog sid pr.DismissalPrayer2.text End-Dialog
+				Actor<arehi> sid ac.sb.ReHi</>End-Actor
+				Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
 			Section part2
@@ -9209,7 +9308,6 @@ Status NA
 	End-Section
 
 	Section LIHC_1
-		Para role bkmrk01 sid misc.bookmark End-Para
 		Hymn sid liturgical.verses_gr_GR_cog.psVE.lihc.v1.text @ver media-off End-Hymn
 	End-Section
 	Section LIHC_2
@@ -9218,6 +9316,7 @@ Status NA
 
 	Section Stichologia
 		Section for_10
+		Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9236,8 +9335,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v13.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v12.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
+		Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 		End-Section
 		Section for_8
+		Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9258,8 +9359,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v10.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
+		Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 		End-Section
 		Section for_6
+		Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9282,6 +9385,7 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v08.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v07.text End-Para
+		Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 		End-Section
 	End-Section
 
@@ -9332,85 +9436,116 @@ Status NA
 	End-Section
 
 	Section LIHC_ModeOfWeek
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text rid ocVE.Stichera1.mode @day D1 </>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode rid ocVE.Stichera1.mode @day D1 End-Title
 		Media rid ocVE.MM.LIHC1.text @day D1 End-Media
 		Insert_section LIHC_1 End-Insert
 		Media rid ocVE.MM.LIHC2.text @day D1 End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode1
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode1</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode1 End-Title
 		Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode2
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode2</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode2 End-Title
 		Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode3
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode3</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode3 End-Title
 		Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode4
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode4</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode4 End-Title
 		Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode5
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode5</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode5 End-Title
 		Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode6
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode6</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode6 End-Title
 		Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode7
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode7</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode7 End-Title
 		Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode8
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode8</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.Mode8 End-Title
 		Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.LIHC1.text End-Media
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section LIHC_Mode0
-		Actor sid ac.Choir End-Actor
+		Para role bkmrk01 sid misc.bookmark End-Para
+		Actor<sbhvemode>sid ac.Chanter</>End-Actor
+		Dialog<sbhvemode>sid pr.Command_holybishop.text sid misc.Mode0</>End-Dialog
+		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode sid misc.ModeVariable End-Title
 		Insert_section LIHC_1 End-Insert
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 
 	Section hLIHC_ModeOfWeek
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text rid ocVE.Stichera1.mode @day D1 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9419,8 +9554,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media rid ocVE.MM.LIHC2.text @day D1 End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode1
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode1 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9429,8 +9565,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m1.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode2
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode2 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9439,8 +9576,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m2.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode3
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode3 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9449,8 +9587,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m3.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode4
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode4 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9459,8 +9598,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m4.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode5
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode5 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9469,8 +9609,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m5.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode6
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode6 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9479,8 +9620,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m6.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode7
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode7 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9489,8 +9631,9 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m7.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode8
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
 		Dialog sid pr.Command_holybishop.text sid misc.Mode8 End-Dialog
 		Actor sid ac.Choir End-Actor
@@ -9499,15 +9642,39 @@ Status NA
 		Insert_section LIHC_1 End-Insert
 		Media sid oc.m8.d1_gr_GR_cog.ocVE.MM.LIHC2.text End-Media
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
 	Section hLIHC_Mode0
+		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor sid ac.Chanter End-Actor
-		Dialog sid pr.Command_holybishop.text sid misc.Mode8 End-Dialog
+		Dialog sid pr.Command_holybishop.text sid misc.Mode0 End-Dialog
 		Actor sid ac.Choir End-Actor
 		Title role mode sid misc.ModeVariable End-Title
 		Insert_section LIHC_1 End-Insert
 		Insert_section LIHC_2 End-Insert
-	End-Section //LIHC
+	End-Section
+
+	Section entrance_before_prokeimenon
+		Para role brc_ve_entrance sid misc.custcontent End-Para
+			Rubric sid ru.standing.prefix sid ru.standing.vespers.entrance End-Rubric
+			Actor<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddebl>sid pr.pet00.text</>End-Dialog
+			Actor<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
+			Dialog<dpr>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
+			Actor<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+			Dialog<ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
+			Actor<apr>sid ac.Priest</>End-Actor
+			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
+			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
+			Actor sid ac.ClergyAndPeople End-Actor
+			Title role mode sid misc.Mode2 End-Title
+			Media sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text End-Media
+			Hymn sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver media-off End-Hymn
+			Para role bkmrk03 sid misc.bookmark End-Para
+		Para role erc_ve_entrance sid misc.custcontent End-Para
+	End-Section
+
 
 	Section Symeon_Trisagion
 		Section Symeon
