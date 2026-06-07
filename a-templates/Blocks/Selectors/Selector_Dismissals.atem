@@ -160,7 +160,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section regular_end
-						Dialog <dprhi>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+						Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 					End-Section
 			end-when
@@ -241,7 +241,7 @@ Status NA
 	Section Com_No //use this whenever there is NO explicit commemoration
 		Actor <apr>sid ac.Priest </>End-Actor
 		Section part1
-			Dialog <dprhi>sid pr.GloryToYouOurGod.text</> End-Dialog
+			Dialog <dpr>sid pr.GloryToYouOurGod.text</> End-Dialog
 			Insert_section dismissal_01 End-Insert
 		End-Section
 		Section part2
@@ -255,7 +255,7 @@ Status NA
 					Actor <ape>sid ac.People</>End-Actor
 					Dialog <dpe>sid pr.res04.text</>End-Dialog
 				otherwise use:
-					Dialog <dprhi>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
+					Dialog <dpr>sid pr.ThroughThePrayers_fathers.text</> End-Dialog
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			end-when
 		End-Section
@@ -310,10 +310,10 @@ Status NA
 					End-Section
 				otherwise use:
 				Section regular_end
-					Actor <ahi>sid ac.Hierarch</>End-Actor
-					Dialog <dhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
-					Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-					Actor <acl>sid ac.Clergy</>End-Actor
+				//	Actor <ahi>sid ac.Hierarch</>End-Actor
+				//	Dialog <dhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
+				//	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+					Actor <acl>sid ac.Priest</>End-Actor
 					Dialog <dcl>sid pr.ThroughThePrayers_bishop.text</>End-Dialog
 					Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				End-Section

@@ -8659,7 +8659,7 @@ Status NA
 			Section afterartoklasia
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
-				Actor sid ac.Priest End-Actor
+				Actor sid ac.Hierarch End-Actor
 				Dialog sid pr.pet37.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				Actor sid ac.Hierarch End-Actor
@@ -8671,7 +8671,7 @@ Status NA
 				Rubric sid ru.IfLityDoneAtVespers End-Rubric
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
-				Actor sid ac.Priest End-Actor
+				Actor sid ac.Hierarch End-Actor
 				Dialog sid pr.pet37.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 				Break line End_Break
@@ -9050,10 +9050,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text media-off End-Hymn
-							Actor sid ac.Hierarch End-Actor
-							Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
-							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-							Actor sid ac.Clergy End-Actor
+					//		Actor sid ac.Hierarch End-Actor
+					//		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
+					//		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+							Actor sid ac.Priest End-Actor
 							Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						End-Section
@@ -9094,10 +9094,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text media-off End-Hymn
-							Actor sid ac.Hierarch End-Actor
-							Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
-							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-							Actor sid ac.Clergy End-Actor
+					//		Actor sid ac.Hierarch End-Actor
+					//		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
+					//		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+							Actor sid ac.Priest End-Actor
 							Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						End-Section
@@ -9138,10 +9138,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text media-off End-Hymn
-							Actor sid ac.Hierarch End-Actor
-							Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
-							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-							Actor sid ac.Clergy End-Actor
+					//		Actor sid ac.Hierarch End-Actor
+					//		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
+					//		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+							Actor sid ac.Priest End-Actor
 							Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						End-Section
@@ -9181,10 +9181,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 							Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text media-off End-Hymn
-							Actor sid ac.Hierarch End-Actor
-							Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
-							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-							Actor sid ac.Clergy End-Actor
+						//	Actor sid ac.Hierarch End-Actor
+						//	Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
+						//	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+							Actor sid ac.Priest End-Actor
 							Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
 							Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						End-Section
