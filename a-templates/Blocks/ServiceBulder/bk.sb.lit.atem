@@ -136,8 +136,26 @@ Status NA
 					Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text </>End-Dialog
 					Actor <adepr>sid ac.sb.DePr<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+					Actor <ach>sid ac.Choir </>End-Actor
 				End-Section
 			Para role erc_li_small_entrance sid misc.custcontent End-Para
+			Para role brc_li_concelebration_small_entrance sid misc.custcontent End-Para
+				Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
+				Section entrance_prayer
+					Actor <adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+					Dialog<ddebl>sid pr.pet00.text sid pr.res01.text</>End-Dialog
+					Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.title</>End-Title
+					Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0501.text sid pr.exc01.text sid pr.res04.text </>End-Dialog
+					Actor <adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Actor
+					Dialog <ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
+					Actor <apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
+					Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text </>End-Dialog
+					Actor <adepr>sid ac.sb.DePr<rubric>sid ru.Aloud</></>End-Actor
+					Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+					Actor <ach>sid ac.Clergy </>End-Actor
+				End-Section
+			Para role erc_li_concelebration_small_entrance sid misc.custcontent End-Para
 			Para role brc_li_hierarchical_small_entrance sid misc.custcontent End-Para
 				Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.hR005.rubric End-Rubric
 				Section entrance_prayer
@@ -152,10 +170,28 @@ Status NA
 					Dialog<dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text sid pr.res04.text</>End-Dialog
 					Actor <adepr>sid ac.sb.DePr<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
+					Actor <ach>sid ac.Hierarch </>End-Actor
 				End-Section
 			Para role erc_li_hierarchical_small_entrance sid misc.custcontent End-Para
 		End-Section
-		
+
+		Section apolytikion1_actor
+			Para role brc_li_apolytikion1_choir sid misc.custcontent End-Para
+				Title role desig sid ti.HymnsAfterSmallEntrance End-Title
+				Actor <ach>sid ac.Choir</>End-Actor
+			Para role erc_li_apolytikion1_choir sid misc.custcontent End-Para
+			Para role brc_li_apolytikion1_concelebration sid misc.custcontent End-Para
+				Title role desig sid ti.HymnsAfterSmallEntrance End-Title
+				Actor <ach>sid ac.Clergy</>End-Actor
+			Para role erc_li_apolytikion1_concelebration sid misc.custcontent End-Para
+			Para role brc_li_apolytikion1_hierarchical sid misc.custcontent End-Para
+				Title role desig sid ti.HymnsAfterSmallEntrance End-Title
+				Actor <ach>sid ac.Hierarch</>End-Actor
+			Para role erc_li_apolytikion1_hierarchical sid misc.custcontent End-Para
+		End-Section
+
+
+
 		Section apolytikion2_actor
 			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
 				Actor <ach>sid ac.Choir</>End-Actor

@@ -259,7 +259,9 @@ Status NA
 			Section intro
 				Actor<adepr>sid ac.sb.DePr</> End-Actor
 				Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1109.text</>End-Dialog
-				Actor<achclhi>sid ac.sb.ChClHi</> End-Actor
+				Para role brc_ve_prokeimenon sid misc.custcontent End-Para
+					Actor<ach>sid ac.Choir</> End-Actor
+				Para role erc_ve_prokeimenon sid misc.custcontent End-Para
 			End-Section
 			when-date-is
 				Jan 7 use: Insert_section GreatProkeimenon2 End-Insert

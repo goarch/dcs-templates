@@ -2010,8 +2010,8 @@ Status NA
 			Para role brc_li_small_entrance sid misc.custcontent End-Para
 				Rubric sid client_gr_GR_cog.cl.eu.lichrysbasil.R005.rubric End-Rubric
 				Insert_section LI.entrance_prayer End-Insert
+				Actor <ach>sid ac.Choir </>End-Actor
 			Para role erc_li_small_entrance sid misc.custcontent End-Para
-			Actor <achclhi>sid ac.sb.ChClHi </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
 			Actor <ablch>sid ac.sb.BlCh </>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_refrain_sb End-Insert
@@ -2039,15 +2039,16 @@ Status NA
 
 	Section _05_AfterEntranceHymns__
 		Section choir
+			Para role brc_li_apolytikion1 sid misc.custcontent End-Para
 			Title role desig sid ti.HymnsAfterSmallEntrance End-Title
-			Actor <achclhi>sid ac.sb.ChClHi </>End-Actor
+			Actor <ach>sid ac.Choir </>End-Actor
+			Para role brc_li_apolytikion1 sid misc.custcontent End-Para
 		End-Section
 		Section clergy
 			Title role desig sid ti.HymnsAfterSmallEntrance End-Title
 			Actor sid ac.Clergy End-Actor
 		End-Section
 		Section apolytikion2
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
 			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
 			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
 		End-Section

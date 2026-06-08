@@ -209,5 +209,16 @@ Status NA
 		Para role erc_ve_hierarchical_entrance sid misc.custcontent End-Para
 	End-Section
 
+	Section Vepsers_Prokeimenon
+		Para role brc_ve_prokeimenon sid misc.custcontent End-Para
+			Actor<ach>sid ac.Choir</> End-Actor
+		Para role erc_ve_prokeimenon sid misc.custcontent End-Para
+		Para role brc_ve_concelebration_prokeimenon sid misc.custcontent End-Para
+			Actor<acl>sid ac.Clergy</> End-Actor
+		Para role erc_ve_concelebration_prokeimenon sid misc.custcontent End-Para
+		Para role brc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
+			Actor<hi>sid ac.Hierarch</> End-Actor
+		Para role erc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
+	End-Section
 
 End-Template
