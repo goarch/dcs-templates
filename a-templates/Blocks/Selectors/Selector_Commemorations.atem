@@ -1386,7 +1386,7 @@ Status NA
 					Para role dialogzero <dpr>sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text rid meDA.insert1 rid meDA.insert2 sid pr.sup15.text </>End-Para
 				End-Section
 				Section category_SaintRubric
-					Para role dialogzero <dpr>sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text sid pr.sup16a.text sid pr.sup16b.text sid pr.sup15.text </>End-Para
+					Para role dialogzero <dpr>sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text <r>sid client_gr_GR_cog.cl.localpatronsaint1.supplication</> sid pr.sup14.text <r>sid pr.sup16a.text sid pr.sup16b.text</> sid pr.sup15.text </>End-Para
 				End-Section
 				Section category_SundayAfterXmas_26
 					Para role dialogzero <dpr>sid pr.sup01.text sid me.m12.d26_gr_GR_cog.meDA.insert2 sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text sid me.m12.dAC_gr_GR_cog.meDA.insert1 sid me.m12.dAC_gr_GR_cog.meDA.insert2 sid pr.sup15.text </>End-Para

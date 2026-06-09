@@ -2041,34 +2041,43 @@ Status NA
 	End-Section
 
 		Section litany_lity_part1_deacon_choir
-			Actor <ade>sid ac.Deacon </>End-Actor
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.LityKyrieEleison.text End-Media
-			Dialog <dde>sid pr.pet17.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet18.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet21a.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet33.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet34.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
-			Actor <apr>sid ac.Priest </>End-Actor
-			Dialog <dpr>sid pr.pet35.text sid pr.exc11a.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
-			Actor <apr>sid ac.Priest </>End-Actor
-			Dialog <dpr>sid pr.pet31.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-			Actor <ade>sid ac.Deacon </>End-Actor
-			Dialog <dde>sid pr.pet32.text</> End-Dialog
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
+			Dialog <ddepr>sid pr.pet17.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet18.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet21a.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet33.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet34.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
+			Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+			Dialog <dprhi>sid pr.pet35.text sid pr.exc11a.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res04.text</>End-Dialog
+			Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+			Dialog <dprhi>sid pr.pet31.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res05.text</>End-Dialog
+			Actor <adepr>sid ac.sb.DePr </>End-Actor
+			Dialog <ddepr>sid pr.pet32.text</> End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res03.text</>End-Dialog
 		End-Section
 		Section litany_lity_part1_deacon_compact
 			Actor <ade>sid ac.Deacon </>End-Actor

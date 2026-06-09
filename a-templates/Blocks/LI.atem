@@ -2401,7 +2401,11 @@ Status NA
 					Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1704.basil.text </>End-Para
 				End-Section
 			End-Section
-			Insert_section LI.memorial_service End-Insert
+			Para role brc_li_blessing_of_loaves sid misc.custcontent End-Para
+			Para role erc_li_blessing_of_loaves sid misc.custcontent End-Para
+			Para role brc_li_memorial_service sid misc.custcontent End-Para
+				Insert_section LI.memorial_service End-Insert
+			Para role erc_li_memorial_service sid misc.custcontent End-Para
 		End-Section
 		Section chrys_default
 			Section part1
@@ -2697,6 +2701,8 @@ Status NA
 					End-Section
 				End-Section
 			End-Section
+			Para role brc_li_blessing_of_loaves sid misc.custcontent End-Para
+			Para role erc_li_blessing_of_loaves sid misc.custcontent End-Para
 			Para role brc_li_memorial_service sid misc.custcontent End-Para
 				Insert_section LI.memorial_service End-Insert
 			Para role erc_li_memorial_service sid misc.custcontent End-Para
