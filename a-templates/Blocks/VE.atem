@@ -5024,6 +5024,17 @@ Status NA
 			End-Section
 			Insert_section LN.CompLitanyVE_deacon_choir End-Insert
 			Insert_section LN.BowHeadsVE_deacon_choir End-Insert
+			Para role brc_ve_lity_part1_title_actor sid misc.custcontent End-Para
+			Para role erc_ve_lity_part1_title_actor sid misc.custcontent End-Para
+			Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
+			Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
+			Para role erc_ve_lity_part2_all sid misc.custcontent End-Para
+			Para role brc_ve_lity_part3_litany sid misc.custcontent End-Para
+			Para role erc_ve_lity_part3_litany sid misc.custcontent End-Para
+			Para role brc_ve_lity_part4_theotokoshymn sid misc.custcontent End-Para
+			Para role erc_ve_lity_part4_theotokoshymn sid misc.custcontent End-Para
+			Para role brc_ve_lity_part5_blessingofloaves sid misc.custcontent End-Para
+			Para role erc_ve_lity_part5_blessingofloaves sid misc.custcontent End-Para
 		End-Section
 		Section lentenektenia
 			Para role bkmrk04 sid misc.bookmark End-Para
@@ -5043,23 +5054,29 @@ Status NA
 	Section _07_Lity__
 		Section part1_title_actor__
 			Section lity_choir
+			Para role brc_ve_lity_part1_title_actor sid misc.custcontent End-Para
 				Title role desig sid ti.Lity End-Title
 				Actor sid ac.Choir End-Actor
+			Para role erc_ve_lity_part1_title_actor sid misc.custcontent End-Para
 			End-Section
 			Section lity_arto_choir
+			Para role brc_ve_lity_part1_title_actor sid misc.custcontent End-Para
 				Title role desig sid ti.LityAndLoaves End-Title
 				Actor sid ac.Choir End-Actor
+			Para role erc_ve_lity_part1_title_actor sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section part2__
 			Section me__
 				Section lity1_
+					Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
 					Title role desig sid ti.Idiomelon1 End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meVE.Lity1.mode End-Title
 						Media rid meVE.Lity1.text End-Media
 						Hymn rid meVE.Lity1.text @ver media-off End-Hymn
+					Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 					End-Section
 				End-Section
 				Section lity2_
@@ -5556,7 +5573,10 @@ Status NA
 		End-Section
 		Section part3_litany__
 			Section com
+				Para role erc_ve_lity_part2_all sid misc.custcontent End-Para
+				Para role brc_ve_lity_part3_litany sid misc.custcontent End-Para
 				Insert_section LN.Litany_lity_com_deacon_choir End-Insert
+				Para role erc_ve_lity_part3_litany sid misc.custcontent End-Para
 			End-Section
 			Section mealt1
 				Insert_section LN.Litany_lity_mealt1_deacon_choir End-Insert
@@ -5578,12 +5598,15 @@ Status NA
 			End-Section
 		End-Section
 		Section part4_theotokoshymn
+			Para role brc_ve_lity_part4_theotokoshymn sid misc.custcontent End-Para
 			Actor sid ac.Priest sid ru.Or sid ac.Choir End-Actor
 			Title role desig sid ti.HymnToTheotokos End-Title
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.LoavesHymn1Theotokos.text End-Media
 			Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion1.text @ver media-off End-Hymn
+			Para role erc_ve_lity_part4_theotokoshymn sid misc.custcontent End-Para
 		End-Section
 		Section part5_blessingofloaves
+			Para role brc_ve_lity_part5_blessingofloaves sid misc.custcontent End-Para
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet00.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
@@ -5598,6 +5621,7 @@ Status NA
 			Actor sid ac.Choir End-Actor
 			Media sid liturgical.verses_gr_GR_cog.psVE.breadhymn.v1.text End-Media
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.breadhymn.v1.text @ver media-off<r>sid ru.Twice</>End-Hymn
+			Para role erc_ve_lity_part5_blessingofloaves sid misc.custcontent End-Para
 		End-Section
 	End-Section
 

@@ -2042,7 +2042,7 @@ Status NA
 			Para role brc_li_apolytikion1 sid misc.custcontent End-Para
 			Title role desig sid ti.HymnsAfterSmallEntrance End-Title
 			Actor <ach>sid ac.Choir </>End-Actor
-			Para role brc_li_apolytikion1 sid misc.custcontent End-Para
+			Para role erc_li_apolytikion1 sid misc.custcontent End-Para
 		End-Section
 		Section clergy
 			Title role desig sid ti.HymnsAfterSmallEntrance End-Title

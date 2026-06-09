@@ -1546,10 +1546,10 @@ Status NA
 
 	Section Litany_lity_com_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.whole_year End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_com_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
@@ -1568,10 +1568,10 @@ Status NA
 
 	Section Litany_lity_mealt1_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.mealt1 End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_mealt1_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
@@ -1590,10 +1590,10 @@ Status NA
 
 	Section Litany_lity_me1_mealt1_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.me1_mealt1 End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_me1_mealt1_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
@@ -1612,10 +1612,10 @@ Status NA
 
 	Section Litany_lity_mealt1_mealt2_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.mealt1_mealt2 End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_mealt1_mealt2_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
@@ -1634,10 +1634,10 @@ Status NA
 
 	Section Litany_lity_mealt2_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.mealt2 End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_mealt2_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
@@ -1656,10 +1656,10 @@ Status NA
 
 	Section Litany_lity_pealt1_deacon_choir
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
-		Actor <apr>sid ac.Priest </>End-Actor
-		Para role dialogzero <dpr>sid pr.sup00a.text</>End-Para
+		Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.pealt1 End-Insert
-		Dialog <dpr>sid pr.pet36.text</> End-Dialog
+		Dialog <dprhi>sid pr.pet36.text</> End-Dialog
 	End-Section
 	Section Litany_lity_pealt1_deacon_compact
 		Insert_section LN.litany_lity_part1_deacon_compact End-Insert
