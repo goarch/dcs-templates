@@ -185,7 +185,7 @@ Status NA
 				//		Media sid ho.ho10_gr_GR_cog.hoVE.Ps103.text End-Media
 						Section Psalm_103_Verses
 							Title role desig sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.psa103.part1.info End-Title
-							Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.psa103.part1.text @ver media-off End-Hymn
+							Reading sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.psa103.part1.text @ver media-off End-Reading
 						End-Section
 						Section anoixantaria
 							Actor sid ac.Choir End-Actor

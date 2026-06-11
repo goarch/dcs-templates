@@ -57,7 +57,7 @@ Status Final
 		Dialog sid pr.res04.text End-Dialog
 		Insert_section LiturgicalPsalms.Psalm_142_Paragraph End-Insert
 		Rubric sid ho.ho23_gr_GR_cog.R02.rubric End-Rubric
-		Insert_section MA._01_Beginning__.mode4.hymn End-Insert
+		Insert_section MA._01_Beginning__.paraklesis_mode4 End-Insert
 		Title role desig sid ti.Troparia End-Title
 		Title role mode sid other.stbarbaraparaklesis_gr_GR_cog.hoCA.Apolytikion1.mode<Tmelody>sid other.stbarbaraparaklesis_gr_GR_cog.hoCA.Apolytikion1.melody</>End-Title
 		Hymn sid other.stbarbaraparaklesis_gr_GR_cog.hoCA.Apolytikion1.text @ver End-Hymn

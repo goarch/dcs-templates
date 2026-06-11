@@ -229,13 +229,15 @@ Status NA
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
 									Reading sid pr.ComeLetUsWorship3.text End-Reading
 							end-when
-							Title role desig sid ps_gr_GR_cog.psa103.title End-Title
-							Reading sid ps_gr_GR_cog.psa103.text End-Reading
-							Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v1.text End-Reading
-							Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v2.text @ver End-Reading
-							Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
-							Reading sid pr.Alleluia3.text sid pr.GloryToYouGod.text<r>sid ru.Thrice</>End-Reading
-							Reading sid pr.OurHopeLord.text End-Reading
+							Para role brc_ve_vespers_introductory_psalm sid misc.custcontent End-Para
+								Title role desig sid ps_gr_GR_cog.psa103.title End-Title
+								Reading sid ps_gr_GR_cog.psa103.text End-Reading
+								Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v1.text End-Reading
+								Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v2.text @ver End-Reading
+								Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
+								Reading sid pr.Alleluia3.text sid pr.GloryToYouGod.text<r>sid ru.Thrice</>End-Reading
+								Reading sid pr.OurHopeLord.text End-Reading
+							Para role erc_ve_vespers_introductory_psalm sid misc.custcontent End-Para
 							Para role brc_ve_vesperal_prayers sid misc.custcontent End-Para
 							Para role erc_ve_vesperal_prayers sid misc.custcontent End-Para
 						End-Section
@@ -9011,16 +9013,20 @@ Status NA
 		End-Section
 		Section wisdom123
 			Section part1
-				Actor<adepr>sid ac.sb.DePr</>End-Actor
-				Dialog <ddepr>sid pr.exc17.text</>End-Dialog
-				Actor<are>sid ac.Reader</>End-Actor
-				Dialog <dre>sid pr.res08.text</>End-Dialog
-				Actor sid ac.Priest End-Actor
-				Dialog sid pr.DismissalPrayer1.text End-Dialog
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-				Actor<arehi> sid ac.sb.ReHi</>End-Actor
-				Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
-				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+				Para role brc_ve_end sid misc.custcontent End-Para
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+					Actor<are>sid ac.Reader</>End-Actor
+					Dialog <dre>sid pr.res08.text</>End-Dialog
+					Actor sid ac.Priest End-Actor
+					Dialog sid pr.DismissalPrayer1.text End-Dialog
+					Actor<ach>sid ac.Choir</>End-Actor
+					Dialog<dch>sid pr.res04.text</>End-Dialog
+					Actor<arehi> sid ac.sb.ReHi</>End-Actor
+					Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
+					Actor<ach>sid ac.Choir</>End-Actor
+					Dialog<dch>sid pr.res04.text</>End-Dialog
+				Para role erc_ve_end sid misc.custcontent End-Para
 			End-Section
 			Section part2
 				when-movable-cycle-day-is
@@ -9359,7 +9365,7 @@ Status NA
 
 	Section Stichologia
 		Section for_10
-		Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+	//	Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9378,10 +9384,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v13.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v12.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
-		Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
+	//	Para role erc_ve_stichologia_for_10 sid misc.custcontent End-Para
 		End-Section
 		Section for_8
-		Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+	//	Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9402,10 +9408,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v11.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v10.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
-		Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
+	//	Para role erc_ve_stichologia_for_8 sid misc.custcontent End-Para
 		End-Section
 		Section for_6
-		Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+	//	Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -9428,7 +9434,7 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v09.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v08.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v07.text End-Para
-		Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
+	//	Para role erc_ve_stichologia_for_6 sid misc.custcontent End-Para
 		End-Section
 	End-Section
 

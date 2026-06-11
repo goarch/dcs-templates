@@ -42,6 +42,7 @@ Status NA
 		Para role brc_delete sid misc.custcontent End-Para
 		Para role erc_delete sid misc.custcontent End-Para
 
+	Section Vesperal_Prayers
 		Para role brc_ve_vesperal_prayers sid misc.custcontent End-Para
 			Actor sid ac.Priest<rubric>sid ru.Inaudibly</>End-Actor
 			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1101.title End-Title
@@ -67,13 +68,49 @@ Status NA
 			Para role prayer sid hi.hi01_gr_GR_cog.hiVE.Key1107.exclamation @ver sid pr.res04.text End-Para
 			Rubric sid hi.hi01_gr_GR_cog.hiVE.R1114.rubric End-Rubric
 		Para role erc_ve_vesperal_prayers sid misc.custcontent End-Para
-
-
+	End-Section
+	
+	Section Anoixantaria
+		Para role brc_ve_vespers_introductory_psalm sid misc.custcontent End-Para
+			Title role desig sid ps_gr_GR_cog.psa103.title End-Title
+			Reading sid ps_gr_GR_cog.psa103.text End-Reading
+			Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v1.text End-Reading
+			Reading sid liturgical.verses_gr_GR_cog.psVE.introductorypsalm.end.v2.text @ver End-Reading
+			Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading
+			Reading sid pr.Alleluia3.text sid pr.GloryToYouGod.text<r>sid ru.Thrice</>End-Reading
+			Reading sid pr.OurHopeLord.text End-Reading
+		Para role erc_ve_vespers_introductory_psalm sid misc.custcontent End-Para
+		Para role brc_ve_vespers_anoixantaria sid misc.custcontent End-Para
+			Section Psalm_103_Verses
+				Title role desig sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.psa103.part1.info End-Title
+				Reading sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.psa103.part1.text @ver media-off End-Reading
+			End-Section
+			Section anoixantaria
+				Actor sid ac.Choir End-Actor
+				Title role desig sid other.anoixantaria_gr_GR_cog.other.title End-Title
+				Media sid ho.ho10_gr_GR_cog.hoVE.MM.Anoixantaria.text End-Media
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v1.text<i>sid other.anoixantaria_gr_GR_cog.other.verse28.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v2.text<i>sid other.anoixantaria_gr_GR_cog.other.verse29.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v3.text<i>sid other.anoixantaria_gr_GR_cog.other.verse30.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v4.text<i>sid other.anoixantaria_gr_GR_cog.other.verse31.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v5.text<i>sid other.anoixantaria_gr_GR_cog.other.verse32.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v6.text<i>sid other.anoixantaria_gr_GR_cog.other.verse33.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v7.text<i>sid other.anoixantaria_gr_GR_cog.other.verse34.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v8.text<i>sid other.anoixantaria_gr_GR_cog.other.verse35.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v9.text<i>sid other.anoixantaria_gr_GR_cog.other.refrain1.text @ver</>End-Hymn
+				Hymn sid liturgical.verses_gr_GR_cog.psVE.anoixantaria.v10.text<i>sid other.anoixantaria_gr_GR_cog.other.refrain2.text @ver</>End-Hymn
+				Hymn sid pr.GloryToTheFather.incipit sid pr.BothNowAndEver.incipit End-Hymn
+				Hymn sid pr.Alleluia3Glory.text<inr>sid ru.Twice</>End-Hymn
+				Hymn sid pr.Alleluia3Glory.text sid pr.OurHopeLord.text End-Hymn
+			End-Section
+		Para role erc_ve_vespers_anoixantaria sid misc.custcontent End-Para
+	End-Section
 
 
 	Section Vespers_Stichologia
 		Section for_10
 		Para role brc_ve_stichologia_for_10 sid misc.custcontent End-Para
+			Title<smallreditalic>sid ti.Stichologia</>End-Title
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -96,6 +133,7 @@ Status NA
 		End-Section
 		Section for_8
 		Para role brc_ve_stichologia_for_8 sid misc.custcontent End-Para
+			Title<smallreditalic>sid ti.Stichologia</>End-Title
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -120,6 +158,7 @@ Status NA
 		End-Section
 		Section for_6
 		Para role brc_ve_stichologia_for_6 sid misc.custcontent End-Para
+			Title<smallreditalic>sid ti.Stichologia</>End-Title
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v28.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v27.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psVE.stichologia.v26.text End-Para
@@ -219,6 +258,35 @@ Status NA
 		Para role brc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
 			Actor<hi>sid ac.Hierarch</> End-Actor
 		Para role erc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
+	End-Section
+	
+	Section End_Prayers
+		Para role brc_ve_end sid misc.custcontent End-Para
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+			Actor<are>sid ac.Reader</>End-Actor
+			Dialog <dre>sid pr.res08.text</>End-Dialog
+			Actor sid ac.Priest End-Actor
+			Dialog sid pr.DismissalPrayer1.text End-Dialog
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+			Actor<arehi> sid ac.sb.ReHi</>End-Actor
+			Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
+		Para role erc_ve_end sid misc.custcontent End-Para
+		Para role brc_ve_end_when_loaves sid misc.custcontent End-Para
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Dialog<ddepr>sid pr.pet00.text</>End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res01.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.pet37.text</>End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res04.text</>End-Dialog
+			Actor<arehi>sid ac.sb.ReHi</>End-Actor
+			Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res04.text</>End-Dialog
+		Para role erc_ve_end_when_loaves sid misc.custcontent End-Para
 	End-Section
 
 End-Template
