@@ -1,4 +1,4 @@
-Template se.cl.m07.d01.ma9
+Template se.m07.d01.ma9
 
 Status NA
 
@@ -54,6 +54,7 @@ Status NA
 		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
 		Insert_section MA._11_Kontakion__.append__.me1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
+		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert

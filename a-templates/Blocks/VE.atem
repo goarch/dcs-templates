@@ -6548,6 +6548,15 @@ Status NA
 						Hymn rid meVE.AposGlory.text @ver media-off End-Hymn
 					End-Section
 				End-Section
+				Section aposticha4asglory_
+					Title sid ti.Glory End-Title
+					Section hymn
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role mode rid meVE.Aposticha4.mode End-Title
+						Media rid meVE.Aposticha4.text End-Media
+						Hymn rid meVE.Aposticha4.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section JulHF
 					Title sid ti.Glory<Tdesig>sid ti.Fathers</>End-Title
 					Para role source0 sid ti.sourceMenaion End-Para

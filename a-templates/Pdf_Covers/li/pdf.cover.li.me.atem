@@ -2514,7 +2514,7 @@ Switch-Version L2 End-Switch-Version
 							End-Section
 							Section commeoration
 								Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
-								Title role cover4 rid meDA.commemoration.first_short End-Title
+								Title role cover4 rid meDA.commemoration.full End-Title
 							End-Section
 					end-when
 				End-Section
