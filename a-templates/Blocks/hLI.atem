@@ -290,21 +290,21 @@ Status NA
 		Section one_choir__
 			Section part1
 			//	Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0610.title End-Title
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
 				Actor <ach>sid ac.Choir</>End-Actor
 				Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key0600.text End-Media
 				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
 				Actor <ach>sid ac.Choir</>End-Actor
 				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
-				Actor <ade>sid ac.Deacon</>End-Actor
-				Dialog <dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0612.text </>End-Dialog
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0612.text </>End-Dialog
 				Actor <ahi>sid ac.Hierarch</>End-Actor
 				Para role chant <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0612.text</>End-Para
 			End-Section

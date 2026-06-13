@@ -346,27 +346,46 @@ Status NA
 
 	Section fimis
 		Para role brc_li_fimi_bishop000_bishop1 sid misc.custcontent End-Para
-			Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid client_gr_GR_cog.cl.bishop0.fimi.text </>End-Dialog
+			Section part1
+			//	Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0610.title End-Title
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <ach>sid ac.Choir</>End-Actor
+				Media sid eu.lichrysbasil_gr_GR_cog.euLI.MM.Key0600.text End-Media
+				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text </>End-Dialog
+				Actor <ach>sid ac.Choir</>End-Actor
+				Para role chant sid eu.lichrysbasil_gr_GR_cog.euLI.Key0611.text End-Para
+				Actor <adepr>sid ac.sb.DePr</>End-Actor
+				Dialog <ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0612.text </>End-Dialog
+				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Para role chant <dhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0612.text</>End-Para
+			End-Section
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid client_gr_GR_cog.cl.bishop0.fimi.text </>End-Dialog
 			Actor <acl>sid ac.Clergy</>End-Actor
 			Para role chant <dcl>sid client_gr_GR_cog.cl.bishop0.fimi.text</>End-Para
 			Actor <ach>sid ac.Choir</>End-Actor
 			Para role chant <dcl>sid client_gr_GR_cog.cl.bishop0.fimi.text<r>sid ru.Twice</></>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
 			Actor <ach>sid ac.Choir</>End-Actor
 			Hymn <dch>sid client_gr_GR_cog.cl.bishop1.fimi.text</>End-Hymn
 		Para role erc_li_fimi_bishop000_bishop1 sid misc.custcontent End-Para
 
 		Para role brc_li_fimi_bishop0_bishop111 sid misc.custcontent End-Para
-			Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid client_gr_GR_cog.cl.bishop0.fimi.text </>End-Dialog
+			Insert_section bk.sb.lit.fimis.part1 End-Insert
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid client_gr_GR_cog.cl.bishop0.fimi.text </>End-Dialog
 			Actor <acl>sid ac.Clergy</>End-Actor
 			Para role chant <dcl>sid client_gr_GR_cog.cl.bishop0.fimi.text</>End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
 			Actor <acl>sid ac.Clergy</>End-Actor
 			Hymn <dch>sid client_gr_GR_cog.cl.bishop1.fimi.text</>End-Hymn
 			Actor <ach>sid ac.Choir</>End-Actor
@@ -374,27 +393,15 @@ Status NA
 		Para role erc_li_fimi_bishop0_bishop111 sid misc.custcontent End-Para
 
 		Para role brc_li_fimi_bishop111 sid misc.custcontent End-Para
-			Actor <ade>sid ac.Deacon</>End-Actor
-			Dialog <dde>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
+			Insert_section bk.sb.lit.fimis.part1 End-Insert
+			Actor <adepr>sid ac.sb.DePr</>End-Actor
+			Dialog <ddepr>sid client_gr_GR_cog.cl.bishop1.fimi.text </>End-Dialog
 			Actor <acl>sid ac.Clergy</>End-Actor
 			Hymn <dch>sid client_gr_GR_cog.cl.bishop1.fimi.text</>End-Hymn
 			Actor <ach>sid ac.Choir</>End-Actor
 			Hymn <dch>sid client_gr_GR_cog.cl.bishop1.fimi.text <r>sid ru.Twice</></>End-Hymn
 		Para role erc_li_fimi_bishop111 sid misc.custcontent End-Para
 
-//not used?
-		Para role brc_li_fimi_bishop0_bishop1 sid misc.custcontent End-Para
-			Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
-			Insert_section hLI._07_Fimi__.one_choir__.part2__.bishop0andbishop1 End-Insert
-		Para role erc_li_fimi_bishop0_bishop1 sid misc.custcontent End-Para
-	//	Para role brc_li_fimi_bishop0_bishop0 sid misc.custcontent End-Para
-	//		Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
-	//		Insert_section hLI._07_Fimi__.one_choir__.part2__.bishop0andbishop0 End-Insert
-	//	Para role erc_li_fimi_bishop0_bishop0 sid misc.custcontent End-Para
-		Para role brc_li_fimi_bishop1 sid misc.custcontent End-Para
-			Insert_section hLI._07_Fimi__.one_choir__.part1 End-Insert
-			Insert_section hLI._07_Fimi__.one_choir__.part2__.bishop1 End-Insert
-		Para role erc_li_fimi_bishop1 sid misc.custcontent End-Para
 	End-Section
 
 	
