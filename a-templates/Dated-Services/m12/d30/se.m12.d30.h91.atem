@@ -59,7 +59,7 @@ Status Final
 			otherwise use:
 				Title<r>sid ti.ReadingsRegularCycle</>End-Title
 				Insert_section LE._01_Epistle__.textonly__.daily.lesson End-Insert
-				Insert_section LE._02_Gospel__.textonly__.daily.lesson End-Insert
+				Insert_section LE._02_Gospel__.dec_30_31__.lesson End-Insert //check each year
 		end-when
 		Title sid misc.horizontal_line.solid1 End-Title
 		Break line End_Break

@@ -338,11 +338,9 @@ Status NA
 	Section _01_Beginning__
 		Section alleluia__
 			Section mode2_deceased
-				Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
-				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid oc.m2.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -354,11 +352,9 @@ Status NA
 				Para role chant sid pr.Alleluia3.text End-Para
 			End-Section
 			Section mode2_saturday
-				Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
-				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode2 End-Title
 				Media sid oc.m2.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -371,11 +367,9 @@ Status NA
 				Para role chant sid pr.Alleluia3.text End-Para
 			End-Section
 			Section mode8_deceased
-				Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
-				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode sid misc.Mode8 End-Title
 				Media sid oc.m8.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
@@ -390,11 +384,9 @@ Status NA
 		End-Section
 		Section lent__
 			Section alleluia
-				Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 				Insert_section MA._00_Ordinary__.replace_content End-Insert
 				Para role bkmrk00 sid misc.bookmark End-Para
 				Para role bkmrk02 sid misc.bookmark End-Para
-				Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 				Actor sid ac.Choir End-Actor
 				Title role mode rid ocVE.Apolytikion.mode @day D1 End-Title
 				Media rid ocMA.MM.Alleluia.text @day D7 End-Media
@@ -421,11 +413,9 @@ Status NA
 			End-Section
 		End-Section
 		Section modeofday
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			when-name-of-day-is
 				Monday use:
@@ -451,11 +441,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section modeofweek
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode rid ocVE.Apolytikion.mode @day D1 End-Title
 			Media rid ocMA.MM.GodIsTheLord.text @day D1 End-Media
@@ -463,11 +451,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode1
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode1 End-Title
 			Media sid oc.m1.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -475,11 +461,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode2
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode2 End-Title
 			Media sid oc.m2.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -487,11 +471,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode3
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode3 End-Title
 			Media sid oc.m3.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -499,11 +481,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode4
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode4 End-Title
 			Media sid oc.m4.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -511,11 +491,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode5
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode5 End-Title
 			Media sid oc.m5.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -523,11 +501,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode6
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode6 End-Title
 			Media sid oc.m6.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -535,11 +511,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode7
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode7 End-Title
 			Media sid oc.m7.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -547,11 +521,9 @@ Status NA
 			Insert_section MA._01_Beginning__.verses End-Insert
 		End-Section
 		Section mode8
-			Para role brc_ma_matins_ordinary sid misc.custcontent End-Para
 			Insert_section MA._00_Ordinary__.replace_content End-Insert
 			Para role bkmrk00 sid misc.bookmark End-Para
 			Para role bkmrk02 sid misc.bookmark End-Para
-			Para role erc_ma_matins_ordinary sid misc.custcontent End-Para
 			Actor sid ac.Choir End-Actor
 			Title role mode sid misc.Mode8 End-Title
 			Media sid oc.m8.d1_gr_GR_cog.ocMA.MM.GodIsTheLord.text End-Media
@@ -14665,7 +14637,9 @@ Status NA
 			Section commemoration
 				Para role brc_ma_end_litanies sid misc.custcontent End-Para
 				Para role erc_ma_end_litanies sid misc.custcontent End-Para
-				Insert_section Selector_Dismissals_SB.Com_Yes.part1 End-Insert
+				Para role brc_ma_dismissal sid misc.custcontent End-Para
+				Para role erc_ma_dismissal sid misc.custcontent End-Para
+			//	Insert_section Selector_Dismissals_SB.Com_Yes.part1 End-Insert
 				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
 				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
 			End-Section
@@ -14711,7 +14685,7 @@ Status NA
 	End-Section
 	Section Lauds_Stichologia
 		Section for_6
-		Para role brc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
+	//	Para role brc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -14732,10 +14706,10 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v09.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v08.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
-		Para role erc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
+	//	Para role erc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
 		End-Section
 		Section for_4
-		Para role brc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
+	//	Para role brc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -14758,7 +14732,7 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v06.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v05.text End-Para
-		Para role erc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
+	//	Para role erc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
 		End-Section
 	End-Section
 	Section laudsstichologia_media_modeofweek

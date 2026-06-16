@@ -41,7 +41,7 @@ Status NA
 
 		Para role brc_delete sid misc.custcontent End-Para
 		Para role erc_delete sid misc.custcontent End-Para
-
+		
 		Para role brc_ma_matins_ordinary_section1_paschal sid misc.custcontent End-Para
 			Insert_section Selector_MatinsOrdinary.pdfno.part1__.afterpascha End-Insert
 			Insert_section Selector_MatinsOrdinary.pdfno.part2__.afterpascha End-Insert
@@ -79,6 +79,8 @@ Status NA
 	Section Lauds_Stichologia
 		Section for_6
 		Para role brc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
+			Para role brc_ma_lauds_stichologia sid misc.custcontent End-Para
+			Title<inr>sid ti.Stichologia</>End-Title
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -99,10 +101,13 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v09.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v08.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
+			Para role erc_ma_lauds_stichologia sid misc.custcontent End-Para
 		Para role erc_ma_lauds_stichologia_for_6 sid misc.custcontent End-Para
 		End-Section
 		Section for_4
 		Para role brc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
+			Para role brc_ma_lauds_stichologia sid misc.custcontent End-Para
+			Title<inr>sid ti.Stichologia</>End-Title
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v26.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v25.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v24.text End-Para
@@ -125,6 +130,7 @@ Status NA
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v07.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v06.text End-Para
 			Para role inaudible sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v05.text End-Para
+			Para role erc_ma_lauds_stichologia sid misc.custcontent End-Para
 		Para role erc_ma_lauds_stichologia_for_4 sid misc.custcontent End-Para
 		End-Section
 	End-Section
