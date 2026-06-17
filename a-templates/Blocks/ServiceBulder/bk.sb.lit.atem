@@ -202,8 +202,6 @@ Status NA
 			Para role erc_li_apolytikion1_hierarchical sid misc.custcontent End-Para
 		End-Section
 
-
-
 		Section apolytikion2_actor
 			Para role brc_li_apolytikion2 sid misc.custcontent End-Para
 				Actor <ach>sid ac.Choir</>End-Actor

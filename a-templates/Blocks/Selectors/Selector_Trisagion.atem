@@ -419,7 +419,6 @@ Status NA
 			Para role chant sid pr.GloryToTheFather.text End-Para
 			Para role chant sid pr.BothNowAndEver.text End-Para
 			Para role chant sid ho.ho07_gr_GR_cog.hoLI.TrisagiosHymn34.text media-off End-Para
-			Actor sid ac.Deacon End-Actor
 			Insert_section dynamis_dialog_priest End-Insert
 			Actor sid ac.Choir End-Actor
 			Title role desig sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text End-Title
