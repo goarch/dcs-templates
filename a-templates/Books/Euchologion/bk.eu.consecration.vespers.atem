@@ -141,7 +141,7 @@ Status NA
 			End-Section
 			Section Litany_lity_part2
 				Actor sid ac.Hierarch End-Actor
-				Dialog sid pr.sup00a.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text sid pr.sup15.text End-Dialog
+				Dialog sid pr.sup00a.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.commemoration sid pr.sup14.text sid pr.sup15.text End-Dialog
 				Dialog sid pr.pet36.text End-Dialog
 			End-Section
 			Insert_section bk.ho.ho10.Artoclasia.theotokoshymn End-Insert

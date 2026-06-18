@@ -7053,14 +7053,14 @@ Status NA
 					Insert_section Selector_Dismissals.hierarchical.part2 End-Insert
 			End-Section
 			Section holythursday
-				Dialog sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
+				Dialog sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88 End-Dialog
 				Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 				Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 			End-Section
 			Section holypassion
-				Dialog sid dis00 sid dis00.passion sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
+				Dialog sid dis00 sid dis00.passion sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88 End-Dialog
 				Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 				Dialog<i>sid misc.parenthesis.open sid pr.res04.text sid misc.parenthesis.close</>End-Dialog
 				Dialog sid pr.ThroughThePrayers_bishop.text End-Dialog
@@ -7110,12 +7110,12 @@ Status NA
 			Insert_section Selector_Dismissals.pealt1_Com_Yes End-Insert
 		End-Section
 		Section holythursday
-			Dialog sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
+			Dialog sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88 End-Dialog
 			Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 			Dialog sid pr.res04.text End-Dialog
 		End-Section
 		Section holypassion
-			Dialog sid dis00 sid dis00.passion sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
+			Dialog sid dis00 sid dis00.passion sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88 End-Dialog
 			Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 			Dialog sid pr.res04.text End-Dialog
 		End-Section

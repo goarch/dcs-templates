@@ -1352,7 +1352,7 @@ Status NA
 					Section holythursday
 						Insert_section hLI.blessing_before_dismissal End-Insert
 						Actor <ahi>sid ac.Hierarch</>End-Actor
-						Dialog <dhi>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</>End-Dialog
+						Dialog <dhi>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88</>End-Dialog
 						Insert_section hLI.dismissal_part2 End-Insert
 					End-Section
 				71, 72, 73, 74, 75, 76, 77, 109 use:
@@ -1554,7 +1554,7 @@ Status NA
 			Section holysaturdayliturgy
 				Insert_section hLI.blessing_before_dismissal End-Insert
 				Actor <ahi>sid ac.Hierarch</>End-Actor
-				Dialog <dhi>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</>End-Dialog
+				Dialog <dhi>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88</>End-Dialog
 				Insert_section hLI.dismissal_part2 End-Insert
 			End-Section
 			Section brightweek_stgeorge
@@ -1600,7 +1600,7 @@ Status NA
 			Section dec19_when_saturday
 				Insert_section hLI.blessing_before_dismissal End-Insert
 				Actor <apr>sid ac.Hierarch </>End-Actor
-				Dialog <dpr>sid dis00 rid meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid me.m12.d20_gr_GR_cog.meDA.insert1 sid me.m12.d20_gr_GR_cog.meDA.insert2 sid dis10 sid dis88</> End-Dialog
+				Dialog <dpr>sid dis00 rid meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid me.m12.d20_gr_GR_cog.meDA.insert1 sid me.m12.d20_gr_GR_cog.meDA.insert2 sid dis10 sid dis88</> End-Dialog
 				Insert_section hLI.dismissal_part2 End-Insert
 			End-Section
 		End-Section
