@@ -2344,7 +2344,7 @@ Status NA
 						Dialog <dpr>sid pr.exc20.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.title</>End-Title
-						Actor<aprhi>sid ac.Priest</>End-Actor
+						Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 						Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
 						Actor <adepr>sid ac.sb.DePr </>End-Actor
@@ -2416,7 +2416,7 @@ Status NA
 					Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 					Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.title</>End-Title
 					Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1002.text </>End-Para
-					Actor <apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
+					Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.Aloud</></>End-Actor
 					Dialog <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1003.text</> End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 					Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1100.title</>End-Title
@@ -2637,10 +2637,11 @@ Status NA
 						Dialog <dpr>sid pr.exc20.text</> End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 						Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.title</>End-Title
-						Para role dialogwithactor<dwapr><actorwithdialog>sid ac.IL.Priest</>sid pr.pet31.text</>End-Para
+						Actor <aprhi>sid ac.sb.PrHi </>End-Actor
+						Dialog <dprhi>sid pr.pet31.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res05.text</>End-Para
-						Actor <ade>sid ac.sb.DePr </>End-Actor
-						Dialog <dde>sid pr.pet32.text</>End-Dialog
+						Actor <adepr>sid ac.sb.DePr </>End-Actor
+						Dialog <ddepr>sid pr.pet32.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text</>End-Para
 						Actor <aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 						Para role inaudible <dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1407.text </>End-Para
@@ -4513,11 +4514,12 @@ Status NA
 				Section block1
 					Title role smalldesig sid hi.hi17_gr_GR_cog.hiPR.Key0400.title End-Title
 					Title role smalldesig sid hi.hi17_gr_GR_cog.hiPR.Key0401.title End-Title
-					Para role dialogwithactor<dwade><actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text</>End-Para
+					Actor<adepr>sid ac.sb.DePr</>End-Actor
+					Dialog<ddepr>sid pr.pet00.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
-					Actor <apr>sid ac.Priest </>End-Actor
+					Actor <aprhi>sid ac.sb.PrHi </>End-Actor
 				End-Section
-				Dialog <dpr>sid hi.hi17_gr_GR_cog.hiPR.Key0402a.text rid meDA.insert1 sid hi.hi17_gr_GR_cog.hiPR.Key0402b.text rid meDA.insert1 rid meDA.insert2 sid hi.hi17_gr_GR_cog.hiPR.Key0402c.text</> End-Dialog
+				Dialog <dprhi>sid hi.hi17_gr_GR_cog.hiPR.Key0402a.text rid meDA.insert1 sid hi.hi17_gr_GR_cog.hiPR.Key0402b.text rid meDA.insert1 rid meDA.insert2 sid hi.hi17_gr_GR_cog.hiPR.Key0402c.text</> End-Dialog
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			End-Section
 			Section mealt1
