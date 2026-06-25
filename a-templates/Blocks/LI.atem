@@ -22,6 +22,7 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
+			Insert_section Selector_ParishFeastday.dates_of_feastdays End-Insert
 			Para role brc_li_consecration_title sid misc.custcontent End-Para
 				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
 			Para role erc_li_consecration_title sid misc.custcontent End-Para
@@ -2057,10 +2058,10 @@ Status NA
 			Rubric sid ru.Then End-Rubric
 		End-Section
 		Section local_church_apolytikion
-			Rubric sid ru.LocalChurchApolytikionSung End-Rubric
+			Rubric<sbliparishapolytikionrubric>sid ru.LocalChurchApolytikionSung</>End-Rubric
 			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
 			Para role erc_li_local_apolytikion sid misc.custcontent End-Para
-			Rubric sid ru.Then End-Rubric
+			Rubric<sbliparishapolytikionrubric>sid ru.Then</>End-Rubric
 		End-Section
 	End-Section
 
@@ -2731,7 +2732,7 @@ Status NA
 					Section holythursday
 						Insert_section LI.blessing_before_dismissal End-Insert
 						Actor <aprhi>sid ac.sb.PrHi </>End-Actor
-						Dialog <dprhi>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88</> End-Dialog
+						Dialog <dprhi>sid dis00 sid dis00.holythursday sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
 						Insert_section LI.dismissal_part2 End-Insert
 					End-Section
 				71, 72, 73, 74, 75, 76, 77, 109 use:
@@ -2967,7 +2968,7 @@ Status NA
 			Section holysaturdayliturgy
 				Insert_section LI.blessing_before_dismissal End-Insert
 				Actor <aprhi>sid ac.sb.PrHi </>End-Actor
-				Dialog <dpr>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis10 sid dis88</> End-Dialog
+				Dialog <dpr>sid dis00 sid dis00.resurrection sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88</> End-Dialog
 				Actor <ach>sid ac.Choir </>End-Actor
 				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
 				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn
@@ -3022,7 +3023,7 @@ Status NA
 			Section dec19_when_saturday
 				Insert_section LI.blessing_before_dismissal End-Insert
 				Actor <aprhi>sid ac.sb.PrHi </>End-Actor
-				Dialog <dpr>sid dis00 rid meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid me.m12.d20_gr_GR_cog.meDA.insert1 sid me.m12.d20_gr_GR_cog.meDA.insert2 sid dis10 sid dis88</> End-Dialog
+				Dialog <dpr>sid dis00 rid meDA.dismissal sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid me.m12.d20_gr_GR_cog.meDA.insert1 sid me.m12.d20_gr_GR_cog.meDA.insert2 sid dis10 sid dis88</> End-Dialog
 				Actor <ach>sid ac.Choir </>End-Actor
 				Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text End-Media
 				Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706.text media-off End-Hymn

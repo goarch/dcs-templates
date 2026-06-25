@@ -315,7 +315,7 @@ Status Final
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Actor sid ac.Priest End-Actor
 		Para role dialogzero sid pr.GloryToYouChristHope.text End-Para
-		Dialog sid dis00 sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.commemoration</>sid dis09 sid dis71 sid dis10 sid dis88 End-Dialog
+		Dialog sid dis00 sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis71 sid dis10 sid dis88 End-Dialog
 		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 	End-Section

@@ -161,7 +161,7 @@ Template bk.ho.ho21.aftercommunion
 		Dialog sid pr.res06.text End-Dialog
 		Dialog sid pr.Bless_father.text End-Dialog
 		Actor sid ac.Priest End-Actor
-		Dialog sid dis00 sid dis01 sid dis02 sid client_gr_GR_cog.cl.localpatronsaint1.commemoration sid dis09 sid dis10 sid dis88 End-Dialog
+		Dialog sid dis00 sid dis01 sid dis02 sid client_gr_GR_cog.cl.localpatronsaint1.dismissal sid dis09 sid dis10 sid dis88 End-Dialog
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para

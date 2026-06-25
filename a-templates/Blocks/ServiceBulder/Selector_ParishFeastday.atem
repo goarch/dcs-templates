@@ -1,0 +1,75 @@
+Template Selector_ParishFeastday
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+
+	Section dates_of_feastdays
+		when-date-is
+			Jan 1, 10, 17, 25, 30 use:
+				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+			Feb 2, 6, 8, 10, 19 use:
+				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+			Mar 17, 25 use:
+				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+			otherwise use:
+				when-movable-cycle-day-is
+					36, 57, 73, 110, 120, 127 use:
+						Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+					otherwise use:
+						when-date-is
+							Apr 1, 23, 24, 25 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							May 2, 9, 21 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Jun 29, 30 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Jul 20, 22, 25, 26, 27 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Aug 6, 10, 15, 27, 29 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Sep 8, 14, 17, 26 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Oct 6, 18, 20, 23, 26, 28 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Nov 1, 8, 9, 13, 14, 16, 25, 30 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+
+							Dec 4, 6, 12, 15, 17, 25, 27 use:
+								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+						end-when
+				end-when
+		end-when
+	End-Section
+
+
+
+End-Template
