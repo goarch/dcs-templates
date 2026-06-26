@@ -21,7 +21,7 @@ Status NA
 	import roles.*
 	import rules.*
 
-Switch-Version L2 End-Switch-Version
+Switch-Version L1 End-Switch-Version
 
 	when-date-is
 		Dec 25 use:

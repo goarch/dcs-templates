@@ -21,7 +21,7 @@ Status NA //This template has been functionally replaced by pdf.cover.ve.mc
 	import roles.*
 	import rules.*
 
-Switch-Version L2 End-Switch-Version
+Switch-Version L1 End-Switch-Version
 
 		Insert_section pdf.cover.links.lookup.vespers End-Insert
 		Section title
