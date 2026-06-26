@@ -23,53 +23,212 @@ Status NA
 
 	Section dates_of_feastdays
 		when-date-is
-			Jan 1, 10, 17, 25, 30 use:
-				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+			Jan 1 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.basil</>End-Para
 
-			Feb 2, 6, 8, 10, 19 use:
-				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+			Jan 10 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.gregory_nyssa</>End-Para
 
-			Mar 17, 25 use:
-				Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+			Jan 17 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.anthony</>End-Para
+
+			Jan 25 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.gregory_theologian</>End-Para
+
+			Jan 30 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.threehierarchs</>End-Para
+
+			Feb 2 thru 9 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.presentation</>End-Para
+
+			Feb 6 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.photios</>End-Para
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.barsanouphios_john</>End-Para
+
+			Feb 8 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.theodore_general</>End-Para
+
+			Feb 10 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.haralambos</>End-Para
+
+			Feb 19 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.philothea</>End-Para
+
+			Mar 17 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.alexios</>End-Para
+
+			Mar 25 use:
+				Para<sbparishname>sid sb.parishes_gr_GR_cog.annunciation</>End-Para
 
 			otherwise use:
 				when-movable-cycle-day-is
-					36, 57, 73, 110, 120, 127 use:
-						Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+					36 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.gregory_palamas</>End-Para
+
+					57 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.mary_egypt</>End-Para
+
+					73 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.raphael_nicholas_irene</>End-Para
+
+					95 thru 102 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.holy_wisdom</>End-Para
+
+					110 thru 118 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.ascension</>End-Para
+
+					120 thru 126 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.holy_trinity</>End-Para
+
+					121 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.holy_spirit</>End-Para
+
+					127 use:
+						Para<sbparishname>sid sb.parishes_gr_GR_cog.all_saints</>End-Para
 
 					otherwise use:
 						when-date-is
-							Apr 1, 23, 24, 25 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Apr 1 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.mary_egypt</>End-Para
 
-							May 2, 9, 21 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Apr 23 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.george</>End-Para
 
-							Jun 29, 30 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Apr 24 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.elizabeth</>End-Para
 
-							Jul 20, 22, 25, 26, 27 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Apr 25 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.mark</>End-Para
 
-							Aug 6, 10, 15, 27, 29 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							May 2 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.athanasius</>End-Para
 
-							Sep 8, 14, 17, 26 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							May 9 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.christopher</>End-Para
 
-							Oct 6, 18, 20, 23, 26, 28 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							May 21 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.constantine</>End-Para
 
-							Nov 1, 8, 9, 13, 14, 16, 25, 30 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Jun 29 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.paul</>End-Para
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.peter_paul</>End-Para
 
-							Dec 4, 6, 12, 15, 17, 25, 27 use:
-								Para<sbliparishfeastday>sid misc.custcontent</>End-Para
+							Jun 30 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.apostles</>End-Para
+
+							Jul 20 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.elijah</>End-Para
+
+							Jul 22 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.markella</>End-Para
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.mary_magdalene</>End-Para
+
+							Jul 25 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.anna</>End-Para
+
+							Jul 26 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.paraskevi</>End-Para
+
+							Jul 27 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.panteleimon</>End-Para
+
+							Aug 6 thru 13 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.transfiguration</>End-Para
+
+							Aug 10 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.lawrence</>End-Para
+
+							Aug 15 thru 23 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.assumption</>End-Para
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.dormition</>End-Para
+
+							Aug 27 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.phanourios</>End-Para
+
+							Aug 29 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.baptist</>End-Para
+
+							Sep 8 thru 12 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.nativity_theotokos</>End-Para
+
+							Sep 14 thru 21 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.holy_cross</>End-Para
+
+							Sep 17 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.sophia</>End-Para
+
+							Sep 26 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.john_theologian</>End-Para
+
+							Oct 6 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.thomas_apostle</>End-Para
+
+							Oct 18 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.luke_evangelist</>End-Para
+
+							Oct 20 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.gerasimos</>End-Para
+
+							Oct 23 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.iakovos_adelphotheos</>End-Para
+
+							Oct 26 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.demetrius</>End-Para
+
+							Oct 28 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.holy_protection</>End-Para
+
+							Nov 1 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.anargyroi_cosmas_damian</>End-Para
+
+							Nov 8 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.archangels</>End-Para
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.michael_archangel</>End-Para
+
+							Nov 9 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.nektarios</>End-Para
+
+							Nov 13 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.john_chrysostom</>End-Para
+
+							Nov 14 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.philip_apostle</>End-Para
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.gregory_palamas</>End-Para
+
+							Nov 16 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.matthew_evangelist</>End-Para
+
+							Nov 25 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.catherine</>End-Para
+
+							Nov 30 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.andrew_apostle</>End-Para
+
+							Dec 4 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.barbara</>End-Para
+
+							Dec 6 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.nicholas_wonderworker</>End-Para
+
+							Dec 12 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.spyridon</>End-Para
+
+							Dec 15 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.eleftherios</>End-Para
+
+							Dec 17 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.dionysios_aegina</>End-Para
+
+							Dec 25 thru 31 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.nativity_christ</>End-Para
+
+							Dec 27 use:
+								Para<sbparishname>sid sb.parishes_gr_GR_cog.stephen_protomartyr</>End-Para
+
 						end-when
 				end-when
 		end-when
+
 	End-Section
-
-
 
 End-Template
