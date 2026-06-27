@@ -69,6 +69,27 @@ Status NA
 			Insert_section Selector_MatinsOrdinary.pdfno.part6 End-Insert
 		Para role erc_ma_matins_ordinary_section3_psalms_litany sid misc.custcontent End-Para
 
+		Para role brc_ma_katavasias sid misc.custcontent End-Para
+				Actor<ach>sid ac.Choir</>End-Actor
+		Para role erc_ma_katavasias sid misc.custcontent End-Para
+		Para role brc_ma_hierarchical_katavasias sid misc.custcontent End-Para
+				Actor<ahi>sid ac.Hierarch</><rubric>sid ru.InPlaceOfRightChoir</>End-Actor
+		Para role erc_ma_hierarchical_katavasias sid misc.custcontent End-Para
+
+		Para role brc_ma_ode9 sid misc.custcontent End-Para
+				Actor<ach>sid ac.Choir</>End-Actor
+		Para role erc_ma_ode9 sid misc.custcontent End-Para
+		Para role brc_ma_hierarchical_ode9 sid misc.custcontent End-Para
+				Actor<ahi>sid ac.Hierarch</><rubric>sid ru.InPlaceOfRightChoir</>End-Actor
+		Para role erc_ma_hierarchical_ode9 sid misc.custcontent End-Para
+
+		Para role brc_ma_expoasteilarion sid misc.custcontent End-Para
+				Actor<ach>sid ac.Choir</>End-Actor
+		Para role erc_ma_expoasteilarion sid misc.custcontent End-Para
+		Para role brc_ma_hierarchical_expoasteilarion sid misc.custcontent End-Para
+				Actor<ahi>sid ac.Hierarch</><rubric>sid ru.InPlaceOfRightChoir</>End-Actor
+		Para role erc_ma_hierarchical_expoasteilarion sid misc.custcontent End-Para
+
 
 		Para role brc_ma_hierarchical_kairos sid misc.custcontent End-Para
 			Rubric sid ho.ho03_gr_GR_cog.R21a.rubric End-Rubric

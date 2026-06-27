@@ -330,8 +330,9 @@ Status NA
 	Section choir__
 		Section _1345678
 			Para role bmc_odes1345678_katavasia sid website.preferences.titles_gr_GR_cog.mc.odes1345678katavasia End-Para
-				Actor <ach>sid ac.Choir</>End-Actor
-			//	Rubric <rblhi>sid ru.sb.InPlaceOfRightChoir</>End-Rubric
+				Para role brc_ma_katavasias sid misc.custcontent End-Para
+					Actor <ach>sid ac.Choir</>End-Actor
+				Para role erc_ma_katavasias sid misc.custcontent End-Para
 				Insert_section KA.sb_ka1345678 End-Insert
 			Para role emc_odes1345678_katavasia sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 		End-Section
@@ -2150,7 +2151,7 @@ Status NA
 		when-movable-cycle-day-is
 			21 use:
 				Section trd021_12345678
-					Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+					//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
 					Insert_section KA.ka1 End-Insert
 					Actor<sbhmakatavasias>sid ac.ChoirL</> End-Actor
 					Insert_section KA.ka2 End-Insert
@@ -2169,7 +2170,7 @@ Status NA
 				End-Section
 			120, 126 use:
 				Section pentecost_double
-					Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+					//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
 					Insert_section kPentecost.k1_1 End-Insert
 					Actor<sbhmakatavasias>sid ac.ChoirL</> End-Actor
 					Insert_section kPentecost.k2_1 End-Insert
@@ -2202,7 +2203,7 @@ Status NA
 				when-date-is
 					Jan 1, 6, 14 use:
 						Section epiphany_double
-							Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
 							Insert_section kEpiphany.k1_1 End-Insert
 							Actor<sbhmakatavasias>sid ac.ChoirL</> End-Actor
 							Insert_section kEpiphany.k2_1 End-Insert
@@ -2233,7 +2234,7 @@ Status NA
 						End-Section
 					Dec 25, 31 use:
 						Section christmas_double
-							Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
 							Insert_section kChristmas.k1_1 End-Insert
 							Actor<sbhmakatavasias>sid ac.ChoirL</> End-Actor
 							Insert_section kChristmas.k2_1 End-Insert
@@ -2264,7 +2265,7 @@ Status NA
 						End-Section
 					otherwise use:
 						Section single_katavasias
-							Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
 							Insert_section KA.ka1 End-Insert
 							Actor<sbhmakatavasias>sid ac.Hierarch</> End-Actor
 							Insert_section KA.ka3 End-Insert
