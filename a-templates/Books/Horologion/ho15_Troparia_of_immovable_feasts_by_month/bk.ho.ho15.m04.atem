@@ -81,10 +81,10 @@ Status NA
 		Section Apolytikion_2
 			Title role desig sid ti.Another_1hymn End-Title
 			Section hymn
-				Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1ger.mode<Tmelody>sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1ger.melody</>End-Title
-				Para role greekmelody sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1ger.greekmelody End-Para
-				Media sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1ger.text End-Media
-				Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1ger.text @ver media-off End-Hymn
+				Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion2ger.mode<Tmelody>sid me.m04.d25_gr_GR_cog.meVE.Apolytikion2ger.melody</>End-Title
+				Para role greekmelody sid me.m04.d25_gr_GR_cog.meVE.Apolytikion2ger.greekmelody End-Para
+				Media sid me.m04.d25_gr_GR_cog.meVE.Apolytikion2ger.text End-Media
+				Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion2ger.text @ver media-off End-Hymn
 			End-Section
 		End-Section
 		Break line End_Break

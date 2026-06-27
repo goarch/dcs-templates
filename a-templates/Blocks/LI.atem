@@ -22,7 +22,7 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
-			Insert_section Selector_ParishFeastday.dates_of_feastdays End-Insert
+			Insert_section sb_parish_name End-Insert
 			Para role brc_li_consecration_title sid misc.custcontent End-Para
 				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
 			Para role erc_li_consecration_title sid misc.custcontent End-Para
@@ -4540,6 +4540,15 @@ Status NA
 				Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
 				Insert_section FU._04_Everlasting_ End-Insert
 			End-Section
+		End-Section
+		Section sb_parish_name
+			Para role sbparishname rid meDA.note End-Para
+		//	Para role sbparishname rid alt1.meDA.note End-Para
+		//	Para role sbparishname rid alt2.meDA.note End-Para
+		//	Para role sbparishname rid alt3.meDA.note End-Para
+			Para role sbparishname rid trDA.note End-Para
+			Para role sbparishname rid peDA.note End-Para
+		//	Para role sbparishname rid alt1.peDA.note End-Para
 		End-Section
 
 End-Template

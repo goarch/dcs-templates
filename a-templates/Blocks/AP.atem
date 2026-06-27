@@ -1717,9 +1717,9 @@ Status NA
 			Section mary_
 				Title role desig sid ti.Apolytikion sid ti.DevoutW End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-					Media sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver End-Hymn
+					Title role mode sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+					Media sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text End-Media
+					Hymn sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -1750,9 +1750,9 @@ Status NA
 			Section mark_
 				Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+					Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m04.d25_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a media-off sid me.m04.d25_gr_GR_cog.meVE.GeneralApolytikion1.name media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 media-off End-Hymn
+					Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2414,9 +2414,9 @@ Status NA
 			Section thomas_
 				Title role desig sid ti.Apolytikion sid ti.Apostle End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+					Title role mode sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m10.d06_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m10.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+					Hymn sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2508,9 +2508,9 @@ Status NA
 			Section luke_
 				Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+					Title role mode sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m10.d18_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m10.d18_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+					Hymn sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2618,9 +2618,9 @@ Status NA
 			Section philip_
 				Title role desig sid ti.Apolytikion sid ti.Apostle End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+					Title role mode sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m11.d14_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m11.d14_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+					Hymn sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2629,9 +2629,9 @@ Status NA
 			Section matthew_
 				Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+					Title role mode sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m11.d16_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m11.d16_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+					Hymn sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2717,9 +2717,9 @@ Status NA
 			Section nicholas_
 				Title role desig sid ti.Apolytikion sid ti.SaintM End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
+					Title role mode sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 					Media sid me.m12.d06_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid me.m12.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver End-Hymn
+					Hymn sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -2816,9 +2816,9 @@ Status NA
 			Section mary_
 				Title role desig sid ti.Apolytikion sid ti.DevoutW End-Title
 				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
+					Title role mode sid tr.d057_gr_GR_cog.trVE.Apolytikion1.mode End-Title
 					Media sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver End-Hymn
+					Hymn sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -3205,9 +3205,9 @@ Status NA
 				Section mary
 					Title sid ti.Glory<Tdesig>sid ti.DevoutW</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-					//	Media sid me.m04.d01_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid me.m04.d01_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver End-Hymn
+						Title role mode sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Media sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text End-Media
+						Hymn sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -3238,9 +3238,9 @@ Status NA
 				Section mark
 					Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+						Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 						Media sid me.m04.d25_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a media-off sid me.m04.d25_gr_GR_cog.meVE.GeneralApolytikion1.name media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 media-off End-Hymn
+						Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -3879,9 +3879,9 @@ Status NA
 				Section thomas
 					Title sid ti.Glory<Tdesig>sid ti.Apostle</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+						Title role mode sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 						Media sid me.m10.d06_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m10.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+						Hymn sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -3972,9 +3972,9 @@ Status NA
 				Section luke
 					Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Media sid me.m10.d18_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m10.d18_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+					Title role mode sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+					Media sid me.m10.d18_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
+					Hymn sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -4082,9 +4082,9 @@ Status NA
 				Section philip
 					Title sid ti.Glory<Tdesig>sid ti.Apostle</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+						Title role mode sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 						Media sid me.m11.d14_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m11.d14_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+						Hymn sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -4093,9 +4093,9 @@ Status NA
 				Section matthew
 					Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
+						Title role mode sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 						Media sid me.m11.d16_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m11.d16_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver End-Hymn
+						Hymn sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -4170,9 +4170,9 @@ Status NA
 				Section nicholas
 					Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
+						Title role mode sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 						Media sid me.m12.d06_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid me.m12.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver End-Hymn
+						Hymn sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -4290,9 +4290,9 @@ Status NA
 				Section mary
 					Para role source sid ti.sourceTriodion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.DevoutW</>End-Title
-					Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
+					Title role mode sid tr.d057_gr_GR_cog.trVE.Apolytikion1.mode End-Title
 					Media sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver End-Hymn
+					Hymn sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
 		End-Section
@@ -6965,8 +6965,8 @@ Status NA
 				Section mary_
 					Title role desig sid ti.Apolytikion sid ti.DevoutW End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver media-off End-Hymn
+						Title role mode sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -6995,8 +6995,8 @@ Status NA
 				Section mark_
 					Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a media-off sid me.m04.d25_gr_GR_cog.meVE.GeneralApolytikion1.name media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 media-off End-Hymn
+						Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7555,8 +7555,8 @@ Status NA
 				Section thomas_
 					Title role desig sid ti.Apolytikion sid ti.Apostle End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m10.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+						Title role mode sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7641,8 +7641,8 @@ Status NA
 				Section luke_
 					Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m10.d18_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+						Title role mode sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7741,8 +7741,8 @@ Status NA
 				Section philip_
 					Title role desig sid ti.Apolytikion sid ti.Apostle End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m11.d14_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+						Title role mode sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7751,8 +7751,8 @@ Status NA
 				Section matthew_
 					Title role desig sid ti.Apolytikion sid ti.Evangelist End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m11.d16_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+						Title role mode sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7831,8 +7831,8 @@ Status NA
 				Section nicholas_
 					Title role desig sid ti.Apolytikion sid ti.SaintM End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid me.m12.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver media-off End-Hymn
+						Title role mode sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+						Hymn sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -7921,8 +7921,8 @@ Status NA
 				Section mary_
 					Title role desig sid ti.Apolytikion sid ti.DevoutW End-Title
 					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver media-off End-Hymn
+					Title role mode sid tr.d057_gr_GR_cog.trVE.Apolytikion1.mode End-Title
+					Hymn sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -8251,8 +8251,8 @@ Status NA
 					Section mary
 						Title sid ti.Glory<Tdesig>sid ti.DevoutW</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid me.m04.d01_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver media-off End-Hymn
+							Title role mode sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m04.d01_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -8281,8 +8281,8 @@ Status NA
 					Section mark
 						Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a media-off sid me.m04.d25_gr_GR_cog.meVE.GeneralApolytikion1.name media-off sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 media-off End-Hymn
+							Title role mode sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m04.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -8831,8 +8831,8 @@ Status NA
 					Section thomas
 						Title sid ti.Glory<Tdesig>sid ti.Apostle</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m10.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+							Title role mode sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m10.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -8916,8 +8916,8 @@ Status NA
 					Section luke
 						Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m10.d18_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+							Title role mode sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m10.d18_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -9016,8 +9016,8 @@ Status NA
 					Section philip
 						Title sid ti.Glory<Tdesig>sid ti.Apostle</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid me.m11.d14_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+							Title role mode sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m11.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -9026,8 +9026,8 @@ Status NA
 					Section matthew
 						Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.ApostoleAgie.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1 sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text1a sid me.m11.d16_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.ApostoleAgie.text2 @ver media-off End-Hymn
+							Title role mode sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m11.d16_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -9096,8 +9096,8 @@ Status NA
 					Section nicholas
 						Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
 						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid me.m12.d06_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver media-off End-Hymn
+							Title role mode sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Hymn sid me.m12.d06_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -9205,8 +9205,8 @@ Status NA
 					Section mary
 						Para role source sid ti.sourceTriodion End-Para
 						Title sid ti.Glory<Tdesig>sid ti.DevoutW</>End-Title
-						Title role mode sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text1 sid tr.d057_gr_GR_cog.trVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.text2 @ver media-off End-Hymn
+						Title role mode sid tr.d057_gr_GR_cog.trVE.Apolytikion1.mode End-Title
+						Hymn sid tr.d057_gr_GR_cog.trVE.Apolytikion1.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 			End-Section
