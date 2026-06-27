@@ -14668,6 +14668,8 @@ Status NA
 			//	Insert_section Selector_Dismissals_SB.Com_Yes.part1 End-Insert
 				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
 				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role brc_ma_ordination_subdeacon sid misc.custcontent End-Para
+				Para role erc_ma_ordination_subdeacon sid misc.custcontent End-Para
 			End-Section
 			Section mealt1_commemoration
 				Para role brc_ma_end_litanies sid misc.custcontent End-Para
@@ -14675,6 +14677,8 @@ Status NA
 					Insert_section Selector_Dismissals_SB.mealt1_Com_Yes.part1 End-Insert
 				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
 				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role brc_ma_ordination_subdeacon sid misc.custcontent End-Para
+				Para role erc_ma_ordination_subdeacon sid misc.custcontent End-Para
 			End-Section
 			Section mealt2_commemoration
 				Para role brc_ma_end_litanies sid misc.custcontent End-Para
@@ -14682,6 +14686,8 @@ Status NA
 					Insert_section Selector_Dismissals_SB.mealt2_Com_Yes.part1 End-Insert
 				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
 				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role brc_ma_ordination_subdeacon sid misc.custcontent End-Para
+				Para role erc_ma_ordination_subdeacon sid misc.custcontent End-Para
 			End-Section
 			Section nocommemoration
 				Para role brc_ma_end_litanies sid misc.custcontent End-Para
@@ -14689,6 +14695,8 @@ Status NA
 					Insert_section Selector_Dismissals_SB.Com_No.part1 End-Insert
 				Para role brc_ma_dismissal_end sid misc.custcontent End-Para
 				Para role erc_ma_dismissal_end sid misc.custcontent End-Para
+				Para role brc_ma_ordination_subdeacon sid misc.custcontent End-Para
+				Para role erc_ma_ordination_subdeacon sid misc.custcontent End-Para
 			End-Section
 		End-Section
 	End-Section
