@@ -69,7 +69,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		93, 94, 103, 105, 104, 107, 108 use:
@@ -86,7 +86,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		96, 97, 98, 100, 101 use:
@@ -102,7 +102,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		111, 112, 114, 115, 116, 117 use:
@@ -118,7 +118,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		118 use:
@@ -182,6 +182,7 @@ Status Final
 				Set_mcDay day 0 End_mcDay
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_Date month 5 day 24 year 2026 End_Date
 			End-Section
 

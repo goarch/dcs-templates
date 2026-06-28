@@ -109,6 +109,7 @@ Status Final
 				Hymn sid me.m03.d25_gr_GR_cog.meMA.AdditionalIdiomelon1.text @ver media-off End-Hymn
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_Date month 3 day 26 year 2026 End_Date
 			End-Section
 
@@ -194,6 +195,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_.hymn End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		51 use:

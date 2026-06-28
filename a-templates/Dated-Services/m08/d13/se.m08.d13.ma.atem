@@ -120,6 +120,7 @@ Status Final
 					Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 					Insert_section MA._14_Doxology__.great End-Insert
 					Insert_section AP.me1_ End-Insert
+					Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_Date month 8 day 13 year 2026 End_Date
 			End-Section
 	end-when

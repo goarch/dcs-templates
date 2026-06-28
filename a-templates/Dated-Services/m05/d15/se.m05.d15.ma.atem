@@ -65,7 +65,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		86 thru 91 use:
@@ -87,7 +87,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		93, 94, 103, 105, 104, 107, 108 use:
@@ -105,7 +105,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		96, 97, 98, 100, 101 use:
@@ -122,7 +122,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		111, 112 use:
@@ -139,7 +139,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 	end-when

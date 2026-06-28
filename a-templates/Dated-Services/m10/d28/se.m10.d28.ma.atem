@@ -86,6 +86,7 @@ Status Final
 				Insert_section MA._13_Lauds__.me__.alt1__.p_1234as56theotokosbelt1theotokos2 End-Insert
 				Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -117,6 +118,7 @@ Status Final
 				Insert_section MA._13_Lauds__.gloryboth__.me__.alt1__.gloryasgloryboth_ End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.mealt11_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 

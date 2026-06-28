@@ -64,7 +64,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		111, 112, 114, 115, 116, 117 use:
@@ -81,7 +81,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		122 thru 125 use:
@@ -98,7 +98,7 @@ Status Final
 				Insert_section MA._18_End__.ektenia_wisdom End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		otherwise use:
@@ -133,6 +133,7 @@ Status Final
 						Insert_section MA._13_Lauds__.oc__.sunday End-Insert
 						Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 				Saturday use:
 					Section Instance_Saturday
@@ -168,7 +169,7 @@ Status Final
 						Insert_section MA._18_End__.ektenia_wisdom End-Insert
 						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 						Rubric sid ru.Or End-Rubric
-						Insert_section MA._20_Dismissal__.commemoration End-Insert
+						Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 					End-Section
 			end-when
 	end-when

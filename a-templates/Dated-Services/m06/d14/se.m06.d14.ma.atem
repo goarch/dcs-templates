@@ -96,7 +96,7 @@ Status Final
 					Insert_section MA._18_End__.ektenia_wisdom End-Insert
 					Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 					Rubric sid ru.Or End-Rubric
-					Insert_section MA._20_Dismissal__.commemoration End-Insert
+					Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 				End-Section
 
 			114 use:
@@ -114,7 +114,7 @@ Status Final
 					Insert_section MA._18_End__.ektenia_wisdom End-Insert
 					Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 					Rubric sid ru.Or End-Rubric
-					Insert_section MA._20_Dismissal__.commemoration End-Insert
+					Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 				End-Section
 
 			111, 112, 115, 116, 117, 122, 123, 124, 125 use:
@@ -132,7 +132,7 @@ Status Final
 					Insert_section MA._18_End__.ektenia_wisdom End-Insert
 					Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 					Rubric sid ru.Or End-Rubric
-					Insert_section MA._20_Dismissal__.commemoration End-Insert
+					Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 				End-Section
 			otherwise use:
 				when-name-of-day-is
@@ -174,6 +174,7 @@ Status Final
 							Insert_section MA._13_Lauds__.me__.p_ve456as6hierarchs62 End-Insert
 							Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 							Insert_section MA._14_Doxology__.sunday End-Insert
+							Insert_section MA._20_Dismissal__.sb End-Insert
 						End-Section
 
 					otherwise use:
@@ -213,7 +214,7 @@ Status Final
 							Insert_section MA._18_End__.ektenia_wisdom End-Insert
 							Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 							Rubric sid ru.Or End-Rubric
-							Insert_section MA._20_Dismissal__.commemoration End-Insert
+							Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 						End-Section
 				end-when
 	end-when

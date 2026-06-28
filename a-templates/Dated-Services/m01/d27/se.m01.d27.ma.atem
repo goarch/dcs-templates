@@ -88,6 +88,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_.hymn End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			when-name-of-day-is
@@ -128,6 +129,7 @@ Status Final
 						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 						Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 				otherwise use:
 					Section Instance_Weekday
@@ -157,6 +159,7 @@ Status Final
 						Insert_section MA._13_Lauds__.both__.theotokion__.mode4 End-Insert
 						Insert_section MA._14_Doxology__.great End-Insert
 						Insert_section AP.me1_ End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 			end-when
 	end-when

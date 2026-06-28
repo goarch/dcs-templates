@@ -176,11 +176,12 @@ Status Final
 				Insert_section MA._16_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Insert_section MA._18_End__.lent_ End-Insert
 				Insert_section MA._18_End__.rubrics__.lent_begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
 				Set_mcDay day 28 End_mcDay
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_mcDay day 0 End_mcDay
 			End-Section
 
@@ -222,7 +223,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		29, 43 use:
@@ -316,7 +317,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use: // I had to insert this logic, otherwise the template would not process day 35 correctly.
 		when-movable-cycle-day-is
@@ -388,7 +389,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		41 use:
@@ -594,7 +595,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.bf End-Insert
 				Insert_section AP.me1_.hymn End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		end-when

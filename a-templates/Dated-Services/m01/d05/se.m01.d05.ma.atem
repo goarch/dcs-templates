@@ -83,6 +83,7 @@ Status Final
 				Insert_section MA._16_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		Saturday use:
 			Section Instance_Saturday
@@ -107,6 +108,7 @@ Status Final
 				Insert_section MA._16_Aposticha__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.bf End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday

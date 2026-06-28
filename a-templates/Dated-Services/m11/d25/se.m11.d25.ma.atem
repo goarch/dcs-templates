@@ -94,6 +94,7 @@ Status Final
 				Set_Date month 11 day 25 year 2026 End_Date
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -163,6 +164,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.me__.bothasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.af End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 

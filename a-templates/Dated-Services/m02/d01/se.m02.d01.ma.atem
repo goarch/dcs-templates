@@ -89,6 +89,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		otherwise use:
@@ -131,6 +132,7 @@ Status Final
 						Insert_section MA._13_Lauds__.me__.p_apos1123as56meeting12 End-Insert
 						Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 				otherwise use:
 					Section Instance_Weekday
@@ -171,7 +173,7 @@ Status Final
 						Insert_section MA._18_End__.ektenia_wisdom End-Insert
 						Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 						Rubric sid ru.Or End-Rubric
-						Insert_section MA._20_Dismissal__.commemoration End-Insert
+						Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 					End-Section
 			end-when
 	end-when

@@ -74,7 +74,8 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.theotokion__.mode5 End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		14 use:
@@ -138,7 +139,7 @@ Status Final
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section TI.a.me.com1 End-Insert
 				Insert_section AP.me1_.hymn End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		23 use:
@@ -174,11 +175,12 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.theotokion__.mode5 End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Insert_section MA._15_Litanies__.aftergreatdoxology End-Insert
 				Insert_section MA._18_End__.wisdom123.part1 End-Insert
 				Insert_section MA._18_End__.rubrics__.begin_first_hour End-Insert
 				Rubric sid ru.Or End-Rubric
-				Insert_section MA._20_Dismissal__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.nocommemoration End-Insert
 			End-Section
 
 		25, 32, 39 use:
@@ -244,7 +246,8 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.theotokion__.mode5 End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.tr1_ End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		29 use:
@@ -290,7 +293,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_ End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		30, 37, 44 use:
@@ -347,7 +350,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.tr__.gloryasglory_.hymn End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		43 use:

@@ -86,7 +86,8 @@ Status Final
 				Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		28 use:
@@ -136,7 +137,7 @@ Status Final
 				Insert_section TI.gb.me.com1 End-Insert
 				Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		30, 44 use:
@@ -206,7 +207,7 @@ Status Final
 				Insert_section MA._13_Lauds__.me__.p_1123as56annunciation12 End-Insert
 				Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_ End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		37, 51, 58 use:

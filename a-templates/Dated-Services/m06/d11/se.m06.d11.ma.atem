@@ -78,6 +78,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ga.apostles_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		111, 112, 114, 115, 116, 117, 122, 123, 124, 125 use:
@@ -109,6 +110,7 @@ Status Final
 				Insert_section MA._16_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ga.apostles_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		otherwise use:
@@ -145,6 +147,7 @@ Status Final
 						Insert_section MA._13_Lauds__.me__.p_1123as56apostles12 End-Insert
 						Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 						Insert_section MA._14_Doxology__.sunday End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 
 				otherwise use:
@@ -172,6 +175,7 @@ Status Final
 						Insert_section MA._13_Lauds__.both__.theotokion__.mode5 End-Insert
 						Insert_section MA._14_Doxology__.great End-Insert
 						Insert_section AP.ga.apostles_ End-Insert
+						Insert_section MA._20_Dismissal__.sb End-Insert
 					End-Section
 			end-when
 	end-when

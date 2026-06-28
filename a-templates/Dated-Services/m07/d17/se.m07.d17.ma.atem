@@ -85,7 +85,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.me__.JulHF End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -117,7 +117,8 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.theotokion__.mode6_vine__.womanmartyr End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ga.womanmartyr_ End-Insert
-				Insert_section MA._20_Dismissal__.sb__.commemoration End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 

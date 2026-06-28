@@ -97,6 +97,7 @@ Status Final
 					Insert_section MA._13_Lauds__.both__.pe__.gloryasboth_.hymn End-Insert
 					Insert_section MA._14_Doxology__.great End-Insert
 					Insert_section AP.ganame.May10__.simon_ End-Insert
+					Insert_section MA._20_Dismissal__.sb End-Insert
 				End-Section
 			End-Section
 
@@ -136,6 +137,7 @@ Status Final
 				Set_mcDay day 0 End_mcDay
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.af End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		86 thru 90 use:
@@ -173,6 +175,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.pe__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ganame.May10__.simon_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		91 use:
@@ -246,6 +249,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.pe__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ganame.May10__.simon_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		94, 105 use:

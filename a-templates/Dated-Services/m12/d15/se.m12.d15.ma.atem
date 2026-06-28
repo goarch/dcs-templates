@@ -84,6 +84,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.me__.DecFF End-Insert
 				Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -109,6 +110,7 @@ Status Final
 				Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode2 End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 End-Template

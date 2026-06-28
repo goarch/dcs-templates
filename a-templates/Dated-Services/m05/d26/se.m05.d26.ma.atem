@@ -115,6 +115,7 @@ Status Final
 				Insert_section VE._08_Aposticha__.both__.pe__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.me1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_Date month 5 day 26 year 2026 End_Date
 			End-Section
 
@@ -187,6 +188,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.pe__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.pe1_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 				Set_Date month 5 day 26 year 2026 End_Date
 			End-Section
 

@@ -80,6 +80,7 @@ Status Final
 				Set_Date month 12 day 26 year 2026 End_Date
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.af End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 
 		Sunday use:
@@ -169,6 +170,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.me__.gloryasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.af End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 

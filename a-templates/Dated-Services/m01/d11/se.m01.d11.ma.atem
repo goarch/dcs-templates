@@ -88,6 +88,7 @@ Status Final
 				Insert_section MA._13_Lauds__.me__.p_123as6devoutmen21 End-Insert
 				Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
 				Insert_section MA._14_Doxology__.sunday End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
@@ -120,6 +121,7 @@ Status Final
 				Insert_section MA._13_Lauds__.both__.me__.bothasboth_.hymn End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
 				Insert_section AP.ganame.Jan11__.theodosios_ End-Insert
+				Insert_section MA._20_Dismissal__.sb End-Insert
 			End-Section
 	end-when
 End-Template
