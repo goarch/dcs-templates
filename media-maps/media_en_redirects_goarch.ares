@@ -219,7 +219,7 @@ eo.e03.eo.Exaposteilarion.c1211.score.b.url.path = "/media/m/dedes/en/eo/e03/b/e
 eo.e03.eo.Theotokion.c1211.score.w.arranger = "SDedes/"
 eo.e03.eo.Theotokion.c1211.score.w.url.path = "/media/m/dedes/en/eo/e03/w/eotheotokion.pdf"
 eo.e03.eo.Theotokion.c1211.score.b.arranger = "SDedes/"
-eo.e03.eo.Theotokion.c1211.score.b.url.path = "/media/m/dedes/en/eo/e03/w/eotheotokion.pdf"
+eo.e03.eo.Theotokion.c1211.score.b.url.path = "/media/m/dedes/en/eo/e03/b/eotheotokion.pdf"
 
 eo.e03.eo.Doxasticon.c1211.score.w.arranger = "SDedes/"
 eo.e03.eo.Doxasticon.c1211.score.w.url.path = "/media/m/dedes/en/eo/e03/w/eodoxasticon.pdf"
@@ -8836,22 +8836,22 @@ me.m07.d12.alt1.meVE.SticGlory.c1211.score.b.arranger = "SDedes/"
 me.m07.d12.alt1.meVE.SticGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m07/d12/ve/b/alt1sticglory.pdf"
 
 me.m07.d12.alt1.meVE.Lity1.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.Lity1.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lity1.pdf"
+me.m07.d12.alt1.meVE.Lity1.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lity1.pdf"
 
 me.m07.d12.alt1.meVE.Lity2.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.Lity2.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lity2.pdf"
+me.m07.d12.alt1.meVE.Lity2.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lity2.pdf"
 
 me.m07.d12.alt1.meVE.Lity3.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.Lity3.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lity3.pdf"
+me.m07.d12.alt1.meVE.Lity3.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lity3.pdf"
 
 me.m07.d12.alt1.meVE.Lity4.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.Lity4.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lity4.pdf"
+me.m07.d12.alt1.meVE.Lity4.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lity4.pdf"
 
 me.m07.d12.alt1.meVE.Lity5.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.Lity5.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lity5.pdf"
+me.m07.d12.alt1.meVE.Lity5.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lity5.pdf"
 
 me.m07.d12.alt1.meVE.LityGlory.c1211.score.b.arranger = "GCremeens/"
-me.m07.d12.alt1.meVE.LityGlory.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/w/alt1lityglory.pdf"
+me.m07.d12.alt1.meVE.LityGlory.c1211.score.b.url.path = "/media/m/cremeens/en/me/m07/d12/ve/b/alt1lityglory.pdf"
 
 me.m07.d12.alt1.meVE.Aposticha1.c1211.score.w.arranger = "SDedes/"
 me.m07.d12.alt1.meVE.Aposticha1.c1211.score.w.url.path = "/media/m/dedes/en/me/m07/d12/ve/w/alt1aposticha1.pdf"
@@ -10294,15 +10294,15 @@ me.m08.d29.meVE.Stichera01.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d2
 me.m08.d29.meVE.Stichera01.c1211.score.b.arranger = "SDedes/"
 me.m08.d29.meVE.Stichera01.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/stichera01.pdf"
 
-//me.m08.d29.meVE.Stichera02.c1251.score.w.arranger = "SDedes/"
-//me.m08.d29.meVE.Stichera02.c1251.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/stichera02.pdf"
-//me.m08.d29.meVE.Stichera02.c1251.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Stichera02.c1251.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/stichera02.pdf"
+//me.m08.d29.meVE.Stichera02.c1211.score.w.arranger = "SDedes/"
+//me.m08.d29.meVE.Stichera02.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/stichera02.pdf"
+me.m08.d29.meVE.Stichera02.c1211.score.b.arranger = "SDedes/"
+me.m08.d29.meVE.Stichera02.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/stichera02.pdf"
 
 //me.m08.d29.meVE.Stichera03.c1251.score.w.arranger = "SDedes/"
 //me.m08.d29.meVE.Stichera03.c1251.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/stichera03.pdf"
-//me.m08.d29.meVE.Stichera03.c1251.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Stichera03.c1251.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/stichera03.pdf"
+me.m08.d29.meVE.Stichera03.c1211.score.b.arranger = "SDedes/"
+me.m08.d29.meVE.Stichera03.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/stichera03.pdf"
 
 me.m08.d29.meVE.Stichera04.c1211.score.w.arranger = "SDedes/"
 me.m08.d29.meVE.Stichera04.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/stichera04.pdf"
@@ -10324,15 +10324,15 @@ me.m08.d29.meVE.Aposticha1.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d2
 me.m08.d29.meVE.Aposticha1.c1211.score.b.arranger = "SDedes/"
 me.m08.d29.meVE.Aposticha1.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha1.pdf"
 
-//me.m08.d29.meVE.Aposticha2.c1251.score.w.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha2.c1251.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha2.pdf"
-//me.m08.d29.meVE.Aposticha2.c1251.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha2.c1251.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha2.pdf"
+//me.m08.d29.meVE.Aposticha2.c1211.score.w.arranger = "SDedes/"
+//me.m08.d29.meVE.Aposticha2.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha2.pdf"
+//me.m08.d29.meVE.Aposticha2.c1211.score.b.arranger = "SDedes/"
+//me.m08.d29.meVE.Aposticha2.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha2.pdf"
 
-//me.m08.d29.meVE.Aposticha3.c1251.score.w.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha3.c1251.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha3.pdf"
-//me.m08.d29.meVE.Aposticha3.c1251.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha3.c1251.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha3.pdf"
+//me.m08.d29.meVE.Aposticha3.c1211.score.w.arranger = "SDedes/"
+//me.m08.d29.meVE.Aposticha3.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha3.pdf"
+//me.m08.d29.meVE.Aposticha3.c1211.score.b.arranger = "SDedes/"
+//me.m08.d29.meVE.Aposticha3.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha3.pdf"
 
 me.m08.d29.meVE.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m08.d29.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposglory.pdf"
@@ -22768,7 +22768,7 @@ pe.d073.peVE.SticGlory.c1211.score.b.url.path = "/media/m/dedes/en/pe/d073/ve/b/
 pe.d073.peVE.SticBoth.c1211.score.w.arranger = "SDedes/"
 pe.d073.peVE.SticBoth.c1211.score.w.url.path = "/media/m/dedes/en/oc/m3/d1/ve/w/stictheotokion.pdf"
 pe.d073.peVE.SticBoth.c1211.score.b.arranger = "SDedes/"
-pe.d073.peVE.SticBoth.c1211.score.b.url.path = "/media/m/dedes/en/oc/m3/d1/ve/w/stictheotokion.pdf"
+pe.d073.peVE.SticBoth.c1211.score.b.url.path = "/media/m/dedes/en/oc/m3/d1/ve/b/stictheotokion.pdf"
 //pe.d073.peVE.SticBoth.c1211.a1.singer = "SDedes/"
 //pe.d073.peVE.SticBoth.c1211.a1.url.path = "/media/a/en_public/oc/m3/d1/ve/stictheotokion.mp3"
 
@@ -22862,7 +22862,7 @@ pe.d074.peVE.Stichera06.c1211.score.b.url.path = "/media/m/dedes/en/pe/d074/ve/b
 pe.d074.peVE.MM.Stichera1234as3456.c1211.score.w.arranger = "SDedes/"
 pe.d074.peVE.MM.Stichera1234as3456.c1211.score.w.url.path = "/media/m/dedes/en/pe/d074/ve/w/stichera1234as3456.pdf"
 pe.d074.peVE.MM.Stichera1234as3456.c1211.score.b.arranger = "SDedes/"
-pe.d074.peVE.MM.Stichera1234as3456.c1211.score.b.url.path = "/media/m/dedes/en/pe/d074/ve/w/stichera1234as3456.pdf"
+pe.d074.peVE.MM.Stichera1234as3456.c1211.score.b.url.path = "/media/m/dedes/en/pe/d074/ve/b/stichera1234as3456.pdf"
 
 pe.d074.peVE.SticGlory.c1211.score.w.arranger = "SDedes/"
 pe.d074.peVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/pe/d074/ve/w/sticglory.pdf"
