@@ -10326,13 +10326,13 @@ me.m08.d29.meVE.Aposticha1.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d2
 
 //me.m08.d29.meVE.Aposticha2.c1211.score.w.arranger = "SDedes/"
 //me.m08.d29.meVE.Aposticha2.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha2.pdf"
-//me.m08.d29.meVE.Aposticha2.c1211.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha2.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha2.pdf"
+me.m08.d29.meVE.Aposticha2.c1211.score.b.arranger = "SDedes/"
+me.m08.d29.meVE.Aposticha2.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha2.pdf"
 
 //me.m08.d29.meVE.Aposticha3.c1211.score.w.arranger = "SDedes/"
 //me.m08.d29.meVE.Aposticha3.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposticha3.pdf"
-//me.m08.d29.meVE.Aposticha3.c1211.score.b.arranger = "SDedes/"
-//me.m08.d29.meVE.Aposticha3.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha3.pdf"
+me.m08.d29.meVE.Aposticha3.c1211.score.b.arranger = "SDedes/"
+me.m08.d29.meVE.Aposticha3.c1211.score.b.url.path = "/media/m/dedes/en/me/m08/d29/ve/b/aposticha3.pdf"
 
 me.m08.d29.meVE.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m08.d29.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m08/d29/ve/w/aposglory.pdf"
