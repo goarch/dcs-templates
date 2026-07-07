@@ -327,7 +327,7 @@ Status NA
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 			Para role erc_li_diptychs_additional_bishop sid misc.custcontent End-Para
 		End-Section
-		Section dismissal_part2
+		Section hierarchical_dismissal_part2
 			Para role brc_li_hierarchical_dismissal sid misc.custcontent End-Para
 			Actor <ach>sid ac.Choir</>End-Actor
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
