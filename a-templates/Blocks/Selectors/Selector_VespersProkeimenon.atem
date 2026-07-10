@@ -279,7 +279,8 @@ Status NA
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode4</>End-Title
 								Media sid ho.ho10_gr_GR_cog.hoVE.MM.GoodFridayProkeimenon.text End-Media
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text @ver media-off End-Hymn
-								Actor<ablch>sid ac.sb.BlCh</>End-Actor
+								Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+								Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text media-off End-Hymn
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text End-Hymn
@@ -290,7 +291,8 @@ Status NA
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 								Media sid ho.ho10_gr_GR_cog.hoVE.MM.BrightMondayEveningProkeimenon.text End-Media
 								Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v1.text @ver media-off End-Hymn
-								Actor<ablch>sid ac.sb.BlCh</>End-Actor
+								Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+								Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 								Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v2.text End-Verse
 								Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v1.text End-Hymn
 								Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v3.text End-Verse
@@ -303,7 +305,8 @@ Status NA
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode8</>End-Title
 								Media sid ho.ho10_gr_GR_cog.hoVE.MM.BrightTuesdayEveningProkeimenon.text End-Media
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d074.prokeimenon.v1.text @ver media-off End-Hymn
-								Actor<ablch>sid ac.sb.BlCh</>End-Actor
+								Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+								Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d074.prokeimenon.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d074.prokeimenon.v1.text End-Hymn
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d074.prokeimenon.v3.text End-Verse
@@ -316,7 +319,8 @@ Status NA
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 								Media sid ho.ho10_gr_GR_cog.hoVE.MM.BrightWednesdayEveningProkeimenon.text End-Media
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d075.prokeimenon.v1.text @ver media-off End-Hymn
-								Actor<ablch>sid ac.sb.BlCh</>End-Actor
+								Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+								Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d075.prokeimenon.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d075.prokeimenon.v1.text End-Hymn
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d075.prokeimenon.v3.text End-Verse
@@ -329,7 +333,8 @@ Status NA
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 								Media sid ho.ho10_gr_GR_cog.hoVE.MM.BrightThursdayEveningProkeimenon.text End-Media
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d076.prokeimenon.v1.text @ver media-off End-Hymn
-								Actor<ablch>sid ac.sb.BlCh</>End-Actor
+								Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+								Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d076.prokeimenon.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.pe.d076.prokeimenon.v1.text End-Hymn
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.pe.d076.prokeimenon.v3.text End-Verse
@@ -358,7 +363,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode8</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.SundayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.sunday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.sunday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.sunday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.sunday.v1.text End-Hymn
@@ -368,7 +374,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode4</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.MondayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.monday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.monday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.monday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.monday.v1.text End-Hymn
@@ -378,7 +385,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode1</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.TuesdayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.tuesday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.tuesday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.tuesday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.tuesday.v1.text End-Hymn
@@ -388,7 +396,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode5</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.WednesdayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.wednesday.v1.text End-Hymn
@@ -398,7 +407,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode6</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.ThursdayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.thursday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.thursday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.thursday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.thursday.v1.text End-Hymn
@@ -408,7 +418,8 @@ Status NA
 											Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 											Media sid ho.ho10_gr_GR_cog.hoVE.MM.FridayProkeimenon.text End-Media
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.friday.v1.text @ver media-off End-Hymn
-											Actor<ach>sid ac.sb.BlCh</>End-Actor
+											Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+											Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.friday.v1.text media-off End-Hymn
 											Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.friday.v2.text End-Verse
 											Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.friday.v1.text End-Hymn
@@ -432,7 +443,8 @@ Status NA
 			Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.GreatProkeimenonTisTheosMegas.text End-Media
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great1.v1.text @ver media-off End-Hymn
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
+			Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+			Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great1.v2.text End-Verse
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great1.v1.text End-Hymn
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great1.v3.text End-Verse
@@ -444,7 +456,8 @@ Status NA
 			Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.GreatProkeimenonOTheosImon.text End-Media
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v1.text @ver media-off End-Hymn
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
+			Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+			Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v2.text End-Verse
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v1.text End-Hymn
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.great2.v3.text End-Verse
@@ -456,7 +469,8 @@ Status NA
 			Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode8</>End-Title
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.GreatProkeimenonLent1.text End-Media
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent1.v1.text @ver media-off End-Hymn
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
+			Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+			Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent1.v2.text End-Verse
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent1.v1.text End-Hymn
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent1.v3.text End-Verse
@@ -468,7 +482,8 @@ Status NA
 			Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode8</>End-Title
 			Media sid ho.ho10_gr_GR_cog.hoVE.MM.GreatProkeimenonLent2.text End-Media
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v1.text @ver media-off End-Hymn
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
+			Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+			Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v2.text End-Verse
 			Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v1.text End-Hymn
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v3.text End-Verse
@@ -480,7 +495,8 @@ Status NA
 			Title role mode sid misc.Mode8 End-Title
 			Media sid oc.m8.d7_gr_GR_cog.ocMA.MM.Alleluia.text End-Media
 			Hymn sid pr.Alleluia3.text End-Hymn
-			Actor<ablch>sid ac.sb.BlCh</>End-Actor
+			Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+			Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Hymn sid pr.Alleluia3.text End-Hymn
 			Insert_section PsalmVerses.forDeceased.verse3 End-Insert
 			Hymn sid pr.Alleluia3.text End-Hymn
