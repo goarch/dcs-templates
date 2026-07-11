@@ -685,51 +685,51 @@ Status NA
 		Section s
 			Section _00_saint_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.SaintM</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.SaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.BothNow<Tdesig> sid ti.SaintW</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.SaintW</>End-Title
 				End-Section
 				Section wp
-					Title sid ti.BothNow<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 			End-Section
 			Section _01_apostle_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.Apostle</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Apostle</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.Apostles</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Apostles</>End-Title
 				End-Section
 				Section twelve
-					Title sid ti.BothNow<Tdesig> sid ti.TheTwelve</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.TheTwelve</>End-Title
 				End-Section
 			End-Section
 			Section _02_archangel
-				Title sid ti.BothNow<Tdesig> sid ti.Archangel</>End-Title
+				Title sid ti.BothNow<Tdesig>sid ti.Archangel</>End-Title
 			End-Section
 			Section _03_bodiless
-				Title sid ti.BothNow<Tdesig> sid ti.Bodiless</>End-Title
+				Title sid ti.BothNow<Tdesig>sid ti.Bodiless</>End-Title
 			End-Section
 			Section _04_equaltoapostles_
 	//			Section m
-	//				Title sid ti.BothNow<Tdesig> sid TouIsapostolou</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TouIsapostolou</>End-Title
 	//			End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.EqualsOfApostles</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.EqualsOfApostles</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.BothNow<Tdesig> sid TisIsapostolou</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TisIsapostolou</>End-Title
 	//			End-Section
 			End-Section
 			Section _05_evangelist
-				Title sid ti.BothNow<Tdesig> sid ti.Evangelist</>End-Title
+				Title sid ti.BothNow<Tdesig>sid ti.Evangelist</>End-Title
 			End-Section
 			Section _06_forerunner
-				Title sid ti.BothNow<Tdesig> sid ti.Forerunner</>End-Title
+				Title sid ti.BothNow<Tdesig>sid ti.Forerunner</>End-Title
 			End-Section
 			Section _07_hierarch_
 				Section m
@@ -741,68 +741,68 @@ Status NA
 			End-Section
 			Section _08_hieromartyr_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.Hieromartyr</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Hieromartyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.Hieromartyrs</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Hieromartyrs</>End-Title
 				End-Section
 			End-Section
 			Section _09_martyr_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.Martyr</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Martyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.BothNow<Tdesig> sid ti.MartyrW</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid ti.MartyrW</>End-Title
 	//			End-Section
 				Section wp
-					Title sid ti.BothNow<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 			End-Section
 			Section _10_monastic_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.DevoutSaintM</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.DevoutSaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.DevoutSaints</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.DevoutSaints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.BothNow<Tdesig> sid ti.DevoutW</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.DevoutW</>End-Title
 				End-Section
 	//			Section wp
-	//				Title sid ti.BothNow<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _11_monasticmartyr_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.DevoutMartyrM</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.DevoutMartyrM</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.BothNow<Tdesig> sid TonOsiomartyron</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TonOsiomartyron</>End-Title
 	//			End-Section
 	//			Section w
-	//				Title sid ti.BothNow<Tdesig> sid ti.DevoutMartyrW</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid ti.DevoutMartyrW</>End-Title
 	//			End-Section
 	//			Section wp
-	//				Title sid ti.BothNow<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _13_prophet_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.Prophet</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Prophet</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.BothNow<Tdesig> sid TonProfiton</>End-Title
+	//				Title sid ti.BothNow<Tdesig>sid TonProfiton</>End-Title
 	//			End-Section
 			End-Section
 			Section _15_righteous_
 				Section m
-					Title sid ti.BothNow<Tdesig> sid ti.RighteousM</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.RighteousM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.BothNow<Tdesig> sid ti.Righteous</>End-Title
+					Title sid ti.BothNow<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
 			End-Section
 			Section _16_theotokos
@@ -1540,51 +1540,51 @@ Status NA
 		Section s
 			Section _00_saint_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.SaintM</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.Glory<Tdesig> sid ti.SaintW</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.SaintW</>End-Title
 				End-Section
 				Section wp
-					Title sid ti.Glory<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 			End-Section
 			Section _01_apostle_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.Apostle</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Apostle</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.Apostles</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Apostles</>End-Title
 				End-Section
 				Section twelve
-					Title sid ti.Glory<Tdesig> sid ti.TheTwelve</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.TheTwelve</>End-Title
 				End-Section
 			End-Section
 			Section _02_archangel
-				Title sid ti.Glory<Tdesig> sid ti.Archangel</>End-Title
+				Title sid ti.Glory<Tdesig>sid ti.Archangel</>End-Title
 			End-Section
 			Section _03_bodiless
-				Title sid ti.Glory<Tdesig> sid ti.Bodiless</>End-Title
+				Title sid ti.Glory<Tdesig>sid ti.Bodiless</>End-Title
 			End-Section
 			Section _04_equaltoapostles_
 	//			Section m
-	//				Title sid ti.Glory<Tdesig> sid TouIsapostolou</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TouIsapostolou</>End-Title
 	//			End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.EqualsOfApostles</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.EqualsOfApostles</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.Glory<Tdesig> sid TisIsapostolou</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TisIsapostolou</>End-Title
 	//			End-Section
 			End-Section
 			Section _05_evangelist
-				Title sid ti.Glory<Tdesig> sid ti.Evangelist</>End-Title
+				Title sid ti.Glory<Tdesig>sid ti.Evangelist</>End-Title
 			End-Section
 			Section _06_forerunner
-				Title sid ti.Glory<Tdesig> sid ti.Forerunner</>End-Title
+				Title sid ti.Glory<Tdesig>sid ti.Forerunner</>End-Title
 			End-Section
 			Section _07_hierarch_
 				Section m
@@ -1596,52 +1596,52 @@ Status NA
 			End-Section
 			Section _08_hieromartyr_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.Hieromartyr</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Hieromartyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.Hieromartyrs</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Hieromartyrs</>End-Title
 				End-Section
 			End-Section
 			Section _09_martyr_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.Martyr</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Martyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 				Section w
-					Title sid ti.Glory<Tdesig> sid ti.MartyrW</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.MartyrW</>End-Title
 				End-Section
 				Section wp
-					Title sid ti.Glory<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 			End-Section
 			Section _10_monastic_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.DevoutSaintM</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.DevoutSaints</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.DevoutSaints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.Glory<Tdesig> sid ti.DevoutW</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.DevoutW</>End-Title
 				End-Section
 	//			Section wp
-	//				Title sid ti.Glory<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _11_monasticmartyr_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.DevoutMartyrM</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.DevoutMartyrM</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.Glory<Tdesig> sid TonOsiomartyron</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TonOsiomartyron</>End-Title
 	//			End-Section
 	//			Section w
-	//				Title sid ti.Glory<Tdesig> sid ti.DevoutMartyrW</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid ti.DevoutMartyrW</>End-Title
 	//			End-Section
 	//			Section wp
-	//				Title sid ti.Glory<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _12_myrrhbearer_
@@ -1654,26 +1654,26 @@ Status NA
 			End-Section
 			Section _13_prophet_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.Prophet</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Prophet</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.Glory<Tdesig> sid TonProfiton</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TonProfiton</>End-Title
 	//			End-Section
 			End-Section
 			Section _14_protomartyr_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.ProtomartyrM</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.ProtomartyrM</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.Glory<Tdesig> sid TisProtomartyros</>End-Title
+	//				Title sid ti.Glory<Tdesig>sid TisProtomartyros</>End-Title
 	//			End-Section
 			End-Section
 			Section _15_righteous_
 				Section m
-					Title sid ti.Glory<Tdesig> sid ti.RighteousM</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.RighteousM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.Glory<Tdesig> sid ti.Righteous</>End-Title
+					Title sid ti.Glory<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
 			End-Section
 			Section _16_theotokos
@@ -1826,51 +1826,51 @@ Status NA
 		Section s
 			Section _00_saint_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.SaintM</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.SaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.GloryBothNow<Tdesig> sid ti.SaintW</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.SaintW</>End-Title
 				End-Section
 				Section wp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Saints</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Saints</>End-Title
 				End-Section
 			End-Section
 			Section _01_apostle_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Apostle</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Apostle</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Apostles</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Apostles</>End-Title
 				End-Section
 				Section twelve
-					Title sid ti.GloryBothNow<Tdesig> sid ti.TheTwelve</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.TheTwelve</>End-Title
 				End-Section
 			End-Section
 			Section _02_archangel
-				Title sid ti.GloryBothNow<Tdesig> sid ti.Archangel</>End-Title
+				Title sid ti.GloryBothNow<Tdesig>sid ti.Archangel</>End-Title
 			End-Section
 			Section _03_bodiless
-				Title sid ti.GloryBothNow<Tdesig> sid ti.Bodiless</>End-Title
+				Title sid ti.GloryBothNow<Tdesig>sid ti.Bodiless</>End-Title
 			End-Section
 			Section _04_equaltoapostles_
 	//			Section m
-	//				Title sid ti.GloryBothNow<Tdesig> sid TouIsapostolou</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TouIsapostolou</>End-Title
 	//			End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.EqualsOfApostles</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.EqualsOfApostles</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.GloryBothNow<Tdesig> sid TisIsapostolou</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TisIsapostolou</>End-Title
 	//			End-Section
 			End-Section
 			Section _05_evangelist
-				Title sid ti.GloryBothNow<Tdesig> sid ti.Evangelist</>End-Title
+				Title sid ti.GloryBothNow<Tdesig>sid ti.Evangelist</>End-Title
 			End-Section
 			Section _06_forerunner
-				Title sid ti.GloryBothNow<Tdesig> sid ti.Forerunner</>End-Title
+				Title sid ti.GloryBothNow<Tdesig>sid ti.Forerunner</>End-Title
 			End-Section
 			Section _07_hierarch_
 				Section m
@@ -1882,68 +1882,68 @@ Status NA
 			End-Section
 			Section _08_hieromartyr_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Hieromartyr</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Hieromartyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Hieromartyrs</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Hieromartyrs</>End-Title
 				End-Section
 			End-Section
 			Section _09_martyr_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Martyr</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Martyr</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 	//			Section w
-	//				Title sid ti.GloryBothNow<Tdesig> sid ti.MartyrW</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid ti.MartyrW</>End-Title
 	//			End-Section
 				Section wp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Martyrs</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Martyrs</>End-Title
 				End-Section
 			End-Section
 			Section _10_monastic_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.DevoutSaintM</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.DevoutSaintM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.DevoutSaints</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.DevoutSaints</>End-Title
 				End-Section
 				Section w
-					Title sid ti.GloryBothNow<Tdesig> sid ti.DevoutW</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.DevoutW</>End-Title
 				End-Section
 	//			Section wp
-	//				Title sid ti.GloryBothNow<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _11_monasticmartyr_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.DevoutMartyrM</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.DevoutMartyrM</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.GloryBothNow<Tdesig> sid TonOsiomartyron</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TonOsiomartyron</>End-Title
 	//			End-Section
 	//			Section w
-	//				Title sid ti.GloryBothNow<Tdesig> sid ti.DevoutMartyrW</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid ti.DevoutMartyrW</>End-Title
 	//			End-Section
 	//			Section wp
-	//				Title sid ti.GloryBothNow<Tdesig> sid TonOsionGynaikon</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TonOsionGynaikon</>End-Title
 	//			End-Section
 			End-Section
 			Section _13_prophet_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Prophet</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Prophet</>End-Title
 				End-Section
 	//			Section mp
-	//				Title sid ti.GloryBothNow<Tdesig> sid TonProfiton</>End-Title
+	//				Title sid ti.GloryBothNow<Tdesig>sid TonProfiton</>End-Title
 	//			End-Section
 			End-Section
 			Section _15_righteous_
 				Section m
-					Title sid ti.GloryBothNow<Tdesig> sid ti.RighteousM</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.RighteousM</>End-Title
 				End-Section
 				Section mp
-					Title sid ti.GloryBothNow<Tdesig> sid ti.Righteous</>End-Title
+					Title sid ti.GloryBothNow<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
 			End-Section
 			Section _16_theotokos

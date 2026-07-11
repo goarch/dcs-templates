@@ -198,7 +198,7 @@ Status NA
 			Dialog<ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor<apr>sid ac.Priest</>End-Actor
 			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
-			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
 			Actor<acl>sid ac.ClergyAndPeople</>End-Actor
 			Title role mode sid misc.Mode2 End-Title
@@ -218,7 +218,7 @@ Status NA
 			Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor<apr>sid ac.Priest</>End-Actor
 			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
-			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 			Actor<acl>sid ac.Clergy</>End-Actor
 			Title role mode sid misc.Mode2 End-Title
@@ -238,7 +238,7 @@ Status NA
 			Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor<ahi>sid ac.Hierarch</>End-Actor
 			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
-			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 			Actor<acl>sid ac.Clergy</>End-Actor
 			Title role mode sid misc.Mode2 End-Title
@@ -250,29 +250,29 @@ Status NA
 
 	Section Vepsers_Prokeimenon
 		Para role brc_ve_prokeimenon sid misc.custcontent End-Para
-			Actor<ach>sid ac.Choir</> End-Actor
+			Actor<ach>sid ac.Choir</>End-Actor
 		Para role erc_ve_prokeimenon sid misc.custcontent End-Para
 		Para role brc_ve_concelebration_prokeimenon sid misc.custcontent End-Para
-			Actor<acl>sid ac.Clergy</> End-Actor
+			Actor<acl>sid ac.Clergy</>End-Actor
 		Para role erc_ve_concelebration_prokeimenon sid misc.custcontent End-Para
 		Para role brc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
-			Actor<ahi>sid ac.Hierarch</> End-Actor
+			Actor<ahi>sid ac.Hierarch</>End-Actor
 		Para role erc_ve_hierarchical_prokeimenon sid misc.custcontent End-Para
 		Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
-			Actor<ach>sid ac.Choir</> End-Actor
+			Actor<ach>sid ac.Choir</>End-Actor
 		Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 	End-Section
 	
 	Section End_Prayers
 		Para role brc_ve_end sid misc.custcontent End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
-			Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+			Dialog<ddepr>sid pr.exc17.text</>End-Dialog
 			Actor<are>sid ac.Reader</>End-Actor
-			Dialog <dre>sid pr.res08.text</>End-Dialog
+			Dialog<dre>sid pr.res08.text</>End-Dialog
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.DismissalPrayer1.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-			Actor<arehi> sid ac.sb.ReHi</>End-Actor
+			Actor<arehi>sid ac.sb.ReHi</>End-Actor
 			Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Para role erc_ve_end sid misc.custcontent End-Para

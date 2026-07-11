@@ -282,8 +282,8 @@ Status NA
 		End-Section
 		Section ShortLitany04_deacon_choir
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
-			Actor <aprhi>sid ac.sb.PrHi </>End-Actor
-			Dialog <dprhi>sid pr.exc04.text</> End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc04.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 		End-Section
 		Section block14
@@ -336,8 +336,8 @@ Status NA
 		End-Section
 		Section block15
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
-			Actor<aprhi> sid ac.sb.PrHi</>End-Actor
-			Dialog<dprhi> sid pr.exc25.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc25.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section block16
@@ -404,8 +404,8 @@ Status NA
 		End-Section
 		Section block17
 			Insert_section LN.ShortLitany00_deacon_choir End-Insert
-			Actor<aprhi> sid ac.sb.PrHi</>End-Actor
-			Dialog<dprhi> sid pr.exc26.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.exc26.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		End-Section
 		Section block18
@@ -446,16 +446,16 @@ Status NA
 			Hymn sid pr.HolyGod.text @ver End-Hymn
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet18.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet19a.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet07Sa.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -463,10 +463,10 @@ Status NA
 			Hymn sid pr.HolyGod.text @ver End-Hymn
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet21.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -474,10 +474,10 @@ Status NA
 			Hymn sid pr.HolyGod.text @ver End-Hymn
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.petSouls01.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 			Dialog<dprhi>sid pr.exc23.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
@@ -485,10 +485,10 @@ Status NA
 			Hymn sid pr.HolyGod.text @ver End-Hymn
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet17.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.pet33.text</>End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 			Dialog<dprhi>sid pr.exc11.text</>End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para

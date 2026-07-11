@@ -104,7 +104,7 @@ Status Final
 						Insert_section block03_kontakionposition2 End-Insert
 						Section block04_ode3kathisma
 							Section me1_
-								Para role typikon<b> sid tyPart.MidodeKathisma</><r>sid tySource.Menaion</><r>rid meDA.commemoration.first_title</><r>sid tyRubric.Once</>End-Para
+								Para role typikon<b>sid tyPart.MidodeKathisma</><r>sid tySource.Menaion</><r>rid meDA.commemoration.first_title</><r>sid tyRubric.Once</>End-Para
 								Para role typikonindent rid meMA.Ode3Kathisma1.incipit End-Para
 							End-Section
 						End-Section

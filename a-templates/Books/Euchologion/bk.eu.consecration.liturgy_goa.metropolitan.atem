@@ -302,7 +302,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Hierarch End-Actor
-		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4218.text <r>sid client_gr_GR_cog.cl.consecration.prayer1</> sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4219.text End-Para
+		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4218.text<r>sid client_gr_GR_cog.cl.consecration.prayer1</>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4219.text End-Para
 		Para role prayer sid pr.exc06.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
@@ -353,13 +353,13 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Hierarch End-Actor
-		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4405.text <r>sid client_gr_GR_cog.cl.relics.saint1 sid client_gr_GR_cog.cl.relics.saint2 sid client_gr_GR_cog.cl.relics.saint3</> sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4406.text End-Para
+		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4405.text<r>sid client_gr_GR_cog.cl.relics.saint1 sid client_gr_GR_cog.cl.relics.saint2 sid client_gr_GR_cog.cl.relics.saint3</>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4406.text End-Para
 		Para role prayer sid pr.exc20.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Deacon</>sid pr.pet00.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Hierarch End-Actor
-		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4407.text <r>sid client_gr_GR_cog.cl.consecration.name</> sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4408.text End-Para
+		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4407.text<r>sid client_gr_GR_cog.cl.consecration.name</>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4408.text End-Para
 		Para role prayer sid pr.exc01.text End-Para
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 		Rubric sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4409.rubric End-Rubric
@@ -381,7 +381,7 @@ Status NA
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Rubric sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4502.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
-		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4503.text <r>sid client_gr_GR_cog.cl.consecration.name</> sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4504.text End-Para
+		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4503.text<r>sid client_gr_GR_cog.cl.consecration.name</>sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4504.text End-Para
 		Para role prayer sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4505.text End-Para
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petKneel08.text End-Dialog
@@ -403,7 +403,7 @@ Status NA
 			Dialog sid eu.consecrationliturgygoa_gr_GR_cog.euCON.Key4509.text End-Dialog
 			Dialog sid pr.pet11.text End-Dialog
 			Dialog sid pr.pet12.text End-Dialog
-			Dialog sid pr.petConsecration13a.text <r>sid client_gr_GR_cog.cl.consecration.greatlitany.finalpetition.name</> sid pr.petConsecration13b.text End-Dialog
+			Dialog sid pr.petConsecration13a.text<r>sid client_gr_GR_cog.cl.consecration.greatlitany.finalpetition.name</>sid pr.petConsecration13b.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res03.text End-Para
 		End-Section
 		Actor sid ac.Hierarch End-Actor

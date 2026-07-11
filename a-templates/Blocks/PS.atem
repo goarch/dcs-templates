@@ -1817,11 +1817,11 @@ Status NA
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Deacon</>End-Actor
-		Dialog<optional> sid pr.pet12.text</>End-Dialog
+		Dialog<optional>sid pr.pet12.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Deacon</>End-Actor
-		Dialog<optional> sid pr.pet13.text</>End-Dialog
+		Dialog<optional>sid pr.pet13.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res03.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
@@ -1836,11 +1836,11 @@ Status NA
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
-		Dialog<optional> sid pr.pet12.text</>End-Dialog
+		Dialog<optional>sid pr.pet12.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
-		Dialog<optional> sid pr.pet13.text</>End-Dialog
+		Dialog<optional>sid pr.pet13.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res03.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
@@ -1863,11 +1863,11 @@ Status NA
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
-		Dialog<optional> sid pr.pet12.text</>End-Dialog
+		Dialog<optional>sid pr.pet12.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res01.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor
-		Dialog<optional> sid pr.pet13.text</>End-Dialog
+		Dialog<optional>sid pr.pet13.text</>End-Dialog
 		Actor<optional>sid ac.Choir</>End-Actor
 		Dialog<optional>sid pr.res03.text</>End-Dialog
 		Actor<optional>sid ac.Priest</>End-Actor

@@ -48,7 +48,7 @@ Status NA
 		Insert_section hLI._05_AfterEntranceHymns__.hierarch End-Insert
 		Section hymns
 			Insert_section AP.ga.martyrs_mode4_ End-Insert
-			Actor <ach>sid ac.Choir</>End-Actor
+			Actor<ach>sid ac.Choir</>End-Actor
 			Insert_section AP.tr1_ End-Insert
 			Insert_section TI.d End-Insert
 			Insert_section AP.da__.dayofweek2_.hymn End-Insert

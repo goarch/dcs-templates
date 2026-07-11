@@ -42,7 +42,7 @@ Status Final
 		Title role desig sid eu.blessingofloaves_gr_GR_cog.euBOL.title End-Title
 		Insert_section LN.litany_lity_part1_deacon_choir End-Insert
 		Actor<aprhi>sid ac.sb.PrHi</>End-Actor
-		Para role dialogzero <dprhi>sid pr.sup00a.text</>End-Para
+		Para role dialogzero<dprhi>sid pr.sup00a.text</>End-Para
 		Insert_section Selector_Commemorations.priest.category_SaintRubric End-Insert
 		Dialog<dprhi>sid pr.pet36.text</>End-Dialog
 		Insert_section VE._07_Lity__.part5_theotokoshymn End-Insert

@@ -194,19 +194,19 @@ Status NA
 			when-movable-cycle-day-is
 				72, 73, 74, 75, 76, 77, 109 use:
 					Section pascha
-						Actor<apr> sid ac.Priest</>End-Actor
-						Dialog<dpr> sid pr.enarxis03.text</>End-Dialog
+						Actor<apr>sid ac.Priest</>End-Actor
+						Dialog<dpr>sid pr.enarxis03.text</>End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 						Insert_section PE.Pascha_Beginning End-Insert
 						Insert_section LN.GreatLitany_deacon_choir End-Insert
-						Dialog<dpr> sid pr.enarxis03.text</>End-Dialog
+						Dialog<dpr>sid pr.enarxis03.text</>End-Dialog
 						Dialog sid pr.exc01.text End-Dialog
 						Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 					End-Section
 					otherwise use:
 						Section enarxis
-							Actor <apr>sid ac.Priest</>End-Actor
-							Dialog <dpr>sid pr.enarxis01.text</>End-Dialog
+							Actor<apr>sid ac.Priest</>End-Actor
+							Dialog<dpr>sid pr.enarxis01.text</>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 						End-Section
 						Section introductorypsalm
@@ -219,12 +219,12 @@ Status NA
 									Insert_section PE.ChristIsRisen.twice End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-									Actor<arehi> sid ac.sb.ReHi</>End-Actor
+									Actor<arehi>sid ac.sb.ReHi</>End-Actor
 								otherwise use:
 									Insert_section VE.vesperal_prayers_link End-Insert
 									Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 									Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-									Actor<arehi> sid ac.sb.ReHi</>End-Actor
+									Actor<arehi>sid ac.sb.ReHi</>End-Actor
 									Reading sid pr.ComeLetUsWorship1.text End-Reading
 									Reading sid pr.ComeLetUsWorship2.text End-Reading
 									Reading sid pr.ComeLetUsWorship3.text End-Reading
@@ -250,8 +250,8 @@ Status NA
 									Title<smallred>sid ti.LitanyGreat.uc</>End-Title
 									Insert_section LN.GreatLitany_deacon_choir End-Insert
 							end-when
-							Actor <apr>sid ac.Priest</>End-Actor
-							Dialog <dpr>sid pr.exc01.text</>End-Dialog
+							Actor<apr>sid ac.Priest</>End-Actor
+							Dialog<dpr>sid pr.exc01.text</>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 						End-Section
 			end-when
@@ -274,12 +274,12 @@ Status NA
 								Insert_section PE.ChristIsRisen.twice End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-								Actor<arehi> sid ac.sb.ReHi</>End-Actor
+								Actor<arehi>sid ac.sb.ReHi</>End-Actor
 							otherwise use:
 								Insert_section VE.vesperal_prayers_link End-Insert
 								Rubric sid ru.standing.prefix sid ru.standing.vespers.introductorypsalm End-Rubric
 								Rubric sid hi.hi01_gr_GR_cog.hiVE.R1113.rubric End-Rubric
-								Actor<arehi> sid ac.sb.ReHi</>End-Actor
+								Actor<arehi>sid ac.sb.ReHi</>End-Actor
 								Reading sid pr.ComeLetUsWorship1.text End-Reading
 								Reading sid pr.ComeLetUsWorship2.text End-Reading
 								Reading sid pr.ComeLetUsWorship3.text End-Reading
@@ -4921,7 +4921,7 @@ Status NA
 			Break line End_Break
 			Rubric sid ru.standing.prefix sid ru.standing.vespers.gladsomelight End-Rubric
 			Actor<arehi>sid ac.sb.ReHi</>End-Actor
-			Reading<drehi> sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver</>End-Reading
+			Reading<drehi>sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver</>End-Reading
 			Para role bkmrk03 sid misc.bookmark End-Para
 			when-movable-cycle-day-is
 				24, 25, 26, 27, 28, 31, 32, 33, 34, 35, 38, 39, 40, 41, 42, 45, 46, 47, 48, 49, 52, 53, 54, 55, 56, 59, 60, 61, 62, 63, 66, 67, 68 use:
@@ -4937,7 +4937,7 @@ Status NA
 			Actor<aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 			Title role desig sid hi.hi01_gr_GR_cog.hiVE.Key1108.title End-Title
 			Dialog<dprhi>sid hi.hi01_gr_GR_cog.hiVE.Key1108.text</>End-Dialog
-			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text</>End-Dialog
 			Actor<are>sid ac.Reader</>End-Actor
 			Reading<dre>sid ho.ho10_gr_GR_cog.hoVE.FosIlaron.text @ver</>End-Reading
@@ -4973,8 +4973,8 @@ Status NA
 				Insert_section LN.FervLitany_long_deacon_choir End-Insert
 				Section prayer
 					Rubric sid ru.standing.prefix sid ru.standing.vespers.prayer End-Rubric
-					Actor <ahi>sid ac.Hierarch</>End-Actor
-					Reading <dhi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
+					Actor<ahi>sid ac.Hierarch</>End-Actor
+					Reading<dhi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				End-Section
 				Insert_section LN.CompLitanyVE_deacon_choir End-Insert
@@ -5020,8 +5020,8 @@ Status NA
 			Insert_section LN.FervLitany_long_deacon_choir End-Insert
 			Section prayer
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.prayer End-Rubric
-				Actor <arehi>sid ac.sb.ReHi</>End-Actor
-				Reading <drehi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
+				Actor<arehi>sid ac.sb.ReHi</>End-Actor
+				Reading<drehi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading
 				Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			End-Section
 			Insert_section LN.CompLitanyVE_deacon_choir End-Insert
@@ -8666,42 +8666,42 @@ Status NA
 		Section hierarchical
 			Section symeon
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.simeonprayer End-Rubric
-				Actor <ahi>sid ac.Hierarch</>End-Actor
+				Actor<ahi>sid ac.Hierarch</>End-Actor
 				Title role desig sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.title End-Title
-				Para role prayer <dhi>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
+				Para role prayer<dhi>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
 				Insert_section VE.Canon_Bookmark_Logic End-Insert
 			End-Section
 			Section trisagion
 				Para role bkmrk09 sid misc.bookmark End-Para
-				Actor <are>sid ac.Reader</>End-Actor
-				Dialog <dre>sid pr.res07.text</>End-Dialog
-				Actor <ape>sid ac.People</>End-Actor
+				Actor<are>sid ac.Reader</>End-Actor
+				Dialog<dre>sid pr.res07.text</>End-Dialog
+				Actor<ape>sid ac.People</>End-Actor
 				Insert_section VE._09_Symeon_Trisagion__.Priest.trisagion.prayers End-Insert
 			End-Section
 		End-Section
 		Section Priest
 			Section symeon
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.simeonprayer End-Rubric
-				Actor <aprhi>sid ac.sb.PrHi</>End-Actor
+				Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 				Title role desig sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.title End-Title
-				Para role prayer <dprhi>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
+				Para role prayer<dprhi>sid le.go.os_gr_GR_cog.leosVE.Prayer_NynApolyeis.text @ver</>End-Para
 				Insert_section VE.Canon_Bookmark_Logic End-Insert
 			End-Section
 			Section trisagion
 				Para role bkmrk09 sid misc.bookmark End-Para
-				Actor <are>sid ac.Reader</>End-Actor
-				Dialog <sbhvetrisagion>sid pr.res07.text</>End-Dialog
-			//	Actor <ape>sid ac.People</>End-Actor
+				Actor<are>sid ac.Reader</>End-Actor
+				Dialog<sbhvetrisagion>sid pr.res07.text</>End-Dialog
+			//	Actor<ape>sid ac.People</>End-Actor
 				Section prayers
 					Title role desig sid ti.Trisagion End-Title
-					Reading <dpe>sid pr.HolyGod.text<r>sid ru.Thrice media-off</></>End-Reading
-					Reading <dpe>sid pr.GloryBothNow.text</>End-Reading
-					Reading <dpe>sid pr.AllHolyTrinity.text</>End-Reading
-					Reading <dpe>sid pr.res06.text</>End-Reading
-					Reading <dpe>sid pr.GloryBothNow.text</>End-Reading
-					Reading <dpe>sid pr.OurFather.text</>End-Reading
-					Actor <apr>sid ac.Priest</>End-Actor
-					Dialog <dpr>sid pr.exc20.text</>End-Dialog
+					Reading<dpe>sid pr.HolyGod.text<r>sid ru.Thrice media-off</></>End-Reading
+					Reading<dpe>sid pr.GloryBothNow.text</>End-Reading
+					Reading<dpe>sid pr.AllHolyTrinity.text</>End-Reading
+					Reading<dpe>sid pr.res06.text</>End-Reading
+					Reading<dpe>sid pr.GloryBothNow.text</>End-Reading
+					Reading<dpe>sid pr.OurFather.text</>End-Reading
+					Actor<apr>sid ac.Priest</>End-Actor
+					Dialog<dpr>sid pr.exc20.text</>End-Dialog
 					Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 				End-Section
 			End-Section
@@ -9024,14 +9024,14 @@ Status NA
 			Section part1
 				Para role brc_ve_end sid misc.custcontent End-Para
 					Actor<adepr>sid ac.sb.DePr</>End-Actor
-					Dialog <ddepr>sid pr.exc17.text</>End-Dialog
+					Dialog<ddepr>sid pr.exc17.text</>End-Dialog
 					Actor<are>sid ac.Reader</>End-Actor
-					Dialog <dre>sid pr.res08.text</>End-Dialog
+					Dialog<dre>sid pr.res08.text</>End-Dialog
 					Actor sid ac.Priest End-Actor
 					Dialog sid pr.DismissalPrayer1.text End-Dialog
 					Actor<ach>sid ac.Choir</>End-Actor
 					Dialog<dch>sid pr.res04.text</>End-Dialog
-					Actor<arehi> sid ac.sb.ReHi</>End-Actor
+					Actor<arehi>sid ac.sb.ReHi</>End-Actor
 					Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
 					Actor<ach>sid ac.Choir</>End-Actor
 					Dialog<dch>sid pr.res04.text</>End-Dialog
@@ -9496,7 +9496,7 @@ Status NA
 	Section LIHC_ModeOfWeek
 		Para role bkmrk01 sid misc.bookmark End-Para
 		Actor<sbhvemode>sid ac.Chanter</>End-Actor
-		Dialog<sbhvemode>sid pr.Command_holybishop.text rid ocVE.Stichera1.mode @day D1 </>End-Dialog
+		Dialog<sbhvemode>sid pr.Command_holybishop.text rid ocVE.Stichera1.mode @day D1</>End-Dialog
 		Actor<sbhvemode>sid ac.Choir</>End-Actor
 		Title role mode rid ocVE.Stichera1.mode @day D1 End-Title
 		Media rid ocVE.MM.LIHC1.text @day D1 End-Media
@@ -9723,7 +9723,7 @@ Status NA
 			Dialog<ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0502.text</>End-Dialog
 			Actor<apr>sid ac.Priest</>End-Actor
 			Dialog<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0503.text</>End-Dialog
-			Actor<adepr>sid ac.sb.DePr</> End-Actor
+			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog sid pr.exc17.text sid pr.exc18.text End-Dialog
 			Actor sid ac.ClergyAndPeople End-Actor
 			Title role mode sid misc.Mode2 End-Title

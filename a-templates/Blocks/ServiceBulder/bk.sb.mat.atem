@@ -163,43 +163,43 @@ Status NA
 			Insert_section LN.BowHeadsMA_deacon_choir End-Insert
 			Section wisdom123
 				Section part1
-					Actor <apr>sid ac.Priest</>End-Actor
-					Dialog <dpr>sid pr.exc17.text</>End-Dialog
-					Actor <are>sid ac.Reader</>End-Actor
-					Dialog <dre>sid pr.Bless_father.text</>End-Dialog
-					Actor <aprhi>sid ac.sb.PrHi</>End-Actor
+					Actor<apr>sid ac.Priest</>End-Actor
+					Dialog<dpr>sid pr.exc17.text</>End-Dialog
+					Actor<are>sid ac.Reader</>End-Actor
+					Dialog<dre>sid pr.Bless_father.text</>End-Dialog
+					Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 					Dialog sid pr.DismissalPrayer1.text End-Dialog
-					Actor <are>sid ac.Reader</> End-Actor
-					Dialog <dre>sid pr.res04.text</>End-Dialog
+					Actor<are>sid ac.Reader</>End-Actor
+					Dialog<dre>sid pr.res04.text</>End-Dialog
 					Actor sid ac.sb.ReHi End-Actor
-					Dialog <drehi>sid pr.DismissalPrayer2.text</>End-Dialog
-					Actor <are>sid ac.Reader</> End-Actor
-					Dialog <dre>sid pr.res04.text</>End-Dialog
+					Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
+					Actor<are>sid ac.Reader</>End-Actor
+					Dialog<dre>sid pr.res04.text</>End-Dialog
 				End-Section
 			//	Section part3
-			//		Dialog <dre>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text</>End-Dialog
-			//		Dialog <dre>sid pr.res01.text<r>sid ru.Thrice</>sid pr.Bless_father.text</>End-Dialog
+			//		Dialog<dre>sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text</>End-Dialog
+			//		Dialog<dre>sid pr.res01.text<r>sid ru.Thrice</>sid pr.Bless_father.text</>End-Dialog
 			//	End-Section
 			End-Section
-			Actor <aprhi>sid ac.sb.PrHi</>End-Actor
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 		Para role erc_ma_end_litanies sid misc.custcontent End-Para
 
 		Para role brc_ma_dismissal_end sid misc.custcontent End-Para
-			Actor <aprhi>sid ac.sb.PrHi</>End-Actor
-			Dialog <dprhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
 			Actor<ach>sid ac.Choir</>End-Actor 
-			Dialog <dch>sid pr.res04.text</>End-Dialog
+			Dialog<dch>sid pr.res04.text</>End-Dialog
 		Para role erc_ma_dismissal_end sid misc.custcontent End-Para
 
 		Para role brc_ma_hierarchical_dismissal_end sid misc.custcontent End-Para
-			Actor <aprhi>sid ac.sb.PrHi</>End-Actor
-			Dialog <dprhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
+			Actor<aprhi>sid ac.sb.PrHi</>End-Actor
+			Dialog<dprhi>sid pr.ThroughThePrayers_fathers.text</>End-Dialog
 			Actor<ach>sid ac.Choir</>End-Actor 
-			Dialog <dch>sid pr.res04.text</>End-Dialog
-			Actor <acl>sid ac.Clergy</>End-Actor
-			Dialog <dcl>sid pr.ThroughThePrayers_bishop.text</>End-Dialog
+			Dialog<dch>sid pr.res04.text</>End-Dialog
+			Actor<acl>sid ac.Clergy</>End-Actor
+			Dialog<dcl>sid pr.ThroughThePrayers_bishop.text</>End-Dialog
 			Actor<ach>sid ac.Choir</>End-Actor 
-			Dialog <dch>sid pr.res04.text</>End-Dialog
+			Dialog<dch>sid pr.res04.text</>End-Dialog
 		Para role erc_ma_hierarchical_dismissal_end sid misc.custcontent End-Para
 	End-Section
 

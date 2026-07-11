@@ -49,7 +49,7 @@ Status NA
 		Insert_section hLI._05_AfterEntranceHymns__.hierarch End-Insert
 		Section hymns
 			Insert_section AP.me1_ End-Insert
-			Actor <ach>sid ac.Choir</>End-Actor
+			Actor<ach>sid ac.Choir</>End-Actor
 			Insert_section AP.HIRgoa_local__.AME End-Insert
 			Insert_section hLI._05_AfterEntranceHymns__.kontakion_hierarch End-Insert
 		End-Section

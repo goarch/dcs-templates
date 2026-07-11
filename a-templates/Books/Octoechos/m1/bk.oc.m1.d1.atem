@@ -91,7 +91,7 @@ Status Draft
 			Hymn sid oc.m1.d1_gr_GR_cog.ocVE.Stichera6.text @ver media-off End-Hymn
 			Media sid oc.m1.d1_gr_GR_cog.ocVE.Stichera7.text End-Media
 			Hymn sid oc.m1.d1_gr_GR_cog.ocVE.Stichera7.text @ver media-off End-Hymn
-			Rubric<inbl> sid octoechos.rubrics_gr_GR_cog.ocVE.R003.rubric</>sid octoechos.rubrics_gr_GR_cog.ocVE.R004.rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocVE.R005.rubric</>sid octoechos.rubrics_gr_GR_cog.ocVE.R006.rubric End-Rubric
+			Rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocVE.R003.rubric</>sid octoechos.rubrics_gr_GR_cog.ocVE.R004.rubric<inbl>sid octoechos.rubrics_gr_GR_cog.ocVE.R005.rubric</>sid octoechos.rubrics_gr_GR_cog.ocVE.R006.rubric End-Rubric
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
 			Media sid oc.m1.d1_gr_GR_cog.ocVE.SticTheotokion.text End-Media
 			Hymn sid oc.m1.d1_gr_GR_cog.ocVE.SticTheotokion.text @ver media-off End-Hymn

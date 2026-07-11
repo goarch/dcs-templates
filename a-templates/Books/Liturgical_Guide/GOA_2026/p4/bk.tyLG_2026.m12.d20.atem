@@ -56,7 +56,7 @@ Status Final
 			Insert_section ap_client__.yes End-Insert
 			Insert_section ko_incipit_by_season End-Insert
 		//	Insert_section trisagios_incipit End-Insert
-			Para<r>sid tyLIin.trisagios.title</> sid tyLIin.trisagios_default.text End-Para
+			Para<r>sid tyLIin.trisagios.title</>sid tyLIin.trisagios_default.text End-Para
 
 		//Readings
 			Insert_section Selector_Epistle.specific_sunday End-Insert

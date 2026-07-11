@@ -93,7 +93,7 @@ Status Draft
 					Para role typikonindent<r>sid tyRubric.Resurrectional</><r>sid tySource.Octoechos</>End-Para
 				End-Section
 				Section block04_ode3kathisma
-					Para role typikon<b> sid tyPart.MidodeKathisma</><r>sid ti.Fathers</><r>sid tySource.Menaion</>End-Para
+					Para role typikon<b>sid tyPart.MidodeKathisma</><r>sid ti.Fathers</><r>sid tySource.Menaion</>End-Para
 					Para role typikonindent sid me.m07.dHF_gr_GR_cog.meMA.Ode3Kathisma1.incipit<r>sid tyRubric.Canon.WithItsTheotokion</>sid me.m07.dHF_gr_GR_cog.meMA.Ode3KathismaT.incipit End-Para
 				End-Section
 				Section block06_kontakionposition1

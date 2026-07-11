@@ -448,7 +448,7 @@ Status NA
 								Insert_section TI.ka1.res End-Insert
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
-								Title sid ti.GloryBothNow<Tdesig> sid ti.Theotokion</>End-Title
+								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section
@@ -459,7 +459,7 @@ Status NA
 								Insert_section TI.ka1.res End-Insert
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
-								Title sid ti.GloryBothNow<Tdesig> sid ti.Theotokion</>End-Title
+								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section

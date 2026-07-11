@@ -2224,7 +2224,7 @@ Status NA
 					Insert_section TYMA._11_Kontakion__.me1_ End-Insert
 				End-Section
 				Section block04_ode3kathisma
-					Para role typikon<b> sid ty.typikon.parts_gr_GR_cog.tyPart.MidodeKathisma</><r>rid meDA.commemoration.first_title</><r>sid ty.typikon.parts_gr_GR_cog.tySource.Menaion</>End-Para
+					Para role typikon<b>sid ty.typikon.parts_gr_GR_cog.tyPart.MidodeKathisma</><r>rid meDA.commemoration.first_title</><r>sid ty.typikon.parts_gr_GR_cog.tySource.Menaion</>End-Para
 					Para role typikonindent rid meMA.Ode3Kathisma1.incipit<r>sid ty.typikon.parts_gr_GR_cog.tyRubric.Canon.WithItsTheotokion</>rid meMA.Ode3KathismaT.incipit End-Para
 				End-Section
 				Section block06_kontakionposition1

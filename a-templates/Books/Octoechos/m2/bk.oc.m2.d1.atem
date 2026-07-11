@@ -272,7 +272,7 @@ Status Draft
 			Media sid oc.m2.d1_gr_GR_cog.ocMA.OdeS1C1T.text End-Media
 			Hymn sid oc.m2.d1_gr_GR_cog.ocMA.OdeS1C1T.text @ver media-off End-Hymn
 			Title role desig sid ti.CanonCrossResurrection End-Title
-		//	Title<rubric> sid oc.m2.d1_gr_GR_cog.ocMA.C2.acrostic</>End-Title
+		//	Title<rubric>sid oc.m2.d1_gr_GR_cog.ocMA.C2.acrostic</>End-Title
 			Title<rubric>sid oc.m2.d1_gr_GR_cog.ocMA.C2.poet</>End-Title
 			Title role desig sid oc.m2.d1_gr_GR_cog.ocMA.OdeS1C21.ode<Tmelody>sid oc.m2.d1_gr_GR_cog.ocMA.OdeS1C21.melody</>End-Title
 			Media sid oc.m2.d1_gr_GR_cog.ocMA.OdeS1C21.text End-Media

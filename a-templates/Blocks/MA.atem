@@ -5045,12 +5045,12 @@ Status NA
 					Actor sid ac.Reader End-Actor
 					Reading sid pr.res01.text<r>sid ru.Thrice</>End-Reading
 					Reading sid ti.GloryBothNow End-Reading
-					Actor<ablhi> sid ac.sb.BlHi</>End-Actor
+					Actor<ablhi>sid ac.Hierarch</>End-Actor
 					Insert_section LiturgicalPsalms.Psalm_50_Paragraph End-Insert
 				End-Section
 				Section psalm50
 					Para role bkmrk08 sid misc.bookmark End-Para
-					Actor<arehi> sid ac.sb.ReHi</>End-Actor
+					Actor<arehi>sid ac.sb.ReHi</>End-Actor
 					when-movable-cycle-day-is
 						63 use:
 							Reading sid ho.ho03_gr_GR_cog.hoMA.SunPostGospel.text @ver End-Reading
@@ -6139,7 +6139,7 @@ Status NA
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc15.text</>End-Dialog
 				Para role brc_ma_ode9 sid misc.custcontent End-Para
-					Actor <ach>sid ac.Choir</>End-Actor
+					Actor<ach>sid ac.Choir</>End-Actor
 				Para role erc_ma_ode9 sid misc.custcontent End-Para
 			End-Section
 			Section hierarch
@@ -14454,15 +14454,15 @@ Status NA
 		End-Section
 		Section wisdom123
 			Section part1
-				Actor <adepr>sid ac.sb.DePr</>End-Actor
-				Dialog <ddepr>sid pr.exc17.text</>End-Dialog
-				Actor <are>sid ac.Reader</>End-Actor
-				Dialog <dre>sid pr.Bless_father.text</>End-Dialog
+				Actor<adepr>sid ac.sb.DePr</>End-Actor
+				Dialog<ddepr>sid pr.exc17.text</>End-Dialog
+				Actor<are>sid ac.Reader</>End-Actor
+				Dialog<dre>sid pr.Bless_father.text</>End-Dialog
 				Actor sid ac.Priest End-Actor
 				Dialog sid pr.DismissalPrayer1.text End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
-				Actor <aprhi>sid ac.sb.ReHi</>End-Actor
-				Dialog <drehi>sid pr.DismissalPrayer2.text</>End-Dialog
+				Actor<aprhi>sid ac.sb.ReHi</>End-Actor
+				Dialog<drehi>sid pr.DismissalPrayer2.text</>End-Dialog
 				Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para
 			End-Section
 			Section part2
@@ -14674,17 +14674,17 @@ Status NA
 //Blocks
 
 	Section Magnificat_Verses
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v1.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v1.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v2.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v2.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v3.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v3.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v4.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v4.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v5.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v5.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
-		Verse<bnr>sid misc.vVerse</> sid le.go.os_gr_GR_cog.leosMA.magnificat.v6.text @ver End-Verse
+		Verse<bnr>sid misc.vVerse</>sid le.go.os_gr_GR_cog.leosMA.magnificat.v6.text @ver End-Verse
 		Hymn sid he.h.m6_gr_GR_cog.heHE.TinTimioteran.text @ver media-off End-Hymn
 	End-Section
 	Section Lauds_Stichologia

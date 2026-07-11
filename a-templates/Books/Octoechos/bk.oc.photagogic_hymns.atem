@@ -80,7 +80,7 @@ Status Final
 		Title sid misc.horizontal_line.solid1 End-Title
 
 		Rubric sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R004.rubric End-Rubric
-		Title<rubric> sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R005.rubric</>End-Title
+		Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R005.rubric</>End-Title
 		Title role desig sid ti.OnMonday End-Title
 		Dialog sid misc.punctuation.ellipsis sid da.d2_gr_GR_cog.daMA.Photagogic1Ending.text @ver End-Dialog
 		Title role desig sid ti.OnTuesday End-Title
@@ -91,7 +91,7 @@ Status Final
 		Dialog sid misc.punctuation.ellipsis sid da.d5_gr_GR_cog.daMA.Photagogic1Ending.text @ver End-Dialog
 		Title role desig sid ti.OnSaturday End-Title
 		Dialog sid misc.punctuation.ellipsis sid da.d7_gr_GR_cog.daMA.Photagogic1Ending.text @ver End-Dialog
-		Title<rubric> sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R006.rubric</>End-Title
+		Title<rubric>sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R006.rubric</>End-Title
 		Rubric sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R007.rubric End-Rubric
 		Dialog sid misc.punctuation.ellipsis sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R008.rubric @ver End-Dialog
 		Rubric sid octoechos.rubrics_gr_GR_cog.ocPHOTAGOGIC.R009.rubric End-Rubric

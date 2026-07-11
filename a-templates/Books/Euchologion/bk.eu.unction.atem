@@ -346,10 +346,10 @@ Status Final
 		Section ShortLitany
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet17.text End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor sid ac.Deacon End-Actor
 			Dialog sid pr.pet21d.text End-Dialog
-			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 			Actor sid ac.Priest End-Actor
 			Dialog sid pr.exc11.text End-Dialog
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para

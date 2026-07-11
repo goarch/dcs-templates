@@ -245,17 +245,17 @@ Status NA
 		Dialog sid pr.exc15.text End-Dialog
 		Rubric sid cbMA.key023.text End-Rubric
 		Section Magnificat
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v1.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v1.text End-Verse
 			Hymn sid prayers_gr_GR_cog.pr.GreaterInHonor.text End-Hymn
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v2.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v2.text End-Verse
 			Dialog sid prayers_gr_GR_cog.pr.GreaterInHonor.incipit End-Dialog
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v3.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v3.text End-Verse
 			Dialog sid prayers_gr_GR_cog.pr.GreaterInHonor.incipit End-Dialog
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v4.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v4.text End-Verse
 			Dialog sid prayers_gr_GR_cog.pr.GreaterInHonor.incipit End-Dialog
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v5.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v5.text End-Verse
 			Dialog sid prayers_gr_GR_cog.pr.GreaterInHonor.incipit End-Dialog
-			Verse<bnr>sid misc.vVerse</> sid psMA.magnificat.v6.text End-Verse
+			Verse<bnr>sid misc.vVerse</>sid psMA.magnificat.v6.text End-Verse
 			Dialog sid prayers_gr_GR_cog.pr.GreaterInHonor.incipit End-Dialog
 		End-Section
 	End-Section

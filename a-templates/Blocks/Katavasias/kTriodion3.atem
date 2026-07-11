@@ -20,27 +20,27 @@ Status NA
 			Title role desig sid misc.Ode1<Tmode>sid misc.Mode6</>End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.VoithosKaiSkepastis.text @ver media-off End-Hymn
 
-			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
+			Actor<ablhi>sid ac.Hierarch</>End-Actor
 			Title role desig sid misc.Ode3 End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.StereosonKyrie.text @ver media-off End-Hymn
 
-			Actor<ablch> sid ac.sb.BlCh</>End-Actor
+			Actor<ablch>sid ac.Choir</>End-Actor
 			Title role desig sid misc.Ode4 End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.AkikoenOProfitis.text @ver media-off End-Hymn
 
-			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
+			Actor<ablhi>sid ac.Hierarch</>End-Actor
 			Title role desig sid misc.Ode5 End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.EkNyktosOrthrizonta.text @ver media-off End-Hymn
 
-			Actor<ablch> sid ac.sb.BlCh</>End-Actor
+			Actor<ablch>sid ac.Choir</>End-Actor
 			Title role desig sid misc.Ode6 End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.EvoisaEnOliKardiaMou.text @ver media-off End-Hymn
 
-			Actor<ablhi> sid ac.sb.BlHi</>End-Actor
+			Actor<ablhi>sid ac.Hierarch</>End-Actor
 			Title role desig sid misc.Ode7 End-Title
 			Hymn sid he.h.m6_gr_GR_cog.heHE.ImartomenInomisamen.text @ver media-off End-Hymn
 
-			Actor<ablch> sid ac.sb.BlCh</>End-Actor
+			Actor<ablch>sid ac.Choir</>End-Actor
 			Title role desig sid misc.Ode8 End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
 			Hymn sid he.h.m6_gr_GR_cog.heHE.OnStratiaiOuranon.text @ver media-off End-Hymn

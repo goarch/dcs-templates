@@ -48,7 +48,7 @@ Status NA
 		Insert_section hLI._05_AfterEntranceHymns__.hierarch End-Insert
 		Section hymns
 			Insert_section AP.res__.modeofweek End-Insert
-			Actor <ach>sid ac.Choir</>End-Actor
+			Actor<ach>sid ac.Choir</>End-Actor
 			Insert_section AP.HIRgoa_local__.DEN End-Insert
 			Insert_section hLI._05_AfterEntranceHymns__.kontakion_hierarch End-Insert
 		End-Section

@@ -419,10 +419,10 @@ Break page End_Break
 
 	Actor sid ac.Priest End-Actor
 	Dialog sid pr.pet17.text End-Dialog
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 	Actor sid ac.Priest End-Actor
 	Dialog sid eu.baptism_gr_GR_cog.euBAP.Key0606.text End-Dialog
-	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 	Actor sid ac.Priest End-Actor
 	Dialog sid eu.baptism_gr_GR_cog.euBAP.Key0607.text End-Dialog
 	Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text End-Para

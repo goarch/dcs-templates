@@ -44,7 +44,7 @@ Status NA
 		Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver End-Hymn
 		Actor sid ac.Choir End-Actor
 		Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
-		Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver<r>sid ru.Twice</> End-Hymn
+		Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver<r>sid ru.Twice</>End-Hymn
 		Rubric sid eu.churchdooropening_gr_GR_cog.euCDO.R105.rubric End-Rubric
 		Actor sid ac.Hierarch End-Actor
 		Title role mode sid eu.smallblessingofwater_gr_GR_cog.euSWB.Key0602.mode End-Title

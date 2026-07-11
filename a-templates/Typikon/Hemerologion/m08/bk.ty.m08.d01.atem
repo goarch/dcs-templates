@@ -99,7 +99,7 @@ Status Final
 						End-Section
 						Section block04_ode3kathisma
 							Section me2_
-								Para role typikon<b> sid tyPart.MidodeKathisma</><r>sid tySource.Menaion</><r>sid ti.Cross</><r>sid tyRubric.Once</>End-Para
+								Para role typikon<b>sid tyPart.MidodeKathisma</><r>sid tySource.Menaion</><r>sid ti.Cross</><r>sid tyRubric.Once</>End-Para
 								Para role typikonindent rid meMA.Ode3Kathisma2.incipit End-Para
 							End-Section
 						End-Section

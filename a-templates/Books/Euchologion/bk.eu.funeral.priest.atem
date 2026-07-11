@@ -230,13 +230,13 @@ Status NA
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petFuneral02p.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet00.text</> End-Dialog
+		Actor<ade>sid ac.Deacon</>End-Actor
+		Dialog<dde>sid pr.pet00.text</>End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Hierarch End-Actor
 		Para role prayer sid eu.funeral_gr_GR_cog.euFUN.Key0105p.text @ver End-Para
-		Actor <ade>sid ac.Deacon </>End-Actor
-		Dialog <dde>sid pr.pet00.text</> End-Dialog
+		Actor<ade>sid ac.Deacon</>End-Actor
+		Dialog<dde>sid pr.pet00.text</>End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text End-Para
 		Actor sid ac.Hierarch End-Actor
 		Title role desig sid eu.funeral_gr_GR_cog.euFUN.Key1303.title End-Title

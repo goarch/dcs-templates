@@ -51,11 +51,11 @@ Status Final
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet17.text End-Dialog
 		Actor sid ac.Choir End-Actor
-		Dialog sid pr.res01.text<r>sid ru.Thrice</> End-Dialog
+		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petFuneral01.text End-Dialog
 		Actor sid ac.Choir End-Actor
-		Dialog sid pr.res01.text<r>sid ru.Thrice</> End-Dialog
+		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petFuneral02.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text End-Para
@@ -150,11 +150,11 @@ Status Final
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.pet17.text End-Dialog
 		Actor sid ac.Choir End-Actor
-		Dialog sid pr.res01.text<r>sid ru.Thrice</> End-Dialog
+		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petFuneral01.text End-Dialog
 		Actor sid ac.Choir End-Actor
-		Dialog sid pr.res01.text<r>sid ru.Thrice</> End-Dialog
+		Dialog sid pr.res01.text<r>sid ru.Thrice</>End-Dialog
 		Actor sid ac.Deacon End-Actor
 		Dialog sid pr.petFuneral02.text End-Dialog
 		Para role dialogwithactor<actorwithdialog>sid ac.IL.Choir</>sid pr.res02.text End-Para

@@ -382,7 +382,7 @@ Status NA
 								Para role typikonindent sid me.m12.d25_gr_GR_cog.meLI.Kontakion1.incipit End-Para
 
 							otherwise use:
-								Para role typikon<b>sid ty.typikon.parts_gr_GR_cog.tyPart.Kontakion</> sid ho.ho07_gr_GR_cog.hoTY.Key0408.incipit End-Para
+								Para role typikon<b>sid ty.typikon.parts_gr_GR_cog.tyPart.Kontakion</>sid ho.ho07_gr_GR_cog.hoTY.Key0408.incipit End-Para
 						end-when
 				end-when
 		end-when

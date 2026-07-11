@@ -46,13 +46,13 @@ Status NA
 	Section Section02
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet17.text End-Dialog
-		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet18.text End-Dialog
-		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.pet19S.text End-Dialog
-		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</> End-Para
+		Para role dialogwithactor<actorwithdialog>sid ac.IL.Chanter</>sid pr.res01.text<r>sid ru.Thrice</>End-Para
 		Actor sid ac.Priest End-Actor
 		Dialog sid pr.exc11.text End-Dialog
 		Actor sid ac.Chanter End-Actor

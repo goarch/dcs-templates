@@ -77,9 +77,9 @@ Status NA
 		Para role chant sid hiLIPR.Key117.text End-Para
 		Rubric sid hiLIPR.Key118.rubric End-Rubric
 		Para role prayer sid pr.GloryToYouChristHope.text End-Para
-		Para<r>sid hiLIPR.Key002.actor</> sid ti.GloryBothNow sid pr.res01.text<r>sid ru.Thrice</>sid pr.res12.text End-Para
+		Para<r>sid hiLIPR.Key002.actor</>sid ti.GloryBothNow sid pr.res01.text<r>sid ru.Thrice</>sid pr.res12.text End-Para
 		Para<r>sid hiLIPR.Key119.rubric</>sid dis00 sid dis00.resurrection<r>sid hiLIPR.Key120.rubric</>End-Para
-		Para role chant sid dis00 sid dis01 sid dis02 sid dis06<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid hiLIPR.Key121.text<r> sid misc.parenthesis.open sid ru.Or</> sid hiLIPR.Key122.text<r>sid misc.parenthesis.close</>sid dis10 sid dis89 End-Para
+		Para role chant sid dis00 sid dis01 sid dis02 sid dis06<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid hiLIPR.Key121.text<r>sid misc.parenthesis.open sid ru.Or</>sid hiLIPR.Key122.text<r>sid misc.parenthesis.close</>sid dis10 sid dis89 End-Para
 		Rubric sid hiLIPR.Key123.rubric End-Rubric
 		Para role chant sid liturgical.verses_gr_GR_cog.psLIPR.kairos.entry.v1.text @ver End-Para
 		Rubric sid hiLIPR.Key125.rubric End-Rubric
@@ -214,9 +214,9 @@ Status NA
 		Para role prayer sid prayers_gr_GR_cog.pr.exc16.text End-Para
 		Rubric sid hiLIPR.Key394.rubric End-Rubric
 		Para role prayer sid pr.GloryToYouChristHope.text End-Para
-		Para<r>sid hiLIPR.Key002.actor</> sid ti.GloryBothNow sid pr.res01.text<r>sid ru.Thrice</>sid pr.res12.text End-Para
+		Para<r>sid hiLIPR.Key002.actor</>sid ti.GloryBothNow sid pr.res01.text<r>sid ru.Thrice</>sid pr.res12.text End-Para
 		Para<smallreditalic>sid hiLIPR.Key395.rubric</>sid dis00 sid dis00.resurrection<smallreditalic>sid hiLIPR.Key396.rubric</>End-Para
-		Para role prayer sid dis00 sid dis01 sid dis02 sid hiLIPR.Key121.text<r> sid misc.parenthesis.open sid ru.Or</> sid hiLIPR.Key122.text<r>sid misc.parenthesis.close</>sid dis10 sid dis89 End-Para
+		Para role prayer sid dis00 sid dis01 sid dis02 sid hiLIPR.Key121.text<r>sid misc.parenthesis.open sid ru.Or</>sid hiLIPR.Key122.text<r>sid misc.parenthesis.close</>sid dis10 sid dis89 End-Para
 	End-Section
 	Break line End_Break
 	Section preliminary
