@@ -260,7 +260,7 @@ Status NA
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid hi.hi01_gr_GR_cog.hiVE.Key1109.text</>End-Dialog
 				Para role brc_ve_prokeimenon sid misc.custcontent End-Para
-					Actor<achcl>sid ac.sb.ChCl</>End-Actor
+					Actor<achcl>sid ac.Choir</>End-Actor
 				Para role erc_ve_prokeimenon sid misc.custcontent End-Para
 			End-Section
 			when-date-is
