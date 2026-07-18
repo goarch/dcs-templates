@@ -2014,7 +2014,6 @@ Status NA
 				Actor<ach>sid ac.Choir</>End-Actor
 			Para role erc_li_small_entrance sid misc.custcontent End-Para
 			Insert_section Selector_Eisodikon.eisodikon_complete End-Insert
-			Actor<ablch>sid ac.Choir</>End-Actor
 			Insert_section Selector_Eisodikon.eisodikon_refrain_sb End-Insert
 		End-Section
 		Section clergy

@@ -706,6 +706,7 @@ Status NA
 
 
 	Section eisodikon_refrain_sb //when choir repeats refrain after eisodikon_complete
+		Actor<sblieisodikonrefrain>sid ac.Choir</>End-Actor
 		when-date-is
 			Jan 1 use:
 				when-name-of-day-is
