@@ -2057,6 +2057,8 @@ Status NA
 			Rubric sid ru.Then End-Rubric
 		End-Section
 		Section local_church_apolytikion
+			Para role brc_li_memorial_hymn sid misc.custcontent End-Para
+			Para role erc_li_memorial_hymn sid misc.custcontent End-Para
 			Rubric<sbliparishapolytikionrubric>sid ru.LocalChurchApolytikionSung</>End-Rubric
 			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
 			Para role erc_li_local_apolytikion sid misc.custcontent End-Para

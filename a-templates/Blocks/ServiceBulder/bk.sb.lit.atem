@@ -208,6 +208,14 @@ Status NA
 			Para role erc_li_apolytikion2 sid misc.custcontent End-Para
 		End-Section
 
+		Section memorial_hymn
+			Para role brc_li_memorial_hymn sid misc.custcontent End-Para
+				Rubric sid ru.MemorialHymnSung End-Rubric
+				Title role mode sid ho.ho02_gr_GR_cog.hoMO.TroparionForDeceased.mode End-Title
+				Hymn sid ho.ho02_gr_GR_cog.hoMO.TroparionForDeceased.text media-off End-Hymn
+			Para role erc_li_memorial_hymn sid misc.custcontent End-Para
+		End-Section
+
 		Section local_apolytikion
 			Para role brc_li_local_apolytikion sid misc.custcontent End-Para
 				Title role desig sid client_gr_GR_cog.cl.Apolytikion1.title End-Title
