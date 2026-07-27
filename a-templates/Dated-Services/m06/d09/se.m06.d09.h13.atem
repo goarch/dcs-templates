@@ -1,4 +1,4 @@
-Template se.m06.d20.mo
+Template se.m06.d09.h13
 
 Status Final
 
@@ -22,12 +22,12 @@ Status Final
 	import roles.*
 
 	Head
-		Set_Date month 6 day 20 year 2027 End_Date
+		Set_Date month 6 day 9 year 2027 End_Date
 			Page_Header_Even
-				center @lookup sid template.titles_gr_GR_cog.mo.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+				center @lookup sid h13.pdf.header lang L1
 			End_Page_Header_Even
 			Page_Header_Odd
-				center @lookup sid template.titles_gr_GR_cog.mo.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+				center @lookup sid h13.pdf.header lang L2
 			End_Page_Header_Odd
 			Page_Footer_Even
 				left @pageNbr
@@ -40,21 +40,6 @@ Status Final
 		Set_Page_Number 1 End_Set_Page_Number
 	End_Head
 
-//	Preface Covers
-//		Insert_template ematins.appeal End-Insert
-//	End-Preface
-
-	when-movable-cycle-day-is
-		120, 127 use:
-			Insert_section mc.map.mo.Instance01 End-Insert
-
-		otherwise use:
-			when-name-of-day-is
-				Sunday use:
-					Insert_section MO.Midnight_Office_Sunday End-Insert
-				otherwise use:
-					Insert_section MO.Midnight_Office_Weekday End-Insert
-			end-when
-	end-when
+	Insert_section bk.ho.ho14.Instance01 End-Insert
 
 End-Template
