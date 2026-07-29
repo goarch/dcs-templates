@@ -10670,10 +10670,10 @@ me.m09.d08.meVE.Lity4.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d08/ve/
 me.m09.d08.meVE.Lity4.c1211.score.b.arranger = "SDedes/"
 me.m09.d08.meVE.Lity4.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d08/ve/b/lity4.pdf"
 
-me.m09.d08.meVE.LityGlory.c1271.score.w.arranger = "SDedes/"
-me.m09.d08.meVE.LityGlory.c1271.score.w.url.path = "/media/m/dedes/en/me/m09/d08/ve/w/lityglory.pdf"
-me.m09.d08.meVE.LityGlory.c1271.score.b.arranger = "SDedes/"
-me.m09.d08.meVE.LityGlory.c1271.score.b.url.path = "/media/m/dedes/en/me/m09/d08/ve/b/lityglory.pdf"
+me.m09.d08.meVE.LityGlory.c1211.score.w.arranger = "SDedes/"
+me.m09.d08.meVE.LityGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d08/ve/w/lityglory.pdf"
+me.m09.d08.meVE.LityGlory.c1211.score.b.arranger = "SDedes/"
+me.m09.d08.meVE.LityGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d08/ve/b/lityglory.pdf"
 
 me.m09.d08.meVE.Aposticha1.c1221.score.w.arranger = "SDedes/"
 me.m09.d08.meVE.Aposticha1.c1221.score.w.url.path = "/media/m/dedes/en/me/m09/d08/ve/w/aposticha1.pdf"
