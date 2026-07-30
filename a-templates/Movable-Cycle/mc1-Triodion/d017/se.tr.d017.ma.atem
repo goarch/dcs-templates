@@ -70,7 +70,6 @@ Status NA
 			when-exists
 				rid meMA.Exaposteilarion1.text use:
 					Insert_section MA._12_Exaposteilarion__.weekday__.exap1 End-Insert
-					Insert_section TI.me.com1 End-Insert
 					Insert_section MA._12_Exaposteilarion__.append__.me__.exap123t End-Insert
 				otherwise use:
 					Insert_section MA._12_Exaposteilarion__.weekday__.all End-Insert

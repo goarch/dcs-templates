@@ -13042,10 +13042,10 @@ Status NA
 				Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology1d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2.text sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology2d sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology3.text End-Reading
 			End-Section
 		End-Section
-		Section append_small //2022 added Superior, so not really appended
+		Section append_small
 			Para role bkmrk12 sid misc.bookmark End-Para
 			Rubric sid ru.standing.prefix sid ru.standing.matins.smalldoxology End-Rubric
-			Actor sid ac.SuperiorOrReader End-Actor
+			Actor<arehi>sid ac.sb.ReHi</>End-Actor
 			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 			Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text End-Reading
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para
@@ -13055,7 +13055,7 @@ Status NA
 		Section small
 			Para role bkmrk12 sid misc.bookmark End-Para
 			Rubric sid ru.standing.prefix sid ru.standing.matins.smalldoxology End-Rubric
-			Actor sid ac.SuperiorOrReader End-Actor
+			Actor<arehi>sid ac.sb.ReHi</>End-Actor
 			Title role desig sid ho.ho03_gr_GR_cog.hoMA.SmallDoxology.title<rubric>sid ru.Read</>End-Title
 			Reading sid ho.ho03_gr_GR_cog.hoMA.DoxologySmallIntro.text End-Reading
 			Para role dialogwithactor<actorwithdialog>sid ac.IL.Reader</>sid pr.res04.text End-Para

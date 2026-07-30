@@ -106,7 +106,6 @@ Status Final
 				Insert_section MA._12_Exaposteilarion__.eo__.eoofweek_.exap End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.tr1o2ot_.exap1_ End-Insert
 				Set_Date month 2 day 24 year 2027 End_Date
-				Insert_section TI.me.com1 End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap123t End-Insert
 				Set_Date month 2 day 23 year 2027 End_Date
 				Insert_section MA._13_Lauds__.modeofweek__.for6 End-Insert
