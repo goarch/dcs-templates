@@ -12063,11 +12063,11 @@ Status NA
 			Section s_12as12
 				Title role desig sid ti.SticheraResurrectional End-Title
 				Para role source0 sid ti.sourceOctoechos End-Para
-				Title role mode rid ocMA.Lauds1.mode @day D1 End-Title
+				Title<Tdesig>sid ti.Sticheron1</><Tmode>rid ocMA.Lauds1.mode @day D1</>  End-Title
 				Media rid ocMA.Lauds1.text @day D1 End-Media
 				Insert_section MA.Lauds_Verses.v01 End-Insert
 				Hymn rid ocMA.Lauds1.text @ver media-off @day D1 End-Hymn
-				Title role mode rid ocMA.Lauds2.mode @day D1 End-Title
+				Title<Tdesig>sid ti.Sticheron2</><Tmode>rid ocMA.Lauds2.mode @day D1</>  End-Title
 				Media rid ocMA.Lauds2.text @day D1 End-Media
 				Insert_section MA.Lauds_Verses.v02 End-Insert
 				Hymn rid ocMA.Lauds2.text @ver media-off @day D1 End-Hymn
@@ -12075,15 +12075,15 @@ Status NA
 			Section s_123as123
 				Para role source sid ti.sourceOctoechos End-Para
 				Title role desig sid ti.SticheraResurrectional End-Title
-				Title role mode rid ocMA.Lauds1.mode @day D1 End-Title
+				Title<Tdesig>sid ti.Sticheron1</><Tmode>rid ocMA.Lauds1.mode @day D1</>  End-Title
 				Media rid ocMA.Lauds1.text @day D1 End-Media
 				Insert_section MA.Lauds_Verses.v01 End-Insert
 				Hymn rid ocMA.Lauds1.text @ver media-off @day D1 End-Hymn
-				Title role mode rid ocMA.Lauds2.mode @day D1 End-Title
+				Title<Tdesig>sid ti.Sticheron2</><Tmode>rid ocMA.Lauds2.mode @day D1</>  End-Title
 				Media rid ocMA.Lauds2.text @day D1 End-Media
 				Insert_section MA.Lauds_Verses.v02 End-Insert
 				Hymn rid ocMA.Lauds2.text @ver media-off @day D1 End-Hymn
-				Title role mode rid ocMA.Lauds3.mode @day D1 End-Title
+				Title<Tdesig>sid ti.Sticheron3</><Tmode>rid ocMA.Lauds3.mode @day D1</>  End-Title
 				Media rid ocMA.Lauds3.text @day D1 End-Media
 				Insert_section MA.Lauds_Verses.v03 End-Insert
 				Hymn rid ocMA.Lauds3.text @ver media-off @day D1 End-Hymn
@@ -12091,19 +12091,19 @@ Status NA
 			Section s_1234as1234
 				Para role source sid ti.sourceOctoechos End-Para
 				Title role desig sid ti.SticheraResurrectional End-Title
-				Title role mode rid ocMA.Lauds1.mode End-Title
+				Title<Tdesig>sid ti.Sticheron1</><Tmode>rid ocMA.Lauds1.mode</>End-Title
 				Media rid ocMA.Lauds1.text End-Media
 				Insert_section MA.Lauds_Verses.v01 End-Insert
 				Hymn rid ocMA.Lauds1.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds2.mode End-Title
+				Title<Tdesig>sid ti.Sticheron2</><Tmode>rid ocMA.Lauds2.mode</>End-Title
 				Media rid ocMA.Lauds2.text End-Media
 				Insert_section MA.Lauds_Verses.v02 End-Insert
 				Hymn rid ocMA.Lauds2.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds3.mode End-Title
+				Title<Tdesig>sid ti.Sticheron3</><Tmode>rid ocMA.Lauds3.mode</>End-Title
 				Media rid ocMA.Lauds3.text End-Media
 				Insert_section MA.Lauds_Verses.v03 End-Insert
 				Hymn rid ocMA.Lauds3.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds4.mode End-Title
+				Title<Tdesig>sid ti.Sticheron4</><Tmode>rid ocMA.Lauds4.mode</>End-Title
 				Media rid ocMA.Lauds4.text End-Media
 				Insert_section MA.Lauds_Verses.v04 End-Insert
 				Hymn rid ocMA.Lauds4.text @ver media-off End-Hymn
@@ -12111,41 +12111,41 @@ Status NA
 			Section s_1234as3456
 				Para role source sid ti.sourceOctoechos End-Para
 				Title role desig sid ti.SticheraResurrectional End-Title
-				Title role mode rid ocMA.Lauds1.mode End-Title
+				Title<Tdesig>sid ti.Sticheron1</><Tmode>rid ocMA.Lauds1.mode</>End-Title
 				Media rid ocMA.Lauds1.text End-Media
 				Insert_section MA.Lauds_Verses.v03 End-Insert
 				Hymn rid ocMA.Lauds1.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds2.mode End-Title
+				Title<Tdesig>sid ti.Sticheron2</><Tmode>rid ocMA.Lauds2.mode</>End-Title
 				Media rid ocMA.Lauds2.text End-Media
 				Insert_section MA.Lauds_Verses.v04 End-Insert
 				Hymn rid ocMA.Lauds2.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds3.mode End-Title
+				Title<Tdesig>sid ti.Sticheron3</><Tmode>rid ocMA.Lauds3.mode</>End-Title
 				Media rid ocMA.Lauds3.text End-Media
 				Insert_section MA.Lauds_Verses.v05 End-Insert
 				Hymn rid ocMA.Lauds3.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds4.mode End-Title
+				Title<Tdesig>sid ti.Sticheron4</><Tmode>rid ocMA.Lauds4.mode</>End-Title
 				Media rid ocMA.Lauds4.text End-Media
 				Insert_section MA.Lauds_Verses.v06 End-Insert
 				Hymn rid ocMA.Lauds4.text @ver media-off End-Hymn
 			End-Section
 			Section s_5as5
-				Title role mode rid ocMA.Lauds5.mode End-Title
+				Title<Tdesig>sid ti.Sticheron5</><Tmode>rid ocMA.Lauds5.mode</>End-Title
 				Media rid ocMA.Lauds5.text End-Media
 				Insert_section MA.Lauds_Verses.v05 End-Insert
 				Hymn rid ocMA.Lauds5.text @ver media-off End-Hymn
 			End-Section
 			Section s_6as6
-				Title role mode rid ocMA.Lauds6.mode End-Title
+				Title<Tdesig>sid ti.Sticheron6</><Tmode>rid ocMA.Lauds6.mode</>End-Title
 				Media rid ocMA.Lauds6.text End-Media
 				Insert_section MA.Lauds_Verses.v06 End-Insert
 				Hymn rid ocMA.Lauds6.text @ver media-off End-Hymn
 			End-Section
 			Section s_78as78
-				Title role mode rid ocMA.Lauds7.mode End-Title
+				Title<Tdesig>sid ti.Sticheron7</><Tmode>rid ocMA.Lauds7.mode</>End-Title
 				Media rid ocMA.Lauds7.text End-Media
 				Insert_section MA.Lauds_Verses.v07 End-Insert
 				Hymn rid ocMA.Lauds7.text @ver media-off End-Hymn
-				Title role mode rid ocMA.Lauds8.mode End-Title
+				Title<Tdesig>sid ti.Sticheron8</><Tmode>rid ocMA.Lauds8.mode</>End-Title
 				Media rid ocMA.Lauds8.text End-Media
 				Insert_section MA.Lauds_Verses.v08 End-Insert
 				Hymn rid ocMA.Lauds8.text @ver media-off End-Hymn
