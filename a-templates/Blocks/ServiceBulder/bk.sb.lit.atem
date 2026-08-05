@@ -102,17 +102,18 @@ Status NA
 				Title role desig sid ti.Kontakion<Tmode>sid eu.funeral_gr_GR_cog.euFUN.Key0700.mode</>End-Title
 				Media sid eu.funeral_gr_GR_cog.euFUN.Key0700.text End-Media
 				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0700.text @ver media-off End-Hymn
+				Para role brc_li_trisagion_service sid misc.custcontent End-Para
+					Actor<ach>sid ac.Choir</>End-Actor
+					Insert_section LI.memorial_service.MemorialTroparia End-Insert
+					Insert_section LN.ForMemorial_deacon_choir End-Insert
+					Actor<apr>sid ac.Priest</>End-Actor
+					Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0107.text<r>sid ru.Thrice</>End-Dialog
+					Actor<ach>sid ac.Choir</>End-Actor
+					Title role mode sid misc.Mode3 End-Title
+					Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
+					Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
+				Para role erc_li_trisagion_service sid misc.custcontent End-Para
 			Para role erc_li_memorial_service sid misc.custcontent End-Para
-			Para role brc_li_trisagion_service sid misc.custcontent End-Para
-				Insert_section LI.memorial_service.MemorialTroparia End-Insert
-				Insert_section LN.ForMemorial_deacon_choir End-Insert
-				Actor<apr>sid ac.Priest</>End-Actor
-				Dialog sid eu.funeral_gr_GR_cog.euFUN.Key0107.text<r>sid ru.Thrice</>End-Dialog
-				Actor<ach>sid ac.Choir</>End-Actor
-				Title role mode sid misc.Mode3 End-Title
-				Media sid eu.funeral_gr_GR_cog.euFUN.Key0110.text End-Media
-				Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0110.text media-off<r>sid ru.Thrice media-off</>End-Hymn
-			Para role erc_li_trisagion_service sid misc.custcontent End-Para
 		End-Section
 		Section blessing_of_loaves
 			Para role brc_li_blessing_of_loaves sid misc.custcontent End-Para
