@@ -93,6 +93,7 @@ Status NA
 				Rubric sid ru.MemorialHymnSung End-Rubric
 				Title role mode sid ho.ho02_gr_GR_cog.hoMO.TroparionForDeceased.mode End-Title
 				Hymn sid ho.ho02_gr_GR_cog.hoMO.TroparionForDeceased.text media-off End-Hymn
+				Actor<ach>sid ac.Choir</>End-Actor
 			Para role erc_li_memorial_hymn sid misc.custcontent End-Para
 			Para role brc_li_memorial_service sid misc.custcontent End-Para
 				Para role bkmrk09 sid misc.bookmark End-Para
