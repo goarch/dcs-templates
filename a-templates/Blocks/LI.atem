@@ -4337,14 +4337,18 @@ Status NA
 			Para role erc_li_communionhymn sid misc.custcontent End-Para
 		End-Section
 		Section mealt1_communionhymn
-			Actor<ach>sid ac.Choir</>End-Actor
-			Insert_section Selector_CommunionHymn.mealt1 End-Insert
-			Insert_section hLI.hymns_during_communion End-Insert
+			Para role brc_li_communionhymn sid misc.custcontent End-Para
+				Actor<ach>sid ac.Choir</>End-Actor
+				Insert_section Selector_CommunionHymn.mealt1 End-Insert
+				Insert_section hLI.hymns_during_communion End-Insert
+			Para role erc_li_communionhymn sid misc.custcontent End-Para
 		End-Section
 		Section mealt2_communionhymn
-			Actor<ach>sid ac.Choir</>End-Actor
-			Insert_section Selector_CommunionHymn.mealt2 End-Insert
-			Insert_section hLI.hymns_during_communion End-Insert
+			Para role brc_li_communionhymn sid misc.custcontent End-Para
+				Actor<ach>sid ac.Choir</>End-Actor
+				Insert_section Selector_CommunionHymn.mealt2 End-Insert
+				Insert_section hLI.hymns_during_communion End-Insert
+			Para role erc_li_communionhymn sid misc.custcontent End-Para
 		End-Section
 		Section call_to_communion
 			Actor<ade>sid ac.sb.DePr</>End-Actor

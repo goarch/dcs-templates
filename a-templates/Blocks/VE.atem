@@ -5185,6 +5185,7 @@ Status NA
 			End-Section
 			Section mealt1__
 				Section lity1_
+					Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
 					Title role desig sid ti.Idiomelon1 End-Title
 					Section hymn
 						Para role source0 sid ti.sourceMeSupplement End-Para
@@ -5192,8 +5193,10 @@ Status NA
 						Media rid alt1.meVE.Lity1.text End-Media
 						Hymn rid alt1.meVE.Lity1.text @ver media-off End-Hymn
 					End-Section
+					Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 				End-Section
 				Section lity2_
+					Para role brc_ve_lity_part3_rest sid misc.custcontent End-Para
 					Title role desig sid ti.Idiomelon2 End-Title
 					Section hymn
 						Title role mode rid alt1.meVE.Lity2.mode End-Title
@@ -5279,14 +5282,17 @@ Status NA
 			End-Section
 			Section mealt2__
 				Section lity1_
+					Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
 					Title role desig sid ti.Idiomelon1 End-Title
 					Section hymn
 						Title role mode rid alt2.meVE.Lity1.mode End-Title
 						Media rid alt2.meVE.Lity1.text End-Media
 						Hymn rid alt2.meVE.Lity1.text @ver media-off End-Hymn
 					End-Section
+					Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 				End-Section
 				Section lity2_
+					Para role brc_ve_lity_part3_rest sid misc.custcontent End-Para
 					Title role desig sid ti.Idiomelon2 End-Title
 					Section hymn
 						Title role mode rid alt2.meVE.Lity2.mode End-Title
@@ -5376,8 +5382,10 @@ Status NA
 						Title role mode rid alt1.peVE.Lity1.mode End-Title
 						Media rid alt1.peVE.Lity1.text End-Media
 						Hymn rid alt1.peVE.Lity1.text @ver media-off End-Hymn
+						Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 					End-Section
 					Section lity2
+						Para role brc_ve_lity_part3_rest sid misc.custcontent End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid alt1.peVE.Lity2.mode</>End-Title
 						Para role source0 sid ti.sourcePeSupplement End-Para
 						Media rid alt1.peVE.Lity2.text End-Media
@@ -5406,12 +5414,15 @@ Status NA
 					End-Section
 				End-Section
 				Section lity1
+					Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
 					Title role desig sid misc.Idiomelon<Tmode>rid peVE.Lity1.mode</>End-Title
 					Para role source0 sid ti.sourcePentecostarion End-Para
 					Media rid peVE.Lity1.text End-Media
 					Hymn rid peVE.Lity1.text @ver media-off End-Hymn
+					Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 				End-Section
 				Section lity2
+					Para role brc_ve_lity_part3_rest sid misc.custcontent End-Para
 					Title role desig sid misc.Idiomelon<Tmode>rid peVE.Lity2.mode</>End-Title
 					Para role source0 sid ti.sourcePentecostarion End-Para
 					Media rid peVE.Lity2.text End-Media
@@ -5471,12 +5482,15 @@ Status NA
 			End-Section
 			Section tr__
 				Section lity1
+					Para role brc_ve_lity_part2_first sid misc.custcontent End-Para
 					Para role source0 sid ti.sourceTriodion End-Para
 					Title role mode rid trVE.Lity1.mode End-Title
 					Media rid trVE.Lity1.text End-Media
 					Hymn rid trVE.Lity1.text @ver media-off End-Hymn
+					Para role erc_ve_lity_part2_first sid misc.custcontent End-Para
 				End-Section
 				Section lity2
+					Para role brc_ve_lity_part3_rest sid misc.custcontent End-Para
 					Title role mode rid trVE.Lity2.mode End-Title
 					Para role source0 sid ti.sourceTriodion End-Para
 					Media rid trVE.Lity2.text End-Media
