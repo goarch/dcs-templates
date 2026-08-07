@@ -68,7 +68,7 @@ Status NA
 			Dialog<dhi>sid eu.ordination_gr_GR_cog.euORD.PR.p304a.text sid client_gr_GR_cog.cl.ordinand.priest.acc.text sid eu.ordination_gr_GR_cog.euORD.PR.p304c.text</>End-Dialog
 			Insert_section ORD.priest__._02_after_proclamation_prayer1 End-Insert
 			Insert_section ORD.priest__._03_litany_before_inserts End-Insert
-			Dialog<dpr>sid hierarchs_gr_GR_cog.hierAME.con_ord_petition_name.text sid pr.petOrdination01b.text</>End-Dialog
+			Dialog<dpr>sid pr.petOrdination01a.text sid client_gr_GR_cog.cl.bishop1.name.petitionC sid pr.petOrdination01b.text</>End-Dialog
 			Para role dialogwithactor<dwacl><actorwithdialog>sid ac.IL.Clergy</>sid pr.res01.text</>End-Para
 			Actor<apr>sid ac.Priest1</>End-Actor
 			Dialog<dpr>sid pr.petOrdination02a.text sid client_gr_GR_cog.cl.ordinand.priest.gen.text sid pr.petOrdination02c_priest.text</>End-Dialog
