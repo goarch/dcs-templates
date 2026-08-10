@@ -60,12 +60,12 @@ Status NA
 				Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
 				Insert_section MA._06_Antiphons__.sunday_ End-Insert
 				Section oc_h12tas0GrGrTh_and_m01d06c2_h123as0GgGB_with_kont_festal_and_kath3_m01d10_and_konoik_oc
-					Section block01_eothinonposition1
-						Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-							Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-							Insert_section MA._08_Supplication__.priest__.plain End-Insert
-						Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-					End-Section
+					//Section block01_eothinonposition1
+						//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+							//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+							//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+						//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+					//End-Section
 					Section block02_odes13
 						Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 							Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert

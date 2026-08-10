@@ -235,12 +235,12 @@ Status NA
 				Insert_section MA._05_Kathisma3__.append__.pe__.kath31gb31_ End-Insert
 				Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
 				Section options
-					Section block01_eothinonposition1
-						Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-							Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
-							Insert_section MA._08_Supplication__.priest__.com End-Insert
-						Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-					End-Section
+					//Section block01_eothinonposition1
+						//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+							//Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+							//Insert_section MA._08_Supplication__.priest__.com End-Insert
+						//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+					//End-Section
 					Insert_section MA2._09_Options__.sunday__.pe1_h123as0VVV_and_me1_123tasVVGB_with_hypakoe_pe_and_konoik_me1_and_konoik_pe.block02_odes13 End-Insert
 					Section block04_ode3_kathisma
 						Para role bmc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.ode3.kathisma End-Para

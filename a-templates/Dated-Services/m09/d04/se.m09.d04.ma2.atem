@@ -62,7 +62,7 @@ Status NA
 				Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
 				Insert_section MA._06_Antiphons__.sunday_ End-Insert
 				Section options
-					Insert_section block01_eothinonposition1 End-Insert
+					//Insert_section block01_eothinonposition1 End-Insert
 					Insert_section block02_odes13 End-Insert
 					Section block04_ode3_kathisma
 						Para role bmc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.ode3.kathisma End-Para

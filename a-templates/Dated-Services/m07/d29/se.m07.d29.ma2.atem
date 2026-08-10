@@ -61,7 +61,7 @@ Status NA
 				Insert_section MA._06_Antiphons__.sunday_ End-Insert
 		//		Insert_section MA2._09_Options__.sunday__.oc_h12tas0GrGrTh_and_me1_123tasVVGB_with_kath_me1o2t_and_konoik_oc End-Insert
 				Section options
-					Insert_section block01_eothinonposition1 End-Insert
+					//Insert_section block01_eothinonposition1 End-Insert
 					Insert_section block02_odes13 End-Insert
 					Section block04_ode3_kathisma
 						Para role bmc_ode3_kathisma sid website.preferences.titles_gr_GR_cog.mc.ode3.kathisma End-Para

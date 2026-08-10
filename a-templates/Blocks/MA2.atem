@@ -29,12 +29,12 @@ Status NA
 	Section _09_Options__
 		Section sunday__
 			Section oc_h12tas0GrGrTh_and_me1_112tasVVGB_with_kath_me3_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -145,12 +145,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_1234asVVGB_with_kath_bf_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -264,12 +264,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_1234asVVGB_with_konoik_me1_and_kath_me1gb2_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -385,12 +385,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVGB_with_konoik_me1_and_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -506,12 +506,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVGB_with_konoik_oc_and_kath_me1o2t_and_konoik_me1
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -627,12 +627,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVGB_with_kont_festal_and_kath_me1_and_GBm08d15kath21_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -754,12 +754,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123asVVV_and_me2_12tasVGB_with_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -902,12 +902,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVVTh_and_me2_123tasVVGB_with_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -1050,12 +1050,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVVTh_and_me2_123tasVVGB_with_kath_me1_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -1198,12 +1198,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVVTh_and_me2_123tasVVGB_with_with_konoik_me1_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -1352,12 +1352,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me1_123tasVVGB_with_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -1468,12 +1468,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_mealt1c1_123tasVVGB_with_konoik_mealt1_and_kath_mealt1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -1589,12 +1589,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_mealt1c2_123tasVVGB_with_konoik_mealt1_and_kath_mealt1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -1710,12 +1710,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me2_123tasVVGB_with_kath_me2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -1826,12 +1826,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me2_123tasVVGB_with_konoik_me1_and_kath_me1o2t_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -1947,12 +1947,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me2_123tasVVGB_with_konoik_oc_and_kath_me1o2t_and_konoik_me1
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -2069,12 +2069,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_me2_123tasVVVTh_and_me3_12trtasVVGB_with_konoik_oc_and_kath_me1o2t_and_konoik_me1
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -2223,12 +2223,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_date_me1_1234as0VGB_with_kath_me1_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -2356,12 +2356,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_date_me1_h123as0VGB_with_kont_festal_and_kath_me1_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -2495,12 +2495,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_date_me1_h123as0VVV_and_date_me2_h123as0VGB_with_konoik_oc_and_date_kath31_and_date_konoik_me1_and_ode9_M1_and_M1
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -2682,12 +2682,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_date_me1_h123as0VVV_and_me1_123tasVVGB_with_kont_festal_and_kath_me1gbme2_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -2847,12 +2847,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_date_me2_1234asVVGB_with_kont_festal_and_date_kath_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section CAv.ode1.oc1.ti_sun_h12tas0GrGrTh End-Insert
@@ -2986,12 +2986,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_tr1_123tasVVGB_with_konoik_oc_and_kath_tr_and_konoik_tr
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -3109,12 +3109,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_tr1_123tasVVVTh_and_me1_123tasVVGB_with_konoik_oc_and_kath_tr1me1bt_and_konoik_tr
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -3263,12 +3263,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_tr1_123tasVVVTh_and_me1_123tasVVGB_with_konoik_oc_and_kath_tr1gme1bme2_and_konoik_tr
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -3417,12 +3417,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_tr1_123tasVVVTh_and_me2_123tasVVGB_with_konoik_oc_and_kath_tr1me1bt_and_konoik_tr
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -3571,12 +3571,12 @@ Status NA
 				End-Section
 			End-Section
 			Section oc_h12tas0GrGrTh_and_tr1_123tasVVVTh_and_tr2_123tasVVGB_with_konoik_tr_and_kath_tr_and_konoik_oc
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_oc_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1occanon1 End-Para
 						Insert_section TI.c._ End-Insert
@@ -3804,12 +3804,12 @@ Status NA
 				End-Section
 			End-Section
 			Section pa_hh12as00VV_and_pa_t1t2asThTh_and_me1_123tasVVGB_with_konoik_me1_and_kath_me1gbpe1_with_konoik_pe_with_ode9_pa_M1M2M3M4ThTh_and_me1_VVGB
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_pa_canon sid website.preferences.titles_gr_GR_cog.mc.ode1pacanon1 End-Para
 						Insert_section CAv.ode1.pa.ti_hh12as00VV End-Insert
@@ -3932,12 +3932,12 @@ Status NA
 				End-Section
 			End-Section
 			Section pa_hh12as00VV_and_pa_t1t2asThTh_and_pe1_F1F2trtasVVGB_with_kath_pe1gb2_with_konoik_pe_with_ode9_pa_M1M2M3M4ThTh_and_pe1_VVGB
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
-						Insert_section MA._08_Supplication__.priest__.com End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						//Insert_section MA._08_Supplication__.priest__.com End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_pa_canon sid website.preferences.titles_gr_GR_cog.mc.ode1pacanon1 End-Para
 						Insert_section CAv.ode1.pa.ti_hh12as00VV End-Insert
@@ -4050,12 +4050,12 @@ Status NA
 
 			End-Section
 			Section pe1_h123as0VVV_and_me1_123tasVVGB_with_hypakoe_pe_and_konoik_me1_and_konoik_pe
-				Section block01_eothinonposition1
-					Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
-						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
-						Insert_section MA._08_Supplication__.priest__.plain End-Insert
-					Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
-				End-Section
+				//Section block01_eothinonposition1
+					//Para role bmc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.eothinongospel.position1 End-Para
+						//Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						//Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					//Para role emc_eothinongospel_position1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
+				//End-Section
 				Section block02_odes13
 					Para role bmc_ode1_pe_canon1 sid website.preferences.titles_gr_GR_cog.mc.ode1pecanon1 End-Para
 						Insert_section CAv.ode1.pe1.ti_h123as0VVV End-Insert
