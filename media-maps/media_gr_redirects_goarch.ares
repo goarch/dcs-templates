@@ -3236,9 +3236,6 @@ oc.m1.d1.ocVE.MM.LIHC2.c1014.score.b.url.path = "/media/m/theodoridis/gr/oc/m1/d
 oc.m1.d1.ocVE.MM.Stichologia.c1014.score.b.arranger = "Petros-Ioannis | GTheodoridis/"
 oc.m1.d1.ocVE.MM.Stichologia.c1014.score.b.url.path = "/media/m/theodoridis/gr/oc/m1/d1/ve/b/lihc_stichologia.pdf"
 
-oc.m1.d1.ocVE.Stichera1.c1014.score.b.arranger = "Petros-Ioannis | GTheodoridis/"
-oc.m1.d1.ocVE.Stichera1.c1014.score.b.url.path = "/media/m/theodoridis/gr/oc/m1/d1/ve/b/stichera1.pdf"
-
 oc.m1.d1.ocVE.Stichera1.c1011.score.w.arranger = "JVelon/"
 oc.m1.d1.ocVE.Stichera1.c1011.score.w.url.path = "/media/m/velon/gr/oc/m1/d1/ve/w/stichera1.pdf"
 oc.m1.d1.ocVE.Stichera1.c1014.score.b.arranger = "Petros-Ioannis | GTheodoridis/"
