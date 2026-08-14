@@ -1,4 +1,4 @@
-Template se.den.m05.d30.ma9
+Template se.ame.m09.d19.ma9
 
 Status NA
 
@@ -22,12 +22,12 @@ Status NA
 	import roles.*
 
 	Head
-		Set_Date month 5 day 30 year 2026 End_Date
+		Set_Date month 9 day 19 year 2026 End_Date
 			Page_Header_Even
-				center @text "Consecration Matins on Saturday, May 30, 2026"
+				center @text "Consecration Matins on Saturday, September 19, 2026"
 			End_Page_Header_Even
 			Page_Header_Odd
-				center @text "Consecration Matins on Saturday, May 30, 2026"
+				center @text "Consecration Matins on Saturday, September 19, 2026"
 			End_Page_Header_Odd
 			Page_Footer_Even
 				left @pageNbr
@@ -46,57 +46,53 @@ Status NA
 	End-Preface
 
 	Section Instance_Weekday
-		Section eucon_pe1
-//			Para role servicesourcestitle sid misc.book.BooksSources.title End-Para
-//			Para role servicesources sid misc.book.Pentecostarion.name End-Para
-//			Para role servicesourcessection sid pe.d120_gr_GR_cog.peDA.commemoration.short End-Para
-//			Para role servicesources sid misc.book.Euchologion.name End-Para
-//			Para role servicesourcessection sid ti.ConsecrationOfAChurch End-Para
-//			Title sid misc.horizontal_line.solid1 End-Title
-//			Break line End_Break
+		Section eucon_me1
 			Title<bnr>sid ma.html.tab</>End-Title
 		End-Section
-		Insert_section MA._01_Beginning__.mode8 End-Insert
-		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
+		Insert_section MA._01_Beginning__.mode7 End-Insert
+		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
 		Insert_section AP.glory__.con End-Insert
-		Insert_section TI.b._ End-Insert
-		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
+		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-		Set_mcDay day 120 End_mcDay
-		Insert_section MA._02_Kathisma1__.pe__.kath11_ End-Insert
+		Set_Date month 8 day 6 year 2026 End_Date
+		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.gloryboth End-Insert
-		Insert_section MA._03_Kathisma2__.append__.pe__.kath21_ End-Insert
+		Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.gloryboth End-Insert
-		Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
-		Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
-		Set_mcDay day 0 End_mcDay
-		Insert_section HIRgoa.MA_08_Supplication__.DEN End-Insert
+		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+		Set_Date month 9 day 19 year 2026 End_Date
+		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
 		Insert_section MA._11_Kontakion__.con End-Insert
 		Insert_section SY.Synaxarion End-Insert
-		Set_mcDay day 118 End_mcDay
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Set_Date month 8 day 6 year 2026 End_Date
+		Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
+		Set_Date month 9 day 19 year 2026 End_Date
+		Insert_section CAv.ode9.append.con.ti_123tasVVGB End-Insert
 		Insert_section hKA._9 End-Insert
-		Set_mcDay day 120 End_mcDay
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-		Insert_section MA._12_Exaposteilarion__.pe__.exap1 End-Insert
+		Set_Date month 8 day 6 year 2026 End_Date
+		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
-		Insert_section MA._12_Exaposteilarion__.append__.pe__.exap2 End-Insert
+		Insert_section TI.me.com2 End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.ton_despotin End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.rubrics__.kairos_at_lauds End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
-		Insert_section MA._13_Lauds__.pe__.i_123as123 End-Insert
+		Insert_section TI.stp.me.com2 End-Insert
+		Insert_section MA._13_Lauds__.me__.p_123as123 End-Insert
 		Insert_section MA._13_Lauds__.con__.p_123as456 End-Insert
-		Insert_section TI.g.pe.com1 End-Insert
-		Insert_section MA._13_Lauds__.gloryboth__.pe__.gloryasgloryboth_.hymn End-Insert
-		Set_mcDay day 0 End_mcDay
+		Insert_section TI.g.me.com2 End-Insert
+		Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_.hymn End-Insert
+		Set_Date month 9 day 19 year 2026 End_Date
 		Insert_section MA._13_Lauds__.both__.con End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
-		Insert_section HIRgoa.MA_18_End__.DEN End-Insert
-		Insert_section HIRgoa.VEMA_Dismissal__.DEN End-Insert
+		Insert_section AP.af End-Insert
+		Insert_section HIRgoa.MA_18_End__.AME End-Insert
+		Insert_section HIRgoa.VEMA_Dismissal__.AME End-Insert
 	End-Section
 
 End-Template

@@ -14151,12 +14151,12 @@ Status NA
 					Para role heirmos sid he.h.m4_gr_GR_cog.heHE.LithosAcheirotmitos.text @ver<r>sid ru.Twice</>End-Para
 					Title role desig sid ti.Troparia End-Title
 					Media sid eu.consecration_gr_GR_cog.euCA.MM.Ode9.text End-Media
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Media sid eu.consecration_gr_GR_cog.euCA.Ode92.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver media-off End-Hymn
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Media sid eu.consecration_gr_GR_cog.euCA.Ode93.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode93.text @ver media-off End-Hymn
 					Verse sid pr.verse_Theotokos.text End-Verse
@@ -14168,12 +14168,12 @@ Status NA
 					Para role source0 sid ti.sourceEuchologion End-Para
 					Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode91.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode91.melody</>End-Title
 					Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode91.greekmelody End-Title
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Media sid eu.consecration_gr_GR_cog.euCA.Ode92.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver media-off End-Hymn
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Media sid eu.consecration_gr_GR_cog.euCA.Ode93.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode93.text @ver media-off End-Hymn
 					Verse sid pr.verse_Theotokos.text End-Verse
@@ -14185,9 +14185,9 @@ Status NA
 					Para role source0 sid ti.sourceEuchologion End-Para
 					Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode91.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode91.melody</>End-Title
 					Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode91.greekmelody End-Title
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
-					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
+					Verse sid prayers_gr_GR_cog.pr.verse_God.text End-Verse
 					Media sid eu.consecration_gr_GR_cog.euCA.Ode92.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title

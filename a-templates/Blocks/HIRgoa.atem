@@ -3432,6 +3432,7 @@ Status NA
 			End-Section
 			Section litanies2
 				Insert_section LN.FervLitany_long_deacon_choir.part2 End-Insert
+				Insert_section LN.FervLitany_long_deacon_choir.part3 End-Insert
 				Rubric sid ru.standing.prefix sid ru.standing.vespers.prayer End-Rubric
 				Actor<ahi>sid ac.Hierarch</>End-Actor
 				Reading<dhi>sid ho.ho10_gr_GR_cog.hoVE.Prayer_Kataxioson.text @ver</>End-Reading

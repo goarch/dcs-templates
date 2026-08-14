@@ -112,6 +112,20 @@ Switch-Version L2 End-Switch-Version
 							Insert_section pdf.cover.lookup.mc_matins End-Insert
 						End-Section
 				End-Section
+			Sep 19 use:
+				Section Sep19_client_alaska
+					Insert_section title End-Insert
+						Section ceremony
+							Title role cover5 sid misc.book.Euchologion.name sid d.delimiter sid ti.ConsecrationOfAChurch End-Title
+						End-Section
+						Section commeoration
+							Title role cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m08.d06_gr_GR_cog.meDA.date End-Title
+							Title role cover4 sid me.m08.d06_gr_GR_cog.meDA.commemoration.first End-Title
+						End-Section
+					Section katavasia
+						Insert_section KA._title End-Insert
+					End-Section
+				End-Section
 			Oct 5 use:
 				Section Oct05_client_oakmontpa
 					Insert_section title End-Insert
