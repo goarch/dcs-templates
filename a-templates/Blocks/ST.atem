@@ -179,7 +179,7 @@ Status NA
 			Para role servicesourcessection sid tr.d054_gr_GR_cog.trDA.commemoration.short End-Para
 			Title sid misc.horizontal_line.solid1 End-Title
 			Break line End_Break
-			Title<bnr>sid co.smallcompline.pdf.cover</>End-Title
+			Title<bnr>sid co.greatcanon.pdf.cover</>End-Title
 		End-Section
 	End-Section
 	Section gc

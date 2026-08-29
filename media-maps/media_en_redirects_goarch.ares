@@ -10246,15 +10246,15 @@ me.m09.d01.meVE.Stichera09.c1211.score.b.url.path = "/media/m/thomatos/en/me/m09
 me.m09.d01.meVE.Stichera10.c1211.score.b.arranger = "PThomatos/"
 me.m09.d01.meVE.Stichera10.c1211.score.b.url.path = "/media/m/thomatos/en/me/m09/d01/ve/b/stichera10.pdf"
 
-//me.m09.d01.meVE.SticGlory.c1211.score.w.arranger = "SDedes/"
-//me.m09.d01.meVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d01/ve/w/sticglory.pdf"
-//me.m09.d01.meVE.SticGlory.c1211.score.b.arranger = "SDedes/"
-//me.m09.d01.meVE.SticGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d01/ve/b/sticglory.pdf"
+me.m09.d01.meVE.SticGlory.c1211.score.w.arranger = "SDedes/"
+me.m09.d01.meVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d01/ve/w/sticglory.pdf"
+me.m09.d01.meVE.SticGlory.c1211.score.b.arranger = "SDedes/"
+me.m09.d01.meVE.SticGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d01/ve/b/sticglory.pdf"
 
-//me.m09.d01.meVE.SticBoth.c1211.score.w.arranger = "SDedes/"
-//me.m09.d01.meVE.SticBoth.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d01/ve/w/sticboth.pdf"
-//me.m09.d01.meVE.SticBoth.c1211.score.b.arranger = "SDedes/"
-//me.m09.d01.meVE.SticBoth.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d01/ve/b/sticboth.pdf"
+me.m09.d01.meVE.SticBoth.c1211.score.w.arranger = "SDedes/"
+me.m09.d01.meVE.SticBoth.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d01/ve/w/sticboth.pdf"
+me.m09.d01.meVE.SticBoth.c1211.score.b.arranger = "SDedes/"
+me.m09.d01.meVE.SticBoth.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d01/ve/b/sticboth.pdf"
 
 me.m09.d01.meVE.Aposticha1.c1211.score.w.arranger = "SDedes/"
 me.m09.d01.meVE.Aposticha1.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d01/ve/w/aposticha1.pdf"

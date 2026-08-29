@@ -2,10 +2,6 @@ Template se.tr.d054.co
 
 Status NA
 
-	import tr.d054_gr_GR_cog.*
-	import bk.ho.ho12.*
-	import bk.ho.ho13.*
-
 	import da.*
 	import oc.*
 	import me.*
@@ -70,8 +66,8 @@ Status NA
 		Insert_section TI.k._ End-Insert
 		Insert_section MA._11_Kontakion__.append__.tr_.konoik_nt_.kontakion_nt End-Insert
 		Insert_section HR.smallcompline__.part3 End-Insert
-		Insert_section GreatCompline_13 End-Insert
-		Insert_section GreatCompline_14 End-Insert
+		Insert_section bk.ho.ho12.GreatCompline_13 End-Insert
+		Insert_section bk.ho.ho12.GreatCompline_14 End-Insert
 		Insert_section HR.smallcompline__.part6 End-Insert
 		Insert_section HR.smallcompline__.part8 End-Insert
 	End-Section
