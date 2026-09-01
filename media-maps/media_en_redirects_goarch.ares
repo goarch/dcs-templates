@@ -12143,6 +12143,11 @@ me.m10.d26.meVE.SticBoth.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d26/
 me.m10.d26.meVE.SticBoth.c1211.score.b.arranger = "SDedes/"
 me.m10.d26.meVE.SticBoth.c1211.score.b.url.path = "/media/m/dedes/en/me/m10/d26/ve/b/sticboth.pdf"
 
+me.m10.d26.meVE.LityGlory.c1211.score.w.arranger = "SDedes/"
+me.m10.d26.meVE.LityGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d26/ve/w/lityglory.pdf"
+me.m10.d26.meVE.LityGlory.c1211.score.b.arranger = "SDedes/"
+me.m10.d26.meVE.LityGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m10/d26/ve/b/lityglory.pdf"
+
 me.m10.d26.meVE.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m10.d26.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d26/ve/w/aposglory.pdf"
 me.m10.d26.meVE.AposGlory.c1211.score.b.arranger = "SDedes/"
