@@ -1,0 +1,99 @@
+Template se.ame.m10.d31.ma9
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 10 day 31 year 2026 End_Date
+			Page_Header_Even
+				center @text "Consecration Matins on Saturday, October 31, 2026"
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @text "Consecration Matins on Saturday, October 31, 2026"
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template pdf.cover.ma.override End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance_Weekday
+		Section eucon_me1
+			Title<bnr>sid ma.html.tab</>End-Title
+		End-Section
+		Insert_section MA._01_Beginning__.mode4 End-Insert
+		Insert_section AP.con End-Insert
+		Insert_section TI.g._ End-Insert
+		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
+		Insert_section AP.both__.con End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Set_Date month 4 day 23 year 2026 End_Date
+		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
+		Insert_section CONS.MA_02_Kathisma1__.gloryboth End-Insert
+		Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
+		Insert_section CONS.MA_03_Kathisma2__.gloryboth End-Insert
+		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
+		Section gospel
+			Rubric sid ru.standing.prefix sid ru.standing.matins.gospel End-Rubric
+			Insert_section Selector_MatinsGospel.gospel_introH End-Insert
+			Insert_section Selector_MatinsGospel.gospel_me End-Insert
+			Actor<ahi>sid ac.Hierarch</>End-Actor
+			Insert_section LiturgicalPsalms.Psalm_50_Paragraph End-Insert
+			Insert_section Selector_MatinsGospel.PostGospel_me End-Insert
+		End-Section
+		Set_Date month 10 day 31 year 2026 End_Date
+		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
+		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section hKA._1345678 End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section hKA._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Set_Date month 4 day 23 year 2026 End_Date
+		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
+		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
+		Insert_section CONS.MA_prayers End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+		Insert_section MA._13_Lauds__.con__.p_123as123 End-Insert
+		Insert_section TI.stp.me.com1 End-Insert
+		Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
+		Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
+		Set_Date month 10 day 31 year 2026 End_Date
+		Insert_section MA._13_Lauds__.both__.con End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+		Insert_section AP.con End-Insert
+		Insert_section HIRgoa.MA_18_End__.AME End-Insert
+		Insert_section HIRgoa.VEMA_Dismissal__.AME End-Insert
+	End-Section
+
+End-Template

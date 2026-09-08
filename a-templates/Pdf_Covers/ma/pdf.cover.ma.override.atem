@@ -193,6 +193,20 @@ Switch-Version L2 End-Switch-Version
 						Title role cover4 sid eu.ordination_gr_GR_cog.euORD.EP.p400.title End-Title
 					End-Section
 				End-Section
+			Oct 31 use:
+				Section Oct31_client_norwalkct
+					Insert_section title End-Insert
+						Section ceremony
+							Title role cover5 sid misc.book.Euchologion.name sid d.delimiter sid ti.ConsecrationOfAChurch End-Title
+						End-Section
+						Section commeoration
+							Title role cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m04.d23_gr_GR_cog.meDA.date End-Title
+							Title role cover4 sid me.m04.d23_gr_GR_cog.meDA.commemoration.first End-Title
+						End-Section
+					Section katavasia
+						Insert_section KA._title End-Insert
+					End-Section
+				End-Section
 		//	Nov 1 thru 7 use: //St. Raphael of Brooklyn
 		//		Section straphael
 		//			when-name-of-day-is
