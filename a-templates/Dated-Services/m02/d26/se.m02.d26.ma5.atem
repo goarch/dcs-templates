@@ -68,7 +68,7 @@ Status Final
 		Insert_section TI.stp.s._00_saint_.w End-Insert
 		Insert_section MA._13_Lauds__.me__.alt1__.p_1123as3456 End-Insert
 		Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_ End-Insert
-		Insert_section MA._13_Lauds__.both__.theotokion__.mode6_vine__.womanmartyr End-Insert
+		Insert_section MA._13_Lauds__.both__.theotokion__.mode6 End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.mealt11_ End-Insert
 	End-Section

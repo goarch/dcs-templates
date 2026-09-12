@@ -184,76 +184,89 @@ Status NA
 				End-Section
 				Section mode6_vine__
 					Section apostle
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Apostle End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolou.text End-Media
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section apostles
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Apostles End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolon.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolon.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section devout
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Devout End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiOsiou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiOsiou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section devouts
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Devouts End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiOsion.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiOsion.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section forerunner
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Forerunner End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiProdromou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiProdromou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section hierarch
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Hierarch End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiIerarchou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiIerarchou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section martyr
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Martyr End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthloforou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthloforou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section martyrs
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Martyrs End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthloforon.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthloforon.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section prophet
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Prophet End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiProfitou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiProfitou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section teachers
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Teachers End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiDidaskalon.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiDidaskalon.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section unmercenaries
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Unmercenaries End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiAnargyron.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiAnargyron.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 					Section womanmartyr
-						Para role source sid ti.sourceOctoechos End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
 						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_WomanMartyr End-Insert
+						Media sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthliforou.text End-Media
+						Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiAthliforou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 					End-Section
 				End-Section
 				Section mode7
@@ -490,79 +503,8 @@ Status NA
 					Media sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 				End-Section
-				Section mode6_vine__
-					Section apostle
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Apostle End-Insert
-					End-Section
-					Section apostles
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Apostles End-Insert
-					End-Section
-					Section devout
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Devout End-Insert
-					End-Section
-					Section devouts
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Devouts End-Insert
-					End-Section
-					Section forerunner
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Forerunner End-Insert
-					End-Section
-					Section hierarch
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Hierarch End-Insert
-					End-Section
-					Section martyr
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Martyr End-Insert
-					End-Section
-					Section martyrs
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Martyrs End-Insert
-					End-Section
-					Section prophet
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Prophet End-Insert
-					End-Section
-					Section teachers
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Teachers End-Insert
-					End-Section
-					Section unmercenaries
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_Unmercenaries End-Insert
-					End-Section
-					Section womanmartyr
-						Para role source sid ti.sourceOctoechos End-Para
-						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
-						Title role mode sid misc.Mode6 End-Title
-						Insert_section bk.he.o.Theotokion_Vine_WomanMartyr End-Insert
-					End-Section
+				Section mode6
+					Insert_section Selector_Theotokion_Vine.theotokion End-Insert
 				End-Section
 				Section mode7
 					Para role source sid ti.sourceOctoechos End-Para

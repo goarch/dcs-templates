@@ -98,7 +98,7 @@ Status Final
 					Hymn sid me.m08.d02_gr_GR_cog.meVE.Stichera06.text @ver media-off End-Hymn
 				End-Section
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_ End-Insert
-				Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode6_vine__.martyr End-Insert
+				Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode6 End-Insert
 				Insert_section VE._09_Symeon_Trisagion__.Priest.symeon End-Insert
 				Section paraklesis
 					Insert_section Selector_AugustVespersParaklesis.canon_at_vespers_part1 End-Insert

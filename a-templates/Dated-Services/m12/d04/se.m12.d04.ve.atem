@@ -106,7 +106,12 @@ Status Final
 					Hymn rid meVE.Aposticha3.text @ver media-off End-Hymn
 				End-Section
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_ End-Insert
-				Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode6_vine__.devout End-Insert
+				Section mode6_theotokion
+					Para role source sid ti.sourceOctoechos End-Para
+					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Title role mode sid misc.Mode6 End-Title
+					Insert_section Selector_Theotokion_Vine.Devout End-Insert
+				End-Section
 				Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
 				Insert_section TI.a.me.com1 End-Insert
 				Insert_section AP.me1_.hymn End-Insert
