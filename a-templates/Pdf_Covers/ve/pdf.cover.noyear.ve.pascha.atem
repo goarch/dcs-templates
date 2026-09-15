@@ -21,7 +21,7 @@ Status NA
 	import roles.*
 	import rules.*
 
-Switch-Version L1 End-Switch-Version
+Switch-Version L2 End-Switch-Version
 
 		Section agape_vespers
 			Insert_section pdf.cover.links.lookup.invisible End-Insert
