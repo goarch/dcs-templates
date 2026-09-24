@@ -309,6 +309,7 @@ Status NA
 			Rubric<pdfno>sid hi.hi04_gr_GR_cog.hiMA.R101.rubric</>End-Rubric
 		//	Rubric<pdfno>sid hi.hi04_gr_GR_cog.hiMA.R102.rubric</>End-Rubric
 			Rubric<pdfno>sid hi.hi04_gr_GR_cog.hiMA.R103.rubric</>End-Rubric
+		Title role bmc_collapse sid template.titles_gr_GR_cog.clps.prayers.top End-Title
 			Rubric<pdfno>sid hi.hi04_gr_GR_cog.hiMA.R104.rubric</>End-Rubric
 			Actor<pdfno>sid ac.Priest<rubricnopdf>sid ru.Inaudibly</></>End-Actor
 			Title role desig<pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0101.title</>End-Title
@@ -347,6 +348,7 @@ Status NA
 			Title role desig<pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.title</>End-Title
 			Para role prayer<pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.text @ver</>End-Para
 			Para role prayer<pdfno>sid hi.hi04_gr_GR_cog.hiMA.Key0112.exclamation @ver</>End-Para
+		Title role emc_collapse sid template.titles_gr_GR_cog.clps.prayers.bottom End-Title
 			Break line End_Break
 		End-Section
 		Section part5
