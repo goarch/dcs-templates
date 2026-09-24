@@ -1,0 +1,75 @@
+Template sb.cover.pl
+
+Status Final //Except for special dated pl. this template has been functionally replaced by pdf.cover.ve.specific_mc
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+
+Section content
+	Para role sb_pdf_cover_begin sid misc.custcontent End-Para
+
+		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+		Title role sb_cover1 sid pl.pdf.cover End-Title
+		Section title
+			Insert_section sb.cover.lookup.on_day_date_before End-Insert
+			Title role sb_cover31 rid meDA.fordate ldp @Service_Year End-Title 
+		End-Section
+
+		Section lent
+			when-date-is
+				 Mar 10 use:
+					Section moveable_10
+						Insert_section sb.cover.lookup.mc_vespers_on_day_before End-Insert
+					End-Section
+					Section commemoration_10
+						Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m03.d09_gr_GR_cog.meDA.date End-Title
+						Title role sb_cover4 sid me.m03.d09_gr_GR_cog.meDA.commemoration.first_short End-Title
+					End-Section
+				 Mar 25 use:
+					Section commemoration_25
+						Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m03.d25_gr_GR_cog.meDA.date End-Title
+						Title role sb_cover4 sid me.m03.d25_gr_GR_cog.meDA.commemoration.first_short End-Title
+					End-Section
+				 Apr 11 use:
+					Section moveable_62
+						Insert_section sb.cover.lookup.mc_vespers_on_day_before End-Insert
+					End-Section
+					Section commemoration_62
+						Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m04.d11_gr_GR_cog.meDA.date End-Title
+						Title role sb_cover4 sid me.m04.d11_gr_GR_cog.meDA.commemoration.first_short End-Title
+					End-Section
+				 Apr 26 use:
+					Section moveable_26
+						Insert_section sb.cover.lookup.mc_vespers_on_day_before End-Insert
+					End-Section
+					Section commemoration_26
+						Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m04.d25_gr_GR_cog.meDA.date End-Title
+						Title role sb_cover4 sid me.m04.d25_gr_GR_cog.meDA.commemoration.first_short End-Title
+					End-Section
+			end-when
+		End-Section
+
+		// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+
+	Para role sb_pdf_cover_end sid misc.custcontent End-Para
+End-Section
+
+End-Template

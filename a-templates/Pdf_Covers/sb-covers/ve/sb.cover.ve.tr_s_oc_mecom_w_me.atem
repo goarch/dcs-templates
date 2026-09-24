@@ -1,0 +1,85 @@
+Template sb.cover.ve.tr_s_oc_mecom_w_me //Feb 3 thru 9
+
+Status Final
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+
+		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+		Section title
+			Title role sb_cover1 sid ve.pdf.cover End-Title
+			Insert_section sb.cover.lookup.on_day_date_before End-Insert
+			Title role sb_cover31 rid meDA.fordate End-Title 
+		End-Section
+
+		Section cover
+			when-movable-cycle-day-is
+				1 thru 22 use:
+					Section triodion
+						Section modeofweek
+							when-name-of-day-is
+								Sunday use:
+									Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+									Insert_section sb.cover.lookup.on_evening_before End-Insert
+							end-when
+						End-Section
+						Section moveable
+							when-movable-cycle-day-is
+								1, 8, 14, 15, 21, 22 use:
+									Insert_section sb.cover.lookup.mc_vespers_on_day_before End-Insert
+							end-when
+						End-Section
+						Section commeoration
+							when-name-of-day-is
+								Sunday use:
+									Insert_section sb.cover.lookup.when_sunday_dates End-Insert
+								otherwise use:
+									Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+									Title role sb_cover4 rid meDA.commemoration.first_short End-Title
+							end-when
+						End-Section
+					End-Section
+				otherwise use:
+					Section normal
+						Section modeofweek
+							when-name-of-day-is
+								Sunday use:
+									Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+									Insert_section sb.cover.lookup.on_evening_before End-Insert
+							end-when
+						End-Section
+						Section commeoration
+							when-name-of-day-is
+								Sunday use:
+									Insert_section sb.cover.lookup.when_sunday_dates End-Insert
+								otherwise use:
+									Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+									Title role sb_cover4 rid meDA.commemoration.full End-Title
+							end-when
+						End-Section
+					End-Section
+			end-when
+		End-Section
+
+		// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+
+
+End-Template

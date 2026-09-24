@@ -1,0 +1,49 @@
+Template sb.cover.noyear.ma.pascha
+
+Status NA
+
+	import pdf.covers_gr_GR_cog.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+//	Head
+//		Set_Date month 10 day 11 End_Date
+//	End_Head
+
+
+		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+		Title role sb_cover1 sid pa.pascha End-Title
+		Section cover
+			when-movable-cycle-day-is
+				71 use:
+					Title role sb_cover2 sid pa.resurrection sid d.onSaturdayEvening End-Title
+					Title role sb_cover3 sid ma.pdf.header sid pa.ofpascha End-Title
+					Insert_section sb.cover.lookup.mc_matins End-Insert
+					Section katavasia
+						Insert_section KA._title End-Insert
+					End-Section
+			end-when
+		End-Section
+
+		// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+
+
+End-Template

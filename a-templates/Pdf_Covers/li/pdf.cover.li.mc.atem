@@ -25,7 +25,8 @@ Status NA
 		when-movable-cycle-day-is
 			1 use:
 				Section title_mc
-					Title role cover1 sid li.pdf.cover End-Title
+					Title role cover1 sid li.pdf.cover1 End-Title
+					Title role cover1 sid li.pdf.cover2 End-Title
 					Title role cover3 sid d.for ldp @Service_Date End-Title 
 				End-Section
 				Section d001
@@ -204,7 +205,8 @@ Status NA
 			29 use:
 				Section d029
 					Section title
-						Title role cover1 sid lib.pdf.cover End-Title
+						Title role cover1 sid lib.pdf.cover1 End-Title
+						Title role cover1 sid lib.pdf.cover2 End-Title
 						Title role cover3 sid d.for ldp @Service_Date End-Title 
 					End-Section
 					Section mode
@@ -234,7 +236,8 @@ Status NA
 			36 use:
 				Section d036
 					Section title
-						Title role cover1 sid lib.pdf.cover End-Title
+						Title role cover1 sid lib.pdf.cover1 End-Title
+						Title role cover1 sid lib.pdf.cover2 End-Title
 						Title role cover3 sid d.for ldp @Service_Date End-Title 
 					End-Section
 					Section mode
@@ -264,7 +267,8 @@ Status NA
 			43 use:
 				Section d043
 					Section title
-						Title role cover1 sid lib.pdf.cover End-Title
+						Title role cover1 sid lib.pdf.cover1 End-Title
+						Title role cover1 sid lib.pdf.cover2 End-Title
 						Title role cover3 sid d.for ldp @Service_Date End-Title 
 					End-Section
 					Section mode
@@ -294,7 +298,8 @@ Status NA
 			50 use:
 				Section d050
 					Section title
-						Title role cover1 sid lib.pdf.cover End-Title
+						Title role cover1 sid lib.pdf.cover1 End-Title
+						Title role cover1 sid lib.pdf.cover2 End-Title
 						Title role cover3 sid d.for ldp @Service_Date End-Title 
 					End-Section
 					Section mode
@@ -320,7 +325,8 @@ Status NA
 			57 use:
 				Section d057
 					Section title
-						Title role cover1 sid lib.pdf.cover End-Title
+						Title role cover1 sid lib.pdf.cover1 End-Title
+						Title role cover1 sid lib.pdf.cover2 End-Title
 						Title role cover3 sid d.for ldp @Service_Date End-Title 
 					End-Section
 					Section mode
@@ -970,6 +976,21 @@ Status NA
 						Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
 					End-Section
 				End-Section
+			otherwise use:
+				Section standard
+					Insert_section title_mc End-Insert
+					Section mode
+						when-name-of-day-is
+							Sunday use:
+								Title role cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+						end-when
+					End-Section
+					Section commeoration
+						Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+						Title role cover4 rid meDA.commemoration.full End-Title
+					End-Section
+				End-Section
+			
 		end-when
 	End-Section
 

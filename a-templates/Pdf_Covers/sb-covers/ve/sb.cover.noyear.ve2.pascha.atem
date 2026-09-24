@@ -1,0 +1,39 @@
+Template sb.cover.noyear.ve2.pascha
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+
+		Section agape_vespers_st_george
+			Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+			Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+			Title role sb_cover1 sid pa.pascha End-Title
+			Title role sb_cover2 sid pa.agape End-Title
+			Insert_section sb.cover.lookup.mc_vespers_on_day_before End-Insert
+			Section commeoration
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m04.d23_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m04.d23_gr_GR_cog.meDA.commemoration.full End-Title
+			End-Section
+			// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+		End-Section
+
+
+End-Template

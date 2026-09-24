@@ -1,0 +1,99 @@
+Template sb.cover_pages
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+	
+	Section ve
+		Insert_section sb.cover.ve.me.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ve4
+		Insert_section sb.cover.ve4.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ve56
+		Insert_section sb.cover.ve56.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section vl
+		Insert_section sb.cover.vl.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section pl
+		Insert_section sb.cover.pl.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ve_override
+		Insert_section sb.cover.ve.override.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+
+
+	Section ma
+		Insert_section sb.cover.ma.me.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ma4
+		Insert_section sb.cover.ma4.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ma56
+		Insert_section sb.cover.ma56.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+	Section ma_override
+		Insert_section sb.cover.ma.override.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+
+
+
+
+	Section li
+		Insert_section sb.cover.li.me.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+	
+	Section li4
+		Insert_section sb.cover.li4.me.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+	
+	Section li6
+		Insert_section sb.cover.li6.me.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+	
+	Section li_override
+		Insert_section sb.cover.li.override.content End-Insert
+		Insert_section sb.credits.content End-Insert
+	End-Section
+	
+End-Template

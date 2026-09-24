@@ -24,6 +24,7 @@ Status NA
 	Break page End_Break
 
 Switch-Version L2 End-Switch-Version
+
 	Passthrough-Html "<style type='text/css'>td {border-left: none; border-right: none;}</style>" END-Passthrough-Html
 
 			Section sources
@@ -49,7 +50,8 @@ Switch-Version L2 End-Switch-Version
 				Para role credits3 sid pdf.credits_gr_GR_cog.fonts01.text End-Para
 				Para role credits3 sid pdf.credits_gr_GR_cog.fonts02.text sid pdf.credits_gr_GR_cog.fonts03.text End-Para
 			End-Section
-	
+
+
 Switch-Version Both End-Switch-Version
 
 	End-Template

@@ -78,6 +78,7 @@ Status Final
 
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert

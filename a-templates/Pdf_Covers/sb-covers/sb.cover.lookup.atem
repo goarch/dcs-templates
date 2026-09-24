@@ -1,0 +1,3324 @@
+Template sb.cover.lookup
+
+Status NA
+
+	import pdf.covers_gr_GR_cog.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+	Section when_sunday_dates
+		when-date-is
+			Jan 7 thru 13 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m01.d06_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Jan 14 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m01.d06_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m01.d14_gr_GR_cog.meDA.commemoration.first_short End-Title
+			Feb 3 thru 9 use:
+				when-movable-cycle-day-is
+					1, 8 use:
+						when-date-is
+							Feb 3 thru 8 use:
+								Section meeting
+									Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m02.d02_gr_GR_cog.meDA.date End-Title
+									Title role sb_cover4 sid me.SundayAfterFeast End-Title
+								End-Section
+							Feb 9 use:
+								Section leavetaking_of_meeting
+									Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m02.d02_gr_GR_cog.meDA.date End-Title
+									Title role sb_cover4 sid me.m02.d09_gr_GR_cog.meDA.commemoration.second_short End-Title
+								End-Section
+						end-when
+					15 use:
+						when-date-is
+							Feb 3 thru 5 use: Insert_section meeting End-Insert
+							Feb 6 use: Insert_section leavetaking_of_meeting End-Insert
+						end-when
+					22 use:
+						when-date-is
+							Feb 3 thru 6 use: Insert_section meeting End-Insert
+							Feb 7 use: Insert_section leavetaking_of_meeting End-Insert
+							Feb 8, 9 use: //triodion
+						end-when
+					otherwise use:
+						when-date-is
+							Feb 3 thru 8 use: Insert_section meeting End-Insert
+							Feb 9 use: Insert_section leavetaking_of_meeting End-Insert
+						end-when
+				end-when
+			Jul 13 thru 19 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m07.dHF_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m07.dHF_gr_GR_cog.meDA.commemoration.full End-Title
+			Aug 7 thru 13 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m08.d06_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Aug 16 thru 22 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m08.d15_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Sep 9 thru 11 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m09.d08_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Sep 15 thru 20 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m09.d14_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Oct 11 thru 17 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m10.dHF_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m10.dHF_gr_GR_cog.meDA.commemoration.full End-Title
+			Nov 22 thru 24 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m11.d21_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.SundayAfterFeast End-Title
+			Dec 11 thru 17 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m12.dFF_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m12.dFF_gr_GR_cog.meDA.commemoration.full End-Title
+			Dec 18 thru 24 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m12.dBC_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m12.dBC_gr_GR_cog.meDA.commemoration.full End-Title
+			Dec 26 thru 31 use:
+				Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m12.dAC_gr_GR_cog.meDA.date End-Title
+				Title role sb_cover4 sid me.m12.dAC_gr_GR_cog.meDA.commemoration.full End-Title
+		end-when
+	End-Section
+
+	Section when_postfestal_dates //for use of festal canon in matins
+		when-date-is
+			Jan 8 thru 13 use:
+				Section epiphany
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m01.d06_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Feb 3 thru 8 use:
+				Section meeting
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m02.d02_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Aug 7 thru 12 use:
+				Section transfiguration
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m08.d06_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Aug 16 thru 21 use:
+				Section dormition
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m08.d15_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Sep 9 thru 11 use:
+				Section theotokosbirth
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m09.d08_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Sep 15 thru 20 use:
+				Section cross
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m09.d14_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Nov 22 thru 24 use:
+				Section entry
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m11.d21_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+			Dec 27 thru 30 use:
+				Section christmas
+					Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter sid me.m12.d25_gr_GR_cog.meDA.date End-Title
+					Title role sb_cover4 sid ti.CanonFeast End-Title
+				End-Section
+		end-when
+	End-Section
+
+	Section mode_on_evening_before
+		when-name-of-day-is
+			Sunday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onSaturdayEvening End-Title
+			Monday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onSundayEvening End-Title
+			Tuesday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onMondayEvening End-Title
+			Wednesday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onTuesdayEvening End-Title
+			Thursday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onWednesdayEvening End-Title
+			Friday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onThursdayEvening End-Title
+			Saturday use:
+				Title role sb_cover4 rid ocVE.Stichera1.mode sid d.onFridayEvening End-Title
+		end-when
+	End-Section
+
+	Section on_day_date_before
+		when-date-is
+			Jan 1 use:
+				Section Jan01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 2 use:
+				Section Jan02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 3 use:
+				Section Jan03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 4 use:
+				Section Jan04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 5 use:
+				Section Jan05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 6 use:
+				Section Jan06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 7 use:
+				Section Jan07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 8 use:
+				Section Jan08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 9 use:
+				Section Jan09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 10 use:
+				Section Jan10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 11 use:
+				Section Jan11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 12 use:
+				Section Jan12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 13 use:
+				Section Jan13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 14 use:
+				Section Jan14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 15 use:
+				Section Jan15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 16 use:
+				Section Jan16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 17 use:
+				Section Jan17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 18 use:
+				Section Jan18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 19 use:
+				Section Jan19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 20 use:
+				Section Jan20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 21 use:
+				Section Jan21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 22 use:
+				Section Jan22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 23 use:
+				Section Jan23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 24 use:
+				Section Jan24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 25 use:
+				Section Jan25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 26 use:
+				Section Jan26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 27 use:
+				Section Jan27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 28 use:
+				Section Jan28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 29 use:
+				Section Jan29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 30 use:
+				Section Jan30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jan 31 use:
+				Section Jan31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 1 use:
+				Section Feb01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 2 use:
+				Section Feb02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 3 use:
+				Section Feb03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 4 use:
+				Section Feb04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 5 use:
+				Section Feb05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 6 use:
+				Section Feb06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 7 use:
+				Section Feb07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 8 use:
+				Section Feb08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 9 use:
+				Section Feb09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 10 use:
+				Section Feb10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 11 use:
+				Section Feb11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 12 use:
+				Section Feb12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 13 use:
+				Section Feb13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 14 use:
+				Section Feb14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 15 use:
+				Section Feb15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 16 use:
+				Section Feb16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 17 use:
+				Section Feb17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 18 use:
+				Section Feb18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 19 use:
+				Section Feb19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 20 use:
+				Section Feb20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 21 use:
+				Section Feb21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 22 use:
+				Section Feb22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 23 use:
+				Section Feb23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 24 use:
+				Section Feb24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 25 use:
+				Section Feb25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 26 use:
+				Section Feb26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 27 use:
+				Section Feb27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 28 use:
+				Section Feb28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Feb 29 use:
+				Section Feb29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 1 use:
+				Section Mar01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text End-Title
+				End-Section
+			Mar 2 use:
+				Section Mar02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 3 use:
+				Section Mar03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 4 use:
+				Section Mar04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 5 use:
+				Section Mar05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 6 use:
+				Section Mar06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 7 use:
+				Section Mar07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 8 use:
+				Section Mar08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 9 use:
+				Section Mar09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 10 use:
+				Section Mar10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 11 use:
+				Section Mar11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 12 use:
+				Section Mar12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 13 use:
+				Section Mar13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 14 use:
+				Section Mar14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 15 use:
+				Section Mar15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 16 use:
+				Section Mar16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 17 use:
+				Section Mar17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 18 use:
+				Section Mar18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 19 use:
+				Section Mar19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 20 use:
+				Section Mar20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 21 use:
+				Section Mar21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 22 use:
+				Section Mar22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 23 use:
+				Section Mar23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 24 use:
+				Section Mar24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 25 use:
+				Section Mar25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 26 use:
+				Section Mar26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 27 use:
+				Section Mar27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 28 use:
+				Section Mar28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 29 use:
+				Section Mar29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 30 use:
+				Section Mar30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Mar 31 use:
+				Section Mar31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 1 use:
+				Section Apr01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 2 use:
+				Section Apr02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 3 use:
+				Section Apr03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 4 use:
+				Section Apr04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 5 use:
+				Section Apr05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 6 use:
+				Section Apr06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 7 use:
+				Section Apr07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 8 use:
+				Section Apr08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 9 use:
+				Section Apr09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 10 use:
+				Section Apr10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 11 use:
+				Section Apr11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 12 use:
+				Section Apr12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 13 use:
+				Section Apr13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 14 use:
+				Section Apr14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 15 use:
+				Section Apr15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 16 use:
+				Section Apr16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 17 use:
+				Section Apr17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 18 use:
+				Section Apr18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 19 use:
+				Section Apr19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 20 use:
+				Section Apr20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 21 use:
+				Section Apr21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 22 use:
+				Section Apr22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 23 use:
+				Section Apr23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 24 use:
+				Section Apr24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 25 use:
+				Section Apr25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 26 use:
+				Section Apr26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 27 use:
+				Section Apr27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 28 use:
+				Section Apr28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 29 use:
+				Section Apr29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Apr 30 use:
+				Section Apr30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 1 use:
+				Section May01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 2 use:
+				Section May02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 3 use:
+				Section May03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 4 use:
+				Section May04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 5 use:
+				Section May05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 6 use:
+				Section May06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 7 use:
+				Section May07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 8 use:
+				Section May08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 9 use:
+				Section May09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 10 use:
+				Section May10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 11 use:
+				Section May11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 12 use:
+				Section May12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 13 use:
+				Section May13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 14 use:
+				Section May14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 15 use:
+				Section May15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 16 use:
+				Section May16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 17 use:
+				Section May17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 18 use:
+				Section May18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 19 use:
+				Section May19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 20 use:
+				Section May20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 21 use:
+				Section May21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 22 use:
+				Section May22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 23 use:
+				Section May23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 24 use:
+				Section May24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 25 use:
+				Section May25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 26 use:
+				Section May26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 27 use:
+				Section May27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 28 use:
+				Section May28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 29 use:
+				Section May29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 30 use:
+				Section May30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			May 31 use:
+				Section May31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 1 use:
+				Section Jun01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 2 use:
+				Section Jun02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 3 use:
+				Section Jun03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 4 use:
+				Section Jun04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 5 use:
+				Section Jun05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 6 use:
+				Section Jun06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 7 use:
+				Section Jun07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 8 use:
+				Section Jun08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 9 use:
+				Section Jun09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 10 use:
+				Section Jun10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 11 use:
+				Section Jun11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 12 use:
+				Section Jun12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 13 use:
+				Section Jun13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 14 use:
+				Section Jun14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 15 use:
+				Section Jun15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 16 use:
+				Section Jun16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 17 use:
+				Section Jun17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 18 use:
+				Section Jun18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 19 use:
+				Section Jun19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 20 use:
+				Section Jun20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 21 use:
+				Section Jun21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 22 use:
+				Section Jun22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 23 use:
+				Section Jun23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 24 use:
+				Section Jun24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 25 use:
+				Section Jun25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 26 use:
+				Section Jun26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 27 use:
+				Section Jun27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 28 use:
+				Section Jun28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 29 use:
+				Section Jun29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jun 30 use:
+				Section Jun30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 1 use:
+				Section Jul01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 2 use:
+				Section Jul02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 3 use:
+				Section Jul03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 4 use:
+				Section Jul04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 5 use:
+				Section Jul05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 6 use:
+				Section Jul06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 7 use:
+				Section Jul07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 8 use:
+				Section Jul08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 9 use:
+				Section Jul09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 10 use:
+				Section Jul10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 11 use:
+				Section Jul11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 12 use:
+				Section Jul12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 13 use:
+				Section Jul13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 14 use:
+				Section Jul14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 15 use:
+				Section Jul15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 16 use:
+				Section Jul16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 17 use:
+				Section Jul17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 18 use:
+				Section Jul18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 19 use:
+				Section Jul19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 20 use:
+				Section Jul20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 21 use:
+				Section Jul21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 22 use:
+				Section Jul22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 23 use:
+				Section Jul23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 24 use:
+				Section Jul24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 25 use:
+				Section Jul25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 26 use:
+				Section Jul26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 27 use:
+				Section Jul27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 28 use:
+				Section Jul28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 29 use:
+				Section Jul29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 30 use:
+				Section Jul30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Jul 31 use:
+				Section Jul31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 1 use:
+				Section Aug01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 2 use:
+				Section Aug02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 3 use:
+				Section Aug03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 4 use:
+				Section Aug04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 5 use:
+				Section Aug05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 6 use:
+				Section Aug06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 7 use:
+				Section Aug07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 8 use:
+				Section Aug08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 9 use:
+				Section Aug09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 10 use:
+				Section Aug10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 11 use:
+				Section Aug11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 12 use:
+				Section Aug12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 13 use:
+				Section Aug13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 14 use:
+				Section Aug14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 15 use:
+				Section Aug15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 16 use:
+				Section Aug16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 17 use:
+				Section Aug17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 18 use:
+				Section Aug18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 19 use:
+				Section Aug19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 20 use:
+				Section Aug20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 21 use:
+				Section Aug21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 22 use:
+				Section Aug22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 23 use:
+				Section Aug23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 24 use:
+				Section Aug24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 25 use:
+				Section Aug25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 26 use:
+				Section Aug26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 27 use:
+				Section Aug27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 28 use:
+				Section Aug28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 29 use:
+				Section Aug29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 30 use:
+				Section Aug30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Aug 31 use:
+				Section Aug31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 1 use:
+				Section Sep01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 2 use:
+				Section Sep02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 3 use:
+				Section Sep03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 4 use:
+				Section Sep04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 5 use:
+				Section Sep05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 6 use:
+				Section Sep06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 7 use:
+				Section Sep07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 8 use:
+				Section Sep08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 9 use:
+				Section Sep09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 10 use:
+				Section Sep10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 11 use:
+				Section Sep11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 12 use:
+				Section Sep12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 13 use:
+				Section Sep13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 14 use:
+				Section Sep14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 15 use:
+				Section Sep15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 16 use:
+				Section Sep16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 17 use:
+				Section Sep17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 18 use:
+				Section Sep18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 19 use:
+				Section Sep19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 20 use:
+				Section Sep20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 21 use:
+				Section Sep21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 22 use:
+				Section Sep22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 23 use:
+				Section Sep23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 24 use:
+				Section Sep24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 25 use:
+				Section Sep25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 26 use:
+				Section Sep26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 27 use:
+				Section Sep27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 28 use:
+				Section Sep28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 29 use:
+				Section Sep29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Sep 30 use:
+				Section Sep30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 1 use:
+				Section Oct01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 2 use:
+				Section Oct02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 3 use:
+				Section Oct03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 4 use:
+				Section Oct04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 5 use:
+				Section Oct05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 6 use:
+				Section Oct06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 7 use:
+				Section Oct07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 8 use:
+				Section Oct08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 9 use:
+				Section Oct09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 10 use:
+				Section Oct10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 11 use:
+				Section Oct11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 12 use:
+				Section Oct12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 13 use:
+				Section Oct13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 14 use:
+				Section Oct14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 15 use:
+				Section Oct15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 16 use:
+				Section Oct16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 17 use:
+				Section Oct17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 18 use:
+				Section Oct18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 19 use:
+				Section Oct19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 20 use:
+				Section Oct20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 21 use:
+				Section Oct21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 22 use:
+				Section Oct22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 23 use:
+				Section Oct23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 24 use:
+				Section Oct24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 25 use:
+				Section Oct25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 26 use:
+				Section Oct26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 27 use:
+				Section Oct27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 28 use:
+				Section Oct28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 29 use:
+				Section Oct29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 30 use:
+				Section Oct30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Oct 31 use:
+				Section Oct31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 1 use:
+				Section Nov01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 2 use:
+				Section Nov02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 3 use:
+				Section Nov03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 4 use:
+				Section Nov04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 5 use:
+				Section Nov05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 6 use:
+				Section Nov06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 7 use:
+				Section Nov07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 8 use:
+				Section Nov08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 9 use:
+				Section Nov09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 10 use:
+				Section Nov10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 11 use:
+				Section Nov11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 12 use:
+				Section Nov12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 13 use:
+				Section Nov13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 14 use:
+				Section Nov14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 15 use:
+				Section Nov15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 16 use:
+				Section Nov16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 17 use:
+				Section Nov17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 18 use:
+				Section Nov18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 19 use:
+				Section Nov19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 20 use:
+				Section Nov20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 21 use:
+				Section Nov21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 22 use:
+				Section Nov22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 23 use:
+				Section Nov23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 24 use:
+				Section Nov24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 25 use:
+				Section Nov25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 26 use:
+				Section Nov26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 27 use:
+				Section Nov27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 28 use:
+				Section Nov28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 29 use:
+				Section Nov29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Nov 30 use:
+				Section Nov30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 1 use:
+				Section Dec01
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 2 use:
+				Section Dec02
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 3 use:
+				Section Dec03
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 4 use:
+				Section Dec04
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 5 use:
+				Section Dec05
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 6 use:
+				Section Dec06
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 7 use:
+				Section Dec07
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 8 use:
+				Section Dec08
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 9 use:
+				Section Dec09
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 10 use:
+				Section Dec10
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 11 use:
+				Section Dec11
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 12 use:
+				Section Dec12
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 13 use:
+				Section Dec13
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 14 use:
+				Section Dec14
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 15 use:
+				Section Dec15
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 16 use:
+				Section Dec16
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 17 use:
+				Section Dec17
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 18 use:
+				Section Dec18
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 19 use:
+				Section Dec19
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 20 use:
+				Section Dec20
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 21 use:
+				Section Dec21
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 22 use:
+				Section Dec22
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 23 use:
+				Section Dec23
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 24 use:
+				Section Dec24
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 25 use:
+				Section Dec25
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 26 use:
+				Section Dec26
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 27 use:
+				Section Dec27
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 28 use:
+				Section Dec28
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 29 use:
+				Section Dec29
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 30 use:
+				Section Dec30
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+			Dec 31 use:
+				Section Dec31
+					Title role sb_cover4 rid daVE.OnTheDayBefore.text rid meDA.pdfdatebefore End-Title
+				End-Section
+		end-when
+	End-Section
+
+	Section on_evening_before
+		when-movable-cycle-day-is
+			72 use:
+				Title role sb_cover4 sid ti.OnSunday End-Title
+			otherwise use:
+				Title role sb_cover4 rid daVE.OnTheDayBefore.text End-Title
+		end-when
+	End-Section
+
+	Section title_on_evening_before
+		when-movable-cycle-day-is
+			72, 121 use:
+				Title role sb_cover4 sid ti.OnSunday End-Title
+			otherwise use:
+				Title role sb_cover4 rid daVE.OnTheDayBefore.text End-Title
+		end-when
+	End-Section
+
+	Section on_morning
+		when-name-of-day-is
+			Sunday use: Title role sb_cover4 sid d.onSundayMorning End-Title
+			Monday use: Title role sb_cover4 sid d.onMondayMorning End-Title
+			Tuesday use: Title role sb_cover4 sid d.onTuesdayMorning End-Title
+			Wednesday use: Title role sb_cover4 sid d.onWednesdayMorning End-Title
+			Thursday use: Title role sb_cover4 sid d.onThursdayMorning End-Title
+			Friday use: Title role sb_cover4 sid d.onFridayMorning End-Title
+			Saturday use: Title role sb_cover4 sid d.onSaturdayMorning End-Title
+		end-when
+	End-Section
+
+	Section mc_vespers_on_day_before
+		when-movable-cycle-day-is
+			1 use:
+				Section sunday01
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d001_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			8 use:
+				Section sunday02
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d008_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			14 use:
+				Section saturday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.beforeMeatFareSunday End-Para
+					Para role sb_cover4 sid tr.d014_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onFridayEvening End-Para
+				End-Section
+			15 use:
+				Section sunday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d015_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			16 use:
+				Section monday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d015_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			17 use:
+				Section tuesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			18 use:
+				Section wednesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			19 use:
+				Section thursday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			20 use:
+				Section friday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			21 use:
+				Section saturday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid tr.d021_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onFridayEvening End-Para
+				End-Section
+			22 use:
+				Section sunday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d022_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			23 use:
+				Section monday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d022_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			24 use:
+				Section tuesday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			25 use:
+				Section wednesday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			26 use:
+				Section thursday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			27 use:
+				Section friday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			28 use:
+				Section saturday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid tr.d028_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			29 use:
+				Section sunday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FirstSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d029_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			30 use:
+				Section monday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FirstSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			31 use:
+				Section tuesday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			32 use:
+				Section wednesday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			33 use:
+				Section thursday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			34 use:
+				Section friday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			35 use:
+				Section saturday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			36 use:
+				Section sunday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.SecondSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d036_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			37 use:
+				Section monday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.SecondSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			38 use:
+				Section tuesday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			39 use:
+				Section wednesday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			40 use:
+				Section thursday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			41 use:
+				Section friday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			42 use:
+				Section saturday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			43 use:
+				Section sunday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.ThirdSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d043_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			44 use:
+				Section monday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.ThirdSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			45 use:
+				Section tuesday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			46 use:
+				Section wednesday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			47 use:
+				Section thursday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			48 use:
+				Section friday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			49 use:
+				Section saturday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			50 use:
+				Section sunday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FourthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d050_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			51 use:
+				Section monday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FourthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			52 use:
+				Section tuesday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			53 use:
+				Section wednesday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			54 use:
+				Section thursday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			55 use:
+				Section friday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			56 use:
+				Section saturday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			57 use:
+				Section sunday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FifthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d057_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			58 use:
+				Section monday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FifthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			59 use:
+				Section tuesday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			60 use:
+				Section wednesday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			61 use:
+				Section thursday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			62 use:
+				Section friday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			63 use:
+				Section saturday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid tr.d063_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			64 use:
+				Section palmsunday
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d064_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening End-Para
+				End-Section
+			65 use:
+				Section holymonday
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d064_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			72 use:
+				Section monday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d071_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			73 use:
+				Section tuesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			74 use:
+				Section wednesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			75 use:
+				Section thursday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			76 use:
+				Section friday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid pe.d076_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			77 use:
+				Section saturday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			78 use:
+				Section sunday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d078_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			79 use:
+				Section monday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d078_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			80 use:
+				Section tuesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			81 use:
+				Section wednesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			82 use:
+				Section thursday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			83 use:
+				Section friday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			84 use:
+				Section saturday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			85 use:
+				Section sunday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d085_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			86 use:
+				Section monday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d085_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			87 use:
+				Section tuesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			88 use:
+				Section wednesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			89 use:
+				Section thursday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			90 use:
+				Section friday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			91 use:
+				Section saturday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			92 use:
+				Section sunday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d092_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			93 use:
+				Section monday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d092_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			94 use:
+				Section tuesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			95 use:
+				Section wednesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d095_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnTuesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			96 use:
+				Section thursday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			97 use:
+				Section friday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			98 use:
+				Section saturday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			99 use:
+				Section sunday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d099_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			100 use:
+				Section monday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d099_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			101 use:
+				Section tuesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			102 use:
+				Section wednesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid pe.d102_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnTuesday sid ti.AtVespers.lc End-Para
+				End-Section
+			103 use:
+				Section thursday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			104 use:
+				Section friday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			105 use:
+				Section saturday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			106 use:
+				Section sunday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d106_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			107 use:
+				Section monday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d106_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			108 use:
+				Section tuesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			109 use:
+				Section wednesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+					Para role sb_cover4 sid pe.d109_gr_GR_cog.peDA.commemoration.short End-Para
+				End-Section
+			110 use:
+				Section thursday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d110_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnWednesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			111 use:
+				Section friday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofAscension End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			112 use:
+				Section saturday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			113 use:
+				Section sunday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d113_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			114 use:
+				Section monday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d113_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			115 use:
+				Section tuesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			116 use:
+				Section wednesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			117 use:
+				Section thursday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			118 use:
+				Section friday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d118_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnThursday sid ti.AtVespers.lc End-Para
+				End-Section
+			119 use:
+				Section saturday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d119_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnFriday sid ti.AtVespers.lc End-Para
+				End-Section
+			120 use:
+				Section sunday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d120_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			121 use:
+				Section monday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d121_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+			122 use:
+				Section tuesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			123 use:
+				Section wednesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			124 use:
+				Section thursday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			125 use:
+				Section friday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtVespers.lc End-Para
+				End-Section
+			126 use:
+				Section saturday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid pe.d126_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.OnFriday sid ti.AtVespers.lc End-Para
+				End-Section
+			127 use:
+				Section sunday_pe9
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d127_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayEvening sid ti.AtVespers.lc End-Para
+				End-Section
+		end-when
+	End-Section
+
+	Section mc_matins
+		when-movable-cycle-day-is
+			1 use:
+				Section sunday01
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d001_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			8 use:
+				Section sunday02
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d008_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			14 use:
+				Section saturday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.beforeMeatFareSunday End-Para
+					Para role sb_cover4 sid tr.d014_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			15 use:
+				Section sunday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d015_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			16 use:
+				Section monday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			17 use:
+				Section tuesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			18 use:
+				Section wednesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			19 use:
+				Section thursday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			20 use:
+				Section friday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			21 use:
+				Section saturday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid tr.d021_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			22 use:
+				Section sunday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d022_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			23 use:
+				Section monday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			24 use:
+				Section tuesday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			25 use:
+				Section wednesday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			26 use:
+				Section thursday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			27 use:
+				Section friday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			28 use:
+				Section saturday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid tr.d028_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			29 use:
+				Section sunday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FirstSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d029_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			30 use:
+				Section monday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			31 use:
+				Section tuesday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			32 use:
+				Section wednesday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			33 use:
+				Section thursday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			34 use:
+				Section friday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			35 use:
+				Section saturday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			36 use:
+				Section sunday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.SecondSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d036_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			37 use:
+				Section monday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			38 use:
+				Section tuesday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			39 use:
+				Section wednesday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			40 use:
+				Section thursday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			41 use:
+				Section friday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			42 use:
+				Section saturday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			43 use:
+				Section sunday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.ThirdSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d043_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			44 use:
+				Section monday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			45 use:
+				Section tuesday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			46 use:
+				Section wednesday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			47 use:
+				Section thursday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			48 use:
+				Section friday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			49 use:
+				Section saturday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			50 use:
+				Section sunday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FourthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d050_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			51 use:
+				Section monday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			52 use:
+				Section tuesday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			53 use:
+				Section wednesday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			54 use:
+				Section thursday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek5 End-Para
+				//	Para role sb_cover4 sid tr.d054_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			55 use:
+				Section friday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			56 use:
+				Section saturday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid tr.d056_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			57 use:
+				Section sunday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FifthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d057_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			58 use:
+				Section monday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			59 use:
+				Section tuesday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			60 use:
+				Section wednesday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			61 use:
+				Section thursday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			62 use:
+				Section friday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			63 use:
+				Section saturday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid tr.d063_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			64 use:
+				Section palmsunday
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d064_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtMatins.lc End-Para
+				End-Section
+			65 thru 70 use:
+				Section holyweek
+					Para role sb_cover5 sid misc.book.Triodion.name End-Para
+				End-Section
+			71 use:
+				Section sunday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d071_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			72 use:
+				Section monday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			73 use:
+				Section tuesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			74 use:
+				Section wednesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			75 use:
+				Section thursday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			76 use:
+				Section friday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid pe.d076_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			77 use:
+				Section saturday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			78 use:
+				Section sunday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d078_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			79 use:
+				Section monday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			80 use:
+				Section tuesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			81 use:
+				Section wednesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			82 use:
+				Section thursday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			83 use:
+				Section friday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			84 use:
+				Section saturday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			85 use:
+				Section sunday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d085_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			86 use:
+				Section monday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			87 use:
+				Section tuesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			88 use:
+				Section wednesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			89 use:
+				Section thursday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			90 use:
+				Section friday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			91 use:
+				Section saturday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			92 use:
+				Section sunday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d092_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			93 use:
+				Section monday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			94 use:
+				Section tuesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			95 use:
+				Section wednesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d095_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			96 use:
+				Section thursday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			97 use:
+				Section friday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			98 use:
+				Section saturday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			99 use:
+				Section sunday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d099_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			100 use:
+				Section monday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			101 use:
+				Section tuesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			102 use:
+				Section wednesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid pe.d102_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			103 use:
+				Section thursday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			104 use:
+				Section friday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			105 use:
+				Section saturday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			106 use:
+				Section sunday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d106_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			107 use:
+				Section monday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			108 use:
+				Section tuesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			109 use:
+				Section wednesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid pe.d109_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			110 use:
+				Section thursday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid pe.d110_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			111 use:
+				Section friday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			112 use:
+				Section saturday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			113 use:
+				Section sunday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d113_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			114 use:
+				Section monday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			115 use:
+				Section tuesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			116 use:
+				Section wednesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			117 use:
+				Section thursday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			118 use:
+				Section friday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d118_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			119 use:
+				Section saturday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d119_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			120 use:
+				Section sunday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d120_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			121 use:
+				Section monday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d121_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			122 use:
+				Section tuesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			123 use:
+				Section wednesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			124 use:
+				Section thursday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			125 use:
+				Section friday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			126 use:
+				Section saturday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid pe.d126_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+			127 use:
+				Section sunday_pe9
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d127_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtMatins.lc End-Para
+				End-Section
+		end-when
+	End-Section
+
+	Section mc_liturgy
+		when-movable-cycle-day-is
+			1 use:
+				Section sunday01
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d001_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			8 use:
+				Section sunday02
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d008_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			14 use:
+				Section saturday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.beforeMeatFareSunday End-Para
+					Para role sb_cover4 sid tr.d014_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSaturdayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			15 use:
+				Section sunday03
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d015_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			16 use:
+				Section monday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnMonday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			17 use:
+				Section tuesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnTuesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			18 use:
+				Section wednesday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnWednesday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			19 use:
+				Section thursday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnThursday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			20 use:
+				Section friday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnFriday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			21 use:
+				Section saturday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofCheeseWeek End-Para
+					Para role sb_cover4 sid tr.d021_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSaturdayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			22 use:
+				Section sunday04
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d022_gr_GR_cog.trDA.commemoration.full End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			28 use:
+				Section saturday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek1 End-Para
+					Para role sb_cover4 sid tr.d028_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			29 use:
+				Section sunday_lent1
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FirstSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d029_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			35 use:
+				Section saturday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			36 use:
+				Section sunday_lent2
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.SecondSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d036_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			42 use:
+				Section saturday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			43 use:
+				Section sunday_lent3
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.ThirdSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d043_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			49 use:
+				Section saturday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			50 use:
+				Section sunday_lent4
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FourthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d050_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			56 use:
+				Section saturday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid tr.d056_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			57 use:
+				Section sunday_lent5
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.FifthSunday sid ti.ofLent End-Para
+					Para role sb_cover4 sid tr.d057_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			63 use:
+				Section saturday_lent6
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek6_tr End-Para
+					Para role sb_cover4 sid tr.d063_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			64 use:
+				Section palmsunday
+					Para role sb_cover5 sid misc.book.Triodion.name sid d.delimiter sid tr.d064_gr_GR_cog.trDA.commemoration.short End-Para
+					Para role sb_cover4 sid d.onSundayMorning sid ti.AtLiturgy.lc End-Para
+				End-Section
+			65 thru 70 use:
+				Section holyweek
+					Para role sb_cover5 sid misc.book.Triodion.name End-Para
+				End-Section
+			71 use:
+				Section sunday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d071_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			72 use:
+				Section monday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			73 use:
+				Section tuesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			74 use:
+				Section wednesday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			75 use:
+				Section thursday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			76 use:
+				Section friday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid pe.d076_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			77 use:
+				Section saturday_pe1
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofBrightWeek End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			78 use:
+				Section sunday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d078_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			79 use:
+				Section monday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			80 use:
+				Section tuesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			81 use:
+				Section wednesday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			82 use:
+				Section thursday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			83 use:
+				Section friday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			84 use:
+				Section saturday_pe2
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek2 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			85 use:
+				Section sunday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d085_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			86 use:
+				Section monday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			87 use:
+				Section tuesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			88 use:
+				Section wednesday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			89 use:
+				Section thursday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			90 use:
+				Section friday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			91 use:
+				Section saturday_pe3
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek3 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			92 use:
+				Section sunday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d092_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			93 use:
+				Section monday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			94 use:
+				Section tuesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			95 use:
+				Section wednesday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d095_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			96 use:
+				Section thursday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			97 use:
+				Section friday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			98 use:
+				Section saturday_pe4
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek4 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			99 use:
+				Section sunday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d099_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			100 use:
+				Section monday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			101 use:
+				Section tuesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			102 use:
+				Section wednesday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid pe.d102_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			103 use:
+				Section thursday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			104 use:
+				Section friday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			105 use:
+				Section saturday_pe5
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek5 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			106 use:
+				Section sunday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d106_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			107 use:
+				Section monday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			108 use:
+				Section tuesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			109 use:
+				Section wednesday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid pe.d109_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			110 use:
+				Section thursday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid pe.d110_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			111 use:
+				Section friday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			112 use:
+				Section saturday_pe6
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek6_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			113 use:
+				Section sunday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d113_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			114 use:
+				Section monday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnMonday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			115 use:
+				Section tuesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			116 use:
+				Section wednesday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			117 use:
+				Section thursday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			118 use:
+				Section friday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d118_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			119 use:
+				Section saturday_pe7
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek7 End-Para
+					Para role sb_cover4 sid pe.d119_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			120 use:
+				Section sunday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d120_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			121 use:
+				Section monday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d121_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			122 use:
+				Section tuesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnTuesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			123 use:
+				Section wednesday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnWednesday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			124 use:
+				Section thursday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnThursday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			125 use:
+				Section friday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnFriday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			126 use:
+				Section saturday_pe8
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid ti.OnSaturday sid ti.ofWeek8_pe End-Para
+					Para role sb_cover4 sid pe.d126_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+			127 use:
+				Section sunday_pe9
+					Para role sb_cover5 sid misc.book.Pentecostarion.name sid d.delimiter sid pe.d127_gr_GR_cog.peDA.commemoration.short End-Para
+					Para role sb_cover4 sid ti.AtLiturgy.lc End-Para
+				End-Section
+		end-when
+	End-Section
+
+
+
+	Section tr_modeofweek_ve
+		when-movable-cycle-day-is
+			1 thru 22 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			23, 28 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			29 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			30, 25 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			36 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			37, 42 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			43 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			44, 49 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			50 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			51 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			57 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			58 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_evening_before End-Insert
+			59 thru 77 use:
+		end-when
+	End-Section
+
+	Section tr_modeofweek_ma
+		when-movable-cycle-day-is
+			1 thru 22 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			23 thru 28 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			29 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			30 thru 35 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			36 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			37 thru 42 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			43 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			44 thru 49 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			50 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			51 thru 56 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			57 use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			58 thru 62 use:
+				Title role sb_cover5 sid misc.book.Triodion.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+			63 thru 77 use:
+			otherwise use:
+				Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+				Insert_section on_morning End-Insert
+		end-when
+	End-Section
+
+End-Template

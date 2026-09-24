@@ -1,0 +1,94 @@
+Template sb.cover.ma.tr_s_oc_ome1_k_w_oc_me1
+
+Status Final
+
+	import he.k_en_US_public.*
+	import pdf.covers_gr_GR_cog.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+	import rules.*
+
+//	Head
+//		Set_Date month 10 day 11 End_Date
+//	End_Head
+
+
+		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+		Section title
+			Title role sb_cover1 sid ma.pdf.cover End-Title
+			Title role sb_cover3 sid d.for ldp @Service_Date End-Title
+		End-Section
+
+		Section cover
+			when-movable-cycle-day-is
+				1 thru 63 use:
+					Section triodion_lent
+						Section mode_eothinon
+							Insert_section sb.cover.lookup.tr_modeofweek_ma End-Insert
+							when-name-of-day-is
+								Sunday use:
+									Title role sb_cover4 sid ti.Eothinon ldp @Eothinon End-Title
+							end-when
+						End-Section
+						Section moveable
+							Insert_section sb.cover.lookup.mc_matins End-Insert
+						End-Section
+						Section commeoration
+							when-movable-cycle-day-is
+								1, 8, 14, 15, 21, 22, 28, 29, 36, 43, 50, 54, 56, 57, 63, 64 use:
+								otherwise use:
+									Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+									Title role sb_cover4 rid meDA.commemoration.first_short End-Title
+							end-when
+						End-Section
+						Section katavasia
+							when-movable-cycle-day-is
+								1, 8, 15, 22, 28, 29, 36, 43, 50, 56, 57, 63, 64 use:
+									Insert_section KA._title End-Insert
+							end-when
+						End-Section
+					End-Section
+				otherwise use:
+					Section normal
+						Section mode_eothinon
+							Title role sb_cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
+							Insert_section sb.cover.lookup.on_morning End-Insert
+							when-name-of-day-is
+								Sunday use:
+									Title role sb_cover4 sid ti.Eothinon ldp @Eothinon End-Title
+							end-when
+						End-Section
+						Section commeoration
+							Title role sb_cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+							Title role sb_cover4 rid meDA.commemoration.first_short End-Title
+						End-Section
+						Section katavasia
+							when-name-of-day-is
+								Sunday use:	Insert_section KA._title End-Insert
+							end-when
+						End-Section
+					End-Section
+			end-when
+		End-Section
+
+		// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+
+
+End-Template
