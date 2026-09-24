@@ -93,6 +93,7 @@ Status Final
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section TI.a.com.sep01 End-Insert
