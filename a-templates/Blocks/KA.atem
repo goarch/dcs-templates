@@ -33,171 +33,171 @@ Status NA
 	Section _title
 		when-date-is
 			Jan 15 thru 31 use:
-				Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+				Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 			Feb 1 use:
-				Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+				Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 			Feb 2 thru 9 use: //calculates leavetaking of Meeting
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 9 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 6 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 7 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 8 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 6 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2, 3 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
-							Feb 8, 9 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
+							Feb 2 thru 7 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 8, 9 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 use: Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 3 thru 9 use: //no
 						end-when
 					otherwise use:
-						Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+						Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 				end-when
 
 			Mar 25, 26 use:
-				Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Annunciation.title End-Title
+				Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Annunciation.title End-Title
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
 						1 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
 						8 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion2.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion2.title End-Title
 						15 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion3.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion3.title End-Title
 						21 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Tr_d021.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Tr_d021.title End-Title
 						22 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
 						28 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosAkathist.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosAkathist.title End-Title
 						29 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lent1.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lent1.title End-Title
 						36 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 						43	use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lent3.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lent3.title End-Title
 						50, 57 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 						63 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lazarus.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Lazarus.title End-Title
 						64 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.PalmSunday.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.PalmSunday.title End-Title
 						71 thru 109 use:
 							when-movable-cycle-day-is
 							95, 96, 97, 98, 100, 101, 102 use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.MidPentecost.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.MidPentecost.title End-Title
 							106 thru 108 use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Blindman.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Blindman.title End-Title
 							otherwise use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pascha.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pascha.title End-Title
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
 							119 use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
 							120, 126 use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pentecost12.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pentecost12.title End-Title
 							otherwise use:
-								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pentecost2.title End-Title
+								Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Pentecost2.title End-Title
 							end-when
 						127 use:
-							Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+							Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 
 						otherwise use:
 							Section Immoveable
 								when-date-is
 									Jan 1, 6, 14 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany12.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany12.title End-Title
 									Jan 2 thru 5 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany1.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany1.title End-Title
 									Jan 7 thru 13 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany2.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Epiphany2.title End-Title
 									Feb 10 thru 29 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Mar 1 thru 22 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Jul 4 thru 26 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Jul 27 thru 31 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Summer.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Summer.title End-Title
 									Aug 1 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
 									Aug 2 thru 5 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Summer.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Summer.title End-Title
 									Aug 6 thru 13 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
 									Aug 14 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosDormition.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosDormition.title End-Title
 									Aug 15 thru 23 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Dormition.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Dormition.title End-Title
 									Aug 24 thru 30 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
 									Aug 31 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Sep 1 thru 21 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Cross.title End-Title
 									Sep 22 thru 30 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Oct 1 thru 31 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Nov 1 thru 7 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 									Nov 8 thru 20 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosEntry.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.TheotokosEntry.title End-Title
 									Nov 21 thru 30 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas1.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas1.title End-Title
 									Dec 1 thru 24 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas1.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas1.title End-Title
 									Dec 25, 31 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas12.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas12.title End-Title
 									Dec 26 thru 30 use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas2.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Christmas2.title End-Title
 									otherwise use:
-										Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
+										Title role sb_cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Theotokos.title End-Title
 								end-when
 							End-Section //Immovable
 
@@ -330,9 +330,6 @@ Status NA
 	Section choir__
 		Section _1345678
 			Para role bmc_odes1345678_katavasia sid website.preferences.titles_gr_GR_cog.mc.odes1345678katavasia End-Para
-				Para role brc_ma_katavasias sid misc.custcontent End-Para
-					Actor<ach>sid ac.Choir</>End-Actor
-				Para role erc_ma_katavasias sid misc.custcontent End-Para
 				Insert_section KA.sb_ka1345678 End-Insert
 			Para role emc_odes1345678_katavasia sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 		End-Section
@@ -2151,133 +2148,195 @@ Status NA
 		when-movable-cycle-day-is
 			21 use:
 				Section trd021_12345678
-					//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+					Para role brc_ma_katavasias_ode1_actor sid misc.custcontent End-Para
+						Actor<ach>sid ac.Choir</>End-Actor
+					Para role erc_ma_katavasias_ode1_actor sid misc.custcontent End-Para
 					Insert_section KA.ka1 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode2_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode2_actor sid misc.custcontent End-Para
 					Insert_section KA.ka2 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode3_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode3_actor sid misc.custcontent End-Para
 					Insert_section KA.ka3 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode4_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode4_actor sid misc.custcontent End-Para
 					Insert_section KA.ka4 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode5_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode5_actor sid misc.custcontent End-Para
 					Insert_section KA.ka5 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode6_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode6_actor sid misc.custcontent End-Para
 					Insert_section KA.ka6 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode7_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode7_actor sid misc.custcontent End-Para
 					Insert_section KA.ka7 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode8_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode8_actor sid misc.custcontent End-Para
 					Insert_section KA.ka8 End-Insert
 				End-Section
 			120, 126 use:
 				Section pentecost_double
-					//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+					Para role brc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
+					Actor<ach>sid ac.Choir</>End-Actor
+					Para role erc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_1 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_1 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_3 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_3 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_4 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_4 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_5 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_5 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_6 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_6 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_7 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_7 End-Insert
-					Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+					Para role brc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k1_8 End-Insert
-					Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+					Para role brc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
+					Para role erc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
 					Insert_section kPentecost.k2_8 End-Insert
 				End-Section
 			otherwise use:
 				when-date-is
 					Jan 1, 6, 14 use:
 						Section epiphany_double
-							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							Para role brc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
+							Actor<ach>sid ac.Choir</>End-Actor
+							Para role erc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_1 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_1 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_3 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_3 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_4 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_4 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_5 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_5 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_6 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_6 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_7 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_7 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k1_8 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
 							Insert_section kEpiphany.k2_8 End-Insert
 						End-Section
 					Dec 25, 31 use:
 						Section christmas_double
-							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							Para role brc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
+							Actor<ach>sid ac.Choir</>End-Actor
+							Para role erc_ma_katavasias_ode11_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_1 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode12_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_1 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode31_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_3 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode32_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_3 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode41_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_4 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode42_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_4 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode51_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_5 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode52_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_5 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode61_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_6 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode62_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_6 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode71_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_7 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode72_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_7 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode81_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k1_8 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode82_actor sid misc.custcontent End-Para
 							Insert_section kChristmas.k2_8 End-Insert
 						End-Section
 					otherwise use:
 						Section single_katavasias
-							//Actor<sbhmakatavasias>sid ac.Hierarch</><rubric><sbhmakatavasias>sid ru.InPlaceOfRightChoir</></>End-Actor
+							Para role brc_ma_katavasias_ode1_actor sid misc.custcontent End-Para
+								Actor<ach>sid ac.Choir</>End-Actor
+							Para role erc_ma_katavasias_ode1_actor sid misc.custcontent End-Para
 							Insert_section KA.ka1 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode3_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode3_actor sid misc.custcontent End-Para
 							Insert_section KA.ka3 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode4_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode4_actor sid misc.custcontent End-Para
 							Insert_section KA.ka4 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode5_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode5_actor sid misc.custcontent End-Para
 							Insert_section KA.ka5 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode6_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode6_actor sid misc.custcontent End-Para
 							Insert_section KA.ka6 End-Insert
-							Actor<sbhmakatavasias>sid ac.Hierarch</>End-Actor
+							Para role brc_ma_katavasias_ode7_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode7_actor sid misc.custcontent End-Para
 							Insert_section KA.ka7 End-Insert
-							Actor<sbhmakatavasias>sid ac.ChoirL</>End-Actor
+							Para role brc_ma_katavasias_ode8_actor sid misc.custcontent End-Para
+							Para role erc_ma_katavasias_ode8_actor sid misc.custcontent End-Para
 							Insert_section KA.ka8 End-Insert
 						End-Section
 				end-when
