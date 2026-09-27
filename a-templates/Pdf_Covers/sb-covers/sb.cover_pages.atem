@@ -20,7 +20,7 @@ Status NA
 	import bTags.*
 	import roles.*
 	import rules.*
-	
+
 	Section ve
 		Insert_section sb.cover.ve.me.content End-Insert
 		Insert_section sb.credits.content End-Insert
@@ -41,13 +41,14 @@ Status NA
 		Insert_section sb.credits.content End-Insert
 	End-Section
 
-	Section pl
-		Insert_section sb.cover.pl.content End-Insert
+	Section ve_override
+		Insert_section sb.cover.ve.override.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
 
-	Section ve_override
-		Insert_section sb.cover.ve.override.content End-Insert
+	Section pl
+	//Except for special dated pl. this template has been functionally replaced by pdf.cover.ve.specific_mc
+		Insert_section sb.cover.pl.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
 
@@ -80,20 +81,20 @@ Status NA
 		Insert_section sb.cover.li.me.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
-	
+
 	Section li4
 		Insert_section sb.cover.li4.me.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
-	
+
 	Section li6
 		Insert_section sb.cover.li6.me.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
-	
+
 	Section li_override
 		Insert_section sb.cover.li.override.content End-Insert
 		Insert_section sb.credits.content End-Insert
 	End-Section
-	
+
 End-Template

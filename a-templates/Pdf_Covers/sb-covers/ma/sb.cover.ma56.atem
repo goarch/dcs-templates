@@ -1,8 +1,6 @@
 Template sb.cover.ma56
 
-Status Draft
-
-	import pdf.covers_gr_GR_cog.*
+Status NA
 
 	import da.*
 	import oc.*
@@ -25,10 +23,7 @@ Status Draft
 
 	Section content
 		Para role sb_pdf_cover_begin sid misc.custcontent End-Para
-	
-			Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
-			Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
-	
+
 			when-movable-cycle-day-is
 				54 use:
 					Section thursday_lent5
@@ -483,9 +478,12 @@ Status Draft
 							end-when
 					end-when
 			end-when
-	
+
+			Para role sb_logo sid pdf.covers_gr_GR_cog.coverlogo.link <hidden>sid misc.punctuation.ellipsis</>End-Para
 			// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
-	
+			Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+			Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+
 		Para role sb_pdf_cover_end sid misc.custcontent End-Para
 	End-Section
 

@@ -1,6 +1,6 @@
 Template sb.cover.ve.tr_s_oc_me1_w_me1 // use starting Jan 24
 
-Status Final
+Status NA
 
 	import da.*
 	import oc.*
@@ -21,9 +21,6 @@ Status Final
 	import roles.*
 	import rules.*
 
-
-		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
-		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
 
 		Section title
 			Title role sb_cover1 sid ve.pdf.cover End-Title
@@ -92,6 +89,9 @@ Status Final
 		End-Section
 
 		// Title role sb_cover6 sid pref.generation_alwb.cover.version End-Title
+		Title role sb_cover81 sid pdf.covers_gr_GR_cog.cover_attribution1.text End-Title
+		Title role sb_cover82 sid pdf.covers_gr_GR_cog.cover_attribution2.text End-Title
+
 
 
 
