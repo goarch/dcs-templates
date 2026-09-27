@@ -48,6 +48,7 @@ Status Final
 	when-name-of-day-is
 		Sunday use:
 			Section Instance_Sunday
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_me1 End-Insert
 				Rubric sid me.m08.d01_gr_GR_cog.meTY.note1 End-Rubric
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
@@ -87,6 +88,7 @@ Status Final
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me End-Insert
 				Rubric sid me.m08.d01_gr_GR_cog.meTY.note1 End-Rubric
 				Insert_section MA._01_Beginning__.mode1 End-Insert

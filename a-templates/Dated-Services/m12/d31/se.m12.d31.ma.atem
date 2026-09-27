@@ -52,6 +52,7 @@ Status Final
 			End-Section
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Set_Date month 12 day 25 year 2026 End_Date
 					Insert_section MA._01_Beginning__.mode4 End-Insert

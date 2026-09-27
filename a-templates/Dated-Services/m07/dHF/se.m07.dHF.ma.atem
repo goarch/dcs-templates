@@ -22,6 +22,7 @@ Status NA
 	import roles.*
 
 	Section Instance01
+		Insert_section sb.cover_pages.ma End-Insert
 		Insert_section ST.ma.oc_com End-Insert
 		Insert_section MA._01_Beginning__.modeofweek End-Insert
 		Insert_section AP.res__.modeofweek End-Insert

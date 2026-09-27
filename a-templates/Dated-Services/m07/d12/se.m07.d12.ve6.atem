@@ -48,6 +48,7 @@ Status Final
 	when-name-of-day-is
 		Sunday use:
 			Section Instance_Sunday
+				Insert_section sb.cover_pages.ve56 End-Insert
 				Insert_section ST.ve.oc_mealt1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -91,6 +92,7 @@ Status Final
 
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ve56 End-Insert
 				Insert_section ST.ve.mealt1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert

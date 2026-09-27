@@ -46,6 +46,7 @@ Status Final
 	End-Preface
 
 	Section Instance01
+		Insert_section sb.cover_pages.ma End-Insert
 		Insert_section ST.ma.me1 End-Insert
 		Insert_section MA._01_Beginning__.mode1 End-Insert
 		Insert_section AP.f3 End-Insert
