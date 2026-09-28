@@ -52,7 +52,11 @@ Status Final
 	Title role desig sid eu.lipresanctified_gr_GR_cog.euPL.title End-Title
 	Break line End_Break
 	Insert_section PL._01_Beginning End-Insert
-	Insert_section VE._02_LordIHaveCried__.mode0__.for10 End-Insert
+	Actor sid ac.Choir End-Actor
+	Title role mode sid misc.ModeVariable End-Title
+	Insert_section VE.LIHC_1 End-Insert
+	Insert_section VE.LIHC_2 End-Insert
+	Insert_section VE.Stichologia.for_10 End-Insert
 	Title<r>sid client_gr_GR_cog.cl.eu.presanctified.R001.rubric</>End-Title
 	Break page End_Break
 	Break page End_Break

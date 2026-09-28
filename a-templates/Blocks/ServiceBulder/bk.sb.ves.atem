@@ -106,6 +106,53 @@ Status NA
 		Para role erc_ve_vespers_anoixantaria sid misc.custcontent End-Para
 	End-Section
 
+	Para role brc_ve_hierarchical_mode1 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode1</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode1 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode2 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode2</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode2 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode3 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode3</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode3 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode4 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode4</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode4 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode5 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode5</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode5 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode6 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode6</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode6 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode7 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode7</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode7 sid misc.custcontent End-Para
+
+	Para role brc_ve_hierarchical_mode8 sid misc.custcontent End-Para
+		Actor<ach>sid ac.Chanter</>End-Actor
+		Dialog<dch>sid pr.Command_holybishop.text sid misc.Mode8</>End-Dialog
+		Actor<ach>sid ac.Choir</>End-Actor
+	Para role erc_ve_hierarchical_mode8 sid misc.custcontent End-Para
 
 	Section Vespers_Stichologia
 		Section for_10
@@ -261,6 +308,12 @@ Status NA
 		Para role brc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
 			Actor<ach>sid ac.Choir</>End-Actor
 		Para role erc_ve_concelebration_prokeimenon_choir sid misc.custcontent End-Para
+	End-Section
+	
+	Section Hieararchical_Trisagion
+		Para role brc_ve_hierarchical_trisagion sid misc.custcontent End-Para
+			Dialog<dre>sid pr.res07.text</>End-Dialog
+		Para role erc_ve_hierarchical_trisagion sid misc.custcontent End-Para
 	End-Section
 	
 	Section End_Prayers

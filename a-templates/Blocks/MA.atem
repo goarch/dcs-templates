@@ -14682,9 +14682,7 @@ Status NA
 	End-Section
 	Section Lauds_ModeOfWeek
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text rid ocMA.Lauds1.mode @day D1</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Insert_section sb_ma_modeofweek_hierarchical End-Insert
 		Title role desig sid ti.Lauds<Tmode>rid ocMA.Lauds1.mode @day D1</>End-Title
 		Media rid ocMA.MM.Lauds01.text @day D1 End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14695,9 +14693,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode1
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode1</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode1 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode1 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode1</>End-Title
 		Media sid oc.m1.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14708,9 +14705,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode2
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode2</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode2 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode2 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode2</>End-Title
 		Media sid oc.m2.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14721,9 +14717,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode3
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode3</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode3 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode3 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode3</>End-Title
 		Media sid oc.m3.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14734,9 +14729,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode4
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode4</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode4 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode4 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode4</>End-Title
 		Media sid oc.m4.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14747,9 +14741,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode5
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode5</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode5 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode5 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode5</>End-Title
 		Media sid oc.m5.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14760,9 +14753,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode6
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode6</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode6 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode6 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode6</>End-Title
 		Media sid oc.m6.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14773,9 +14765,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode7
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode7</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode7 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode7 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode7</>End-Title
 		Media sid oc.m7.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14786,9 +14777,8 @@ Status NA
 	End-Section
 	Section Lauds_Mode8
 		Para role bkmrk11 sid misc.bookmark End-Para
-		Actor<sbhmalaudsmode>sid ac.Chanter</>End-Actor
-		Dialog<sbhmalaudsmode>sid pr.Command_holybishop.text sid misc.Mode8</>End-Dialog
-		Actor<sbhmalaudsmode>sid ac.Choir</>End-Actor
+		Para role brc_ma_hierarchical_mode8 sid misc.custcontent End-Para
+		Para role erc_ma_hierarchical_mode8 sid misc.custcontent End-Para
 		Title role desig sid ti.Lauds<Tmode>sid misc.Mode8</>End-Title
 		Media sid oc.m8.d1_gr_GR_cog.ocMA.MM.Lauds01.text End-Media
 		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
@@ -14797,6 +14787,38 @@ Status NA
 		Para role brc_ma_hierarchical_kairos sid misc.custcontent End-Para
 		Para role erc_ma_hierarchical_kairos sid misc.custcontent End-Para
 	End-Section
+	
+	Section sb_ma_modeofweek_hierarchical
+		when-mode-of-week-is
+			M1 use:
+				Para role brc_ma_hierarchical_mode1 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode1 sid misc.custcontent End-Para
+			M2 use:
+				Para role brc_ma_hierarchical_mode2 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode2 sid misc.custcontent End-Para
+			M3 use:
+				Para role brc_ma_hierarchical_mode3 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode3 sid misc.custcontent End-Para
+			M4 use:
+				Para role brc_ma_hierarchical_mode4 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode4 sid misc.custcontent End-Para
+			M5 use:
+				Para role brc_ma_hierarchical_mode5 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode5 sid misc.custcontent End-Para
+			M6 use:
+				Para role brc_ma_hierarchical_mode6 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode6 sid misc.custcontent End-Para
+			M7 use:
+				Para role brc_ma_hierarchical_mode7 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode7 sid misc.custcontent End-Para
+			M8 use:
+				Para role brc_ma_hierarchical_mode8 sid misc.custcontent End-Para
+				Para role erc_ma_hierarchical_mode8 sid misc.custcontent End-Para
+		end-when
+	End-Section
+	
+	
+	
 	Section Lauds_Verses
 		Section v01
 			Verse sid liturgical.verses_gr_GR_cog.psMA.lauds.stichologia.v06.text @ver End-Verse
