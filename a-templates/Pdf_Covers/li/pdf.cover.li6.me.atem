@@ -43,19 +43,22 @@ Switch-Version L2 End-Switch-Version
 							Title role cover3 sid d.for ldp @Service_Date End-Title
 						End-Section
 					Feb 6 use:
-						Section feb06
+						Section Feb06
 							Insert_section title_me End-Insert
 							Section mode
 								when-name-of-day-is
 									Sunday use:
 										Title role cover5 sid misc.book.Octoechos.name sid d.delimiter rid ocBK.ModeNaked End-Title
-										Insert_section pdf.cover.lookup.on_morning End-Insert
-										Insert_section pdf.cover.lookup.when_sunday_dates End-Insert
 								end-when
 							End-Section
 							Section commeoration
-								Title role cover5 sid misc.book.MeSupplement.name End-Title
-								Title role cover4 sid me.m02.d06_gr_GR_cog.alt1.meDA.commemoration.first_short End-Title
+								when-name-of-day-is
+									Sunday use:
+										Insert_section pdf.cover.lookup.when_sunday_dates End-Insert
+									otherwise use:
+										Title role cover5 sid misc.book.Menaion.name sid d.delimiter rid meDA.date End-Title
+										Title role cover4 rid meDA.commemoration.full End-Title
+								end-when
 							End-Section
 						End-Section
 					Feb 19 use:

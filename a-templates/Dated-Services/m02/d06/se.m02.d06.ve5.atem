@@ -41,7 +41,7 @@ Status NA
 	End_Head
 
 	Preface Covers
-		Insert_template pdf.cover.ve.me End-Insert
+		Insert_template pdf.cover.ve56 End-Insert
 		Insert_template pdf.cover.credits End-Insert
 	End-Preface
 
@@ -59,6 +59,7 @@ Status NA
 			when-name-of-day-is
 				Sunday use:
 					Section Instance_Sunday
+						Insert_section sb.cover_pages.ve56 End-Insert
 						Insert_section ST.ve.oc_meaf End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -85,6 +86,7 @@ Status NA
 					End-Section
 				otherwise use:
 					Section Instance_Weekday
+						Insert_section sb.cover_pages.ve56 End-Insert
 						Insert_section ST.ve.me1 End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert
