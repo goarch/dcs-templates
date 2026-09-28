@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		11, 12, 13 use:
 			Section Instance01
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.celebrated_saint End-Insert
@@ -87,6 +88,7 @@ Status Final
 
 		21 use:
 			Section Instance05
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me1_tr End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.celebrated_saint End-Insert
@@ -117,6 +119,7 @@ Status Final
 
 		28 use:
 			Section Instance11 //2041
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me1_tr End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.celebrated_saint End-Insert
@@ -146,6 +149,7 @@ Status Final
 
 		29 use:
 			Section Instance12
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.ba.oc_tr_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -180,6 +184,7 @@ Status Final
 
 		36 use:
 			Section Instance16
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.ba.oc_tr_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert

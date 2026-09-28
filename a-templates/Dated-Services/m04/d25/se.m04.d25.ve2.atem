@@ -53,6 +53,7 @@ Status Final
 
 		78 use:
 			Section Instance09
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -91,6 +92,7 @@ Status Final
 
 		85 use:
 			Section Instance12
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -135,6 +137,7 @@ Status Final
 
 		92 use:
 			Section Instance15
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert

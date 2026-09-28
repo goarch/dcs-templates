@@ -48,6 +48,7 @@ Status NA
 	when-movable-cycle-day-is
 		25 use:
 			Section Instance01 //2015, 2026
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.pl.tr_me2 End-Insert
 				Insert_section PL._01_Beginning End-Insert
 				when-movable-cycle-day-is
@@ -91,6 +92,7 @@ Status NA
 			End-Section
 		28 use:
 			Section Instance04 //2034
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.pl.tr_me1 End-Insert
 				Insert_section PL._01_Beginning End-Insert
 				Insert_section PL._02_LordIHaveCried__.mode5__.for10 End-Insert

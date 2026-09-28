@@ -112,6 +112,7 @@ Status Final
 
 		30, 37, 44, 51, 58 use:
 			Section Instance05 //2031
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_mode_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -133,6 +134,7 @@ Status Final
 
 		31, 38, 45, 59 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -163,6 +165,7 @@ Status Final
 
 		36, 50, 57 use:
 			Section Instance11 //2030
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -199,6 +202,7 @@ Status Final
 
 		52 use:
 			Section Instance18
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Section block1

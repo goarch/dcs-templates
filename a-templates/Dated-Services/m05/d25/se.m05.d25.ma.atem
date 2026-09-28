@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		88, 89, 90, 93, 103, 104, 107 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				when-movable-cycle-day-is
@@ -107,6 +108,7 @@ Status Final
 
 		91, 105 use:
 			Section Instance02 //2013, 2024
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				when-movable-cycle-day-is
@@ -165,6 +167,7 @@ Status Final
 
 		92, 99, 106 use:
 			Section Instance03 //2008, 2014
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -223,6 +226,7 @@ Status Final
 
 		94, 108 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -278,6 +282,7 @@ Status Final
 
 		95, 102 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -328,6 +333,7 @@ Status Final
 
 		96, 97, 98, 100, 101 use:
 			Section Instance06 //2035
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.me1_ End-Insert
@@ -368,6 +374,7 @@ Status Final
 
 		109 use: //2039
 			Section Instance07
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Insert_section MA._06_Antiphons__.mode41_prokeimenon_.antiphon End-Insert
@@ -410,6 +417,7 @@ Status Final
 
 		111, 112, 114, 115, 116, 117 use:
 			Section Instance09
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Section block1
@@ -452,6 +460,7 @@ Status Final
 
 		113 use: //Holy Fathers 2031
 			Section Instance10
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -504,6 +513,7 @@ Status Final
 
 		118 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.af End-Insert
@@ -564,6 +574,7 @@ Status Final
 
 		121 use:
 			Section Instance13 //2037
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -613,6 +624,7 @@ Status Final
 
 		122 use:
 			Section Instance14 //2010
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section Instance09.block1 End-Insert

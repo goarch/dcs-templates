@@ -51,6 +51,7 @@ Status Final
 
 		105 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for8 End-Insert
@@ -109,6 +110,7 @@ Status Final
 
 		108 use:
 			Section Instance03
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for8 End-Insert
@@ -137,6 +139,7 @@ Status Final
 
 		111 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode4__.for6 End-Insert
@@ -171,6 +174,7 @@ Status Final
 
 		114 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode6__.for6 End-Insert
@@ -200,6 +204,7 @@ Status Final
 			when-name-of-day-is
 				Sunday use:
 					Section Instance_Sunday
+						Insert_section sb.cover_pages.ve End-Insert
 						Insert_section ST.ve.oc_me1 End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -225,6 +230,7 @@ Status Final
 					End-Section
 				otherwise use:
 					Section Instance_Weekday
+						Insert_section sb.cover_pages.ve End-Insert
 						Insert_section ST.ve.me1 End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.mode4__.for6 End-Insert

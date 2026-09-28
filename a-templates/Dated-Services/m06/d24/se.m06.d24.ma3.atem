@@ -55,6 +55,7 @@ Status Final
 
 		120 use:
 			Section Instance03
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -172,6 +173,7 @@ Status Final
 
 		121 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -542,6 +544,7 @@ Status Final
 
 		127 use:
 			Section Instance07
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -659,6 +662,7 @@ Status Final
 			when-name-of-day-is
 				Sunday use:
 					Section Instance_Sunday
+						Insert_section sb.cover_pages.ma End-Insert
 						Insert_section ST.ma.oc_me1 End-Insert
 						Insert_section MA._01_Beginning__.modeofweek End-Insert
 						Insert_section AP.res__.modeofweek End-Insert
@@ -772,6 +776,7 @@ Status Final
 
 				otherwise use:
 					Section Instance08
+						Insert_section sb.cover_pages.ma End-Insert
 						Insert_section ST.ma.me1 End-Insert
 						Insert_section MA._01_Beginning__.mode4 End-Insert
 						Insert_section AP.me1gloryme1_ End-Insert

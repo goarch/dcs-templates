@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		26 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -160,6 +161,7 @@ Status Final
 
 		30, 37, 44, 51, 58 use:
 			Section Instance05 //2025, 2031
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -256,6 +258,7 @@ Status Final
 
 		31, 38, 45, 59 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -352,6 +355,7 @@ Status Final
 
 		32, 39, 60 use:
 			Section Instance07
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -452,6 +456,7 @@ Status Final
 
 		34 use:
 			Section Instance09
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -652,6 +657,7 @@ Status Final
 		when-movable-cycle-day-is
 		36, 50, 57 use:
 			Section Instance11 //2019, 2030
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -807,6 +813,7 @@ Status Final
 
 		46 use:
 			Section Instance14 //2055
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -897,6 +904,7 @@ Status Final
 
 		48 use:
 			Section Instance16 //2017, 2023
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.bf End-Insert
@@ -1028,6 +1036,7 @@ Status Final
 
 		56 use:
 			Section Instance22 //2018, 2029
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.tr1_ End-Insert

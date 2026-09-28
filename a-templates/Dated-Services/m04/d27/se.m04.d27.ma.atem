@@ -75,6 +75,7 @@ Status NA
 
 		79 thru 83 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Section apolytikia
@@ -94,6 +95,7 @@ Status NA
 
 		86 thru 91 use:
 			Section Instance03
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Section apolytikia
@@ -117,6 +119,7 @@ Status NA
 
 		93, 94 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode3 End-Insert
 				Section apolytikia

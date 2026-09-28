@@ -52,6 +52,7 @@ Status NA
 			End-Section
 		28 use:
 			Section Instance02 //2018, 2029, 2091
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.pl.tr_me1 End-Insert
 				Insert_section PL._01_Beginning End-Insert
 				Insert_section PL._02_LordIHaveCried__.mode5__.for10 End-Insert

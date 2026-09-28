@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		1, 8, 15, 22 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -160,6 +161,7 @@ Status Final
 
 		28 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section TI.a.me.com1 End-Insert
@@ -219,6 +221,7 @@ Status Final
 
 		otherwise use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert

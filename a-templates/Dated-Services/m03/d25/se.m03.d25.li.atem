@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		27 use:
 			Section Instance01
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -77,6 +78,7 @@ Status Final
 
 		29 use:
 			Section Instance03
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.oc_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -136,6 +138,7 @@ Status Final
 
 		36 use:
 			Section Instance10 //2035
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.oc_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert

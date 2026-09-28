@@ -149,6 +149,7 @@ Status Final
 
 		21 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode1 End-Insert
 				Insert_section TI.a.me.com1 End-Insert
@@ -308,6 +309,7 @@ Status Final
 
 		29 use:
 			Section Instance12 //2014, 2025
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -434,6 +436,7 @@ Status Final
 
 		36 use:
 			Section Instance16 //2031
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert

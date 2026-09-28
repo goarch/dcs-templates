@@ -51,6 +51,7 @@ Status NA
 
 		16, 17, 19 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.ganame.Mar01__.evdokia_ End-Insert

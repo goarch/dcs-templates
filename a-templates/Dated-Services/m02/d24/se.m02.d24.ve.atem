@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		1, 8, 15, 22 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -88,6 +89,7 @@ Status Final
 
 		21 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode5__.for6 End-Insert
@@ -150,6 +152,7 @@ Status Final
 
 		24, 25, 27, 31, 32 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.lent_weekday End-Insert
 				Insert_section PS._01_Vespers__.notice End-Insert
@@ -194,6 +197,7 @@ Status Final
 
 		29 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -227,6 +231,7 @@ Status Final
 
 		30 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode4__.for6 End-Insert
@@ -250,6 +255,7 @@ Status Final
 
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode5__.for6 End-Insert

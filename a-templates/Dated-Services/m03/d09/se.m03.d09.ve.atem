@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		11, 12, 13 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert
@@ -83,6 +84,7 @@ Status Final
 
 		21 use:
 			Section Instance05 //2030
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert
@@ -118,6 +120,7 @@ Status Final
 
 		24, 31, 38, 45 use:
 			Section Instance07 //2004, 2010, 2038, 2055
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.lent_weekday End-Insert
 				Insert_section PS._01_Vespers__.notice End-Insert
@@ -156,6 +159,7 @@ Status Final
 
 		25, 32, 39 use:
 			Section Instance08
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				when-movable-cycle-day-is
@@ -210,6 +214,7 @@ Status Final
 
 		29 use:
 			Section Instance12 //2014, 2025
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -240,6 +245,7 @@ Status Final
 
 		30, 37, 44 use: //2020, 2026, 2037
 			Section Instance13
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				when-movable-cycle-day-is
@@ -268,6 +274,7 @@ Status Final
 
 		34, 41 use:
 			Section Instance14 //2012, 2018, 2029, 2085
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -298,6 +305,7 @@ Status Final
 
 		36 use:
 			Section Instance16 //2031
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert

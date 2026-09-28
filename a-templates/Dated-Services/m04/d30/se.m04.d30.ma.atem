@@ -72,6 +72,7 @@ Status NA
 
 		79 thru 83 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.af End-Insert
@@ -103,6 +104,7 @@ Status NA
 
 		84 use:
 			Section Instance03 //2039
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.af End-Insert
@@ -145,6 +147,7 @@ Status NA
 
 		86 thru 90 use:
 			Section Instance04 //2026
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Set_mcDay day 85 End_mcDay
@@ -181,6 +184,7 @@ Status NA
 
 		91 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Set_mcDay day 85 End_mcDay
@@ -221,6 +225,7 @@ Status NA
 
 		93, 94 use: //2018, 2029
 			Section Instance06
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode3 End-Insert
 				Insert_section AP.res__.mode3 End-Insert
@@ -252,6 +257,7 @@ Status NA
 
 		96, 97 use: //2010, 2037
 			Section Instance07
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.af End-Insert

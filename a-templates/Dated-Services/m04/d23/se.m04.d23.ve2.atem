@@ -99,6 +99,7 @@ Status NA
 
 		76 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.noStichologia End-Insert
@@ -132,6 +133,7 @@ Status NA
 
 		78 use:
 			Section Instance12
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -185,6 +187,7 @@ Status NA
 
 		79 thru 83 use:
 			Section Instance13
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -234,6 +237,7 @@ Status NA
 
 		84 use:
 			Section Instance14
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -270,6 +274,7 @@ Status NA
 
 		85 use:
 			Section Instance15
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -326,6 +331,7 @@ Status NA
 
 		86, 87, 88, 89, 90 use:
 			Section Instance16
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert

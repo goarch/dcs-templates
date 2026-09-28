@@ -224,6 +224,7 @@ Status Final
 
 		72, 73, 74, 75, 77 use:
 			Section Instance09_10
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Section polyeleos
@@ -326,6 +327,7 @@ Status Final
 
 		78 use:
 			Section Instance12
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section TI.a.f End-Insert
@@ -444,6 +446,7 @@ Status Final
 
 		79 thru 83 use:
 			Section Instance13
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
@@ -506,6 +509,7 @@ Status Final
 
 		84 use:
 			Section Instance14
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
@@ -575,6 +579,7 @@ Status Final
 
 		85 use:
 			Section Instance15
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -700,6 +705,7 @@ Status Final
 
 		86, 87, 88, 89, 90 use:
 			Section Instance16 //needs work 2010, 2018, 2029
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Set_mcDay day 85 End_mcDay

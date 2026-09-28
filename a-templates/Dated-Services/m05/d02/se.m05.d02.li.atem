@@ -55,6 +55,7 @@ Status Final
 
 		73 thru 77 use:
 			Section Instance02
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -86,6 +87,7 @@ Status Final
 
 		78 use:
 			Section Instance03
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -111,6 +113,7 @@ Status Final
 
 		79 thru 84 use: 
 			Section Instance04
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -137,6 +140,7 @@ Status Final
 
 		85, 92, 99 use:
 			Section Instance05
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -170,6 +174,7 @@ Status Final
 
 		86 thru 91 use:
 			Section Instance06
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -200,6 +205,7 @@ Status Final
 
 		93, 94 use:
 			Section Instance07
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -226,6 +232,7 @@ Status Final
 
 		95 use:
 			Section Instance08
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -251,6 +258,7 @@ Status Final
 
 		96, 97, 98 use:
 			Section Instance09
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert

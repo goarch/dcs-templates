@@ -51,6 +51,7 @@ Status Final
 
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.ho_oc_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofday End-Insert
 				Insert_section AP.da__.matins_begin End-Insert

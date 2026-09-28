@@ -54,6 +54,7 @@ Status Final
 
 		73, 74, 75, 77 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.noStichologia End-Insert
@@ -92,6 +93,7 @@ Status Final
 
 		76 use:
 			Section Instance01_Friday
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.noStichologia End-Insert
@@ -125,6 +127,7 @@ Status Final
 
 		78 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -218,6 +221,7 @@ Status Final
 
 		84 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -251,6 +255,7 @@ Status Final
 
 		85, 92, 99 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert
@@ -355,6 +360,7 @@ Status Final
 
 		91, 105 use:
 			Section Instance07
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -463,6 +469,7 @@ Status Final
 
 		94 use:
 			Section Instance09
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -494,6 +501,7 @@ Status Final
 
 		95, 102 use:
 			Section Instance10
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert

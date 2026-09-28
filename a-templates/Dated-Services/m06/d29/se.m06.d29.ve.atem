@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		123 thru 125 use:
 			Section Instance01 //2040
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert
@@ -73,6 +74,7 @@ Status Final
 			End-Section
 		126 use:
 			Section Instance02 //2013, 2024
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Set_mcDay day 120 End_mcDay
 				Insert_section VE._01_Beginning__.vespers End-Insert
@@ -112,6 +114,7 @@ Status Final
 			when-name-of-day-is
 				Sunday use:
 					Section Instance05
+						Insert_section sb.cover_pages.ve End-Insert
 						Insert_section ST.ve.oc_me1 End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -137,6 +140,7 @@ Status Final
 					End-Section
 				otherwise use:
 					Section Instance04
+						Insert_section sb.cover_pages.ve End-Insert
 						Insert_section ST.ve.me1 End-Insert
 						Insert_section VE._01_Beginning__.vespers End-Insert
 						Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert

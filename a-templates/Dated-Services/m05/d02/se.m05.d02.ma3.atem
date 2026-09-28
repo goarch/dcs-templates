@@ -59,6 +59,7 @@ Status Final
 
 		73, 74, 75, 77 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Section options
@@ -197,6 +198,7 @@ Status Final
 
 		78 use:
 			Section Instance04 //2038
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -302,6 +304,7 @@ Status Final
 
 		79 thru 83 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode3 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
@@ -409,6 +412,7 @@ Status Final
 
 		84 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.af End-Insert
@@ -480,6 +484,7 @@ Status Final
 
 		86 thru 90 use:
 			Section Instance08
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Section block1
@@ -605,6 +610,7 @@ Status Final
 
 		95 use: //Wednesday Mid-Pentecost
 			Section Instance11
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section TI.a.f End-Insert

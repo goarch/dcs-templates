@@ -60,6 +60,7 @@ Status Final
 
 		73, 74, 75, 77 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Section polyeleos
@@ -111,6 +112,7 @@ Status Final
 
 		76 use:
 			Section Instance03
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Insert_section MA._06_Antiphons__.mode41_prokeimenon_.antiphon End-Insert
@@ -273,6 +275,7 @@ Status Final
 
 		78 use: //Thomas Sunday
 			Section Instance04
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.pe1_ End-Insert
@@ -432,6 +435,7 @@ Status Final
 
 		79 thru 83 use: //Thomas week
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section TI.a.me.com1 End-Insert
@@ -561,6 +565,7 @@ Status Final
 
 		85, 92, 99 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				when-movable-cycle-day-is
@@ -735,6 +740,7 @@ Status Final
 
 		86 thru 90 use:
 			Section Instance08_86thru90 //check
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Section block1
@@ -885,6 +891,7 @@ Status Final
 
 		93 use:
 			Section Instance08_093
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -1079,6 +1086,7 @@ Status Final
 
 		96, 97, 98, 100, 101 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert

@@ -48,6 +48,7 @@ Status NA
 	when-movable-cycle-day-is
 		28 use:
 			Section Instance03
+				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.me1_tr End-Insert
 				Insert_section LI._01_Enarxis__.daily End-Insert
 				Insert_section LI._02_Antiphons__.celebrated_saint End-Insert
@@ -136,6 +137,7 @@ Status NA
 			when-movable-cycle-day-is
 			36, 50, 57 use:
 				Section Instance11 //2019, 2030
+					Insert_section sb.cover_pages.li End-Insert
 					Insert_section ST.li.ba.oc_tr_me1 End-Insert
 					Insert_section LI._01_Enarxis__.daily End-Insert
 					Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert
@@ -175,6 +177,7 @@ Status NA
 	
 			56 use:
 				Section Instance22
+					Insert_section sb.cover_pages.li End-Insert
 					Insert_section ST.li.me1_tr End-Insert
 					Insert_section LI._01_Enarxis__.daily End-Insert
 					Insert_section LI._02_Antiphons__.sundays_weekdays_feasts End-Insert

@@ -53,6 +53,7 @@ Status NA
 
 		58 use:
 			Section Instance_lent01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_mode_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -77,6 +78,7 @@ Status NA
 			End-Section
 		59, 60, 62 use:
 			Section Instance_lent02
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.rubric End-Insert

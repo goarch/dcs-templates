@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		11, 12, 13 use:
 			Section Instance01 //2040
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert
@@ -97,6 +98,7 @@ Status Final
 
 		21 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section PS._01_Vespers__.kathisma1_stanza1__.rubric End-Insert

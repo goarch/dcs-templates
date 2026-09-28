@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		11, 12, 13 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Insert_section MA._01_Beginning__.mode1 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
@@ -95,6 +96,7 @@ Status Final
 
 		21 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode1 End-Insert
 				Insert_section TI.a.me.com1 End-Insert
@@ -149,6 +151,7 @@ Status Final
 
 		24, 31, 38, 45 use:
 			Section Instance07 //2010, 2038
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Insert_section MA._01_Beginning__.mode1 End-Insert
 				Insert_section AP.me1gloryme1_ End-Insert
@@ -200,6 +203,7 @@ Status Final
 
 		28 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Insert_section AP.tr1_ End-Insert
@@ -252,6 +256,7 @@ Status Final
 
 		29 use:
 			Section Instance12
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -313,6 +318,7 @@ Status Final
 
 		36 use:
 			Section Instance16
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_tr_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert

@@ -83,6 +83,7 @@ Status Final
 
 		35, 42 use:
 			Section Instance08 //2016, 2022, 2033
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me End-Insert
 				Set_Date month 3 day 25 year 2027 End_Date
 				Insert_section MA._01_Beginning__.mode4 End-Insert
@@ -195,6 +196,7 @@ Status Final
 
 		50 use:
 			Section Instance16 //2023
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.oc_me2 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
@@ -313,6 +315,7 @@ Status Final
 
 		54 use:
 			Section Instance18 //2015, 2026
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.tr_mode_me1 End-Insert
 				Insert_section MA._01_Beginning__.lent__.alleluia End-Insert
 				Insert_section MA._01_Beginning__.lent__.triadics End-Insert

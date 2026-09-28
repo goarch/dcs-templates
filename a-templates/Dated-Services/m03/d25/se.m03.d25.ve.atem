@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		27 use:
 			Section Instance01 //2078
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode6__.for6 End-Insert
@@ -89,6 +90,7 @@ Status Final
 
 		29 use:
 			Section Instance03 //2040
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_tr_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -168,6 +170,7 @@ Status Final
 
 		36 use:
 			Section Instance10 //2035
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -236,6 +239,7 @@ Status Final
 
 		49 use:
 			Section Instance16 //2023, 2028
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1_sal End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode6__.for6 End-Insert
@@ -280,6 +284,7 @@ Status Final
 
 		56 use:
 			Section Instance21 //2034
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode6__.for6 End-Insert

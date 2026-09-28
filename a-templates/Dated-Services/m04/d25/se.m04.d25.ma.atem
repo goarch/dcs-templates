@@ -48,6 +48,7 @@ Status Final
 	when-movable-cycle-day-is
 		58 thru 61 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.me1 End-Insert
 				Insert_section MA._01_Beginning__.mode3 End-Insert
 				Insert_section AP.ganame.Apr25__.mark_ End-Insert
@@ -97,6 +98,7 @@ Status Final
 
 		73, 74, 75, 77 use:
 			Section Instance07
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
@@ -126,6 +128,7 @@ Status Final
 
 		76 use:
 			Section Instance08 //2014, 2025
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.pascha End-Insert
 				Insert_section MA._10_Canon__.hypakoe__.pascha End-Insert
@@ -165,6 +168,7 @@ Status Final
 
 		79 thru 83 use:
 			Section Instance10 //2023
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode3 End-Insert
 				Insert_section AP.ganame.Apr25__.mark_ End-Insert
@@ -204,6 +208,7 @@ Status Final
 
 		84 use:
 			Section Instance11 //2015, 2026
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.af End-Insert
@@ -258,6 +263,7 @@ Status Final
 
 		86 thru 90 use:
 			Section Instance13
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Set_mcDay day 85 End_mcDay
@@ -296,6 +302,7 @@ Status Final
 
 		91 use:
 			Section Instance14 //2037
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Set_mcDay day 85 End_mcDay

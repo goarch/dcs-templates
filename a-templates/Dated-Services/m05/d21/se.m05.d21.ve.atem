@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		84 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for6 End-Insert
@@ -77,6 +78,7 @@ Status Final
 
 		85, 92, 99, 106 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for10 End-Insert
@@ -159,6 +161,7 @@ Status Final
 
 		91, 105, 108 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for6 End-Insert
@@ -210,6 +213,7 @@ Status Final
 
 		94 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for6 End-Insert
@@ -238,6 +242,7 @@ Status Final
 
 		95, 102 use:
 			Section Instance07
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for6 End-Insert
@@ -277,6 +282,7 @@ Status Final
 
 		109 use:
 			Section Instance09
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.noStichologia End-Insert
@@ -307,6 +313,7 @@ Status Final
 
 		110, 118 use:
 			Section Instance10
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofpeday__.for10 End-Insert
@@ -341,6 +348,7 @@ Status Final
 
 		111, 112, 114, 115, 116, 117 use:
 			Section Instance11
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode4__.for6 End-Insert
@@ -365,6 +373,7 @@ Status Final
 
 		113 use:
 			Section Instance12
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.pe_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert

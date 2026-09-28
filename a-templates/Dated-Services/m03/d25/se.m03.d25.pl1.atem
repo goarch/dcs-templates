@@ -48,6 +48,7 @@ Status NA
 	when-movable-cycle-day-is
 		49 use:
 			Section Instance16
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.pl.tr_mode_me End-Insert
 				Insert_section PL._01_Beginning End-Insert
 				Insert_section PL._02_LordIHaveCried__.mode7__.for10 End-Insert

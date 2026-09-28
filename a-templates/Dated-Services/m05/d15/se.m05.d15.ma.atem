@@ -53,6 +53,7 @@ Status Final
 
 		79 thru 83 use:
 			Section Instance02
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode7 End-Insert
 				Insert_section AP.af End-Insert
@@ -70,6 +71,7 @@ Status Final
 
 		86 thru 91 use:
 			Section Instance03
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode2 End-Insert
 				Section apolytikia
@@ -92,6 +94,7 @@ Status Final
 
 		93, 94, 103, 105, 104, 107, 108 use:
 			Section Instance04
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Section apolytikia
@@ -110,6 +113,7 @@ Status Final
 
 		96, 97, 98, 100, 101 use:
 			Section Instance05
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.af End-Insert
@@ -127,6 +131,7 @@ Status Final
 
 		111, 112 use:
 			Section Instance06
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode4 End-Insert
 				Insert_section AP.af End-Insert

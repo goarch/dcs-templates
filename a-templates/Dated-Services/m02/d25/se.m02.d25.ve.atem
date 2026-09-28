@@ -56,6 +56,7 @@ Status Final
 
 		30 use:
 			Section Instance01
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.tr_mode_me End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for10 End-Insert
@@ -75,6 +76,7 @@ Status Final
 
 		otherwise use:
 			Section Instance_Weekday
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.oc_me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.modeofweek__.for6 End-Insert

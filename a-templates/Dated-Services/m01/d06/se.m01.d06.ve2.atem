@@ -48,6 +48,7 @@ Status NA
 	when-name-of-day-is
 		Sunday, Monday use:
 			Section Instance02
+				Insert_section sb.cover_pages.ve End-Insert
 				Insert_section ST.ve.me1 End-Insert
 				Insert_section VE._01_Beginning__.vespers End-Insert
 				Insert_section VE._02_LordIHaveCried__.mode2__.for6 End-Insert

@@ -47,6 +47,7 @@ Status Final
 	when-movable-cycle-day-is
 		123 thru 125 use:
 			Section Instance01 //2040
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.af End-Insert
@@ -87,6 +88,7 @@ Status Final
 
 		126 use:
 			Section Instance02 //2013, 2024
+				Insert_section sb.cover_pages.ma End-Insert
 				Insert_section ST.ma.pe_me1 End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.af End-Insert
@@ -152,6 +154,7 @@ Status Final
 			when-name-of-day-is
 				Sunday use:
 					Section Instance_Sunday
+						Insert_section sb.cover_pages.ma End-Insert
 						Insert_section ST.ma.oc_me1 End-Insert
 						Insert_section MA._01_Beginning__.modeofweek End-Insert
 						Insert_section AP.res__.modeofweek End-Insert
@@ -199,6 +202,7 @@ Status Final
 
 				otherwise use:
 					Section Instance_Weekday
+						Insert_section sb.cover_pages.ma End-Insert
 						Insert_section ST.ma.me1 End-Insert
 						Insert_section MA._01_Beginning__.mode4 End-Insert
 						Insert_section AP.me1gloryme1_ End-Insert
