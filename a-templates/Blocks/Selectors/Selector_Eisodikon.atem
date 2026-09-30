@@ -698,31 +698,29 @@ Status NA
 							Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.saints.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
 				end-when
 			end-when
-	end-when
+		end-when
 	End-Section
 
-
-
-
-
 	Section eisodikon_refrain_sb //when choir repeats refrain after eisodikon_complete
-		Actor<sblieisodikonrefrain>sid ac.Choir</>End-Actor
 		when-date-is
 			Jan 1 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.circumcision.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_jan01 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_jan01 sid misc.custcontent End-Para
 				end-when
 			Jan 6 use:
-				Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.epiphany.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				Para role brc_li_entrance_hymn_refrain_jan06 sid misc.custcontent End-Para
+				Para role erc_li_entrance_hymn_refrain_jan06 sid misc.custcontent End-Para
 			Jan 7 thru 14 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.epiphany.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_jan06 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_jan06 sid misc.custcontent End-Para
 				end-when
 			Feb 2 thru 9 use:
 				when-movable-cycle-day-is
@@ -732,122 +730,151 @@ Status NA
 								Section meeting
 									when-name-of-day-is
 										Sunday use:
-											Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+											Insert_section eisodikon_refrain_sb.resurrection End-Insert
 										otherwise use:
-											Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.meeting.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+											Para role brc_li_entrance_hymn_refrain_feb02 sid misc.custcontent End-Para
+											Para role erc_li_entrance_hymn_refrain_feb02 sid misc.custcontent End-Para
 										end-when
 								End-Section
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use: 
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
+							Feb 2 use:
+								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					otherwise use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
-							otherwise use: Insert_section meeting End-Insert
+							Sunday use:
+								Insert_section eisodikon_refrain_sb.resurrection End-Insert
+							otherwise use:
+								Insert_section meeting End-Insert
 						end-when
 				end-when
 			Mar 25 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.annunciation.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_mar25 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_mar25 sid misc.custcontent End-Para
 				end-when
 			Aug 6 use:
-				Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.transfiguration.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				Para role brc_li_entrance_hymn_refrain_aug06 sid misc.custcontent End-Para
+				Para role erc_li_entrance_hymn_refrain_aug06 sid misc.custcontent End-Para
 			Aug 7 thru 12 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.transfiguration.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_aug06 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_aug06 sid misc.custcontent End-Para
 				end-when
 			Sep 13 use:
-				Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				Insert_section eisodikon_refrain_sb.resurrection End-Insert
 			Sep 14 use:
-				Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				Para role brc_li_entrance_hymn_refrain_sep14 sid misc.custcontent End-Para
+				Para role erc_li_entrance_hymn_refrain_sep14 sid misc.custcontent End-Para
 			Sep 15 thru 21 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_sep14 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_sep14 sid misc.custcontent End-Para
 				end-when
 			Dec 25 use:
-				Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.christmas.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+				Para role brc_li_entrance_hymn_refrain_dec25 sid misc.custcontent End-Para
+				Para role erc_li_entrance_hymn_refrain_dec25 sid misc.custcontent End-Para
 			Dec 26 thru 31 use:
 				when-name-of-day-is
 					Sunday use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					otherwise use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.christmas.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_dec25 sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_dec25 sid misc.custcontent End-Para
 				end-when
 			otherwise use:
 				when-movable-cycle-day-is
 					64 use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.palm.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_palmsunday sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_palmsunday sid misc.custcontent End-Para
 					71 thru 109 use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 					110, 118 use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_ascension sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_ascension sid misc.custcontent End-Para
 					111 thru 117 use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
+							Sunday use:
+								Insert_section eisodikon_refrain_sb.resurrection End-Insert
 							otherwise use:
-								Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+								Para role brc_li_entrance_hymn_refrain_ascension sid misc.custcontent End-Para
+								Para role erc_li_entrance_hymn_refrain_ascension sid misc.custcontent End-Para
 						end-when
 					119 use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.saints.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.saints End-Insert
 					120 thru 126 use:
-						Hymn<sblieisodikonrefrain>sid pr.antiphon2.pentecost.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Para role brc_li_entrance_hymn_refrain_pentecost sid misc.custcontent End-Para
+						Para role erc_li_entrance_hymn_refrain_pentecost sid misc.custcontent End-Para
 					127 use:
-						Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+						Insert_section eisodikon_refrain_sb.resurrection End-Insert
 				otherwise use:
 					when-name-of-day-is
 						Sunday use:
-							Section usualSunday
-								Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+							Section resurrection
+								Para role brc_li_entrance_hymn_refrain_resurrection sid misc.custcontent End-Para
+								Para role erc_li_entrance_hymn_refrain_resurrection sid misc.custcontent End-Para
 							End-Section
 						otherwise use:
-							Hymn<sblieisodikonrefrain>sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.saints.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off</>End-Hymn
+							Section saints
+								Para role brc_li_entrance_hymn_refrain_saints sid misc.custcontent End-Para
+								Para role erc_li_entrance_hymn_refrain_saints sid misc.custcontent End-Para
+							End-Section
 				end-when
 			end-when
 	end-when

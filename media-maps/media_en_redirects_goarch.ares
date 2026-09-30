@@ -679,7 +679,7 @@ eu.lichrysbasil.euLI.Key1102.c1231.score.w.url.path = "/media/m/dedes/en/eu/lich
 eu.lichrysbasil.euLI.Key1102.c1232.score.w.arranger = "Mode 2 (simple GOA) | SDedes/"
 eu.lichrysbasil.euLI.Key1102.c1232.score.w.url.path = "/media/m/dedes/en/eu/lichrysbasil/w/cherubicmode2.pdf"
 eu.lichrysbasil.euLI.Key1102.c2242.a1.singer = "Mode 2 (simple HC) | SDedes/"
-eu.lichrysbasil.euLI.Key1102.c2242.a1.w.url.path = "/media/m/eu/lichrysbasil/cherubicmode2.mp3"
+eu.lichrysbasil.euLI.Key1102.c2242.a1.w.url.path = "/media/a/en_public/eu/lichrysbasil/cherubicmode2.mp3"
 eu.lichrysbasil.euLI.Key1102.c2246.score.w.arranger = "Mode pl. 2 (HC) | SDedes/"
 eu.lichrysbasil.euLI.Key1102.c2246.score.w.url.path = "/media/m/dedes/en/eu/lichrysbasil/w/cherubicmode6.pdf"
 eu.lichrysbasil.euLI.Key1102.c2246.a1.singer = "Mode pl. 2 (HC) | SDedes/"
@@ -11591,6 +11591,12 @@ me.m10.d02.meMA.MM.Ve1123as5678.c1211.score.w.url.path = "/media/m/dedes/en/me/m
 me.m10.d02.meMA.AposGlory.c1211.score.b.arranger = "P Thomatos/"
 me.m10.d02.meMA.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m10/d02/ma/b/aposglory.pdf"
 
+me.m10.d03.meVE.SticGlory.c1211.score.b.arranger = "P Thomatos/"
+me.m10.d03.meVE.SticGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m10/d03/ve/b/sticglory.pdf"
+
+me.m10.d03.meVE.AposGlory.c1211.score.b.arranger = "P Thomatos/"
+me.m10.d03.meVE.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m10/d03/ve/b/aposglory.pdf"
+
 me.m10.d03.meVE.MM.GeneralApolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m10.d03.meVE.MM.GeneralApolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d03/ve/w/generalapolytikion1.pdf"
 
@@ -11602,6 +11608,9 @@ me.m10.d03.meMA.ExapTheotokion.c1211.score.w.url.path = "/media/m/dedes/en/me/m1
 
 me.m10.d03.meMA.MM.Ve1123as5678.c1211.score.w.arranger = "SDedes/"
 me.m10.d03.meMA.MM.Ve1123as5678.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d03/ma/w/ve1123as5678.pdf"
+
+me.m10.d03.meMA.AposGlory.c1211.score.b.arranger = "P Thomatos/"
+me.m10.d03.meMA.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m10/d03/ma/b/aposglory.pdf"
 
 me.m10.d04.meVE.MM.GeneralApolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m10.d04.meVE.MM.GeneralApolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d04/ve/w/generalapolytikion1.pdf"
