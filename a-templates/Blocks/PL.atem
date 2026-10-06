@@ -722,9 +722,9 @@ Status NA
 			Title<smaller>sid eu.lipresanctified_gr_GR_cog.euPL.Key1114.title</>End-Title
 			Actor<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible <dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1409.text</>End-Para
-			Actor<adepr>sid ac.sb.DePr</>End-Actor
+			Actor<adepr>sid ac.sb.DePr<rubric>sid ru.Aloud</></>End-Actor
 			Dialog<ddepr>sid pr.exc19.text</>End-Dialog
-			Actor<apr>sid ac.Priest<rubric>sid ru.Aloud</></>End-Actor
+			Actor<apr>sid ac.sb.PrBl</>End-Actor
 			Dialog<dpr>sid eu.lipresanctified_gr_GR_cog.euPL.Key1119.text</>End-Dialog
 			Actor<ach>sid ac.Choir</>End-Actor
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1411.text End-Media
