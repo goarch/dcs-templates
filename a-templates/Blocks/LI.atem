@@ -2341,16 +2341,7 @@ Status NA
 						Dialog<dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
-					Section block2
-						Para role brc_li_extended_comp_litany sid misc.custcontent End-Para
-						Title role bmc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.top End-Title
-							Title<r>sid misc.horizontal_line.solid1</>End-Title
-							Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.rubric End-Rubric
-							Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
-							Title<r>sid misc.horizontal_line.solid1</>End-Title
-						Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.bottom End-Title
-						Para role erc_li_extended_comp_litany sid misc.custcontent End-Para
-				 	End-Section
+				//	Insert_section LI.extended_comp_litany End-Insert
 					Section block3
 						Actor<ade>sid ac.sb.DePr</>End-Actor
 						Dialog<dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
@@ -2637,16 +2628,7 @@ Status NA
 						Dialog<dde>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1403.text</>End-Dialog
 						Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
 					End-Section
-					Section block2
-						Para role brc_li_extended_comp_litany sid misc.custcontent End-Para
-						Title role bmc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.top End-Title
-							Title<r>sid misc.horizontal_line.solid1</>End-Title
-							Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.rubric End-Rubric
-							Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
-							Title<r>sid misc.horizontal_line.solid1</>End-Title
-						Title role emc_collapse sid template.titles_gr_GR_cog.clps.additionalpetitions.bottom End-Title
-						Para role erc_li_extended_comp_litany sid misc.custcontent End-Para
-				 	End-Section
+				//	Insert_section LI.extended_comp_litany End-Insert
 					Section block3
 						Actor<adepr>sid ac.sb.DePr</>End-Actor
 						Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.text</>End-Dialog
@@ -4292,6 +4274,15 @@ Status NA
 				Break page End_Break
 			End-Section
 		End-Section
+		Section extended_comp_litany
+			Para role brc_li_extended_comp_litany sid misc.custcontent End-Para
+				Title<r>sid misc.horizontal_line.solid1</>End-Title
+				Rubric sid eu.lichrysbasil_gr_GR_cog.euLI.Key1404.rubric End-Rubric
+				Insert_section LN.CompLitanyLI2_deacon_choir End-Insert
+				Title<r>sid misc.horizontal_line.solid1</>End-Title
+			Para role erc_li_extended_comp_litany sid misc.custcontent End-Para
+	 	End-Section
+
 		Section prayers_before_communion_collapsible
 			Para role brc_li_precommunion_prayers sid misc.custcontent End-Para
 			Title role bmc_collapse sid template.titles_gr_GR_cog.clps.precommunionprayers.top End-Title
