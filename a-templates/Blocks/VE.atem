@@ -207,7 +207,8 @@ Status NA
 						Section enarxis
 							Actor<apr>sid ac.Priest</>End-Actor
 							Dialog<dpr>sid pr.enarxis01.text</>End-Dialog
-							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+							Actor<ach>sid ac.Choir</>End-Actor
+							Dialog<dch>sid pr.res04.text</>End-Dialog
 						End-Section
 						Section introductorypsalm
 							when-movable-cycle-day-is

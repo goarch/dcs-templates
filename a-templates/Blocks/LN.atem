@@ -1326,21 +1326,26 @@ Status NA
 		Title<smallred>sid ti.LitanyFerv.uc</>End-Title
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog<ddepr>sid pr.pet15.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+		Actor<ach>sid ac.Choir</>End-Actor
+		Dialog<dch>sid pr.res01.text</>End-Dialog
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog<ddepr>sid pr.pet16.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text</>End-Para
+		Actor<ach>sid ac.Choir</>End-Actor
+		Dialog<dch>sid pr.res01.text</>End-Dialog
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog<ddepr>sid pr.pet17.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
+		Actor<ach>sid ac.Choir</>End-Actor
+		Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Dialog<ddepr>sid pr.pet18.text</>End-Dialog
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
+		Actor<ach>sid ac.Choir</>End-Actor
+		Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
 		Actor<adepr>sid ac.sb.DePr</>End-Actor
 		Para role brc_hi_commemoration_supplication sid misc.custcontent End-Para
-			Dialog<ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</>End-Dialog
+		Dialog<ddepr>sid pr.pet19Sa.text sid client_gr_GR_cog.cl.bishop1.name.petitionP</>End-Dialog
 		Para role erc_hi_commemoration_supplication sid misc.custcontent End-Para
-		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res01.text<r>sid ru.Thrice</></>End-Para
+		Actor<ach>sid ac.Choir</>End-Actor
+		Dialog<dch>sid pr.res01.text<r>sid ru.Thrice</></>End-Dialog
 		Actor<apr>sid ac.Priest</>End-Actor
 		Dialog<dpr>sid pr.exc11.text</>End-Dialog
 		Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para

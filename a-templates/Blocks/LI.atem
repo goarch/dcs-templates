@@ -22,16 +22,18 @@ Status NA
 
 	Section _01_Enarxis__
 		Section daily
-			Insert_section sb_parish_name End-Insert
+			Insert_section sb_parish_apolytikionID End-Insert
 			Para role brc_li_consecration_title sid misc.custcontent End-Para
 				Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0200.title</>End-Title
 			Para role erc_li_consecration_title sid misc.custcontent End-Para
 			Section _01
 				when-movable-cycle-day-is
 					71, 72, 73, 74, 75, 76, 77, 109 use:
-						Actor<ade>sid ac.Deacon</>End-Actor
-						Dialog<dde>sid pr.res08.text</>End-Dialog
-						Actor<apr>sid ac.Priest</>End-Actor
+						Para role brc_li_enarxis sid misc.custcontent End-Para
+							Actor<ade>sid ac.Deacon</>End-Actor
+							Dialog<dde>sid pr.res08.text</>End-Dialog
+							Actor<apr>sid ac.Priest</>End-Actor
+						Para role erc_li_enarxis sid misc.custcontent End-Para
 						Section pascha
 							Dialog<dpr>sid pr.enarxis02.text</>End-Dialog
 							Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
@@ -4558,6 +4560,15 @@ Status NA
 				Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
 				Insert_section FU._04_Everlasting_ End-Insert
 			End-Section
+		End-Section
+		Section sb_parish_apolytikionID
+			Para role sbapolytikionid rid meDA.note End-Para
+		//	Para role sbapolytikionid rid alt1.meDA.note End-Para
+		//	Para role sbapolytikionid rid alt2.meDA.note End-Para
+		//	Para role sbapolytikionid rid alt3.meDA.note End-Para
+			Para role sbapolytikionid rid trDA.note End-Para
+			Para role sbapolytikionid rid peDA.note End-Para
+		//	Para role sbapolytikionid rid alt1.peDA.note End-Para
 		End-Section
 		Section sb_parish_name
 			Para role sbparishname rid meDA.note End-Para
