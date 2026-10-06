@@ -83,7 +83,11 @@ Status NA
 			End-Section
 		End-Section
 		Section vesperal
-			Actor<apr>sid ac.Priest</>End-Actor
+			Para role brc_li_enarxis sid misc.custcontent End-Para
+				Actor<ade>sid ac.Deacon</>End-Actor
+				Dialog<dde>sid pr.res08.text</>End-Dialog
+				Actor<apr>sid ac.Priest</>End-Actor
+			Para role erc_li_enarxis sid misc.custcontent End-Para
 			Dialog<dpr>sid pr.enarxis02.text</>End-Dialog
 			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
 			Insert_section VE._01_Beginning__.vespers.introductorypsalm End-Insert
