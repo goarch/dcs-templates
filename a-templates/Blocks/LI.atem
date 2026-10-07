@@ -97,96 +97,127 @@ Status NA
 
 	Section _02_Antiphons__
 		Section sundays_weekdays_feasts
-			Insert_section Selector_Antiphons.antiphon1__.specific_day End-Insert
+			Para role brc_li_antiphon1 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon1__.specific_day End-Insert
+			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon2__.specific_day End-Insert
+			Para role brc_li_antiphon2 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon2__.specific_day End-Insert
+			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.specific_day End-Insert
+			Para role brc_li_antiphon3 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon3__.specific_day End-Insert
+			Para role erc_li_antiphon3 sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint
-			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role brc_li_antiphon1 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role brc_li_antiphon2 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.title End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.verses End-Insert
+			Para role brc_li_antiphon3 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.title End-Insert
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.verses End-Insert
+			Para role erc_li_antiphon3 sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint_mealt1
-			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role brc_li_antiphon1 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role brc_li_antiphon2 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.title End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.verses End-Insert
+			Para role brc_li_antiphon3 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.title End-Insert
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.verses End-Insert
+			Para role erc_li_antiphon3 sid misc.custcontent End-Para
 		End-Section
 		Section celebrated_saint_mealt2
-			Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role brc_li_antiphon1 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role brc_li_antiphon2 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.title End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.verses End-Insert
+			Para role brc_li_antiphon3 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.title End-Insert
+				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.verses End-Insert
+			Para role erc_li_antiphon3 sid misc.custcontent End-Para
 		End-Section
 		Section feast_mealt1
-			Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
+			Para role brc_li_antiphon1 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
+			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role brc_li_antiphon2 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
-			Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+			Para role brc_li_antiphon3 sid misc.custcontent End-Para
+				Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+			Para role erc_li_antiphon3 sid misc.custcontent End-Para
 		End-Section
 		Section psalm102
-			Actor<ach>sid ac.Choir</>End-Actor
-			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title @ver End-Title
-			Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm102.text End-Media
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.intro.text media-off End-Hymn
-			Reading sid ps_gr_GR_cog.psa102.v2.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v3.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v4.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v5.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v6.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v7.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v8.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v9.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v10.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v11.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v12.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v13.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v14.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v15.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v16.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v17.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v18.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v19.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v20.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v21.text End-Reading
-			Reading sid ps_gr_GR_cog.psa102.v22.text End-Reading
-			Reading sid pr.GloryToTheFather.text End-Reading
-			Reading sid pr.BothNowAndEver.text End-Reading
-			Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.end.text End-Reading
+			Para role brc_li_typika1 sid misc.custcontent End-Para
+				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title End-Title
+				Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm102.text End-Media
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.intro.text media-off End-Hymn
+				Reading sid ps_gr_GR_cog.psa102.v2.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v3.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v4.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v5.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v6.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v7.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v8.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v9.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v10.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v11.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v12.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v13.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v14.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v15.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v16.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v17.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v18.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v19.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v20.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v21.text End-Reading
+				Reading sid ps_gr_GR_cog.psa102.v22.text End-Reading
+				Reading sid pr.GloryToTheFather.text End-Reading
+				Reading sid pr.BothNowAndEver.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.end.text @ver End-Reading
+			Para role erc_li_typika1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 		End-Section
 		Section psalm145
-			Actor<ach>sid ac.Choir</>End-Actor
-			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title @ver End-Title
-			Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm145.text End-Media
-			Reading sid pr.GloryToTheFather2.text End-Reading
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v1.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v2.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v3.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v4.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v5.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v6.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v7.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v8.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v9.text End-Hymn
-			Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v10.text End-Hymn
-			Verse sid pr.BothNowAndEver.text End-Verse
-			Media sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text End-Media
-			Hymn sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text media-off End-Hymn
+			Para role brc_li_typika2 sid misc.custcontent End-Para
+				Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.title End-Title
+				Media sid ho.ho07_gr_GR_cog.hoLI.MM.Psalm145.text End-Media
+				Reading sid pr.GloryToTheFather2.text End-Reading
+				Hymn sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v1.text End-Hymn
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v2.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v3.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v4.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v5.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v6.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v7.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v8.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v9.text End-Reading
+				Reading sid liturgical.verses_gr_GR_cog.psLI.typika.ps145.v10.text @ver End-Reading
+				Verse sid pr.BothNowAndEver.text End-Verse
+				Media sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text End-Media
+				Hymn sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text media-off End-Hymn
+			Para role erc_li_typika2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 		End-Section
 		Section typika_rubrics
-			Actor<ach>sid ac.Choir</>End-Actor
 			Title role desig sid liturgical.verses_gr_GR_cog.psLI.typika.ps102.title End-Title
 			Title<inr>sid ru.Then</>End-Title
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
@@ -1622,7 +1653,6 @@ Status NA
 		Section festal__
 			Section feb02__
 				Section ode3_as5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m02.d02_gr_GR_cog.meMA.Ode3C11.mode End-Title
 				//	Media sid me.m02.d02_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1646,7 +1676,6 @@ Status NA
 			End-Section
 			Section sep14__
 				Section ode3_hh12as5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.mode End-Title
 				//	Media sid me.m09.d14_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1670,7 +1699,6 @@ Status NA
 			End-Section
 			Section nov21__
 				Section ode3c1_as5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.mode End-Title
 				//	Media sid me.m11.d21_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1694,7 +1722,6 @@ Status NA
 			End-Section
 			Section decBC__
 				Section ode3_123Tas5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m12.dBC_gr_GR_cog.meMA.Ode3C11.mode End-Title
 				//	Media sid me.m12.dBC_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1719,7 +1746,6 @@ Status NA
 			End-Section
 			Section dec25__
 				Section ode3c1_as5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.mode End-Title
 				//	Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1742,7 +1768,6 @@ Status NA
 					Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
 				End-Section
 				Section ode3c2_as5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.mode End-Title
 				//	Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -1768,7 +1793,6 @@ Status NA
 		End-Section
 		Section mealt1c1__
 			Section ode3_123Tas5678
-				Actor<ach>sid ac.Choir</>End-Actor
 				Title role desig sid ti.Beatitudes End-Title
 				Title role mode rid alt1.meMA.Ode3C11.mode End-Title
 				Media rid alt1.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1793,7 +1817,6 @@ Status NA
 		End-Section
 		Section me1c1__
 			Section ode3_1123as5678
-				Actor<ach>sid ac.Choir</>End-Actor
 				Title role desig sid ti.Beatitudes End-Title
 				Title role mode rid meMA.Ode3C11.mode End-Title
 				Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1816,7 +1839,6 @@ Status NA
 					Hymn rid meMA.Ode3C13.text @ver media-off End-Hymn
 			End-Section
 			Section ode3_123Tas5678
-				Actor<ach>sid ac.Choir</>End-Actor
 				Title role desig sid ti.Beatitudes End-Title
 				Title role mode rid meMA.Ode3C11.mode End-Title
 				Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -1841,7 +1863,6 @@ Status NA
 		End-Section
 		Section me1c2__
 			Section ode3_123Tas5678
-				Actor<ach>sid ac.Choir</>End-Actor
 				Title role desig sid ti.Beatitudes End-Title
 				Title role mode rid meMA.Ode3C21.mode End-Title
 				Media rid meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -1867,7 +1888,6 @@ Status NA
 		Section oc__
 			Section sunday__
 				Section b_123Tas1234
-					Actor<ach>sid ac.Choir</>End-Actor
 					Section b_modeofweek_for12
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode rid ocLI.Beatitudes1.mode End-Title
@@ -1888,7 +1908,6 @@ Status NA
 					End-Section
 				End-Section
 				Section b_123Tas5678
-					Actor<ach>sid ac.Choir</>End-Actor
 					Section b_modeofweek_for8
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode rid ocLI.Beatitudes1.mode End-Title
@@ -1913,7 +1932,6 @@ Status NA
 					End-Section
 				End-Section
 				Section b_123456TrTas5678910GB
-					Actor<ach>sid ac.Choir</>End-Actor
 					Section b_modeofweek_for8
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode rid ocLI.Beatitudes1.mode End-Title
@@ -1948,7 +1966,6 @@ Status NA
 			Section weekday__
 				Section b_1234TrTas78910GB
 					Section b_modeofweek_for6
-						Actor<ach>sid ac.Choir</>End-Actor
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode rid ocLI.Beatitudes1.mode End-Title
 						Media rid ocLI.MM.Beatitudes1234TrTas78910GB.text End-Media
@@ -1985,7 +2002,6 @@ Status NA
 		End-Section
 		Section trc1__
 			Section ode3_123Tas5678
-				Actor<ach>sid ac.Choir</>End-Actor
 				Title role desig sid ti.Beatitudes End-Title
 				Title role mode rid trMA.Ode3C11.mode End-Title
 				Media rid trLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3049,35 +3065,73 @@ Status NA
 
 	Section _10_Parts__
 		Section _1_antiphons__
+			Section sundays_weekdays_feasts
+				Para role brc_li_antiphon1 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon1__.specific_day End-Insert
+				Para role erc_li_antiphon1 sid misc.custcontent End-Para
+					Break line End_Break
+				Para role brc_li_antiphon2 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon2__.specific_day End-Insert
+				Para role erc_li_antiphon2 sid misc.custcontent End-Para
+					Break line End_Break
+				Para role brc_li_antiphon3 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon3__.specific_day End-Insert
+				Para role erc_li_antiphon3 sid misc.custcontent End-Para
+			End-Section
 			Section celebrated_saint
-				Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+				Para role brc_li_antiphon1 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+				Para role erc_li_antiphon1 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Para role brc_li_antiphon2 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Para role erc_li_antiphon2 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.title End-Insert
-				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.verses End-Insert
+				Para role brc_li_antiphon3 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.title End-Insert
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint.verses End-Insert
+				Para role erc_li_antiphon3 sid misc.custcontent End-Para
 			End-Section
 			Section celebrated_saint_mealt1
-				Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+				Para role brc_li_antiphon1 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+				Para role erc_li_antiphon1 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Para role brc_li_antiphon2 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Para role erc_li_antiphon2 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.title End-Insert
-				Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.verses End-Insert
+				Para role brc_li_antiphon3 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.title End-Insert
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt1.verses End-Insert
+				Para role erc_li_antiphon3 sid misc.custcontent End-Para
 			End-Section
-			Section sundays_weekdays_feasts
-				Insert_section Selector_Antiphons.antiphon1__.specific_day End-Insert
+			Section celebrated_saint_mealt2
+				Para role brc_li_antiphon1 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon1__.celebrated_saint End-Insert
+				Para role erc_li_antiphon1 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon2__.specific_day End-Insert
+				Para role brc_li_antiphon2 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Para role erc_li_antiphon2 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon3__.specific_day End-Insert
+				Para role brc_li_antiphon3 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.title End-Insert
+					Insert_section Selector_Antiphons.antiphon3__.celebrated_saint_mealt2.verses End-Insert
+				Para role erc_li_antiphon3 sid misc.custcontent End-Para
 			End-Section
 			Section feast_mealt1
-				Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
+				Para role brc_li_antiphon1 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon1__.feast_mealt1 End-Insert
+				Para role erc_li_antiphon1 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon2__.feast_mealt1 End-Insert
+				Para role brc_li_antiphon2 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon2__.feast_mealt1 End-Insert
+				Para role erc_li_antiphon2 sid misc.custcontent End-Para
 				Break line End_Break
-				Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+				Para role brc_li_antiphon3 sid misc.custcontent End-Para
+					Insert_section Selector_Antiphons.antiphon3__.feast_mealt1 End-Insert
+				Para role erc_li_antiphon3 sid misc.custcontent End-Para
 			End-Section
 		End-Section
 		Section _2_typika__
@@ -3091,9 +3145,1492 @@ Status NA
 			End-Section
 		End-Section
 		Section _3_beatitudes__
+			Section append__
+				Section festal__
+					Section jan06__
+						Section ode3c1_as5678
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+				//			Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+						End-Section
+						Section ode3c2_as5678
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.ode<Tmode>sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.mode</><Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.melody</>End-Title
+							Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.greekmelody End-Title
+				//			Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C22.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C22.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+				//			Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+				//			Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section feb02__
+						Section ode3_as5678
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.Ode3C1H.ode<Tmode>sid me.m02.d02_gr_GR_cog.meMA.Ode3C1H.mode</><Tdesig>sid me.m02.d02_gr_GR_cog.meMA.Ode3C1H.melody</>End-Title
+							Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Ode3C1H.greekmelody End-Title
+					//		Media sid me.m02.d02_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode3C1H.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
+						End-Section
+						Section ode6_as5678
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.ode<Tmode>sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.mode</><Tdesig>sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.melody</>End-Title
+							Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.greekmelody End-Title
+					//		Media sid me.m02.d02_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
+						End-Section
+						Section ode6_as910GB
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.ode<Tmode>sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.mode</><Tdesig>sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.melody</>End-Title
+							Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.greekmelody End-Title
+					//		Media sid me.m02.d02_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C1H.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section julHF__
+						Section ode3c1_as5678
+							Title role desig sid me.m07.dHF_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m07.dHF_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m07.dHF_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m07.dHF_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode3C1T.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m07.dHF_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m07.dHF_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section aug06__
+						Section ode6c1_as910GB
+							Title role desig sid me.m08.d06_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m08.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m08.d06_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+					//		Media sid me.m08.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section aug15__
+						Section ode3c1_as5678
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+						//	Media sid me.m08.d15_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+							Media sid me.m08.d15_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+							Media sid me.m08.d15_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section sep08__
+						Section ode6c1_as910GB
+							Title role desig sid me.m09.d08_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+				//			Media sid me.m09.d08_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m09.d08_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m09.d08_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m09.d08_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+				//			Media sid me.m09.d08_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
+							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section sep14__
+						Section ode3c1_as5678
+							Title role desig sid me.m09.d14_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+					//		Media sid me.m09.d14_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m09.d14_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m09.d14_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section octHF__
+						Section ode6c1_as910GB
+							Title role desig sid me.m10.dHF_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m10.dHF_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section nov21__
+						Section ode3c1_as5678
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+				//			Media sid me.m11.d21_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode3C14.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m11.d21_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+				//			Media sid me.m11.d21_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C14.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m11.d21_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m11.d21_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+				//			Media sid me.m11.d21_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
+							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section decAC__
+						Section ode3c1_as5678
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m12.dAC_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m12.dAC_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+				//			Media sid me.m12.dAC_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C1T.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m12.dAC_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+					//		Media sid me.m12.dAC_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section decBC__
+						Section ode6c1_as910GB
+							Title role desig sid me.m12.dBC_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+					//		Media sid me.m12.dBC_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m12.dBC_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+					//		Media sid me.m12.dBC_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section decFF__
+						Section ode6c2_as910GB
+							Title role desig sid me.m12.dFF_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.dFF_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m12.dFF_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m12.dFF_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m12.dFF_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+					//		Media sid me.m12.dFF_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section dec25__
+						Section ode3c1_as5678
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.ode<Tmode>sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.mode</><Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.melody</>End-Title
+							Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.greekmelody End-Title
+				//			Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
+						End-Section
+						Section ode3c2_as5678
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.ode<Tmode>sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.mode</><Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.melody</>End-Title
+							Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.greekmelody End-Title
+				//			Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C22.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C22.text @ver media-off End-Hymn
+						End-Section
+						Section ode6c1_as910GB
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.C1.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.ode<Tmode>sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.mode</><Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.melody</>End-Title
+							Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.greekmelody End-Title
+				//			Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+						Section ode6c2_as910GB
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.C2.title End-Title
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role desig sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.ode<Tmode>sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.mode</><Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.melody</>End-Title
+							Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.greekmelody End-Title
+				//			Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Title sid ti.BothNow End-Title
+							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
+							Para role erc_li_beatitudes sid misc.custcontent End-Para
+						End-Section
+					End-Section
+					Section pe__
+						Section thomas__
+							Section ode6c1_1123as910GB
+								Title role desig sid pe.d078_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d078_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d078_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d078_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d078_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.BothNow End-Title
+								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section myrrhbearers__
+							Section ode3c1_1F1F2Tas5678
+								Title role desig sid pe.d085_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d085_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d085_gr_GR_cog.peMA.Ode3C11.ode<Tmode>sid pe.d085_gr_GR_cog.peMA.Ode3C11.mode</><Tmelody>sid pe.d085_gr_GR_cog.peMA.Ode3C11.melody</>End-Title
+								Title role greekmelody sid pe.d085_gr_GR_cog.peMA.Ode3C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode3C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode3C1F1.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode3C1F2.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+								Title role desig sid ti.Theotokion End-Title
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode3C1T.text @ver media-off End-Hymn
+							End-Section
+							Section ode6c1_F1F2TrTas910GB
+								Title role desig sid pe.d085_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d085_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d085_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d085_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d085_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d085_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section paralytic__
+							Section ode6c1_F1F2TrTas910GB
+								Title role desig sid pe.d092_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d092_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d092_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d092_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d092_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d092_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
+								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section midpentecost__
+							Section ode3c2_123Tas5678
+								Title role desig sid pe.d095_gr_GR_cog.peMA.C2.title End-Title
+							//	Media sid pe.d095_gr_GR_cog.peLI.MM.Beatitudes.Ode3C2as5678.text End-Media
+								Title role desig sid pe.d095_gr_GR_cog.peMA.Ode3C21.ode<Tmode>sid pe.d095_gr_GR_cog.peMA.Ode3C21.mode</><Tmelody>sid pe.d095_gr_GR_cog.peMA.Ode3C21.melody</>End-Title
+								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Ode3C21.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode3C21.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode3C22.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode3C23.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+								Title role desig sid ti.Theotokion End-Title
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode3C2T.text @ver media-off End-Hymn
+							End-Section
+							Section ode6c1_112Tas910GB
+								Title role desig sid pe.d095_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d095_gr_GR_cog.peLI.MM.Beatitudes.ode6c1_112Tas910GB.text End-Media
+								Title role desig sid pe.d095_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d095_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d095_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+							Section ode6c2_12TrTas910GB
+								Title role desig sid pe.d095_gr_GR_cog.peMA.C2.title End-Title
+							//	Media sid pe.d095_gr_GR_cog.peLI.MM.Beatitudes.ode6c2_12TrTas910GB.text End-Media
+								Title role desig sid pe.d095_gr_GR_cog.peMA.Ode6C21.ode<Tmode>sid pe.d095_gr_GR_cog.peMA.Ode6C21.mode</><Tmelody>sid pe.d095_gr_GR_cog.peMA.Ode6C21.melody</>End-Title
+								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Ode6C21.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C21.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
+								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2Tr.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section samaritan__
+							Section ode6c1_1F1TrTas910GB
+								Title role desig sid pe.d099_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d099_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d099_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d099_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d099_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d099_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
+								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section blindman__
+							Section ode6c1_1F1TrTas910GB
+								Title role desig sid pe.d106_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d106_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d106_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d106_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d106_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d106_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
+								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section ascension__
+							Section ode3c1_123Tas5678
+								Title role desig sid pe.d110_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d110_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+								Title role desig sid pe.d110_gr_GR_cog.peMA.Ode3C11.ode<Tmode>sid pe.d110_gr_GR_cog.peMA.Ode3C11.mode</><Tmelody>sid pe.d110_gr_GR_cog.peMA.Ode3C11.melody</>End-Title
+								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Ode3C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode3C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode3C12.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode3C13.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+								Title role desig sid ti.Theotokion End-Title
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode3C1T.text @ver media-off End-Hymn
+							End-Section
+							Section ode6c1_123Tas910GB
+								Title role desig sid pe.d110_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d110_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as5678.text End-Media
+								Title role desig sid pe.d110_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d110_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d110_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+							Section ode6c2_123Tas910GB
+								Title role desig sid pe.d110_gr_GR_cog.peMA.C2.title End-Title
+							//	Media sid pe.d110_gr_GR_cog.peLI.MM.Beatitudes.Ode6C2as5678.text End-Media
+								Title role desig sid pe.d110_gr_GR_cog.peMA.Ode6C21.ode<Tmode>sid pe.d110_gr_GR_cog.peMA.Ode6C21.mode</><Tmelody>sid pe.d110_gr_GR_cog.peMA.Ode6C21.melody</>End-Title
+								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Ode6C21.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C21.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C23.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section holyfathers__
+							Section ode3c1_123Tas5678
+								Title role desig sid pe.d113_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d113_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+								Title role desig sid pe.d113_gr_GR_cog.peMA.Ode3C11.ode<Tmode>sid pe.d113_gr_GR_cog.peMA.Ode3C11.mode</><Tmelody>sid pe.d113_gr_GR_cog.peMA.Ode3C11.melody</>End-Title
+								Title role greekmelody sid pe.d113_gr_GR_cog.peMA.Ode3C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode3C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode3C12.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode3C13.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+								Title role desig sid ti.Theotokion End-Title
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode3C1T.text @ver media-off End-Hymn
+							End-Section
+							Section ode6c1_123Tas910GB
+								Title role desig sid pe.d113_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d113_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+								Title role desig sid pe.d113_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d113_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d113_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d113_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section souls
+							Section ode6c1_123Tas910GB
+								Title role desig sid pe.d119_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d119_gr_GR_cog.peLI.MM.Beatitudes.ode6c1_123Tas910GB.text End-Media
+								Title role desig sid pe.d119_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d119_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d119_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d119_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section pentecost__
+							Section ode6c1_HH11as910GB
+								Title role desig sid pe.d120_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d120_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as5678.text End-Media
+								Title role desig sid pe.d120_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d120_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d120_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C1H.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C1H.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+							Section ode6c2_HH12as910GB
+								Title role desig sid pe.d120_gr_GR_cog.peMA.C2.title End-Title
+							//	Media sid pe.d120_gr_GR_cog.peLI.MM.Beatitudes.Ode6C2as5678.text End-Media
+								Title role desig sid pe.d120_gr_GR_cog.peMA.Ode6C21.ode<Tmode>sid pe.d120_gr_GR_cog.peMA.Ode6C21.mode</><Tmelody>sid pe.d120_gr_GR_cog.peMA.Ode6C21.melody</>End-Title
+								Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Ode6C21.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C2H.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C2H.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C21.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+						Section allsaints__
+							Section ode6c1_123Tas910GB
+								Title role desig sid pe.d127_gr_GR_cog.peMA.C1.title End-Title
+							//	Media sid pe.d127_gr_GR_cog.peLI.MM.Beatitudes.Ode6C1as5678.text End-Media
+								Title role desig sid pe.d127_gr_GR_cog.peMA.Ode6C11.ode<Tmode>sid pe.d127_gr_GR_cog.peMA.Ode6C11.mode</><Tmelody>sid pe.d127_gr_GR_cog.peMA.Ode6C11.melody</>End-Title
+								Title role greekmelody sid pe.d127_gr_GR_cog.peMA.Ode6C11.greekmelody End-Title
+								Para role source0 sid ti.sourcePentecostarion End-Para
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
+								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
+								Title sid ti.Glory End-Title
+								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
+								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
+								Para role erc_li_beatitudes sid misc.custcontent End-Para
+							End-Section
+						End-Section
+					End-Section
+				End-Section
+				Section me1c1__
+					Section ode3_1122as5678
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode3C11.ode<Tmode>rid meMA.Ode3C11.mode</><Tmelody>rid meMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode3C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
+					End-Section
+					Section ode3_1123as5678
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode3C11.ode<Tmode>rid meMA.Ode3C11.mode</><Tmelody>rid meMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode3C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Hymn rid meMA.Ode3C13.text @ver media-off End-Hymn
+					End-Section
+					Section ode3_1234as5678
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode3C11.ode<Tmode>rid meMA.Ode3C11.mode</><Tmelody>rid meMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode3C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid meMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Hymn rid meMA.Ode3C14.text @ver media-off End-Hymn
+					End-Section
+					Section ode3_123Tas5678
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode3C11.ode<Tmode>rid meMA.Ode3C11.mode</><Tmelody>rid meMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode3C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid meMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid meMA.Ode3C1T.text @ver media-off End-Hymn
+					End-Section
+					Section ode6_1122as910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_112Tas910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_1123as910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_1234as910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_124Tas910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_12_1Tas910GB_dec04
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_445Tas910GB
+						Title role desig rid meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C11.ode<Tmode>rid meMA.Ode6C11.mode</><Tmelody>rid meMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C15.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section me1c2__
+					Section ode6_1122as910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_1123as910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_112Tas910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_1234as910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid meMA.Ode6C24.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_12TrTas910GB
+						Title role desig rid meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C21.ode<Tmode>rid meMA.Ode6C21.mode</><Tmelody>rid meMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C2Tr.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section me1c3__
+					Section ode6_123Tas910GB
+						Title role desig rid meMA.C3.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid meMA.Ode6C31.ode<Tmode>rid meMA.Ode6C31.mode</><Tmelody>rid meMA.Ode6C31.melody</>End-Title
+						Title role greekmelody rid meMA.Ode6C31.greekmelody End-Title
+					//	Media rid meLI.MM.Beatitudes.Ode6C3as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid meMA.Ode6C31.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid meMA.Ode6C32.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid meMA.Ode6C33.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid meMA.Ode6C3T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section mealt1c1__
+					Section ode3_1234as5678
+						Title role desig rid alt1.meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode3C11.ode<Tmode>rid alt1.meMA.Ode3C11.mode</><Tmelody>rid alt1.meMA.Ode3C11.melody</>End-Title
+					//	Title role greekmelody rid alt1.meMA.Ode3C11.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C14.text @ver media-off End-Hymn
+					End-Section
+					Section ode3_123Ttas5678
+						Title role desig rid alt1.meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode3C11.ode<Tmode>rid alt1.meMA.Ode3C11.mode</><Tmelody>rid alt1.meMA.Ode3C11.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode3C11.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid alt1.meMA.Ode3C1T.text @ver media-off End-Hymn
+					End-Section
+					Section ode6_1122as910GB
+						Title role desig rid alt1.meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C11.ode<Tmode>rid alt1.meMA.Ode6C11.mode</><Tmelody>rid alt1.meMA.Ode6C11.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C11.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_1234as910GB
+						Title role desig rid alt1.meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C11.ode<Tmode>rid alt1.meMA.Ode6C11.mode</><Tmelody>rid alt1.meMA.Ode6C11.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C11.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid alt1.meMA.Ode6C14.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid alt1.meMA.C1.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C11.ode<Tmode>rid alt1.meMA.Ode6C11.mode</><Tmelody>rid alt1.meMA.Ode6C11.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C11.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid alt1.meMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section mealt1c2__
+					Section ode3_123Tas5678
+						Title role desig rid alt1.meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode3C21.ode<Tmode>rid alt1.meMA.Ode3C21.mode</><Tmelody>rid alt1.meMA.Ode3C21.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode3C21.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C22.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode3C23.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid alt1.meMA.Ode3C2T.text @ver media-off End-Hymn
+					End-Section
+					Section ode6_1234as910GB
+						Title role desig rid alt1.meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C21.ode<Tmode>rid alt1.meMA.Ode6C21.mode</><Tmelody>rid alt1.meMA.Ode6C21.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C21.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid alt1.meMA.Ode6C24.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid alt1.meMA.C2.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C21.ode<Tmode>rid alt1.meMA.Ode6C21.mode</><Tmelody>rid alt1.meMA.Ode6C21.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C21.greekmelody End-Title
+						Media rid alt1.meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid alt1.meMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section mealt1c3__
+					Section ode6_123Tas910GB
+						Title role desig rid alt1.meMA.C3.title End-Title
+						Para role source0 sid ti.sourceMeSupplement End-Para
+						Title role desig rid alt1.meMA.Ode6C31.ode<Tmode>rid alt1.meMA.Ode6C31.mode</><Tmelody>rid alt1.meMA.Ode6C31.melody</>End-Title
+				//		Title role greekmelody rid alt1.meMA.Ode6C31.greekmelody End-Title
+				//		Media rid alt1.meLI.MM.Beatitudes.Ode6C3as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C31.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid alt1.meMA.Ode6C32.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid alt1.meMA.Ode6C33.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid alt1.meMA.Ode6C3T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section trc1__
+					Section ode3_123Tas5678
+						Title role desig rid trMA.C1.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode3C11.ode<Tmode>rid trMA.Ode3C11.mode</><Tmelody>rid trMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid trMA.Ode3C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid trMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid trMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid trMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid trMA.Ode3C1T.text @ver media-off End-Hymn
+					End-Section
+					Section ode6_1234as910GB
+						Title role desig rid trMA.C1.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C11.ode<Tmode>rid trMA.Ode6C11.mode</><Tmelody>rid trMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid trMA.Ode6C14.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid trMA.C1.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C11.ode<Tmode>rid trMA.Ode6C11.mode</><Tmelody>rid trMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_12TrTas910GB
+						Title role desig rid trMA.C1.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C11.ode<Tmode>rid trMA.Ode6C11.mode</><Tmelody>rid trMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C1Tr.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section trc2__
+					Section ode6_1122as910GB
+						Title role desig rid trMA.C2.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C21.ode<Tmode>rid trMA.Ode6C21.mode</><Tmelody>rid trMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.BothNow End-Title
+						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid trMA.C2.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C21.ode<Tmode>rid trMA.Ode6C21.mode</><Tmelody>rid trMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C23.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_12TrTas910GB
+						Title role desig rid trMA.C2.title End-Title
+						Para role source0 sid ti.sourceTriodion End-Para
+						Title role desig rid trMA.Ode6C21.ode<Tmode>rid trMA.Ode6C21.mode</><Tmelody>rid trMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid trMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid trMA.Ode6C2Tr.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section pec1__
+					Section ode3_123Tas5678
+						Title role desig rid peMA.C1.title End-Title
+						Para role source0 sid ti.sourceMenaion End-Para
+						Title role desig rid peMA.Ode3C11.ode<Tmode>rid peMA.Ode3C11.mode</><Tmelody>rid peMA.Ode3C11.melody</>End-Title
+						Title role greekmelody rid peMA.Ode3C11.greekmelody End-Title
+						Media rid peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid peMA.Ode3C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid peMA.Ode3C12.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid peMA.Ode3C13.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid peMA.Ode3C1T.text @ver media-off End-Hymn
+					End-Section
+					Section ode6_1123as910GB
+						Title role desig rid peMA.C1.title End-Title
+						Para role source0 sid ti.sourcePentecostarion End-Para
+						Title role desig rid peMA.Ode6C11.ode<Tmode>rid peMA.Ode6C11.mode</><Tmelody>rid peMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid peMA.Ode6C11.greekmelody End-Title
+						Media rid peLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid peMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid peMA.Ode6C11.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+					Section ode6_123Tas910GB
+						Title role desig rid peMA.C1.title End-Title
+						Para role source0 sid ti.sourcePentecostarion End-Para
+						Title role desig rid peMA.Ode6C11.ode<Tmode>rid peMA.Ode6C11.mode</><Tmelody>rid peMA.Ode6C11.melody</>End-Title
+						Title role greekmelody rid peMA.Ode6C11.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C1as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid peMA.Ode6C11.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid peMA.Ode6C1T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+				Section pec2__
+					Section ode6_12TrTas910GB
+						Title role desig rid peMA.C2.title End-Title
+						Para role source0 sid ti.sourcePentecostarion End-Para
+						Title role desig rid peMA.Ode6C21.ode<Tmode>rid peMA.Ode6C21.mode</><Tmelody>rid peMA.Ode6C21.melody</>End-Title
+						Title role greekmelody rid peMA.Ode6C21.greekmelody End-Title
+						Media rid meLI.MM.Beatitudes.Ode6C2as910GB.text End-Media
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid peMA.Ode6C21.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid peMA.Ode6C22.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid peMA.Ode6C2Tr.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid peMA.Ode6C2T.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
+				End-Section
+			End-Section
 			Section festal__
 				Section jan06__
 					Section ode3c1_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3116,6 +4653,7 @@ Status NA
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode3C12.text @ver media-off End-Hymn
 					End-Section
 					Section ode3c2_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Ode3C21.mode End-Title
 					//	Media sid me.m01.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3140,6 +4678,7 @@ Status NA
 				End-Section
 				Section feb02__
 					Section ode3_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m02.d02_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m02.d02_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3163,6 +4702,7 @@ Status NA
 				End-Section
 				Section aug06__
 					Section ode3c1_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m08.d06_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m08.d06_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3187,6 +4727,7 @@ Status NA
 				End-Section
 				Section aug15__
 					Section ode3c1_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m08.d15_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m08.d15_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3243,6 +4784,7 @@ Status NA
 				End-Section
 				Section sep14__
 					Section ode3_hh12as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m09.d14_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m09.d14_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3298,6 +4840,7 @@ Status NA
 				End-Section
 				Section decBC__
 					Section ode3c1_123Tas5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m12.dBC_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m12.dBC_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3322,6 +4865,7 @@ Status NA
 				End-Section
 				Section dec25__
 					Section ode3c1_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Ode3C11.mode End-Title
 					//	Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3344,6 +4888,7 @@ Status NA
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode3C13.text @ver media-off End-Hymn
 					End-Section
 					Section ode3c2_as5678
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Ode3C21.mode End-Title
 					//	Media sid me.m12.d25_gr_GR_cog.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3369,6 +4914,7 @@ Status NA
 				Section pe__
 					Section thomas__
 						Section ode3c1_1123as5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d078_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d078_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3392,6 +4938,7 @@ Status NA
 					End-Section
 					Section myrrhbearers__
 						Section ode3c1_1F1F2Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d085_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d085_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3416,6 +4963,7 @@ Status NA
 					End-Section
 					Section paralytic__
 						Section ode3c1_1F1F2Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d092_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d092_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3440,6 +4988,7 @@ Status NA
 					End-Section
 					Section midpentecost__
 						Section ode3c1_112Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d095_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d095_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3462,6 +5011,7 @@ Status NA
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode3C1T.text @ver media-off End-Hymn
 						End-Section
 						Section ode3c2_123Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d095_gr_GR_cog.peMA.Ode3C21.mode End-Title
 						//	Media sid pe.d095_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3486,6 +5036,7 @@ Status NA
 					End-Section
 					Section samaritan__
 						Section ode3c1_12F1Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d099_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d099_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3510,6 +5061,7 @@ Status NA
 					End-Section
 					Section blindman__
 						Section ode3c1_12F1Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d106_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d106_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3534,6 +5086,7 @@ Status NA
 					End-Section
 					Section ascension__
 						Section ode3c1_123Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d110_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d110_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3556,6 +5109,7 @@ Status NA
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode3C1T.text @ver media-off End-Hymn
 						End-Section
 						Section ode3c2_123Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d110_gr_GR_cog.peMA.Ode3C21.mode End-Title
 						//	Media sid pe.d110_gr_GR_cog.peLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3580,6 +5134,7 @@ Status NA
 					End-Section
 					Section souls
 						Section ode3c1_123Tas5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d119_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d119_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3604,6 +5159,7 @@ Status NA
 					End-Section
 					Section pentecost__
 						Section ode3c1_HH11as5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d120_gr_GR_cog.peMA.Ode3C11.mode End-Title
 						//	Media sid pe.d120_gr_GR_cog.peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3625,6 +5181,7 @@ Status NA
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode3C11.text @ver media-off End-Hymn
 						End-Section
 						Section ode3c2_HH12as5678
+							Para role brc_li_beatitudes sid misc.custcontent End-Para
 							Title role desig sid ti.Beatitudes End-Title
 							Title role mode sid pe.d120_gr_GR_cog.peMA.Ode3C21.mode End-Title
 						//	Media sid pe.d120_gr_GR_cog.peLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3650,6 +5207,7 @@ Status NA
 			End-Section
 			Section mealt1c1__
 				Section ode3_1234as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid alt1.meMA.Ode3C11.mode End-Title
 					Media rid alt1.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3671,6 +5229,7 @@ Status NA
 						Hymn rid alt1.meMA.Ode3C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid alt1.meMA.Ode3C11.mode End-Title
 					Media rid alt1.meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3695,6 +5254,7 @@ Status NA
 			End-Section
 			Section mealt1c2__
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid alt1.meMA.Ode3C21.mode End-Title
 					Media rid alt1.meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3719,6 +5279,7 @@ Status NA
 			End-Section
 			Section me1c1__
 				Section ode3_1122as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3740,6 +5301,7 @@ Status NA
 						Hymn rid meMA.Ode3C12.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_1123as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3761,6 +5323,7 @@ Status NA
 						Hymn rid meMA.Ode3C13.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_112Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3783,6 +5346,7 @@ Status NA
 						Hymn rid meMA.Ode3C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_1234as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3804,6 +5368,7 @@ Status NA
 						Hymn rid meMA.Ode3C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3826,6 +5391,7 @@ Status NA
 						Hymn rid meMA.Ode3C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123c2Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C11.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3850,6 +5416,7 @@ Status NA
 			End-Section
 			Section me1c2__
 				Section ode3_112Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C21.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3872,6 +5439,7 @@ Status NA
 						Hymn rid meMA.Ode3C2T.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C21.mode End-Title
 					Media rid meLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -3896,6 +5464,7 @@ Status NA
 			End-Section
 			Section me1c3__
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid meMA.Ode3C31.mode End-Title
 				//	Media rid meLI.MM.Beatitudes.Ode3C3as5678.text End-Media
@@ -3920,6 +5489,7 @@ Status NA
 			End-Section
 			Section pec1__
 				Section ode3_1123as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid peMA.Ode3C11.mode End-Title
 					Media rid peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3942,6 +5512,7 @@ Status NA
 						Hymn rid peMA.Ode3C13.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_112Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid peMA.Ode3C11.mode End-Title
 					Media rid peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3964,6 +5535,7 @@ Status NA
 						Hymn rid peMA.Ode3C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid peMA.Ode3C11.mode End-Title
 					Media rid peLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -3988,20 +5560,88 @@ Status NA
 			End-Section
 			Section sunday__
 				Section b_123Tas1234
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123Tas1234.b_modeofweek_for12 End-Insert
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123Tas1234.hymns End-Insert
+					Section b_modeofweek_for12
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
+						Title role desig sid ti.Beatitudes End-Title
+						Title role mode rid ocLI.Beatitudes1.mode End-Title
+						Media rid ocLI.MM.Beatitudes123Tas1234.text End-Media
+					End-Section
+					Section hymns
+						Title role desig sid ti.Resurrectional_hymns End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_Intro.text sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v01.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes1.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v02.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes2.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v03.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes3.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v04.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
+					End-Section
 				End-Section
 				Section b_123Tas5678
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123Tas5678.b_modeofweek_for8 End-Insert
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123Tas5678.hymns End-Insert
+					Section b_modeofweek_for8
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
+						Title role desig sid ti.Beatitudes End-Title
+						Title role mode rid ocLI.Beatitudes1.mode End-Title
+						Media rid ocLI.MM.Beatitudes123Tas5678.text End-Media
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_Intro.text sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v01.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v02.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v03.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v04.text End-Reading
+					End-Section
+					Section hymns
+						Title role desig sid ti.Resurrectional_hymns End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes1.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes2.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes3.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Title role desig sid ti.Theotokion End-Title
+						Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
+					End-Section
 				End-Section
 				Section b_123456TrTas5678910GB
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123456TrTas5678910GB.b_modeofweek_for8 End-Insert
-					Insert_section LI._03_Beatitudes__.oc__.sunday__.b_123456TrTas5678910GB.hymns End-Insert
+					Section b_modeofweek_for8
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
+						Title role desig sid ti.Beatitudes End-Title
+						Title role mode rid ocLI.Beatitudes1.mode End-Title
+						Media rid ocLI.MM.Beatitudes123456TrTas5678910GB.text End-Media
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_Intro.text sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v01.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v02.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v03.text End-Reading
+						Reading sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v04.text End-Reading
+					End-Section
+					Section hymns
+						Title role desig sid ti.Resurrectional_hymns End-Title
+						Para role source0 sid ti.sourceOctoechos End-Para
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v05.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes1.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v06.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes2.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v07.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes3.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v08.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes4.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v09.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes5.text @ver media-off End-Hymn
+						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
+						Hymn rid ocLI.Beatitudes6.text @ver media-off End-Hymn
+						Title sid ti.Glory End-Title
+						Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
+						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
+						Para role erc_li_beatitudes sid misc.custcontent End-Para
+					End-Section
 				End-Section
 			End-Section
 			Section trc1__
 				Section ode3_1234as5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid trMA.Ode3C11.mode End-Title
 					Media rid trLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -4023,6 +5663,7 @@ Status NA
 						Hymn rid trMA.Ode3C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid trMA.Ode3C11.mode End-Title
 					Media rid trLI.MM.Beatitudes.Ode3C1as5678.text End-Media
@@ -4047,6 +5688,7 @@ Status NA
 			End-Section
 			Section trc2__
 				Section ode3_123Tas5678
+					Para role brc_li_beatitudes sid misc.custcontent End-Para
 					Title role desig sid ti.Beatitudes End-Title
 					Title role mode rid trMA.Ode3C21.mode End-Title
 					Media rid trLI.MM.Beatitudes.Ode3C2as5678.text End-Media
@@ -4072,6 +5714,7 @@ Status NA
 			Section weekday__
 				Section b_1234TrTas78910GB
 					Section b_modeofweek_for6
+						Para role brc_li_beatitudes sid misc.custcontent End-Para
 						Title role desig sid ti.Beatitudes End-Title
 						Title role mode rid ocLI.Beatitudes1.mode End-Title
 						Media rid ocLI.MM.Beatitudes1234TrTas78910GB.text End-Media
@@ -4099,10 +5742,13 @@ Status NA
 					Title sid ti.Glory End-Title
 					Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
 					when-name-of-day-is
-						Wednesday, Friday use: Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
-						otherwise use: Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Wednesday, Friday use:
+							Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						otherwise use:
+							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
 					end-when
 					Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
+					Para role erc_li_beatitudes sid misc.custcontent End-Para
 				End-Section
 			End-Section
 		End-Section

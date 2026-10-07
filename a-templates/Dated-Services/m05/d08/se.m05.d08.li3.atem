@@ -45,7 +45,7 @@ Status NA
 			Section Instance03_7895
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section mc.map.li3.pe_typika_beatitudes_ode3 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
 				Insert_section Selector_Eisodikon.eisodikon_complete.usualSunday End-Insert
 				Insert_section se.m05.d08.li2.Instance03.block01 End-Insert
 			End-Section
@@ -55,7 +55,7 @@ Status NA
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._10_Parts__._3_beatitudes__.sunday__.b_123Tas1234 End-Insert
 				Insert_section mc.map.li3.pe_typika_beatitudes_ode3.ode3 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
 				Insert_section Selector_Eisodikon.eisodikon_complete.usualSunday End-Insert
 				Insert_section se.m05.d08.li2.Instance03.block01 End-Insert
 			End-Section
@@ -65,7 +65,7 @@ Status NA
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section LI._10_Parts__._3_beatitudes__.sunday__.b_123Tas1234 End-Insert
 				Insert_section LI._10_Parts__._3_beatitudes__.festal__.pe__.midpentecost__.ode3c1_112Tas5678 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
 				Insert_section Selector_Eisodikon.eisodikon_complete.usualSunday End-Insert
 				Insert_section se.m05.d08.li2.Instance03.block01 End-Insert
 			End-Section
@@ -74,7 +74,7 @@ Status NA
 			Section Instance04
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section mc.map.li3.pe_typika_beatitudes_ode3 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.me1c1__.ode6_112Tas910GB End-Insert
 				Insert_section Selector_Eisodikon.eisodikon_complete.usualSunday End-Insert
 				Insert_section se.m05.d08.li2.Instance04.block01 End-Insert
 			End-Section

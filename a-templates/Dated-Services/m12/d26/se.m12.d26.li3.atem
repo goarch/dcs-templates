@@ -45,8 +45,8 @@ Status Final
 			Section Instance_Sunday
 				Insert_section ST.li.oc_com End-Insert
 				Insert_section LI._10_Parts__._3_beatitudes__.sunday__.b_123Tas1234 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.festal__.dec25__.ode3c1_as5678 End-Insert
-				Insert_section LI._03_Beatitudes__.append__.festal__.decAC__.ode6c1_as910GB End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.festal__.dec25__.ode3c1_as5678 End-Insert
+				Insert_section LI._10_Parts__._3_beatitudes__.append__.festal__.decAC__.ode6c1_as910GB End-Insert
 				Break line End_Break
 				Insert_section Selector_Eisodikon.eisodikon_complete.usualSunday End-Insert
 				Break line End_Break
