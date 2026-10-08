@@ -12338,6 +12338,9 @@ me.m11.d03.meVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m04/d23
 me.m11.d03.meVE.SticGlory.c1211.score.b.arranger = "SDedes/"
 me.m11.d03.meVE.SticGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m04/d23/ve/b/sticglory.pdf"
 
+me.m11.d03.meVE.AposGlory.c1211.score.b.arranger = "PThomatos/"
+me.m11.d03.meVE.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m11/d03/ve/b/aposglory.pdf"
+
 me.m11.d03.meMA.Exaposteilarion1.c1211.score.w.arranger = "SDedes/"
 me.m11.d03.meMA.Exaposteilarion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m11/d03/ma/w/exaposteilarion1.pdf"
 
