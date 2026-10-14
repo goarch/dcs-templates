@@ -12395,7 +12395,7 @@ me.m11.d06.meVE.MM.Stichera1234as78910.c1211.score.w.url.path = "/media/m/dedes/
 me.m11.d06.meVE.SticGlory.c1211.score.b.arranger = "PThomatos/"
 me.m11.d06.meVE.SticGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m11/d06/ve/b/sticglory.pdf"
 
-me.m11.d06.meVE.AposGlory.c1211.score.b.arranger = "SDedes/"
+me.m11.d06.meVE.AposGlory.c1211.score.b.arranger = "PThomatos/"
 me.m11.d06.meVE.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m11/d06/ve/b/aposglory.pdf"
 
 me.m11.d06.meVE.Apolytikion1.c1211.score.w.arranger = "SDedes/"
@@ -12409,6 +12409,9 @@ me.m11.d06.meMA.ExapTheotokion.c1211.score.w.url.path = "/media/m/dedes/en/me/m1
 
 me.m11.d06.meMA.MM.Ve1234as5678.c1211.score.w.arranger = "SDedes/"
 me.m11.d06.meMA.MM.Ve1234as5678.c1211.score.w.url.path = "/media/m/dedes/en/me/m11/d06/ma/w/stichera1234aslauds5678.pdf"
+
+me.m11.d06.meMA.AposGlory.c1211.score.b.arranger = "PThomatos/"
+me.m11.d06.meMA.AposGlory.c1211.score.b.url.path = "/media/m/thomatos/en/me/m11/d06/ma/b/aposglory.pdf"
 
 me.m11.d07.meVE.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m11.d07.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d15/ve/w/aposglory.pdf"
