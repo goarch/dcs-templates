@@ -238,10 +238,8 @@ Status NA
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode11.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode12.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode12.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode13.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode13.text @ver media-off End-Hymn
 					Verse sid pr.verse_Theotokos.text End-Verse
 					Title role desig sid ti.Theotokion End-Title
@@ -2422,10 +2420,8 @@ Status NA
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode31.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode32.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode32.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode33.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode33.text @ver media-off End-Hymn
 					Verse sid pr.verse_Theotokos.text End-Verse
 					Title role desig sid ti.Theotokion End-Title
@@ -2439,10 +2435,8 @@ Status NA
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode31.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode32.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode32.text @ver media-off End-Hymn
 					Verse sid eu.consecration_gr_GR_cog.euCA.verse End-Verse
-					Media sid eu.consecration_gr_GR_cog.euCA.Ode33.text End-Media
 					Hymn sid eu.consecration_gr_GR_cog.euCA.Ode33.text @ver media-off End-Hymn
 					Verse sid pr.verse_Theotokos.text End-Verse
 					Title role desig sid ti.Theotokion End-Title

@@ -23,6 +23,23 @@ Status NA
 	Section b //biblcal odes
 		Section ode1
 			Section append
+				Section con
+					Section ti_123tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode11.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode11.greekmelody End-Title
+						Insert_section CA.bOde1.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode11.text @ver media-off End-Hymn
+						Insert_section CA.bOde1.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode12.text @ver media-off End-Hymn
+						Insert_section CA.bOde1.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode13.text @ver media-off End-Hymn
+						Insert_section CA.bOde1.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode1T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section me1
 					Section ti_123Tas78910
 						when-exists rid meMA.C1.notice
@@ -951,6 +968,23 @@ Status NA
 						Hymn sid client_gr_GR_cog.clMA.Ode3C15.text @ver End-Hymn
 					End-Section
 				End-Section
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode31.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode31.greekmelody End-Title
+						Insert_section CA.bOde3.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode31.text @ver media-off End-Hymn
+						Insert_section CA.bOde3.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode32.text @ver media-off End-Hymn
+						Insert_section CA.bOde3.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode33.text @ver media-off End-Hymn
+						Insert_section CA.bOde3.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode3T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para
@@ -1761,6 +1795,23 @@ Status NA
 						Hymn sid client_gr_GR_cog.clMA.Ode4C15.text @ver End-Hymn
 					End-Section
 				End-Section
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode41.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode41.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode41.greekmelody End-Title
+						Insert_section CA.bOde4.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode41.text @ver media-off End-Hymn
+						Insert_section CA.bOde4.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode42.text @ver media-off End-Hymn
+						Insert_section CA.bOde4.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode43.text @ver media-off End-Hymn
+						Insert_section CA.bOde4.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode4T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para
@@ -2500,6 +2551,23 @@ Status NA
 						Hymn sid client_gr_GR_cog.clMA.Ode5C15.text @ver End-Hymn
 					End-Section
 				End-Section
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode51.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode51.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode51.greekmelody End-Title
+						Insert_section CA.bOde5.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode51.text @ver media-off End-Hymn
+						Insert_section CA.bOde5.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode52.text @ver media-off End-Hymn
+						Insert_section CA.bOde5.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode53.text @ver media-off End-Hymn
+						Insert_section CA.bOde5.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode5T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para
@@ -3207,6 +3275,23 @@ Status NA
 		End-Section
 		Section ode6
 			Section append
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode61.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode61.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode61.greekmelody End-Title
+						Insert_section CA.bOde6.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode61.text @ver media-off End-Hymn
+						Insert_section CA.bOde6.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode62.text @ver media-off End-Hymn
+						Insert_section CA.bOde6.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode63.text @ver media-off End-Hymn
+						Insert_section CA.bOde6.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode6T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para
@@ -3851,6 +3936,23 @@ Status NA
 		End-Section
 		Section ode7
 			Section append
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode71.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode71.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode71.greekmelody End-Title
+						Insert_section CA.bOde7.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode71.text @ver media-off End-Hymn
+						Insert_section CA.bOde7.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode72.text @ver media-off End-Hymn
+						Insert_section CA.bOde7.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode73.text @ver media-off End-Hymn
+						Insert_section CA.bOde7.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode7T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section mealt1
 					Section ti_11223Tas9101112GB
 						Title role desig rid alt1.meMA.C1.title End-Title
@@ -4533,6 +4635,23 @@ Status NA
 		End-Section
 		Section ode8
 			Section append
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode81.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode81.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode81.greekmelody End-Title
+						Insert_section CA.bOde8.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode81.text @ver media-off End-Hymn
+						Insert_section CA.bOde8.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode82.text @ver media-off End-Hymn
+						Insert_section CA.bOde8.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode83.text @ver media-off End-Hymn
+						Insert_section CA.bOde8.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode8T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para
@@ -5312,6 +5431,23 @@ Status NA
 		End-Section
 		Section ode9
 			Section append
+				Section con
+					Section ti_123Tas78910
+						Insert_section TI.c.con End-Insert
+						Para role source0 sid ti.sourceEuchologion End-Para
+						Title role mode sid eu.consecration_gr_GR_cog.euCA.Ode91.mode<Tmelody>sid eu.consecration_gr_GR_cog.euCA.Ode91.melody</>End-Title
+						Title role greekmelody sid eu.consecration_gr_GR_cog.euCA.Ode91.greekmelody End-Title
+						Insert_section CA.bOde9.verse7 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode91.text @ver media-off End-Hymn
+						Insert_section CA.bOde9.verse8 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode92.text @ver media-off End-Hymn
+						Insert_section CA.bOde9.verse9 End-Insert
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode93.text @ver media-off End-Hymn
+						Insert_section CA.bOde9.verse10 End-Insert
+						Title role desig sid ti.Theotokion End-Title
+						Hymn sid eu.consecration_gr_GR_cog.euCA.Ode9T.text @ver media-off End-Hymn
+					End-Section
+				End-Section
 				Section ho
 					Section ti_gp_hh1234as003456
 						Para role source sid ti.sourceHorologion End-Para

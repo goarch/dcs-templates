@@ -5243,6 +5243,16 @@ Status NA
 			End-Section
 		End-Section
 		Section midodekathisma__
+			Section con1_
+				Actor sid ac.Choir End-Actor
+				Title role desig sid ti.Kathisma End-Title
+				Section hymn
+ 					Para role source0 sid ti.sourceEuchologion End-Para
+					Title role mode sid eu.consecration_gr_GR_cog.euMA.Ode3Kathisma1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Ode3Kathisma1.melody</>End-Title
+					Title role greekmelody sid eu.consecration_gr_GR_cog.euMA.Ode3Kathisma1.greekmelody End-Title
+					Hymn sid eu.consecration_gr_GR_cog.euMA.Ode3Kathisma1.text @ver media-off End-Hymn
+				End-Section
+			End-Section
 			Section mealt11_
 				Actor sid ac.Choir End-Actor
 				Title role desig sid ti.Kathisma End-Title
@@ -7477,6 +7487,18 @@ Status NA
 						End-Section
 					End-Section
 				end-when
+			End-Section
+		End-Section
+		Section con
+			Para role brc_ma_exaposteilarion_actor sid misc.custcontent End-Para
+			Para role erc_ma_exaposteilarion_actor sid misc.custcontent End-Para
+			Title role desig sid ti.Exaposteilarion End-Title
+			Section hymn
+				Title role desig sid ti.Consecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text @ver media-off End-Hymn
 			End-Section
 		End-Section
 		Section hierarchical__

@@ -206,6 +206,23 @@ Status NA
 			Insert_section VE.LIHC_Verses.v06 End-Insert
 			Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera04.text @ver media-off End-Hymn
 		End-Section
+		Section i_1234as4567
+			Title role desig sid ti.SticheraConsecration End-Title
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Media sid eu.consecration_gr_GR_cog.euVE.MM.Stichera1234as3456.text End-Media
+			Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera01.mode</>End-Title
+			Insert_section VE.LIHC_Verses.v04 End-Insert
+			Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera01.text @ver media-off End-Hymn
+			Title role desig sid ti.Idiomelon2<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera02.mode</>End-Title
+			Insert_section VE.LIHC_Verses.v05 End-Insert
+			Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera02.text @ver media-off End-Hymn
+			Title role desig sid ti.Idiomelon3<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera03.mode</>End-Title
+			Insert_section VE.LIHC_Verses.v06 End-Insert
+			Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera03.text @ver media-off End-Hymn
+			Title role desig sid ti.Idiomelon4<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera04.mode</>End-Title
+			Insert_section VE.LIHC_Verses.v07 End-Insert
+			Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera04.text @ver media-off End-Hymn
+		End-Section
 		Section i_1234as78910
 			Title role desig sid ti.SticheraConsecration End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
@@ -304,6 +321,13 @@ Status NA
 	End-Section
 
 	Section MA_02_Kathisma1__
+		Section kathisma
+			Title<Tdesig>sid ti.Kathisma1 sid ti.Consecration</>End-Title
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+		End-Section
 		Section both
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
@@ -320,6 +344,13 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_03_Kathisma2__
+		Section kathisma
+			Title<Tdesig>sid ti.Kathisma2 sid ti.Consecration</>End-Title
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+		End-Section
 		Section both
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
@@ -344,6 +375,13 @@ Status NA
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 			End-Section
+		End-Section
+		Section kathisma
+			Title<Tdesig>sid ti.Kathisma3 sid ti.Consecration</>End-Title
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 		End-Section
 		Section both
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title

@@ -1,0 +1,221 @@
+Template se.ame.m09.d18.ma9
+
+Status Final
+
+	import MA2._09_Options__.weekday__.*
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import template.titles_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 9 day 18 year 2027 End_Date
+			Page_Header_Even
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
+			End_Page_Header_Even
+			Page_Header_Odd
+				center @lookup sid template.titles_gr_GR_cog.ma.pdf.header lang L2 @lookup rid daOnDay.text lang L2 @lookup rid meDA.pdfheaderdate lang L2
+			End_Page_Header_Odd
+			Page_Footer_Even
+				left @pageNbr
+				right @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+			End_Page_Footer_Even
+			Page_Footer_Odd
+				left @lookup sid pdf.covers_en_US_goarch.footer.attribution.text lang L2
+				right @pageNbr
+			End_Page_Footer_Odd
+		Set_Page_Number 1 End_Set_Page_Number
+	End_Head
+
+	Preface Covers
+		Insert_template pdf.cover.ma.me End-Insert
+		Insert_template pdf.cover.credits End-Insert
+	End-Preface
+
+	Section Instance_Weekday
+		Insert_section ST.ma._ End-Insert
+		Insert_section MA._01_Beginning__.mode4 End-Insert
+		Insert_section AP.con End-Insert
+		Insert_section TI.g._ End-Insert
+		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
+		Insert_section AP.both__.af End-Insert
+		Insert_section PS._02_Matins_1st__.rubric__.has_litany End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section CONS.MA_02_Kathisma1__.kathisma End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section TI.g.s._00_saint_.m End-Insert
+		Insert_section MA._02_Kathisma1__.glory__.me__.kath11_.hymn End-Insert
+		Set_Date month 9 day 14 End_Date
+		Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+		Set_Date month 9 day 18 End_Date
+		Insert_section PS._03_Matins_2nd__.rubric__.has_litany End-Insert
+		Insert_section PS.optionalLitany03_priest End-Insert
+		Insert_section CONS.MA_03_Kathisma2__.kathisma End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section TI.g.s._00_saint_.m End-Insert
+		Insert_section MA._03_Kathisma2__.glory__.me__.kath21_.hymn End-Insert
+		Set_Date month 9 day 14 End_Date
+		Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+		Set_Date month 9 day 18 End_Date
+		Section polyeleos
+			Insert_section MA._04_Polyeleos__.titles End-Insert
+			Insert_section bk.ho.ho30.hierarchs.Section01 End-Insert
+			Insert_section MA._04_Polyeleos__.glory_triadic End-Insert
+			Insert_section MA._04_Polyeleos__.both_theotokion End-Insert
+		End-Section
+		Insert_section MA._05_Kathisma3__.litany End-Insert
+		Insert_section CONS.MA_05_Kathisma3__.kathisma End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section TI.g.s._00_saint_.m End-Insert
+		Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
+		Set_Date month 9 day 14 End_Date
+		Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+		Insert_section MA._08_Supplication__.priest__.com End-Insert
+
+		Section canon
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode1.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode1.append.con.ti_123tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode1.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._1 End-Insert
+		
+
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode3.append.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode3.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode3.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._3 End-Insert
+			
+			Insert_section MA._10_Canon__.litanies__.ode3 End-Insert
+			
+			Insert_section MA._10_Canon__.midodekathisma__.con1_ End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section TI.g.s._00_saint_.m End-Insert
+			Insert_section MA._10_Canon__.midodekathisma__.me1_.hymn End-Insert
+			Set_Date month 9 day 14 End_Date
+			Insert_section TI.b.f End-Insert
+			Insert_section MA._10_Canon__.midodekathisma__.me1_.hymn End-Insert
+
+			Insert_section CA.b.ode4.append.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode4.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode4.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._4 End-Insert
+
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode5.append.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode5.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode5.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._5 End-Insert
+
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode6.append.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode6.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode6.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._6 End-Insert
+
+			Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+
+			Insert_section MA._11_Kontakion__.con End-Insert
+			Insert_section SY.Synaxarion End-Insert
+
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode7.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode7.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode7.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._7 End-Insert
+		
+			Set_Date month 9 day 14 End_Date
+			Insert_section CA.b.ode8.append.me1.ti_HH1234as003456 End-Insert
+			Insert_section CA.b.ode8.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode8.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._8 End-Insert
+		
+			Set_Date month 9 day 14 End_Date
+			Insert_section MA._10_Canon__.ode9_intro__.choir End-Insert
+			Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
+			Section ti_ode9_cross
+				Insert_section TI.o._9 End-Insert
+				Insert_section TI.ct.me.c1 End-Insert
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role mode rid meMA.Ode9C1H.mode<Tdesig>rid meMA.Ode9C1H.melody</>End-Title
+				Title role greekmelody rid meMA.Ode9C1H.greekmelody End-Title
+				Para role heirmos rid meMA.Ode9C1H.text @ver End-Para
+				Title role desig sid ti.Troparia End-Title
+				Verse sid pr.verse_Cross.text End-Verse
+				Hymn rid meMA.Ode9C11.text @ver End-Hymn
+				Insert_section CA.bOde9.verse3 End-Insert
+				Hymn rid meMA.Ode9C12.text @ver End-Hymn
+				Insert_section CA.bOde9.verse4 End-Insert
+				Title role mode rid meMA.Ode9C21.mode<Tdesig>rid meMA.Ode9C21.melody</>End-Title
+				Hymn rid meMA.Ode9C21.text @ver End-Hymn
+				Insert_section CA.bOde9.verse5 End-Insert
+				Hymn rid meMA.Ode9C22.text @ver End-Hymn
+				Insert_section CA.bOde9.verse6 End-Insert
+				Hymn rid meMA.Ode9C23.text @ver End-Hymn
+			End-Section
+			Insert_section CA.b.ode9.append.con.ti_123Tas78910 End-Insert
+			Set_Date month 11 day 13 End_Date
+			Insert_section CA.b.ode9.append.me2.ti_123Tas1112GB End-Insert
+			Set_Date month 9 day 18 End_Date
+			Insert_section KA.append__._9 End-Insert
+		End-Section
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA._12_Exaposteilarion__.con End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section TI.s._00_saint_.m End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+		Set_Date month 9 day 14 End_Date
+		Insert_section TI.f End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+		Set_Date month 9 day 18 End_Date
+		Insert_section MA._13_Lauds__.mode4__.noStichologia End-Insert
+		Insert_section CONS.MA_prayers End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+		Insert_section MA._13_Lauds__.con__.p_123as123 End-Insert
+		Set_Date month 11 day 13 End_Date
+		Insert_section TI.s._00_saint_.m End-Insert
+		Insert_section MA._13_Lauds__.me__.p_1234as3456 End-Insert
+		Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
+		Set_Date month 9 day 14 End_Date
+		Insert_section TI.g.f End-Insert
+		Insert_section MA._13_Lauds__.both__.me__.gloryasboth_.hymn End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
+		Insert_section MA._15_Litanies__.aftergreatdoxology End-Insert
+		Insert_section MA._18_End__.wisdom123.part1 End-Insert
+		Insert_section MA._20_Dismissal__.nocommemoration End-Insert
+	End-Section
+
+End-Template
