@@ -55,9 +55,7 @@ Status Final
 	Para sid me.m10.d06_gr_GR_cog.meVE.SticGlory.melody End-Para
 	Para sid me.m10.d06_gr_GR_cog.meVE.SticGlory.text End-Para
 
-	Para sid me.m10.d06_gr_GR_cog.meVE.SticTheotokion.mode End-Para
-	Para sid me.m10.d06_gr_GR_cog.meVE.SticTheotokion.melody End-Para
-	Para sid me.m10.d06_gr_GR_cog.meVE.SticTheotokion.text End-Para
+		Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 
 	Para sid me.m10.d06_gr_GR_cog.meVE.Aposticha1.mode End-Para
 	Para sid me.m10.d06_gr_GR_cog.meVE.Aposticha1.melody End-Para
@@ -327,9 +325,7 @@ Status Final
 	Para sid me.m10.d06_gr_GR_cog.meMA.LaudsGlory.melody End-Para
 	Para sid me.m10.d06_gr_GR_cog.meMA.LaudsGlory.text End-Para
 
-	Para sid me.m10.d06_gr_GR_cog.meMA.LaudsTheotokion.mode End-Para
-	Para sid me.m10.d06_gr_GR_cog.meMA.LaudsTheotokion.melody End-Para
-	Para sid me.m10.d06_gr_GR_cog.meMA.LaudsTheotokion.text End-Para
+		Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiApostolou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 
 	Para sid me.m10.d06_gr_GR_cog.meLI.Kontakion1.mode End-Para
 	Para sid me.m10.d06_gr_GR_cog.meLI.Kontakion1.melody End-Para

@@ -865,7 +865,6 @@ eu.lipresanctified.euPL.Key1001.c1246.score.w.url.path = "/media/m/dedes/en/eu/l
 eu.lipresanctified.euPL.Key1001.c1246.score.b.arranger = "SDedes / Mode pl. 2 (Petros)"
 eu.lipresanctified.euPL.Key1001.c1246.score.b.url.path = "/media/m/dedes/en/eu/lipresanctified/b/cherubichymn6_HC.pdf"
 
-
 eu.lipresanctified.euPL.MM.Key1201.c1111.score.w.arranger = "SDedes/"
 eu.lipresanctified.euPL.MM.Key1201.c1111.score.w.url.path = "/media/m/dedes/en/eu/lipresanctified/w/communionhymn.pdf"
 eu.lipresanctified.euPL.MM.Key1201.c1111.score.b.arranger = "SDedes/"
@@ -5150,7 +5149,6 @@ me.m01.d01.meLI.MM.CommunionHymn.c1111.score.w.url.path = "/media/m/dedes/en/eu/
 me.m01.d01.meLI.AfterCommunion.c1211.score.w.arranger = "SDedes/"
 me.m01.d01.meLI.AfterCommunion.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d01/ve/w/apolytikion2.pdf"
 
-
 me.m01.d02.meVE.Apolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m01.d02.meVE.Apolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d02/ve/w/apolytikion1.pdf"
 me.m01.d02.meVE.Apolytikion1.c1211.a1.singer = "SDedes/"
@@ -5542,7 +5540,6 @@ me.m01.d10.meMA.AposBoth.c1211.score.w.arranger = "SDedes/"
 me.m01.d10.meMA.AposBoth.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d10/ma/w/aposboth.pdf"
 me.m01.d10.meMA.AposBoth.c1211.score.b.arranger = "SDedes/"
 me.m01.d10.meMA.AposBoth.c1211.score.b.url.path = "/media/m/dedes/en/me/m01/d10/ma/b/aposboth.pdf"
-
 
 me.m01.d11.meVE.Stichera01.c1211.score.w.arranger = "SDedes/"
 me.m01.d11.meVE.Stichera01.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d11/ve/w/stichera01.pdf"
@@ -6007,7 +6004,6 @@ me.m01.d22.meMA.MM.Ve12as56.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d
 
 me.m01.d22.meMA.MM.Ve45as78.c1211.score.w.arranger = "SDedes/"
 me.m01.d22.meMA.MM.Ve45as78.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d22/ma/w/ve45as78.pdf"
-
 
 me.m01.d25.meVE.SticGlory.c1211.score.w.arranger = "SDedes/"
 me.m01.d25.meVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d25/ve/w/sticglory.pdf"
@@ -6625,7 +6621,6 @@ me.m02.d08.meVE.AposBoth.c1211.score.w.url.path = "/media/m/dedes/en/me/m02/d02/
 me.m02.d08.meVE.AposBoth.c1211.score.b.arranger = "SDedes/"
 me.m02.d08.meVE.AposBoth.c1211.score.b.url.path = "/media/m/dedes/en/me/m02/d02/ve/b/aposglory.pdf"
 
-
 me.m02.d10.meVE.Stichera01.c1211.score.w.arranger = "SDedes/"
 me.m02.d10.meVE.Stichera01.c1211.score.w.url.path = "/media/m/dedes/en/me/m02/d10/ve/w/stichera01.pdf"
 
@@ -6733,7 +6728,6 @@ me.m02.d10.meLI.MM.CommunionHymn.c1121.score.w.url.path = "/media/m/eu/lichrysba
 
 me.m02.d11.meVE.MM.GeneralApolytikion1.c1121.score.w.arranger = "SDedes/"
 me.m02.d11.meVE.MM.GeneralApolytikion1.c1121.score.w.url.path = "/media/m/dedes/en/me/m02/d11/ve/w/generalapolytikion1.pdf"
-
 
 me.m02.d14.meVE.Stichera01.c1211.score.w.arranger = "SDedes/"
 me.m02.d14.meVE.Stichera01.c1211.score.w.url.path = "/media/m/dedes/en/me/m02/d14/ve/w/stichera01.pdf"
@@ -7145,7 +7139,6 @@ me.m03.d24.meMA.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m03.d24.meMA.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m03/d24/ma/w/aposglory.pdf"
 me.m03.d24.meMA.AposGlory.c1212.score.b.arranger = "SHerron/"
 me.m03.d24.meMA.AposGlory.c1212.score.b.url.path = "/media/m/herron/en/me/m03/d24/ma/b/aposglory.pdf"
-
 
 me.m03.d24.meLI.Kontakion1.c1211.score.w.arranger = "SDedes/"
 me.m03.d24.meLI.Kontakion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m03/d24/li/w/kontakion.pdf"
@@ -7947,7 +7940,6 @@ me.m06.d04.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m06/d04
 me.m06.d04.meVE.AposGlory.c1211.score.b.arranger = "SDedes/"
 me.m06.d04.meVE.AposGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m06/d04/ve/b/aposglory.pdf"
 
-
 me.m06.d04.meMA.PostGospelGlory.c1211.score.w.arranger = "SDedes/"
 me.m06.d04.meMA.PostGospelGlory.c1211.score.w.url.path = "/media/m/dedes/en/ho/ho03/w/postgospelglory_hierarch.pdf"
 me.m06.d04.meMA.PostGospelGlory.c1211.score.b.arranger = "SDedes/"
@@ -7962,7 +7954,6 @@ me.m06.d04.meMA.LaudsGlory.c1211.score.w.arranger = "SDedes/"
 me.m06.d04.meMA.LaudsGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m06/d04/ma/w/laudsglory.pdf"
 me.m06.d04.meMA.LaudsGlory.c1211.score.b.arranger = "SDedes/"
 me.m06.d04.meMA.LaudsGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m06/d04/ma/b/laudsglory.pdf"
-
 
 me.m06.d08.meMA.AposGlory.c1211.score.w.arranger = "SDedes/"
 me.m06.d08.meMA.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m02/d17/ma/w/laudsglory.pdf"
@@ -8006,7 +7997,6 @@ me.m06.d12.meMA.LaudsGlory.c1211.score.w.arranger = "SDedes/"
 me.m06.d12.meMA.LaudsGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m06/d12/ma/w/laudsglory.pdf"
 me.m06.d12.meMA.LaudsGlory.c1211.score.b.arranger = "SDedes/"
 me.m06.d12.meMA.LaudsGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m06/d12/ma/b/laudsglory.pdf"
-
 
 me.m06.d17.meVE.SticGlory.c1211.score.w.arranger = "SDedes/"
 me.m06.d17.meVE.SticGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m06/d17/ve/w/sticglory.pdf"
@@ -10405,7 +10395,6 @@ me.m09.d03.meVE.AposGlory.c1211.score.w.url.path = "/media/m/dedes/en/me/m01/d15
 me.m09.d03.meVE.AposGlory.c1211.score.b.arranger = "SDedes/"
 me.m09.d03.meVE.AposGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m01/d15/ve/b/aposglory.pdf"
 
-
 me.m09.d03.meVE.MM.GeneralApolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m09.d03.meVE.MM.GeneralApolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d03/ve/w/generalapolytikion1.pdf"
 
@@ -10527,7 +10516,6 @@ me.m09.d04.meVE.AposGlory.c1211.score.b.url.path = "/media/m/dedes/en/me/m09/d04
 
 me.m09.d04.meVE.MM.GeneralApolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m09.d04.meVE.MM.GeneralApolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d04/ve/w/generalapolytikion1.pdf"
-
 
 me.m09.d04.meMA.Exaposteilarion1.c1211.score.w.arranger = "SDedes/"
 me.m09.d04.meMA.Exaposteilarion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m09/d04/ma/w/exaposteilarion1.pdf"
@@ -11540,7 +11528,6 @@ me.m10.d01.meVE.AposGlory.c1211.score.w.url.path = "/media/m/barrett/en/me/m10/d
 me.m10.d01.meVE.MM.GeneralApolytikion1.c1211.score.w.arranger = "SDedes/"
 me.m10.d01.meVE.MM.GeneralApolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d01/ve/w/generalapolytikion1.pdf"
 
-
 me.m10.d01.meVE.MM.GeneralApolytikion3.c1211.score.w.arranger = "SDedes/"
 me.m10.d01.meVE.MM.GeneralApolytikion3.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d01/ve/w/generalapolytikion3.pdf"
 
@@ -12246,10 +12233,8 @@ me.m10.d27.meVE.Apolytikion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/
 me.m10.d27.meVE.Apolytikion1.c1211.a1.singer = "SDedes/"
 me.m10.d27.meVE.Apolytikion1.c1211.a1.url.path = "/media/a/en_public/me/m10/d26/ve/apolytikion1.mp3"
 
-
 me.m10.d28.alt1.meLI.Kontakion1.c2001.score.w.arranger = "R Barrett/"
 me.m10.d28.alt1.meLI.Kontakion1.c2001.score.w.url.path = "/media/m/barrett/en/me/m10/d28/li/w/alt1kontakion.pdf"
-
 
 me.m10.d30.meMA.Exaposteilarion1.c1211.score.w.arranger = "SDedes/"
 me.m10.d30.meMA.Exaposteilarion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m10/d30/ma/w/exaposteilarion1.pdf"
@@ -12826,7 +12811,6 @@ me.m11.d11.meVE.AposTheotokion.c1211.score.w.url.path = "/media/m/dedes/en/me/m1
 
 me.m11.d11.meVE.MM.GeneralApolytikion2.c1211.score.w.arranger = "SDedes/"
 me.m11.d11.meVE.MM.GeneralApolytikion2.c1211.score.w.url.path = "/media/m/dedes/en/me/m11/d11/ve/w/generalapolytikion2.pdf"
-
 
 me.m11.d11.meMA.Exaposteilarion1.c1211.score.w.arranger = "SDedes/"
 me.m11.d11.meMA.Exaposteilarion1.c1211.score.w.url.path = "/media/m/dedes/en/me/m11/d11/ma/w/exaposteilarion1.pdf"
@@ -18516,7 +18500,6 @@ oc.m8.d1.ocLI.MM.Beatitudes123456TrTas5678910GB.c1211.a1.url.path = "/media/a/en
 // Mode 8 weekday items
 oc.m8.d2.ocVE.ApolTheotokionVM.c1211.score.w.arranger = "SDedes/"
 oc.m8.d2.ocVE.ApolTheotokionVM.c1211.score.w.url.path = "/media/m/dedes/en/oc/m8/d2/ve/w/apoltheotokionvm.pdf"
-
 
 oc.m8.d5.ocMA.AposTheotokion.c1211.score.w.arranger = "SDedes/"
 oc.m8.d5.ocMA.AposTheotokion.c1211.score.w.url.path = "/media/m/dedes/en/oc/m8/d5/ma/w/apostheotokion.pdf"

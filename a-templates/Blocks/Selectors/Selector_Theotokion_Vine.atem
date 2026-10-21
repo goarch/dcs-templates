@@ -33,8 +33,10 @@ Template Selector_Theotokion_Vine
 						Insert_section Apostle End-Insert
 					Jan 18 use:
 						Insert_section Teachers End-Insert
-					Jan 27 use:
+					Jan 25, 27 use:
 						Insert_section Hierarch End-Insert
+					Jan 30 use:
+						Insert_section Teachers End-Insert
 					Feb 17 use:
 						Insert_section Martyr End-Insert
 					Feb 24 use:
@@ -47,6 +49,8 @@ Template Selector_Theotokion_Vine
 						Insert_section Apostle End-Insert
 					Jun 4 use:
 						Insert_section Hierarch End-Insert
+					Jun 8 use:
+						Insert_section Martyr End-Insert
 					Jun 19 use:
 						Insert_section Apostle End-Insert
 					Jun 24 use:
@@ -59,6 +63,8 @@ Template Selector_Theotokion_Vine
 						Insert_section Devout End-Insert
 					Jul 11, 17, 22, 26 use:
 						Insert_section WomanMartyr End-Insert
+					Jul 15 use:
+						Insert_section Martyrs End-Insert
 					Jul 20 use:
 						Insert_section Prophet End-Insert
 					Aug 2 use:
@@ -77,7 +83,7 @@ Template Selector_Theotokion_Vine
 						Insert_section Martyr End-Insert
 					Oct 6 use:
 						Insert_section Apostle End-Insert
-					Oct 20 use:
+					Oct 20, 27 use:
 						Insert_section Martyr End-Insert
 					Nov 1 use:
 						Insert_section Unmercenaries End-Insert
@@ -93,6 +99,8 @@ Template Selector_Theotokion_Vine
 						Insert_section Devout End-Insert
 					Dec 4 use:
 						Insert_section WomanMartyr End-Insert
+					Dec 6 use:
+						Insert_section Hierarch End-Insert
 					Dec 15 use:
 						Insert_section Martyr End-Insert
 

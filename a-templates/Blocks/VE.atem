@@ -1299,7 +1299,7 @@ Status NA
 					Media sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 				End-Section
-				Section mode6
+				Section mode6_selector
 					Insert_section Selector_Theotokion_Vine.theotokion End-Insert
 				End-Section
 				Section mode7
@@ -6102,7 +6102,7 @@ Status NA
 					Media sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 				End-Section
-				Section mode6
+				Section mode6_selector
 					Insert_section Selector_Theotokion_Vine.theotokion End-Insert
 				End-Section
 				Section mode7

@@ -514,9 +514,7 @@ Status Final
 	Para sid me.m08.d29_gr_GR_cog.meMA.LaudsGlory.melody End-Para
 	Para sid me.m08.d29_gr_GR_cog.meMA.LaudsGlory.text End-Para
 
-	Para sid me.m08.d29_gr_GR_cog.meMA.LaudsTheotokion.mode End-Para
-	Para sid me.m08.d29_gr_GR_cog.meMA.LaudsTheotokion.melody End-Para
-	Para sid me.m08.d29_gr_GR_cog.meMA.LaudsTheotokion.text End-Para
+		Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiProdromou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 
 	Para sid me.m08.d29_gr_GR_cog.meMA.AdditionalIdiomelon1.mode End-Para
 	Para sid me.m08.d29_gr_GR_cog.meMA.AdditionalIdiomelon1.melody End-Para

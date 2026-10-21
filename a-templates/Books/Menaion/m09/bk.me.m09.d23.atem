@@ -76,9 +76,7 @@ Status Final
 	Para sid me.m09.d23_gr_GR_cog.meVE.AposGlory.melody End-Para
 	Para sid me.m09.d23_gr_GR_cog.meVE.AposGlory.text End-Para
 
-	Para sid me.m09.d23_gr_GR_cog.meVE.AposTheotokion.mode End-Para
-	Para sid me.m09.d23_gr_GR_cog.meVE.AposTheotokion.melody End-Para
-	Para sid me.m09.d23_gr_GR_cog.meVE.AposTheotokion.text End-Para
+		Hymn sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text1 sid he.o_gr_GR_cog.heOT.TheotokeSyEiProdromou.text @ver media-off sid he.o_gr_GR_cog.heOT.TheotokeSyEi.text2 End-Hymn
 
 	Para sid me.m09.d23_gr_GR_cog.meVE.Apolytikion1.mode End-Para
 	Para sid me.m09.d23_gr_GR_cog.meVE.Apolytikion1.melody End-Para
