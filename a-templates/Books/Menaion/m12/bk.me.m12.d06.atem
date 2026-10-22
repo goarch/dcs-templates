@@ -55,10 +55,6 @@ Status Final
 	Para sid me.m12.d06_gr_GR_cog.meSV.SticGlory.melody End-Para
 	Para sid me.m12.d06_gr_GR_cog.meSV.SticGlory.text End-Para
 
-	Para sid me.m12.d06_gr_GR_cog.meSV.SticBoth.mode End-Para
-	Para sid me.m12.d06_gr_GR_cog.meSV.SticBoth.melody End-Para
-	Para sid me.m12.d06_gr_GR_cog.meSV.SticBoth.text End-Para
-
 	Para sid me.m12.d06_gr_GR_cog.meSV.Aposticha1.mode End-Para
 	Para sid me.m12.d06_gr_GR_cog.meSV.Aposticha1.melody End-Para
 	Para sid me.m12.d06_gr_GR_cog.meSV.Aposticha1.text End-Para
