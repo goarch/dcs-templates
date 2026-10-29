@@ -157,7 +157,7 @@ Status NA
 			Para role erc_li_antiphon1 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon1_deacon_choir End-Insert
 			Para role brc_li_antiphon2 sid misc.custcontent End-Para
-				Insert_section Selector_Antiphons.antiphon2__.celebrated_saint End-Insert
+				Insert_section Selector_Antiphons.antiphon2__.feast_mealt1 End-Insert
 			Para role erc_li_antiphon2 sid misc.custcontent End-Para
 			Insert_section LI.short_litany_after_antiphon2_deacon_choir End-Insert
 			Para role brc_li_antiphon3 sid misc.custcontent End-Para

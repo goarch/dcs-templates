@@ -569,6 +569,9 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
+		Section modeofme1
+			Title role mode rid meVE.Stichera01.mode End-Title
+		End-Section
 		Section modeoftrday__
 			Section noStichologia
 				Insert_section Selector_ModeOfTrDay.LIHC_ModeOfTrDay End-Insert
@@ -9258,6 +9261,9 @@ Status NA
 		Insert_section LIHC_2 End-Insert
 	End-Section
 
+	Section LIHC_ModeOfME1
+		Para role bkmrk01 sid misc.bookmark End-Para
+	End-Section
 
 	Section sb_ve_modeofweek_hierarchical
 		when-mode-of-week-is

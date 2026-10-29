@@ -4,10 +4,10 @@ Status NA
 
 //	import da.*
 //	import oc.*
-//	import me.*
+	import me.*
 //	import eo.*
-//	import tr.*
-//	import pe.*
+	import tr.*
+	import pe.*
 //	import ty.*
 
 	import actors_gr_GR_cog.*
@@ -95,7 +95,39 @@ Status NA
 		End-Section
 	End-Section
 
+	Section VE_02_LordIHaveCried_ModeOfMe__
+		Section noStichologia
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
+		End-Section
+		Section for8
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
+			Insert_section Selector_Consecration_Modes.ve_stichologia_media_modeofme End-Insert
+			Insert_section VE.Stichologia.for_8 End-Insert
+		End-Section
+		Section for10
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
+			Insert_section Selector_Consecration_Modes.ve_stichologia_media_modeofme End-Insert
+			Insert_section VE.Stichologia.for_10 End-Insert
+		End-Section
+	End-Section
 	Section VE_03_Stichera__
+		Section menaion_3456
+			when-exists
+				rid meVE.Stichera01.melody use:
+					Section prosomoia
+						Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
+					End-Section
+				otherwise use:
+					Section idiomela
+						when-exists
+							rid meVE.Stichera04.text use:
+								Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
+							otherwise use:
+								Insert_section VE._03_Stichera__.me__.i_1123as3456 End-Insert
+						end-when
+				End-Section
+			end-when
+		End-Section
 		Section both__
 			Section consecration_
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
@@ -318,6 +350,10 @@ Status NA
 			Media sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text @ver media-off End-Hymn
 		End-Section
+	End-Section
+
+	Section MA_01_Beginning_mode_of_parish_apolytkion
+		Insert_section Selector_Consecration_Modes.ma_mode_of_parish_apolytikion End-Insert
 	End-Section
 
 	Section MA_02_Kathisma1__
