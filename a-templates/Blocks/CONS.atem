@@ -95,38 +95,347 @@ Status NA
 		End-Section
 	End-Section
 
-	Section VE_02_LordIHaveCried_ModeOfMe__
+	Section SERVICE_TITLE__
+		Section Vespers
+			Title<bnr>sid template.titles_gr_GR_cog.ve.html.tab</>End-Title
+		End-Section
+		Section Matins
+			Title<bnr>sid template.titles_gr_GR_cog.ma.html.tab</>End-Title
+		End-Section
+	End-Section
+
+	Section DATE__
+		Section Reset_to_Default
+			Set_Date month 0 day 0 End_Date
+			Set_mcDay day 0 End_mcDay
+		End-Section
+	
+		Section Principal_Feast_of_Period
+			Set_Date month 0 day 0 End_Date
+			Set_mcDay day 0 End_mcDay
+			when-movable-cycle-day-is
+				110 thru 118 use:
+					Section ascension
+						Set_mcDay day 110 End_mcDay
+					End-Section
+				120 thru 126 use:
+					Section pentecost
+						Set_mcDay day 120 End_mcDay
+					End-Section
+				otherwise use:
+					when-date-is
+						Jan 6 thru 14 use:
+							Section epiphany
+								Set_Date month 1 day 6 End_Date
+							End-Section
+						Feb 2 thru 9 use:
+							Section presentation
+								Set_Date month 2 day 2 End_Date
+							End-Section
+						Aug 6 thru 13 use:
+							Section transfiguration
+								Set_Date month 8 day 6 End_Date
+							End-Section
+						Aug 15 thru 23 use:
+							Section dormition
+								Set_Date month 8 day 15 End_Date
+							End-Section
+						Sep 8 thru 12 use:
+							Section nativityTheotokos
+								Set_Date month 9 day 8 End_Date
+							End-Section
+						Sep 14 thru 21 use:
+							Section cross
+								Set_Date month 9 day 14 End_Date
+							End-Section
+						Nov 21 thru 25 use:
+							Section entry
+								Set_Date month 11 day 21 End_Date
+							End-Section
+						Dec 25 thru 31 use:
+							Section christmas
+								Set_Date month 12 day 25 End_Date
+							End-Section
+					end-when
+			end-when		
+		End-Section
+	
+		Section Church_Name_Commemoration
+			Section CHANGE_THIS_SETTING
+				Set_Date month 0 day 0 End_Date
+			End-Section
+			Section Alexios
+				Set_Date month 3 day 17 End_Date
+			End-Section
+			Section All_Saints
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 127 End_mcDay
+			End-Section
+			Section Andrew
+				Set_Date month 11 day 30 End_Date
+			End-Section
+			Section Anna
+				Set_Date month 7 day 25 End_Date
+			End-Section
+			Section Annunciation
+				Set_Date month 3 day 25 End_Date
+			End-Section
+			Section Anthony
+				Set_Date month 1 day 17 End_Date
+			End-Section
+			Section Apostles
+				Set_Date month 6 day 30 End_Date
+			End-Section
+			Section Archangels
+				Set_Date month 11 day 8 End_Date
+			End-Section
+			Section Ascension
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 110 End_mcDay
+			End-Section
+			Section Athanasius
+				Set_Date month 5 day 2 End_Date
+			End-Section
+			Section Barbara
+				Set_Date month 12 day 4 End_Date
+			End-Section
+			Section Basil
+				Set_Date month 1 day 1 End_Date
+			End-Section
+			Section Catherine
+				Set_Date month 11 day 25 End_Date
+			End-Section
+			Section Christopher
+				Set_Date month 5 day 9 End_Date
+			End-Section
+			Section Chrysostom
+				Set_Date month 11 day 13 End_Date
+			End-Section
+			Section Constantine
+				Set_Date month 5 day 21 End_Date
+			End-Section
+			Section Cross
+				Set_Date month 9 day 14 End_Date
+			End-Section
+			Section Demetrios
+				Set_Date month 10 day 26 End_Date
+			End-Section
+			Section Dionysios_Aegina
+				Set_Date month 12 day 17 End_Date
+			End-Section
+			Section Dormition
+				Set_Date month 8 day 15 End_Date
+			End-Section
+			Section Eleftherios
+				Set_Date month 12 day 15 End_Date
+			End-Section
+			Section Elias
+				Set_Date month 7 day 20 End_Date
+			End-Section
+			Section Elizabeth
+				Set_Date month 4 day 24 End_Date
+			End-Section
+			Section Fanourios
+				Set_Date month 8 day 27 End_Date
+			End-Section
+			Section Forerunner
+				Set_Date month 8 day 29 End_Date
+			End-Section
+			Section George
+				Set_Date month 4 day 23 End_Date
+			End-Section
+			Section Gerasimos_Kefallinia
+				Set_Date month 10 day 20 End_Date
+			End-Section
+			Section Gregory_Nyssa
+				Set_Date month 1 day 10 End_Date
+			End-Section
+			Section Gregory_Theologian
+				Set_Date month 1 day 25 End_Date
+			End-Section
+			Section Haralambos
+				Set_Date month 2 day 10 End_Date
+			End-Section
+			Section Holy_Spirit
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 120 End_mcDay
+			End-Section
+			Section Holy_Trinity
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 120 End_mcDay
+			End-Section
+			Section James_Iakovos
+				Set_Date month 10 day 23 End_Date
+			End-Section
+			Section John_Theologian
+				Set_Date month 9 day 26 End_Date
+			End-Section
+			Section Kosmas_Aitolos
+				Set_Date month 8 day 24 End_Date
+			End-Section
+			Section Lawrence
+				Set_Date month 8 day 10 End_Date
+			End-Section
+			Section Lifebearing_Spring
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 76 End_mcDay
+			End-Section
+			Section Luke
+				Set_Date month 10 day 18 End_Date
+			End-Section
+			Section Mark
+				Set_Date month 4 day 25 End_Date
+			End-Section
+			Section Markella
+				Set_Date month 7 day 22 End_Date
+			End-Section
+			Section Mary_Magdalene
+				Set_Date month 7 day 22 End_Date
+			End-Section
+			Section Matthew
+				Set_Date month 11 day 16 End_Date
+			End-Section
+			Section Midpentecost
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 95 End_mcDay
+			End-Section
+			Section Nativity_Christ
+				Set_Date month 12 day 25 End_Date
+			End-Section
+			Section Nativity_Theotokos
+				Set_Date month 9 day 8 End_Date
+			End-Section
+			Section Nektarios
+				Set_Date month 11 day 9 End_Date
+			End-Section
+			Section Nicholas
+				Set_Date month 12 day 6 End_Date
+			End-Section
+			Section Panteleimon
+				Set_Date month 7 day 27 End_Date
+			End-Section
+			Section Paraskevi
+				Set_Date month 7 day 26 End_Date
+			End-Section
+			Section Paul
+				Set_Date month 6 day 29 End_Date
+			End-Section
+			Section Peter_Paul
+				Set_Date month 6 day 29 End_Date
+			End-Section
+			Section Philip
+				Set_Date month 11 day 14 End_Date
+			End-Section
+			Section Philothea
+				Set_Date month 2 day 19 End_Date
+			End-Section
+			Section Photius
+				Set_Date month 2 day 6 End_Date
+			End-Section
+			Section Porphyrios_Athos
+				Set_Date month 12 day 2 End_Date
+			End-Section
+			Section Presentation
+				Set_Date month 2 day 2 End_Date
+			End-Section
+			Section Raphael_Nicholas_Irene
+				Set_Date month 0 day 0 End_Date
+				Set_mcDay day 73 End_mcDay
+			End-Section
+			Section Spyridon
+				Set_Date month 12 day 12 End_Date
+			End-Section
+			Section Stephen
+				Set_Date month 12 day 27 End_Date
+			End-Section
+			Section Theodore_General
+				Set_Date month 2 day 8 End_Date
+			End-Section
+			Section Theodore_Soldier
+				Set_Date month 2 day 17 End_Date
+			End-Section
+			Section Thomas
+				Set_Date month 10 day 6 End_Date
+			End-Section
+			Section Three_Hierarchs
+				Set_Date month 1 day 30 End_Date
+			End-Section
+			Section Transfiguration
+				Set_Date month 8 day 6 End_Date
+			End-Section
+			Section Unmercenaries
+				Set_Date month 11 day 1 End_Date
+			End-Section
+			Section ADD_MORE
+				Set_Date month 0 day 0 End_Date
+			End-Section
+		End-Section
+	End-Section
+
+	Section VE_02_LordIHaveCried_Mode__
 		Section noStichologia
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
 		End-Section
 		Section for8
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
-			Insert_section Selector_Consecration_Modes.ve_stichologia_media_modeofme End-Insert
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_Consecration_Modes.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_8 End-Insert
 		End-Section
 		Section for10
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_ModeOfMe End-Insert
-			Insert_section Selector_Consecration_Modes.ve_stichologia_media_modeofme End-Insert
+			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_Consecration_Modes.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_10 End-Insert
 		End-Section
 	End-Section
 	Section VE_03_Stichera__
-		Section menaion_3456
-			when-exists
-				rid meVE.Stichera01.melody use:
-					Section prosomoia
-						Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
-					End-Section
-				otherwise use:
-					Section idiomela
-						when-exists
-							rid meVE.Stichera04.text use:
-								Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
-							otherwise use:
-								Insert_section VE._03_Stichera__.me__.i_1123as3456 End-Insert
-						end-when
-				End-Section
-			end-when
+		Section church__
+			Section as_3456
+				when-movable-cycle-day-is
+					95 use:
+						Section prosomoia
+							Insert_section VE._03_Stichera__.pe__.p_1123as3456 End-Insert
+						End-Section
+					110, 120 use:
+						Section idiomela
+							when-exists
+								rid meVE.Stichera04.text use:
+									Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
+								otherwise use:
+									Insert_section VE._03_Stichera__.me__.i_1123as3456 End-Insert
+							end-when
+						End-Section
+					otherwise use:
+						Section menaion
+							when-exists
+								rid meVE.Stichera01.melody use:
+									Section prosomoia
+										Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
+									End-Section
+								otherwise use:
+									Section idiomela
+										when-exists
+											rid meVE.Stichera04.text use:
+												Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
+											otherwise use:
+												Insert_section VE._03_Stichera__.me__.i_1123as3456 End-Insert
+										end-when
+									End-Section
+							end-when
+						End-Section
+				end-when	
+			End-Section
+			Section as_8910
+				when-exists
+					rid meVE.Stichera01.melody use:
+						Section prosomoia
+							Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
+						End-Section
+					otherwise use:
+						Section idiomela
+							Insert_section VE._03_Stichera__.me__.i_123as8910 End-Insert
+						End-Section
+				end-when
+			End-Section
 		End-Section
 		Section both__
 			Section consecration_
@@ -311,7 +620,6 @@ Status NA
 			Hymn sid eu.consecration_gr_GR_cog.euVE.AposGlory.text @ver media-off End-Hymn
 		End-Section
 		Section i_consecration12
-			Actor<ach>sid ac.Choir</>End-Actor
 			Insert_section TI.apos.con End-Insert
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Aposticha1.mode</>End-Title
