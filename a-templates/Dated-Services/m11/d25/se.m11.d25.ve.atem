@@ -97,7 +97,7 @@ Status Final
 				Insert_section VE._05_Readings__.reader End-Insert
 				Insert_section VE._06_Litanies__.fullektenia End-Insert
 					Set_Date month 11 day 21 year 2026 End_Date
-					Insert_section VE._08_Aposticha__.me__.p_theotokos12 End-Insert
+					Insert_section VE._08_Aposticha__.me__.p_entry12 End-Insert
 				Set_Date month 11 day 25 year 2026 End_Date
 				Insert_section TI.g.me.com1 End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert

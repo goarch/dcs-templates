@@ -661,6 +661,17 @@ Status NA
 		End-Section
 	End-Section
 	Section VE_05_Readings__
+		Section feast2consecration1
+			Insert_section Selector_ConsecrationVespersReadings.feast2consecration1 End-Insert
+		End-Section
+		Section consecration2saint1
+			Insert_section Selector_ConsecrationVespersReadings.consecration2saint1 End-Insert
+		End-Section
+		Section append__
+			Section r1
+				Insert_section hLE._03_Prophetologion__.r98 End-Insert
+			End-Section
+		End-Section
 		Section r12
 			Title role desig sid ti.Readings End-Title
 			Title<smallred>sid ti.Consecration</>End-Title
@@ -675,6 +686,9 @@ Status NA
 		End-Section
 	End-Section
 	Section VE_08_Aposticha__
+		Section selected
+			Insert_section Selector_ConsecrationVespersAposticha.feasts_saints_consecration End-Insert
+		End-Section
 		Section append__
 			Insert_section TI.apos.con End-Insert
 			Para role source0 sid ti.sourceEuchologion End-Para

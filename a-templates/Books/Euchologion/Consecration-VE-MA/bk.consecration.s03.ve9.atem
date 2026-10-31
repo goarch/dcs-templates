@@ -1,8 +1,8 @@
 Template bk.consecration.s03.ve9
 
-Status Draft
+Status Review
 
-//S013
+//S03
 //When the church is named for a saint
 //When the consecration is conducted on a weekday with a celebrated saint
 
@@ -51,13 +51,9 @@ Status Draft
 		Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
-		
-		Insert_section CONS.VE_05_Readings__.r123 End-Insert //mixed readings
-		
+		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert
-		
-		Insert_section VE._08_Aposticha__.me__ End-Insert //select type of Aposticha
-		
+		Insert_section CONS.VE_08_Aposticha__.selected End-Insert
 		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
 		when-exists
 			rid meVE.AposGlory.text use:

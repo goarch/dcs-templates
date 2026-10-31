@@ -31,13 +31,11 @@ Status Review
 
 	Section Instance_s02
 		Insert_section CONS.Service_Title__.Vespers End-Insert
-		//The hierarch's name for petitions is set by the client
 		Insert_section VE._01_Beginning__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
 		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
-		//The title can be generic or specific set by the client
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section CONS.VE_03_Stichera__.church__.as_8910 End-Insert
 		when-exists
@@ -57,7 +55,6 @@ Status Review
 		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
 		when-exists
 			rid meVE.AposGlory.text use:
-				//The title can be generic or specific set by the client
 				Insert_section TI.g.local_church End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section CONS.VE_08_Aposticha__.both End-Insert
@@ -67,7 +64,6 @@ Status Review
 		Insert_section CONS.Date__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
-		//The Apolytikion of the church is set by the client
 		Insert_section TI.g.local_church End-Insert
 		Insert_section AP.client1_.hymn End-Insert
 		Insert_section AP.both__.con End-Insert
