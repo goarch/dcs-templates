@@ -133,7 +133,7 @@ Status Draft
 				Insert_section INAP.res__.modeofweek End-Insert
 				Insert_section TYTI.com.julHF End-Insert
 				Insert_section INAP.com__.JulHF_.hymn End-Insert
-				Insert_section TYLI._05_AfterEntranceHymns__.local End-Insert
+				Insert_section TYLI._05_AfterEntranceHymns__.local_church End-Insert
 				Insert_section INKO.seasonal End-Insert
 			End-Section
 			Insert_section TYLI._06_Trisagion__.chrys End-Insert

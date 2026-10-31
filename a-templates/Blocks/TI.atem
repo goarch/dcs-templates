@@ -110,7 +110,7 @@ Status NA
 		Section f
 			Title role desig sid ti.ApolytikionFeast End-Title
 		End-Section
-		Section local
+		Section local_church
 			Title role desig sid ti.Apolytikion sid ti.LocalChurch End-Title
 		End-Section
 		Section me
@@ -599,7 +599,7 @@ Status NA
 		Section f
 			Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
 		End-Section
-		Section local
+		Section local_church
 			Title sid ti.BothNow<Tdesig>sid ti.LocalChurch</>End-Title
 		End-Section
 		Section me
@@ -1970,7 +1970,7 @@ Status NA
 		Section lity
 			Title role desig sid ti.IdiomelaOfLity End-Title
 		End-Section
-		Section local
+		Section local_church
 			Title role desig sid misc.Idiomelon<Tdesig>sid ti.LocalChurch</>End-Title
 		End-Section
 		Section s
@@ -4190,7 +4190,7 @@ Status NA
 		Section f
 			Title role desig sid ti.SticheraFeast End-Title
 		End-Section
-		Section local
+		Section local_church
 			Title role desig sid ti.Stichera sid ti.LocalChurch End-Title
 		End-Section
 		Section m

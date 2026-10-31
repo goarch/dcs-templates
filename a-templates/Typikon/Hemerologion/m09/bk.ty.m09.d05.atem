@@ -106,7 +106,7 @@ Status Final
 						Insert_section INAP.res__.modeofweek End-Insert
 						Insert_section TYTI.s._13_prophet_.m.me End-Insert
 						Insert_section INAP.me1_.hymn End-Insert
-						Insert_section TYLI._05_AfterEntranceHymns__.local End-Insert
+						Insert_section TYLI._05_AfterEntranceHymns__.local_church End-Insert
 						Insert_section INKO.seasonal End-Insert
 					End-Section
 					Insert_section TYLI._06_Trisagion__.chrys End-Insert

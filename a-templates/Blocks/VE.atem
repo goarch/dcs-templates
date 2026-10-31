@@ -2417,6 +2417,21 @@ Status NA
 				Insert_section VE.LIHC_Verses.v10 End-Insert
 				Hymn rid meVE.Stichera02.text @ver media-off End-Hymn
 			End-Section
+			Section i_123as123
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role desig sid misc.Idiomelon<Tmode>rid meVE.Stichera01.mode</>End-Title
+				Media rid meVE.Stichera01.text End-Media
+				Insert_section VE.LIHC_Verses.v01 End-Insert
+				Hymn rid meVE.Stichera01.text @ver media-off End-Hymn
+				Title role desig sid misc.Idiomelon<Tmode>rid meVE.Stichera02.mode</>End-Title
+				Media rid meVE.Stichera02.text End-Media
+				Insert_section VE.LIHC_Verses.v02 End-Insert
+				Hymn rid meVE.Stichera02.text @ver media-off End-Hymn
+				Title role desig sid misc.Idiomelon<Tmode>rid meVE.Stichera03.mode</>End-Title
+				Media rid meVE.Stichera03.text End-Media
+				Insert_section VE.LIHC_Verses.v03 End-Insert
+				Hymn rid meVE.Stichera03.text @ver media-off End-Hymn
+			End-Section
 			Section i_123as567
 				when-exists
 					rid meVE.MM.Stichera123as567.text use:
@@ -3821,6 +3836,20 @@ Status NA
 				Insert_section VE.LIHC_Verses.v05 End-Insert
 				Hymn rid peVE.Stichera02.text @ver media-off End-Hymn
 				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
+			End-Section
+			Section p_123as123
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Title role mode rid peVE.Stichera01.mode<Tmelody>rid peVE.Stichera01.melody</>End-Title
+				Title role greekmelody rid peVE.Stichera01.greekmelody End-Title
+				Media rid peVE.Stichera01.text End-Media
+				Insert_section VE.LIHC_Verses.v01 End-Insert
+				Hymn rid peVE.Stichera01.text @ver media-off End-Hymn
+				Media rid peVE.Stichera02.text End-Media
+				Insert_section VE.LIHC_Verses.v02 End-Insert
+				Hymn rid peVE.Stichera02.text @ver media-off End-Hymn
+				Media rid peVE.Stichera03.text End-Media
+				Insert_section VE.LIHC_Verses.v03 End-Insert
 				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
 			End-Section
 			Section p_123as567

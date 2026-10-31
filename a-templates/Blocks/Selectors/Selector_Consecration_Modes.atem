@@ -45,7 +45,7 @@ Status NA
 						Title role mode sid pe.d120_gr_GR_cog.peVE.Stichera01.mode End-Title
 					End-Section
 				otherwise use:
-					when-date-is
+					when-date-is //these can be consolidated into eight modes per month
 						Jan 1 use:
 							Section Jan01
 								Actor sid ac.Chanter End-Actor

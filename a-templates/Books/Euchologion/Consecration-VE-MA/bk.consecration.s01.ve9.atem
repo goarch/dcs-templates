@@ -1,0 +1,75 @@
+Template bk.consecration.s01.ve9
+
+Status Review
+
+//S01
+//When the church is named for a saint
+//When the consecration is conducted on a weekday without a celebrated saint
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		//The full date of the consecration needs to be set here
+		Set_Date month 0 day 0 year 0000 End_Date
+	End_Head
+
+	Section Instance_s01
+		Insert_section CONS.Service_Title__.Vespers End-Insert
+		//The hierarch's name for petitions is set by the client
+		Insert_section VE._01_Beginning__.vespers End-Insert
+		Insert_section VE._02_LordIHaveCried__.hierarchical__.mode6__.for8 End-Insert
+		Insert_section CONS.VE_03_Stichera__.i_1234as3456 End-Insert
+		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//The title can be generic or specific set by the client
+		Insert_section TI.stp.local_church End-Insert
+		Insert_section CONS.VE_03_Stichera__.church__.as_78910 End-Insert
+		when-exists
+			rid meVE.SticGlory.text use:
+				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
+				Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+			otherwise use:
+				Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
+		end-when
+		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
+		Insert_section CONS.VE_05_Readings__.r123 End-Insert
+		Insert_section VE._06_Litanies__.fullektenia End-Insert //selection for monastery?
+		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
+		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		when-exists
+			rid meVE.AposGlory.text use:
+				//The title can be generic or specific set by the client
+				Insert_section TI.g.local_church End-Insert
+				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+				Insert_section CONS.VE_08_Aposticha__.both End-Insert
+			otherwise use:
+				Insert_section CONS.VE_08_Aposticha__.gloryboth End-Insert
+		end-when
+		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
+		Insert_section AP.con End-Insert
+		//The Apolytikion of the church is set by the client
+		Insert_section TI.g.local_church End-Insert
+		Insert_section AP.client1_.hymn End-Insert
+		Insert_section AP.both__.con End-Insert
+		Insert_section VE._10_End__.hierarchical__.wisdom123.part1 End-Insert
+		Insert_section VE._11_Dismissal__.hierarchical__.nocommemoration End-Insert
+	End-Section
+
+End-Template

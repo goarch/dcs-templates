@@ -145,7 +145,7 @@ Status NA
 		Section clergy
 			Para role typikon<b>sid ty.typikon.parts_gr_GR_cog.tyPart.AfterEntrance</>End-Para
 		End-Section
-		Section local
+		Section local_church
 			Para role typikonindent<r>sid client_gr_GR_cog.cl.Apolytikion1.text</>End-Para
 		End-Section
 	End-Section
