@@ -26,19 +26,20 @@ Status Review
 
 	Head
 		//The full date of the consecration needs to be set here
-		Set_Date month 9 day 18 year 2027 End_Date
+		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
 	Section Instance_s10
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		//The hierarch's name for petitions is set by the client
-		Insert_section VE._01_Beginning__.vespers End-Insert
-		Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
+		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for10 End-Insert
 		Insert_section TI.stp.f End-Insert
 		Insert_section CONS.VE_03_Stichera__.festal_123as123 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_1234as4567 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		//The title can be generic or specific set by the client
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section CONS.VE_03_Stichera__.church__.as_8910 End-Insert
@@ -49,7 +50,7 @@ Status Review
 			otherwise use:
 				Insert_section TI.g.con End-Insert
 				Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_.hymn End-Insert
-				Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 				Insert_section TI.b.f End-Insert
 				when-movable-cycle-day-is
 					95, 110, 120 use:
@@ -58,27 +59,28 @@ Status Review
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 				end-when
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert //selection for monastery?
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		when-exists
 			rid meVE.AposGlory.text use:
 				//The title can be generic or specific set by the client
 				Insert_section TI.g.local_church End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
-				Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 				Insert_section TI.b.f End-Insert
 				Insert_section VE._08_Aposticha__.both__.me__.gloryasboth_.hymn End-Insert
 			otherwise use:
 				Insert_section CONS.VE_08_Aposticha__.glory End-Insert
-				Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 				Insert_section TI.b.f End-Insert
 				Insert_section VE._08_Aposticha__.both__.me__.gloryasboth_.hymn End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		//The Apolytikion of the church is set by the client
 		Insert_section AP.client1_ End-Insert

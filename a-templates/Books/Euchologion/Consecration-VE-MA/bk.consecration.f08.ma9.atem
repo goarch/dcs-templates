@@ -31,36 +31,40 @@ Status Draft
 
 	Section Instance_f08
 		Insert_section CONS.Service_Title__.Matins End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section CONS.MA_01_Beginning_mode_of_parish_apolytkion End-Insert
 		//The Apolytikion of the church is set by the client
 		Insert_section AP.client1_ End-Insert
 		Insert_section AP.glory__.con End-Insert
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.gloryboth End-Insert
 		Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.gloryboth End-Insert
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
 		Insert_section MA._11_Kontakion__.con End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		
 		Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert //select by com
 		
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CAv.ode9.append.con.ti_123tasVVGB End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
 		Insert_section TI.local_church End-Insert
@@ -73,7 +77,7 @@ Status Draft
 		Insert_section MA._13_Lauds__.con__.p_123as456 End-Insert
 		Insert_section TI.g.local_church End-Insert
 		Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_.hymn End-Insert
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._13_Lauds__.both__.con End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.af End-Insert

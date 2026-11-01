@@ -31,15 +31,13 @@ Status Review
 
 	Section Instance_f08
 		Insert_section CONS.Service_Title__.Vespers End-Insert
-		//The hierarch's name for petitions is set by the client
 		Insert_section VE._01_Beginning__.vespers End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for8 End-Insert
-		//The title can be generic or specific set by the client
 		Insert_section TI.local_church End-Insert
 		Insert_section CONS.VE_03_Stichera__.church__.as_3456 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_1234as78910 End-Insert
-		//The title can be generic or specific set by the client
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			95, 110, 120 use:
@@ -47,14 +45,14 @@ Status Review
 			otherwise use:
 				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
-		//The title can be generic or specific set by the client
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			95, 110, 120 use:
@@ -62,10 +60,9 @@ Status Review
 			otherwise use:
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_08_Aposticha__.both End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
-		//The Apolytikion of the church is set by the client
 		Insert_section TI.a.local_church End-Insert
 		Insert_section AP.client1_.hymn End-Insert
 		Insert_section AP.glory__.con End-Insert

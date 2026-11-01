@@ -27,15 +27,17 @@ Template bk.festaldates
 
 	Section date
 		Para ldp @Service_Date End-Para
-		Insert_section CONS.Date__.Church_Name_Commemoration.Chrysostom End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Para ldp @Service_Date End-Para
-		Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Para ldp @Service_Date End-Para
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Para ldp @Service_Date End-Para
-		Insert_section CONS.Date__.Principal_Feast_of_Period End-Insert
+		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Para ldp @Service_Date End-Para
-		Insert_section CONS.Date__.Church_Name_Commemoration.Chrysostom End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Para ldp @Service_Date End-Para
 	End-Section
 

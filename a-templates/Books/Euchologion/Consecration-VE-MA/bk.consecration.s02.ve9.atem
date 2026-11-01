@@ -31,28 +31,30 @@ Status Review
 
 	Section Instance_s02
 		Insert_section CONS.Service_Title__.Vespers End-Insert
-		Insert_section VE._01_Beginning__.vespers End-Insert
+		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section CONS.VE_03_Stichera__.church__.as_8910 End-Insert
 		when-exists
 			rid meVE.SticGlory.text use:
 				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
-				Insert_section CONS.Date__.Reset_to_Default End-Insert
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 				Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 			otherwise use:
 				Insert_section CONS.VE_03_Stichera__.glory__.consecration_with_clientname_ End-Insert
-				Insert_section CONS.Date__.Reset_to_Default End-Insert
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 				Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 		end-when
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert
 		Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		when-exists
 			rid meVE.AposGlory.text use:
 				Insert_section TI.g.local_church End-Insert
@@ -61,7 +63,7 @@ Status Review
 			otherwise use:
 				Insert_section CONS.VE_08_Aposticha__.gloryboth End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
 		Insert_section TI.g.local_church End-Insert

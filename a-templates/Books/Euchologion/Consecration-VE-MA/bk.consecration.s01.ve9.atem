@@ -32,10 +32,11 @@ Status Review
 	Section Instance_s01
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		//The hierarch's name for petitions is set by the client
-		Insert_section VE._01_Beginning__.vespers End-Insert
+		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.mode6__.for8 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_1234as3456 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		//The title can be generic or specific set by the client
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section CONS.VE_03_Stichera__.church__.as_78910 End-Insert
@@ -46,12 +47,13 @@ Status Review
 			otherwise use:
 				Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert //selection for monastery?
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
-		Insert_section CONS.Date__.Church_Name_Commemoration.CHANGE_THIS_SETTING End-Insert
+		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		when-exists
 			rid meVE.AposGlory.text use:
 				//The title can be generic or specific set by the client
@@ -61,7 +63,7 @@ Status Review
 			otherwise use:
 				Insert_section CONS.VE_08_Aposticha__.gloryboth End-Insert
 		end-when
-		Insert_section CONS.Date__.Reset_to_Default End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.con End-Insert
 		//The Apolytikion of the church is set by the client

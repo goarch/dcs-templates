@@ -104,7 +104,7 @@ Status NA
 		End-Section
 	End-Section
 
-	Section Date__
+	Section DateSetting__
 		Section Reset_to_Default
 			Set_Date month 0 day 0 End_Date
 			Set_mcDay day 0 End_mcDay
@@ -164,10 +164,10 @@ Status NA
 			end-when		
 		End-Section
 	
-		Section Church_Name_Commemoration
-			Section CHANGE_THIS_SETTING
-				Set_Date month 0 day 0 End_Date
-			End-Section
+		Section CHURCH_NAME
+		//	Section CHANGE_THIS_SETTING
+		//		Set_Date month 0 day 0 End_Date
+		//	End-Section
 			Section Alexios
 				Set_Date month 3 day 17 End_Date
 			End-Section
