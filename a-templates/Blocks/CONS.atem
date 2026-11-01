@@ -378,16 +378,16 @@ Status NA
 
 	Section VE_02_LordIHaveCried_Mode__
 		Section noStichologia
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_ConsecrationVespersModes.LIHC_hierarchical_Mode End-Insert
 		End-Section
 		Section for8
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
-			Insert_section Selector_Consecration_Modes.ve_stichologia_media_mode End-Insert
+			Insert_section Selector_ConsecrationVespersModes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_ConsecrationVespersModes.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_8 End-Insert
 		End-Section
 		Section for10
-			Insert_section Selector_Consecration_Modes.LIHC_hierarchical_Mode End-Insert
-			Insert_section Selector_Consecration_Modes.ve_stichologia_media_mode End-Insert
+			Insert_section Selector_ConsecrationVespersModes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_ConsecrationVespersModes.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_10 End-Insert
 		End-Section
 	End-Section
@@ -766,8 +766,10 @@ Status NA
 		End-Section
 	End-Section
 
-	Section MA_01_Beginning_mode_of_parish_apolytkion
-		Insert_section Selector_Consecration_Modes.ma_mode_of_parish_apolytikion End-Insert
+	Section MA_01_Beginning__
+		Section modeofchurch
+			Insert_section Selector_ConsecrationMatins.GodIsTheLord_mode_of_church End-Insert
+		End-Section
 	End-Section
 
 	Section MA_02_Kathisma1__
@@ -847,6 +849,9 @@ Status NA
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 		End-Section
+	End-Section
+	Section MA_10_Canon__
+	
 	End-Section
 	Section MA_11_Kontakion
 		Para role source sid ti.sourceEuchologion End-Para
@@ -987,6 +992,21 @@ Status NA
 			Insert_section MA._13_Lauds__.hierarchical__.rubrics__.kairos_at_lauds End-Insert
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 			Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text @ver media-off End-Hymn
+		End-Section
+		Section church__
+			Section lauds123as456
+				when-exists
+					rid alt1.meMA.Lauds1.melody use:
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Lauds1.melody use:
+								Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
+							otherwise use:
+								Insert_section MA._13_Lauds__.me__.i_123as456 End-Insert
+						end-when
+				end-when
+			End-Section
 		End-Section
 	End-Section
 	Section MA_prayers

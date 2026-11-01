@@ -1,0 +1,281 @@
+Template Selector_ConsecrationMatins
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+
+		Section GodIsTheLord_mode_of_church
+			when-movable-cycle-day-is
+				95 use:
+					Insert_section MA._01_Beginning__.mode8 End-Insert
+				110 use:
+					Insert_section MA._01_Beginning__.mode4 End-Insert
+				120 use:
+					Insert_section MA._01_Beginning__.mode8 End-Insert
+				127 use:
+				otherwise use:
+					when-date-is
+						Jan 1 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Jan 10 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Jan 17 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Jan 25 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Jan 30 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Feb 2 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Feb 6 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Feb 8 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Feb 10 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Feb 19 use:
+							Insert_section MA._01_Beginning__.mode5 End-Insert
+						Mar 17 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Mar 25 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Apr 23 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Apr 24 use:
+							Insert_section MA._01_Beginning__.mode8 End-Insert
+						Apr 25 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						May 2 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						May 9 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						May 21 use:
+							Insert_section MA._01_Beginning__.mode8 End-Insert
+						Jun 29 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Jun 30 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Jul 20 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Jul 22 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Jul 25 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Jul 26 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Jul 27 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Aug 6 use:
+							Insert_section MA._01_Beginning__.mode7 End-Insert
+						Aug 10 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Aug 15 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Aug 24 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Aug 27 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Aug 29 use:
+							Insert_section MA._01_Beginning__.mode2 End-Insert
+						Sep 8 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Sep 14 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Sep 17 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Sep 26 use:
+							Insert_section MA._01_Beginning__.mode2 End-Insert
+						Oct 6 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Oct 18 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Oct 20 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Oct 23 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Oct 26 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Nov 1 use:
+							Insert_section MA._01_Beginning__.mode8 End-Insert
+						Nov 8 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Nov 9 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Nov 13 use:
+							Insert_section MA._01_Beginning__.mode8 End-Insert
+						Nov 14 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Nov 16 use:
+							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Nov 25 use:
+							Insert_section MA._01_Beginning__.mode5 End-Insert
+						Nov 30 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Dec 2 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Dec 4 use:
+							Insert_section MA._01_Beginning__.mode8 End-Insert
+						Dec 6 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Dec 12 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Dec 15 use:
+							Insert_section MA._01_Beginning__.mode5 End-Insert
+						Dec 17 use:
+							Insert_section MA._01_Beginning__.mode1 End-Insert
+						Dec 25 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+						Dec 27 use:
+							Insert_section MA._01_Beginning__.mode4 End-Insert
+					end-when
+				end-when
+		End-Section
+
+
+		Section Odeix__
+			Section feast //HH0000
+				when-movable-cycle-day-is
+					78 use:
+					95 use:
+					110 use:
+						Insert_section CAv.ode9.pe1.ti_h1234tas0VVVTh End-Insert
+					120 use:
+						Insert_section CAv.ode9.pe1.ti_hh12as00VV End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+							Feb 2 use:
+							Mar 25 use:
+								Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
+							Aug 6 use:
+								Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
+							Aug 15 use:
+							Sep 8 use:
+							Sep 14 use:
+								Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
+							Nov 21 use:
+							Dec 25 use:
+								Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+						end-when
+				end-when
+			End-Section
+			Section magnificat_feast
+				when-date-is
+					Sep 14 use:
+						Insert_section MA._10_Canon__.magnificat__.mode8 End-Insert
+						Insert_section TI.c.f End-Insert
+						Insert_section CAv.ode9.append.me1.nt_hh12h123as00VV0VVV End-Insert
+				end-when
+			End-Section
+			Section append__
+				Section consecration__
+					Section VVVTh
+						Insert_section CAv.ode9.append.con.ti_123tasVVVTh End-Insert
+					End-Section
+					Section VVGB
+						Insert_section CAv.ode9.append.con.ti_123tasVVGB End-Insert
+					End-Section
+				End-Section
+				Section church
+					when-movable-cycle-day-is
+						95 use:
+						110 use:
+						120 use:
+						127 use: 
+						otherwise use:
+							when-date-is
+								Jan 1 use:
+									Insert_section CAv.ode9.append.me2.ti_123tasM1M1GMtrBMth End-Insert
+								Jan 10 use:
+									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jan 17 use:
+									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jan 25 use:
+									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jan 30 use:
+									Insert_section TI.c.s._00_saint_.mp End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Feb 2 use:
+								Feb 6 use:
+								Feb 8 use:
+								Feb 10 use:
+								Feb 19 use:
+								Mar 17 use:
+								Mar 25 use:
+								Apr 23 use:
+								Apr 24 use:
+								Apr 25 use:
+								May 2 use:
+								May 9 use:
+								May 21 use:
+								Jun 29 use:
+								Jun 30 use:
+								Jul 20 use:
+								Jul 22 use:
+								Jul 25 use:
+								Jul 26 use:
+								Jul 27 use:
+								Aug 6 use:
+								Aug 10 use:
+								Aug 15 use:
+								Aug 24 use:
+								Aug 27 use:
+								Aug 29 use:
+								Sep 8 use:
+								Sep 14 use:
+								Sep 17 use:
+								Sep 26 use:
+								Oct 6 use:
+								Oct 18 use:
+								Oct 20 use:
+								Oct 23 use:
+								Oct 26 use:
+								Nov 1 use:
+								Nov 8 use:
+								Nov 9 use:
+								Nov 13 use:
+									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Nov 14 use:
+								Nov 16 use:
+								Nov 25 use:
+								Nov 30 use:
+								Dec 2 use:
+								Dec 4 use:
+								Dec 6 use:
+								Dec 12 use:
+								Dec 15 use:
+								Dec 17 use:
+								Dec 25 use:
+								Dec 27 use:
+							end-when
+						end-when
+				End-Section
+			End-Section
+		End-Section
+
+
+
+
+
+End-Template

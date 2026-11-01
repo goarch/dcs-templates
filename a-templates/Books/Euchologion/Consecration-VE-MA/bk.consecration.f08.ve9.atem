@@ -32,7 +32,7 @@ Status Review
 	Section Instance_f08
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		Insert_section VE._01_Beginning__.vespers End-Insert
-		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for8 End-Insert
 		Insert_section TI.local_church End-Insert
@@ -51,7 +51,7 @@ Status Review
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
-		//Ctrl+spacebar on the CHURCH_NAME to select the name of the church being consecrated
+		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
