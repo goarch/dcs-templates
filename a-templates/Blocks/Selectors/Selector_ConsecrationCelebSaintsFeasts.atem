@@ -1,0 +1,1005 @@
+Template Selector_ConsecrationCelebSaintsFeasts
+
+Status NA
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+
+		Section stichera__
+			Section as_345678 //on feasts of the Lord
+				Insert_section TI.f End-Insert
+				when-movable-cycle-day-is
+					78 use:
+						Insert_section VE._03_Stichera__.pe__.i_123456as345678 End-Insert
+					95 use:
+						Insert_section VE._03_Stichera__.pe__.p_112233as345678 End-Insert
+					110 use:
+						Insert_section VE._03_Stichera__.pe__.i_112345as345678 End-Insert
+					120 use:
+						Insert_section VE._03_Stichera__.pe__.i_123456as345678 End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section VE._03_Stichera__.me__.i_112234as345678 End-Insert
+							Mar 25 use:
+								Insert_section VE._03_Stichera__.me__.p_112233as345678 End-Insert
+							Aug 6 use:
+								Insert_section VE._03_Stichera__.me__.i_112234as345678 End-Insert
+							Sep 14 use:
+								Insert_section VE._03_Stichera__.me__.p_112233as345678 End-Insert
+							Dec 25 use:
+								Insert_section VE._03_Stichera__.me__.i_112234as345678 End-Insert
+						end-when
+				end-when
+			End-Section
+			Section as_1234 //on feasts of the Mother of God
+				Insert_section TI.f End-Insert
+				when-date-is
+					Feb 2 use:
+						Insert_section VE._03_Stichera__.me__.i_1123as1234 End-Insert
+					Aug 15 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as1234 End-Insert
+					Sep 8 use:
+						Insert_section VE._03_Stichera__.me__.i_1234as1234 End-Insert
+					Nov 21 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as1234 End-Insert
+				end-when
+			End-Section
+
+			Section as_567
+				when-movable-cycle-day-is
+					127 use:
+						Insert_section TI.s._00_saint_.mp End-Insert
+						Insert_section VE._03_Stichera__.pe__.p_789as567 End-Insert
+					otherwise use:
+						when-date-is
+							Jan 1 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_345as567 End-Insert
+							Jan 17 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jan 25 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jan 30 use:
+								Insert_section TI.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Feb 6 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+							Feb 10 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Apr 23 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Apr 25 use:
+								Insert_section TI.s._05_evangelist End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							May 2 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							May 21 use:
+								Insert_section TI.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jun 29 use:
+								Insert_section TI.s._01_apostle_.mp End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jun 30 use:
+								Insert_section TI.s._01_apostle_.mp End-Insert
+								Insert_section VE._03_Stichera__.me__.p_456as567 End-Insert
+							Jul 12 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+							Jul 20 use:
+								Insert_section TI.s._13_prophet_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jul 25 use:
+								Insert_section TI.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Jul 26 use:
+								Insert_section TI.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.me__.p_456as567 End-Insert
+							Jul 27 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Aug 29 use:
+								Insert_section TI.s._06_forerunner End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Sep 26 use:
+								Insert_section TI.s._05_evangelist End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Oct 20 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+							Oct 23 use:
+								Insert_section TI.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Oct 26 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 1 use:
+								Insert_section TI.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 8 use:
+								Insert_section TI.s._03_bodiless End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 9 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+							Nov 13 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 14 use:
+								Insert_section TI.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 25 use:
+								Insert_section TI.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Nov 30 use:
+								Insert_section TI.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Dec 2 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+							Dec 4 use:
+								Insert_section TI.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Dec 6 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Dec 12 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
+							Dec 17 use:
+								Insert_section TI.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.me__.alt1__.p_123as567 End-Insert
+						end-when
+					end-when
+			End-Section
+			Section as_5678
+				Insert_section TI.f End-Insert
+				when-date-is
+					Jan 6 use:
+						Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
+					Feb 2 use:
+						Insert_section VE._03_Stichera__.me__.i_1123as5678 End-Insert
+					Mar 25 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
+					Aug 6 use:
+						Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
+					Aug 15 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
+					Sep 8 use:
+						Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
+					Sep 14 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
+					Nov 21 use:
+						Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
+					Dec 25 use:
+						Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
+				end-when
+			End-Section
+			Section as_678
+				when-date-is
+					Jan 1 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_345as678 End-Insert
+					Jan 10 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jan 17 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jan 25 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jan 30 use:
+						Insert_section TI.s._00_saint_.mp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Feb 2 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.i_123as678 End-Insert
+					Feb 6 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Feb 8 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Feb 10 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Feb 19 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Mar 17 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Mar 25 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Apr 23 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Apr 24 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Apr 25 use:
+						Insert_section TI.s._05_evangelist End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					May 2 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					May 9 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_456as678 End-Insert
+					May 21 use:
+						Insert_section TI.s._00_saint_.mp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jun 29 use:
+						Insert_section TI.s._01_apostle_.mp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jun 30 use:
+						Insert_section TI.s._01_apostle_.mp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_456as678 End-Insert
+					Jul 12 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Jul 20 use:
+						Insert_section TI.s._13_prophet_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jul 22 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Jul 25 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Jul 26 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.p_456as678 End-Insert
+					Jul 27 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Aug 6 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.i_123as678 End-Insert
+					Aug 10 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Aug 15 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Aug 24 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Aug 27 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Aug 29 use:
+						Insert_section TI.s._06_forerunner End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Sep 8 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.i_123as678 End-Insert
+					Sep 14 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Sep 17 use:
+						Insert_section TI.s._00_saint_.wp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Sep 26 use:
+						Insert_section TI.s._05_evangelist End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Oct 6 use:
+						Insert_section TI.s._01_apostle_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Oct 18 use:
+						Insert_section TI.s._05_evangelist End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Oct 20 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Oct 23 use:
+						Insert_section TI.s._01_apostle_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Oct 26 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 1 use:
+						Insert_section TI.s._00_saint_.mp End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 8 use:
+						Insert_section TI.s._03_bodiless End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 9 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Nov 13 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 14 use:
+						Insert_section TI.s._01_apostle_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 16 use:
+						Insert_section TI.s._05_evangelist End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 25 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Nov 30 use:
+						Insert_section TI.s._01_apostle_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Dec 2 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Dec 4 use:
+						Insert_section TI.s._00_saint_.w End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Dec 6 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Dec 12 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Dec 15 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+					Dec 17 use:
+						Insert_section TI.s._00_saint_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.alt1__.p_123as678 End-Insert
+					Dec 25 use:
+						Insert_section TI.f End-Insert
+						Insert_section VE._03_Stichera__.me__.i_123as678 End-Insert
+					Dec 27 use:
+						Insert_section TI.s._14_protomartyr_.m End-Insert
+						Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
+				end-when
+			End-Section
+		End-Section
+
+		Section sticglory_celeb_saint_both_consecration
+			Section glory
+				when-movable-cycle-day-is
+					127 use:
+						Insert_section TI.g.s._00_saint_.mp End-Insert
+						Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
+					otherwise use:
+						when-date-is
+							Jan 1 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 17 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 25 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 30 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Feb 6 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Feb 10 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Apr 23 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Apr 25 use:
+								Insert_section TI.g.s._05_evangelist End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							May 2 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							May 21 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jun 29 use:
+								Insert_section TI.g.s._01_apostle_.mp End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jun 30 use:
+								Insert_section TI.g.s._01_apostle_.mp End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 12 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Jul 20 use:
+								Insert_section TI.g.s._13_prophet_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 25 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 26 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 27 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Aug 29 use:
+								Insert_section TI.g.s._06_forerunner End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Sep 26 use:
+								Insert_section TI.g.s._05_evangelist End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Oct 20 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Oct 23 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Oct 26 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 1 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 8 use:
+								Insert_section TI.g.s._03_bodiless End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 9 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Nov 13 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 14 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 25 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 30 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 2 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Dec 4 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 6 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 12 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 17 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						end-when
+				end-when
+			End-Section
+			when-name-of-day-is
+				Sunday use:
+					Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
+				otherwise use:
+					Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+			end-when
+		End-Section
+
+		Section aposglory_celeb_saint_both_consecration
+			Section glory
+				when-movable-cycle-day-is
+					127 use:
+						Insert_section TI.g.s._00_saint_.mp End-Insert
+						Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
+					otherwise use:
+						when-date-is
+							Jan 1 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 17 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 25 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jan 30 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Feb 6 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Feb 10 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Apr 23 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Apr 25 use:
+								Insert_section TI.g.s._05_evangelist End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							May 2 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							May 21 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jun 29 use:
+								Insert_section TI.g.s._01_apostle_.mp End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jun 30 use:
+								Insert_section TI.g.s._01_apostle_.mp End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 12 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Jul 20 use:
+								Insert_section TI.g.s._13_prophet_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 25 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 26 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Jul 27 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Aug 29 use:
+								Insert_section TI.g.s._06_forerunner End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Sep 26 use:
+								Insert_section TI.g.s._05_evangelist End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Oct 20 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Oct 23 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Oct 26 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 1 use:
+								Insert_section TI.g.s._00_saint_.mp End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 8 use:
+								Insert_section TI.g.s._03_bodiless End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 9 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Nov 13 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 14 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 25 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Nov 30 use:
+								Insert_section TI.g.s._01_apostle_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 2 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+							Dec 4 use:
+								Insert_section TI.g.s._00_saint_.w End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 6 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 12 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 17 use:
+								Insert_section TI.g.s._00_saint_.m End-Insert
+								Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						end-when
+				end-when
+			End-Section
+			Insert_section CONS.VE_08_Aposticha__.both End-Insert
+		End-Section
+
+
+
+		Section ti_apolytikion
+			when-movable-cycle-day-is
+				78 use:
+					Insert_section TI.a.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				95 use:
+					Insert_section TI.a.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				110 use:
+					Insert_section TI.a.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				120 use:
+					Insert_section TI.a.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				127 use:
+					Insert_section TI.a.s._00_saint_.mp End-Insert
+					Insert_section AP.pe2_.hymn End-Insert
+				otherwise use:
+					when-date-is
+						Jan 1 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 10 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 17 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 25 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 30 use:
+							Insert_section TI.a.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 2 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 6 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Feb 8 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 10 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 19 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Mar 17 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Mar 25 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Apr 23 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Apr 24 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.ganame.Apr24__.elizabeth_.hymn End-Insert
+						Apr 25 use:
+							Insert_section TI.a.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						May 2 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						May 9 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						May 21 use:
+							Insert_section TI.a.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jun 29 use:
+							Insert_section TI.a.s._01_apostle_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jun 30 use:
+							Insert_section TI.a.s._01_apostle_.mp End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						Jul 12 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Jul 20 use:
+							Insert_section TI.a.s._13_prophet_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jul 22 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Jul 25 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jul 26 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						Jul 27 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 6 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 10 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.ga.martyr_mode4_.hymn End-Insert
+						Aug 15 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 24 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Aug 27 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Aug 29 use:
+							Insert_section TI.a.s._06_forerunner End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 8 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 14 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 17 use:
+							Insert_section TI.a.s._00_saint_.wp End-Insert
+							Insert_section AP.me3_.hymn End-Insert
+						Sep 26 use:
+							Insert_section TI.a.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 6 use:
+							Insert_section TI.a.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 18 use:
+							Insert_section TI.a.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 20 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Oct 23 use:
+							Insert_section TI.a.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 26 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 1 use:
+							Insert_section TI.a.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 8 use:
+							Insert_section TI.a.s._03_bodiless End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 9 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Nov 13 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 14 use:
+							Insert_section TI.a.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 16 use:
+							Insert_section TI.a.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 25 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 30 use:
+							Insert_section TI.a.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 2 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Dec 4 use:
+							Insert_section TI.a.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 6 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 12 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 15 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 17 use:
+							Insert_section TI.a.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Dec 25 use:
+							Insert_section TI.a.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 27 use:
+							Insert_section TI.a.s._14_protomartyr_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+					end-when
+				end-when
+		End-Section
+
+		Section glory_ti_apolytikion
+			when-movable-cycle-day-is
+				78 use:
+					Insert_section TI.g.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				95 use:
+					Insert_section TI.g.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				110 use:
+					Insert_section TI.g.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				120 use:
+					Insert_section TI.g.f End-Insert
+					Insert_section AP.pe1_.hymn End-Insert
+				127 use:
+					Insert_section TI.g.s._00_saint_.mp End-Insert
+					Insert_section AP.pe2_.hymn End-Insert
+				otherwise use:
+					when-date-is
+						Jan 1 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 10 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 17 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 25 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jan 30 use:
+							Insert_section TI.g.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 2 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 6 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Feb 8 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 10 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Feb 19 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Mar 17 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Mar 25 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Apr 23 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Apr 24 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.ganame.Apr24__.elizabeth_.hymn End-Insert
+						Apr 25 use:
+							Insert_section TI.g.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						May 2 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						May 9 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						May 21 use:
+							Insert_section TI.g.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jun 29 use:
+							Insert_section TI.g.s._01_apostle_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jun 30 use:
+							Insert_section TI.g.s._01_apostle_.mp End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						Jul 12 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Jul 20 use:
+							Insert_section TI.g.s._13_prophet_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jul 22 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Jul 25 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Jul 26 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.me2_.hymn End-Insert
+						Jul 27 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 6 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 10 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.ga.martyr_mode4_.hymn End-Insert
+						Aug 15 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Aug 24 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Aug 27 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Aug 29 use:
+							Insert_section TI.g.s._06_forerunner End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 8 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 14 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Sep 17 use:
+							Insert_section TI.g.s._00_saint_.wp End-Insert
+							Insert_section AP.me3_.hymn End-Insert
+						Sep 26 use:
+							Insert_section TI.g.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 6 use:
+							Insert_section TI.g.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 18 use:
+							Insert_section TI.g.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 20 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Oct 23 use:
+							Insert_section TI.g.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Oct 26 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 1 use:
+							Insert_section TI.g.s._00_saint_.mp End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 8 use:
+							Insert_section TI.g.s._03_bodiless End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 9 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Nov 13 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 14 use:
+							Insert_section TI.g.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 16 use:
+							Insert_section TI.g.s._05_evangelist End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 25 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Nov 30 use:
+							Insert_section TI.g.s._01_apostle_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 2 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Dec 4 use:
+							Insert_section TI.g.s._00_saint_.w End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 6 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 12 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 15 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 17 use:
+							Insert_section TI.g.s._00_saint_.m End-Insert
+							Insert_section AP.mealt11_.hymn End-Insert
+						Dec 25 use:
+							Insert_section TI.g.f End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+						Dec 27 use:
+							Insert_section TI.g.s._14_protomartyr_.m End-Insert
+							Insert_section AP.me1_.hymn End-Insert
+					end-when
+				end-when
+		End-Section
+
+
+
+End-Template

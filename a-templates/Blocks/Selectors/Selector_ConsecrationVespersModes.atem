@@ -19,7 +19,7 @@ Status NA
 	import bTags.*
 	import roles.*
 
-		Section LIHC_hierarchical_Mode
+		Section LIHC_hierarchical_Mode //really only needed for feasts of the Lord and the Mother of God
 			Para role bkmrk01 sid misc.bookmark End-Para
 			Insert_section lihc1_mode End-Insert
 			Insert_section lihc1_media_mode End-Insert
@@ -28,8 +28,22 @@ Status NA
 			Insert_section VE.LIHC_2 End-Insert
 		End-Section
 
-		Section lihc1_mode
+		Section lihc1_mode //really only needed for feasts of the Lord and the Mother of God
 			when-movable-cycle-day-is
+				78 use:
+					Section ThomasSunday
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d078_gr_GR_cog.peVE.Stichera01.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d078_gr_GR_cog.peVE.Stichera01.mode End-Title
+					End-Section
+				95 use:
+					Section Midpentecost
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d095_gr_GR_cog.peVE.Stichera01.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d095_gr_GR_cog.peVE.Stichera01.mode End-Title
+					End-Section
 				110 use:
 					Section Ascension
 						Actor sid ac.Chanter End-Actor
@@ -2614,6 +2628,10 @@ Status NA
 
 		Section lihc1_media_mode
 			when-movable-cycle-day-is
+				78 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
 				110 use:
 					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
 				120 use:
@@ -3356,10 +3374,12 @@ Status NA
 			end-when
 		End-Section
 
-
-
 		Section lihc2_media_mode
 			when-movable-cycle-day-is
+				78 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
 				110 use:
 					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
 				120 use:
@@ -4104,6 +4124,10 @@ Status NA
 
 		Section ve_stichologia_media_mode
 			when-movable-cycle-day-is
+				78 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
 				110 use:
 					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
 				120 use:

@@ -22,6 +22,8 @@ Status NA
 
 		Section GodIsTheLord_mode_of_church
 			when-movable-cycle-day-is
+				78 use:
+					Insert_section MA._01_Beginning__.mode7 End-Insert
 				95 use:
 					Insert_section MA._01_Beginning__.mode8 End-Insert
 				110 use:
@@ -29,6 +31,7 @@ Status NA
 				120 use:
 					Insert_section MA._01_Beginning__.mode8 End-Insert
 				127 use:
+					Insert_section MA._01_Beginning__.mode4 End-Insert
 				otherwise use:
 					when-date-is
 						Jan 1 use:
@@ -71,6 +74,8 @@ Status NA
 							Insert_section MA._01_Beginning__.mode4 End-Insert
 						Jun 30 use:
 							Insert_section MA._01_Beginning__.mode3 End-Insert
+						Jul 12 use:
+							Insert_section MA._01_Beginning__.mode5 End-Insert
 						Jul 20 use:
 							Insert_section MA._01_Beginning__.mode4 End-Insert
 						Jul 22 use:

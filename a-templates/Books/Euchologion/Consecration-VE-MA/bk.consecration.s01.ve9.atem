@@ -29,40 +29,27 @@ Status Review
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
+	Section church_date
+		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	End-Section
+	
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_s01
 		Insert_section CONS.Service_Title__.Vespers End-Insert
-		//The hierarch's name for petitions is set by the client
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.mode6__.for8 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_1234as3456 End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
-		//The title can be generic or specific set by the client
-		Insert_section TI.stp.local_church End-Insert
-		Insert_section CONS.VE_03_Stichera__.church__.as_78910 End-Insert
-		when-exists
-			rid meVE.SticGlory.text use:
-				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
-				Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
-			otherwise use:
-				Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
-		end-when
+		Insert_section bk.consecration.s01.ve9.church_date End-Insert
+		Insert_section CONS.VE_03_Stichera__.church_saint__.as_78910 End-Insert
+		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_both_consecration End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.r123 End-Insert
-		Insert_section VE._06_Litanies__.fullektenia End-Insert //selection for monastery?
+		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
-		when-exists
-			rid meVE.AposGlory.text use:
-				//The title can be generic or specific set by the client
-				Insert_section TI.g.local_church End-Insert
-				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
-				Insert_section CONS.VE_08_Aposticha__.both End-Insert
-			otherwise use:
-				Insert_section CONS.VE_08_Aposticha__.gloryboth End-Insert
-		end-when
+		Insert_section bk.consecration.s01.ve9.church_date End-Insert
+		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.glory_church_saint_both_consecration End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.con End-Insert

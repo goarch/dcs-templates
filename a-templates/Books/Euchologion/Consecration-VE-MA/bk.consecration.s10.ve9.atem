@@ -1,6 +1,6 @@
 Template bk.consecration.s10.ve9
 
-Status Review
+Status Draft
 
 //S10
 //When the church is named for a saint
@@ -48,8 +48,7 @@ Status Review
 				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
 				Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
 			otherwise use:
-				Insert_section TI.g.con End-Insert
-				Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_.hymn End-Insert
+				Insert_section CONS.VE_03_Stichera__.glory__.consecration_with_clientname_ End-Insert
 				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 				Insert_section TI.b.f End-Insert
 				when-movable-cycle-day-is
