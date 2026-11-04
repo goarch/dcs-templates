@@ -373,6 +373,41 @@ Status NA
 			End-Section
 		End-Section
 
+		Section sticglory_feastofthelord //on feasts of the Lord
+			Insert_section TI.f End-Insert
+			when-movable-cycle-day-is
+				78, 95, 110, 120 use:
+					Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
+				otherwise use:
+					when-date-is
+						Jan 6 use:
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+						Mar 25 use:
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+						Aug 6 use:
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+						Sep 14 use:
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 25 use:
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+					end-when
+			end-when
+		End-Section
+
+		Section sticglory_feastofmotherofgod //on feasts of the Mother of God
+			Insert_section TI.f End-Insert
+			when-date-is
+				Feb 2 use:
+					Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+				Aug 15 use:
+					Insert_section VE._03_Stichera__.glory__.me__.eightmodedoxasticonasglory_.hymn End-Insert
+				Sep 8 use:
+					Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+				Nov 21 use:
+					Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+			end-when
+		End-Section
+
 		Section sticglory_celeb_saint_both_consecration
 			Section glory
 				when-movable-cycle-day-is
@@ -494,6 +529,51 @@ Status NA
 			end-when
 		End-Section
 
+		Section aposglory_feastofthelord //on feasts of the Lord
+			Insert_section TI.f End-Insert
+			Section hymn
+				when-movable-cycle-day-is
+					78, 95, 110, 120 use:
+						Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Mar 25 use:
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Aug 6 use:
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Sep 14 use:
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Dec 25 use:
+								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						end-when
+				end-when
+			End-Section
+		End-Section
+
+		Section aposglory_feastofmotherofgod //on feasts of the Mother of God
+			Insert_section TI.g.f End-Insert
+			Section hymn
+				when-date-is
+					Feb 2 use:
+						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+					Aug 15 use:
+						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+					Sep 8 use:
+						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+					Nov 21 use:
+						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+				end-when
+			End-Section
+		End-Section
+
+		Section aposglory_feast
+			Insert_section TI.f End-Insert
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofthelord.hymn End-Insert
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofmotherofgod.hymn End-Insert
+		End-Section
+		
 		Section aposglory_celeb_saint_both_consecration
 			Section glory
 				when-movable-cycle-day-is
@@ -607,9 +687,19 @@ Status NA
 						end-when
 				end-when
 			End-Section
-			Insert_section CONS.VE_08_Aposticha__.both End-Insert
+			Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		End-Section
 
+		Section aposboth_feastofmotherofgod
+			Insert_section TI.b.f End-Insert
+			Insert_section aposglory_feastofmotherofgod.hymn End-Insert
+		End-Section
+		
+		Section aposboth_feast
+			Insert_section TI.b.f End-Insert
+			Insert_section aposglory_feastofthelord.hymn End-Insert
+			Insert_section aposglory_feastofmotherofgod.hymn End-Insert
+		End-Section
 
 
 		Section ti_apolytikion

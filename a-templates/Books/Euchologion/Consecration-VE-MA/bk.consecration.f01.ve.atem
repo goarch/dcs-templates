@@ -1,4 +1,4 @@
-Template bk.consecration.f01.ve9 
+Template bk.consecration.f01.ve 
 
 Status Review
 
@@ -56,7 +56,7 @@ Status Review
 		Insert_section TI.g.local_church End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section CONS.VE_08_Aposticha__.both End-Insert
+		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.con End-Insert
 		//The Apolytikion of the church is set by the client

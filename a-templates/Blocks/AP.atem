@@ -495,6 +495,9 @@ Status NA
 				end-when
 			End-Section
 		End-Section
+		Section feast
+			Insert_section Selector_FestalApolytikion.both_feast End-Insert
+		End-Section
 		Section primarytheotokion__
 			Section modeofweek
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title

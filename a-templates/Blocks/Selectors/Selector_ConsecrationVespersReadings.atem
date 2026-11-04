@@ -481,6 +481,8 @@ Status NA
 	Section feast2consecration1
 		Title role desig sid ti.Readings End-Title
 			when-movable-cycle-day-is
+				78 use:
+					Insert_section Selector_ConsecrationVespersReadings.consecration End-Insert
 				95 use:
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title<smallred>sid ti.Feast</>End-Title

@@ -573,6 +573,108 @@ Status NA
 		end-when
 	End-Section
 
+	Section both_feast
+		Insert_section TI.b.f End-Insert
+		when-movable-cycle-day-is
+			78 use:
+				Section thomas
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d078_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d078_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d078_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			95 use:
+				Section midpentecost
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d095_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d095_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d095_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			110 use:
+				Section ascension
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d110_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			120 use:
+				Section pentecost
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d120_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			otherwise use:
+				when-date-is
+					Jan 6 use:
+						Section Epiphany
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Feb 2 use:
+						Section Meeting
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Mar 25 use:
+						Section Annunciation
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Aug 6 use:
+						Section Transfiguration
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Aug 15 use:
+						Section Dormition
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Sep 8 use:
+						Section Theotokos_Birth
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Sep 14 use:
+						Section Cross
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Nov 21 use:
+						Section Theotokos_Entry
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Dec 25 use:
+						Section Christmas
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+				end-when
+		end-when
+	End-Section
+
+
+
 	Section NM
 		Section af //after feast days, does not include main feast day
 			when-movable-cycle-day-is

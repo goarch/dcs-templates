@@ -1,4 +1,4 @@
-Template bk.consecration.s10.ve9
+Template bk.consecration.s10.ve
 
 Status Draft
 
@@ -74,7 +74,7 @@ Status Draft
 				Insert_section TI.b.f End-Insert
 				Insert_section VE._08_Aposticha__.both__.me__.gloryasboth_.hymn End-Insert
 			otherwise use:
-				Insert_section CONS.VE_08_Aposticha__.glory End-Insert
+				Insert_section CONS.VE_08_Aposticha__.glory__.consecration End-Insert
 				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 				Insert_section TI.b.f End-Insert
 				Insert_section VE._08_Aposticha__.both__.me__.gloryasboth_.hymn End-Insert

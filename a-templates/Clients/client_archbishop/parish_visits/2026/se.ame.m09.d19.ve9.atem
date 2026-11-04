@@ -67,7 +67,7 @@ Status NA
 		Insert_section TI.g.me.com2 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Set_Date month 9 day 19 year 2026 End_Date
-		Insert_section CONS.VE_08_Aposticha__.both End-Insert
+		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
 		Insert_section AP.glory__.con End-Insert

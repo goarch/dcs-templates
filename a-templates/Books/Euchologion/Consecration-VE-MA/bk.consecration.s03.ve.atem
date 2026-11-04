@@ -1,4 +1,4 @@
-Template bk.consecration.s03.ve9
+Template bk.consecration.s03.ve
 
 Status Review
 
@@ -40,7 +40,7 @@ Status Review
 		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.selected End-Insert
-		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.glory_church_saint_both_consecration End-Insert
+		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.con End-Insert
 		Insert_section TI.g.local_church End-Insert

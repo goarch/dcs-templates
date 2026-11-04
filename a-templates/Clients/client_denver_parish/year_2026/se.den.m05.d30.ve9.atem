@@ -76,7 +76,7 @@ Status NA
 		Insert_section TI.g.pe.com1 End-Insert
 		Insert_section VE._08_Aposticha__.gloryboth__.pe_.hymn End-Insert
 		Set_mcDay day 0 End_mcDay
-		Insert_section CONS.VE_08_Aposticha__.both End-Insert
+		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
 		Insert_section AP.glory__.con End-Insert
