@@ -4,7 +4,7 @@ Status Review
 
 //S06
 //When the church is named for a saint
-//When the consecration is conducted on the date of a celebrated saint on a Sunday
+//When the consecration is conducted on a Sunday, on the date of a celebrated saint
 
 	import da.*
 	import oc.*
@@ -41,7 +41,7 @@ Status Review
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_123as123 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_12as45 End-Insert
-		Insert_section Selector_ConsecrationCelebSaintsFeasts.stichera__.as_678 End-Insert
+		Insert_section CONS.VE_03_Stichera__.celebrated_saint__.as_678 End-Insert
 	Insert_section bk.consecration.s06.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_910 End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
@@ -55,7 +55,7 @@ Status Review
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
-		Insert_section Selector_ConsecrationCelebSaintsFeasts.ti_apolytikion End-Insert
+		Insert_section CONS.AP.celeb_saint End-Insert
 		Insert_section TI.g.local_church End-Insert
 		Insert_section AP.client1_.hymn End-Insert
 		Insert_section AP.both__.con End-Insert

@@ -4,7 +4,7 @@ Status Review
 
 //S04
 //When the church is named for a saint
-//When the consecration is conducted on the date of the church's saint on a Sunday 
+//When the consecration is conducted on a Sunday, on the date of the church's saint 
 
 	import da.*
 	import oc.*

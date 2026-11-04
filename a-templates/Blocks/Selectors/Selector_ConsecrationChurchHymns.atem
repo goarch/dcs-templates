@@ -330,42 +330,53 @@ Status Draft
 	End-Section
 
 	Section aposglory_church_saint_both_feast
-		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			127 use:
+				Insert_section TI.g.local_church End-Insert
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 			otherwise use:
 				when-date-is
 					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					otherwise use:
 						when-exists
 							rid meVE.AposGlory.text use:
 								Section menaion_yes
+									Insert_section TI.g.local_church End-Insert
 									Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
-									Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+									Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 									Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 								End-Section
 							otherwise use:
-								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 								Insert_section CONS.VE_08_Aposticha__.glory__.feast End-Insert
 								Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 						end-when

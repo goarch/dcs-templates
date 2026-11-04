@@ -4,7 +4,7 @@ Status Review
 
 //S08
 //When the church is named for a saint
-//When the consecration is conducted on a weekday on the date of a feast of the Mother of God
+//When the consecration is conducted on a weekday, on the date of a feast of the Mother of God
 
 	import da.*
 	import oc.*
@@ -39,7 +39,7 @@ Status Review
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for10 End-Insert
-		Insert_section Selector_ConsecrationCelebSaintsFeasts.stichera__.as_1234 End-Insert
+		Insert_section CONS.VE_03_Stichera__.feast__.as_1234 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
 	Insert_section bk.consecration.s08.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
@@ -51,7 +51,7 @@ Status Review
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.selected End-Insert
 	Insert_section bk.consecration.s08.ve.church_date End-Insert
-		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_consecration End-Insert
+		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.f1 End-Insert

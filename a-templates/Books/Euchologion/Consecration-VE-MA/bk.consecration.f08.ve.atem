@@ -48,8 +48,8 @@ Status Review
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
-		Insert_section CONS.VE_05_Readings__.r123 End-Insert
-		Insert_section VE._06_Litanies__.fullektenia End-Insert
+		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
+		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
 		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert

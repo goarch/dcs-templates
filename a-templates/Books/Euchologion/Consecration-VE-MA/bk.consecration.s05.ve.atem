@@ -4,7 +4,7 @@ Status Review
 
 //S05
 //When the church is named for a saint
-//When the consecration is conducted on the date of a celebrated saint on a weekday
+//When the consecration is conducted on a weekday, on the date of a celebrated saint
 
 	import da.*
 	import oc.*
