@@ -41,6 +41,12 @@ Status NA
 			Title sid ti.BothNow End-Title
 			Insert_section Selector_FestalApolytikion.bf End-Insert
 		End-Section
+		Section client1
+			Title sid ti.BothNow<Tdesig>sid client_gr_GR_cog.cl.localchurch.title</>End-Title
+			Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
+			Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media
+			Hymn sid client_gr_GR_cog.cl.Apolytikion1.text @ver media-off End-Hymn
+		End-Section
 		Section con
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
@@ -1008,7 +1014,7 @@ Status NA
 		End-Section
 	End-Section
 	Section client1_
-		Title role desig sid client_gr_GR_cog.cl.Apolytikion1.title End-Title
+		Title<Tdesig>sid ti.Apolytikion</><Tdesig>sid client_gr_GR_cog.cl.localchurch.title</>End-Title
 		Section hymn
 			Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
 			Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media
@@ -2830,6 +2836,12 @@ Status NA
 		Section af
 			Title sid ti.Glory End-Title
 			Insert_section Selector_FestalApolytikion.af End-Insert
+		End-Section
+		Section client1
+			Title sid ti.Glory<Tdesig>sid client_gr_GR_cog.cl.localchurch.title</>End-Title
+			Title role mode sid client_gr_GR_cog.cl.Apolytikion1.mode<Tmelody>sid client_gr_GR_cog.cl.Apolytikion1.melody</>End-Title
+			Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media
+			Hymn sid client_gr_GR_cog.cl.Apolytikion1.text @ver media-off End-Hymn
 		End-Section
 		Section com__
 			Section JulHF_

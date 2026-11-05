@@ -501,6 +501,9 @@ Status NA
 			Section as_1234
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.stichera__.as_1234 End-Insert
 			End-Section
+			Section as_3456
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.stichera__.as_3456 End-Insert
+			End-Section
 			Section as_345678
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.stichera__.as_345678 End-Insert
 			End-Section

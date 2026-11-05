@@ -44,8 +44,7 @@ Status Review
 		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
-		Insert_section TI.g.local_church End-Insert
-		Insert_section AP.client1_.hymn End-Insert
+		Insert_section AP.glory__.client1 End-Insert
 		Insert_section AP.both__.con End-Insert
 		Insert_section VE._10_End__.hierarchical__.wisdom123.part1 End-Insert
 		Insert_section VE._11_Dismissal__.hierarchical__.commemoration End-Insert
