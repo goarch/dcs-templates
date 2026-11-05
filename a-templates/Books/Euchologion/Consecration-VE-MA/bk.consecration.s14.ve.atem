@@ -2,7 +2,7 @@ Template bk.consecration.s14.ve
 
 Status Review
 
-//S14
+//s14
 //When the church is named for a saint
 //When the consecration is conducted on a weekday, on the date of the leave-taking of a feast
 
@@ -47,7 +47,7 @@ Status Review
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

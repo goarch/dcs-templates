@@ -2,7 +2,7 @@ Template bk.consecration.s11.ve
 
 Status Review
 
-//S11
+//s11
 //When the church is named for a saint
 //When the consecration is conducted on a weekday, during a festal period, on the date of a celebrated saint 
 
@@ -46,7 +46,7 @@ Status Review
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section TI.g.me.com1 End-Insert
 		Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

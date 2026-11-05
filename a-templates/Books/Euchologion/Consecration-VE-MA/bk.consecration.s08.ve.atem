@@ -2,7 +2,7 @@ Template bk.consecration.s08.ve
 
 Status Review
 
-//S08
+//s08
 //When the church is named for a saint
 //When the consecration is conducted on a weekday, on the date of a feast of the Mother of God
 
@@ -45,7 +45,7 @@ Status Review
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.feast_of_MotherofGod End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.feast2consecration1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

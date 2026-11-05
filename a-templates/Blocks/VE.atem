@@ -3788,22 +3788,6 @@ Status NA
 				Insert_section VE.LIHC_Verses.v07 End-Insert
 				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
 			End-Section
-			Section i_1234as3456
-				Para role source0 sid ti.sourcePentecostarion End-Para
-				Media rid peVE.MM.Stichera1234as3456.text End-Media
-				Title role desig sid ti.Idiomelon1<Tmode>rid peVE.Stichera01.mode</>End-Title
-				Insert_section VE.LIHC_Verses.v03 End-Insert
-				Hymn rid peVE.Stichera01.text @ver media-off End-Hymn
-				Title role desig sid ti.Idiomelon2<Tmode>rid peVE.Stichera02.mode</>End-Title
-				Insert_section VE.LIHC_Verses.v04 End-Insert
-				Hymn rid peVE.Stichera02.text @ver media-off End-Hymn
-				Title role desig sid ti.Idiomelon3<Tmode>rid peVE.Stichera03.mode</>End-Title
-				Insert_section VE.LIHC_Verses.v05 End-Insert
-				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
-				Title role desig sid ti.Idiomelon4<Tmode>rid peVE.Stichera04.mode</>End-Title
-				Insert_section VE.LIHC_Verses.v06 End-Insert
-				Hymn rid peVE.Stichera04.text @ver media-off End-Hymn
-			End-Section
 			Section i_1234as1234
 				Para role source0 sid ti.sourcePentecostarion End-Para
 				Title role desig sid ti.Idiomelon1<Tmode>rid peVE.Stichera01.mode</>End-Title
@@ -3821,6 +3805,38 @@ Status NA
 				Title role desig sid ti.Idiomelon4<Tmode>rid peVE.Stichera04.mode</>End-Title
 				Media rid peVE.Stichera04.text End-Media
 				Insert_section VE.LIHC_Verses.v04 End-Insert
+				Hymn rid peVE.Stichera04.text @ver media-off End-Hymn
+			End-Section
+			Section i_1234as3456
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Media rid peVE.MM.Stichera1234as3456.text End-Media
+				Title role desig sid ti.Idiomelon1<Tmode>rid peVE.Stichera01.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v03 End-Insert
+				Hymn rid peVE.Stichera01.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon2<Tmode>rid peVE.Stichera02.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v04 End-Insert
+				Hymn rid peVE.Stichera02.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon3<Tmode>rid peVE.Stichera03.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v05 End-Insert
+				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon4<Tmode>rid peVE.Stichera04.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn rid peVE.Stichera04.text @ver media-off End-Hymn
+			End-Section
+			Section i_1234as5678
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Media rid peVE.MM.Stichera1234as5678.text End-Media
+				Title role desig sid ti.Idiomelon1<Tmode>rid peVE.Stichera01.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v05 End-Insert
+				Hymn rid peVE.Stichera01.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon2<Tmode>rid peVE.Stichera02.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn rid peVE.Stichera02.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon3<Tmode>rid peVE.Stichera03.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v07 End-Insert
+				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon4<Tmode>rid peVE.Stichera04.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v08 End-Insert
 				Hymn rid peVE.Stichera04.text @ver media-off End-Hymn
 			End-Section
 			Section i_12345as12345
@@ -4152,7 +4168,7 @@ Status NA
 				Insert_section VE.LIHC_Verses.v06 End-Insert
 				Hymn rid peVE.Stichera03.text @ver media-off End-Hymn
 			End-Section
-			Section p_1123as3456
+			Section p_1123as5678
 				Para role source0 sid ti.sourcePentecostarion End-Para
 				Media rid peVE.MM.Stichera1123as5678.text End-Media
 				Title role mode rid peVE.Stichera01.mode<Tmelody>rid peVE.Stichera01.melody</>End-Title

@@ -2,7 +2,7 @@ Template bk.consecration.s06.ve
 
 Status Review
 
-//S06
+//s06
 //When the church is named for a saint
 //When the consecration is conducted on a Sunday, on the date of a celebrated saint
 
@@ -45,13 +45,14 @@ Status Review
 	Insert_section bk.consecration.s06.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_910 End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section CONS.VE_03_Stichera__.glory_and_both__.celeb_saint_and_consecration End-Insert
+		Insert_section CONS.VE_03_Stichera__.glory__.celeb_saint End-Insert
+		Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
 	Insert_section bk.consecration.s06.ve.church_date End-Insert
-		Insert_section Selector_ConsecrationChurchHymns.aposglory_church_saint_both_consecration End-Insert
+		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_consecration End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert

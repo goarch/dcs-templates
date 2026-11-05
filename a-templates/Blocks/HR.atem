@@ -863,7 +863,7 @@ Status NA
 			End-Section
 			Section kontakia
 				Title role desig sid ti.Kontakia End-Title
-				Title role desig sid ti.forTransfiguration End-Title
+				Title role desig sid ti.ForTransfiguration End-Title
 				Media sid me.m08.d06_gr_GR_cog.meMA.Kontakion1.text End-Media
 				Hymn sid me.m08.d06_gr_GR_cog.meMA.Kontakion1.text @ver media-off End-Hymn
 				when-name-of-day-is
