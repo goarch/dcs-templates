@@ -41,9 +41,9 @@ Status Review
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
 		Insert_section CONS.VE_03_Stichera__.feast__.as_5678 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_12as910 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_12as910 End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.feast_of_MotherofGod End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.feast2consecration1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

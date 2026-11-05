@@ -25,42 +25,42 @@ Status Draft
 			Insert_section TI.local_church End-Insert
 			when-movable-cycle-day-is
 				95 use:
-					Title role smalldesig sid ti.ForMidpentecost End-Title
+					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_123as123 End-Insert
 				110 use:
-					Title role smalldesig sid ti.ForAscension End-Title
+					Title role smallcenter sid ti.ForAscension End-Title
 					Insert_section VE._03_Stichera__.pe__.i_123as123 End-Insert
 				120 use:
-				Title role smalldesig sid ti.ForPentecost End-Title
+				Title role smallcenter sid ti.ForPentecost End-Title
 						Insert_section VE._03_Stichera__.pe__.i_123as123 End-Insert
 				otherwise use:
 					when-date-is
 						Jan 6 use:
-							Title role smalldesig sid ti.ForEpiphany End-Title
+							Title role smallcenter sid ti.ForEpiphany End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
 						Feb 2 use:
-							Title role smalldesig sid ti.ForPresentation End-Title
+							Title role smallcenter sid ti.ForPresentation End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
 						Mar 25 use:
-							Title role smalldesig sid ti.ForAnnunciation End-Title
+							Title role smallcenter sid ti.ForAnnunciation End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as123 End-Insert
 						Aug 6 use:
-							Title role smalldesig sid ti.ForTransfiguration End-Title
+							Title role smallcenter sid ti.ForTransfiguration End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
 						Aug 15 use:
-							Title role smalldesig sid ti.ForDormition End-Title
+							Title role smallcenter sid ti.ForDormition End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as123 End-Insert
 						Sep 8 use:
-							Title role smalldesig sid ti.ForTheotokosBirth End-Title
+							Title role smallcenter sid ti.ForTheotokosBirth End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
 						Sep 14 use:
-							Title role smalldesig sid ti.ForCross End-Title
+							Title role smallcenter sid ti.ForCross End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as123 End-Insert
 						Nov 21 use:
-							Title role smalldesig sid ti.ForEntry End-Title
+							Title role smallcenter sid ti.ForEntry End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as123 End-Insert
 						Dec 25 use:
-							Title role smalldesig sid ti.ForChristmas End-Title
+							Title role smallcenter sid ti.ForChristmas End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
 					end-when
 			end-when
@@ -69,42 +69,42 @@ Status Draft
 			Insert_section TI.stp.local_church End-Insert
 			when-movable-cycle-day-is
 				95 use:
-					Title role smalldesig sid ti.ForMidpentecost End-Title
+					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_1123as3456 End-Insert
 				110 use:
-					Title role smalldesig sid ti.ForAscension End-Title
+					Title role smallcenter sid ti.ForAscension End-Title
 					Insert_section VE._03_Stichera__.pe__.i_1234as3456 End-Insert
 				120 use:
-					Title role smalldesig sid ti.ForPentecost End-Title
+					Title role smallcenter sid ti.ForPentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.i_1234as3456 End-Insert
 				otherwise use:
 					when-date-is
 						Jan 6 use:
-							Title role smalldesig sid ti.ForEpiphany End-Title
+							Title role smallcenter sid ti.ForEpiphany End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
 						Feb 2 use:
-							Title role smalldesig sid ti.ForPresentation End-Title
+							Title role smallcenter sid ti.ForPresentation End-Title
 							Insert_section VE._03_Stichera__.me__.i_1123as3456 End-Insert
 						Mar 25 use:
-							Title role smalldesig sid ti.ForAnnunciation End-Title
+							Title role smallcenter sid ti.ForAnnunciation End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
 						Aug 6 use:
-							Title role smalldesig sid ti.ForTransfiguration End-Title
+							Title role smallcenter sid ti.ForTransfiguration End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
 						Aug 15 use:
-							Title role smalldesig sid ti.ForDormition End-Title
+							Title role smallcenter sid ti.ForDormition End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
 						Sep 8 use:
-							Title role smalldesig sid ti.ForTheotokosBirth End-Title
+							Title role smallcenter sid ti.ForTheotokosBirth End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
 						Sep 14 use:
-							Title role smalldesig sid ti.ForCross End-Title
+							Title role smallcenter sid ti.ForCross End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
 						Nov 21 use:
-							Title role smalldesig sid ti.ForEntry End-Title
+							Title role smallcenter sid ti.ForEntry End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
 						Dec 25 use:
-							Title role smalldesig sid ti.ForChristmas End-Title
+							Title role smallcenter sid ti.ForChristmas End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as3456 End-Insert
 					end-when
 				end-when
@@ -113,42 +113,42 @@ Status Draft
 			Insert_section TI.local_church End-Insert
 			when-movable-cycle-day-is
 				95 use:
-					Title role smalldesig sid ti.ForMidpentecost End-Title
+					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_123as567 End-Insert
 				110 use:
-					Title role smalldesig sid ti.ForAscension End-Title
+					Title role smallcenter sid ti.ForAscension End-Title
 					Insert_section VE._03_Stichera__.pe__.i_123as567 End-Insert
 				120 use:
-				Title role smalldesig sid ti.ForPentecost End-Title
+				Title role smallcenter sid ti.ForPentecost End-Title
 						Insert_section VE._03_Stichera__.pe__.i_123as567 End-Insert
 				otherwise use:
 					when-date-is
 						Jan 6 use:
-							Title role smalldesig sid ti.ForEpiphany End-Title
+							Title role smallcenter sid ti.ForEpiphany End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 						Feb 2 use:
-							Title role smalldesig sid ti.ForPresentation End-Title
+							Title role smallcenter sid ti.ForPresentation End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 						Mar 25 use:
-							Title role smalldesig sid ti.ForAnnunciation End-Title
+							Title role smallcenter sid ti.ForAnnunciation End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
 						Aug 6 use:
-							Title role smalldesig sid ti.ForTransfiguration End-Title
+							Title role smallcenter sid ti.ForTransfiguration End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 						Aug 15 use:
-							Title role smalldesig sid ti.ForDormition End-Title
+							Title role smallcenter sid ti.ForDormition End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
 						Sep 8 use:
-							Title role smalldesig sid ti.ForTheotokosBirth End-Title
+							Title role smallcenter sid ti.ForTheotokosBirth End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 						Sep 14 use:
-							Title role smalldesig sid ti.ForCross End-Title
+							Title role smallcenter sid ti.ForCross End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
 						Nov 21 use:
-							Title role smalldesig sid ti.ForEntry End-Title
+							Title role smallcenter sid ti.ForEntry End-Title
 							Insert_section VE._03_Stichera__.me__.p_123as567 End-Insert
 						Dec 25 use:
-							Title role smalldesig sid ti.ForChristmas End-Title
+							Title role smallcenter sid ti.ForChristmas End-Title
 							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 					end-when
 			end-when
@@ -157,42 +157,42 @@ Status Draft
 			Insert_section TI.local_church End-Insert
 			when-movable-cycle-day-is
 				95 use:
-					Title role smalldesig sid ti.ForMidpentecost End-Title
+					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_1123as5678 End-Insert
 				110 use:
-					Title role smalldesig sid ti.ForAscension End-Title
+					Title role smallcenter sid ti.ForAscension End-Title
 					Insert_section VE._03_Stichera__.pe__.i_1234as5678 End-Insert
 				120 use:
-					Title role smalldesig sid ti.ForPentecost End-Title
+					Title role smallcenter sid ti.ForPentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.i_1234as5678 End-Insert
 				otherwise use:
 					when-date-is
 						Jan 6 use:
-							Title role smalldesig sid ti.ForEpiphany End-Title
+							Title role smallcenter sid ti.ForEpiphany End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
 						Feb 2 use:
-							Title role smalldesig sid ti.ForPresentation End-Title
+							Title role smallcenter sid ti.ForPresentation End-Title
 							Insert_section VE._03_Stichera__.me__.i_1123as5678 End-Insert
 						Mar 25 use:
-							Title role smalldesig sid ti.ForAnnunciation End-Title
+							Title role smallcenter sid ti.ForAnnunciation End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
 						Aug 6 use:
-							Title role smalldesig sid ti.ForTransfiguration End-Title
+							Title role smallcenter sid ti.ForTransfiguration End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
 						Aug 15 use:
-							Title role smalldesig sid ti.ForDormition End-Title
+							Title role smallcenter sid ti.ForDormition End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
 						Sep 8 use:
-							Title role smalldesig sid ti.ForTheotokosBirth End-Title
+							Title role smallcenter sid ti.ForTheotokosBirth End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
 						Sep 14 use:
-							Title role smalldesig sid ti.ForCross End-Title
+							Title role smallcenter sid ti.ForCross End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
 						Nov 21 use:
-							Title role smalldesig sid ti.ForEntry End-Title
+							Title role smallcenter sid ti.ForEntry End-Title
 							Insert_section VE._03_Stichera__.me__.p_1123as5678 End-Insert
 						Dec 25 use:
-							Title role smalldesig sid ti.ForChristmas End-Title
+							Title role smallcenter sid ti.ForChristmas End-Title
 							Insert_section VE._03_Stichera__.me__.i_1234as5678 End-Insert
 					end-when
 				end-when
@@ -202,6 +202,7 @@ Status Draft
 	Section church_saint_stichera
 		Section as_78910
 			Insert_section TI.local_church End-Insert
+			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 			when-movable-cycle-day-is
 				127 use: //All Saints
 					Insert_section VE._03_Stichera__.pe__.p_78910as78910 End-Insert
@@ -262,6 +263,7 @@ Status Draft
 
 		Section as_8910
 			Insert_section TI.local_church End-Insert
+			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 			when-movable-cycle-day-is
 				127 use: //All Saints
 					Insert_section VE._03_Stichera__.pe__.p_789as8910 End-Insert
@@ -317,6 +319,7 @@ Status Draft
 
 		Section as_910
 			Insert_section TI.local_church End-Insert
+			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 			when-movable-cycle-day-is
 				127 use: //All Saints
 					Insert_section VE._03_Stichera__.pe__.p_78as910 End-Insert
@@ -375,96 +378,152 @@ Status Draft
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			95 use:
-				Title role smalldesig sid ti.ForMidpentecost End-Title
+				Title role smallcenter sid ti.ForMidpentecost End-Title
 				Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
 			110 use:
-				Title role smalldesig sid ti.ForAscension End-Title
+				Title role smallcenter sid ti.ForAscension End-Title
 				Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
 			120 use:
-				Title role smalldesig sid ti.ForPentecost End-Title
+				Title role smallcenter sid ti.ForPentecost End-Title
 				Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
 			otherwise use:
 				when-date-is
 					Jan 6 use:
-						Title role smalldesig sid ti.ForEpiphany End-Title
+						Title role smallcenter sid ti.ForEpiphany End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Feb 2 use:
-						Title role smalldesig sid ti.ForPresentation End-Title
+						Title role smallcenter sid ti.ForPresentation End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Mar 25 use:
-						Title role smalldesig sid ti.ForAnnunciation End-Title
+						Title role smallcenter sid ti.ForAnnunciation End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Aug 6 use:
-						Title role smalldesig sid ti.ForTransfiguration End-Title
+						Title role smallcenter sid ti.ForTransfiguration End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Aug 15 use:
-						Title role smalldesig sid ti.ForDormition End-Title
+						Title role smallcenter sid ti.ForDormition End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.eightmodedoxasticonasglory_.hymn End-Insert
 					Sep 8 use:
-						Title role smalldesig sid ti.ForTheotokosBirth End-Title
+						Title role smallcenter sid ti.ForTheotokosBirth End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Sep 14 use:
-						Title role smalldesig sid ti.ForCross End-Title
+						Title role smallcenter sid ti.ForCross End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Nov 21 use:
-						Title role smalldesig sid ti.ForEntry End-Title
+						Title role smallcenter sid ti.ForEntry End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Dec 25 use:
-						Title role smalldesig sid ti.ForChristmas End-Title
+						Title role smallcenter sid ti.ForChristmas End-Title
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 				end-when
 		end-when
 	End-Section
 
 	Section sticglory_church_saint_both_consecration
-		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			127 use:
+				Insert_section TI.g.local_church End-Insert
+				Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 				Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
 			otherwise use:
 				when-date-is
 					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.eightmodedoxasticonasglory_.hymn End-Insert
 					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					otherwise use:
 						when-exists
 							rid meVE.SticGlory.text use:
 								Section menaion_yes
+									Insert_section TI.g.local_church End-Insert
 									Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 									Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-									when-name-of-day-is
-										Sunday use:
-											Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
-										otherwise use:
-											Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
-									end-when
+									Insert_section CONS.VE_03_Stichera__.both__.consecration End-Insert
 								End-Section
 							otherwise use:
 								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-								when-name-of-day-is
-									Sunday use:
-										Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
-										Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
-									otherwise use:
-										Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
-								end-when
+								Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+
+	Section sticglory_church_saint_both_firsttheotokion
+		when-movable-cycle-day-is
+			127 use:
+				Insert_section TI.g.local_church End-Insert
+				Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
+			otherwise use:
+				when-date-is
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.eightmodedoxasticonasglory_.hymn End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					otherwise use:
+						when-exists
+							rid meVE.SticGlory.text use:
+								Section menaion_yes
+									Insert_section TI.g.local_church End-Insert
+									Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
+									Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+									Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
+								End-Section
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section CONS.VE_03_Stichera__.glory__.consecration End-Insert
+								Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 						end-when
 				end-when
 		end-when
@@ -474,42 +533,42 @@ Status Draft
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
 			95 use:
-				Title role smalldesig sid ti.ForMidpentecost End-Title
+				Title role smallcenter sid ti.ForMidpentecost End-Title
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 			110 use:
-				Title role smalldesig sid ti.ForAscension End-Title
+				Title role smallcenter sid ti.ForAscension End-Title
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 			120 use:
-				Title role smalldesig sid ti.ForPentecost End-Title
+				Title role smallcenter sid ti.ForPentecost End-Title
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 			otherwise use:
 				when-date-is
 					Jan 6 use:
-						Title role smalldesig sid ti.ForEpiphany End-Title
+						Title role smallcenter sid ti.ForEpiphany End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Feb 2 use:
-						Title role smalldesig sid ti.ForPresentation End-Title
+						Title role smallcenter sid ti.ForPresentation End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Mar 25 use:
-						Title role smalldesig sid ti.ForAnnunciation End-Title
+						Title role smallcenter sid ti.ForAnnunciation End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Aug 6 use:
-						Title role smalldesig sid ti.ForTransfiguration End-Title
+						Title role smallcenter sid ti.ForTransfiguration End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Aug 15 use:
-						Title role smalldesig sid ti.ForDormition End-Title
+						Title role smallcenter sid ti.ForDormition End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Sep 8 use:
-						Title role smalldesig sid ti.ForTheotokosBirth End-Title
+						Title role smallcenter sid ti.ForTheotokosBirth End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Sep 14 use:
-						Title role smalldesig sid ti.ForCross End-Title
+						Title role smallcenter sid ti.ForCross End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Nov 21 use:
-						Title role smalldesig sid ti.ForEntry End-Title
+						Title role smallcenter sid ti.ForEntry End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Dec 25 use:
-						Title role smalldesig sid ti.ForChristmas End-Title
+						Title role smallcenter sid ti.ForChristmas End-Title
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				end-when
 		end-when

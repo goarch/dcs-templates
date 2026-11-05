@@ -38,16 +38,16 @@ Status Review
 	Section Instance_s14
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
-		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for10 End-Insert
+		Insert_section CONS.VE_02_LordIHaveCried_SelectedMode__.for10 End-Insert
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.VE_03_Stichera__.feast__.as_1234 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_123as567 End-Insert
 	Insert_section bk.consecration.s14.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

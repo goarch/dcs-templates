@@ -410,6 +410,7 @@ Status NA
 							End-Section
 						otherwise use:
 							Section i_consecration12
+								Para role bkmrk05 sid misc.bookmark End-Para
 								Insert_section TI.apos.con End-Insert
 								Para role source0 sid ti.sourceEuchologion End-Para
 								Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Aposticha1.mode</>End-Title

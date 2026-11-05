@@ -40,7 +40,7 @@ Status Review
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_123as567 End-Insert
 		Insert_section CONS.VE_03_Stichera__.celebrated_saint__.as_8910 End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.celeb_saint End-Insert
 		Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert

@@ -61,7 +61,7 @@ Status NA
 		Set_mcDay day 120 End_mcDay
 		Title role desig sid pe.d120_gr_GR_cog.peDA.commemoration.title End-Title
 		Insert_section VE._03_Stichera__.pe__.i_1234as3456 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_1234as78910 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_1234as78910 End-Insert
 		Insert_section TI.g.pe.com1 End-Insert
 		Insert_section VE._03_Stichera__.glory__.pe__.gloryasglory_.hymn End-Insert
 		Insert_section HIRgoa.VE_03_CONS_SticBoth_clientname__.DEN End-Insert
@@ -71,7 +71,7 @@ Status NA
 		Set_Date month 5 day 30 year 2026 End_Date
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section HIRgoa.VE_06_Litanies__.DEN End-Insert
-		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
+		Insert_section CONS.VE_08_Aposticha__.consecration End-Insert
 		Set_mcDay day 120 End_mcDay
 		Insert_section TI.g.pe.com1 End-Insert
 		Insert_section VE._08_Aposticha__.gloryboth__.pe_.hymn End-Insert

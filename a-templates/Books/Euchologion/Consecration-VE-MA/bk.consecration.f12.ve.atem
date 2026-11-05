@@ -38,11 +38,11 @@ Status Review
 	Section Instance_f12
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
-		Insert_section CONS.VE_02_LordIHaveCried_Mode__.for8 End-Insert
+		Insert_section CONS.VE_02_LordIHaveCried_SelectedMode__.for8 End-Insert
 		Insert_section CONS.VE_03_Stichera__.feast__.as_345678 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_12as910 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_12as910 End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.feast_of_Lord End-Insert
-		Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname End-Insert
+		Insert_section CONS.VE_03_Stichera__.both__.consecration End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

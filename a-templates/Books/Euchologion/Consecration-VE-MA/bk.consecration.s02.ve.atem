@@ -40,10 +40,10 @@ Status Review
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_123as567 End-Insert
 	Insert_section bk.consecration.s02.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
-		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_and_consecration End-Insert
+		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_and_firsttheotokion End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 	Insert_section bk.consecration.s02.ve.church_date End-Insert

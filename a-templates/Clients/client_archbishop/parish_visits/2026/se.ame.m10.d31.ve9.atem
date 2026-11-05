@@ -51,7 +51,7 @@ Status NA
 		End-Section
 		Insert_section HIRgoa.VE_01_Beginning__.AME End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.mode6__.for8 End-Insert
-		Insert_section CONS.VE_03_Stichera__.i_1234as3456 End-Insert
+		Insert_section CONS.VE_03_Stichera__.consecration__.i_1234as3456 End-Insert
 		Set_Date month 4 day 23 year 2026 End_Date
 		Insert_section TI.me.com1 End-Insert
 		Insert_section VE._03_Stichera__.me__.p_1234as78910 End-Insert
@@ -61,7 +61,7 @@ Status NA
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section HIRgoa.VE_06_Litanies__.AME End-Insert
-		Insert_section CONS.VE_08_Aposticha__.i_consecration12 End-Insert
+		Insert_section CONS.VE_08_Aposticha__.consecration End-Insert
 		Set_Date month 4 day 23 year 2026 End_Date
 		Insert_section TI.g.me.com1 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
