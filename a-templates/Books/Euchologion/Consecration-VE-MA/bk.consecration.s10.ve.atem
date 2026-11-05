@@ -44,7 +44,7 @@ Status Review
 		Insert_section CONS.VE_03_Stichera__.i_1234as4567 End-Insert
 	Insert_section bk.consecration.s10.ve.church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
-		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_both_consecration End-Insert
+		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_and_consecration End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert

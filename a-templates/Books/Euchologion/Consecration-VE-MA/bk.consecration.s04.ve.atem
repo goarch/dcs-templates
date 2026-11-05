@@ -36,7 +36,7 @@ Status Review
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
 		Insert_section CONS.VE_03_Stichera__.i_123as567 End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_saint__.as_8910 End-Insert
-		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_both_consecration End-Insert
+		Insert_section CONS.VE_03_Stichera__.glory_and_both__.church_saint_and_consecration End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert

@@ -560,12 +560,13 @@ Status NA
 			Section celeb_saint_and_consecration
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.sticglory_celeb_saint_both_consecration End-Insert
 			End-Section
-			Section church_saint_both_consecration
+			Section church_saint_and_consecration
 				Insert_section Selector_ConsecrationChurchHymns.sticglory_church_saint_both_consecration End-Insert
 			End-Section
-		//	Section church_saint_or_celeb_and_consecration
-		//		Insert_section Selector_ConsecrationChurchHymns.sticglory_church_or_celeb_both_consecration End-Insert
-		//	End-Section
+			Section church_feast_and_consecration
+				Insert_section Selector_ConsecrationChurchHymns.sticglory_church_feast End-Insert
+				Insert_section CONS.VE_03_Stichera__.both__.consecration_with_clientname_ End-Insert
+			End-Section
 		End-Section
 		Section glory__
 			Section consecration_
@@ -817,6 +818,7 @@ Status NA
 	End-Section
 	Section VE_08_Aposticha__
 		Section selected
+			Para role bkmrk05 sid misc.bookmark End-Para
 			Insert_section Selector_ConsecrationVespersAposticha.feasts_saints_consecration End-Insert
 		End-Section
 		Section append__
@@ -834,7 +836,26 @@ Status NA
 			Insert_section PsalmVerses.forConsecration.verse2 End-Insert
 			Hymn sid eu.consecration_gr_GR_cog.euVE.Aposticha3.text @ver media-off End-Hymn
 		End-Section
+		Section both__
+			Section consecration
+				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euVE.AposGlory.mode End-Title
+				Media sid eu.consecration_gr_GR_cog.euVE.AposGlory.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euVE.AposGlory.text @ver media-off End-Hymn
+			End-Section
+			Section feast
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposboth_feast End-Insert
+			End-Section
+			Section feast_of_MotherofGod
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposboth_feastofmotherofgod End-Insert
+			End-Section
+		End-Section
 		Section glory_and_both__
+			Section church_feast_and_consecration
+				Insert_section Selector_ConsecrationChurchHymns.aposglory_church_feast End-Insert
+				Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
+			End-Section
 			Section church_saint_and_consecration
 				Insert_section Selector_ConsecrationChurchHymns.aposglory_church_saint_both_consecration End-Insert
 			End-Section
@@ -872,22 +893,8 @@ Status NA
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofmotherofgod End-Insert
 			End-Section
 		End-Section
-		Section both__
-			Section consecration
-				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
-				Para role source0 sid ti.sourceEuchologion End-Para
-				Title role mode sid eu.consecration_gr_GR_cog.euVE.AposGlory.mode End-Title
-				Media sid eu.consecration_gr_GR_cog.euVE.AposGlory.text End-Media
-				Hymn sid eu.consecration_gr_GR_cog.euVE.AposGlory.text @ver media-off End-Hymn
-			End-Section
-			Section feast
-				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposboth_feast End-Insert
-			End-Section
-			Section feast_of_MotherofGod
-				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposboth_feastofmotherofgod End-Insert
-			End-Section
-		End-Section
 		Section i_consecration12
+			Para role bkmrk05 sid misc.bookmark End-Para
 			Insert_section TI.apos.con End-Insert
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Aposticha1.mode</>End-Title

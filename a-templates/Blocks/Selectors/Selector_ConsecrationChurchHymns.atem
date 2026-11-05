@@ -192,6 +192,11 @@ Status Draft
 		End-Section
 	End-Section
 
+	Section sticglory_church_feast
+		Insert_section Selector_ConsecrationCelebSaintsFeasts.sticglory_feastofthelord End-Insert
+		Insert_section Selector_ConsecrationCelebSaintsFeasts.sticglory_feastofmotherofgod End-Insert
+	End-Section
+
 	Section sticglory_church_saint_both_consecration
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
@@ -246,6 +251,11 @@ Status Draft
 		end-when
 	End-Section
 
+	Section aposglory_church_feast
+		Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofthelord End-Insert
+		Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofmotherofgod End-Insert
+	End-Section
+	
 	Section aposglory_church_saint_both_consecration
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is

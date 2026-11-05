@@ -560,22 +560,27 @@ Status NA
 		End-Section
 
 		Section aposglory_feastofthelord //on feasts of the Lord
-			Insert_section TI.f End-Insert
 			Section hymn
 				when-movable-cycle-day-is
 					78, 95, 110, 120 use:
+						Insert_section TI.g.f End-Insert
 						Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 					otherwise use:
 						when-date-is
 							Jan 6 use:
+								Insert_section TI.g.f End-Insert
 								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 							Mar 25 use:
+								Insert_section TI.g.f End-Insert
 								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 							Aug 6 use:
+								Insert_section TI.g.f End-Insert
 								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 							Sep 14 use:
+								Insert_section TI.g.f End-Insert
 								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 							Dec 25 use:
+								Insert_section TI.g.f End-Insert
 								Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						end-when
 				end-when
@@ -583,16 +588,19 @@ Status NA
 		End-Section
 
 		Section aposglory_feastofmotherofgod //on feasts of the Mother of God
-			Insert_section TI.g.f End-Insert
 			Section hymn
 				when-date-is
 					Feb 2 use:
+						Insert_section TI.g.f End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Aug 15 use:
+						Insert_section TI.g.f End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Sep 8 use:
+						Insert_section TI.g.f End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Nov 21 use:
+						Insert_section TI.g.f End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				end-when
 			End-Section
