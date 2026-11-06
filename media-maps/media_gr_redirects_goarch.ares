@@ -1991,8 +1991,8 @@ me.m01.d07.meVE.Apolytikion1.c1012.score.w.url.path = "/media/m/newbyz/gr/me/m01
 me.m01.d07.meLI.TheotokosHymn.c1011.score.w.arranger = "NewByz/"
 me.m01.d07.meLI.TheotokosHymn.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m01/d07/li/w/theotokoshymn.pdf"
 
-me.m01.d11.meVE.MM.GeneralApolytikion1.c1011.score.w.arranger = "NewByz/"
-me.m01.d11.meVE.MM.GeneralApolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m01/d11/ve/w/generalapolytikion1.pdf"
+me.m01.d11.meVE.Apolytikion1.c1011.score.w.arranger = "NewByz/"
+me.m01.d11.meVE.Apolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m01/d11/ve/w/generalapolytikion1.pdf"
 
 me.m01.d15.meVE.Apolytikion1.c1011.score.w.arranger = "NewByz/"
 me.m01.d15.meVE.Apolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m01/d15/ve/w/apolytikion1.pdf"
@@ -3024,8 +3024,8 @@ me.m12.d04.meVE.Apolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m12
 me.m12.d04.meVE.MM.GeneralApolytikion2.c1011.score.w.arranger = "NewByz/"
 me.m12.d04.meVE.MM.GeneralApolytikion2.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m12/d04/ve/w/generalapolytikion2.pdf"
 
-me.m12.d05.meVE.MM.GeneralApolytikion1.c1011.score.w.arranger = "NewByz/"
-me.m12.d05.meVE.MM.GeneralApolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m12/d05/ve/w/generalapolytikion1.pdf"
+me.m12.d05.meVE.Apolytikion1.c1011.score.w.arranger = "NewByz/"
+me.m12.d05.meVE.Apolytikion1.c1011.score.w.url.path = "/media/m/newbyz/gr/me/m12/d05/ve/w/generalapolytikion1.pdf"
 
 me.m12.d06.meVE.SticBoth.c1211.score.b.arranger = "RBarrett/"
 me.m12.d06.meVE.SticBoth.c1211.score.b.url.path = "/media/m/barrett/gr/me/m12/d06/ve/b/sticboth.pdf"

@@ -74,7 +74,7 @@ Status NA
 		Insert_section AP.pe1_ End-Insert
 		Section hymns
 			Actor sid ac.Choir End-Actor
-			Insert_section AP.ganame.Dec05__.savas_ End-Insert
+			Insert_section AP.me1_ End-Insert
 			Set_Date month 5 day 21 End_Date
 			Title role desig sid ti.LocalChurch End-Title
 			Insert_section AP.me1_.hymn End-Insert

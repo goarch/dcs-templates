@@ -1436,17 +1436,6 @@ Status NA
 			End-Section
 		End-Section
 
-		Section Jan11__
-			Section theodosios_
-				Title role desig sid ti.Apolytikion sid ti.DevoutSaintM End-Title
-				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-					Media sid me.m01.d11_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m01.d11_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver End-Hymn
-				End-Section
-			End-Section
-		End-Section
-
 		Section Jan19__
 			Section makarios_
 				Title role desig sid ti.Apolytikion sid ho.ho15.m01_gr_GR_cog.hoD19.GeneralApolytikion1.title End-Title
@@ -2711,17 +2700,6 @@ Status NA
 			End-Section
 		End-Section
 
-		Section Dec05__
-			Section savas_
-				Title role desig sid ti.Apolytikion sid ti.DevoutSaintM End-Title
-				Section hymn
-					Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-					Media sid me.m12.d05_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-					Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m12.d05_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver End-Hymn
-				End-Section
-			End-Section
-		End-Section
-
 		Section Dec06__
 			Section nicholas_
 				Title role desig sid ti.Apolytikion sid ti.SaintM End-Title
@@ -2926,17 +2904,6 @@ Status NA
 						Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
 					//	Media sid me.m01.d02_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
 						Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid ho.ho15.m01_gr_GR_cog.hoD02.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver End-Hymn
-					End-Section
-				End-Section
-			End-Section
-
-			Section Jan11__
-				Section theodosios
-					Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
-					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-						Media sid me.m01.d11_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m01.d11_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -4166,17 +4133,6 @@ Status NA
 						Title role mode sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.mode End-Title
 						Media sid me.m12.d04_gr_GR_cog.meVE.MM.GeneralApolytikion2.text End-Media
 						Hymn sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.text1 sid me.m12.d04_gr_GR_cog.meVE.GeneralApolytikion2.name sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.text2 @ver End-Hymn
-					End-Section
-				End-Section
-			End-Section
-
-			Section Dec05__
-				Section savas
-					Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
-					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-						Media sid me.m12.d05_gr_GR_cog.meVE.MM.GeneralApolytikion1.text End-Media
-						Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m12.d05_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver End-Hymn
 					End-Section
 				End-Section
 			End-Section
@@ -6716,16 +6672,6 @@ Status NA
 				End-Section
 			End-Section
 
-			Section Jan11__
-				Section theodosios_
-					Title role desig sid ti.Apolytikion sid ti.DevoutSaintM End-Title
-					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m01.d11_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver media-off End-Hymn
-					End-Section
-				End-Section
-			End-Section
-
 			Section Jan19__
 				Section makarios_
 					Title role desig sid ti.Apolytikion sid ho.ho15.m01_gr_GR_cog.hoD19.GeneralApolytikion1.title End-Title
@@ -7832,16 +7778,6 @@ Status NA
 				End-Section
 			End-Section
 
-			Section Dec05__
-				Section savas_
-					Title role desig sid ti.Apolytikion sid ti.DevoutSaintM End-Title
-					Section hymn
-						Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-						Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m12.d05_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver media-off End-Hymn
-					End-Section
-				End-Section
-			End-Section
-
 			Section Dec06__
 				Section nicholas_
 					Title role desig sid ti.Apolytikion sid ti.SaintM End-Title
@@ -7998,16 +7934,6 @@ Status NA
 						Section hymn
 							Title role mode sid he.ga_gr_GR_cog.heGA.KanonaPisteos.mode End-Title
 							Hymn sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text1 sid ho.ho15.m01_gr_GR_cog.hoD02.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.KanonaPisteos.text2 @ver media-off End-Hymn
-						End-Section
-					End-Section
-				End-Section
-
-				Section Jan11__
-					Section theodosios
-						Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
-						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m01.d11_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section
@@ -9093,16 +9019,6 @@ Status NA
 						Section hymn
 							Title role mode sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.mode End-Title
 							Hymn sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.text1 sid me.m12.d04_gr_GR_cog.meVE.GeneralApolytikion2.name sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.text2 @ver media-off End-Hymn
-						End-Section
-					End-Section
-				End-Section
-
-				Section Dec05__
-					Section savas
-						Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
-						Section hymn
-							Title role mode sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.mode End-Title
-							Hymn sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text1 sid me.m12.d05_gr_GR_cog.meVE.GeneralApolytikion1.name sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.text2 @ver media-off End-Hymn
 						End-Section
 					End-Section
 				End-Section

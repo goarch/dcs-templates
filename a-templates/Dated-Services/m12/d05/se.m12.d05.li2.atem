@@ -76,7 +76,7 @@ Status Final
 			Section Instance_Weekday
 				Insert_section ST.li.me1 End-Insert
 				Insert_section LI._10_Parts__._1_antiphons__.celebrated_saint End-Insert
-				Insert_section AP.ganame.Dec05__.savas_ End-Insert
+				Insert_section AP.me1_ End-Insert
 				Break line End_Break
 				Insert_section LI._10_Parts__._4_entrance End-Insert
 				Break line End_Break

@@ -52,7 +52,7 @@ Status Final
 				Insert_section MA._01_Beginning__.modeofweek End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
 				Insert_section TI.g.s._10_monastic_.m End-Insert
-				Insert_section AP.ganame.Dec05__.savas_.hymn End-Insert
+				Insert_section AP.me1_.hymn End-Insert
 				Insert_section AP.both__.primarytheotokion__.mode8 End-Insert
 				Insert_section MA._02_Kathisma1__.litany End-Insert
 				Insert_section MA._02_Kathisma1__.oc__.sunday__.whenmode8 End-Insert
@@ -80,7 +80,7 @@ Status Final
 			Section Instance_Weekday
 				Insert_section ST.ma.me End-Insert
 				Insert_section MA._01_Beginning__.mode8 End-Insert
-				Insert_section AP.ganame.Dec05__.savas_ End-Insert
+				Insert_section AP.me1_ End-Insert
 				Insert_section TI.g.r End-Insert
 				Insert_section AP.both__.primarytheotokion__.mode8 End-Insert
 				Insert_section MA._02_Kathisma1__.litany End-Insert
@@ -99,7 +99,7 @@ Status Final
 				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 				Insert_section MA._13_Lauds__.both__.theotokion__.mode6_selector End-Insert
 				Insert_section MA._14_Doxology__.great End-Insert
-				Insert_section AP.ganame.Dec05__.savas_ End-Insert
+				Insert_section AP.me1_ End-Insert
 				Insert_section MA2._19_End_Options End-Insert
 				Insert_section MA._20_Dismissal__.commemoration End-Insert
 			End-Section

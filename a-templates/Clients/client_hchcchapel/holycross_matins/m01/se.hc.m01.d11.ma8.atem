@@ -44,7 +44,7 @@ Status Final
 		Insert_section ST.ma.me1 End-Insert
 		Insert_section HC.MA._00_weekday_ordinary End-Insert
 		Insert_section MA._01_Beginning__.mode8 End-Insert
-		Insert_section AP.ganame.Jan11__.theodosios_ End-Insert
+		Insert_section AP.me1_ End-Insert
 		Insert_section AP.gloryboth__.af End-Insert
 		Insert_section MA._11_Kontakion__.me1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
@@ -72,7 +72,7 @@ Status Final
 		Insert_section TI.b.f End-Insert
 		Insert_section MA._13_Lauds__.both__.me__.bothasboth_.hymn End-Insert
 		Insert_section MA._17_ItIsGood_Trisagion__.not_lent End-Insert
-		Insert_section AP.ganame.Jan11__.theodosios_ End-Insert
+		Insert_section AP.me1_ End-Insert
 		Insert_section AP.gloryboth__.af End-Insert
 		Insert_section HC.LE._01_Epistle__.menaion_ End-Insert
 		Insert_section HC.LE._02_Gospel__.epiphany__.jan11_Luke4_ End-Insert
