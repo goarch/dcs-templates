@@ -3031,6 +3031,30 @@ Status NA
 						Hymn rid meVE.Stichera03.text @ver media-off End-Hymn
 				end-when
 			End-Section
+			Section p_124as567
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role mode rid meVE.Stichera01.mode<Tmelody>rid meVE.Stichera01.melody</>End-Title
+				Title role greekmelody rid meVE.Stichera01.greekmelody End-Title
+				Media rid meVE.MM.Stichera124as567.text End-Media
+				Insert_section VE.LIHC_Verses.v05 End-Insert
+				Hymn rid meVE.Stichera01.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn rid meVE.Stichera02.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v07 End-Insert
+				Hymn rid meVE.Stichera03.text @ver media-off End-Hymn
+			End-Section
+			Section p_124as678
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role mode rid meVE.Stichera01.mode<Tmelody>rid meVE.Stichera01.melody</>End-Title
+				Title role greekmelody rid meVE.Stichera01.greekmelody End-Title
+				Media rid meVE.MM.Stichera124as678.text End-Media
+				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn rid meVE.Stichera01.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v07 End-Insert
+				Hymn rid meVE.Stichera02.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v08 End-Insert
+				Hymn rid meVE.Stichera03.text @ver media-off End-Hymn
+			End-Section
 			Section p_124as8910
 				Para role source0 sid ti.sourceMenaion End-Para
 				when-exists rid meVE.Stichera.notice use:
@@ -3097,6 +3121,20 @@ Status NA
 				Media rid meVE.Stichera06.text End-Media
 				Insert_section VE.LIHC_Verses.v10 End-Insert
 				Hymn rid meVE.Stichera06.text @ver media-off End-Hymn
+			End-Section
+			Section p_1245as78910
+				Para role source0 sid ti.sourceMenaion End-Para
+				Media rid meVE.MM.Stichera1234as78910.text End-Media
+				Title role mode rid meVE.Stichera01.mode<Tmelody>rid meVE.Stichera01.melody</>End-Title
+				Title role greekmelody rid meVE.Stichera01.greekmelody End-Title
+				Insert_section VE.LIHC_Verses.v07 End-Insert
+				Hymn rid meVE.Stichera01.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v08 End-Insert
+				Hymn rid meVE.Stichera02.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v09 End-Insert
+				Hymn rid meVE.Stichera04.text @ver media-off End-Hymn
+				Insert_section VE.LIHC_Verses.v10 End-Insert
+				Hymn rid meVE.Stichera05.text @ver media-off End-Hymn
 			End-Section
 			Section p_3345as78910
 				Para role source0 sid ti.sourceMenaion End-Para

@@ -798,13 +798,6 @@ Status NA
 			End-Section
 		End-Section
 		Section glory_and_both__
-			Section celeb_saint_and_consecration
-				Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_celeb_saint_both_consecration End-Insert
-			End-Section
-			Section church_feast_and_consecration
-				Insert_section Selector_ConsecrationChurchHymns.aposglory_church_feast End-Insert
-				Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
-			End-Section
 			Section church_saint_and_consecration
 				Insert_section Selector_ConsecrationChurchHymns.aposglory_church_saint_both_consecration End-Insert
 			End-Section
