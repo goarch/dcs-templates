@@ -2801,6 +2801,9 @@ Status NA
 		Section f
 			Title role desig sid ti.Kathisma1<Tdesig>sid ti.Feast</>End-Title
 		End-Section
+		Section local_church
+			Title role desig sid ti.Kathisma1<Tdesig>sid ti.LocalChurch</>End-Title
+		End-Section
 		Section me
 			Section com1
 				Title role desig sid ti.Kathisma1<Tdesig>rid meDA.commemoration.first_title</>End-Title
@@ -2960,6 +2963,9 @@ Status NA
 		End-Section
 		Section f
 			Title role desig sid ti.Kathisma2<Tdesig>sid ti.Feast</>End-Title
+		End-Section
+		Section local_church
+			Title role desig sid ti.Kathisma2<Tdesig>sid ti.LocalChurch</>End-Title
 		End-Section
 		Section me
 			Section com1
