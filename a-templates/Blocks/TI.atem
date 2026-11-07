@@ -2946,6 +2946,9 @@ Status NA
 					Title role desig sid ti.Kathisma1<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
 			End-Section
+			Section _16_theotokos
+				Title role desig sid ti.Kathisma1<Tdesig>sid ti.Theotokos</>End-Title
+			End-Section
 		End-Section
 		Section tr
 			Section com1
@@ -3105,6 +3108,9 @@ Status NA
 				Section mp
 					Title role desig sid ti.Kathisma2<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
+			End-Section
+			Section _16_theotokos
+				Title role desig sid ti.Kathisma2<Tdesig>sid ti.Theotokos</>End-Title
 			End-Section
 		End-Section
 		Section tr
@@ -3282,6 +3288,9 @@ Status NA
 				Section mp
 					Title role desig sid ti.Kathisma3<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
+			End-Section
+			Section _16_theotokos
+				Title role desig sid ti.Kathisma3<Tdesig>sid ti.Theotokos</>End-Title
 			End-Section
 		End-Section
 		Section tr

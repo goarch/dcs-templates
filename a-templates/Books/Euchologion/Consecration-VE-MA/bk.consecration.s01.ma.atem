@@ -40,9 +40,8 @@ Status Draft
 		Insert_section MA._01_Beginning__.mode4 End-Insert
 		Insert_section AP.con End-Insert
 		Insert_section AP.glory__.client1 End-Insert
-		Insert_section AP.both__.con End-Insert
+		Insert_section AP.both__.feast End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-	Insert_section bk.consecration.s01.ma.church_date End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.church_saint_and_consecration End-Insert

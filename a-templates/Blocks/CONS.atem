@@ -871,100 +871,187 @@ Status NA
 	End-Section
 
 	Section MA_01_Beginning__
-		Section modeofchurch
-			Insert_section Selector_ConsecrationMatins.GodIsTheLord_mode_of_church End-Insert
+		Section mode_of_church
+			Insert_section Selector_ConsecrationMatins.GodIsTheLord_modeofchurch End-Insert
+		End-Section
+		Section mode_of_feast
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.GodIsTheLord_modeoffeast End-Insert
 		End-Section
 	End-Section
 
 	Section MA_02_Kathisma1__
+		Section both__
+			Section consecration
+				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+			End-Section
+			Section feast_of_Lord
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_both_feastofthelord End-Insert
+			End-Section
+			Section feast_of_MotherofGod
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_both_feastofmotherofgod End-Insert
+			End-Section
+		End-Section
+		Section celeb_saint
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_celeb_saint End-Insert
+		End-Section
 		Section church_saint_and_consecration
 			Para role bkmrk03 sid misc.bookmark End-Para
 			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma1_church_saint_and_consecration End-Insert
 		End-Section
-		Section kathisma
+		Section consecration
 			Title<Tdesig>sid ti.Kathisma1 sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
 		End-Section
-		Section both
-			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+		Section feast_of_Lord
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofthelord End-Insert
 		End-Section
-		Section gloryboth
-			Title sid ti.GloryBothNow End-Title
-			Title role desig sid ti.Consecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+		Section feast_of_MotherofGod
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofmotherofgod End-Insert
+		End-Section
+		Section glory__
+			Section celeb_saint
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_glory_celeb_saint End-Insert
+			End-Section
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+			End-Section
+		End-Section
+		Section gloryboth__
+			Section consecration
+				Title sid ti.GloryBothNow End-Title
+				Title role desig sid ti.Consecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+			End-Section
 		End-Section
 	End-Section
 	Section MA_03_Kathisma2__
+		Section both__
+			Section consecration
+				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+			End-Section
+			Section feast_of_Lord
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_both_feastofthelord End-Insert
+			End-Section
+			Section feast_of_MotherofGod
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_both_feastofmotherofgod End-Insert
+			End-Section
+		End-Section
+		Section celeb_saint
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_celeb_saint End-Insert
+		End-Section
 		Section church_saint_and_consecration
 			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma2_church_saint_and_consecration End-Insert
 		End-Section
-		Section kathisma
+		Section consecration
 			Title<Tdesig>sid ti.Kathisma2 sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
 		End-Section
-		Section both
-			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+		Section feast_of_Lord
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_feastofthelord End-Insert
 		End-Section
-		Section gloryboth
-			Title sid ti.GloryBothNow End-Title
-			Title role desig sid ti.Consecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+		Section feast_of_MotherofGod
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_feastofmotherofgod End-Insert
+		End-Section
+		Section glory__
+			Section celeb_saint
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_glory_celeb_saint End-Insert
+			End-Section
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+			End-Section
+		End-Section
+		Section gloryboth__
+			Section consecration
+				Title sid ti.GloryBothNow End-Title
+				Title role desig sid ti.Consecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+			End-Section
 		End-Section
 	End-Section
 	Section MA_05_Kathisma3__
-		Section church_saint_and_consecration
-			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma3_church_saint_and_consecration End-Insert
-		End-Section
-		Section append_
-			Title role desig sid ti.Kathisma3<Tdesig>sid ti.Consecration</>End-Title
-			Section hymn
+		Section both__
+			Section consecration
+				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 			End-Section
+			Section feast_of_Lord
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_both_feastofthelord End-Insert
+			End-Section
+			Section feast_of_MotherofGod
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_both_feastofmotherofgod End-Insert
+			End-Section
 		End-Section
-		Section kathisma
+		Section celeb_saint
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_celeb_saint End-Insert
+		End-Section
+		Section church_saint_and_consecration
+			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma3_church_saint_and_consecration End-Insert
+		End-Section
+		Section consecration
 			Title<Tdesig>sid ti.Kathisma3 sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 		End-Section
-		Section both
-			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+		Section feast_of_Lord
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_feastofthelord End-Insert
 		End-Section
-		Section gloryboth
-			Title sid ti.GloryBothNow End-Title
-			Title role desig sid ti.Consecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+		Section feast_of_MotherofGod
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_feastofmotherofgod End-Insert
+		End-Section
+		Section glory__
+			Section celeb_saint
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_glory_celeb_saint End-Insert
+			End-Section
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+			End-Section
+		End-Section
+		Section gloryboth__
+			Section consecration
+				Title sid ti.GloryBothNow End-Title
+				Title role desig sid ti.Consecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+			End-Section
 		End-Section
 	End-Section
 	Section MA_10_Canon__

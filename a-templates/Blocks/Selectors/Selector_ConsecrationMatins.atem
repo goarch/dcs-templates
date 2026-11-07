@@ -20,7 +20,7 @@ Status NA
 	import roles.*
 
 
-		Section GodIsTheLord_mode_of_church
+		Section GodIsTheLord_modeofchurch
 			when-movable-cycle-day-is
 				78 use:
 					Insert_section MA._01_Beginning__.mode7 End-Insert
