@@ -33,6 +33,8 @@ Status Draft
 		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 	End-Section
+	
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_s10
 		Insert_section CONS.Service_Title__.Matins End-Insert
 		Insert_section MA._01_Beginning__.mode4 End-Insert
@@ -40,25 +42,19 @@ Status Draft
 		Insert_section AP.glory__.client1 End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-		Insert_section CONS.MA_02_Kathisma1__.consecration End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
+		Insert_section MA._02_Kathisma1__.consecration End-Insert
 	Insert_section bk.consecration.s10.ma.church_date End-Insert
-
-		Insert_section TI.g.local_church End-Insert
-		Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
-
-		Insert_section TI.b.f End-Insert
-	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-		Insert_section MA._02_Kathisma1__.both__.feast End-Insert
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section CONS.MA_03_Kathisma2__.consecration End-Insert
+		Insert_section CONS.MA_02_Kathisma1__.glory__.church_saint_and_feast End-Insert
+		Insert_section MA._03_Kathisma2__.consecration End-Insert
 	Insert_section bk.consecration.s10.ma.church_date End-Insert
-		Insert_section TI.g.local_church End-Insert
-
-		Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
-		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-
-		Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+		Insert_section CONS.MA_03_Kathisma2__.glory__.church_saint_and_feast End-Insert
+		Insert_section MA._05_Kathisma3__.consecration End-Insert
+	Insert_section bk.consecration.s10.ma.church_date End-Insert
+		Insert_section CONS.MA_05_Kathisma3__.glory__.church_saint_and_feast End-Insert
+		
+		
+		
+		
 	Insert_section bk.consecration.s10.ma.church_date End-Insert
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert

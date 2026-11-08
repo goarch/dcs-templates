@@ -20,7 +20,7 @@ Status Draft
 	import roles.*
 
 
-	Section church_feast_stichera
+	Section stichera_church_feast
 		Section as_123
 			Insert_section TI.local_church End-Insert
 			when-movable-cycle-day-is
@@ -199,7 +199,7 @@ Status Draft
 		End-Section
 	End-Section
 
-	Section church_saint_stichera
+	Section stichera_church_saint
 		Section as_78910
 			Insert_section TI.local_church End-Insert
 			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -260,7 +260,6 @@ Status Draft
 					end-when
 			end-when
 		End-Section
-
 		Section as_8910
 			Insert_section TI.local_church End-Insert
 			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -316,7 +315,6 @@ Status Draft
 					end-when
 			end-when
 		End-Section
-
 		Section as_910
 			Insert_section TI.local_church End-Insert
 			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -733,6 +731,773 @@ Status Draft
 				end-when
 		end-when
 	End-Section
+
+	Section Kathisma1_church_saint_and_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section MA._02_Kathisma1__.consecration End-Insert
+				Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.ka1.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma11.text use:
+								Insert_section TI.ka1.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
+								Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+							otherwise use:
+								Insert_section MA._02_Kathisma1__.consecration End-Insert
+								Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma2_church_saint_and_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section MA._03_Kathisma2__.consecration End-Insert
+				Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.ka2.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma21.text use:
+								Insert_section TI.ka2.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
+								Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+							otherwise use:
+								Insert_section MA._03_Kathisma2__.consecration End-Insert
+								Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma3_church_saint_and_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section MA._05_Kathisma3__.consecration End-Insert
+				Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.ka3.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma31.text use:
+								Insert_section TI.ka3.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
+								Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+							otherwise use:
+								Insert_section MA._05_Kathisma3__.consecration End-Insert
+								Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+
+	Section Kathisma1_glory_church_saint_both_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma11.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._02_Kathisma1__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma2_glory_church_saint_both_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma21.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._03_Kathisma2__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma3_glory_church_saint_both_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma31.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._05_Kathisma3__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+
+	Section Kathisma1_glory_church_saint_both_feast
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._02_Kathisma1__.gloryboth__.feast End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma11.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._02_Kathisma1__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma2_glory_church_saint_both_feast
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._03_Kathisma2__.gloryboth__.feast End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma21.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._03_Kathisma2__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+	Section Kathisma3_glory_church_saint_both_feast
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				Insert_section MA._05_Kathisma3__.gloryboth__.feast End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Kathisma31.text use:
+								Insert_section TI.g.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+							otherwise use:
+								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+								Insert_section MA._05_Kathisma3__.gloryboth__.feast End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
+
+
+
+
+
+
+
+
 
 
 //blocks

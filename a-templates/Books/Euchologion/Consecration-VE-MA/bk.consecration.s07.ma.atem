@@ -44,13 +44,13 @@ Status Draft
 		Insert_section AP.both__.feast End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.feast_of_Lord End-Insert
-		Insert_section CONS.MA_02_Kathisma1__.glory__.consecration End-Insert
+		Insert_section MA._02_Kathisma1__.glory__.consecration End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.both__.feast_of_Lord End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.feast_of_Lord End-Insert
-		Insert_section CONS.MA_03_Kathisma2__.glory__.consecration End-Insert
+		Insert_section MA._03_Kathisma2__.glory__.consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.both__.feast_of_Lord End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.feast_of_Lord End-Insert
-		Insert_section CONS.MA_05_Kathisma3__.glory__.consecration End-Insert
+		Insert_section MA._05_Kathisma3__.glory__.consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.both__.feast_of_Lord End-Insert
 		
 

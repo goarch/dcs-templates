@@ -43,11 +43,11 @@ Status Draft
 		Insert_section AP.both__.con End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.celeb_saint End-Insert
-		Insert_section CONS.MA_02_Kathisma1__.gloryboth__.consecration End-Insert
+		Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.celeb_saint End-Insert
-		Insert_section CONS.MA_03_Kathisma2__.gloryboth__.consecration End-Insert
+		Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.celeb_saint End-Insert
-		Insert_section CONS.MA_05_Kathisma3__.gloryboth__.consecration End-Insert
+		Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
 		
 
 

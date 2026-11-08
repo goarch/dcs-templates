@@ -1,0 +1,102 @@
+Template bk.consecration.s12.ma
+
+Status Draft
+
+//s12
+//When the church is named for a saint
+//When the consecration is conducted on a Sunday, during a festal period, without a celebrated saint
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		//The full date of the consecration needs to be set here
+		Set_Date month 0 day 0 year 0000 End_Date
+	End_Head
+
+	Section church_date
+		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	End-Section
+	
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+	Section Instance_s12
+		Insert_section CONS.Service_Title__.Matins End-Insert
+		Insert_section MA._01_Beginning__.modeofweek End-Insert
+		Insert_section AP.res__.modeofweek End-Insert
+		Insert_section AP.glory__.client1 End-Insert
+		Insert_section AP.both__.con End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.oc__.sunday__.kath1112 End-Insert
+		Insert_section MA._02_Kathisma1__.both__.consecration End-Insert
+		Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath2122 End-Insert
+		Insert_section MA._03_Kathisma2__.both__.consecration End-Insert
+
+		Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
+		Insert_section MA._06_Antiphons__.sunday_ End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section hKA._1345678 End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+		Insert_section MA._08_Supplication__.priest__.plain End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section KA.append__._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section MA._12_Exaposteilarion__.hierarchical__.eo__.eoofweek_.exap End-Insert
+
+
+
+
+
+
+
+
+
+
+//	Insert_section bk.consecration.s12.ma.church_date End-Insert
+
+
+
+	End-Section
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+End-Template

@@ -583,7 +583,7 @@ Status NA
 			Insert_section LN.ShortLitany02_priest_choir End-Insert
 		End-Section
 		Section both__
-			Section con
+			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
@@ -654,7 +654,22 @@ Status NA
 				Insert_section AP.both__.primarytheotokion__.modeofweek End-Insert
 			End-Section
 		End-Section
+		Section consecration
+			Para role bkmrk03 sid misc.bookmark End-Para
+			Insert_section TI.ka1.consecration End-Insert
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+		End-Section
 		Section glory__
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
+			End-Section
 			Section me__
 				Section kath11_
 					Title sid ti.Glory End-Title
@@ -679,7 +694,7 @@ Status NA
 			End-Section
 		End-Section
 		Section gloryboth__
-			Section con
+			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
@@ -3071,7 +3086,7 @@ Status NA
 			Insert_section LN.ForSoulSaturday_deacon_choir End-Insert
 		End-Section
 		Section both__
-			Section con
+			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
@@ -3113,7 +3128,21 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
+		Section consecration
+			Insert_section TI.ka2.consecration End-Insert
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+		End-Section
 		Section glory__
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+			End-Section
 			Section me__
 				Section kath21_
 					Title sid ti.Glory End-Title
@@ -3138,7 +3167,7 @@ Status NA
 			End-Section
 		End-Section
 		Section gloryboth__
-			Section con
+			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
@@ -4367,7 +4396,7 @@ Status NA
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.ResEvlog7.text media-off<r>sid ru.Thrice media-off</>End-Hymn
 		End-Section
 		Section both__
-			Section con
+			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
@@ -4378,8 +4407,24 @@ Status NA
 				Insert_section Selector_FestalKathismata.both.kath3 End-Insert
 			End-Section
 		End-Section
+		Section consecration
+			Insert_section TI.ka3.consecration End-Insert
+			Para role source0 sid ti.sourceEuchologion End-Para
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
+			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
+			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+		End-Section
+		Section glory__
+			Section consecration
+				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+			End-Section
+		End-Section
 		Section gloryboth__
-			Section con
+			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title

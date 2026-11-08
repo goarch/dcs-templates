@@ -460,27 +460,27 @@ Status NA
 	Section VE_03_Stichera__
 		Section church_feast__
 			Section as_123
-				Insert_section Selector_ConsecrationChurchHymns.church_feast_stichera.as_123 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_feast.as_123 End-Insert
 			End-Section
 			Section as_3456
-				Insert_section Selector_ConsecrationChurchHymns.church_feast_stichera.as_3456 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_feast.as_3456 End-Insert
 			End-Section
 			Section as_567
-				Insert_section Selector_ConsecrationChurchHymns.church_feast_stichera.as_567 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_feast.as_567 End-Insert
 			End-Section
 			Section as_5678
-				Insert_section Selector_ConsecrationChurchHymns.church_feast_stichera.as_5678 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_feast.as_5678 End-Insert
 			End-Section
 		End-Section
 		Section church_saint__
 			Section as_78910
-				Insert_section Selector_ConsecrationChurchHymns.church_saint_stichera.as_78910 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_saint.as_78910 End-Insert
 			End-Section
 			Section as_8910
-				Insert_section Selector_ConsecrationChurchHymns.church_saint_stichera.as_8910 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_saint.as_8910 End-Insert
 			End-Section
 			Section as_910
-				Insert_section Selector_ConsecrationChurchHymns.church_saint_stichera.as_910 End-Insert
+				Insert_section Selector_ConsecrationChurchHymns.stichera_church_saint.as_910 End-Insert
 			End-Section
 		End-Section
 		Section celebrated_saint__
@@ -888,6 +888,10 @@ Status NA
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
 				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
 			End-Section
+			Section feast
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_both_feastofthelord End-Insert
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_both_feastofmotherofgod End-Insert
+			End-Section
 			Section feast_of_Lord
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_both_feastofthelord End-Insert
 			End-Section
@@ -896,28 +900,40 @@ Status NA
 			End-Section
 		End-Section
 		Section celeb_saint
+			Para role bkmrk03 sid misc.bookmark End-Para
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_celeb_saint End-Insert
 		End-Section
 		Section church_saint_and_consecration
 			Para role bkmrk03 sid misc.bookmark End-Para
-			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma1_church_saint_and_consecration End-Insert
+			Insert_section Selector_ConsecrationChurchHymns.Kathisma1_church_saint_and_consecration End-Insert
 		End-Section
 		Section consecration
+			Para role bkmrk03 sid misc.bookmark End-Para
 			Title<Tdesig>sid ti.Kathisma1 sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
 		End-Section
+		Section feast
+			Para role bkmrk03 sid misc.bookmark End-Para
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofthelord End-Insert
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofmotherofgod End-Insert
+		End-Section
 		Section feast_of_Lord
+			Para role bkmrk03 sid misc.bookmark End-Para
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofthelord End-Insert
 		End-Section
 		Section feast_of_MotherofGod
+			Para role bkmrk03 sid misc.bookmark End-Para
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_feastofmotherofgod End-Insert
 		End-Section
 		Section glory__
 			Section celeb_saint
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma1_glory_celeb_saint End-Insert
+			End-Section
+			Section church_saint_and_feast
+				Insert_section Selector_ConsecrationChurchHymns.Kathisma1_glory_church_saint_both_feast End-Insert
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
@@ -947,6 +963,10 @@ Status NA
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
 				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
 			End-Section
+			Section feast
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_both_feastofthelord End-Insert
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_both_feastofmotherofgod End-Insert
+			End-Section
 			Section feast_of_Lord
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_both_feastofthelord End-Insert
 			End-Section
@@ -958,7 +978,7 @@ Status NA
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_celeb_saint End-Insert
 		End-Section
 		Section church_saint_and_consecration
-			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma2_church_saint_and_consecration End-Insert
+			Insert_section Selector_ConsecrationChurchHymns.Kathisma2_church_saint_and_consecration End-Insert
 		End-Section
 		Section consecration
 			Title<Tdesig>sid ti.Kathisma2 sid ti.Consecration</>End-Title
@@ -966,6 +986,11 @@ Status NA
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
+		End-Section
+		Section feast
+			Para role bkmrk03 sid misc.bookmark End-Para
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_feastofthelord End-Insert
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_feastofmotherofgod End-Insert
 		End-Section
 		Section feast_of_Lord
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_feastofthelord End-Insert
@@ -976,6 +1001,9 @@ Status NA
 		Section glory__
 			Section celeb_saint
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma2_glory_celeb_saint End-Insert
+			End-Section
+			Section church_saint_and_feast
+				Insert_section Selector_ConsecrationChurchHymns.Kathisma2_glory_church_saint_both_feast End-Insert
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
@@ -1005,6 +1033,10 @@ Status NA
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 				Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 			End-Section
+			Section feast
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_both_feastofthelord End-Insert
+				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_both_feastofmotherofgod End-Insert
+			End-Section
 			Section feast_of_Lord
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_both_feastofthelord End-Insert
 			End-Section
@@ -1016,7 +1048,7 @@ Status NA
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_celeb_saint End-Insert
 		End-Section
 		Section church_saint_and_consecration
-			Insert_section Selector_ConsecrationMatinsKathismata.Kathisma3_church_saint_and_consecration End-Insert
+			Insert_section Selector_ConsecrationChurchHymns.Kathisma3_church_saint_and_consecration End-Insert
 		End-Section
 		Section consecration
 			Title<Tdesig>sid ti.Kathisma3 sid ti.Consecration</>End-Title
@@ -1024,6 +1056,11 @@ Status NA
 			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 			Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
+		End-Section
+		Section feast
+			Para role bkmrk03 sid misc.bookmark End-Para
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_feastofthelord End-Insert
+			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_feastofmotherofgod End-Insert
 		End-Section
 		Section feast_of_Lord
 			Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_feastofthelord End-Insert
@@ -1034,6 +1071,9 @@ Status NA
 		Section glory__
 			Section celeb_saint
 				Insert_section Selector_ConsecrationCelebSaintsFeasts.kathisma3_glory_celeb_saint End-Insert
+			End-Section
+			Section church_saint_and_feast
+				Insert_section Selector_ConsecrationChurchHymns.Kathisma3_glory_church_saint_both_feast End-Insert
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title

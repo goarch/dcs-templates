@@ -44,12 +44,12 @@ Status Draft
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Insert_section MA._02_Kathisma1__.oc__.sunday__.kath11 End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.glory__.celeb_saint End-Insert
-		Insert_section CONS.MA_02_Kathisma1__.both__.consecration End-Insert
+		Insert_section MA._02_Kathisma1__.both__.consecration End-Insert
 		Insert_section MA._03_Kathisma2__.oc__.sunday__.kath21 End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.glory__.celeb_saint End-Insert
-		Insert_section CONS.MA_03_Kathisma2__.both__.consecration End-Insert
+		Insert_section MA._03_Kathisma2__.both__.consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.celeb_saint End-Insert
-		Insert_section CONS.MA_05_Kathisma3__.gloryboth__.consecration End-Insert
+		Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
 		
 
 

@@ -2798,6 +2798,9 @@ Status NA
 		Section _
 			Title role desig sid ti.Kathisma1 End-Title
 		End-Section
+		Section consecration
+			Title role desig sid ti.Kathisma1<Tdesig>sid ti.Consecration</>End-Title
+		End-Section
 		Section f
 			Title role desig sid ti.Kathisma1<Tdesig>sid ti.Feast</>End-Title
 		End-Section
@@ -2963,6 +2966,9 @@ Status NA
 	Section ka2 //kathisma 2
 		Section _
 			Title role desig sid ti.Kathisma2 End-Title
+		End-Section
+		Section consecration
+			Title role desig sid ti.Kathisma2<Tdesig>sid ti.Consecration</>End-Title
 		End-Section
 		Section f
 			Title role desig sid ti.Kathisma2<Tdesig>sid ti.Feast</>End-Title
@@ -3130,7 +3136,7 @@ Status NA
 		Section client1
 			Title role desig sid ti.Kathisma3<Tdesig>sid client_gr_GR_cog.cl.localchurch.title</>End-Title
 		End-Section
-		Section con
+		Section consecration
 			Title role desig sid ti.Kathisma3<Tdesig>sid ti.Consecration</>End-Title
 		End-Section
 		Section f
