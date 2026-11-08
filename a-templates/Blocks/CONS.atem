@@ -1058,7 +1058,6 @@ Status NA
 			Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
 		End-Section
 		Section feast
-			Para role bkmrk03 sid misc.bookmark End-Para
 			Insert_section Selector_Consecration_CelebSaintsFeasts.kathisma3_feastofthelord End-Insert
 			Insert_section Selector_Consecration_CelebSaintsFeasts.kathisma3_feastofmotherofgod End-Insert
 		End-Section

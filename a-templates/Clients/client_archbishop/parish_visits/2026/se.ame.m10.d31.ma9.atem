@@ -50,10 +50,10 @@ Status NA
 			Title<bnr>sid ma.html.tab</>End-Title
 		End-Section
 		Insert_section MA._01_Beginning__.mode4 End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Insert_section TI.g._ End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.AME End-Insert
-		Insert_section AP.both__.con End-Insert
+		Insert_section AP.both__.consecration End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Set_Date month 4 day 23 year 2026 End_Date
 		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
@@ -91,7 +91,7 @@ Status NA
 		Set_Date month 10 day 31 year 2026 End_Date
 		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Insert_section HIRgoa.MA_18_End__.AME End-Insert
 		Insert_section HIRgoa.VEMA_Dismissal__.AME End-Insert
 	End-Section

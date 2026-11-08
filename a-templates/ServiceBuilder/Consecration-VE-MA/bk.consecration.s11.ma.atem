@@ -38,7 +38,7 @@ Status Draft
 	Section Instance_s11
 		Insert_section CONS.Service_Title__.Matins End-Insert
 		Insert_section MA._01_Beginning__.mode4 End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Insert_section CONS.AP.celeb_saint End-Insert
 		Insert_section AP.glory__.client1 End-Insert
 		Insert_section AP.both__.af End-Insert
@@ -78,7 +78,7 @@ Status Draft
 		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Section End
 			Insert_section LN.FervLitany_short_deacon_choir End-Insert
 			Insert_section LN.CompLitanyMA_deacon_choir End-Insert

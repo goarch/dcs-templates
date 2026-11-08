@@ -25,14 +25,12 @@ Status Review
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
-//	Section church_date
-		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
-		//Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
-//	End-Section
+	Section church_date
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	End-Section
 	
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_f11
@@ -52,7 +50,7 @@ Status Review
 		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Insert_section CONS.AP.glory__.celeb_saint End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section VE._10_End__.hierarchical__.wisdom123.part1 End-Insert

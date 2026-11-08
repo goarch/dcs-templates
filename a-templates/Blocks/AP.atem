@@ -48,7 +48,7 @@ Status NA
 			Media sid client_gr_GR_cog.cl.Apolytikion1.text End-Media
 			Hymn sid client_gr_GR_cog.cl.Apolytikion1.text @ver media-off End-Hymn
 		End-Section
-		Section con
+		Section consecration
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.Apolytikion.mode<Tmelody>sid eu.consecration_gr_GR_cog.euVE.Apolytikion.melody</>End-Title
@@ -1089,7 +1089,7 @@ Status NA
 			End-Section
 		End-Section
 	End-Section
-	Section con
+	Section consecration
 		Title role desig sid ti.Apolytikion sid ti.Consecration End-Title
 		Para role source0 sid ti.sourceEuchologion End-Para
 		Title role mode sid eu.consecration_gr_GR_cog.euVE.Apolytikion.mode<Tmelody>sid eu.consecration_gr_GR_cog.euVE.Apolytikion.melody</>End-Title
@@ -6593,7 +6593,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
-		Section con_
+		Section consecration_
 			Title role desig sid ti.Apolytikion sid ti.Consecration End-Title
 			Section hymn
 				Para role source0 sid ti.sourceEuchologion End-Para

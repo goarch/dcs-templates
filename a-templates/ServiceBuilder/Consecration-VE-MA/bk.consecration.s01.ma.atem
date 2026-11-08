@@ -38,10 +38,11 @@ Status Draft
 	Section Instance_s01
 		Insert_section CONS.Service_Title__.Matins End-Insert
 		Insert_section MA._01_Beginning__.mode4 End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Insert_section AP.glory__.client1 End-Insert
-		Insert_section AP.both__.con End-Insert
+		Insert_section AP.both__.consecration End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
+	Insert_section bk.consecration.s01.ma.church_date End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.church_saint_and_consecration End-Insert
@@ -70,7 +71,7 @@ Status Draft
 		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Section End
 			Insert_section LN.FervLitany_short_deacon_choir End-Insert
 			Insert_section LN.CompLitanyMA_deacon_choir End-Insert

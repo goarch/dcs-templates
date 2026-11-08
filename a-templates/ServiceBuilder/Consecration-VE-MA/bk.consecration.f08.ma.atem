@@ -4,7 +4,7 @@ Status Draft
 
 //f08
 //When the church is named for a feast of the Lord or the Mother of God
-//When the consecration is conducted on a post-festal weekday without a celebrated saint
+//When the consecration is conducted on a weekday, during a festal period, without a celebrated saint
 
 	import da.*
 	import oc.*
@@ -25,27 +25,35 @@ Status Draft
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
+	Section church_date
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	End-Section
+	
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_f08
 		Insert_section CONS.Service_Title__.Matins End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	Insert_section bk.consecration.f08.ma.church_date End-Insert
 		Insert_section CONS.MA_01_Beginning__.mode_of_church End-Insert
-		//The Apolytikion of the church is set by the client
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section AP.client1 End-Insert
 		Insert_section AP.glory__.consecration  End-Insert
-		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
-		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
+	Insert_section bk.consecration.f08.ma.church_date End-Insert
+		Insert_section CONS.MA_02_Kathisma1__.feast End-Insert
 		Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
-		Insert_section MA._03_Kathisma2__.append__.me__.kath21_ End-Insert
+		Insert_section CONS.MA_03_Kathisma2__.feast End-Insert
 		Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+		Insert_section CONS.MA_05_Kathisma3__.feast End-Insert
+		Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+
+
+
+
+
 		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
@@ -54,8 +62,7 @@ Status Draft
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	Insert_section bk.consecration.f08.ma.church_date End-Insert
 		
 		Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert //select by com
 		
@@ -63,8 +70,7 @@ Status Draft
 		Insert_section CAv.ode9.append.con.ti_123tasVVGB End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	Insert_section bk.consecration.f08.ma.church_date End-Insert
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.con End-Insert
 		Insert_section TI.local_church End-Insert

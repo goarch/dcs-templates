@@ -57,12 +57,12 @@ Status NA
 			Title<bnr>sid ve.html.tab</>End-Title
 		End-Section
 		Insert_section MA._01_Beginning__.mode4 End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Set_Date month 11 day 1 year 2025 End_Date
 		Insert_section TI.g.s._00_saint_.mp End-Insert
 		Insert_section AP.me1_.hymn End-Insert
 		Set_Date month 11 day 15 year 2025 End_Date
-		Insert_section AP.both__.con End-Insert
+		Insert_section AP.both__.consecration End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Set_Date month 7 day 1 year 2025 End_Date
 		Insert_section MA._02_Kathisma1__.me__.kath11_ End-Insert
@@ -90,7 +90,7 @@ Status NA
 		Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 		Insert_section CONS.MA_13_Lauds__.both End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section AP.con End-Insert
+		Insert_section AP.consecration End-Insert
 		Set_Date month 11 day 15 year 2025 End_Date
 		Insert_section HIRgoa.MA_18_End__.AME End-Insert
 	End-Section

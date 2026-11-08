@@ -1,0 +1,105 @@
+Template bk.consecration.f13.ma 
+
+Status Draft
+
+//f13
+//When the church is named for a feast of the Lord or the Mother of God
+//When the consecration is conducted on a Sunday, on the date of the leavetaking of a feast
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 0 day 0 year 0000 End_Date
+	End_Head
+
+	Section church_date
+		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+	End-Section
+	
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+	Section Instance_f13
+		Insert_section CONS.Service_Title__.Matins End-Insert
+		Insert_section MA._01_Beginning__.modeofweek End-Insert
+		Insert_section AP.res__.modeofweek End-Insert
+	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+		Insert_section AP.f1 End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section AP.glory__.consecration  End-Insert
+		Insert_section AP.both__.client1 End-Insert
+		Insert_section MA._02_Kathisma1__.litany End-Insert
+		Insert_section MA._02_Kathisma1__.oc__.sunday__.kath11 End-Insert
+		Insert_section MA._02_Kathisma1__.glory__.consecration End-Insert
+		Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+		Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath21 End-Insert
+		Insert_section MA._03_Kathisma2__.glory__.consecration End-Insert
+		Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+		Insert_section CONS.MA_05_Kathisma3__.feast End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._05_Kathisma3__.glory__.consecration End-Insert
+		Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+		Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
+
+
+
+
+
+		Insert_section MA._06_Antiphons__.sunday_ End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+		Insert_section MA._11_Kontakion__.consecration End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section hKA._1345678 End-Insert
+		Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+		Insert_section MA._08_Supplication__.priest__.plain End-Insert
+
+
+
+
+		
+		Insert_section MA._11_Kontakion__.consecration End-Insert
+		Insert_section SY.Synaxarion End-Insert
+		Insert_section hKA._1345678 End-Insert
+		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section hKA._9 End-Insert
+		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+	Insert_section bk.consecration.f13.ma.church_date End-Insert
+
+//		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
+		Insert_section CONS.MA_prayers End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
+	//	Insert_section MA._13_Lauds__.consecration__.p_1234as3456 End-Insert
+
+		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
+		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._14_Doxology__.great End-Insert
+		Insert_section AP.consecration End-Insert
+		Section End
+			Insert_section LN.FervLitany_short_deacon_choir End-Insert
+			Insert_section LN.CompLitanyMA_deacon_choir End-Insert
+			Insert_section LN.hBowHeadsMA_deacon_choir End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part1 End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
+		End-Section
+		Insert_section MA._20_Dismissal__.hierarchical__.nocommemoration End-Insert
+	End-Section
+
+End-Template
