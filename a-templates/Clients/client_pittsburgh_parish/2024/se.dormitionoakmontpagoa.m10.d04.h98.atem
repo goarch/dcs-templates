@@ -43,7 +43,7 @@ Status NA
 
 	Section Section02
 		Insert_section AP.consecration_relics__.saints_123_.saint1 End-Insert
-		Insert_section AP.client1_ End-Insert
+		Insert_section AP.client1 End-Insert
 	End-Section
 
 End-Template

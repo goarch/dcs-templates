@@ -66,7 +66,7 @@ Status NA
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.mode1__.for8 End-Insert
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section VE._03_Stichera__.me__.p_1123as3456 End-Insert
-		Insert_section VE._03_Stichera__.eucon__.i_1234as78910 End-Insert
+		Insert_section VE._03_Stichera__.consecration__.i_1234as78910 End-Insert
 		Insert_section TI.gb.me.com1 End-Insert
 		Insert_section VE._03_Stichera__.gloryboth__.me__.eightmodedoxasticon_.hymn End-Insert
 		Set_Date month 10 day 5 year 2024 End_Date
@@ -79,15 +79,15 @@ Status NA
 			Insert_section hLE._03_Prophetologion__.r73 End-Insert
 		End-Section
 		Insert_section HIRgoa.VE_06_Litanies__.AME End-Insert
-		Insert_section VE._08_Aposticha__.eucon End-Insert
+		Insert_section VE._08_Aposticha__.consecration End-Insert
 		Set_Date month 8 day 15 year 2024 End_Date
 		Insert_section TI.g.client1 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Insert_section TI.b.con End-Insert
-		Insert_section VE._08_Aposticha__.both__.eucon__.gloryasboth_.hymn End-Insert
+		Insert_section VE._08_Aposticha__.both__.consecration__.gloryasboth_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.me1_ End-Insert 
-		Insert_section AP.glory__.con End-Insert
+		Insert_section AP.glory__.consecration  End-Insert
 		Insert_section TI.b.local_church End-Insert
 		Insert_section AP.me1_.hymn End-Insert
 		Set_Date month 10 day 5 year 2024 End_Date

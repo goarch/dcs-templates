@@ -994,7 +994,7 @@ Status NA
 
 	Section _03_Stichera__
 		Section both__
-			Section eucon
+			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
@@ -1341,7 +1341,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
-		Section eucon__
+		Section consecration__
 			Section i_12as45
 				Title role desig sid ti.SticheraConsecration End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
@@ -6274,7 +6274,7 @@ Status NA
 			End-Section
 		End-Section
 		Section both__
-			Section eucon__
+			Section consecration__
 				Section gloryasboth_
 					Title sid ti.BothNow End-Title
 					Section hymn
@@ -6561,7 +6561,7 @@ Status NA
 				Hymn rid trVE.AposTheotokion.text @ver media-off End-Hymn
 			End-Section
 		End-Section
-		Section eucon
+		Section consecration
 			Insert_section TI.apos.con End-Insert
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Aposticha1.mode</>End-Title

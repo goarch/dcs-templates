@@ -58,7 +58,7 @@ Status NA
 		End-Section
 		Insert_section MA._01_Beginning__.mode8 End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
-		Insert_section AP.glory__.con End-Insert
+		Insert_section AP.glory__.consecration  End-Insert
 		Insert_section TI.b._ End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
@@ -71,7 +71,7 @@ Status NA
 		Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
 		Set_mcDay day 0 End_mcDay
 		Insert_section HIRgoa.MA_08_Supplication__.DEN End-Insert
-		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Set_mcDay day 118 End_mcDay
 		Insert_section hKA._1345678 End-Insert
@@ -88,11 +88,11 @@ Status NA
 		Insert_section MA._13_Lauds__.hierarchical__.rubrics__.kairos_at_lauds End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 		Insert_section MA._13_Lauds__.pe__.i_123as123 End-Insert
-		Insert_section MA._13_Lauds__.con__.p_123as456 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
 		Insert_section TI.g.pe.com1 End-Insert
 		Insert_section MA._13_Lauds__.gloryboth__.pe__.gloryasgloryboth_.hymn End-Insert
 		Set_mcDay day 0 End_mcDay
-		Insert_section MA._13_Lauds__.both__.con End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section HIRgoa.VEMALI_AP_local__.DEN End-Insert
 		Insert_section HIRgoa.MA_18_End__.DEN End-Insert

@@ -6758,7 +6758,7 @@ Status NA
 				Insert_section Selector_Kontakion.NM.DailyKontakion End-Insert
 			End-Section
 		End-Section
-		Section con
+		Section consecration
 			Para role source sid ti.sourceEuchologion End-Para
 			Actor sid ac.Reader End-Actor
 			Title role desig sid ti.Kontakion sid ti.Consecration End-Title
@@ -8827,7 +8827,7 @@ Status NA
 
 	Section _13_Lauds__
 		Section both__
-			Section con
+			Section consecration
 				Insert_section TI.b.con End-Insert
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.mode End-Title
@@ -9024,7 +9024,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
-		Section con__
+		Section consecration__
 			Section p_1123as56consecration12
 				Title role desig sid ti.SticheraConsecration End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para

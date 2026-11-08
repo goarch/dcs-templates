@@ -35,8 +35,8 @@ Status Draft
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 		Insert_section CONS.MA_01_Beginning__.mode_of_church End-Insert
 		//The Apolytikion of the church is set by the client
-		Insert_section AP.client1_ End-Insert
-		Insert_section AP.glory__.con End-Insert
+		Insert_section AP.client1 End-Insert
+		Insert_section AP.glory__.consecration  End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
@@ -50,7 +50,7 @@ Status Draft
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
-		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
@@ -74,11 +74,11 @@ Status Draft
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 		Insert_section TI.stp.local_church End-Insert
 		Insert_section MA._13_Lauds__.me__.p_123as123 End-Insert
-		Insert_section MA._13_Lauds__.con__.p_123as456 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
 		Insert_section TI.g.local_church End-Insert
 		Insert_section MA._13_Lauds__.gloryboth__.me__.gloryasgloryboth_.hymn End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section MA._13_Lauds__.both__.con End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.af End-Insert
 		Section End

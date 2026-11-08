@@ -1359,7 +1359,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
-		Section con //consecration
+		Section consecration
 			Section ti_hh123tas00VVVTh
 				Para role source sid ti.sourceEuchologion End-Para
 				Actor sid ac.Choir End-Actor
@@ -9992,7 +9992,7 @@ Status NA
 					Hymn rid alt1.meMA.Ode7C3T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
-			Section con //consecration
+			Section consecration
 				Section ti_hh123tas00VVVTh
 					Para role source sid ti.sourceEuchologion End-Para
 					Title role desig sid misc.Ode7 End-Title
@@ -11174,7 +11174,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
-		Section con //consecration
+		Section consecration
 			Section ti_hh123tas00VVVTh
 				Para role source sid ti.sourceEuchologion End-Para
 				Actor sid ac.Choir End-Actor

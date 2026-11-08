@@ -64,7 +64,7 @@ Status NA
 	End-Section
 	Section Section02
 		Insert_section AP.consecration_relics__.saints_123_ End-Insert
-		Insert_section AP.client1_ End-Insert
+		Insert_section AP.client1 End-Insert
 	End-Section
 	Section Section03
 		Title role mode sid eu.consecration_gr_GR_cog.euCON.Key1003.mode End-Title

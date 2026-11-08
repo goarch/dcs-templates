@@ -60,7 +60,7 @@ Status Draft
 		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._08_Supplication__.priest__.plain End-Insert
-		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
@@ -85,7 +85,7 @@ Status Draft
 		Insert_section CONS.MA_prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 		Insert_section TI.stp.local_church End-Insert
-		Insert_section MA._13_Lauds__.con__.p_123as123 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
 	Insert_section bk.consecration.s10.ma.church_date End-Insert
 		Insert_section TI.local_church End-Insert
 		Insert_section CONS.MA_13_Lauds__.church__.lauds123as456 End-Insert

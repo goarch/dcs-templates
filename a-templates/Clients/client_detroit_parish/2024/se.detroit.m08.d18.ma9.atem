@@ -50,8 +50,7 @@ Status NA
 		Insert_section MA._01_Beginning__.modeofweek End-Insert
 		Insert_section AP.res__.modeofweek End-Insert
 		Insert_section AP.con End-Insert
-		Insert_section TI.g.s._00_saint_.m End-Insert
-		Insert_section AP.client1_.hymn End-Insert
+		Insert_section AP.glory__.client1 End-Insert
 		Insert_section AP.both__.af End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
 		Insert_section MA._02_Kathisma1__.oc__.sunday__.whenmode1 End-Insert
@@ -93,7 +92,7 @@ Status NA
 		End-Section
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 		Insert_section MA._13_Lauds__.oc__.s_12as12 End-Insert
-		Insert_section MA._13_Lauds__.con__.p_123as345 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as345 End-Insert
 		Set_Date month 12 day 6 year 2024 End_Date
 		Insert_section TI.me.com1 End-Insert
 		Insert_section MA._13_Lauds__.me__.p_123as6hierarchs12 End-Insert

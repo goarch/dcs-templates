@@ -71,7 +71,7 @@ Status NA
 		End-Section
 		Set_Date month 10 day 31 year 2026 End_Date
 		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
-		Insert_section MA._11_Kontakion__.con End-Insert
+		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
@@ -84,12 +84,12 @@ Status NA
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
-		Insert_section MA._13_Lauds__.con__.p_123as123 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
 		Insert_section TI.stp.me.com1 End-Insert
 		Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
 		Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
 		Set_Date month 10 day 31 year 2026 End_Date
-		Insert_section MA._13_Lauds__.both__.con End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.con End-Insert
 		Insert_section HIRgoa.MA_18_End__.AME End-Insert
