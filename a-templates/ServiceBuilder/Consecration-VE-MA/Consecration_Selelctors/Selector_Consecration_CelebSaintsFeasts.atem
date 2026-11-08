@@ -1,4 +1,4 @@
-Template Selector_ConsecrationCelebSaintsFeasts
+Template Selector_Consecration_CelebSaintsFeasts
 
 Status NA
 
@@ -1074,8 +1074,8 @@ Status NA
 
 		Section aposglory_feast
 			Insert_section TI.g.f End-Insert
-			Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofthelord.hymn End-Insert
-			Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_feastofmotherofgod.hymn End-Insert
+			Insert_section Selector_Consecration_CelebSaintsFeasts.aposglory_feastofthelord.hymn End-Insert
+			Insert_section Selector_Consecration_CelebSaintsFeasts.aposglory_feastofmotherofgod.hymn End-Insert
 		End-Section
 		
 		Section aposglory_celeb_saint

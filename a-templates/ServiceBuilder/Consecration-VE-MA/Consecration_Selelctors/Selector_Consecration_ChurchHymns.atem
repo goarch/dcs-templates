@@ -1,4 +1,4 @@
-Template Selector_ConsecrationChurchHymns
+Template Selector_Consecration_ChurchHymns
 
 Status Draft
 
@@ -670,7 +670,7 @@ Status Draft
 								End-Section
 							otherwise use:
 								Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-								Insert_section Selector_ConsecrationCelebSaintsFeasts.aposglory_celeb_saint End-Insert
+								Insert_section Selector_Consecration_CelebSaintsFeasts.aposglory_celeb_saint End-Insert
 								Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 						end-when
 				end-when

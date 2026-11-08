@@ -65,11 +65,11 @@ Status Draft
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-		Insert_section Selector_ConsecrationMatins.Odeix__.magnificat_feast End-Insert
-		Insert_section Selector_ConsecrationMatins.Odeix__.append__.consecration__.VVVTh End-Insert
+		Insert_section Selector_Consecration_Matins.Odeix__.magnificat_feast End-Insert
+		Insert_section Selector_Consecration_Matins.Odeix__.append__.consecration__.VVVTh End-Insert
 		//Ctrl+spacebar on CHURCH_NAME to select the name of the church being consecrated
 	Insert_section bk.consecration.s10.ma.church_date End-Insert
-		Insert_section Selector_ConsecrationMatins.Odeix__.append__.church End-Insert
+		Insert_section Selector_Consecration_Matins.Odeix__.append__.church End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
