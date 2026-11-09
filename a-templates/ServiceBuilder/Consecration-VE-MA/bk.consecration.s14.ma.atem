@@ -46,7 +46,7 @@ Status Draft
 		Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.feast End-Insert
 		Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
-	Insert_section bk.consecration.s14.ma.church_date End-Insert
+	Insert_section church_date End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_06_07_08_Gospel__.church_saint End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
@@ -60,7 +60,7 @@ Status Draft
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-	Insert_section bk.consecration.s14.ma.church_date End-Insert
+	Insert_section church_date End-Insert
 
 //		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert

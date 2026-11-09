@@ -40,7 +40,7 @@ Status Review
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 		Insert_section VE._02_LordIHaveCried__.hierarchical__.modeofweek__.for10 End-Insert
 		Insert_section VE._03_Stichera__.oc__.sunday__.s_1234as1234 End-Insert
-	Insert_section bk.consecration.f02.ve.church_date End-Insert
+	Insert_section church_date End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_feast__.as_567 End-Insert
 		Insert_section CONS.VE_03_Stichera__.consecration__.i_123as8910 End-Insert
 		Insert_section CONS.VE_03_Stichera__.glory__.church_feast End-Insert
@@ -50,7 +50,7 @@ Status Review
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
-	Insert_section bk.consecration.f02.ve.church_date End-Insert
+	Insert_section church_date End-Insert
 		Insert_section CONS.VE_08_Aposticha__.glory__.church_feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert

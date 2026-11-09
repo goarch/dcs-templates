@@ -1549,10 +1549,237 @@ Status Draft
 	Section matins_gospel_celeb_saint
 	End-Section
 
+	Section exaposteilarion_church_saint_and_consecration
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section TI.e.local_church End-Insert
+				Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.e.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Exaposteilarion1.text use:
+								Insert_section TI.e.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+								Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+							otherwise use:
+								Insert_section MA._12_Exaposteilarion__.consecration End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
 
+	Section lauds_consecration_church_saint
+		when-movable-cycle-day-is
+			127 use: //no kath
+				Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+				Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+				Insert_section TI.local_church End-Insert
+				Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				Insert_section MA._13_Lauds__.pe__.p_567as456 End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Feb 19 use: //Philothea
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Lauds1.text use:
+								Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+								Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+								when-exists
+									rid meMA.Lauds1.melody use:
+										Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
+									otherwise use:
+										Insert_section MA._13_Lauds__.me__.i_123as456 End-Insert
+								end-when
+							otherwise use:
+								Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
+								Insert_section MA._13_Lauds__.consecration__.p_1123as3456 End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
 
-
-
+	Section laudsglory_church_saint_both_consecration
+		when-movable-cycle-day-is
+			127 use:
+				Insert_section MA._13_Lauds__.gloryboth__.consecration End-Insert
+			otherwise use:
+				when-date-is
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.LaudsGlory.text use:
+								Section menaion_yes
+									Insert_section TI.g.local_church End-Insert
+									Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+									Insert_section MA._13_Lauds__.both__.consecration End-Insert
+								End-Section
+							otherwise use:
+								Insert_section CONS.VE_08_Aposticha__.gloryboth__.consecration End-Insert
+						end-when
+				end-when
+		end-when
+	End-Section
 
 
 //blocks

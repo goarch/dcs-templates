@@ -48,7 +48,7 @@ Status Review
 		Insert_section CONS.VE_05_Readings__.feast2consecration1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 		Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
-	Insert_section bk.consecration.s09.ve.church_date End-Insert
+	Insert_section church_date End-Insert
 		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert

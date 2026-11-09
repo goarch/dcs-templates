@@ -621,7 +621,7 @@ Status NA
 	//	Title sid ti.Glory End-Title
 	//	Insert_section AP.client End-Insert
 		Set_Date month 9 day 13 End_Date
-			Insert_section TI.b.con End-Insert
+			Insert_section TI.b.consecration End-Insert
 			Insert_section VE._03_Stichera__.both__.me__.gloryasboth_.hymn End-Insert
 		Set_Date month 0 day 0 End_Date
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical.trisagion End-Insert

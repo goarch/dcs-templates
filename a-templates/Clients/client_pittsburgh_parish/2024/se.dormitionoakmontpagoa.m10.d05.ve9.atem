@@ -83,7 +83,7 @@ Status NA
 		Set_Date month 8 day 15 year 2024 End_Date
 		Insert_section TI.g.client1 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
-		Insert_section TI.b.con End-Insert
+		Insert_section TI.b.consecration End-Insert
 		Insert_section VE._08_Aposticha__.both__.consecration__.gloryasboth_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.me1_ End-Insert 

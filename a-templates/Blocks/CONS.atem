@@ -1136,6 +1136,9 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_12_Exaposteilarion__
+		Section church_saint_and_consecration
+			Insert_section Selector_Consecration_ChurchHymns.exaposteilarion_church_saint_and_consecration End-Insert
+		End-Section
 		Section append
 			Title role desig sid ti.Consecration End-Title
 			Para role source0 sid ti.sourceEuchologion End-Para
@@ -1153,133 +1156,29 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_13_Lauds__
-		Section both
-			Insert_section TI.b.con End-Insert
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.mode End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.text @ver media-off End-Hymn
+		Section consecration_and_church_saint
+			Insert_section Selector_Consecration_ChurchHymns.lauds_consecration_church_saint End-Insert
 		End-Section
-		Section p_1123as56consecration12
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds1123as5678.text End-Media
-			Insert_section MA.Lauds_Verses.v05 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v06 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section PsalmVerses.forConsecration.verse1 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-			Insert_section PsalmVerses.forConsecration.verse2 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
-		End-Section
-		Section p_123as6consecration12
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds123as678.text End-Media
-			Insert_section MA.Lauds_Verses.v06 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section PsalmVerses.forConsecration.verse1 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-			Insert_section PsalmVerses.forConsecration.verse2 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
-		End-Section
-		Section p_12as12
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds12as12.text End-Media
-			Insert_section MA.Lauds_Verses.v01 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v02 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-		End-Section
-		Section p_12as45
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds12as45.text End-Media
-			Insert_section MA.Lauds_Verses.v04 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v05 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-		End-Section
-		Section p_12as56
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds12as56.text End-Media
-			Insert_section MA.Lauds_Verses.v05 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v06 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-		End-Section
-		Section p_123as123
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds123as123.text End-Media
-			Insert_section MA.Lauds_Verses.v01 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v02 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v03 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
-		End-Section
-		Section p_123as345
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds123as345.text End-Media
-			Insert_section MA.Lauds_Verses.v03 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v04 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v05 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
-		End-Section
-		Section p_123as456
-			Title role desig sid ti.SticheraConsecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Lauds1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Lauds1.melody</>End-Title
-		//	Media sid eu.consecration_gr_GR_cog.euMA.MM.Lauds123as456.text End-Media
-			Insert_section MA.Lauds_Verses.v04 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds1.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v05 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds2.text @ver media-off End-Hymn
-			Insert_section MA.Lauds_Verses.v06 End-Insert
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Lauds3.text @ver media-off End-Hymn
+		Section glory_and_both__
+			Section church_saint_and_consecration
+				Insert_section Selector_Consecration_ChurchHymns.laudsglory_church_saint_both_consecration End-Insert
+			End-Section
 		End-Section
 		Section prayers
 			Rubric sid eu.consecration_gr_GR_cog.euMA.R001.rubric End-Rubric
 			Actor<ahi>sid ac.Hierarch</>End-Actor
 			Title<smallredbold>sid eu.consecration_gr_GR_cog.euCON.Key1001.title</>End-Title
 			Para role prayer<dhi>sid eu.consecration_gr_GR_cog.euCON.Key1001.text</>End-Para
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res04.text</>End-Dialog
 			Actor<ahi>sid ac.Hierarch</>End-Actor
 			Title<smallredbold>sid eu.consecration_gr_GR_cog.euCON.Key1002.title</>End-Title
 			Para role prayer<dhi>sid eu.consecration_gr_GR_cog.euCON.Key1002.text</>End-Para
-			Para role dialogwithactor<dwach><actorwithdialog>sid ac.IL.Choir</>sid pr.res04.text</>End-Para
+			Actor<ach>sid ac.Choir</>End-Actor
+			Dialog<dch>sid pr.res04.text</>End-Dialog
 			Insert_section MA._13_Lauds__.hierarchical__.rubrics__.kairos_at_lauds End-Insert
 			Media sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text End-Media
 			Hymn sid eu.lichrysbasil_gr_GR_cog.euLI.Key1706h.text @ver media-off End-Hymn
-		End-Section
-		Section church__
-			Section lauds123as456
-				when-exists
-					rid alt1.meMA.Lauds1.melody use:
-						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
-					otherwise use:
-						when-exists
-							rid meMA.Lauds1.melody use:
-								Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
-							otherwise use:
-								Insert_section MA._13_Lauds__.me__.i_123as456 End-Insert
-						end-when
-				end-when
-			End-Section
 		End-Section
 	End-Section
 	Section MA_prayers

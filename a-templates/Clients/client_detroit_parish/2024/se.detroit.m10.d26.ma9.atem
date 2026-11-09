@@ -76,11 +76,11 @@ Status NA
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_13_Lauds__.prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
-		Insert_section CONS.MA_13_Lauds__.p_123as123 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
 		Insert_section TI.stp.s._00_saint_.m End-Insert
 		Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
 		Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_ End-Insert
-		Insert_section CONS.MA_13_Lauds__.both End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.me1_ End-Insert
 	End-Section

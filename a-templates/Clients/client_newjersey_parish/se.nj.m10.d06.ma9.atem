@@ -101,7 +101,7 @@ Status NA
 		Insert_section CONS.MA_13_Lauds__.prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 		Insert_section MA._13_Lauds__.oc__.s_12as12 End-Insert
-		Insert_section CONS.MA_13_Lauds__.p_123as345 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as345 End-Insert
 		Set_Date month 5 day 2 year 2024 End_Date
 		Insert_section TI.me.com1 End-Insert
 		Insert_section MA._13_Lauds__.me__.p_123as6hierarchs12 End-Insert

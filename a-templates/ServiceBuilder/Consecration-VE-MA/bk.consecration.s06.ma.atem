@@ -62,7 +62,7 @@ Status Draft
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-	Insert_section bk.consecration.s06.ma.church_date End-Insert
+	Insert_section church_date End-Insert
 
 //		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert

@@ -590,7 +590,7 @@ Status NA
 				Title sid ti.BothNow<Tdesig>sid ti.Forefathers</>End-Title
 			End-Section
 		End-Section
-		Section con
+		Section consecration
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
 		End-Section
 		Section cr
@@ -1431,7 +1431,7 @@ Status NA
 				Title sid ti.Glory<Tdesig>sid ti.Forefathers</>End-Title
 			End-Section
 		End-Section
-		Section con
+		Section consecration
 			Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
 		End-Section
 		Section cr
@@ -1750,7 +1750,7 @@ Status NA
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Forefathers</>End-Title
 			End-Section
 		End-Section
-		Section con
+		Section consecration
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
 		End-Section
 		Section cr

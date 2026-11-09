@@ -59,7 +59,7 @@ Status Final
 					Insert_section TI.bf End-Insert
 					Insert_section VE._03_Stichera__.me__.smallvespers__.p_123as8910 End-Insert
 				Set_Date month 9 day 13 year 2026 End_Date
-				Insert_section TI.g.con End-Insert
+				Insert_section TI.g.consecration End-Insert
 				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 				Insert_section VE._04_Middle__.entrance End-Insert
@@ -72,7 +72,7 @@ Status Final
 				Set_Date month 9 day 13 year 2026 End_Date
 				Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
 				Insert_section AP.res__.modeofweek End-Insert
-				Insert_section TI.g.con End-Insert
+				Insert_section TI.g.consecration End-Insert
 				Insert_section AP.me1_.hymn End-Insert
 				Insert_section TI.b.bf End-Insert
 				Insert_section AP.me2_.hymn End-Insert
@@ -89,7 +89,7 @@ Status Final
 				Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
 				Insert_section TI.s._00_saint_.m End-Insert
 				Insert_section VE._03_Stichera__.me__.p_456as8910 End-Insert
-				Insert_section TI.g.con End-Insert
+				Insert_section TI.g.consecration End-Insert
 				Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section TI.b.bf End-Insert
 				Insert_section VE._03_Stichera__.both__.me__.bothasboth_.hymn End-Insert
@@ -97,7 +97,7 @@ Status Final
 				Insert_section VE._05_Readings__.reader End-Insert
 				Insert_section VE._06_Litanies__.fullektenia End-Insert
 				Insert_section VE._08_Aposticha__.me__.p_cross12 End-Insert
-				Insert_section TI.g.con End-Insert
+				Insert_section TI.g.consecration End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Insert_section TI.b.bf End-Insert
 				Insert_section VE._08_Aposticha__.both__.me__.bothasboth_.hymn End-Insert
