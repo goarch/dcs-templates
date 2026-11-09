@@ -1369,6 +1369,9 @@ Status NA
 					Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Righteous</>End-Title
 				End-Section
 			End-Section
+			Section _16_theotokos
+				Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Theotokos</>End-Title
+			End-Section
 			Section _18_greatmartyr_
 				Section m
 					Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.GreatMartyr</>End-Title

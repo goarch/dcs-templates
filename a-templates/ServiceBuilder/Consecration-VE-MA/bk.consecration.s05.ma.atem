@@ -47,25 +47,22 @@ Status Draft
 		Insert_section CONS.MA_05_Kathisma3__.celeb_saint End-Insert
 		Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
 		Insert_section CONS.MA_06_07_08_Gospel__.celeb_saint End-Insert
-
-
-
-
-
-		Insert_section MA._11_Kontakion__.consecration End-Insert
+		Insert_section CONS.MA_11_Kontakion__.celeb_saint End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.celeb_saint End-Insert
 	Insert_section church_date End-Insert
-
-//		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
-		Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
-	//	Insert_section MA._13_Lauds__.consecration__.p_1234as3456 End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_12as12 End-Insert
+	//	Insert_section CONS.MA_13_Lauds__.consecration_and_celeb_and_church_saint End-Insert
 
 		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert

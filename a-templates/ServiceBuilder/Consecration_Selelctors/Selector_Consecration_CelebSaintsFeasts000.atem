@@ -1,4 +1,4 @@
-Template Selector_Consecration_CelebSaintsFeasts
+Template Selector_Consecration_CelebSaintsFeasts000
 
 Status NA
 
@@ -115,8 +115,6 @@ Status NA
 						end-when
 				end-when
 			End-Section
-
-
 			Section as_567 //celebs
 				when-movable-cycle-day-is
 					127 use:
@@ -809,7 +807,7 @@ Status NA
 			End-Section
 		End-Section
 
-		Section sticglory_feastofthelord //on feasts of the Lord
+		Section sticglory_feastoflord //on feasts of the Lord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.g.f End-Insert
@@ -835,7 +833,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section sticglory_feastofmotherofgod //on feasts of the Mother of God
+		Section sticglory_feastofmother //on feasts of the Mother of God
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.g.f End-Insert
@@ -1025,7 +1023,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section aposglory_feastofthelord //on feasts of the Lord
+		Section aposglory_feastoflord //on feasts of the Lord
 			Section hymn
 				when-movable-cycle-day-is
 					78, 95, 110, 120 use:
@@ -1053,7 +1051,7 @@ Status NA
 			End-Section
 		End-Section
 
-		Section aposglory_feastofmotherofgod //on feasts of the Mother of God
+		Section aposglory_feastofmother //on feasts of the Mother of God
 			Section hymn
 				when-date-is
 					Feb 2 use:
@@ -1074,8 +1072,8 @@ Status NA
 
 		Section aposglory_feast
 			Insert_section TI.g.f End-Insert
-			Insert_section Selector_Consecration_CelebSaintsFeasts.aposglory_feastofthelord.hymn End-Insert
-			Insert_section Selector_Consecration_CelebSaintsFeasts.aposglory_feastofmotherofgod.hymn End-Insert
+			Insert_section Selector_Consecration.aposglory_feastoflord.hymn End-Insert
+			Insert_section Selector_Consecration.aposglory_feastofmother.hymn End-Insert
 		End-Section
 		
 		Section aposglory_celeb_saint
@@ -1364,15 +1362,15 @@ Status NA
 			Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		End-Section
 
-		Section aposboth_feastofmotherofgod
+		Section aposboth_feastofmother
 			Insert_section TI.b.f End-Insert
-			Insert_section aposglory_feastofmotherofgod.hymn End-Insert
+			Insert_section aposglory_feastofmother.hymn End-Insert
 		End-Section
 		
 		Section aposboth_feast
 			Insert_section TI.b.f End-Insert
-			Insert_section aposglory_feastofthelord.hymn End-Insert
-			Insert_section aposglory_feastofmotherofgod.hymn End-Insert
+			Insert_section aposglory_feastoflord.hymn End-Insert
+			Insert_section aposglory_feastofmother.hymn End-Insert
 		End-Section
 
 		Section apolytikion_celeb_saint
@@ -1754,7 +1752,6 @@ Status NA
 					end-when
 				end-when
 		End-Section
-
 
 		Section kathisma1_celeb_saint
 			when-date-is
@@ -2754,7 +2751,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section kathisma1_feastofthelord
+		Section kathisma1_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.ka1.f End-Insert
@@ -2779,7 +2776,7 @@ Status NA
 					end-when
 			end-when
 		End-Section
-		Section kathisma2_feastofthelord
+		Section kathisma2_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.ka2.f End-Insert
@@ -2804,7 +2801,7 @@ Status NA
 					end-when
 			end-when
 		End-Section
-		Section kathisma3_feastofthelord
+		Section kathisma3_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.ka3.f End-Insert
@@ -2830,7 +2827,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section kathisma1_both_feastofthelord
+		Section kathisma1_both_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.b.f End-Insert
@@ -2855,7 +2852,7 @@ Status NA
 					end-when
 			end-when
 		End-Section
-		Section kathisma2_both_feastofthelord
+		Section kathisma2_both_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.b.f End-Insert
@@ -2880,7 +2877,7 @@ Status NA
 					end-when
 			end-when
 		End-Section
-		Section kathisma3_both_feastofthelord
+		Section kathisma3_both_feastoflord
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
 					Insert_section TI.b.f End-Insert
@@ -2906,7 +2903,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section kathisma1_feastofmotherofgod
+		Section kathisma1_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.ka1.f End-Insert
@@ -2922,7 +2919,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 			end-when
 		End-Section
-		Section kathisma2_feastofmotherofgod
+		Section kathisma2_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.ka2.f End-Insert
@@ -2938,7 +2935,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.append__.me__.kath21_.hymn End-Insert
 			end-when
 		End-Section
-		Section kathisma3_feastofmotherofgod
+		Section kathisma3_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.ka3.f End-Insert
@@ -2955,7 +2952,7 @@ Status NA
 			end-when
 		End-Section
 
-		Section kathisma1_both_feastofmotherofgod
+		Section kathisma1_both_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.b.f End-Insert
@@ -2971,7 +2968,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.both__.me__.kath11_.hymn End-Insert
 			end-when
 		End-Section
-		Section kathisma2_both_feastofmotherofgod
+		Section kathisma2_both_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.b.f End-Insert
@@ -2987,7 +2984,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.append__.me__.kath21_.hymn End-Insert
 			end-when
 		End-Section
-		Section kathisma3_both_feastofmotherofgod
+		Section kathisma3_both_feastofmother
 			when-date-is
 				Feb 2 use:
 					Insert_section TI.b.f End-Insert
@@ -3373,6 +3370,180 @@ Status NA
 								Insert_section MA._11_Kontakion__.me1_ End-Insert
 						end-when
 				end-when
+		End-Section
+
+		Section exaposteilarion_celeb_saint
+			when-movable-cycle-day-is
+				127 use:
+					Insert_section TI.e.s._00_saint_.mp End-Insert
+					Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
+				otherwise use:
+					when-date-is
+						Jan 1 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 11 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 17 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 18 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 20 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 25 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 27 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jan 30 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Feb 6 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Feb 10 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Feb 24 use:
+							Insert_section TI.e.s._06_forerunner End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Mar 9 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Apr 23 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Apr 25 use:
+							Insert_section TI.e.s._05_evangelist End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						May 2 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						May 8 use:
+							Insert_section TI.e.s._05_evangelist End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						May 21 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						May 25 use:
+							Insert_section TI.e.s._06_forerunner End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jun 4 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jun 24 use:
+							Insert_section TI.e.s._06_forerunner End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jun 29 use:
+							Insert_section TI.e.s._01_apostle_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jun 30 use:
+							Insert_section TI.e.s._01_apostle_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 1 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 2 use:
+							Insert_section TI.e.s._16_theotokos End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 5 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 11 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 12 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Jul 20 use:
+							Insert_section TI.e.s._13_prophet_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 25 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 26 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Jul 27 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Aug 29 use:
+							Insert_section TI.e.s._06_forerunner End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Aug 31 use:
+							Insert_section TI.e.s._16_theotokos End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Sep 1 use:
+							Insert_section TI.com.sep01 End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Sep 6 use:
+							Insert_section TI.e.s._02_archangel End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Sep 23 use:
+							Insert_section TI.e.s._06_forerunner End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Sep 26 use:
+							Insert_section TI.e.s._05_evangelist End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Oct 20 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Oct 23 use:
+							Insert_section TI.e.s._01_apostle_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Oct 26 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Oct 28 use:
+							Insert_section TI.e.s._16_theotokos End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Nov 1 use:
+							Insert_section TI.e.s._00_saint_.mp End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Nov 8 use:
+							Insert_section TI.e.s._03_bodiless End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Nov 9 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Nov 13 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Nov 25 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Nov 30 use:
+							Insert_section TI.e.s._01_apostle_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 2 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Dec 4 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 5 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 6 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 9 use:
+							Insert_section TI.e.s._00_saint_.w End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 12 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+						Dec 17 use:
+							Insert_section TI.e.s._00_saint_.m End-Insert
+							Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					end-when
+			end-when
 		End-Section
 
 End-Template
