@@ -25,7 +25,6 @@ Status Review
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 

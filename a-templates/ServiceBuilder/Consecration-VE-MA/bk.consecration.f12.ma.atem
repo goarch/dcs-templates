@@ -50,20 +50,15 @@ Status Draft
 		Insert_section CONS.MA_05_Kathisma3__.feast End-Insert
 		Insert_section MA._05_Kathisma3__.glory__.consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.both__.feast End-Insert
-		
-
-
-
-
-		
-		Insert_section MA._06_Antiphons__.append__.mode41_prokeimenon_ End-Insert
-		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
-		
+		Insert_section CONS.MA_06_07_08_Gospel__.feast End-Insert
+		Insert_section CONS.MA_11_Kontakion__.feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-		Insert_section MA._08_Supplication__.priest__.plain End-Insert
-		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
+
+
+
+
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert

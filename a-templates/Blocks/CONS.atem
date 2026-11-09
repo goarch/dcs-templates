@@ -1106,6 +1106,12 @@ Status NA
 		Section celeb_saint
 			Insert_section Selector_Consecration_CelebSaintsFeasts.matins_gospel_celeb_saint End-Insert
 		End-Section
+		Section church_feast
+			Insert_section Selector_Consecration_CelebSaintsFeasts.matins_gospel_church_feast End-Insert
+		End-Section
+		Section feast
+			Insert_section Selector_Consecration_CelebSaintsFeasts.matins_gospel_church_feast End-Insert
+		End-Section
 	End-Section
 	Section MA_10_Canon__
 	
@@ -1124,6 +1130,9 @@ Status NA
 			Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Kontakion.text @ver</>End-Reading
 			Title role desig sid ti.Oikos End-Title
 			Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Oikos.text @ver</>End-Reading
+		End-Section
+		Section feast
+			Insert_section Selector_Consecration_CelebSaintsFeasts.kontakion_feast End-Insert
 		End-Section
 	End-Section
 	Section MA_12_Exaposteilarion__

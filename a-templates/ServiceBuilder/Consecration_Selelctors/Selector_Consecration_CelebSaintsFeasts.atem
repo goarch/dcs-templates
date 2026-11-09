@@ -3047,6 +3047,120 @@ Status NA
 				end-when
 		end-when
 		End-Section
+		Section matins_gospel_church_feast
+				when-movable-cycle-day-is
+					78 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					95 use:
+						Insert_section MA._07_Gospel__.no__.hierarch__.psalm50 End-Insert
+					110 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					120 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.plain End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Feb 2 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Mar 25 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Aug 6 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Aug 15 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Sep 8 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Sep 14 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Nov 21 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+							Dec 25 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.plain End-Insert
+						end-when
+				end-when
+		End-Section
+		Section matins_gospel_feast
+				when-movable-cycle-day-is
+					78 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.com End-Insert
+					95 use:
+						Insert_section MA._07_Gospel__.no__.hierarch__.psalm50 End-Insert
+					110 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.com End-Insert
+					120 use:
+						Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+						Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
+						Insert_section MA._08_Supplication__.priest__.com End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Feb 2 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Mar 25 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Aug 6 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Aug 15 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Sep 8 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Sep 14 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Nov 21 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+							Dec 25 use:
+								Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+								Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+								Insert_section MA._08_Supplication__.priest__.com End-Insert
+						end-when
+				end-when
+		End-Section
 
 		Section kontakion_celeb_saint
 			when-date-is
@@ -3213,6 +3327,52 @@ Status NA
 					Insert_section TI.k.s._00_saint_.m End-Insert
 					Insert_section MA._11_Kontakion__.me1_ End-Insert
 			end-when
+		End-Section
+		Section kontakion_feast
+				when-movable-cycle-day-is
+					78 use:
+						Insert_section TI.k.f End-Insert
+						Insert_section MA._11_Kontakion__.pe1_ End-Insert
+					95 use:
+						Insert_section TI.k.f End-Insert
+						Insert_section MA._11_Kontakion__.pe1_ End-Insert
+					110 use:
+						Insert_section TI.k.f End-Insert
+						Insert_section MA._11_Kontakion__.pe1_ End-Insert
+					120 use:
+						Insert_section TI.k.f End-Insert
+						Insert_section MA._11_Kontakion__.pe1_ End-Insert
+					otherwise use:
+						when-date-is
+							Jan 6 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Feb 2 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Mar 25 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Aug 6 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Aug 15 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Sep 8 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Sep 14 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Nov 21 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+							Dec 25 use:
+								Insert_section TI.k.f End-Insert
+								Insert_section MA._11_Kontakion__.me1_ End-Insert
+						end-when
+				end-when
 		End-Section
 
 End-Template
