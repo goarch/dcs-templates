@@ -894,7 +894,7 @@ Status NA
 							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 						Mar 9 use:
 							Insert_section TI.g.s._00_saint_.mp End-Insert
-							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 						Apr 23 use:
 							Insert_section TI.g.s._00_saint_.m End-Insert
 							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
@@ -918,7 +918,7 @@ Status NA
 							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 						Jun 24 use:
 							Insert_section TI.g.s._06_forerunner End-Insert
-							Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 						Jun 29 use:
 							Insert_section TI.g.s._01_apostle_.mp End-Insert
 							Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
@@ -1441,7 +1441,7 @@ Status NA
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Jun 24 use:
 							Insert_section TI.a.s._06_forerunner End-Insert
-							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Insert_section AP.me1_.hymn End-Insert
 						Jun 29 use:
 							Insert_section TI.a.s._01_apostle_.mp End-Insert
 							Insert_section AP.me1_.hymn End-Insert
@@ -1614,7 +1614,7 @@ Status NA
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Jun 24 use:
 							Insert_section TI.g.s._06_forerunner End-Insert
-							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
+							Insert_section AP.me1_.hymn End-Insert
 						Jun 29 use:
 							Insert_section TI.g.s._01_apostle_.mp End-Insert
 							Insert_section AP.me1_.hymn End-Insert
@@ -1793,7 +1793,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.ka1.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.ka1.s._00_saint_.m End-Insert
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -1817,7 +1817,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.ka1.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.ka1.s._01_apostle_.mp End-Insert
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -1959,7 +1959,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.ka2.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.ka2.s._00_saint_.m End-Insert
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -1983,7 +1983,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.ka2.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.ka2.s._01_apostle_.mp End-Insert
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -2125,7 +2125,7 @@ Status NA
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.ka3.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.ka3.s._00_saint_.m End-Insert
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
@@ -2149,7 +2149,7 @@ Status NA
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.ka3.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.ka3.s._01_apostle_.mp End-Insert
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
@@ -2292,7 +2292,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.g.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.g.s._00_saint_.m End-Insert
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -2316,7 +2316,7 @@ Status NA
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.g.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.g.s._01_apostle_.mp End-Insert
 					Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -2458,7 +2458,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.g.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.g.s._00_saint_.m End-Insert
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -2482,7 +2482,7 @@ Status NA
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.g.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.g.s._01_apostle_.mp End-Insert
 					Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -2624,7 +2624,7 @@ Status NA
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Mar 9 use:
 					Insert_section TI.g.s._00_saint_.mp End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Apr 23 use:
 					Insert_section TI.g.s._00_saint_.m End-Insert
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
@@ -2648,7 +2648,7 @@ Status NA
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Jun 24 use:
 					Insert_section TI.g.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.i_123as567 End-Insert
+					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 				Jun 29 use:
 					Insert_section TI.g.s._01_apostle_.mp End-Insert
 					Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
@@ -3004,5 +3004,215 @@ Status NA
 			end-when
 		End-Section
 
+		Section matins_gospel_celeb_saint
+			when-date-is
+				Feb 6 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Jul 12 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Oct 20 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Oct 28 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Nov 9 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Dec 2 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+				Dec 17 use:
+					Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+					Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+					Insert_section MA._08_Supplication__.priest__.mealt1 End-Insert
+			otherwise use:
+				when-exists
+					rid meMA.PostGospelIdiomelon.text use:
+						Section menaion_yes
+							Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+							Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+							Insert_section MA._08_Supplication__.priest__.com End-Insert
+						End-Section
+					otherwise use:
+						Insert_section MA._07_Gospel__.no__.hierarch__.psalm50 End-Insert
+				end-when
+		end-when
+		End-Section
+
+		Section kontakion_celeb_saint
+			when-date-is
+				Jan 1 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 11 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 17 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 18 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 20 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 25 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 27 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jan 30 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Feb 6 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Feb 10 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Feb 24 use:
+					Insert_section TI.k.s._06_forerunner End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Mar 9 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Apr 23 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Apr 25 use:
+					Insert_section TI.k.s._05_evangelist End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				May 2 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				May 8 use:
+					Insert_section TI.k.s._05_evangelist End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				May 21 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				May 25 use:
+					Insert_section TI.k.s._06_forerunner End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jun 4 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jun 24 use:
+					Insert_section TI.k.s._06_forerunner End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jun 29 use:
+					Insert_section TI.k.s._01_apostle_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jun 30 use:
+					Insert_section TI.k.s._01_apostle_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 1 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 2 use:
+					Insert_section TI.k.s._16_theotokos End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 5 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 11 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 12 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 20 use:
+					Insert_section TI.k.s._13_prophet_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 25 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 26 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Jul 27 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Aug 29 use:
+					Insert_section TI.k.s._06_forerunner End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Aug 31 use:
+					Insert_section TI.k.s._16_theotokos End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Sep 1 use:
+					Insert_section TI.com.sep01 End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Sep 6 use:
+					Insert_section TI.k.s._02_archangel End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Sep 23 use:
+					Insert_section TI.k.s._06_forerunner End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Sep 26 use:
+					Insert_section TI.k.s._05_evangelist End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Oct 20 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Oct 23 use:
+					Insert_section TI.k.s._01_apostle_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Oct 26 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Oct 28 use:
+					Insert_section TI.k.s._16_theotokos End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 1 use:
+					Insert_section TI.k.s._00_saint_.mp End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 8 use:
+					Insert_section TI.k.s._03_bodiless End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 9 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 13 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 25 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Nov 30 use:
+					Insert_section TI.k.s._01_apostle_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 2 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 4 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 5 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 6 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 9 use:
+					Insert_section TI.k.s._00_saint_.w End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 12 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+				Dec 17 use:
+					Insert_section TI.k.s._00_saint_.m End-Insert
+					Insert_section MA._11_Kontakion__.me1_ End-Insert
+			end-when
+		End-Section
 
 End-Template

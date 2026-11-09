@@ -932,6 +932,9 @@ Status NA
 			Section celeb_saint
 				Insert_section Selector_Consecration_CelebSaintsFeasts.kathisma1_glory_celeb_saint End-Insert
 			End-Section
+			Section church_saint_and_consecration
+				Insert_section Selector_Consecration_ChurchHymns.Kathisma1_glory_church_saint_both_consecration End-Insert
+			End-Section
 			Section church_saint_and_feast
 				Insert_section Selector_Consecration_ChurchHymns.Kathisma1_glory_church_saint_both_feast End-Insert
 			End-Section
@@ -1071,6 +1074,9 @@ Status NA
 			Section celeb_saint
 				Insert_section Selector_Consecration_CelebSaintsFeasts.kathisma3_glory_celeb_saint End-Insert
 			End-Section
+			Section church_saint_and_consecration
+				Insert_section Selector_Consecration_ChurchHymns.Kathisma3_glory_church_saint_both_consecration End-Insert
+			End-Section
 			Section church_saint_and_feast
 				Insert_section Selector_Consecration_ChurchHymns.Kathisma3_glory_church_saint_both_feast End-Insert
 			End-Section
@@ -1093,17 +1099,32 @@ Status NA
 			End-Section
 		End-Section
 	End-Section
+	Section MA_06_07_08_Gospel__
+		Section church_saint
+			Insert_section Selector_Consecration_ChurchHymns.matins_gospel_church_saint End-Insert
+		End-Section
+		Section celeb_saint
+			Insert_section Selector_Consecration_CelebSaintsFeasts.matins_gospel_celeb_saint End-Insert
+		End-Section
+	End-Section
 	Section MA_10_Canon__
 	
 	End-Section
-	Section MA_11_Kontakion
-		Para role source sid ti.sourceEuchologion End-Para
-		Actor<are>sid ac.Reader</>End-Actor
-		Title role desig sid ti.Kontakion sid ti.Consecration End-Title
-		Title role mode sid eu.consecration_gr_GR_cog.euMA.Kontakion.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kontakion.melody</>End-Title
-		Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Kontakion.text @ver</>End-Reading
-		Title role desig sid ti.Oikos End-Title
-		Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Oikos.text @ver</>End-Reading
+	Section MA_11_Kontakion__
+		Section celeb_saint
+			Insert_section Selector_Consecration_CelebSaintsFeasts.kontakion_celeb_saint End-Insert
+		End-Section
+		Section church_saint
+		End-Section
+		Section consecration
+			Para role source sid ti.sourceEuchologion End-Para
+			Actor<are>sid ac.Reader</>End-Actor
+			Title role desig sid ti.Kontakion sid ti.Consecration End-Title
+			Title role mode sid eu.consecration_gr_GR_cog.euMA.Kontakion.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kontakion.melody</>End-Title
+			Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Kontakion.text @ver</>End-Reading
+			Title role desig sid ti.Oikos End-Title
+			Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Oikos.text @ver</>End-Reading
+		End-Section
 	End-Section
 	Section MA_12_Exaposteilarion__
 		Section append

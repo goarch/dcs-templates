@@ -71,7 +71,7 @@ Status NA
 		Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
 		Set_Date month 11 day 15 year 2025 End_Date
 		Insert_section MA._07_Gospel__.no__.reader__.psalm50 End-Insert
-		Insert_section CONS.MA_11_Kontakion End-Insert
+		Insert_section CONS.MA_11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert

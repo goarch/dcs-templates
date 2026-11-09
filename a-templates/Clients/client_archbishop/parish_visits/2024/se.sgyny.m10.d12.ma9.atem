@@ -72,7 +72,7 @@ Status NA
 		Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
 		Set_Date month 10 day 12 year 2024 End_Date
 		Insert_section HIRgoa.MA_08_Supplication__.AME End-Insert
-		Insert_section CONS.MA_11_Kontakion End-Insert
+		Insert_section CONS.MA_11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert

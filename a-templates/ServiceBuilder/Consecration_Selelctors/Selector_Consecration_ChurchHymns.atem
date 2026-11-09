@@ -1491,8 +1491,63 @@ Status Draft
 		end-when
 	End-Section
 
-
-
+	Section matins_gospel_church_saint
+		when-date-is
+			Feb 6 use: //Photius
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Feb 19 use: //Philothea
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Jun 12 use: //Gerasimos Abidou
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.plain End-Insert
+			Aug 24 use: //Kosmas Aitolos
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Aug 27 use: //Phanourios
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Oct 20 use: //Gerasimos
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Oct 28 use: //Holy Protection
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Nov 9 use: //Nektarios
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Dec 2 use: //Porphyrios
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			Dec 17 use: //Dionysios Aigina
+				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+				Insert_section MA._08_Supplication__.priest__.com End-Insert
+			otherwise use:
+				when-exists
+					rid meMA.PostGospelIdiomelon.text use:
+						Section menaion_yes
+							Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
+							Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
+							Insert_section MA._08_Supplication__.priest__.com End-Insert
+						End-Section
+					otherwise use:
+						Insert_section MA._07_Gospel__.no__.hierarch__.psalm50 End-Insert
+				end-when
+		end-when
+	End-Section
+	Section matins_gospel_celeb_saint
+	End-Section
 
 
 

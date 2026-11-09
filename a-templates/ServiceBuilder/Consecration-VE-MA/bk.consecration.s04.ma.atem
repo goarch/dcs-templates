@@ -25,12 +25,10 @@ Status Draft
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
 	Section church_date
-		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
 		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
 	End-Section
 	
