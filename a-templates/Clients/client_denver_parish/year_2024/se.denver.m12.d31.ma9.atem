@@ -75,7 +75,7 @@ Status NA
 			Insert_section hKA._9 End-Insert
 			Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 			Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
-			Insert_section CONS.MA_12_Exaposteilarion__.append End-Insert
+			Insert_section CONS.MA_12_Exaposteilarion__.append__.consecration End-Insert
 		Set_Date month 12 day 31 year 2024 End_Date
 			Insert_section HIRgoa.LOCAL_TI__.DEN__.name End-Insert
 		Set_Date month 9 day 20 year 2024 End_Date

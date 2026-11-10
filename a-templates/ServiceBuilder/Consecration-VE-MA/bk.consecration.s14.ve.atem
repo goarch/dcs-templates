@@ -52,7 +52,7 @@ Status Review
 		Insert_section CONS.VE_05_Readings__.consecration123 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-		Insert_section CONS.VE_08_Aposticha__.selected End-Insert
+		Insert_section CONS.VE_08_Aposticha__.feasts_saints End-Insert
 	Insert_section church_date End-Insert
 		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert

@@ -444,16 +444,16 @@ Status NA
 
 	Section VE_02_LordIHaveCried_SelectedMode__
 		Section noStichologia
-			Insert_section Selector_Consecration_VespersModes.LIHC_hierarchical_Mode End-Insert
+			Insert_section Selector_Consecration.LIHC_hierarchical_modeoffeast End-Insert
 		End-Section
 		Section for8
-			Insert_section Selector_Consecration_VespersModes.LIHC_hierarchical_Mode End-Insert
-			Insert_section Selector_Consecration_VespersModes.ve_stichologia_media_mode End-Insert
+			Insert_section Selector_Consecration.LIHC_hierarchical_modeoffeast End-Insert
+			Insert_section Selector_Consecration.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_8 End-Insert
 		End-Section
 		Section for10
-			Insert_section Selector_Consecration_VespersModes.LIHC_hierarchical_Mode End-Insert
-			Insert_section Selector_Consecration_VespersModes.ve_stichologia_media_mode End-Insert
+			Insert_section Selector_Consecration.LIHC_hierarchical_modeoffeast End-Insert
+			Insert_section Selector_Consecration.ve_stichologia_media_mode End-Insert
 			Insert_section VE.Stichologia.for_10 End-Insert
 		End-Section
 	End-Section
@@ -749,21 +749,18 @@ Status NA
 	End-Section
 	Section VE_05_Readings__
 		Section feast2consecration1
-			Insert_section Selector_Consecration_VespersReadings.feast2consecration1 End-Insert
+			Insert_section Selector_Consecration.vespers_readings_feast2consecration1 End-Insert
 		End-Section
 		Section consecration2saint1
-			Insert_section Selector_Consecration_VespersReadings.consecration2saint1 End-Insert
+			Insert_section Selector_Consecration.vespers_readings_consecration2saint1 End-Insert
 		End-Section
 		Section consecration123
-			Title role desig sid ti.Readings End-Title
-			Insert_section hLE._03_Prophetologion__.r98 End-Insert
-			Insert_section hLE._03_Prophetologion__.r40 End-Insert
-			Insert_section hLE._03_Prophetologion__.r73 End-Insert
+			Insert_section Selector_Consecration.vespers_readings_consecration123 End-Insert
 		End-Section
 	End-Section
 	Section VE_08_Aposticha__
-		Section selected
-			Insert_section Selector_Consecration_VespersAposticha.feasts_saints_consecration End-Insert
+		Section feasts_saints
+			Insert_section Selector_Consecration.aposticha_feasts_saints End-Insert
 		End-Section
 		Section append__
 			Section consecration
@@ -871,8 +868,11 @@ Status NA
 	End-Section
 
 	Section MA_01_Beginning__
+		Section mode_of_celeb_saint
+			Insert_section Selector_Consecration.GodIsTheLord_modeofcelebsaint End-Insert
+		End-Section
 		Section mode_of_church
-			Insert_section Selector_Consecration_Matins.GodIsTheLord_modeofchurch End-Insert
+			Insert_section Selector_Consecration.GodIsTheLord_modeofchurch End-Insert
 		End-Section
 		Section mode_of_feast
 			Insert_section Selector_Consecration.GodIsTheLord_modeoffeast End-Insert
@@ -1130,6 +1130,7 @@ Status NA
 	End-Section
 	Section MA_11_Kontakion__
 		Section celeb_saint
+			Actor<are>sid ac.Reader</>End-Actor
 			Insert_section Selector_Consecration.kontakion_celeb_saint End-Insert
 		End-Section
 		Section church_saint
@@ -1144,35 +1145,48 @@ Status NA
 			Reading<dre>sid eu.consecration_gr_GR_cog.euMA.Oikos.text @ver</>End-Reading
 		End-Section
 		Section feast
+			Actor<are>sid ac.Reader</>End-Actor
 			Insert_section Selector_Consecration.kontakion_feast End-Insert
 		End-Section
 	End-Section
 	Section MA_12_Exaposteilarion__
 		Section church_saint_and_consecration
+			Actor<ahi>sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</></>End-Actor
 			Insert_section Selector_Consecration.exaposteilarion_church_saint_and_consecration End-Insert
 		End-Section
 		Section celeb_saint
+			Actor<ahi>sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</></>End-Actor
 			Insert_section Selector_Consecration.exaposteilarion_celeb_saint End-Insert
 		End-Section
-		Section append
-			Title role desig sid ti.Consecration End-Title
-			Para role source0 sid ti.sourceEuchologion End-Para
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text @ver media-off End-Hymn
-		End-Section
-		Section hierarchical
-			Para role source sid ti.sourceEuchologion End-Para
-			Actor<ahi>sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</></>End-Actor
-			Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Consecration</>End-Title
-			Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
-			Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
-			Hymn sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text @ver media-off End-Hymn
+		Section append__
+			Section church_saint_and_consecration
+				Insert_section Selector_Consecration.exaposteilarion_church_saint_and_consecration End-Insert
+			End-Section
+			Section consecration
+				Title role desig sid ti.Consecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Title role mode sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.melody</>End-Title
+				Media sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text End-Media
+				Hymn sid eu.consecration_gr_GR_cog.euMA.Exaposteilarion1.text @ver media-off End-Hymn
+			End-Section
 		End-Section
 	End-Section
 	Section MA_13_Lauds__
 		Section consecration_and_church_saint
 			Insert_section Selector_Consecration.lauds_consecration_church_saint End-Insert
+		End-Section
+		Section feast__
+			Section as_123
+				Insert_section Selector_Consecration.lauds_as_123 End-Insert
+			End-Section
+		End-Section
+		Section glory__
+			Section celeb_saint
+				Insert_section Selector_Consecration.lauds_glory_celeb_saint End-Insert
+			End-Section
+			Section feast
+				Insert_section Selector_Consecration.lauds_glory_feast End-Insert
+			End-Section
 		End-Section
 		Section glory_and_both__
 			Section church_saint_and_consecration

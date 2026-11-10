@@ -51,14 +51,14 @@ Status Review
 		Insert_section CONS.MA_11_Kontakion__.church_saint End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-		Insert_section MA._07_Gospel__.yes__.priest__.eo End-Insert
+		Insert_section MA._07_Gospel__.yes__.hierarch__.eo End-Insert
 		Insert_section MA._08_Supplication__.priest__.plain End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section KA.append__._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.eo__.eoofweek_.exap End-Insert
-		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.church_saint_and_consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.modeofweek End-Insert
 		Insert_section CONS.MA_prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert

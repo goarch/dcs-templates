@@ -80,7 +80,7 @@ Status NA
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 		Set_Date month 11 day 1 year 2025 End_Date
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_ End-Insert
-		Insert_section CONS.MA_12_Exaposteilarion__.append End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode1 End-Insert
 		Insert_section CONS.MA_13_Lauds__.prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert

@@ -51,16 +51,11 @@ Status Draft
 		Insert_section MA._05_Kathisma3__.glory__.consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.both__.feast_of_MotherofGod End-Insert
 		Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
-		Insert_section MA._07_Gospel__.yes__.priest__.me End-Insert
+		Insert_section MA._07_Gospel__.yes__.hierarch__.me End-Insert
 		Insert_section MA._08_Supplication__.priest__.com End-Insert
 		Insert_section MA._11_Kontakion__.me1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-		
-
-
-
-
 		
 
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
@@ -72,13 +67,49 @@ Status Draft
 //		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
-		Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
-	//	Insert_section MA._13_Lauds__.consecration__.p_1234as3456 End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
 
-		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
+
+	Insert_section church_date End-Insert
+		Section lauds_feast_and_consecration_and_church_saint
+			when-date-is
+				Jan 10 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				Mar 17 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				Apr 24 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				May 9 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				Aug 10 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				Sep 17 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as456 End-Insert
+				otherwise use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section CONS.MA_13_Lauds__.feast__.as_123 End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_12as45 End-Insert
+					Insert_section church_date End-Insert
+					Insert_section Selector_Consecration.lauds_church_saint_as678 End-Insert
+			end-when
+		End-Section
 		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_13_Lauds__.glory__.feast End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
-		Insert_section AP.consecration End-Insert
+		Insert_section AP.f1 End-Insert
 		Section End
 			Insert_section LN.FervLitany_short_deacon_choir End-Insert
 			Insert_section LN.CompLitanyMA_deacon_choir End-Insert
