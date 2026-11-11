@@ -26,7 +26,7 @@ Status Review
 
 	Head
 		//The full date of the consecration needs to be set here
-		Set_Date month 10 day 26 year 2027 End_Date
+		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
 	Section Instance_s03
@@ -39,7 +39,7 @@ Status Review
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.consecration2saint1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
-		Insert_section CONS.VE_08_Aposticha__.feasts_saints End-Insert
+		Insert_section CONS.VE_08_Aposticha__.church_saint End-Insert
 		Insert_section CONS.VE_08_Aposticha__.glory_and_both__.church_saint_and_consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.consecration End-Insert

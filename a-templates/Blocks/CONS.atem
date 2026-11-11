@@ -759,8 +759,14 @@ Status NA
 		End-Section
 	End-Section
 	Section VE_08_Aposticha__
-		Section feasts_saints
-			Insert_section Selector_Consecration.aposticha_feasts_saints End-Insert
+		Section celeb_saint
+			Insert_section Selector_Consecration.aposticha_celeb_saint End-Insert
+		End-Section
+		Section church_saint
+			Insert_section Selector_Consecration.aposticha_church_saint End-Insert
+		End-Section
+		Section feast
+			Insert_section Selector_Consecration.aposticha_feast End-Insert
 		End-Section
 		Section append__
 			Section consecration
@@ -1159,6 +1165,9 @@ Status NA
 			Insert_section Selector_Consecration.exaposteilarion_celeb_saint End-Insert
 		End-Section
 		Section append__
+			Section celeb_saint
+				Insert_section Selector_Consecration.exaposteilarion_celeb_saint End-Insert
+			End-Section
 			Section church_saint_and_consecration
 				Insert_section Selector_Consecration.exaposteilarion_church_saint_and_consecration End-Insert
 			End-Section
@@ -1172,6 +1181,14 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_13_Lauds__
+		Section celeb_saint__
+			Section as_345
+				Insert_section Selector_Consecration.lauds_celeb_saint_as345 End-Insert
+			End-Section
+			Section as_678
+				Insert_section Selector_Consecration.lauds_celeb_saint_as678 End-Insert
+			End-Section
+		End-Section
 		Section consecration_and_church_saint
 			Insert_section Selector_Consecration.lauds_consecration_church_saint End-Insert
 		End-Section

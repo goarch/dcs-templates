@@ -25,7 +25,6 @@ Status Review
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
@@ -46,7 +45,7 @@ Status Review
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section CONS.VE_05_Readings__.feast2consecration1 End-Insert
 		Insert_section VE._06_Litanies__.hierarchical__.fullektenia End-Insert
-		Insert_section CONS.VE_08_Aposticha__.feasts_saints End-Insert
+		Insert_section CONS.VE_08_Aposticha__.feast End-Insert
 		Insert_section CONS.VE_08_Aposticha__.glory__.feast_of_MotherofGod End-Insert
 		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
