@@ -35,8 +35,8 @@ Status Review
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_s04
 		Insert_section CONS.Service_Title__.Matins End-Insert
-		Insert_section MA._01_Beginning__.mode4 End-Insert
-		Insert_section AP.consecration End-Insert
+		Insert_section MA._01_Beginning__.modeofweek End-Insert
+		Insert_section AP.res__.modeofweek End-Insert
 		Insert_section AP.glory__.client1 End-Insert
 		Insert_section AP.both__.consecration End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert

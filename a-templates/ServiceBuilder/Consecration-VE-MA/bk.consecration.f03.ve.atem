@@ -37,7 +37,7 @@ Status Review
 		Insert_section CONS.Service_Title__.Vespers End-Insert
 		Insert_section VE._01_Beginning__.hierarchical__.vespers End-Insert
 	Insert_section church_date End-Insert
-		Insert_section CONS.VE_02_LordIHaveCried_SelectedMode__.for10 End-Insert
+		Insert_section CONS.VE_02_LordIHaveCried_ModeOfFeast__.for10 End-Insert
 		Insert_section CONS.VE_03_Stichera__.church_feast__.as_123 End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.VE_03_Stichera__.consecration__.i_123as456 End-Insert

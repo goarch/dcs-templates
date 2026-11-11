@@ -1,10 +1,10 @@
 Template bk.consecration.s10.ma 
 
-Status Draft
+Status Review
 
 //s10
 //When the church is named for a saint
-//When the consecration is conducted on a post-festal weekday without a celebrated saint
+//When the consecration is conducted on a weekday, during a festal period, without a celebrated saint
 
 	import da.*
 	import oc.*
@@ -54,31 +54,21 @@ Status Draft
 		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-
-
-
-
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-		Insert_section Selector_Consecration_Matins_Canons.Odeix__.magnificat_feast End-Insert
-		Insert_section Selector_Consecration_Matins_Canons.Odeix__.append__.consecration__.VVVTh End-Insert
-	Insert_section church_date End-Insert
-		Insert_section Selector_Consecration_Matins_Canons.Odeix__.append__.church End-Insert
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-
+		Insert_section MA._12_Exaposteilarion__.hierarchical__.consecration End-Insert
 	Insert_section church_date End-Insert
-		Insert_section TI.e.local_church End-Insert
-		Insert_section MA._12_Exaposteilarion__.hierarchical__.me__.exap1_.hymn End-Insert
-		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.church_saint End-Insert
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-		Insert_section TI.f End-Insert
-		Insert_section MA._12_Exaposteilarion__.append__.festal End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.feast End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
+	Insert_section church_date End-Insert
 		Insert_section CONS.MA_13_Lauds__.consecration_and_church_saint End-Insert
-	//	Insert_section CONS.MA_13_Lauds__.glory_and_both__.church_saint_and_feast End-Insert
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_13_Lauds__.glory_and_both__.church_saint_and_feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.consecration End-Insert

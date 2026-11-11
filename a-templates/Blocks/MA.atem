@@ -7714,7 +7714,7 @@ Status NA
 					Hymn rid eo.Theotokion.text @ver media-off End-Hymn
 				end-when
 			End-Section
-			Section con
+			Section consecration
 				Para role source sid ti.sourceEuchologion End-Para
 				Actor sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</>End-Actor
 				Title role desig sid ti.Exaposteilarion<Tdesig>sid ti.Consecration</>End-Title
@@ -9972,6 +9972,19 @@ Status NA
 				Hymn rid meMA.Lauds2.text @ver media-off End-Hymn
 				Title role desig sid ti.Idiomelon3<Tmode>rid meMA.Lauds3.mode</>End-Title
 				Insert_section MA.Lauds_Verses.v03 End-Insert
+				Hymn rid meMA.Lauds3.text @ver media-off End-Hymn
+			End-Section
+			Section i_123as345
+				Para role source0 sid ti.sourceMenaion End-Para
+				Media rid meMA.MM.Lauds123as345.text End-Media
+				Title role desig sid ti.Idiomelon1<Tmode>rid meMA.Lauds1.mode</>End-Title
+				Insert_section MA.Lauds_Verses.v03 End-Insert
+				Hymn rid meMA.Lauds1.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon2<Tmode>rid meMA.Lauds2.mode</>End-Title
+				Insert_section MA.Lauds_Verses.v04 End-Insert
+				Hymn rid meMA.Lauds2.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon3<Tmode>rid meMA.Lauds3.mode</>End-Title
+				Insert_section MA.Lauds_Verses.v05 End-Insert
 				Hymn rid meMA.Lauds3.text @ver media-off End-Hymn
 			End-Section
 			Section i_123as456
@@ -12483,6 +12496,20 @@ Status NA
 				Hymn rid peMA.Lauds2.text @ver media-off End-Hymn
 				Title role mode rid peMA.Lauds3.mode End-Title
 				Insert_section MA.Lauds_Verses.v03 End-Insert
+				Hymn rid peMA.Lauds3.text @ver media-off End-Hymn
+			End-Section
+			Section i_123as345
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Title role desig sid ti.SticheraIdiomelaFeast End-Title
+				Media rid peMA.MM.Lauds123as345.text End-Media
+				Title role mode rid peMA.Lauds1.mode End-Title
+				Insert_section MA.Lauds_Verses.v03 End-Insert
+				Hymn rid peMA.Lauds1.text @ver media-off End-Hymn
+				Title role mode rid peMA.Lauds2.mode End-Title
+				Insert_section MA.Lauds_Verses.v04 End-Insert
+				Hymn rid peMA.Lauds2.text @ver media-off End-Hymn
+				Title role mode rid peMA.Lauds3.mode End-Title
+				Insert_section MA.Lauds_Verses.v05 End-Insert
 				Hymn rid peMA.Lauds3.text @ver media-off End-Hymn
 			End-Section
 			Section p_1123as3456

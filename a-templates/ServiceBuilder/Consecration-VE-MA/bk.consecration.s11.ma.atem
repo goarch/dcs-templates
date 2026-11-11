@@ -1,6 +1,6 @@
 Template bk.consecration.s11.ma 
 
-Status Draft
+Status Review
 
 //s11
 //When the church is named for a saint
@@ -51,23 +51,55 @@ Status Draft
 		Insert_section CONS.MA_11_Kontakion__.celeb_saint End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-		
-		
-		
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.celeb_saint End-Insert
 	Insert_section church_date End-Insert
-
-//		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
-		Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
-	//	Insert_section MA._13_Lauds__.consecration__.p_1234as3456 End-Insert
-
-		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
-		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+	Insert_section church_date End-Insert
+		Section lauds_consecration_and_celeb_and_church_saint
+			when-date-is
+				Jan 10 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				Mar 17 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				Apr 24 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				May 9 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				Aug 10 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				Sep 17 use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_456 End-Insert
+				otherwise use:
+					Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+					Insert_section MA._13_Lauds__.oc__.s_12as12 End-Insert
+					Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_345 End-Insert
+					Insert_section church_date End-Insert
+					Insert_section Selector_Consecration.lauds_church_saint_as678 End-Insert
+			end-when
+		End-Section
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_13_Lauds__.glory__.celeb_saint End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.consecration End-Insert
 		Section End
@@ -78,7 +110,7 @@ Status Draft
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
 		End-Section
-		Insert_section MA._20_Dismissal__.hierarchical__.nocommemoration End-Insert
+		Insert_section MA._20_Dismissal__.hierarchical__.commemoration End-Insert
 	End-Section
 
 End-Template

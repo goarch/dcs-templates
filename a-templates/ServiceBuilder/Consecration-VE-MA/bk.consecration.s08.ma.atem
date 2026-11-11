@@ -62,15 +62,17 @@ Status Draft
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-	Insert_section church_date End-Insert
+		
 
-//		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
-		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.feast End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.church_saint End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.feast End-Insert
+		Insert_section CONS.MA_13_Lauds__.ModeOfFeast End-Insert
 		Insert_section CONS.MA_prayers End-Insert
 		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
-
-
-	Insert_section church_date End-Insert
 		Section lauds_feast_and_consecration_and_church_saint
 			when-date-is
 				Jan 10 use:

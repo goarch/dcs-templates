@@ -10972,9 +10972,85 @@ Status NA
 				end-when
 		end-when
 	End-Section
+	Section exaposteilarion_church_saint
+		when-movable-cycle-day-is
+			127 use:
+				Insert_section TI.local_church End-Insert
+				Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+				Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+			otherwise use:
+				when-date-is //for alt1.me
+					Feb 6 use: //Photius
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Jul 22 use: //Markella
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.local_church End-Insert
+						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.Exaposteilarion1.text use:
+								Insert_section TI.local_church End-Insert
+								Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+								Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
+								Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+							otherwise use:
+						end-when
+				end-when
+		end-when
+	End-Section
 	Section exaposteilarion_church_saint_and_consecration
 		when-movable-cycle-day-is
-			127 use: //no kath
+			127 use:
 				Insert_section TI.e.local_church End-Insert
 				Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
@@ -11049,6 +11125,252 @@ Status NA
 				end-when
 		end-when
 	End-Section
+	Section exaposteilarion_feast
+		Insert_section TI.e.f End-Insert
+		when-movable-cycle-day-is
+			78 use:
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+			95 use:
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+			110 use:
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+			120 use:
+				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
+			otherwise use:
+				when-date-is
+					Jan 6 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Feb 2 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Mar 25 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Aug 6 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Aug 15 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Sep 8 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Sep 14 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Nov 21 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+					Dec 25 use:
+						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
+				end-when
+		end-when
+	End-Section
+
+
+	Section Lauds_hierarchical_modeoffeast //really only needed for feasts of the Lord and the Mother of God
+		Para role bkmrk11 sid misc.bookmark End-Para
+		Insert_section lauds_mode_of_feast End-Insert
+		Insert_section lauds1_media_mode_of_feast End-Insert
+		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v1.text @ver media-off End-Hymn
+		Insert_section lauds2_media_mode_of_feast End-Insert
+		Hymn sid liturgical.verses_gr_GR_cog.psMA.lauds.v2.text @ver media-off End-Hymn
+	End-Section
+		Section lauds_mode_of_feast //really only needed for feasts of the Lord and the Mother of God
+			when-movable-cycle-day-is
+				78 use:
+					Section ThomasSunday
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d078_gr_GR_cog.peMA.Lauds1.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d078_gr_GR_cog.peMA.Lauds1.mode End-Title
+					End-Section
+				95 use:
+					Section Midpentecost
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d095_gr_GR_cog.peMA.Lauds1.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d095_gr_GR_cog.peMA.Lauds1.mode End-Title
+					End-Section
+				110 use:
+					Section Ascension
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d110_gr_GR_cog.peMA.Lauds1.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d110_gr_GR_cog.peMA.Lauds1.mode End-Title
+					End-Section
+				120 use:
+					Section Pentecost
+						Actor sid ac.Chanter End-Actor
+						Dialog sid pr.Command_holybishop.text sid pe.d120_gr_GR_cog.peMA.Lauds1.mode End-Dialog
+						Actor sid ac.Choir End-Actor
+						Title role mode sid pe.d120_gr_GR_cog.peMA.Lauds1.mode End-Title
+					End-Section
+				otherwise use:
+					when-date-is //these can be consolidated into eight modes per month
+						Jan 6 use:
+							Section Jan06
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m01.d06_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m01.d06_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Feb 2 use:
+							Section Feb02
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m02.d02_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m02.d02_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Mar 25 use:
+							Section Mar25
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m03.d25_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m03.d25_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Aug 6 use:
+							Section Aug06
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m08.d06_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m08.d06_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Aug 15 use:
+							Section Aug15
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m08.d15_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m08.d15_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Sep 8 use:
+							Section Sep08
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m09.d08_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m09.d08_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Sep 14 use:
+							Section Sep14
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m09.d14_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m09.d14_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Nov 21 use:
+							Section Nov21
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m11.d21_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m11.d21_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+						Dec 25 use:
+							Section Dec25
+								Actor sid ac.Chanter End-Actor
+								Dialog sid pr.Command_holybishop.text sid me.m12.d25_gr_GR_cog.meMA.Lauds1.mode End-Dialog
+								Actor sid ac.Choir End-Actor
+								Title role mode sid me.m12.d25_gr_GR_cog.meMA.Lauds1.mode End-Title
+							End-Section
+					end-when
+			end-when		
+		End-Section
+		Section lauds1_media_mode_of_feast
+			when-movable-cycle-day-is
+				78 use:
+					Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+				110 use:
+					Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+				otherwise use:
+					when-date-is
+						Jan 6 use:
+							Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
+						Feb 2 use:
+							Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+						Mar 25 use:
+							Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+						Aug 6 use:
+							Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+						Aug 15 use:
+							Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+						Sep 8 use:
+							Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+						Sep 14 use:
+							Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+						Nov 21 use:
+							Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+						Dec 25 use:
+							Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
+					end-when
+			end-when
+		End-Section
+		Section lauds2_media_mode_of_feast
+			when-movable-cycle-day-is
+				78 use:
+					Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+				110 use:
+					Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+				otherwise use:
+					when-date-is
+						Jan 6 use:
+							Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
+						Feb 2 use:
+							Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+						Mar 25 use:
+							Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+						Mar 26 use:
+							Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+						Aug 6 use:
+							Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+						Aug 15 use:
+							Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+						Sep 8 use:
+							Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+						Sep 14 use:
+							Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+						Nov 21 use:
+							Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+						Dec 25 use:
+							Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
+					end-when
+			end-when
+		End-Section
+		Section ma_stichologia_media_mode_of_feast
+			when-movable-cycle-day-is
+				78 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+				110 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+				otherwise use:
+					when-date-is
+						Jan 6 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
+						Feb 2 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+						Mar 25 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+						Aug 6 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+						Aug 15 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+						Sep 8 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+						Sep 14 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+						Nov 21 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+						Dec 25 use:
+							Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
+					end-when
+			end-when
+		End-Section
+
+
+
 
 	Section lauds_celeb_saint_as345
 		when-movable-cycle-day-is
@@ -11950,7 +12272,7 @@ Status NA
 		end-when
 	End-Section
 
-	Section lauds_as_123 //on feasts of Mother of God and leave-taking of feasts
+	Section lauds_feast_as_123 //on feasts of Mother of God and leave-taking of feasts
 		Insert_section TI.stp.f End-Insert
 		when-movable-cycle-day-is
 			78 use:
@@ -11984,7 +12306,87 @@ Status NA
 				end-when
 		end-when
 	End-Section
+	Section lauds_feast_as_345 //on feasts of Mother of God and leave-taking of feasts
+		Insert_section TI.stp.f End-Insert
+		when-movable-cycle-day-is
+			78 use:
+				Insert_section MA._13_Lauds__.pe__.p_123as345 End-Insert
+			95 use:
+				Insert_section MA._13_Lauds__.pe__.p_123as345 End-Insert
+			110 use:
+				Insert_section MA._13_Lauds__.pe__.p_123as345 End-Insert
+			120 use:
+				Insert_section MA._13_Lauds__.pe__.i_123as345 End-Insert
+			otherwise use:
+				when-date-is
+					Jan 6 use:
+						Insert_section MA._13_Lauds__.me__.i_123as345 End-Insert
+					Feb 2 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Mar 25 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Aug 6 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Aug 15 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Sep 8 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Sep 14 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Nov 21 use:
+						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
+					Dec 25 use:
+						Insert_section MA._13_Lauds__.me__.i_123as345 End-Insert
+				end-when
+		end-when
+	End-Section
+	Section lauds_feast_as_5678
+		when-date-is
+			Feb 2 use:
+				Insert_section MA._13_Lauds__.me__.p_1123as56meeting12 End-Insert
+			Aug 15 use:
+				Insert_section MA._13_Lauds__.me__.p_1123as56dormition12 End-Insert
+			Sep 8 use:
+				Insert_section MA._13_Lauds__.me__.p_1123as56theotokos12 End-Insert
+			Nov 21 use:
+				Insert_section MA._13_Lauds__.me__.p_1234as56entry12 End-Insert
+		end-when
+	End-Section
 
+	Section lauds_both_feast
+		Insert_section TI.b.f End-Insert
+		when-movable-cycle-day-is
+			78 use:
+				Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_.hymn End-Insert
+			95 use:
+				Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_.hymn End-Insert
+			110 use:
+				Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_.hymn End-Insert
+			120 use:
+				Insert_section MA._13_Lauds__.glory__.pe__.gloryasglory_.hymn End-Insert
+			otherwise use:
+				when-date-is
+					Jan 6 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Feb 2 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Mar 25 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Aug 6 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Aug 15 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Sep 8 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Sep 14 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Nov 21 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+					Dec 25 use:
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+				end-when
+		end-when
+	End-Section
 	Section lauds_glory_feast
 		Insert_section TI.g.f End-Insert
 		when-movable-cycle-day-is
@@ -12011,7 +12413,7 @@ Status NA
 					Sep 8 use:
 						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 					Sep 14 use:
-						Insert_section MA._13_Lauds__.me__.p_123as123 End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 					Nov 21 use:
 						Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 					Dec 25 use:
@@ -12188,11 +12590,98 @@ Status NA
 		end-when
 	End-Section
 
+	Section laudsglory_church_saint_both_feast
+		when-movable-cycle-day-is
+			127 use:
+				Insert_section Selector_Consecration.lauds_glory_feast End-Insert
+				Insert_section MA._13_Lauds__.both__.consecration End-Insert
+			otherwise use:
+				when-date-is
+					Feb 6 use: //Photius
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Feb 19 use: //Philothea
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Jun 12 use: //Gerasimos Abidou
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Aug 24 use: //Kosmas Aitolos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Aug 27 use: //Phanourios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Oct 20 use: //Gerasimos
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Oct 28 use: //Holy Protection
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Nov 9 use: //Nektarios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Dec 2 use: //Porphyrios
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					Dec 17 use: //Dionysios Aigina
+						Insert_section TI.g.local_church End-Insert
+						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+					otherwise use:
+						when-exists
+							rid meMA.LaudsGlory.text use:
+								Section menaion_yes
+									Insert_section TI.g.local_church End-Insert
+									Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
+									Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+									Insert_section Selector_Consecration.lauds_both_feast End-Insert
+								End-Section
+							otherwise use:
+								when-name-of-day-is
+									Sunday use:
+										Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+										Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
+									otherwise use:
+										Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+										Insert_section Selector_Consecration.lauds_glory_feast End-Insert
+										Insert_section MA._13_Lauds__.both__.consecration End-Insert
+								end-when
+						end-when
+				end-when
+		end-when
+	End-Section
 
 	Section laudsglory_church_saint_both_consecration
 		when-movable-cycle-day-is
 			127 use:
-				Insert_section MA._13_Lauds__.gloryboth__.consecration End-Insert
+				when-name-of-day-is
+					Sunday use:
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section MA._13_Lauds__.glory__.eo_.eothinon End-Insert
+						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+					otherwise use:	
+						Insert_section MA._13_Lauds__.gloryboth__.consecration End-Insert
+				end-when
 			otherwise use:
 				when-date-is
 					Feb 6 use: //Photius
