@@ -1211,6 +1211,9 @@ Status NA
 			Insert_section Selector_Consecration.lauds_consecration_church_saint End-Insert
 		End-Section
 		Section feast__
+			Section as_12
+				Insert_section Selector_Consecration.lauds_feast_as_12 End-Insert
+			End-Section
 			Section as_123
 				Insert_section Selector_Consecration.lauds_feast_as_123 End-Insert
 			End-Section

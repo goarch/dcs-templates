@@ -9940,6 +9940,16 @@ Status NA
 				Insert_section MA.Lauds_Verses.v06 End-Insert
 				Hymn rid meMA.Lauds5.text @ver media-off End-Hymn
 			End-Section
+			Section i_12as12
+				Para role source0 sid ti.sourceMenaion End-Para
+				Media rid meMA.MM.Lauds12as12.text End-Media
+				Title role desig sid ti.Idiomelon1<Tmode>rid meMA.Lauds1.mode</>End-Title
+				Insert_section MA.Lauds_Verses.v01 End-Insert
+				Hymn rid meMA.Lauds1.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon2<Tmode>rid meMA.Lauds2.mode</>End-Title
+				Insert_section MA.Lauds_Verses.v02 End-Insert
+				Hymn rid meMA.Lauds2.text @ver media-off End-Hymn
+			End-Section
 			Section i_12as45
 				Para role source0 sid ti.sourceMenaion End-Para
 				Title role desig sid ti.Idiomelon1<Tmode>rid meMA.Lauds1.mode</>End-Title
@@ -10658,6 +10668,16 @@ Status NA
 				Insert_section PsalmVerses.forHierarchs.verse1 End-Insert
 				Hymn rid meMA.Lauds1.text @ver media-off End-Hymn
 				Insert_section PsalmVerses.forHierarchs.verse3 End-Insert
+				Hymn rid meMA.Lauds2.text @ver media-off End-Hymn
+			End-Section
+			Section p_12as12
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role mode rid meMA.Lauds1.mode<Tmelody>rid meMA.Lauds1.melody</>End-Title
+				Title role greekmelody rid meMA.Lauds1.greekmelody End-Title
+				Media rid meMA.MM.Lauds12as12.text End-Media
+				Insert_section MA.Lauds_Verses.v01 End-Insert
+				Hymn rid meMA.Lauds1.text @ver media-off End-Hymn
+				Insert_section MA.Lauds_Verses.v02 End-Insert
 				Hymn rid meMA.Lauds2.text @ver media-off End-Hymn
 			End-Section
 			Section p_123as123
@@ -12484,6 +12504,17 @@ Status NA
 				Insert_section MA.Lauds_Verses.v06 End-Insert
 				Hymn rid peMA.Lauds3.text @ver media-off End-Hymn
 			End-Section
+			Section i_12as12
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Title role desig sid ti.SticheraIdiomelaFeast End-Title
+				Media rid peMA.MM.Lauds12as12.text End-Media
+				Title role mode rid peMA.Lauds1.mode End-Title
+				Insert_section MA.Lauds_Verses.v01 End-Insert
+				Hymn rid peMA.Lauds1.text @ver media-off End-Hymn
+				Title role mode rid peMA.Lauds2.mode End-Title
+				Insert_section MA.Lauds_Verses.v02 End-Insert
+				Hymn rid peMA.Lauds2.text @ver media-off End-Hymn
+			End-Section
 			Section i_123as123
 				Para role source0 sid ti.sourcePentecostarion End-Para
 				Title role desig sid ti.SticheraIdiomelaFeast End-Title
@@ -12527,6 +12558,16 @@ Status NA
 				Media rid peMA.Lauds3.text End-Media
 				Insert_section MA.Lauds_Verses.v06 End-Insert
 				Hymn rid peMA.Lauds3.text @ver media-off End-Hymn
+			End-Section
+			Section p_12as12
+				Para role source0 sid ti.sourcePentecostarion End-Para
+				Title role mode rid peMA.Lauds1.mode<Tmelody>rid peMA.Lauds1.melody</>End-Title
+				Title role greekmelody rid peMA.Lauds1.greekmelody End-Title
+				Media rid peMA.MM.Lauds12as12.text End-Media
+				Insert_section MA.Lauds_Verses.v01 End-Insert
+				Hymn rid peMA.Lauds1.text @ver media-off End-Hymn
+				Insert_section MA.Lauds_Verses.v02 End-Insert
+				Hymn rid peMA.Lauds2.text @ver media-off End-Hymn
 			End-Section
 			Section p_123as123
 				Para role source0 sid ti.sourcePentecostarion End-Para

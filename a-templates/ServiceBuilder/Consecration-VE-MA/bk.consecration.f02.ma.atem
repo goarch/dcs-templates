@@ -61,44 +61,33 @@ Status Draft
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section KA.append__._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+
+
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.eo__.eoofweek_.exap End-Insert
-
-
-
-
-
-
-
-
-
-
-//	Insert_section church_date End-Insert
-
-
-
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.feast End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+		Insert_section MA._13_Lauds__.hierarchical__.modeofweek End-Insert
+		Insert_section CONS.MA_prayers End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+		Insert_section MA._13_Lauds__.oc__.s_12as12 End-Insert
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_13_Lauds__.feast__.as_345 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as6consecration12 End-Insert
+		Insert_section CONS.MA_13_Lauds__.glory__.feast End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._13_Lauds__.both__.eotheotokion End-Insert
+		Insert_section MA._14_Doxology__.sunday End-Insert
+		Section End
+			Insert_section LN.FervLitany_short_deacon_choir End-Insert
+			Insert_section LN.CompLitanyMA_deacon_choir End-Insert
+			Insert_section LN.hBowHeadsMA_deacon_choir End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part1 End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
+			Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
+		End-Section
+		Insert_section MA._20_Dismissal__.hierarchical__.nocommemoration End-Insert
 	End-Section
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 End-Template

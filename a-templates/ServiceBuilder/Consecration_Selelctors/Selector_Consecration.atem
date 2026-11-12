@@ -12272,6 +12272,41 @@ Status NA
 		end-when
 	End-Section
 
+	Section lauds_feast_as_12
+		Insert_section TI.stp.f End-Insert
+		when-movable-cycle-day-is
+			78 use:
+				Insert_section MA._13_Lauds__.pe__.p_12as12 End-Insert
+			95 use:
+				Insert_section MA._13_Lauds__.pe__.p_12as12 End-Insert
+			110 use:
+				Insert_section MA._13_Lauds__.pe__.p_12as12 End-Insert
+			120 use:
+				Insert_section MA._13_Lauds__.pe__.i_12as12 End-Insert
+			otherwise use:
+				when-date-is
+					Jan 6 use:
+						Insert_section MA._13_Lauds__.me__.i_12as12 End-Insert
+					Feb 2 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Mar 25 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Aug 6 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Aug 15 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Sep 8 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Sep 14 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Nov 21 use:
+						Insert_section MA._13_Lauds__.me__.p_12as12 End-Insert
+					Dec 25 use:
+						Insert_section MA._13_Lauds__.me__.i_12as12 End-Insert
+				end-when
+		end-when
+	End-Section
+
 	Section lauds_feast_as_123 //on feasts of Mother of God and leave-taking of feasts
 		Insert_section TI.stp.f End-Insert
 		when-movable-cycle-day-is
