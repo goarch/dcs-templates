@@ -14135,7 +14135,7 @@ Status NA
 					Hymn rid alt1.meMA.Ode9C3T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
-			Section con
+			Section consecration
 				Section ti_hh123tas00VVVTh
 					Para role source sid ti.sourceEuchologion End-Para
 					Title role desig sid misc.Ode9 End-Title
@@ -15358,6 +15358,24 @@ Status NA
 					Media rid meMA.Ode9C23.text End-Media
 					Hymn rid meMA.Ode9C23.text @ver media-off End-Hymn
 				End-Section
+				Section ti_h123as0VVV
+					Para role source sid ti.sourceMenaion End-Para
+					Insert_section TI.ct.me.c2 End-Insert
+					Media rid meMA.Ode9C2H.text End-Media
+					Title role mode rid meMA.Ode9C2H.mode<Tdesig>rid meMA.Ode9C2H.melody</>End-Title
+					Title role greekmelody rid meMA.Ode9C2H.greekmelody End-Title
+					Para role heirmos rid meMA.Ode9C2H.text @ver media-off End-Para
+					Title role desig sid ti.Troparia End-Title
+					Verse rid meMA.C2.verse End-Verse
+					Media rid meMA.Ode9C21.text End-Media
+					Hymn rid meMA.Ode9C21.text @ver media-off End-Hymn
+					Verse rid meMA.C2.verse End-Verse
+					Media rid meMA.Ode9C22.text End-Media
+					Hymn rid meMA.Ode9C22.text @ver media-off End-Hymn
+					Verse rid meMA.C2.verse End-Verse
+					Media rid meMA.Ode9C23.text End-Media
+					Hymn rid meMA.Ode9C23.text @ver media-off End-Hymn
+				End-Section
 				Section ti_h1trtas0VGB
 					Para role source sid ti.sourceMenaion End-Para
 					Insert_section TI.ct.me.c2 End-Insert
@@ -16218,6 +16236,30 @@ Status NA
 				Media rid meMA.Ode9C12.text End-Media
 				Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse rid meMA.Ode9C1MTh.text End-Verse
+				Media rid meMA.Ode9C13.text End-Media
+				Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
+			End-Section
+			Section ti_hh1123asM11M12M13M14M15M16
+				Insert_section TI.ct.me.c1 End-Insert
+				Para role source0 sid ti.sourceMenaion End-Para
+				Title role desig rid meMA.Ode9C1H.ode rid meMA.Ode9C1H.melody<Tmode>rid meMA.Ode9C1H.mode</>End-Title
+				Title role greekmelody rid meMA.Ode9C1H.greekmelody End-Title
+				Media rid meMA.Ode9C1H.text End-Media
+				Verse rid meMA.Ode9C1M11.text @ver End-Verse
+				Hymn rid meMA.Ode9C1H.text @ver media-off End-Hymn
+				Verse rid meMA.Ode9C1M12.text @ver End-Verse
+				Hymn rid meMA.Ode9C1H.text @ver media-off End-Hymn
+				Title role desig sid ti.Troparia End-Title
+				Verse rid meMA.Ode9C1M13.text End-Verse
+				Media rid meMA.Ode9C11.text End-Media
+				Hymn rid meMA.Ode9C11.text @ver media-off End-Hymn
+				Verse rid meMA.Ode9C1M14.text End-Verse
+				Media rid meMA.Ode9C11.text End-Media
+				Hymn rid meMA.Ode9C11.text @ver media-off End-Hymn
+				Verse rid meMA.Ode9C1MTr.text End-Verse
+				Media rid meMA.Ode9C12.text End-Media
+				Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 				Verse rid meMA.Ode9C1MTh.text End-Verse
 				Media rid meMA.Ode9C13.text End-Media
 				Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn

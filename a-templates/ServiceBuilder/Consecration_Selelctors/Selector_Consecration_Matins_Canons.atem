@@ -61,10 +61,10 @@ Status NA
 			Section append__
 				Section consecration__
 					Section VVVTh
-						Insert_section CAv.ode9.append.con.ti_123tasVVVTh End-Insert
+						Insert_section CAv.ode9.append.consecration.ti_123tasVVVTh End-Insert
 					End-Section
 					Section VVGB
-						Insert_section CAv.ode9.append.con.ti_123tasVVGB End-Insert
+						Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
 					End-Section
 				End-Section
 				Section church
@@ -144,6 +144,33 @@ Status NA
 								Dec 27 use:
 							end-when
 						end-when
+				End-Section
+				Section feast
+					when-movable-cycle-day-is
+						78 use:
+						95 use:
+						110 use:
+							Insert_section CAv.ode9.pe1.ti_h1234tas0VVVTh End-Insert
+						120 use:
+							Insert_section CAv.ode9.pe1.ti_hh12as00VV End-Insert
+						otherwise use:
+							when-date-is
+								Jan 6 use:
+									Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+								Feb 2 use:
+								Mar 25 use:
+									Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
+								Aug 6 use:
+									Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
+								Aug 15 use:
+								Sep 8 use:
+								Sep 14 use:
+									Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
+								Nov 21 use:
+								Dec 25 use:
+									Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+							end-when
+					end-when
 				End-Section
 			End-Section
 		End-Section
