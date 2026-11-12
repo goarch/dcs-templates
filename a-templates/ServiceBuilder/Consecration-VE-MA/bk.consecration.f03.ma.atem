@@ -82,7 +82,6 @@ Status Draft
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_678 End-Insert
 		Insert_section CONS.MA_13_Lauds__.glory__.celeb_saint End-Insert
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.consecration End-Insert

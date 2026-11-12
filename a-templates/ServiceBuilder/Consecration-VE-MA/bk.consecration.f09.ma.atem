@@ -65,16 +65,23 @@ Status Draft
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+
+
 	Insert_section church_date End-Insert
-
-//		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
-		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.feast End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_12_Exaposteilarion__.append__.celeb_saint End-Insert
+		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_13_Lauds__.ModeOfFeast End-Insert
 		Insert_section CONS.MA_prayers End-Insert
-		Insert_section MA._13_Lauds__.stichologia__.sung__.for4_nocollapse End-Insert
-	//	Insert_section MA._13_Lauds__.consecration__.p_1234as3456 End-Insert
-
-		//Insert_section CONS.MA_13_Lauds__.glory__.church_saint_both_consecration End-Insert
-		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+		Insert_section CONS.MA_13_Lauds__.feast__.as_12 End-Insert
+		Insert_section MA._13_Lauds__.consecration__.p_123as345 End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_678 End-Insert
+		Insert_section CONS.MA_13_Lauds__.glory__.celeb_saint End-Insert
+		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.consecration End-Insert
 		Section End
@@ -85,7 +92,7 @@ Status Draft
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
 		End-Section
-		Insert_section MA._20_Dismissal__.hierarchical__.nocommemoration End-Insert
+		Insert_section MA._20_Dismissal__.hierarchical__.commemoration End-Insert
 	End-Section
 
 End-Template
