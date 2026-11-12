@@ -23,32 +23,41 @@ Status NA
 
 
 		Section Odeix__
-			Section feast //HH0000
+			Section feast_and_consecration
 				when-movable-cycle-day-is
 					78 use:
+						Insert_section CAv.ode9.pe1.ti_h123as0VVV End-Insert
 					95 use:
+						Insert_section CAv.ode9.pe1.ti_h12tas0VVTh End-Insert
+						Insert_section TI.ct.pe.c2 End-Insert
+						Insert_section CAv.ode9.append.pe2.nt_123tasVVVTh End-Insert
 					110 use:
-						Insert_section CAv.ode9.pe1.ti_h1234tas0VVVTh End-Insert
+						Insert_section CAv.ode9.pe1.ti_h1234tas0VVVVTh End-Insert
+						Insert_section CAv.ode9.append.pe2.ti_123tasM1M1M1M1 End-Insert
 					120 use:
-						Insert_section CAv.ode9.pe1.ti_hh12as00VV End-Insert
 					otherwise use:
 						when-date-is
-							Jan 6 use:
-								Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
 							Feb 2 use:
+								Insert_section se.m02.d02.ma.Instance01.megalynaria End-Insert
+								Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14M15M16 End-Insert
 							Mar 25 use:
 								Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
 							Aug 6 use:
 								Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
+								Insert_section CAv.ode9.append.me2.ti_h123as0VVV End-Insert
 							Aug 15 use:
+								Insert_section CAv.ode9.me1.ti_hh12asM1M1M1M1 End-Insert
+								Insert_section CAv.ode9.append.me2.ti_h123asM1M1M1M1 End-Insert
 							Sep 8 use:
+								Insert_section CAv.ode9.me1.ti_hh12as00VV End-Insert
+								Insert_section TI.ct.me.c2 End-Insert
+								Insert_section CAv.ode9.append.me2.nt_123tasVVVTh End-Insert
 							Sep 14 use:
 								Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
 							Nov 21 use:
-							Dec 25 use:
-								Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
 						end-when
 				end-when
+				Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
 			End-Section
 			Section magnificat_feast
 				when-date-is
@@ -144,33 +153,6 @@ Status NA
 								Dec 27 use:
 							end-when
 						end-when
-				End-Section
-				Section feast
-					when-movable-cycle-day-is
-						78 use:
-						95 use:
-						110 use:
-							Insert_section CAv.ode9.pe1.ti_h1234tas0VVVTh End-Insert
-						120 use:
-							Insert_section CAv.ode9.pe1.ti_hh12as00VV End-Insert
-						otherwise use:
-							when-date-is
-								Jan 6 use:
-									Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
-								Feb 2 use:
-								Mar 25 use:
-									Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
-								Aug 6 use:
-									Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
-								Aug 15 use:
-								Sep 8 use:
-								Sep 14 use:
-									Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
-								Nov 21 use:
-								Dec 25 use:
-									Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
-							end-when
-					end-when
 				End-Section
 			End-Section
 		End-Section

@@ -1132,7 +1132,11 @@ Status NA
 		End-Section
 	End-Section
 	Section MA_10_Canon__
-	
+		Section ode9__
+			Section feast_and_consecration
+				Insert_section Selector_Consecration_Matins_Canons.Odeix__.feast_and_consecration End-Insert		
+			End-Section
+		End-Section
 	End-Section
 	Section MA_11_Kontakion__
 		Section celeb_saint
@@ -1155,6 +1159,7 @@ Status NA
 			Insert_section Selector_Consecration.kontakion_feast End-Insert
 		End-Section
 	End-Section
+
 	Section MA_12_Exaposteilarion__
 		Section church_saint_and_consecration
 			Actor<ahi>sid ac.Hierarch<rubric>sid ru.InPlaceOfRightChoir</></>End-Actor

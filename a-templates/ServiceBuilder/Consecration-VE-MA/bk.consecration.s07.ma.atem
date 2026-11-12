@@ -1,6 +1,6 @@
 Template bk.consecration.s07.ma 
 
-Status Draft
+Status Review
 
 //s07
 //When the church is named for a saint
@@ -54,38 +54,8 @@ Status Draft
 		Insert_section CONS.MA_11_Kontakion__.feast End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-
-
-		when-movable-cycle-day-is
-			78 use:
-			95 use:
-			110 use:
-			120 use:
-			otherwise use:
-				when-date-is
-					Feb 2 use:
-						Insert_section se.m02.d02.ma.Instance01.megalynaria End-Insert
-						Insert_section CAv.ode9.append.me1.ti_hh1123asM11M12M13M14M15M16 End-Insert
-					Mar 25 use:
-						Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
-					Aug 6 use:
-						Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
-						Insert_section CAv.ode9.append.me2.ti_h123as0VVV End-Insert
-					Aug 15 use:
-						Insert_section CAv.ode9.me1.ti_hh12asM1M1M1M1 End-Insert
-						Insert_section CAv.ode9.append.me2.ti_h123asM1M1M1M1 End-Insert
-					Sep 8 use:
-						Insert_section CAv.ode9.me1.ti_hh12as00VV End-Insert
-						Insert_section TI.ct.me.c2 End-Insert
-						Insert_section CAv.ode9.append.me2.nt_123tasVVVTh End-Insert
-					Sep 14 use:
-						Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
-					Nov 21 use:
-				end-when
-		end-when
-		Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
-
-
+		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.feast_and_consecration End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.feast End-Insert
