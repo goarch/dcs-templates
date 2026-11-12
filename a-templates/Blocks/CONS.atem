@@ -1133,6 +1133,9 @@ Status NA
 	End-Section
 	Section MA_10_Canon__
 		Section ode9__
+			Section canon1_feastofmother_and_consecration_and
+				Insert_section Selector_Consecration_Matins_Canons.Odeix__.canon1_feastofmother_and_consecration_and End-Insert		
+			End-Section
 			Section feast_and_consecration
 				Insert_section Selector_Consecration_Matins_Canons.Odeix__.feast_and_consecration End-Insert		
 			End-Section
