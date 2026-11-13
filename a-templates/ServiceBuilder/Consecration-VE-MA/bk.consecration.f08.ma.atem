@@ -56,8 +56,9 @@ Status Review
 		Insert_section hKA._1345678 End-Insert
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
 	Insert_section church_date End-Insert
-		Insert_section CONS.MA_10_Canon__.ode9__.feast_and_consecration End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.feast End-Insert
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.consecration_VVGB End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
 	Insert_section church_date End-Insert

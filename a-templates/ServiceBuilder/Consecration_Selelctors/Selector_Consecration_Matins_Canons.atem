@@ -91,76 +91,419 @@ Status NA
 						Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
 					End-Section
 				End-Section
-				Section church_saint
+				Section celeb_saint_VVGB
 					when-movable-cycle-day-is
-						127 use: 
+						127 use:
+							Insert_section TI.s._00_saint_.mp End-Insert
+							Insert_section CAv.ode9.append.pe1.nt_123tasVVGB End-Insert
 						otherwise use:
 							when-date-is
 								Jan 1 use:
-									Insert_section CAv.ode9.append.me2.ti_123tasM1M1GMtrBMth End-Insert
-								Jan 10 use:
-									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Jan 11 use:
+									Insert_section TI.s._00_saint_.m End-Insert
 									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Jan 17 use:
-									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section TI.s._00_saint_.m End-Insert
 									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jan 18 use:
+									Insert_section TI.s._00_saint_.mp End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								//	Insert_section CAv.ode9.append.me1.nt_123tasVVVTh End-Insert
+								//	Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Jan 20 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Jan 25 use:
-									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section TI.s._00_saint_.m End-Insert
 									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jan 27 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Jan 30 use:
-									Insert_section TI.c.s._00_saint_.mp End-Insert
+									Insert_section TI.s._00_saint_.mp End-Insert
 									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Feb 6 use:
-								Feb 8 use:
-									Insert_section TI.local_church End-Insert
-									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+									Insert_section TI.s._00_saint_.m End-Insert //no trans
+									Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
 								Feb 10 use:
-								Feb 19 use:
-								Mar 17 use:
-									Insert_section TI.local_church End-Insert
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Feb 24 use:
+									Insert_section TI.s._06_forerunner End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Mar 9 use:
+									Insert_section TI.s._00_saint_.mp End-Insert
 									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Apr 23 use:
-								Apr 24 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Apr 25 use:
+									Insert_section TI.s._05_evangelist End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								May 2 use:
-								May 9 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								May 8 use:
+									Insert_section TI.s._05_evangelist End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								May 21 use:
-								Jun 29 use:
-								Jun 30 use:
-								Jul 20 use:
-								Jul 22 use:
-								Jul 25 use:
-								Jul 26 use:
-								Jul 27 use:
-								Aug 10 use:
-								Aug 24 use:
-								Aug 27 use:
-								Aug 29 use:
-								Sep 17 use:
-								Sep 26 use:
-								Oct 6 use:
-								Oct 18 use:
-								Oct 20 use:
-								Oct 23 use:
-								Oct 26 use:
-								Nov 1 use:
-								Nov 8 use:
-								Nov 9 use:
-								Nov 13 use:
-									Insert_section TI.c.s._00_saint_.m End-Insert
+									Insert_section TI.s._00_saint_.mp End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								May 25 use:
+									Insert_section TI.s._06_forerunner End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jun 4 use:
+									Insert_section TI.s._00_saint_.m End-Insert //no trans
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jun 24 use:
+									Insert_section TI.s._06_forerunner End-Insert
 									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
-								Nov 14 use:
-								Nov 16 use:
+								Jun 29 use:
+									Insert_section TI.s._01_apostle_.mp End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jun 30 use:
+									Insert_section TI.s._01_apostle_.mp End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Jul 1 use:
+									Insert_section TI.s._00_saint_.mp End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jul 2 use:
+									Insert_section TI.s._16_theotokos End-Insert
+									Insert_section CAv.ode9.append.me1.nt_1234asVVGB End-Insert
+								Jul 5 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jul 11 use:
+									Insert_section TI.s._00_saint_.w End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jul 12 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+								Jul 20 use:
+									Insert_section TI.s._13_prophet_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jul 25 use:
+									Insert_section TI.s._00_saint_.w End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Jul 26 use:
+									Insert_section TI.s._00_saint_.w End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Jul 27 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Aug 29 use:
+									Insert_section TI.s._06_forerunner End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Aug 31 use:
+									Insert_section TI.s._16_theotokos End-Insert
+									Insert_section CAv.ode9.append.me1.nt_1234asVVGB End-Insert
+								Sep 1 use:
+									Insert_section TI.com.sep01 End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Sep 6 use:
+									Insert_section TI.s._02_archangel End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Sep 23 use:
+									Insert_section TI.s._06_forerunner End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert //no trans
+								Sep 26 use:
+									Insert_section TI.s._05_evangelist End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Oct 20 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.mealt12.nt_123tasVVGB End-Insert
+								Oct 23 use:
+									Insert_section TI.s._01_apostle_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Oct 26 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Oct 28 use:
+									Insert_section TI.s._16_theotokos End-Insert
+									Insert_section CAv.ode9.append.mealt11.nt_1234asM2M3M4M5 End-Insert
+								Nov 1 use:
+									Insert_section TI.s._00_saint_.mp End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+								Nov 8 use:
+									Insert_section TI.s._03_bodiless End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Nov 9 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.mealt12.nt_123tasVVGB End-Insert
+								Nov 13 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Nov 25 use:
+									Insert_section TI.s._00_saint_.w End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Nov 30 use:
+									Insert_section TI.s._01_apostle_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Dec 2 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
 								Dec 4 use:
+									Insert_section TI.s._00_saint_.w End-Insert
+									Section nt_123tasVVGB
+										Para role source0 sid ti.sourceMenaion End-Para
+										Title role mode rid meMA.Ode9C11.mode<Tmelody>rid meMA.Ode9C11.melody</>End-Title
+										Title role greekmelody rid meMA.Ode9C11.greekmelody End-Title
+										Media rid meMA.Ode9C11.text End-Media
+										Verse rid meMA.C1.verse End-Verse
+										Hymn rid meMA.Ode9C11.text @ver media-off End-Hymn
+										Verse rid meMA.C1.verse End-Verse
+										Media rid meMA.Ode9C12.text End-Media
+										Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
+										Title sid ti.Glory End-Title
+										Media rid meMA.Ode9C13.text End-Media
+										Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
+										Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+										Media rid meMA.Ode9C2T.text End-Media
+										Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
+									End-Section
+								Dec 5 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Dec 6 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+								Dec 9 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
 								Dec 12 use:
-								Dec 15 use:
+									Insert_section TI.s._00_saint_.m End-Insert
+									Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 								Dec 17 use:
-								Dec 27 use:
+									Insert_section TI.s._00_saint_.m End-Insert //no trans
+									Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
 							end-when
+						end-when
+				End-Section
+				Section church_saint_VVGB
+					when-movable-cycle-day-is
+						127 use: 
+							Insert_section TI.local_church End-Insert
+							Insert_section CAv.ode9.append.pe1.nt_123tasVVGB End-Insert
+						otherwise use:
+				when-date-is
+					Jan 1 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+		
+					Jan 10 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+		
+					Jan 17 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jan 25 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jan 30 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Feb 6 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+		
+					Feb 8 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Feb 10 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Feb 19 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+		
+					Mar 17 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Apr 23 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Apr 24 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Apr 25 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					May 2 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					May 9 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					May 21 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jun 29 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jun 30 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Jul 12 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Jul 20 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jul 22 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Jul 25 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Jul 26 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Jul 27 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Aug 10 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Aug 24 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Aug 27 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Aug 29 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Sep 17 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Sep 26 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Oct 6 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Oct 18 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Oct 20 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt12.nt_123tasVVGB End-Insert
+						
+					Oct 23 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Oct 26 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Nov 1 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Nov 8 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Nov 9 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt12.nt_123tasVVGB End-Insert
+						
+					Nov 13 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Nov 14 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Nov 16 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Nov 25 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Nov 30 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Dec 2 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Dec 4 use:
+						Insert_section TI.local_church End-Insert
+						Section nt_123tasVVGB
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode rid meMA.Ode9C11.mode<Tmelody>rid meMA.Ode9C11.melody</>End-Title
+							Title role greekmelody rid meMA.Ode9C11.greekmelody End-Title
+							Media rid meMA.Ode9C11.text End-Media
+							Verse rid meMA.C1.verse End-Verse
+							Hymn rid meMA.Ode9C11.text @ver media-off End-Hymn
+							Verse rid meMA.C1.verse End-Verse
+							Media rid meMA.Ode9C12.text End-Media
+							Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
+							Title sid ti.Glory End-Title
+							Media rid meMA.Ode9C13.text End-Media
+							Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
+							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Media rid meMA.Ode9C2T.text End-Media
+							Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
+						End-Section
+						
+					Dec 6 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me2.nt_123tasVVGB End-Insert
+						
+					Dec 12 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Dec 15 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+						
+					Dec 17 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.mealt11.nt_123tasVVGB End-Insert
+						
+					Dec 27 use:
+						Insert_section TI.local_church End-Insert
+						Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
+				end-when		
 						end-when
 				End-Section
 			End-Section

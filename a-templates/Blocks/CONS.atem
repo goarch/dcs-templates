@@ -1133,11 +1133,25 @@ Status NA
 	End-Section
 	Section MA_10_Canon__
 		Section ode9__
-			Section canon1_feastofmother_and_consecration_and
-				Insert_section Selector_Consecration_Matins_Canons.Odeix__.canon1_feastofmother_and_consecration_and End-Insert		
+			Section append__
+				Section celeb_saint_VVGB
+					Insert_section Selector_Consecration.Odeix__.celeb_saint_VVGB End-Insert		
+				End-Section
+				Section church_saint_VVGB
+					Insert_section Selector_Consecration.Odeix__.church_saint_VVGB End-Insert		
+				End-Section
+				Section consecration_VVVTh
+					Insert_section CAv.ode9.append.consecration.ti_123tasVVVTh End-Insert
+				End-Section
+				Section consecration_VVGB
+					Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
+				End-Section
 			End-Section
-			Section feast_and_consecration
-				Insert_section Selector_Consecration_Matins_Canons.Odeix__.feast_and_consecration End-Insert		
+			Section feastofmother_canon1
+				Insert_section Selector_Consecration.Odeix__.feastofmother_canon1 End-Insert		
+			End-Section
+			Section feast
+				Insert_section Selector_Consecration.Odeix__.feast End-Insert		
 			End-Section
 		End-Section
 	End-Section
