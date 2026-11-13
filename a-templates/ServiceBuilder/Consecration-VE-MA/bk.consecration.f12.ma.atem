@@ -1,6 +1,6 @@
 Template bk.consecration.f12.ma 
 
-Status Draft
+Status Review
 
 //f12
 //When the church is named for a feast of the Lord or the Mother of God
@@ -55,16 +55,12 @@ Status Draft
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-
-
-
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.feast End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.consecration_VVGB End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-
-	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.feast End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.append__.feast End-Insert

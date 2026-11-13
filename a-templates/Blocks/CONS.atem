@@ -1147,14 +1147,14 @@ Status NA
 					Insert_section CAv.ode9.append.consecration.ti_123tasVVGB End-Insert
 				End-Section
 				Section feast_canon1
-					Insert_section Selector_Consecration.Odeix__.feastofmother_canon1 End-Insert		
+					Insert_section Selector_Consecration.Odeix__.feast_canon1 End-Insert		
 				End-Section
 				Section resurrectional
 					Insert_section CAv.ode9.append.oc1.ti_sun_h12tas0GrGrTh End-Insert
 				End-Section
 			End-Section
-			Section feastofmother_canon1
-				Insert_section Selector_Consecration.Odeix__.feastofmother_canon1 End-Insert		
+			Section feast_canon1
+				Insert_section Selector_Consecration.Odeix__.feast_canon1 End-Insert		
 			End-Section
 			Section feast
 				Insert_section Selector_Consecration.Odeix__.feast End-Insert		
