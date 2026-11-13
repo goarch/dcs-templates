@@ -1,6 +1,6 @@
 Template bk.consecration.s09.ma 
 
-Status Draft
+Status Review
 
 //s09
 //When the church is named for a saint
@@ -60,14 +60,13 @@ Status Draft
 		Insert_section MA._11_Kontakion__.me1_ End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-
-
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+		Insert_section MA._10_Canon__.magnificat__.modeofweek End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.resurrectional End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.feast_canon1 End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.consecration_VVGB End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-		
-		
 		Insert_section MA._12_Exaposteilarion__.hierarchical__.eo__.eoofweek_.exap End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.append__.feast End-Insert
 	Insert_section church_date End-Insert

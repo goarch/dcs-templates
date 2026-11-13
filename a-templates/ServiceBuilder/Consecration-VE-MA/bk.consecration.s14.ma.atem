@@ -1,6 +1,6 @@
 Template bk.consecration.s14.ma 
 
-Status Draft
+Status Review
 
 //s14
 //When the church is named for a saint
@@ -53,15 +53,15 @@ Status Draft
 		Insert_section MA._11_Kontakion__.festal End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
-
-
-
 		Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
-		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.feast End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.consecration_VVVTh End-Insert
+	Insert_section church_date End-Insert
+		Insert_section CONS.MA_10_Canon__.ode9__.append__.church_saint_VVGB End-Insert
+	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-
-
 	Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.feast End-Insert
 		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert

@@ -11248,21 +11248,39 @@ Status NA
 						Sep 14 use:
 							Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
 						Nov 21 use:
+							Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+							Insert_section TI.ct.me.c2 End-Insert
+							Insert_section CAv.ode9.append.me2.nt_1234asM1M2M3M4 End-Insert
 					end-when
 			end-when
 		End-Section
-		Section feastofmother_canon1
-			when-date-is
-				Feb 2 use:
-					Insert_section se.m02.d02.ma.Instance01.megalynaria End-Insert
-					Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14M15M16 End-Insert
-				Mar 25 use:
-					Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
-				Aug 15 use:
-					Insert_section CAv.ode9.me1.ti_hh12asM1M1M1M1 End-Insert
-				Sep 8 use:
-					Insert_section CAv.ode9.me1.ti_hh12as00VV End-Insert
-				Nov 21 use:
+		Section feast_canon1
+			when-movable-cycle-day-is
+				78 use:
+					Insert_section CAv.ode9.pe1.ti_h123as0VVV End-Insert
+				95 use:
+					Insert_section CAv.ode9.pe1.ti_h12tas0VVTh End-Insert
+				110 use:
+					Insert_section CAv.ode9.pe1.ti_h1234tas0VVVVTh End-Insert
+				120 use:
+				otherwise use:
+					when-date-is
+						Feb 2 use:
+						//	Insert_section se.m02.d02.ma.Instance01.megalynaria End-Insert
+							Insert_section CAv.ode9.append.me1.nt_hh1123asM11M12M13M14M15M16 End-Insert
+						Mar 25 use:
+							Insert_section CAv.ode9.me1.ti_h12345asM1M1M1M1M1M1 End-Insert
+						Aug 6 use:
+							Insert_section CAv.ode9.me1.ti_hh1234as00VVVV End-Insert
+						Aug 15 use:
+							Insert_section CAv.ode9.me1.ti_hh12asM1M1M1M1 End-Insert
+						Sep 8 use:
+							Insert_section CAv.ode9.me1.ti_hh12as00VV End-Insert
+						Sep 14 use:
+							Insert_section CAv.ode9.me1.ti_hh12h123as00VV0VVV End-Insert
+						Nov 21 use:
+							Insert_section CAv.ode9.me1.ti_h123asM1M2M3M4 End-Insert
+					end-when
 			end-when
 		End-Section
 	End-Section
