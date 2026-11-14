@@ -57,6 +57,7 @@ Status NA
 				Insert_section TI.ip.f End-Insert
 				Section glory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode sid me.m12.dBC_gr_GR_cog.meVE.LityGlory.mode End-Title
@@ -66,6 +67,7 @@ Status NA
 				End-Section
 				Section both_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 					//	Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode sid me.m12.dBC_gr_GR_cog.meVE.LityBoth.mode End-Title

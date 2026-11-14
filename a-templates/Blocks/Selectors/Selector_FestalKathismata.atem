@@ -27,6 +27,8 @@ Status NA
 					Section Epiphany
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -36,6 +38,8 @@ Status NA
 					Section Meeting
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -45,6 +49,8 @@ Status NA
 					Section Transfiguration
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -54,6 +60,8 @@ Status NA
 					Section Dormition
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -63,6 +71,8 @@ Status NA
 					Section TheotokosBirth2
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -72,6 +82,8 @@ Status NA
 					Section Cross
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -81,6 +93,8 @@ Status NA
 					Section TheotokosEntry
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -90,6 +104,8 @@ Status NA
 					Section Christmas
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -101,6 +117,8 @@ Status NA
 							Section Thomas
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d078_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -110,6 +128,8 @@ Status NA
 							Section Myrrhbearers
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d086_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d086_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d086_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d086_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -119,6 +139,8 @@ Status NA
 							Section Paralytic
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Media rid peMA.Kathisma1T.text End-Media
 								Hymn rid peMA.Kathisma1T.text @ver media-off End-Hymn
@@ -127,6 +149,8 @@ Status NA
 							Section Midpentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d095_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d095_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -136,6 +160,8 @@ Status NA
 							Section Samaritan
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d103_gr_GR_cog.peMA.Kathisma21.mode End-Title
 								Media sid pe.d103_gr_GR_cog.peMA.Kathisma21.text End-Media
 								Hymn sid pe.d103_gr_GR_cog.peMA.Kathisma21.text @ver media-off End-Hymn
@@ -144,6 +170,8 @@ Status NA
 							Section Blindman
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Blindman</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 								Title role greekmelody sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 								Media sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -153,6 +181,8 @@ Status NA
 							Section Ascension
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d110_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -162,6 +192,8 @@ Status NA
 							Section Pentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d120_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -178,6 +210,8 @@ Status NA
 					Section Epiphany
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -187,6 +221,8 @@ Status NA
 					Section Meeting
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -196,6 +232,8 @@ Status NA
 					Section Transfiguration
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -205,6 +243,8 @@ Status NA
 					Section Dormition
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -214,6 +254,8 @@ Status NA
 					Section TheotokosBirth2
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -223,6 +265,8 @@ Status NA
 					Section Cross
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.mode End-Title
 						Media sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.text End-Media
 						Hymn sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.text @ver media-off End-Hymn
@@ -231,6 +275,8 @@ Status NA
 					Section TheotokosEntry
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -240,6 +286,8 @@ Status NA
 					Section Christmas
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -251,6 +299,8 @@ Status NA
 					Section Thomas
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d078_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -260,6 +310,8 @@ Status NA
 					Section Myrrhbearers
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d087_gr_GR_cog.peMA.Kathisma21.mode End-Title
 						Media sid pe.d087_gr_GR_cog.peMA.Kathisma21.text End-Media
 						Hymn sid pe.d087_gr_GR_cog.peMA.Kathisma21.text @ver media-off End-Hymn
@@ -268,6 +320,8 @@ Status NA
 					Section Paralytic
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Paralytic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d093_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d093_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d093_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d093_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -277,6 +331,8 @@ Status NA
 					Section Midpentecost
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d097_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d095_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -286,6 +342,8 @@ Status NA
 					Section Samaritan
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d104_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d104_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d104_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d104_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -295,6 +353,8 @@ Status NA
 					Section Blindman
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Blindman</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d107_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d107_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d107_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d107_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -304,6 +364,8 @@ Status NA
 					Section Ascension
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d110_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -313,6 +375,8 @@ Status NA
 					Section Pentecost
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d120_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -326,6 +390,8 @@ Status NA
 				Jan 6 thru 14 use:
 					Section Epiphany
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -337,6 +403,8 @@ Status NA
 				Feb 2 thru 9 use:
 					Section Meeting
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -348,6 +416,8 @@ Status NA
 				Aug 6 thru 13 use:
 					Section Transfiguration
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -359,6 +429,8 @@ Status NA
 				Aug 15 thru 23 use:
 					Section Dormition
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -370,6 +442,8 @@ Status NA
 				Sep 8 thru 12 use:
 					Section TheotokosBirth2
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -381,6 +455,8 @@ Status NA
 				Sep 14 thru 21 use:
 					Section Cross
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -392,6 +468,8 @@ Status NA
 				Nov 21 thru 25 use:
 					Section TheotokosEntry
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -403,6 +481,8 @@ Status NA
 				Dec 25 thru 31 use:
 					Section Christmas
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -416,6 +496,8 @@ Status NA
 				78 thru 84 use:
 					Section Thomas
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourcePentecostarion End-Para
 							Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
@@ -428,6 +510,8 @@ Status NA
 					Section Myrrhbearers
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d088_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d088_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d088_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d088_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -437,6 +521,8 @@ Status NA
 					Section Paralytic
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Paralytic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 						Title role greekmelody sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 						Media sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -446,6 +532,8 @@ Status NA
 					Section Midpentecost
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d098_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d098_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d098_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d098_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -455,6 +543,8 @@ Status NA
 					Section Samaritan
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d105_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d105_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d105_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d105_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -464,6 +554,8 @@ Status NA
 					Section Blindman
 						Para role source sid ti.sourcePentecostarion End-Para
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Blindman</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid pe.d108_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d108_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid pe.d108_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 						Media sid pe.d108_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -472,6 +564,8 @@ Status NA
 				110 thru 118 use:
 					Section Ascension
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourcePentecostarion End-Para
 							Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
@@ -483,6 +577,8 @@ Status NA
 				120 thru 126 use:
 					Section Pentecost
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourcePentecostarion End-Para
 							Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
@@ -502,6 +598,7 @@ Status NA
 					Section Epiphany
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m01.d06_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -511,6 +608,7 @@ Status NA
 					Section Meeting
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m02.d02_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -520,6 +618,7 @@ Status NA
 					Section Annunciation
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m03.d25_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m03.d25_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m03.d25_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m03.d25_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -529,6 +628,7 @@ Status NA
 					Section Transfiguration
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m08.d06_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -538,6 +638,7 @@ Status NA
 					Section Dormition
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m08.d15_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -547,6 +648,7 @@ Status NA
 					Section TheotokosBirth2
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m09.d08_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -556,6 +658,7 @@ Status NA
 					Section Cross
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m09.d14_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -565,6 +668,7 @@ Status NA
 					Section TheotokosEntry
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m11.d21_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -574,6 +678,7 @@ Status NA
 					Section Christmas
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.greekmelody End-Title
 						Media sid me.m12.d25_gr_GR_cog.meMA.Kathisma11.text End-Media
@@ -585,6 +690,7 @@ Status NA
 							Section Thomas
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d078_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -594,6 +700,7 @@ Status NA
 							Section Myrrhbearers
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d086_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d086_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d086_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d086_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -603,6 +710,7 @@ Status NA
 							Section Paralytic
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Media rid peMA.Kathisma1T.text End-Media
 								Hymn rid peMA.Kathisma1T.text @ver media-off End-Hymn
@@ -611,6 +719,7 @@ Status NA
 							Section Midpentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d095_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d095_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -620,6 +729,7 @@ Status NA
 							Section Samaritan
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d103_gr_GR_cog.peMA.Kathisma21.mode End-Title
 								Media sid pe.d103_gr_GR_cog.peMA.Kathisma21.text End-Media
 								Hymn sid pe.d103_gr_GR_cog.peMA.Kathisma21.text @ver media-off End-Hymn
@@ -628,6 +738,7 @@ Status NA
 							Section Blindman
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Blindman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 								Title role greekmelody sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 								Media sid pe.d106_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -637,6 +748,7 @@ Status NA
 							Section Ascension
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d110_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -646,6 +758,7 @@ Status NA
 							Section Pentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 								Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 								Media sid pe.d120_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -661,6 +774,7 @@ Status NA
 					Section Epiphany
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m01.d06_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -670,6 +784,7 @@ Status NA
 					Section Meeting
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m02.d02_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -679,6 +794,7 @@ Status NA
 					Section Annunciation
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m03.d25_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m03.d25_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m03.d25_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m03.d25_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -688,6 +804,7 @@ Status NA
 					Section Transfiguration
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m08.d06_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -697,6 +814,7 @@ Status NA
 					Section Dormition
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m08.d15_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -706,6 +824,7 @@ Status NA
 					Section TheotokosBirth2
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m09.d08_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -715,6 +834,7 @@ Status NA
 					Section Cross
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.mode End-Title
 						Media sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.text End-Media
 						Hymn sid me.m09.d14_gr_GR_cog.meMA.Kathisma21.text @ver media-off End-Hymn
@@ -723,6 +843,7 @@ Status NA
 					Section TheotokosEntry
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m11.d21_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -732,6 +853,7 @@ Status NA
 					Section Christmas
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.greekmelody End-Title
 						Media sid me.m12.d25_gr_GR_cog.meMA.Kathisma21.text End-Media
@@ -743,6 +865,7 @@ Status NA
 							Section Thomas
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d078_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -752,6 +875,7 @@ Status NA
 							Section Myrrhbearers
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d087_gr_GR_cog.peMA.Kathisma21.mode End-Title
 								Media sid pe.d087_gr_GR_cog.peMA.Kathisma21.text End-Media
 								Hymn sid pe.d087_gr_GR_cog.peMA.Kathisma21.text @ver media-off End-Hymn
@@ -760,6 +884,7 @@ Status NA
 							Section Paralytic
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Paralytic</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d093_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d093_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d093_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d093_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -769,6 +894,7 @@ Status NA
 							Section Midpentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d095_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d095_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -778,6 +904,7 @@ Status NA
 							Section Samaritan
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d104_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d104_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d104_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d104_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -787,6 +914,7 @@ Status NA
 							Section Blindman
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Blindman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d107_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d107_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d107_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d107_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -796,6 +924,7 @@ Status NA
 							Section Ascension
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d110_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -805,6 +934,7 @@ Status NA
 							Section Pentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d120_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -819,6 +949,7 @@ Status NA
 				Jan 6 thru 14 use:
 					Section Epiphany
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m01.d06_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m01.d06_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -830,6 +961,7 @@ Status NA
 				Feb 2 thru 9 use:
 					Section Meeting
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m02.d02_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m02.d02_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -841,6 +973,7 @@ Status NA
 				Aug 6 thru 13 use:
 					Section Transfiguration
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m08.d06_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m08.d06_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -852,6 +985,7 @@ Status NA
 				Aug 15 thru 23 use:
 					Section Dormition
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m08.d15_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m08.d15_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -863,6 +997,7 @@ Status NA
 				Sep 8 thru 12 use:
 					Section TheotokosBirth2
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m09.d08_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m09.d08_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -874,6 +1009,7 @@ Status NA
 				Sep 14 thru 21 use:
 					Section Cross
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m09.d14_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m09.d14_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -885,6 +1021,7 @@ Status NA
 				Nov 21 thru 25 use:
 					Section TheotokosEntry
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m11.d21_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m11.d21_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -896,6 +1033,7 @@ Status NA
 				Dec 25 thru 31 use:
 					Section Christmas
 						Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode sid me.m12.d25_gr_GR_cog.meMA.Kathisma31.mode<Tmelody>sid me.m12.d25_gr_GR_cog.meMA.Kathisma31.melody</>End-Title
@@ -910,6 +1048,7 @@ Status NA
 							Section Thomas
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
 								Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma31.greekmelody End-Title
 								Media sid pe.d078_gr_GR_cog.peMA.Kathisma31.text End-Media
@@ -919,6 +1058,7 @@ Status NA
 							Section Myrrhbearers
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d088_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d088_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d088_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d088_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -928,6 +1068,7 @@ Status NA
 							Section Paralytic
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Paralytic</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 								Title role greekmelody sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 								Media sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -937,6 +1078,7 @@ Status NA
 							Section Midpentecost
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d095_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 								Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 								Media sid pe.d095_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -946,6 +1088,7 @@ Status NA
 							Section Samaritan
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d105_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d105_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d105_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d105_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -955,6 +1098,7 @@ Status NA
 							Section Blindman
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Blindman</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d108_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d108_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 								Title role greekmelody sid pe.d108_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 								Media sid pe.d108_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -964,6 +1108,7 @@ Status NA
 							Section Ascension
 								Para role source sid ti.sourcePentecostarion End-Para
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
 								Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma31.greekmelody End-Title
 								Media sid pe.d110_gr_GR_cog.peMA.Kathisma31.text End-Media
@@ -972,6 +1117,7 @@ Status NA
 						120 thru 126 use:
 							Section Pentecost
 								Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Section hymn
 									Para role source0 sid ti.sourcePentecostarion End-Para
 									Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma31.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma31.melody</>End-Title
@@ -1414,6 +1560,7 @@ Status NA
 				Section Thomas
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d078_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d078_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 					Title role greekmelody sid pe.d078_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 					Media sid pe.d078_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -1423,6 +1570,8 @@ Status NA
 				Section Myrrhbearers
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Myrrhbearers</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d089_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d089_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 					Title role greekmelody sid pe.d089_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 					Media sid pe.d089_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -1432,6 +1581,8 @@ Status NA
 				Section Paralytic
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Paralytic</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.mode<Tmelody>sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.melody</>End-Title
 					Title role greekmelody sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.greekmelody End-Title
 					Media sid pe.d092_gr_GR_cog.peMA.Ode3Kathisma1.text End-Media
@@ -1441,6 +1592,8 @@ Status NA
 				Section Midpentecost
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d095_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d095_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 					Title role greekmelody sid pe.d095_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 					Media sid pe.d095_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -1450,6 +1603,8 @@ Status NA
 				Section SamaritanWoman
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.SamaritanWoman</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d103_gr_GR_cog.peMA.Kathisma21.mode End-Title
 					Media sid pe.d103_gr_GR_cog.peMA.Kathisma21.text End-Media
 					Hymn sid pe.d103_gr_GR_cog.peMA.Kathisma21.text @ver media-off End-Hymn
@@ -1458,6 +1613,8 @@ Status NA
 				Section Blindman
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Blindman</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d107_gr_GR_cog.peMA.Kathisma21.mode<Tmelody>sid pe.d107_gr_GR_cog.peMA.Kathisma21.melody</>End-Title
 					Title role greekmelody sid pe.d107_gr_GR_cog.peMA.Kathisma21.greekmelody End-Title
 					Media sid pe.d107_gr_GR_cog.peMA.Kathisma21.text End-Media
@@ -1467,6 +1624,8 @@ Status NA
 				Section Ascension
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d110_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d110_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 					Title role greekmelody sid pe.d110_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 					Media sid pe.d110_gr_GR_cog.peMA.Kathisma11.text End-Media
@@ -1476,6 +1635,8 @@ Status NA
 				Section Pentecost
 					Para role source sid ti.sourcePentecostarion End-Para
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Feast</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid pe.d120_gr_GR_cog.peMA.Kathisma11.mode<Tmelody>sid pe.d120_gr_GR_cog.peMA.Kathisma11.melody</>End-Title
 					Title role greekmelody sid pe.d120_gr_GR_cog.peMA.Kathisma11.greekmelody End-Title
 					Media sid pe.d120_gr_GR_cog.peMA.Kathisma11.text End-Media

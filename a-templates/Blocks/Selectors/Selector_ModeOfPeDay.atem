@@ -30,245 +30,469 @@ Status NA
 
 		Section lihc1_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Title role mode sid misc.Mode2 End-Title
-				73 use: Title role mode sid misc.Mode3 End-Title
-				74 use: Title role mode sid misc.Mode4 End-Title
-				75 use: Title role mode sid misc.Mode5 End-Title
-				76 use: Title role mode sid misc.Mode6 End-Title
-				77 use: Title role mode sid misc.Mode8 End-Title
-				78 use: Title role mode sid misc.Mode1 End-Title
-				79 use: Title role mode sid misc.Mode1 End-Title
-				80 use: Title role mode sid misc.Mode4 End-Title
-				81 use: Title role mode sid misc.Mode1 End-Title
-				82 use: Title role mode sid misc.Mode2 End-Title
-				83 use: Title role mode sid misc.Mode1 End-Title
-				84 use: Title role mode sid misc.Mode1 End-Title
-				85 use: Title role mode sid misc.Mode2 End-Title
-				86 use: Title role mode sid misc.Mode5 End-Title
-				87 use: Title role mode sid misc.Mode2 End-Title
-				88 use: Title role mode sid misc.Mode2 End-Title
-				89 use: Title role mode sid misc.Mode2 End-Title
-				90 use: Title role mode sid misc.Mode8 End-Title
-				91 use: Title role mode sid misc.Mode2 End-Title
-				92 use: Title role mode sid misc.Mode3 End-Title
-				93 use: Title role mode sid misc.Mode8 End-Title
-				94 use: Title role mode sid misc.Mode1 End-Title
-				95 use: Title role mode sid misc.Mode4 End-Title
-				96 use: Title role mode sid misc.Mode4 End-Title
-				97 use: Title role mode sid misc.Mode5 End-Title
-				98 use: Title role mode sid misc.Mode1 End-Title
-				99 use: Title role mode sid misc.Mode4 End-Title
-				100 use: Title role mode sid misc.Mode5 End-Title
-				101 use: Title role mode sid misc.Mode1 End-Title
-				102 use: Title role mode sid misc.Mode4 End-Title
-				103 use: Title role mode sid misc.Mode4 End-Title
-				104 use: Title role mode sid misc.Mode4 End-Title
-				105 use: Title role mode sid misc.Mode1 End-Title
-				106 use: Title role mode sid misc.Mode5 End-Title
-				107 use: Title role mode sid misc.Mode5 End-Title
-				108 use: Title role mode sid misc.Mode2 End-Title
-				109 use: Title role mode sid misc.Mode1 End-Title
-				110 use: Title role mode sid misc.Mode6 End-Title
-				111 use: Title role mode sid misc.Mode1 End-Title
-				112 use: Title role mode sid misc.Mode4 End-Title
-				113 use: Title role mode sid misc.Mode6 End-Title
-				114 use: Title role mode sid misc.Mode6 End-Title
-				115 use: Title role mode sid misc.Mode4 End-Title
-				116 use: Title role mode sid misc.Mode4 End-Title
-				117 use: Title role mode sid misc.Mode4 End-Title
-				118 use: Title role mode sid misc.Mode6 End-Title
-				119 use: Title role mode sid misc.Mode6 End-Title
-				120 use: Title role mode sid misc.Mode1 End-Title
-				121 use: Title role mode sid misc.Mode4 End-Title
-				122 use: Title role mode sid misc.Mode1 End-Title
-				123 use: Title role mode sid misc.Mode1 End-Title
-				124 use: Title role mode sid misc.Mode1 End-Title
-				125 use: Title role mode sid misc.Mode4 End-Title
-				126 use: Title role mode sid misc.Mode1 End-Title
-				127 use: Title role mode sid misc.Mode8 End-Title
+				72 use:
+					Title role mode sid misc.Mode2 End-Title
+				73 use:
+					Title role mode sid misc.Mode3 End-Title
+				74 use:
+					Title role mode sid misc.Mode4 End-Title
+				75 use:
+					Title role mode sid misc.Mode5 End-Title
+				76 use:
+					Title role mode sid misc.Mode6 End-Title
+				77 use:
+					Title role mode sid misc.Mode8 End-Title
+				78 use:
+					Title role mode sid misc.Mode1 End-Title
+				79 use:
+					Title role mode sid misc.Mode1 End-Title
+				80 use:
+					Title role mode sid misc.Mode4 End-Title
+				81 use:
+					Title role mode sid misc.Mode1 End-Title
+				82 use:
+					Title role mode sid misc.Mode2 End-Title
+				83 use:
+					Title role mode sid misc.Mode1 End-Title
+				84 use:
+					Title role mode sid misc.Mode1 End-Title
+				85 use:
+					Title role mode sid misc.Mode2 End-Title
+				86 use:
+					Title role mode sid misc.Mode5 End-Title
+				87 use:
+					Title role mode sid misc.Mode2 End-Title
+				88 use:
+					Title role mode sid misc.Mode2 End-Title
+				89 use:
+					Title role mode sid misc.Mode2 End-Title
+				90 use:
+					Title role mode sid misc.Mode8 End-Title
+				91 use:
+					Title role mode sid misc.Mode2 End-Title
+				92 use:
+					Title role mode sid misc.Mode3 End-Title
+				93 use:
+					Title role mode sid misc.Mode8 End-Title
+				94 use:
+					Title role mode sid misc.Mode1 End-Title
+				95 use:
+					Title role mode sid misc.Mode4 End-Title
+				96 use:
+					Title role mode sid misc.Mode4 End-Title
+				97 use:
+					Title role mode sid misc.Mode5 End-Title
+				98 use:
+					Title role mode sid misc.Mode1 End-Title
+				99 use:
+					Title role mode sid misc.Mode4 End-Title
+				100 use:
+					Title role mode sid misc.Mode5 End-Title
+				101 use:
+					Title role mode sid misc.Mode1 End-Title
+				102 use:
+					Title role mode sid misc.Mode4 End-Title
+				103 use:
+					Title role mode sid misc.Mode4 End-Title
+				104 use:
+					Title role mode sid misc.Mode4 End-Title
+				105 use:
+					Title role mode sid misc.Mode1 End-Title
+				106 use:
+					Title role mode sid misc.Mode5 End-Title
+				107 use:
+					Title role mode sid misc.Mode5 End-Title
+				108 use:
+					Title role mode sid misc.Mode2 End-Title
+				109 use:
+					Title role mode sid misc.Mode1 End-Title
+				110 use:
+					Title role mode sid misc.Mode6 End-Title
+				111 use:
+					Title role mode sid misc.Mode1 End-Title
+				112 use:
+					Title role mode sid misc.Mode4 End-Title
+				113 use:
+					Title role mode sid misc.Mode6 End-Title
+				114 use:
+					Title role mode sid misc.Mode6 End-Title
+				115 use:
+					Title role mode sid misc.Mode4 End-Title
+				116 use:
+					Title role mode sid misc.Mode4 End-Title
+				117 use:
+					Title role mode sid misc.Mode4 End-Title
+				118 use:
+					Title role mode sid misc.Mode6 End-Title
+				119 use:
+					Title role mode sid misc.Mode6 End-Title
+				120 use:
+					Title role mode sid misc.Mode1 End-Title
+				121 use:
+					Title role mode sid misc.Mode4 End-Title
+				122 use:
+					Title role mode sid misc.Mode1 End-Title
+				123 use:
+					Title role mode sid misc.Mode1 End-Title
+				124 use:
+					Title role mode sid misc.Mode1 End-Title
+				125 use:
+					Title role mode sid misc.Mode4 End-Title
+				126 use:
+					Title role mode sid misc.Mode1 End-Title
+				127 use:
+					Title role mode sid misc.Mode8 End-Title
 			end-when
 		End-Section
 
 		Section lihc1_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocVE.MM.LIHC1.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
-				78 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				79 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				80 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				81 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				82 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				83 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				84 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				85 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				86 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				87 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				88 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				89 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				90 use: Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
-				91 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				92 use: Media rid ocVE.MM.LIHC1.text @mode M3 @day D1 End-Media
-				93 use: Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
-				94 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				95 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				96 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				97 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				98 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				99 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				100 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				101 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				102 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				103 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				104 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				105 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				106 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				107 use: Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
-				108 use: Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
-				109 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				110 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				111 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				112 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				113 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				114 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				115 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				116 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				117 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				118 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
-				120 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				121 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				122 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				123 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				124 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				125 use: Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-				126 use: Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
-				127 use: Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocVE.MM.LIHC1.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
+				78 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				79 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				80 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				81 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				82 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				83 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				84 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				85 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				86 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				87 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				88 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				89 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				90 use:
+					Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
+				91 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				92 use:
+					Media rid ocVE.MM.LIHC1.text @mode M3 @day D1 End-Media
+				93 use:
+					Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
+				94 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				96 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				97 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				98 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				99 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				100 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				101 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				102 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				103 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				104 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				105 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				106 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				107 use:
+					Media rid ocVE.MM.LIHC1.text @mode M5 @day D1 End-Media
+				108 use:
+					Media rid ocVE.MM.LIHC1.text @mode M2 @day D1 End-Media
+				109 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				110 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				111 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				112 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				113 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				114 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				115 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				116 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				117 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				118 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocVE.MM.LIHC1.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				121 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				122 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				123 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				124 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				125 use:
+					Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
+				126 use:
+					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+				127 use:
+					Media rid ocVE.MM.LIHC1.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 
 		Section lihc2_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocVE.MM.LIHC2.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
-				78 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				79 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				80 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				81 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				82 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				83 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				84 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				85 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				86 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				87 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				88 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				89 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				90 use: Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
-				91 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				92 use: Media rid ocVE.MM.LIHC2.text @mode M3 @day D1 End-Media
-				93 use: Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
-				94 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				95 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				96 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				97 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				98 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				99 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				100 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				101 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				102 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				103 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				104 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				105 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				106 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				107 use: Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
-				108 use: Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
-				109 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				110 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				111 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				112 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				113 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				114 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				115 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				116 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				117 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				118 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
-				120 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				121 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				122 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				123 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				124 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				125 use: Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-				126 use: Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
-				127 use: Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocVE.MM.LIHC2.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
+				78 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				79 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				80 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				81 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				82 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				83 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				84 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				85 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				86 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				87 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				88 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				89 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				90 use:
+					Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
+				91 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				92 use:
+					Media rid ocVE.MM.LIHC2.text @mode M3 @day D1 End-Media
+				93 use:
+					Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
+				94 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				96 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				97 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				98 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				99 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				100 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				101 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				102 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				103 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				104 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				105 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				106 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				107 use:
+					Media rid ocVE.MM.LIHC2.text @mode M5 @day D1 End-Media
+				108 use:
+					Media rid ocVE.MM.LIHC2.text @mode M2 @day D1 End-Media
+				109 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				110 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				111 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				112 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				113 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				114 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				115 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				116 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				117 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				118 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocVE.MM.LIHC2.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				121 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				122 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				123 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				124 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				125 use:
+					Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
+				126 use:
+					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+				127 use:
+					Media rid ocVE.MM.LIHC2.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 
 		Section stichologia_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocVE.MM.Stichologia.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
-				78 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				79 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				80 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				81 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				82 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				83 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				84 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				85 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				86 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				87 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				88 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				89 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				90 use: Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
-				91 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				92 use: Media rid ocVE.MM.Stichologia.text @mode M3 @day D1 End-Media
-				93 use: Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
-				94 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				95 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				96 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				97 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				98 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				99 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				100 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				101 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				102 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				103 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				104 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				105 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				106 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				107 use: Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
-				108 use: Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
-				109 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				110 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				111 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				112 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				113 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				114 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				115 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				116 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				117 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				118 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
-				120 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				121 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				122 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				123 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				124 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				125 use: Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-				126 use: Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
-				127 use: Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocVE.MM.Stichologia.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
+				78 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				79 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				80 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				81 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				82 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				83 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				84 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				85 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				86 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				87 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				88 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				89 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				90 use:
+					Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
+				91 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				92 use:
+					Media rid ocVE.MM.Stichologia.text @mode M3 @day D1 End-Media
+				93 use:
+					Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
+				94 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				95 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				96 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				97 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				98 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				99 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				100 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				101 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				102 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				103 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				104 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				105 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				106 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				107 use:
+					Media rid ocVE.MM.Stichologia.text @mode M5 @day D1 End-Media
+				108 use:
+					Media rid ocVE.MM.Stichologia.text @mode M2 @day D1 End-Media
+				109 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				110 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				111 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				112 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				113 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				114 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				115 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				116 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				117 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				118 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocVE.MM.Stichologia.text @mode M6 @day D1 End-Media
+				120 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				121 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				122 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				123 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				124 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				125 use:
+					Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
+				126 use:
+					Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+				127 use:
+					Media rid ocVE.MM.Stichologia.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 
@@ -344,76 +568,136 @@ Status NA
 
 		Section lauds01_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocMA.MM.Lauds01.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocMA.MM.Lauds01.text @mode M8 @day D1 End-Media
-				78 thru 84 use: Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
-				85 thru 91 use: Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
-				92 thru 94 use: Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
-				95 use: Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
-				96 thru 98 use: Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
-				99 thru 105 use: Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
-				106 thru 108 use: Media rid ocMA.MM.Lauds01.text @mode M5 @day D1 End-Media
-				109 use: Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
-				110, 118 use: Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
-				113 use: Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
-				120, 126 use: Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
-				121 use: Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
-				127 use: Media rid ocMA.MM.Lauds01.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocMA.MM.Lauds01.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocMA.MM.Lauds01.text @mode M8 @day D1 End-Media
+				78 thru 84 use:
+					Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+				85 thru 91 use:
+					Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
+				92 thru 94 use:
+					Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+				96 thru 98 use:
+					Media rid ocMA.MM.Lauds01.text @mode M3 @day D1 End-Media
+				99 thru 105 use:
+					Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+				106 thru 108 use:
+					Media rid ocMA.MM.Lauds01.text @mode M5 @day D1 End-Media
+				109 use:
+					Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+				110, 118 use:
+					Media rid ocMA.MM.Lauds01.text @mode M1 @day D1 End-Media
+				113 use:
+					Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocMA.MM.Lauds01.text @mode M6 @day D1 End-Media
+				120, 126 use:
+					Media rid ocMA.MM.Lauds01.text @mode M4 @day D1 End-Media
+				121 use:
+					Media rid ocMA.MM.Lauds01.text @mode M2 @day D1 End-Media
+				127 use:
+					Media rid ocMA.MM.Lauds01.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 
 		Section lauds02_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocMA.MM.Lauds02.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocMA.MM.Lauds02.text @mode M8 @day D1 End-Media
-				78 thru 84 use: Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
-				85 thru 91 use: Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
-				92 thru 94 use: Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
-				95 use: Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
-				96 thru 98 use: Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
-				99 thru 105 use: Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
-				106 thru 108 use: Media rid ocMA.MM.Lauds02.text @mode M5 @day D1 End-Media
-				109 use: Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
-				110, 118 use: Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
-				113 use: Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
-				120, 126 use: Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
-				121 use: Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
-				127 use: Media rid ocMA.MM.Lauds02.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocMA.MM.Lauds02.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocMA.MM.Lauds02.text @mode M8 @day D1 End-Media
+				78 thru 84 use:
+					Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+				85 thru 91 use:
+					Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
+				92 thru 94 use:
+					Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+				96 thru 98 use:
+					Media rid ocMA.MM.Lauds02.text @mode M3 @day D1 End-Media
+				99 thru 105 use:
+					Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+				106 thru 108 use:
+					Media rid ocMA.MM.Lauds02.text @mode M5 @day D1 End-Media
+				109 use:
+					Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+				110, 118 use:
+					Media rid ocMA.MM.Lauds02.text @mode M1 @day D1 End-Media
+				113 use:
+					Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocMA.MM.Lauds02.text @mode M6 @day D1 End-Media
+				120, 126 use:
+					Media rid ocMA.MM.Lauds02.text @mode M4 @day D1 End-Media
+				121 use:
+					Media rid ocMA.MM.Lauds02.text @mode M2 @day D1 End-Media
+				127 use:
+					Media rid ocMA.MM.Lauds02.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 
 		Section lauds_stichologia_media_modeofpeday
 			when-movable-cycle-day-is
-				72 use: Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
-				73 use: Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
-				74 use: Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
-				75 use: Media rid ocMA.MM.LaudsStichologia.text @mode M5 @day D1 End-Media
-				76 use: Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
-				77 use: Media rid ocMA.MM.LaudsStichologia.text @mode M8 @day D1 End-Media
-				78 thru 84 use: Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
-				85 thru 91 use: Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
-				92 thru 94 use: Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
-				95 use: Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
-				96 thru 98 use: Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
-				99 thru 105 use: Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
-				106 thru 108 use: Media rid ocMA.MM.LaudsStichologia.text @mode M5 @day D1 End-Media
-				109 use: Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
-				110, 118 use: Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
-				113 use: Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
-				119 use: Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
-				120, 126 use: Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
-				121 use: Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
-				127 use: Media rid ocMA.MM.LaudsStichologia.text @mode M8 @day D1 End-Media
+				72 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
+				73 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
+				74 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+				75 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M5 @day D1 End-Media
+				76 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+				77 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M8 @day D1 End-Media
+				78 thru 84 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+				85 thru 91 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
+				92 thru 94 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
+				95 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+				96 thru 98 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M3 @day D1 End-Media
+				99 thru 105 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+				106 thru 108 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M5 @day D1 End-Media
+				109 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+				110, 118 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M1 @day D1 End-Media
+				113 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+				119 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M6 @day D1 End-Media
+				120, 126 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M4 @day D1 End-Media
+				121 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M2 @day D1 End-Media
+				127 use:
+					Media rid ocMA.MM.LaudsStichologia.text @mode M8 @day D1 End-Media
 			end-when
 		End-Section
 

@@ -69,8 +69,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode1C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode1C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode1C1T.text @ver End-Hymn
 		End-Section
 		Section ode3
@@ -85,8 +87,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode3C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode3C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode3C1T.text @ver End-Hymn
 			Insert_section CA.heirmos.ode3.pe End-Insert
 		End-Section
@@ -104,8 +108,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode4C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode4C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode4C1T.text @ver End-Hymn
 		End-Section
 		Section ode5
@@ -120,8 +126,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode5C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode5C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode5C1T.text @ver End-Hymn
 		End-Section
 		Section ode6
@@ -136,8 +144,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C1T.text @ver End-Hymn
 			Insert_section CA.heirmos.ode6.pe End-Insert
 		End-Section
@@ -157,8 +167,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode7C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode7C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode7C1T.text @ver End-Hymn
 		End-Section
 		Section ode8
@@ -173,8 +185,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode8C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode8C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode8C1T.text @ver End-Hymn
 			Insert_section CA.heirmos.ode8.pe1 End-Insert
 		End-Section
@@ -191,8 +205,10 @@ Status NA
 			Verse sid liturgical.verses_gr_GR_cog.psVE.deceased.aposverse.v3.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode9C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode9C13.text @ver End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid pe.d119_gr_GR_cog.peMA.Ode9C1T.text @ver End-Hymn
 			Insert_section CA.heirmos.ode9.pe End-Insert
 			Insert_section MA._10_Canon__.ode9_end End-Insert

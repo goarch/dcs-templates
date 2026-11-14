@@ -74,6 +74,8 @@ Status Final
 						Hymn rid octrMA.Ode7Martyricon.text @ver media-off End-Hymn
 					End-Section
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid octrMA.Kathisma1T.mode<Tmelody>rid octrMA.Kathisma1T.melody</>End-Title
 					Media rid octrMA.Kathisma1T.text End-Media
 					Hymn rid octrMA.Kathisma1T.text @ver media-off End-Hymn
@@ -486,6 +488,8 @@ Status Final
 						Hymn rid octrMA.Ode7Martyricon.text @ver media-off End-Hymn
 					End-Section
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid octrMA.Kathisma1T.mode<Tmelody>rid octrMA.Kathisma1T.melody</>End-Title
 					Media rid octrMA.Kathisma1T.text End-Media
 					Hymn rid octrMA.Kathisma1T.text @ver media-off End-Hymn

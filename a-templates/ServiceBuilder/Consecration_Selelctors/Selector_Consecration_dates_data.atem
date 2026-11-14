@@ -529,9 +529,11 @@ Status NA
 							Media rid meMA.Ode9C12.text End-Media
 							Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Media rid meMA.Ode9C13.text End-Media
 							Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid meMA.Ode9C2T.text End-Media
 							Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
 						End-Section
@@ -557,7 +559,7 @@ Status NA
 
 	Section lauds_consecration_celeb_saint_church_saint
 		when-exists
-			rid meMA.Lauds1.text use: 
+			rid meMA.Lauds1.text use:
 				Section con12celeb345church6vv
 					Insert_section MA._13_Lauds__.consecration__.p_12as12 End-Insert
 				End-Section
@@ -1586,9 +1588,11 @@ Status NA
 					Media rid meMA.Ode9C12.text End-Media
 					Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid meMA.Ode9C13.text End-Media
 					Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid meMA.Ode9C2T.text End-Media
 					Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
 				End-Section
@@ -1808,9 +1812,11 @@ Status NA
 					Media rid meMA.Ode9C12.text End-Media
 					Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid meMA.Ode9C13.text End-Media
 					Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid meMA.Ode9C2T.text End-Media
 					Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
 				End-Section

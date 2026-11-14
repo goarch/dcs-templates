@@ -59,6 +59,7 @@ Status NA
 		Insert_section VE._08_Aposticha__.append__.pascha End-Insert
 		Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_ End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
 		Insert_section AP.res__.modeofweek End-Insert

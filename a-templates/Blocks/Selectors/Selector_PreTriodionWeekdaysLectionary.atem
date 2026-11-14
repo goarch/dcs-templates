@@ -40,7 +40,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_05_sunday End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_05_sunday End-Insert
 						
 						//2029
@@ -48,7 +48,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_friday End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_04_sunday End-Insert
 						
 						//2031
@@ -69,7 +69,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_31_thursday End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_friday End-Insert
 						
 						//2029 Sunday
@@ -77,7 +77,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_monday End-Insert
 						
 						//2031
@@ -99,7 +99,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_31_friday End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2029
@@ -107,7 +107,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_tuesday End-Insert
 						
 						//2031
@@ -129,7 +129,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_31_saturday End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
@@ -137,7 +137,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_wednesday End-Insert
 						
 						//2031
@@ -159,7 +159,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
@@ -167,7 +167,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_thursday End-Insert
 						
 						//2031
@@ -189,7 +189,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_tuesday End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
@@ -197,7 +197,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_saturday End-Insert
 						
 						//2031
@@ -219,7 +219,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_friday End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
@@ -227,7 +227,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_tuesday End-Insert
 						
 						//2031
@@ -249,7 +249,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_32_saturday End-Insert
 						
 						//2028 Sunday
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
@@ -257,7 +257,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_wednesday End-Insert
 						
 						//2031
@@ -278,14 +278,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_thursday End-Insert
 						
 						//2031
@@ -307,14 +307,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_tuesday End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2031 Sunday
@@ -335,7 +335,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_thursday End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029 Sunday
@@ -343,7 +343,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -365,14 +365,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_friday End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -392,14 +392,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -421,14 +421,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -449,14 +449,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -479,13 +479,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031
@@ -507,13 +507,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Lent
 						29 use:
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031 Lent
@@ -534,14 +534,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailyepistle_ End-Insert
 						
 						//2031 Lent
@@ -568,7 +568,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_05_sunday End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_05_sunday End-Insert
 						
 						//2029
@@ -576,7 +576,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_04_sunday End-Insert
 						
 						//2031
@@ -597,7 +597,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_thursday End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday End-Insert
 						
 						//2029 Sunday
@@ -605,7 +605,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_monday End-Insert
 						
 						//2031
@@ -627,7 +627,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_friday End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2029
@@ -635,7 +635,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_tuesday End-Insert
 						
 						//2031
@@ -657,7 +657,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_saturday End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
@@ -665,7 +665,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_wednesday End-Insert
 						
 						//2031
@@ -687,7 +687,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
@@ -695,7 +695,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_thursday End-Insert
 						
 						//2031
@@ -717,7 +717,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_tuesday End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
@@ -725,7 +725,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_saturday End-Insert
 						
 						//2031
@@ -747,7 +747,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_friday End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
@@ -755,7 +755,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_tuesday End-Insert
 						
 						//2031
@@ -777,7 +777,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_saturday End-Insert
 						
 						//2028 Sunday
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
@@ -785,7 +785,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_wednesday End-Insert
 						
 						//2031
@@ -806,14 +806,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_thursday End-Insert
 						
 						//2031
@@ -835,14 +835,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_tuesday End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2031 Sunday
@@ -863,7 +863,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_thursday End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029 Sunday
@@ -871,7 +871,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -893,14 +893,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -920,14 +920,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -949,14 +949,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -977,14 +977,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -1007,13 +1007,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031
@@ -1035,13 +1035,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Lent
 						29 use:
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031 Lent
@@ -1062,14 +1062,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle End-Insert
 						
 						//2031 Lent
@@ -1096,7 +1096,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_05_sunday.lesson End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_05_sunday.lesson End-Insert
 						
 						//2029
@@ -1104,7 +1104,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday.lesson End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_04_sunday.lesson End-Insert
 						
 						//2031
@@ -1125,7 +1125,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_thursday.lesson End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday.lesson End-Insert
 						
 						//2029 Sunday
@@ -1133,7 +1133,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_monday.lesson End-Insert
 						
 						//2031
@@ -1155,7 +1155,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_friday.lesson End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday.lesson End-Insert
 						
 						//2029
@@ -1163,7 +1163,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_tuesday.lesson End-Insert
 						
 						//2031
@@ -1185,7 +1185,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_31_saturday.lesson End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
@@ -1193,7 +1193,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_wednesday.lesson End-Insert
 						
 						//2031
@@ -1215,7 +1215,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
@@ -1223,7 +1223,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_thursday.lesson End-Insert
 						
 						//2031
@@ -1245,7 +1245,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_tuesday.lesson End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
@@ -1253,7 +1253,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_saturday.lesson End-Insert
 						
 						//2031
@@ -1275,7 +1275,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_friday.lesson End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
@@ -1283,7 +1283,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_tuesday.lesson End-Insert
 						
 						//2031
@@ -1305,7 +1305,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_32_saturday.lesson End-Insert
 						
 						//2028 Sunday
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
@@ -1313,7 +1313,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_wednesday.lesson End-Insert
 						
 						//2031
@@ -1334,14 +1334,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_thursday.lesson End-Insert
 						
 						//2031
@@ -1363,14 +1363,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_tuesday.lesson End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday.lesson End-Insert
 						
 						//2031 Sunday
@@ -1391,7 +1391,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_thursday.lesson End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029 Sunday
@@ -1399,7 +1399,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1421,14 +1421,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_friday.lesson End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1448,14 +1448,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodionepistles__.week_33_saturday.lesson End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1477,14 +1477,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1505,14 +1505,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1535,13 +1535,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031
@@ -1563,13 +1563,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Lent
 						29 use:
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031 Lent
@@ -1590,14 +1590,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailyepistle.lesson End-Insert
 						
 						//2031 Lent
@@ -1627,7 +1627,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_07_matthew_sunday End-Insert
 						
 						//2028
-						333 use: 
+						333 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_13_matthew_sunday End-Insert
 						
 						//2029
@@ -1635,7 +1635,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2030
-						357 use: 
+						357 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_04_matthew_sunday End-Insert
 						
 						//2031
@@ -1656,7 +1656,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2028
-						338 use: 
+						338 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2029
@@ -1664,7 +1664,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_wednesday End-Insert
 						
 						//2030
-						362 use: 
+						362 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_07_matthew_sunday End-Insert
 						
 						//2031
@@ -1685,7 +1685,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_matthew_sunday End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_matthew_sunday End-Insert
 						
 						//2029
@@ -1693,7 +1693,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_friday End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2031
@@ -1714,7 +1714,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_thursday End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_friday End-Insert
 						
 						//2029 Sunday
@@ -1722,7 +1722,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_monday End-Insert
 						
 						//2031
@@ -1744,7 +1744,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_friday End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2029
@@ -1752,7 +1752,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_tuesday End-Insert
 						
 						//2031
@@ -1774,7 +1774,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_saturday End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029
@@ -1782,7 +1782,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_wednesday End-Insert
 						
 						//2031
@@ -1804,7 +1804,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_monday End-Insert
 						
 						//2029
@@ -1812,7 +1812,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_thursday End-Insert
 						
 						//2031
@@ -1834,7 +1834,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_tuesday End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_wednesday End-Insert
 						
 						//2029
@@ -1842,7 +1842,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_saturday End-Insert
 						
 						//2031 Sunday
@@ -1864,7 +1864,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_friday End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_saturday End-Insert
 						
 						//2029
@@ -1872,7 +1872,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_tuesday End-Insert
 						
 						//2031
@@ -1894,7 +1894,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_15_saturday End-Insert
 						
 						//2028
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029
@@ -1902,7 +1902,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_wednesday End-Insert
 						
 						//2031
@@ -1923,14 +1923,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_thursday End-Insert
 						
 						//2031
@@ -1952,7 +1952,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_monday End-Insert
 						
 						//2028
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029
@@ -1960,7 +1960,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						384 use: 
+						384 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_friday End-Insert
 						
 						//2031 SoS
@@ -1981,14 +1981,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_tuesday End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2031 Sunday
@@ -2009,7 +2009,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_thursday End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029 Sunday
@@ -2017,7 +2017,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2031
@@ -2039,14 +2039,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_friday End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_tuesday End-Insert
 						
 						//2031
@@ -2066,14 +2066,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_wednesday End-Insert
 						
 						//2031
@@ -2095,14 +2095,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_thursday End-Insert
 						
 						//2031
@@ -2123,14 +2123,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_monday End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_friday End-Insert
 						
 						//2031
@@ -2152,13 +2152,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_tuesday End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_saturday End-Insert
 						
 						//2031 Sunday
@@ -2180,14 +2180,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_thursday End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Sunday
 						29 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2031 Lent
@@ -2208,14 +2208,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_17_friday End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.dailygospel_ End-Insert
 						
 						//2031 Lent
@@ -2242,7 +2242,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_07_matthew_sunday End-Insert
 						
 						//2028
-						333 use: 
+						333 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_13_matthew_sunday End-Insert
 						
 						//2029
@@ -2250,7 +2250,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2030
-						357 use: 
+						357 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_04_matthew_sunday End-Insert
 						
 						//2031
@@ -2271,7 +2271,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2028
-						338 use: 
+						338 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2029
@@ -2279,7 +2279,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_wednesday End-Insert
 						
 						//2030
-						362 use: 
+						362 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_07_matthew_sunday End-Insert
 						
 						//2031
@@ -2300,7 +2300,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_matthew_sunday End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_matthew_sunday End-Insert
 						
 						//2029
@@ -2308,7 +2308,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday End-Insert
 						
 						//2031
@@ -2329,7 +2329,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_thursday End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday End-Insert
 						
 						//2029 Sunday
@@ -2337,7 +2337,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_monday End-Insert
 						
 						//2031
@@ -2359,7 +2359,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_friday End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2029
@@ -2367,7 +2367,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_tuesday End-Insert
 						
 						//2031
@@ -2389,7 +2389,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_saturday End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029
@@ -2397,7 +2397,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_wednesday End-Insert
 						
 						//2031
@@ -2419,7 +2419,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_monday End-Insert
 						
 						//2029
@@ -2427,7 +2427,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_thursday End-Insert
 						
 						//2031
@@ -2449,7 +2449,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_tuesday End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_wednesday End-Insert
 						
 						//2029
@@ -2457,7 +2457,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_saturday End-Insert
 						
 						//2031 Sunday
@@ -2479,7 +2479,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_friday End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_saturday End-Insert
 						
 						//2029
@@ -2487,7 +2487,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_tuesday End-Insert
 						
 						//2031
@@ -2509,7 +2509,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_saturday End-Insert
 						
 						//2028
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029
@@ -2517,7 +2517,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_wednesday End-Insert
 						
 						//2031
@@ -2538,14 +2538,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_thursday End-Insert
 						
 						//2031
@@ -2567,7 +2567,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_monday End-Insert
 						
 						//2028
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029
@@ -2575,7 +2575,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						384 use: 
+						384 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday End-Insert
 						
 						//2031 SoS
@@ -2596,14 +2596,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_tuesday End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2031 Sunday
@@ -2624,7 +2624,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_thursday End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029 Sunday
@@ -2632,7 +2632,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_monday End-Insert
 						
 						//2031
@@ -2654,14 +2654,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_tuesday End-Insert
 						
 						//2031
@@ -2681,14 +2681,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_wednesday End-Insert
 						
 						//2031
@@ -2710,14 +2710,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_thursday End-Insert
 						
 						//2031
@@ -2738,14 +2738,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_monday End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_friday End-Insert
 						
 						//2031
@@ -2767,13 +2767,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_tuesday End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_saturday End-Insert
 						
 						//2031 Sunday
@@ -2795,14 +2795,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_thursday End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Sunday
 						29 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2031 Lent
@@ -2823,14 +2823,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_friday End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel End-Insert
 						
 						//2031 Lent
@@ -2857,7 +2857,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_07_matthew_sunday.lesson End-Insert
 						
 						//2028
-						333 use: 
+						333 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_13_matthew_sunday.lesson End-Insert
 						
 						//2029
@@ -2865,7 +2865,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday.lesson End-Insert
 						
 						//2030
-						357 use: 
+						357 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_04_matthew_sunday.lesson End-Insert
 						
 						//2031
@@ -2886,7 +2886,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2028
-						338 use: 
+						338 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday.lesson End-Insert
 						
 						//2029
@@ -2894,7 +2894,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_wednesday.lesson End-Insert
 						
 						//2030
-						362 use: 
+						362 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_07_matthew_sunday.lesson End-Insert
 						
 						//2031
@@ -2915,7 +2915,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_matthew_sunday.lesson End-Insert
 						
 						//2028
-						340 use: 
+						340 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_matthew_sunday.lesson End-Insert
 						
 						//2029
@@ -2923,7 +2923,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday.lesson End-Insert
 						
 						//2030
-						364 use: 
+						364 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_matthew_sunday.lesson End-Insert
 						
 						//2031
@@ -2944,7 +2944,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_thursday.lesson End-Insert
 						
 						//2028
-						349 use: 
+						349 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday.lesson End-Insert
 						
 						//2029 Sunday
@@ -2952,7 +2952,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						373 use: 
+						373 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_monday.lesson End-Insert
 						
 						//2031
@@ -2974,7 +2974,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_friday.lesson End-Insert
 						
 						//2028
-						350 use: 
+						350 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday.lesson End-Insert
 						
 						//2029
@@ -2982,7 +2982,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						374 use: 
+						374 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_tuesday.lesson End-Insert
 						
 						//2031
@@ -3004,7 +3004,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_saturday.lesson End-Insert
 						
 						//2028
-						1 use: 
+						1 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
@@ -3012,7 +3012,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						375 use: 
+						375 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_wednesday.lesson End-Insert
 						
 						//2031
@@ -3034,7 +3034,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2028
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
@@ -3042,7 +3042,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						376 use: 
+						376 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_thursday.lesson End-Insert
 						
 						//2031
@@ -3064,7 +3064,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_tuesday.lesson End-Insert
 						
 						//2028
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_wednesday.lesson End-Insert
 						
 						//2029
@@ -3072,7 +3072,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						378 use: 
+						378 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_saturday.lesson End-Insert
 						
 						//2031 Sunday
@@ -3094,7 +3094,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_friday.lesson End-Insert
 						
 						//2028
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_saturday.lesson End-Insert
 						
 						//2029
@@ -3102,7 +3102,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						381 use: 
+						381 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_tuesday.lesson End-Insert
 						
 						//2031
@@ -3124,7 +3124,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_15_saturday.lesson End-Insert
 						
 						//2028
-						8 use: 
+						8 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
@@ -3132,7 +3132,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						382 use: 
+						382 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_wednesday.lesson End-Insert
 						
 						//2031
@@ -3153,14 +3153,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2028
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
 						18 use:
 						
 						//2030
-						383 use: 
+						383 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_thursday.lesson End-Insert
 						
 						//2031
@@ -3182,7 +3182,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_monday.lesson End-Insert
 						
 						//2028
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
@@ -3190,7 +3190,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						384 use: 
+						384 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday.lesson End-Insert
 						
 						//2031 SoS
@@ -3211,14 +3211,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_tuesday.lesson End-Insert
 						
 						//2028
-						11 use: 
+						11 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029
 						20 use:
 						
 						//2030
-						385 use: 
+						385 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday.lesson End-Insert
 						
 						//2031 Sunday
@@ -3239,7 +3239,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_thursday.lesson End-Insert
 						
 						//2028
-						13 use: 
+						13 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029 Sunday
@@ -3247,7 +3247,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						2 use: 
+						2 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2031
@@ -3269,14 +3269,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_friday.lesson End-Insert
 						
 						//2028 SoS
-						14 use: 
+						14 use:
 						
 						//2029 Sunday
 						23 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						3 use: 
+						3 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_tuesday.lesson End-Insert
 						
 						//2031
@@ -3296,14 +3296,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_16_saturday.lesson End-Insert
 						
 						//2028 Sunday
-						15 use: 
+						15 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029 Lent
 						24 use:
 						
 						//2030
-						4 use: 
+						4 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_wednesday.lesson End-Insert
 						
 						//2031
@@ -3325,14 +3325,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2028
-						16 use: 
+						16 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029 Lent
 						25 use:
 						
 						//2030
-						5 use: 
+						5 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_thursday.lesson End-Insert
 						
 						//2031
@@ -3353,14 +3353,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_monday.lesson End-Insert
 						
 						//2028
-						17 use: 
+						17 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029 Lent
 						26 use:
 						
 						//2030
-						6 use: 
+						6 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_friday.lesson End-Insert
 						
 						//2031
@@ -3382,13 +3382,13 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_tuesday.lesson End-Insert
 						
 						//2028
-						18 use: 
+						18 use:
 						
 						//2029 Lent
 						27 use:
 						
 						//2030
-						7 use: 
+						7 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_saturday.lesson End-Insert
 						
 						//2031 Sunday
@@ -3410,14 +3410,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_thursday.lesson End-Insert
 						
 						//2028
-						20 use: 
+						20 use:
 						
 						//2029 Sunday
 						29 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2030
-						9 use: 
+						9 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2031 Lent
@@ -3438,14 +3438,14 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_17_friday.lesson End-Insert
 						
 						//2028
-						21 use: 
+						21 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2029 Lent
 						30 use:
 						
 						//2030
-						10 use: 
+						10 use:
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_dailygospel.lesson End-Insert
 						
 						//2031 Lent
@@ -6749,13 +6749,15 @@ Status NA
 					Section sunday
 						when-name-of-day-is
 							Sunday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 					Section saturday
 						when-name-of-day-is
 							Saturday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 				End-Section

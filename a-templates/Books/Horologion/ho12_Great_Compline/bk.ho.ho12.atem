@@ -257,8 +257,10 @@ End_Head
 		Title role mode sid ho.ho12_gr_GR_cog.hoCO.Key0701.mode End-Title
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0701.text @ver End-Reading
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0702.text @ver End-Reading
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0703.text @ver End-Reading
 	End-Section
 
@@ -271,8 +273,10 @@ End_Head
 		Verse<bnr>sid misc.vVerse</>sid ho.ho12_gr_GR_cog.hoCO.Key0705.text End-Verse
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0706.text @ver End-Reading
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0707.text @ver End-Reading
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Reading sid ho.ho12_gr_GR_cog.hoCO.Key0708.text @ver End-Reading
 	End-Section
 
@@ -315,8 +319,10 @@ End_Head
 		Media sid ho.ho12_gr_GR_cog.hoCO.Key0804.text End-Media
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0804.text @ver media-off End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0805.text @ver media-off End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0806.text @ver media-off End-Hymn
 	End-Section
 

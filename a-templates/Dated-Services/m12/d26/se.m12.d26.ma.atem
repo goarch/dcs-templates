@@ -133,8 +133,10 @@ Status Final
 					Verse sid me.m12.dAC_gr_GR_cog.meMA.C1.verse End-Verse
 					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C13.text @ver End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C1T.text @ver End-Hymn
 				End-Section
 				Insert_section KA.append__._9 End-Insert

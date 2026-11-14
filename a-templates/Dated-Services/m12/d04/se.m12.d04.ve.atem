@@ -111,6 +111,7 @@ Status Final
 				Section mode6_theotokion
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode6 End-Title
 					Insert_section Selector_Theotokion_Vine.Devout End-Insert
 				End-Section

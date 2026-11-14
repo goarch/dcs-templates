@@ -102,7 +102,8 @@ Status NA
 						Insert_section LE._03_Prophetologion__.tr064_r1 End-Insert
 						Insert_section LE._03_Prophetologion__.tr064_r2 End-Insert
 						Insert_section LE._03_Prophetologion__.tr064_r3 End-Insert
-					66 thru 69 use: Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
+					66 thru 69 use:
+						Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
 					70 use:
 						Para role source sid ti.sourceTriodion End-Para
 						Insert_section Lectionary_Triodion.Holy_Week.Day_Friday.Vespers_1 End-Insert
@@ -651,13 +652,15 @@ Status NA
 				end-when
 			otherwise use:
 				when-movable-cycle-day-is
-					19 thru 63 use: Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
+					19 thru 63 use:
+						Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
 					64 use:
 						Para role source sid ti.sourceTriodion End-Para
 						Insert_section hLE._03_Prophetologion__.tr064_r1 End-Insert
 						Insert_section hLE._03_Prophetologion__.tr064_r2 End-Insert
 						Insert_section hLE._03_Prophetologion__.tr064_r3 End-Insert
-					66 thru 69 use: Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
+					66 thru 69 use:
+						Insert_section Lectionary_Triodion.Vespers_Readings End-Insert
 					70 use:
 						Para role source sid ti.sourceTriodion End-Para
 						Insert_section Lectionary_Triodion.Holy_Week.Day_Friday.Vespers_1 End-Insert
@@ -1517,15 +1520,18 @@ Status NA
 		when-date-is
 			Jul 13 thru 19 use:
 				when-name-of-day-is
-					Sunday use: Title<inr>sid me.m07.dHF_gr_GR_cog.meDA.commemoration.first_short</>End-Title
+					Sunday use:
+						Title<inr>sid me.m07.dHF_gr_GR_cog.meDA.commemoration.first_short</>End-Title
 				end-when
 			Oct 11 thru 17 use:
 				when-name-of-day-is
-					Sunday use: Title<inr>sid me.m10.dHF_gr_GR_cog.meDA.commemoration.first_short</>End-Title
+					Sunday use:
+						Title<inr>sid me.m10.dHF_gr_GR_cog.meDA.commemoration.first_short</>End-Title
 				end-when
 			Dec 18 thru 24 use:
 				when-name-of-day-is
-					Sunday use: Title<inr>sid me.m12.dBC_gr_GR_cog.meDA.commemoration.first_short</>End-Title
+					Sunday use:
+						Title<inr>sid me.m12.dBC_gr_GR_cog.meDA.commemoration.first_short</>End-Title
 				end-when
 			otherwise use:
 				Title<inr>rid meDA.commemoration.first_short</>End-Title

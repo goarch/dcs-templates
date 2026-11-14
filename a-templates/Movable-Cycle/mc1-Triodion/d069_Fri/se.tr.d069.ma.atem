@@ -100,12 +100,14 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon012.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon013.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon01T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon02.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon021.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon021.text End-Media
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon021.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon022.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon02T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon03.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon031.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon031.text End-Media
@@ -116,6 +118,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon035.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon036.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon03T.text @ver End-Hymn
 			Title role desig sid ti.Kathisma sid tr.d069_gr_GR_cog.trMA.Antiphon03Kathisma.mode End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon03Kathisma.text End-Media
@@ -145,12 +148,14 @@ Status NA
 			Title role mode sid tr.d069_gr_GR_cog.trMA.Antiphon043.mode End-Title
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon043.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon04T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon05.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon051.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon051.text End-Media
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon051.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon052.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon05T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon06.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon061.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon061.text End-Media
@@ -158,6 +163,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon062.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon063.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon06T.text @ver End-Hymn
 			Title role desig sid ti.Kathisma sid tr.d069_gr_GR_cog.trMA.Antiphon06Kathisma.mode End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon06Kathisma.text End-Media
@@ -185,18 +191,21 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon071.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon072.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon07T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon08.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon081.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon081.text End-Media
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon081.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon082.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon08T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon09.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon091.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon091.text End-Media
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon091.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon092.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon09T.text @ver End-Hymn
 			Title role desig sid ti.Kathisma sid tr.d069_gr_GR_cog.trMA.Antiphon09Kathisma.mode End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon09Kathisma.text End-Media
@@ -224,6 +233,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon101.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon102.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon10T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon11.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon111.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon111.text End-Media
@@ -231,6 +241,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon112.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon113.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon11T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon12.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon121.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon121.text End-Media
@@ -238,6 +249,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon122.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon123.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon12T.text @ver End-Hymn
 			Title role desig sid ti.Kathisma sid tr.d069_gr_GR_cog.trMA.Antiphon12Kathisma.mode End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon12Kathisma.text End-Media
@@ -265,12 +277,14 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon131.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon132.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon13T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon14.title<Tmode>sid tr.d069_gr_GR_cog.trMA.Antiphon141.mode</>End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon141.text End-Media
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon141.text @ver media-off End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon142.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon14T.text @ver End-Hymn
 			Title role desig sid tr.d069_gr_GR_cog.trMA.Antiphon15.title End-Title
 			Rubric sid tr.d069_gr_GR_cog.trMA.Antiphon151.rubric End-Rubric
@@ -294,6 +308,7 @@ Status NA
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon152.text @ver End-Hymn
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon153.text @ver End-Hymn
 			Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Antiphon15T.text @ver End-Hymn
 			Title role desig sid ti.Kathisma sid tr.d069_gr_GR_cog.trMA.Antiphon15Kathisma.mode End-Title
 			Media sid tr.d069_gr_GR_cog.trMA.Antiphon15Kathisma.text End-Media
@@ -385,6 +400,7 @@ Status NA
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode5C11.text<r>sid ru.Twice media-off</>End-Hymn
 			Title sid ti.Glory sid ti.BothNow End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode5C12.text<r>sid ru.Twice media-off</>End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode5K.text @ver End-Hymn
@@ -402,8 +418,10 @@ Status NA
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode8C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode8C13.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode8C14.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
@@ -419,8 +437,10 @@ Status NA
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode9C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode9C13.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode9C14.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d069_gr_GR_cog.trMA.Ode9K.text @ver End-Hymn

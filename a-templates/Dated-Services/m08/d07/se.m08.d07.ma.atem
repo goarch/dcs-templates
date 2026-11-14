@@ -130,6 +130,8 @@ Status Final
 						Insert_section PsalmVerses.forTransfiguration.verse2 End-Insert
 						Hymn rid meMA.Aposticha3.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 					End-Section

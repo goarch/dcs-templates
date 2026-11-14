@@ -51,6 +51,8 @@ Status Draft
 			Title role melody sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -65,6 +67,8 @@ Status Draft
 			Title role melody sid oc.m1.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m1.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -79,6 +83,8 @@ Status Draft
 			Title role melody sid oc.m1.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m1.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -93,6 +99,8 @@ Status Draft
 			Title role melody sid oc.m1.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m1.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -107,6 +115,8 @@ Status Draft
 			Title role melody sid oc.m1.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m1.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -123,6 +133,8 @@ Status Draft
 			Title role melody sid oc.m1.d7_gr_GR_cog.ocVE.Aposticha4.melody End-Title
 			Hymn sid oc.m1.d7_gr_GR_cog.ocVE.Aposticha4.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -140,6 +152,8 @@ Status Draft
 			Title role melody sid oc.m2.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m2.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -154,6 +168,8 @@ Status Draft
 			Title role melody sid oc.m2.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m2.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -168,6 +184,8 @@ Status Draft
 			Title role melody sid oc.m2.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m2.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -182,6 +200,8 @@ Status Draft
 			Title role melody sid oc.m2.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m2.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -196,6 +216,8 @@ Status Draft
 			Title role melody sid oc.m2.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m2.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -212,6 +234,8 @@ Status Draft
 			Title role melody sid oc.m2.d7_gr_GR_cog.ocVE.Aposticha4.melody End-Title
 			Hymn sid oc.m2.d7_gr_GR_cog.ocVE.Aposticha4.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m2.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -229,6 +253,8 @@ Status Draft
 			Title role melody sid oc.m3.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m3.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -243,6 +269,8 @@ Status Draft
 			Title role melody sid oc.m3.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m3.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -257,6 +285,8 @@ Status Draft
 			Title role melody sid oc.m3.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m3.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -271,6 +301,8 @@ Status Draft
 			Title role melody sid oc.m3.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m3.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -285,6 +317,8 @@ Status Draft
 			Title role melody sid oc.m3.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m3.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -301,6 +335,8 @@ Status Draft
 			Title role melody sid oc.m3.d7_gr_GR_cog.ocVE.Aposticha4.melody End-Title
 			Hymn sid oc.m3.d7_gr_GR_cog.ocVE.Aposticha4.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m3.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -318,6 +354,8 @@ Status Draft
 			Title role melody sid oc.m4.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m4.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -332,6 +370,8 @@ Status Draft
 			Title role melody sid oc.m4.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m4.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -346,6 +386,8 @@ Status Draft
 			Title role melody sid oc.m4.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m4.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -360,6 +402,8 @@ Status Draft
 			Title role melody sid oc.m4.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m4.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -374,6 +418,8 @@ Status Draft
 			Title role melody sid oc.m4.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m4.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -390,6 +436,8 @@ Status Draft
 			Title role melody sid oc.m4.d7_gr_GR_cog.ocVE.Aposticha4.melody End-Title
 			Hymn sid oc.m4.d7_gr_GR_cog.ocVE.Aposticha4.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m4.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -407,6 +455,8 @@ Status Draft
 			Title role melody sid oc.m5.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -421,6 +471,8 @@ Status Draft
 			Title role melody sid oc.m5.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -435,6 +487,8 @@ Status Draft
 			Title role melody sid oc.m5.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -449,6 +503,8 @@ Status Draft
 			Title role melody sid oc.m5.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -463,6 +519,8 @@ Status Draft
 			Title role melody sid oc.m5.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -477,6 +535,8 @@ Status Draft
 			Title role melody sid oc.m5.d7_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m5.d7_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m5.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -494,6 +554,8 @@ Status Draft
 			Title role melody sid oc.m6.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -508,6 +570,8 @@ Status Draft
 			Title role melody sid oc.m6.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -522,6 +586,8 @@ Status Draft
 			Title role melody sid oc.m6.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -536,6 +602,8 @@ Status Draft
 			Title role melody sid oc.m6.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -550,6 +618,8 @@ Status Draft
 			Title role melody sid oc.m6.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -564,6 +634,8 @@ Status Draft
 			Title role melody sid oc.m6.d7_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m6.d7_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m6.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -581,6 +653,8 @@ Status Draft
 			Title role melody sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -595,6 +669,8 @@ Status Draft
 			Title role melody sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -609,6 +685,8 @@ Status Draft
 			Title role melody sid oc.m7.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -623,6 +701,8 @@ Status Draft
 			Title role melody sid oc.m7.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -637,6 +717,8 @@ Status Draft
 			Title role melody sid oc.m7.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -651,6 +733,8 @@ Status Draft
 			Title role melody sid oc.m7.d7_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m7.d7_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m7.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -668,6 +752,8 @@ Status Draft
 			Title role melody sid oc.m8.d2_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d2_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -682,6 +768,8 @@ Status Draft
 			Title role melody sid oc.m8.d3_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d3_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d3_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -696,6 +784,8 @@ Status Draft
 			Title role melody sid oc.m8.d4_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d4_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d4_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d4_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -710,6 +800,8 @@ Status Draft
 			Title role melody sid oc.m8.d5_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d5_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d5_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -724,6 +816,8 @@ Status Draft
 			Title role melody sid oc.m8.d6_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d6_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d6_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d6_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -738,6 +832,8 @@ Status Draft
 			Title role melody sid oc.m8.d7_gr_GR_cog.ocVE.Aposticha3.melody End-Title
 			Hymn sid oc.m8.d7_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m8.d7_gr_GR_cog.ocVE.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d7_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title

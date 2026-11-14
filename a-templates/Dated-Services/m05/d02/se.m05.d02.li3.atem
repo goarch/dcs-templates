@@ -52,7 +52,7 @@ Status NA
 				Insert_section se.m05.d02.li2.Instance03.block01 End-Insert
 			End-Section
 
-		79 thru 84 use: 
+		79 thru 84 use:
 			Section Instance04
 				Insert_section ST.li.pe_me1 End-Insert
 				Insert_section mc.map.li3.pe_typika_beatitudes_ode3 End-Insert

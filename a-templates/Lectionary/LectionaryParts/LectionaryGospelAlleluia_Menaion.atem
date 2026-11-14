@@ -1570,7 +1570,8 @@ Status Draft
 					Verse<bnr>sid misc.vVerse2</>sid menaion.verses_gr_GR_cog.psLI.m07.d05.alleluia.v2.text End-Verse
 					Hymn sid pr.Alleluia3.text media-off End-Hymn
 				End-Section
-			Jul 22 use: Insert_section Gospel_Alleluia_Menaion.nov25 End-Insert
+			Jul 22 use:
+				Insert_section Gospel_Alleluia_Menaion.nov25 End-Insert
 			Aug 16 use:
 				Section aug16
 					Title role desig sid ti.Alleluia sid misc.Mode6 sid menaion.verses_gr_GR_cog.psLI.m10.d20.alleluia2.title End-Title
@@ -1671,7 +1672,8 @@ Status Draft
 					Verse<bnr>sid misc.vVerse2</>sid menaion.verses_gr_GR_cog.psLI.m11.d09.alleluia.v2.text End-Verse
 					Hymn sid pr.Alleluia3.text media-off End-Hymn
 				End-Section
-			Nov 14 use: Insert_section Gospel_Alleluia_Menaion.nov13 End-Insert
+			Nov 14 use:
+				Insert_section Gospel_Alleluia_Menaion.nov13 End-Insert
 			Nov 22, 26 use:
 				Section nov22
 					Title role desig sid ti.Alleluia sid misc.Mode1 sid menaion.verses_gr_GR_cog.psLI.m12.d05.alleluia.title End-Title

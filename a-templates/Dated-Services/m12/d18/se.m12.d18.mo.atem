@@ -54,6 +54,7 @@ Status NA
 					Rubric sid ru.IfLityNotDoneAtVespers End-Rubric
 					Para role source0 sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tmode>sid me.m12.dBC_gr_GR_cog.meVE.LityGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dBC_gr_GR_cog.meVE.LityGlory.text End-Media
 					Hymn sid me.m12.dBC_gr_GR_cog.meVE.LityGlory.text @ver media-off End-Hymn
 					Insert_section VE._08_Aposticha__.both__.secondarytheotokion__.mode1 End-Insert

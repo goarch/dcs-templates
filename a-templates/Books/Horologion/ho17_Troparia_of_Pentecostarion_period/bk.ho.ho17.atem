@@ -100,6 +100,7 @@ Status Review
 		End-Section
 		Section Apolytikion_4
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Section hymn
 				Title role mode sid pe.d127_gr_GR_cog.peVE.Apolytikion2.mode End-Title
 				Media sid pe.d127_gr_GR_cog.peVE.Apolytikion2.text End-Media
@@ -108,6 +109,7 @@ Status Review
 		End-Section
 		Section Theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Section hymn
 				Media sid oc.m4.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Media
 				Hymn sid oc.m4.d1_gr_GR_cog.ocVE.ApolTheotokionVM.text @ver media-off End-Hymn

@@ -66,6 +66,7 @@ Status NA
 		Section apolytikia
 			Insert_section AP.res__.modeofweek End-Insert
 			Title sid ti.Glory<Tdesig>sid ti.Cross</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Insert_section AP.tr1_.hymn End-Insert
 			Insert_section AP.both__.primarytheotokion__.mode1 End-Insert
 		End-Section

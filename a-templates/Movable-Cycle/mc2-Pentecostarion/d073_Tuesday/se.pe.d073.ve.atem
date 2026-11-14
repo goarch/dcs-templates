@@ -89,6 +89,7 @@ Status NA
 		Insert_section TI.g.me.com1 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 		Insert_section TI.me.com1 End-Insert
 		Insert_section AP.me1_.hymn End-Insert
@@ -167,6 +168,7 @@ Status NA
 		Insert_section TI.g.me.com1 End-Insert
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 		Insert_section TI.a.me.com1 End-Insert
 		Insert_section AP.me1_.hymn End-Insert

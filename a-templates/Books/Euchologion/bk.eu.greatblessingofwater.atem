@@ -45,6 +45,8 @@ Status Final
 			Hymn sid eu.greatblessingofwater_gr_GR_cog.euGW.Troparion2.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 			Hymn sid eu.greatblessingofwater_gr_GR_cog.euGW.Troparion3.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 			Title sid ti.GloryBothNow<Tmode>sid eu.greatblessingofwater_gr_GR_cog.euGW.Troparion4.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid eu.greatblessingofwater_gr_GR_cog.euGW.Troparion4.text @ver media-off End-Hymn
 		End-Section
 		Section block2_readings

@@ -89,14 +89,17 @@ Status NA
 								Insert_section CA.bOde1.verse12 End-Insert
 								Hymn rid meMA.Ode1C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode1C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde1.verse12 End-Insert
 								Hymn rid meMA.Ode1C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode1C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode1C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -142,14 +145,17 @@ Status NA
 								Insert_section CA.bOde1.verse12 End-Insert
 								Hymn rid meMA.Ode1C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode1C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde1.verse12 End-Insert
 								Hymn rid meMA.Ode1C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode1C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode1C2T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -167,8 +173,10 @@ Status NA
 						Insert_section CA.bOde1.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode1C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode1C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode1C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -254,8 +262,10 @@ Status NA
 						Insert_section CA.bOde1.verse12 End-Insert
 						Hymn rid trMA.Ode1C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode1C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode1C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -269,8 +279,10 @@ Status NA
 						Insert_section CA.bOde1.verse12 End-Insert
 						Hymn rid trMA.Ode1C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode1C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode1C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTas1112GB
@@ -282,8 +294,10 @@ Status NA
 						Insert_section CA.bOde1.verse12 End-Insert
 						Hymn rid trMA.Ode1C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode1C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode1C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -295,8 +309,10 @@ Status NA
 						Insert_section CA.bOde1.verse12 End-Insert
 						Hymn rid trMA.Ode1C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode1C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode1C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode1C2A1.text @ver End-Hymn
@@ -462,8 +478,10 @@ Status NA
 					Hymn rid meMA.Ode1C12.text @ver End-Hymn
 					Insert_section CA.bOde1.verse5 End-Insert
 					when-exists rid meMA.Ode1C13.text
-						use: Hymn rid meMA.Ode1C13.text @ver End-Hymn
-						otherwise use: Hymn rid meMA.Ode1C12.text @ver End-Hymn
+						use:
+							Hymn rid meMA.Ode1C13.text @ver End-Hymn
+						otherwise use:
+							Hymn rid meMA.Ode1C12.text @ver End-Hymn
 					end-when
 					Insert_section CA.bOde1.verse6 End-Insert
 					when-exists rid meMA.Ode1C1T.text
@@ -498,8 +516,10 @@ Status NA
 					Hymn rid meMA.Ode1C12.text @ver End-Hymn
 					Insert_section CA.bOde1.verse9 End-Insert
 					when-exists rid meMA.Ode1C13.text
-						use: Hymn rid meMA.Ode1C13.text @ver End-Hymn
-						otherwise use: Hymn rid meMA.Ode1C12.text @ver End-Hymn
+						use:
+							Hymn rid meMA.Ode1C13.text @ver End-Hymn
+						otherwise use:
+							Hymn rid meMA.Ode1C12.text @ver End-Hymn
 					end-when
 					Insert_section CA.bOde1.verse10 End-Insert
 					when-exists rid meMA.Ode1C1T.text
@@ -535,6 +555,7 @@ Status NA
 							Insert_section CA.bOde1.verse12 End-Insert
 							Hymn rid meMA.Ode1C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid meMA.Ode1C14.text @ver End-Hymn
 						otherwise use:
 							Insert_section CA.bOde1.verse11 End-Insert
@@ -542,9 +563,12 @@ Status NA
 							Insert_section CA.bOde1.verse12 End-Insert
 							Hymn rid meMA.Ode1C12.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							when-exists rid meMA.Ode1C13.text
-								use: Hymn rid meMA.Ode1C13.text @ver End-Hymn
-								otherwise use: Hymn rid meMA.Ode1C12.text @ver End-Hymn
+								use:
+									Hymn rid meMA.Ode1C13.text @ver End-Hymn
+								otherwise use:
+									Hymn rid meMA.Ode1C12.text @ver End-Hymn
 							end-when
 					end-when
 					when-exists rid meMA.Ode1C1T.text
@@ -641,6 +665,7 @@ Status NA
 							Insert_section CA.bOde1.verse12 End-Insert
 							Hymn rid meMA.Ode1C23.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid meMA.Ode1C24.text @ver End-Hymn
 						otherwise use:
 							Insert_section CA.bOde1.verse11 End-Insert
@@ -648,9 +673,12 @@ Status NA
 							Insert_section CA.bOde1.verse12 End-Insert
 							Hymn rid meMA.Ode1C22.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							when-exists rid meMA.Ode1C23.text
-								use: Hymn rid meMA.Ode1C23.text @ver End-Hymn
-								otherwise use: Hymn rid meMA.Ode1C22.text @ver End-Hymn
+								use:
+									Hymn rid meMA.Ode1C23.text @ver End-Hymn
+								otherwise use:
+									Hymn rid meMA.Ode1C22.text @ver End-Hymn
 							end-when
 					end-when
 					when-exists rid meMA.Ode1C2T.text
@@ -680,8 +708,10 @@ Status NA
 					Hymn rid meMA.Ode1C22.text @ver End-Hymn
 					Insert_section CA.bOde1.verse5 End-Insert
 					when-exists rid meMA.Ode1C23.text
-						use: Hymn rid meMA.Ode1C23.text @ver End-Hymn
-						otherwise use: Hymn rid meMA.Ode1C22.text @ver End-Hymn
+						use:
+							Hymn rid meMA.Ode1C23.text @ver End-Hymn
+						otherwise use:
+							Hymn rid meMA.Ode1C22.text @ver End-Hymn
 					end-when
 					Insert_section CA.bOde1.verse6 End-Insert
 					when-exists rid meMA.Ode1C2T.text
@@ -834,6 +864,7 @@ Status NA
 					Insert_section CA.bOde1.verse12 End-Insert
 					Hymn rid trMA.Ode1C12.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode1C13.text @ver End-Hymn
 					when-name-of-day-is
 						Wednesday, Friday use:
@@ -859,6 +890,7 @@ Status NA
 					Insert_section CA.bOde1.verse12 End-Insert
 					Hymn rid trMA.Ode1C13.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode1C14.text @ver End-Hymn
 					when-name-of-day-is
 						Wednesday, Friday use:
@@ -1087,14 +1119,17 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode3C1T.text @ver End-Hymn
 					End-Section
 					Section ti_HH11112222as00345678910
@@ -1178,8 +1213,10 @@ Status NA
 						Hymn rid meMA.Ode3C12.text @ver End-Hymn
 						Insert_section CA.bOde3.verse5 End-Insert
 						when-exists rid meMA.Ode3C13.text
-							use: Hymn rid meMA.Ode3C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode3C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode3C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode3C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde3.verse6 End-Insert
 						when-exists rid meMA.Ode3C1T.text
@@ -1212,8 +1249,10 @@ Status NA
 						Hymn rid meMA.Ode3C12.text @ver End-Hymn
 						Insert_section CA.bOde3.verse9 End-Insert
 						when-exists rid meMA.Ode3C13.text
-							use: Hymn rid meMA.Ode3C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode3C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode3C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode3C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde3.verse10 End-Insert
 						when-exists rid meMA.Ode3C1T.text
@@ -1246,6 +1285,7 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C13.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C14.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde3.verse11 End-Insert
@@ -1253,9 +1293,12 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode3C13.text
-									use: Hymn rid meMA.Ode3C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode3C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode3C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode3C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode3C1T.text
@@ -1310,14 +1353,17 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode3C2T.text @ver End-Hymn
 					End-Section
 					Section ti_HH11112222as00345678910
@@ -1379,8 +1425,10 @@ Status NA
 						Hymn rid meMA.Ode3C22.text @ver End-Hymn
 						Insert_section CA.bOde3.verse5 End-Insert
 						when-exists rid meMA.Ode3C23.text
-							use: Hymn rid meMA.Ode3C23.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode3C22.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode3C23.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode3C22.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde3.verse6 End-Insert
 						when-exists rid meMA.Ode3C2T.text
@@ -1408,6 +1456,7 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C23.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode3C24.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde3.verse11 End-Insert
@@ -1415,9 +1464,12 @@ Status NA
 								Insert_section CA.bOde3.verse12 End-Insert
 								Hymn rid meMA.Ode3C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode3C23.text
-									use: Hymn rid meMA.Ode3C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode3C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode3C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode3C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode3C2T.text
@@ -1444,8 +1496,10 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode3C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode3C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode3C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -1648,8 +1702,10 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid trMA.Ode3C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode3C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode3C1T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -1694,6 +1750,7 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid trMA.Ode3C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode3C13.text @ver End-Hymn
 						when-name-of-day-is
 							Wednesday, Friday use:
@@ -1729,8 +1786,10 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid trMA.Ode3C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode3C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode3C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -1742,8 +1801,10 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid trMA.Ode3C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode3C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode3C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode3C2A1.text @ver End-Hymn
@@ -1764,8 +1825,10 @@ Status NA
 						Insert_section CA.bOde3.verse12 End-Insert
 						Hymn rid trMA.Ode3C32.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode3C3Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode3C3T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode3C3A1.text @ver End-Hymn
@@ -1885,8 +1948,10 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode4C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode4C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode4C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -1933,14 +1998,17 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode4C1T.text @ver End-Hymn
 					End-Section
 					Section ti_HH1234as003456
@@ -1982,8 +2050,10 @@ Status NA
 						Hymn rid meMA.Ode4C12.text @ver End-Hymn
 						Insert_section CA.bOde4.verse5 End-Insert
 						when-exists rid meMA.Ode4C13.text
-							use: Hymn rid meMA.Ode4C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode4C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode4C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode4C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde4.verse6 End-Insert
 						when-exists rid meMA.Ode4C1T.text
@@ -2016,8 +2086,10 @@ Status NA
 						Hymn rid meMA.Ode4C12.text @ver End-Hymn
 						Insert_section CA.bOde4.verse9 End-Insert
 						when-exists rid meMA.Ode4C13.text
-							use: Hymn rid meMA.Ode4C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode4C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode4C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode4C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde4.verse10 End-Insert
 						when-exists rid meMA.Ode4C1T.text
@@ -2051,6 +2123,7 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C13.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C14.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde4.verse11 End-Insert
@@ -2058,9 +2131,12 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode4C13.text
-									use: Hymn rid meMA.Ode4C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode4C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode4C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode4C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode4C1T.text
@@ -2115,14 +2191,17 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode4C2T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -2142,8 +2221,10 @@ Status NA
 						Hymn rid meMA.Ode4C22.text @ver End-Hymn
 						Insert_section CA.bOde4.verse5 End-Insert
 						when-exists rid meMA.Ode4C23.text
-							use: Hymn rid meMA.Ode4C23.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode4C22.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode4C23.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode4C22.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde4.verse6 End-Insert
 						when-exists rid meMA.Ode4C2T.text
@@ -2172,6 +2253,7 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C23.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode4C24.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde4.verse11 End-Insert
@@ -2179,9 +2261,12 @@ Status NA
 								Insert_section CA.bOde4.verse12 End-Insert
 								Hymn rid meMA.Ode4C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode4C23.text
-									use: Hymn rid meMA.Ode4C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode4C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode4C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode4C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode4C2T.text
@@ -2393,6 +2478,7 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C13.text @ver End-Hymn
 						Insert_section TI.b.th End-Insert
 						Hymn rid trMA.Ode4C1T.text @ver End-Hymn
@@ -2413,6 +2499,7 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C13.text @ver End-Hymn
 						when-name-of-day-is
 							Wednesday, Friday use:
@@ -2438,6 +2525,7 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C13.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C14.text @ver End-Hymn
 						when-name-of-day-is
 							Wednesday, Friday use:
@@ -2458,8 +2546,10 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode4C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTas1112GB
@@ -2471,8 +2561,10 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode4C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -2484,8 +2576,10 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode4C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode4C2A1.text @ver End-Hymn
@@ -2522,8 +2616,10 @@ Status NA
 						Insert_section CA.bOde4.verse12 End-Insert
 						Hymn rid trMA.Ode4C42.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode4C4Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode4C4T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -2641,8 +2737,10 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode5C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode5C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode5C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -2689,14 +2787,17 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode5C1T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -2721,8 +2822,10 @@ Status NA
 						Hymn rid meMA.Ode5C12.text @ver End-Hymn
 						Insert_section CA.bOde5.verse5 End-Insert
 						when-exists rid meMA.Ode5C13.text
-							use: Hymn rid meMA.Ode5C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode5C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode5C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode5C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde5.verse6 End-Insert
 						when-exists rid meMA.Ode5C1T.text
@@ -2755,8 +2858,10 @@ Status NA
 						Hymn rid meMA.Ode5C12.text @ver End-Hymn
 						Insert_section CA.bOde5.verse9 End-Insert
 						when-exists rid meMA.Ode5C13.text
-							use: Hymn rid meMA.Ode5C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode5C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode5C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode5C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde5.verse10 End-Insert
 						when-exists rid meMA.Ode5C1T.text
@@ -2789,6 +2894,7 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C13.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C14.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde5.verse11 End-Insert
@@ -2796,9 +2902,12 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode5C13.text
-									use: Hymn rid meMA.Ode5C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode5C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode5C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode5C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode5C1T.text
@@ -2870,14 +2979,17 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode5C2T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -2897,8 +3009,10 @@ Status NA
 						Hymn rid meMA.Ode5C22.text @ver End-Hymn
 						Insert_section CA.bOde5.verse5 End-Insert
 						when-exists rid meMA.Ode5C23.text
-							use: Hymn rid meMA.Ode5C23.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode5C22.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode5C23.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode5C22.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde5.verse6 End-Insert
 						when-exists rid meMA.Ode5C2T.text
@@ -2927,6 +3041,7 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C23.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode5C24.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde5.verse11 End-Insert
@@ -2934,9 +3049,12 @@ Status NA
 								Insert_section CA.bOde5.verse12 End-Insert
 								Hymn rid meMA.Ode5C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode5C23.text
-									use: Hymn rid meMA.Ode5C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode5C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode5C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode5C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode5C2T.text
@@ -3148,6 +3266,7 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid trMA.Ode5C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode5C13.text @ver End-Hymn
 						Insert_section TI.b.th End-Insert
 						Hymn rid trMA.Ode5C1T.text @ver End-Hymn
@@ -3194,6 +3313,7 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid trMA.Ode5C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode5C13.text @ver End-Hymn
 						when-name-of-day-is
 							Wednesday, Friday use:
@@ -3229,8 +3349,10 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid trMA.Ode5C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode5C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode5C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -3242,8 +3364,10 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid trMA.Ode5C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode5C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode5C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode5C2A1.text @ver End-Hymn
@@ -3264,8 +3388,10 @@ Status NA
 						Insert_section CA.bOde5.verse12 End-Insert
 						Hymn rid trMA.Ode5C32.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode5C3Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode5C3T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode5C3A1.text @ver End-Hymn
@@ -3365,8 +3491,10 @@ Status NA
 						Insert_section CA.bOde6.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode6C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -3413,14 +3541,17 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C1T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -3445,8 +3576,10 @@ Status NA
 						Hymn rid meMA.Ode6C12.text @ver End-Hymn
 						Insert_section CA.bOde6.verse5 End-Insert
 						when-exists rid meMA.Ode6C13.text
-							use: Hymn rid meMA.Ode6C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode6C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode6C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode6C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde6.verse6 End-Insert
 						when-exists rid meMA.Ode6C1T.text
@@ -3479,8 +3612,10 @@ Status NA
 						Hymn rid meMA.Ode6C12.text @ver End-Hymn
 						Insert_section CA.bOde6.verse9 End-Insert
 						when-exists rid meMA.Ode6C13.text
-							use: Hymn rid meMA.Ode6C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode6C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode6C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode6C12.text @ver End-Hymn
 						end-when
 						Insert_section CA.bOde6.verse10 End-Insert
 						when-exists rid meMA.Ode6C1T.text
@@ -3513,6 +3648,7 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C13.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C14.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde6.verse11 End-Insert
@@ -3520,9 +3656,12 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode6C13.text
-									use: Hymn rid meMA.Ode6C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode6C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode6C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode6C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode6C1T.text
@@ -3594,14 +3733,17 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C2T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V1112GB
@@ -3621,6 +3763,7 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C23.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode6C24.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde6.verse11 End-Insert
@@ -3628,9 +3771,12 @@ Status NA
 								Insert_section CA.bOde6.verse12 End-Insert
 								Hymn rid meMA.Ode6C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								when-exists rid meMA.Ode6C23.text
-									use: Hymn rid meMA.Ode6C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode6C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode6C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode6C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode6C2T.text
@@ -3842,6 +3988,7 @@ Status NA
 						Insert_section CA.bOde6.verse12 End-Insert
 						Hymn rid trMA.Ode6C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C13.text @ver End-Hymn
 						Insert_section TI.b.th End-Insert
 						Hymn rid trMA.Ode6C1T.text @ver End-Hymn
@@ -3888,6 +4035,7 @@ Status NA
 						Insert_section CA.bOde6.verse12 End-Insert
 						Hymn rid trMA.Ode6C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C13.text @ver End-Hymn
 						when-name-of-day-is
 							Wednesday, Friday use:
@@ -3908,8 +4056,10 @@ Status NA
 						Insert_section CA.bOde6.verse12 End-Insert
 						Hymn rid trMA.Ode6C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAAas1112GBMD
@@ -3921,8 +4071,10 @@ Status NA
 						Insert_section CA.bOde6.verse12 End-Insert
 						Hymn rid trMA.Ode6C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C2T.text @ver End-Hymn
 						Insert_section PsalmVerses.forMartyrs.verse1 End-Insert
 						Title role desig sid ti.ForMartyrs_1hymn End-Title
@@ -3967,8 +4119,10 @@ Status NA
 						Insert_section CA.bOde7.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode7C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode7C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode7C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -4015,14 +4169,17 @@ Status NA
 								Insert_section CA.bOde7.verse12 End-Insert
 								Hymn rid meMA.Ode7C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode7C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde7.verse12 End-Insert
 								Hymn rid meMA.Ode7C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode7C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode7C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -4068,14 +4225,17 @@ Status NA
 								Insert_section CA.bOde7.verse12 End-Insert
 								Hymn rid meMA.Ode7C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode7C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde7.verse12 End-Insert
 								Hymn rid meMA.Ode7C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode7C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode7C2T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -4161,6 +4321,7 @@ Status NA
 						Insert_section CA.bOde7.verse12 End-Insert
 						Hymn rid trMA.Ode7C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode7C13.text @ver End-Hymn
 						Insert_section TI.b.th End-Insert
 						Hymn rid trMA.Ode7C1T.text @ver End-Hymn
@@ -4176,8 +4337,10 @@ Status NA
 						Insert_section CA.bOde7.verse12 End-Insert
 						Hymn rid trMA.Ode7C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode7C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode7C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAAas1112GBMD
@@ -4189,8 +4352,10 @@ Status NA
 						Insert_section CA.bOde7.verse12 End-Insert
 						Hymn rid trMA.Ode7C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode7C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode7C2T.text @ver End-Hymn
 						Insert_section PsalmVerses.forMartyrs.verse2 End-Insert
 						Title role desig sid ti.ForMartyrs_1hymn End-Title
@@ -4287,8 +4452,10 @@ Status NA
 					Hymn rid meMA.Ode7C12.text @ver End-Hymn
 					Insert_section CA.bOde7.verse5 End-Insert
 					when-exists rid meMA.Ode7C13.text
-						use: Hymn rid meMA.Ode7C13.text @ver End-Hymn
-						otherwise use: Hymn rid meMA.Ode7C12.text @ver End-Hymn
+						use:
+							Hymn rid meMA.Ode7C13.text @ver End-Hymn
+						otherwise use:
+							Hymn rid meMA.Ode7C12.text @ver End-Hymn
 					end-when
 					when-exists rid meMA.Ode7C1T.text
 						use:
@@ -4323,8 +4490,10 @@ Status NA
 					Hymn rid meMA.Ode7C12.text @ver End-Hymn
 					Insert_section CA.bOde7.verse9 End-Insert
 					when-exists rid meMA.Ode7C13.text
-						use: Hymn rid meMA.Ode7C13.text @ver End-Hymn
-						otherwise use: Hymn rid meMA.Ode7C12.text @ver End-Hymn
+						use:
+							Hymn rid meMA.Ode7C13.text @ver End-Hymn
+						otherwise use:
+							Hymn rid meMA.Ode7C12.text @ver End-Hymn
 					end-when
 					when-exists rid meMA.Ode7C1T.text
 						use:
@@ -4360,6 +4529,7 @@ Status NA
 							Insert_section CA.bOde7.verse12 End-Insert
 							Hymn rid meMA.Ode7C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid meMA.Ode7C14.text @ver End-Hymn
 						otherwise use:
 							Insert_section CA.bOde7.verse11 End-Insert
@@ -4367,9 +4537,12 @@ Status NA
 							Insert_section CA.bOde7.verse12 End-Insert
 							Hymn rid meMA.Ode7C12.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							when-exists rid meMA.Ode7C13.text
-								use: Hymn rid meMA.Ode7C13.text @ver End-Hymn
-								otherwise use: Hymn rid meMA.Ode7C12.text @ver End-Hymn
+								use:
+									Hymn rid meMA.Ode7C13.text @ver End-Hymn
+								otherwise use:
+									Hymn rid meMA.Ode7C12.text @ver End-Hymn
 							end-when
 					end-when
 					when-exists rid meMA.Ode7C1T.text
@@ -4419,6 +4592,7 @@ Status NA
 							Insert_section CA.bOde7.verse12 End-Insert
 							Hymn rid meMA.Ode7C23.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid meMA.Ode7C24.text @ver End-Hymn
 						otherwise use:
 							Insert_section CA.bOde7.verse11 End-Insert
@@ -4426,9 +4600,12 @@ Status NA
 							Insert_section CA.bOde7.verse12 End-Insert
 							Hymn rid meMA.Ode7C22.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							when-exists rid meMA.Ode7C23.text
-								use: Hymn rid meMA.Ode7C23.text @ver End-Hymn
-								otherwise use: Hymn rid meMA.Ode7C22.text @ver End-Hymn
+								use:
+									Hymn rid meMA.Ode7C23.text @ver End-Hymn
+								otherwise use:
+									Hymn rid meMA.Ode7C22.text @ver End-Hymn
 							end-when
 					end-when
 					when-exists rid meMA.Ode7C2T.text
@@ -4596,6 +4773,7 @@ Status NA
 					Insert_section CA.bOde7.verse12 End-Insert
 					Hymn rid trMA.Ode7C12.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode7C13.text @ver End-Hymn
 					when-name-of-day-is
 						Wednesday, Friday use:
@@ -4622,6 +4800,7 @@ Status NA
 					Insert_section CA.bOde7.verse12 End-Insert
 					Hymn rid trMA.Ode7C13.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode7C14.text @ver End-Hymn
 					when-name-of-day-is
 						Wednesday, Friday use:
@@ -4725,8 +4904,10 @@ Status NA
 						Insert_section CA.bOde8.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode8C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode8C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode8C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -4781,6 +4962,7 @@ Status NA
 								Hymn rid meMA.Ode8C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode8C1T.text @ver End-Hymn
 					End-Section
 					Section ti_HH11112222as00345678910
@@ -4854,8 +5036,10 @@ Status NA
 								Hymn rid meMA.Ode8C12.text @ver End-Hymn
 								Insert_section CA.bOde8.verse5 End-Insert
 								when-exists rid meMA.Ode8C13.text
-									use: Hymn rid meMA.Ode8C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode8C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode8C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode8C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode8C1T.text
@@ -4889,8 +5073,10 @@ Status NA
 						Hymn rid meMA.Ode8C12.text @ver End-Hymn
 						Insert_section CA.bOde8.verseTr End-Insert
 						when-exists rid meMA.Ode8C13.text
-							use: Hymn rid meMA.Ode8C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode8C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode8C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode8C12.text @ver End-Hymn
 						end-when
 						when-exists rid meMA.Ode8C1T.text
 							use:
@@ -4969,6 +5155,7 @@ Status NA
 								Hymn rid meMA.Ode8C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode8C2T.text @ver End-Hymn
 					End-Section
 					Section ti_HH11112233as00345678910
@@ -5037,8 +5224,10 @@ Status NA
 								Hymn rid meMA.Ode8C22.text @ver End-Hymn
 								Insert_section CA.bOde8.verse5 End-Insert
 								when-exists rid meMA.Ode8C23.text
-									use: Hymn rid meMA.Ode8C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode8C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode8C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode8C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode8C2T.text
@@ -5322,6 +5511,7 @@ Status NA
 						Insert_section CA.bOde8.verseTr End-Insert
 						Hymn rid trMA.Ode8C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTas1112GB
@@ -5336,6 +5526,7 @@ Status NA
 						Title role desig sid ti.Triadic End-Title
 						Hymn rid trMA.Ode8C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -5350,6 +5541,7 @@ Status NA
 						Title role desig sid ti.Triadic End-Title
 						Hymn rid trMA.Ode8C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode8C2A1.text @ver End-Hymn
@@ -5370,6 +5562,7 @@ Status NA
 						Title role desig sid ti.Triadic End-Title
 						Hymn rid trMA.Ode8C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C2T.text @ver End-Hymn
 						Insert_section PsalmVerses.forMartyrs.verse1 End-Insert
 						Title role desig sid ti.ForMartyrs_1hymn End-Title
@@ -5405,8 +5598,10 @@ Status NA
 						Insert_section CA.bOde8.verse12 End-Insert
 						Hymn rid trMA.Ode8C32.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode8C3Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C3T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode8C3A1.text @ver End-Hymn
@@ -5422,8 +5617,10 @@ Status NA
 						Insert_section CA.bOde8.verse12 End-Insert
 						Hymn rid trMA.Ode8C42.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode8C4Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode8C4T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -5521,8 +5718,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid alt1.meMA.Ode9C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode9C13.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode9C1T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -5569,14 +5768,17 @@ Status NA
 								Insert_section CA.bOde9.verse12 End-Insert
 								Hymn rid meMA.Ode9C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode9C13.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde9.verse12 End-Insert
 								Hymn rid meMA.Ode9C11.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode9C12.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode9C1T.text @ver End-Hymn
 					End-Section
 					Section ti_H1123Tas0V3456
@@ -5609,8 +5811,10 @@ Status NA
 								Hymn rid meMA.Ode9C12.text @ver End-Hymn
 								Insert_section CA.bOde9.verse5 End-Insert
 								when-exists rid meMA.Ode9C13.text
-									use: Hymn rid meMA.Ode9C13.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode9C12.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode9C13.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode9C12.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode9C1T.text
@@ -5644,9 +5848,12 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid meMA.Ode9C12.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists rid meMA.Ode9C13.text
-							use: Hymn rid meMA.Ode9C13.text @ver End-Hymn
-							otherwise use: Hymn rid meMA.Ode9C12.text @ver End-Hymn
+							use:
+								Hymn rid meMA.Ode9C13.text @ver End-Hymn
+							otherwise use:
+								Hymn rid meMA.Ode9C12.text @ver End-Hymn
 						end-when
 						when-exists rid meMA.Ode9C1T.text
 							use:
@@ -5726,14 +5933,17 @@ Status NA
 								Insert_section CA.bOde9.verse12 End-Insert
 								Hymn rid meMA.Ode9C22.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode9C23.text @ver End-Hymn
 							otherwise use:
 								Insert_section CA.bOde9.verse12 End-Insert
 								Hymn rid meMA.Ode9C21.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn rid meMA.Ode9C22.text @ver End-Hymn
 						end-when
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode9C2T.text @ver End-Hymn
 					End-Section
 					Section ti_HH1123as003456
@@ -5801,8 +6011,10 @@ Status NA
 								Hymn rid meMA.Ode9C22.text @ver End-Hymn
 								Insert_section CA.bOde9.verse5 End-Insert
 								when-exists rid meMA.Ode9C23.text
-									use: Hymn rid meMA.Ode9C23.text @ver End-Hymn
-									otherwise use: Hymn rid meMA.Ode9C22.text @ver End-Hymn
+									use:
+										Hymn rid meMA.Ode9C23.text @ver End-Hymn
+									otherwise use:
+										Hymn rid meMA.Ode9C22.text @ver End-Hymn
 								end-when
 						end-when
 						when-exists rid meMA.Ode9C2T.text
@@ -6083,8 +6295,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C22.text @ver End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C23.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTas1112GB
@@ -6096,8 +6310,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C2T.text @ver End-Hymn
 					End-Section
 					Section ti_12TrTAas1112GBGg
@@ -6109,8 +6325,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C2T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode9C2A1.text @ver End-Hymn
@@ -6128,8 +6346,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C22.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C2Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C2T.text @ver End-Hymn
 						Insert_section PsalmVerses.forMartyrs.verse2 End-Insert
 						Title role desig sid ti.ForMartyrs_1hymn End-Title
@@ -6165,8 +6385,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C32.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C3Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C3T.text @ver End-Hymn
 						Verse sid pr.verse_God.text End-Verse
 						Hymn rid trMA.Ode9C3A1.text @ver End-Hymn
@@ -6182,8 +6404,10 @@ Status NA
 						Insert_section CA.bOde9.verse12 End-Insert
 						Hymn rid trMA.Ode9C42.text @ver End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode9C4Tr.text @ver End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode9C4T.text @ver End-Hymn
 					End-Section
 				End-Section
@@ -6873,30 +7097,46 @@ Status NA
 
 		Section ocC1_verse2
 			when-name-of-day-is
-				Sunday use: Verse sid pr.verse_Resurrection.text End-Verse
-				Monday, Tuesday use: Verse sid pr.verse_Mercy.text End-Verse
-				Wednesday, Friday use: Verse sid pr.verse_Cross.text End-Verse
-				Thursday use: Verse sid pr.verse_Apostles.text End-Verse
-				Saturday use: Verse sid pr.verse_SaintsM.text End-Verse
+				Sunday use:
+					Verse sid pr.verse_Resurrection.text End-Verse
+				Monday, Tuesday use:
+					Verse sid pr.verse_Mercy.text End-Verse
+				Wednesday, Friday use:
+					Verse sid pr.verse_Cross.text End-Verse
+				Thursday use:
+					Verse sid pr.verse_Apostles.text End-Verse
+				Saturday use:
+					Verse sid pr.verse_SaintsM.text End-Verse
 			end-when
 		End-Section
 		Section ocC1_title
 			when-name-of-day-is
-				Sunday use: Title role desig sid ti.CanonResurrection End-Title
-				Monday, Tuesday use: Title role desig sid ti.CanonCompunction End-Title
-				Wednesday, Friday use: Title role desig sid ti.CanonCrucifixion End-Title
-				Thursday use: Title role desig sid ti.CanonHolyApostles End-Title
-				Saturday use: Title role desig sid ti.CanonProphetsMartyrs End-Title
+				Sunday use:
+					Title role desig sid ti.CanonResurrection End-Title
+				Monday, Tuesday use:
+					Title role desig sid ti.CanonCompunction End-Title
+				Wednesday, Friday use:
+					Title role desig sid ti.CanonCrucifixion End-Title
+				Thursday use:
+					Title role desig sid ti.CanonHolyApostles End-Title
+				Saturday use:
+					Title role desig sid ti.CanonProphetsMartyrs End-Title
 			end-when
 		End-Section
 		Section ocC2_title
 			when-name-of-day-is
-				Sunday use: Title role desig sid ti.CanonCrossResurrection End-Title
-				Monday use: Title role desig sid ti.CanonBodiless End-Title
-				Tuesday use: Title role desig sid ti.CanonForerunner End-Title
-				Wednesday, Friday use: Title role desig sid ti.CanonTheotokos End-Title
-				Thursday use: Title role desig sid ti.CanonStNicholas End-Title
-				Saturday use: Title role desig sid ti.CanonDeceased End-Title
+				Sunday use:
+					Title role desig sid ti.CanonCrossResurrection End-Title
+				Monday use:
+					Title role desig sid ti.CanonBodiless End-Title
+				Tuesday use:
+					Title role desig sid ti.CanonForerunner End-Title
+				Wednesday, Friday use:
+					Title role desig sid ti.CanonTheotokos End-Title
+				Thursday use:
+					Title role desig sid ti.CanonStNicholas End-Title
+				Saturday use:
+					Title role desig sid ti.CanonDeceased End-Title
 			end-when
 		End-Section
 
@@ -6913,8 +7153,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode3C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode3C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode3C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -6930,8 +7172,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode4C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode4C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode4C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -6947,8 +7191,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode5C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode5C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode5C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -6964,8 +7210,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode6C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -6981,8 +7229,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode7C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode7C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode7C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -6998,8 +7248,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode8C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode8C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode8C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -7015,8 +7267,10 @@ Status NA
 						Verse rid meCO.C1.verse End-Verse
 						Hymn rid meCO.Ode9C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meCO.Ode9C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meCO.Ode9C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -7033,8 +7287,10 @@ Status NA
 				//	Media rid meCO.Ode1C1H.text End-Media
 					Para role heirmos rid meCO.Ode1C1H.text @ver<r>sid ru.Twice</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode1C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode1C12.text @ver media-off End-Hymn
 				End-Section
 				Section ti_h123as0VGB
@@ -7048,8 +7304,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode1C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode1C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode1C12.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -7065,8 +7323,10 @@ Status NA
 				//	Media rid meCO.Ode3C1H.text End-Media
 					Para role heirmos rid meCO.Ode3C1H.text @ver<r>sid ru.Twice</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode3C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode3C12.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -7082,8 +7342,10 @@ Status NA
 				//	Media rid meCO.Ode5C1H.text End-Media
 					Para role heirmos rid meCO.Ode5C1H.text @ver<r>sid ru.Twice</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode5C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode5C12.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -7099,8 +7361,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode8C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode8C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode8C13.text @ver media-off End-Hymn
 				End-Section
 				Section nt_hh12as00GB
@@ -7110,8 +7374,10 @@ Status NA
 				//	Media rid meCO.Ode8C1H.text End-Media
 					Para role heirmos rid meCO.Ode8C1H.text @ver<r>sid ru.Twice</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode8C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode8C12.text @ver media-off End-Hymn
 				End-Section
 				Section nt_hh1234as00VVGB
@@ -7125,8 +7391,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode8C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode8C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode8C14.text @ver media-off End-Hymn
 				End-Section
 				Section ti_h123as0VGB
@@ -7140,8 +7408,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode8C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode8C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode8C13.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -7161,8 +7431,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode9C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode9C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode9C13.text @ver media-off End-Hymn
 				End-Section
 				Section nt_hh12as00GB
@@ -7172,8 +7444,10 @@ Status NA
 				//	Media rid meCO.Ode9C1H.text End-Media
 					Para role heirmos rid meCO.Ode9C1H.text @ver<r>sid ru.Twice</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode9C11.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode9C12.text @ver media-off End-Hymn
 				End-Section
 				Section nt_hh1234as00VVGB
@@ -7187,8 +7461,10 @@ Status NA
 					Verse rid meCO.C1.verse End-Verse
 					Hymn rid meCO.Ode9C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meCO.Ode9C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meCO.Ode9C14.text @ver media-off End-Hymn
 				End-Section
 			End-Section

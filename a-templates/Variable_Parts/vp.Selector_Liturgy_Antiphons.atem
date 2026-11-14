@@ -39,45 +39,56 @@ Status Draft
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon1 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon1 End-Insert
 					end-when
 				Mar 25 use:
 					Section mar25_antiphon1
@@ -135,7 +146,8 @@ Status Draft
 										End-Section
 									Sep 1 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon1 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon1 End-Insert
 											otherwise use:
 												Section sep01_antiphon1
 													Insert_section bk.ap.me.m09.d01.antiphon1 End-Insert
@@ -147,7 +159,8 @@ Status Draft
 										End-Section
 									Sep 13 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon1 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon1 End-Insert
 											otherwise use:
 												Section sep13_antiphon1
 													Insert_section bk.ap.me.m09.d13.antiphon1 End-Insert
@@ -194,45 +207,56 @@ Status Draft
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon2 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon2 End-Insert
 					end-when
 				Mar 25 use:
 					Section mar25_antiphon2
@@ -290,7 +314,8 @@ Status Draft
 										End-Section
 									Sep 1 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon2 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon2 End-Insert
 											otherwise use:
 												Section sep01_antiphon2
 													Insert_section bk.ap.me.m09.d01.antiphon2 End-Insert
@@ -302,7 +327,8 @@ Status Draft
 										End-Section
 									Sep 13 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon2 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon2 End-Insert
 											otherwise use:
 												Section sep13_antiphon2
 													Insert_section bk.ap.me.m09.d13.antiphon2 End-Insert
@@ -349,45 +375,56 @@ Status Draft
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon2 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon2 End-Insert
 					end-when
 				Mar 25 use:
 					Section mar25_antiphon2
@@ -476,45 +513,56 @@ Status Draft
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon3 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon3 End-Insert
 					end-when
 				Mar 25 use:
 					Section mar25_antiphon3
@@ -571,7 +619,8 @@ Status Draft
 										End-Section
 									Sep 1 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon3 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon3 End-Insert
 											otherwise use:
 												Section sep01_antiphon3
 													Insert_section bk.ap.me.m09.d01.antiphon3 End-Insert
@@ -583,7 +632,8 @@ Status Draft
 										End-Section
 									Sep 13 use:
 										when-name-of-day-is
-											Sunday use: Insert_section sunday_antiphon3 End-Insert
+											Sunday use:
+												Insert_section sunday_antiphon3 End-Insert
 											otherwise use:
 												Section sep13_antiphon3
 													Insert_section bk.ap.me.m09.d13.antiphon3 End-Insert

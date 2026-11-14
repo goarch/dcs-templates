@@ -40,56 +40,68 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 9 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 6 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 7 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 8 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 6 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 thru 5 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2, 3 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
-							Feb 8, 9 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
+							Feb 2 thru 7 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 8, 9 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Triodion14.title End-Title
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
+							Feb 2 use:
+								Title role cover4 sid ti.Katavasias sid he.k_gr_GR_cog.ka.MM.Meeting.title End-Title
 							Feb 3 thru 9 use: //no
 						end-when
 					otherwise use:
@@ -320,59 +332,72 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_1345678 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_1345678 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_1345678 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_1345678 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_1345678 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_1345678 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_1345678 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_1345678 End-Insert
 
 				end-when
 			Mar 25, 26 use:
@@ -380,36 +405,57 @@ Status NA
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_1345678 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_1345678 End-Insert
 
-						8 use: Insert_section kTriodion2.k_1345678 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_1345678 End-Insert
 
-						15 use: Insert_section kTriodion3.k_1345678 End-Insert
-						21 use: Insert_section kTr_d021.k_12345678 End-Insert
-						22 use: Insert_section kTriodion14.k_1345678 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_1345678 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_12345678 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_1345678 End-Insert
 
-						28 use: Insert_section kTheotokosAkathist.k_1345678 End-Insert
-						29 use: Insert_section kLent1.k_1345678 End-Insert
+						28 use:
+							Insert_section kTheotokosAkathist.k_1345678 End-Insert
+						29 use:
+							Insert_section kLent1.k_1345678 End-Insert
 
-						36 use: Insert_section kTheotokos.k_1345678 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_1345678 End-Insert
 
-						43 use: Insert_section kLent3.k_1345678 End-Insert
+						43 use:
+							Insert_section kLent3.k_1345678 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_1345678 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_1345678 End-Insert
 
-						63 use: Insert_section kLazarus.k_1345678 End-Insert
+						63 use:
+							Insert_section kLazarus.k_1345678 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_1345678 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_1345678 End-Insert
 
-						71 thru 94 use: Insert_section kPascha.k_1345678 End-Insert
-						99, 103, 104, 105, 109 use: Insert_section kPascha.k_1345678 End-Insert
-						95, 96, 97, 98, 100, 101, 102 use: Insert_section kMidPentecost.k_1345678 End-Insert
-						106 thru 108 use: Insert_section kBlindman.k_1345678 End-Insert
-						110 thru 118 use: Insert_section kPentecost.k2_1345678 End-Insert
-						119 use: Insert_section kPentSoulSaturday.k_1345678 End-Insert
-						120, 126 use: Insert_section kPentecost.k1and2_1345678 End-Insert
-						121 thru 125 use: Insert_section kPentecost.k2_1345678 End-Insert
-						127 use: Insert_section kTheotokos.k_1345678 End-Insert
+						71 thru 94 use:
+							Insert_section kPascha.k_1345678 End-Insert
+						99, 103, 104, 105, 109 use:
+							Insert_section kPascha.k_1345678 End-Insert
+						95, 96, 97, 98, 100, 101, 102 use:
+							Insert_section kMidPentecost.k_1345678 End-Insert
+						106 thru 108 use:
+							Insert_section kBlindman.k_1345678 End-Insert
+						110 thru 118 use:
+							Insert_section kPentecost.k2_1345678 End-Insert
+						119 use:
+							Insert_section kPentSoulSaturday.k_1345678 End-Insert
+						120, 126 use:
+							Insert_section kPentecost.k1and2_1345678 End-Insert
+						121 thru 125 use:
+							Insert_section kPentecost.k2_1345678 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_1345678 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -481,87 +527,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_1 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_1 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_1 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_1 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_1 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_1 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_1 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_1 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_1 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_1 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_1 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_1 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_1 End-Insert
 
-						8 use: Insert_section kTriodion2.k_1 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_1 End-Insert
 
-						15 use: Insert_section kTriodion3.k_1 End-Insert
-						21 use: Insert_section kTr_d021.k_1 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_1 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_1 End-Insert
 
-						22 use: Insert_section kTriodion14.k_1 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_1 End-Insert
 
-						29 use: Insert_section kLent1.k_1 End-Insert
+						29 use:
+							Insert_section kLent1.k_1 End-Insert
 
-						36 use: Insert_section kTheotokos.k_1 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_1 End-Insert
 
-						43 use: Insert_section kLent3.k_1 End-Insert
+						43 use:
+							Insert_section kLent3.k_1 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_1 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_1 End-Insert
 
-						63 use: Insert_section kLazarus.k_1 End-Insert
+						63 use:
+							Insert_section kLazarus.k_1 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_1 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_1 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -574,13 +645,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_1 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_1 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_1 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_1 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_1 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_1 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -644,7 +717,8 @@ Status NA
 	End-Section //k_1
 	Section ka2
 		when-movable-cycle-day-is
-			21 use: Insert_section kTr_d021.k_2 End-Insert
+			21 use:
+				Insert_section kTr_d021.k_2 End-Insert
 		end-when
 	End-Section //k_2
 	Section ka3
@@ -657,87 +731,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_3 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_3 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_3 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_3 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_3 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_3 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_3 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_3 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_3 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_3 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_3 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_3 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_3 End-Insert
 
-						8 use: Insert_section kTriodion2.k_3 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_3 End-Insert
 
-						15 use: Insert_section kTriodion3.k_3 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_3 End-Insert
 
-						21 use: Insert_section kTr_d021.k_3 End-Insert
-						22 use: Insert_section kTriodion14.k_3 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_3 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_3 End-Insert
 
-						29 use: Insert_section kLent1.k_3 End-Insert
+						29 use:
+							Insert_section kLent1.k_3 End-Insert
 
-						36 use: Insert_section kTheotokos.k_3 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_3 End-Insert
 
-						43 use: Insert_section kLent3.k_3 End-Insert
+						43 use:
+							Insert_section kLent3.k_3 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_3 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_3 End-Insert
 
-						63 use: Insert_section kLazarus.k_3 End-Insert
+						63 use:
+							Insert_section kLazarus.k_3 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_3 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_3 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -750,13 +849,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_3 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_3 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_3 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_3 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_3 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_3 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -828,82 +929,105 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_4 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_4 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_4 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_4 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_4 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_4 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_4 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_4 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_4 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_4 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_4 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_4 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_4 End-Insert
 
-						8 use: Insert_section kTriodion2.k_4 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_4 End-Insert
 
-						15 use: Insert_section kTriodion3.k_4 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_4 End-Insert
 
-						21 use: Insert_section kTr_d021.k_4 End-Insert
-						22 use: Insert_section kTriodion14.k_4 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_4 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_4 End-Insert
 
-						28 use: Insert_section kTheotokosAkathist.k_4 End-Insert
-						29 use: Insert_section kLent1.k_4 End-Insert
+						28 use:
+							Insert_section kTheotokosAkathist.k_4 End-Insert
+						29 use:
+							Insert_section kLent1.k_4 End-Insert
 
-						36 use: Insert_section kTheotokos.k_4 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_4 End-Insert
 
-						43 use: Insert_section kLent3.k_4 End-Insert
+						43 use:
+							Insert_section kLent3.k_4 End-Insert
 
 						56 use:
 							Section kAkathist_k_4
@@ -912,11 +1036,14 @@ Status NA
 								Hymn sid he.h.m4_gr_GR_cog.heHE.OKathimenosEnDoxi.text @ver media-off End-Hymn
 							End-Section
 
-						50, 57 use: Insert_section kTheotokos.k_4 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_4 End-Insert
 
-						63 use: Insert_section kLazarus.k_4 End-Insert
+						63 use:
+							Insert_section kLazarus.k_4 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_4 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_4 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -929,13 +1056,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_4 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_4 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_4 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_4 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_4 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_4 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1007,87 +1136,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_5 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_5 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_5 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_5 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_5 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_5 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_5 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_5 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_5 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_5 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_5 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_5 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_5 End-Insert
 
-						8 use: Insert_section kTriodion2.k_5 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_5 End-Insert
 
-						15 use: Insert_section kTriodion3.k_5 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_5 End-Insert
 
-						21 use: Insert_section kTr_d021.k_5 End-Insert
-						22 use: Insert_section kTriodion14.k_5 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_5 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_5 End-Insert
 
-						29 use: Insert_section kLent1.k_5 End-Insert
+						29 use:
+							Insert_section kLent1.k_5 End-Insert
 
-						36 use: Insert_section kTheotokos.k_5 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_5 End-Insert
 
-						43 use: Insert_section kLent3.k_5 End-Insert
+						43 use:
+							Insert_section kLent3.k_5 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_5 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_5 End-Insert
 
-						63 use: Insert_section kLazarus.k_5 End-Insert
+						63 use:
+							Insert_section kLazarus.k_5 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_5 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_5 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1100,13 +1254,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_5 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_5 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_5 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_5 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_5 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_5 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1178,87 +1334,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_6 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_6 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_6 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_6 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_6 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_6 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_6 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_6 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_6 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_6 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_6 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_6 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_6 End-Insert
 
-						8 use: Insert_section kTriodion2.k_6 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_6 End-Insert
 
-						15 use: Insert_section kTriodion3.k_6 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_6 End-Insert
 
-						21 use: Insert_section kTr_d021.k_6 End-Insert
-						22 use: Insert_section kTriodion14.k_6 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_6 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_6 End-Insert
 
-						29 use: Insert_section kLent1.k_6 End-Insert
+						29 use:
+							Insert_section kLent1.k_6 End-Insert
 
-						36 use: Insert_section kTheotokos.k_6 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_6 End-Insert
 
-						43 use: Insert_section kLent3.k_6 End-Insert
+						43 use:
+							Insert_section kLent3.k_6 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_6 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_6 End-Insert
 
-						63 use: Insert_section kLazarus.k_6 End-Insert
+						63 use:
+							Insert_section kLazarus.k_6 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_6 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_6 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1271,13 +1452,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_6 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_6 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_6 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_6 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_6 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_6 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1349,87 +1532,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_7 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_7 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_7 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_7 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_7 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_7 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_7 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_7 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_7 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_7 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_7 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_7 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_7 End-Insert
 
-						8 use: Insert_section kTriodion2.k_7 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_7 End-Insert
 
-						15 use: Insert_section kTriodion3.k_7 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_7 End-Insert
 
-						21 use: Insert_section kTr_d021.k_7 End-Insert
-						22 use: Insert_section kTriodion14.k_7 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_7 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_7 End-Insert
 
-						29 use: Insert_section kLent1.k_7 End-Insert
+						29 use:
+							Insert_section kLent1.k_7 End-Insert
 
-						36 use: Insert_section kTheotokos.k_7 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_7 End-Insert
 
-						43 use: Insert_section kLent3.k_7 End-Insert
+						43 use:
+							Insert_section kLent3.k_7 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_7 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_7 End-Insert
 
-						63 use: Insert_section kLazarus.k_7 End-Insert
+						63 use:
+							Insert_section kLazarus.k_7 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_7 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_7 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1442,13 +1650,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_7 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_7 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_7 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_7 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_7 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_7 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1520,87 +1730,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_8 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_8 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_8 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_8 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_8 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_8 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_8 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_8 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_8 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_8 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_8 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_8 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_8 End-Insert
 
-						8 use: Insert_section kTriodion2.k_8 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_8 End-Insert
 
-						15 use: Insert_section kTriodion3.k_8 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_8 End-Insert
 
-						21 use: Insert_section kTr_d021.k_8 End-Insert
-						22 use: Insert_section kTriodion14.k_8 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_8 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_8 End-Insert
 
-						29 use: Insert_section kLent1.k_8 End-Insert
+						29 use:
+							Insert_section kLent1.k_8 End-Insert
 
-						36 use: Insert_section kTheotokos.k_8 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_8 End-Insert
 
-						43 use: Insert_section kLent3.k_8 End-Insert
+						43 use:
+							Insert_section kLent3.k_8 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_8 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_8 End-Insert
 
-						63 use: Insert_section kLazarus.k_8 End-Insert
+						63 use:
+							Insert_section kLazarus.k_8 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_8 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_8 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1613,13 +1848,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_8 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_8 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_8 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_8 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_8 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_8 End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1691,85 +1928,110 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_mode_mag_media End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_mode_mag_media End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_mode_mag_media End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_mode_mag_media End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_mode_mag_media End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_mode_mag_media End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_mode_mag_media End-Insert
 
 				end-when
-			Mar 25, 26 use: Insert_section kAnnunciation.k_mode_mag_media End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_mode_mag_media End-Insert
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_mode_mag_media End-Insert
+						1 use:
+							Insert_section kTriodion14.k_mode_mag_media End-Insert
 
-						8 use: Insert_section kTriodion2.k_mode_mag_media End-Insert
+						8 use:
+							Insert_section kTriodion2.k_mode_mag_media End-Insert
 
-						15 use: Insert_section kTriodion3.k_mode_mag_media End-Insert
+						15 use:
+							Insert_section kTriodion3.k_mode_mag_media End-Insert
 
-						21 use: Insert_section kTr_d021.k_9 End-Insert
-						22 use: Insert_section kTriodion14.k_mode_mag_media End-Insert
+						21 use:
+							Insert_section kTr_d021.k_9 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_mode_mag_media End-Insert
 
-						29 use: Insert_section kLent1.k_mode_mag_media End-Insert
+						29 use:
+							Insert_section kLent1.k_mode_mag_media End-Insert
 
-						36 use: Insert_section kTheotokos.k_mode_mag_media End-Insert
+						36 use:
+							Insert_section kTheotokos.k_mode_mag_media End-Insert
 
-						43 use: Insert_section kLent3.k_mode_mag_media End-Insert
+						43 use:
+							Insert_section kLent3.k_mode_mag_media End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_mode_mag_media End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_mode_mag_media End-Insert
 
-						63 use: Insert_section kLazarus.k_mode_mag_media End-Insert
+						63 use:
+							Insert_section kLazarus.k_mode_mag_media End-Insert
 
-						//64 use: Insert_section kPalmSunday.k_mode_mag_media End-Insert
+						//64 use:
+						//	Insert_section kPalmSunday.k_mode_mag_media End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1782,13 +2044,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_mode_mag_media End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_mode_mag_media End-Insert
 							120, 126 use:
 							//	Insert_section kPentecost.k1and2_9 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k_mode_mag_media End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_mode_mag_media End-Insert
+						127 use:
+							Insert_section kTheotokos.k_mode_mag_media End-Insert
 
 						otherwise use:
 							Section Immoveable
@@ -1860,87 +2124,112 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 9 use:
+								Insert_section kMeeting.k_9 End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 8 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 6 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 thru 5 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2, 3 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section kMeeting.k_9 End-Insert
-							Feb 8, 9 use: Insert_section kTriodion14.k_9 End-Insert
+							Feb 2 thru 7 use:
+								Insert_section kMeeting.k_9 End-Insert
+							Feb 8, 9 use:
+								Insert_section kTriodion14.k_9 End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section kMeeting.k_9 End-Insert
+							Feb 2 use:
+								Insert_section kMeeting.k_9 End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section kMeeting.k_9 End-Insert
+					otherwise use:
+						Insert_section kMeeting.k_9 End-Insert
 
 				end-when
 
-			Mar 25, 26 use: Insert_section kAnnunciation.k_9 End-Insert
+			Mar 25, 26 use:
+				Insert_section kAnnunciation.k_9 End-Insert
 
 			otherwise use:
 				Section Moveable
 					when-movable-cycle-day-is
-						1 use: Insert_section kTriodion14.k_9 End-Insert
+						1 use:
+							Insert_section kTriodion14.k_9 End-Insert
 
-						8 use: Insert_section kTriodion2.k_9 End-Insert
+						8 use:
+							Insert_section kTriodion2.k_9 End-Insert
 
-						15 use: Insert_section kTriodion3.k_9 End-Insert
+						15 use:
+							Insert_section kTriodion3.k_9 End-Insert
 
-						21 use: Insert_section kTr_d021.k_9 End-Insert
-						22 use: Insert_section kTriodion14.k_9 End-Insert
+						21 use:
+							Insert_section kTr_d021.k_9 End-Insert
+						22 use:
+							Insert_section kTriodion14.k_9 End-Insert
 
-						29 use: Insert_section kLent1.k_9 End-Insert
+						29 use:
+							Insert_section kLent1.k_9 End-Insert
 
-						36 use: Insert_section kTheotokos.k_9 End-Insert
+						36 use:
+							Insert_section kTheotokos.k_9 End-Insert
 
-						43 use: Insert_section kLent3.k_9 End-Insert
+						43 use:
+							Insert_section kLent3.k_9 End-Insert
 
-						50, 57 use: Insert_section kTheotokos.k_9 End-Insert
+						50, 57 use:
+							Insert_section kTheotokos.k_9 End-Insert
 
-						63 use: Insert_section kLazarus.k_9 End-Insert
+						63 use:
+							Insert_section kLazarus.k_9 End-Insert
 
-						64 use: Insert_section kPalmSunday.k_9 End-Insert
+						64 use:
+							Insert_section kPalmSunday.k_9 End-Insert
 
 						71 thru 109 use:
 							when-movable-cycle-day-is
@@ -1953,13 +2242,15 @@ Status NA
 							end-when
 						110 thru 126 use:
 							when-movable-cycle-day-is
-							119 use: Insert_section kPentSoulSaturday.k_9 End-Insert
+							119 use:
+								Insert_section kPentSoulSaturday.k_9 End-Insert
 							120, 126 use:
 								Insert_section kPentecost.k1and2_9 End-Insert
 							otherwise use:
 								Insert_section kPentecost.k2_9 End-Insert
 							end-when
-						127 use: Insert_section kTheotokos.k_9 End-Insert
+						127 use:
+							Insert_section kTheotokos.k_9 End-Insert
 
 						otherwise use:
 							Section Immoveable

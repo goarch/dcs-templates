@@ -825,7 +825,8 @@ Status NA
 
 			Section block1
 		//		when-movable-cycle-day-is
-		//			71 use: Title role desig sid ti.Synaxarion End-Title
+		//			71 use:
+				Title role desig sid ti.Synaxarion End-Title
 		//		end-when
 			End-Section
 			Section block2
@@ -896,7 +897,8 @@ Status NA
 						Para role readingcenterzero rid peSY.commemoration.couplet1.verse1 End-Para
 						Para role readingcenter rid peSY.commemoration.couplet1.verse2 End-Para
 						Reading rid peSY.lastline End-Reading
-					73 use: Insert_section mc_alt1.pealt1_73 End-Insert
+					73 use:
+						Insert_section mc_alt1.pealt1_73 End-Insert
 					113 use:
 						Reading rid peSY.commemoration.text End-Reading
 						Title role titlezero rid peSY.commemoration.couplet1.title End-Title

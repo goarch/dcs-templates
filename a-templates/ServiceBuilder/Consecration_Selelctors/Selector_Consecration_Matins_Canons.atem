@@ -257,9 +257,11 @@ Status NA
 										Media rid meMA.Ode9C12.text End-Media
 										Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 										Title sid ti.Glory End-Title
+										Verse sid pr.GloryToTheFather.text End-Verse
 										Media rid meMA.Ode9C13.text End-Media
 										Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
 										Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Media rid meMA.Ode9C2T.text End-Media
 										Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
 									End-Section
@@ -283,7 +285,7 @@ Status NA
 				End-Section
 				Section church_saint_VVGB
 					when-movable-cycle-day-is
-						127 use: 
+						127 use:
 							Insert_section TI.local_church End-Insert
 							Insert_section CAv.ode9.append.pe1.nt_123tasVVGB End-Insert
 						otherwise use:
@@ -478,8 +480,10 @@ Status NA
 							Hymn rid meMA.Ode9C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
 							Media rid meMA.Ode9C13.text End-Media
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid meMA.Ode9C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid meMA.Ode9C2T.text End-Media
 							Hymn rid meMA.Ode9C2T.text @ver media-off End-Hymn
 						End-Section

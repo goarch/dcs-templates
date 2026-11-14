@@ -682,6 +682,7 @@ Status NA
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 				Media sid eu.consecration_gr_GR_cog.euVE.SticBoth.text End-Media
@@ -689,6 +690,7 @@ Status NA
 			End-Section
 			Section consecration_with_clientname
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 				Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -708,6 +710,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 				Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -719,6 +722,7 @@ Status NA
 						Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 					otherwise use:
 						Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Para role source0 sid ti.sourceEuchologion End-Para
 						Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 						Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -729,6 +733,8 @@ Status NA
 		Section gloryboth__
 			Section consecration_
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Section hymn
 					Para role source0 sid ti.sourceEuchologion End-Para
 					Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
@@ -738,6 +744,8 @@ Status NA
 			End-Section
 			Section consecration_with_clientname_
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Section hymn
 					Para role source0 sid ti.sourceEuchologion End-Para
 					Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
@@ -788,6 +796,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.AposGlory.mode End-Title
 				Media sid eu.consecration_gr_GR_cog.euVE.AposGlory.text End-Media
@@ -814,6 +823,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.AposGlory.mode End-Title
 				Media sid eu.consecration_gr_GR_cog.euVE.AposGlory.text End-Media
@@ -829,6 +840,7 @@ Status NA
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euVE.AposGlory.mode End-Title
 				Media sid eu.consecration_gr_GR_cog.euVE.AposGlory.text End-Media
@@ -889,6 +901,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
@@ -943,6 +956,7 @@ Status NA
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
@@ -957,6 +971,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role desig sid ti.Consecration End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
@@ -969,6 +985,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
@@ -1018,6 +1035,7 @@ Status NA
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
@@ -1032,6 +1050,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role desig sid ti.Consecration End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
@@ -1044,6 +1064,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
@@ -1095,6 +1116,7 @@ Status NA
 			End-Section
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
@@ -1109,6 +1131,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role desig sid ti.Consecration End-Title
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title

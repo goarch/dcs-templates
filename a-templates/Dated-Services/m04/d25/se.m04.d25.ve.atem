@@ -131,6 +131,7 @@ Status Final
 				Insert_section TI.g.s._05_evangelist End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 				Insert_section AP.ganame.Apr25__.mark_ End-Insert
 				Insert_section TI.a.s._16_theotokos End-Insert
@@ -161,6 +162,7 @@ Status Final
 				Insert_section TI.g.s._05_evangelist End-Insert
 				Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 				Insert_section AP.ganame.Apr25__.mark_ End-Insert
 				Insert_section TI.a.s._16_theotokos End-Insert

@@ -34,45 +34,56 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon1 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon1 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon1 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon1 End-Insert
 					end-when
 				Mar 25, 26 use:
 					Section mar25_antiphon1
@@ -136,7 +147,8 @@ Status NA
 									End-Section
 								Sep 1 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon1 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon1 End-Insert
 										otherwise use:
 											Section sep01_antiphon1
 												Insert_section bk.ap.me.m09.d01.antiphon1 End-Insert
@@ -148,7 +160,8 @@ Status NA
 									End-Section
 								Sep 13 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon1 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon1 End-Insert
 										otherwise use:
 											Section sep13_antiphon1
 												Insert_section bk.ap.me.m09.d13.antiphon1 End-Insert
@@ -200,45 +213,56 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon2 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon2 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon2 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon2 End-Insert
 					end-when
 				Mar 25, 26 use:
 					Section mar25_antiphon2
@@ -292,36 +316,46 @@ Status NA
 									Section aug01_antiphon2
 										Title role desig sid ti.Antiphon2 sid misc.Mode2 End-Title
 										when-name-of-day-is
-											Sunday use: Media sid ho.ho07_gr_GR_cog.hoLI.MM.Antiphon2s.text End-Media
-											otherwise use: Media sid me.m08.d01_gr_GR_cog.meLI.MM.Antiphon2.text End-Media
+											Sunday use:
+												Media sid ho.ho07_gr_GR_cog.hoLI.MM.Antiphon2s.text End-Media
+											otherwise use:
+												Media sid me.m08.d01_gr_GR_cog.meLI.MM.Antiphon2.text End-Media
 										end-when
 										Section verse1
 											Verse<bnr>sid misc.vVerse1</>sid movable.verses_gr_GR_cog.psLI.tr.d043.antiphon2.v1.text End-Verse
 										End-Section
 										when-name-of-day-is
-											Sunday use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
-											otherwise use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											Sunday use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											otherwise use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 										end-when
 										Section verse2
 											Verse<bnr>sid misc.vVerse2</>sid movable.verses_gr_GR_cog.psLI.tr.d043.antiphon2.v2.text End-Verse
 										End-Section
 										when-name-of-day-is
-											Sunday use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
-											otherwise use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											Sunday use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											otherwise use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 										end-when
 										Section verse3
 											Verse<bnr>sid misc.vVerse3</>sid movable.verses_gr_GR_cog.psLI.tr.d043.antiphon2.v3.text End-Verse
 										End-Section
 										when-name-of-day-is
-											Sunday use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
-											otherwise use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											Sunday use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											otherwise use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 										end-when
 										Section verse4
 											Verse<bnr>sid misc.vVerse4</>sid movable.verses_gr_GR_cog.psLI.tr.d043.antiphon2.v4.text End-Verse
 										End-Section
 										when-name-of-day-is
-											Sunday use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
-											otherwise use: Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											Sunday use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.resurrection.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
+											otherwise use:
+												Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid prayers_gr_GR_cog.pr.antiphon2.cross.text media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text @ver media-off End-Hymn
 										end-when
 										Verse sid pr.GloryToTheFather.text End-Verse
 										Verse sid pr.BothNowAndEver.text End-Verse
@@ -338,7 +372,8 @@ Status NA
 									End-Section
 								Sep 1 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon2 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon2 End-Insert
 										otherwise use:
 											Section sep01_antiphon2
 												Insert_section bk.ap.me.m09.d01.antiphon2 End-Insert
@@ -350,7 +385,8 @@ Status NA
 									End-Section
 								Sep 13 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon2 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon2 End-Insert
 										otherwise use:
 											Section sep13_antiphon2
 												Insert_section bk.ap.me.m09.d13.antiphon2 End-Insert
@@ -402,45 +438,56 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 8 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 6 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 5 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 3 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 thru 7 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section feb02_antiphon3 End-Insert
+								Feb 2 use:
+									Insert_section feb02_antiphon3 End-Insert
 							end-when
-						otherwise use: Insert_section feb02_antiphon3 End-Insert
+						otherwise use:
+							Insert_section feb02_antiphon3 End-Insert
 					end-when
 				Mar 25, 26 use:
 					Section mar25_antiphon3
@@ -519,7 +566,8 @@ Status NA
 									End-Section
 								Sep 1 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon3 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon3 End-Insert
 										otherwise use:
 											Section sep01_antiphon3
 												Insert_section bk.ap.me.m09.d01.antiphon3 End-Insert
@@ -531,7 +579,8 @@ Status NA
 									End-Section
 								Sep 13 use:
 									when-name-of-day-is
-										Sunday use: Insert_section sunday_antiphon3 End-Insert
+										Sunday use:
+											Insert_section sunday_antiphon3 End-Insert
 										otherwise use:
 											Section sep13_antiphon3
 												Insert_section bk.ap.me.m09.d13.antiphon3 End-Insert

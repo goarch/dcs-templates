@@ -165,9 +165,11 @@ Status Final
 	Media sid eu.funeral_gr_GR_cog.euFUN.Key0811.text End-Media
 	Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0811.text @ver media-off End-Hymn
 	Title sid ti.Glory<Tmode>sid eu.funeral_gr_GR_cog.euFUN.Key0812.mode</>End-Title
+	Verse sid pr.GloryToTheFather.text End-Verse
 	Media sid eu.funeral_gr_GR_cog.euFUN.Key0812.text End-Media
 	Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0812.text @ver media-off End-Hymn
 	Title sid ti.BothNow<Tmode>sid eu.funeral_gr_GR_cog.euFUN.Key0813.mode</>End-Title
+	Verse sid pr.BothNowAndEver.text End-Verse
 	Media sid eu.funeral_gr_GR_cog.euFUN.Key0813.text End-Media
 	Hymn sid eu.funeral_gr_GR_cog.euFUN.Key0813.text @ver media-off End-Hymn
 
@@ -252,6 +254,8 @@ Status Final
 	Media sid eu.funeral_gr_GR_cog.euFUN.Key1102.text End-Media
 	Hymn sid eu.funeral_gr_GR_cog.euFUN.Key1102.text @ver media-off End-Hymn
 	Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+	Verse sid pr.GloryToTheFather.text End-Verse
+	Verse sid pr.BothNowAndEver.text End-Verse
 	Media sid eu.funeral_gr_GR_cog.euFUN.Key1103.text End-Media
 	Hymn sid eu.funeral_gr_GR_cog.euFUN.Key1103.text @ver media-off End-Hymn
 

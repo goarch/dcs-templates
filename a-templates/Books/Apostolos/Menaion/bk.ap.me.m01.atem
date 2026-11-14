@@ -3,6 +3,7 @@ Template bk.ap.me.m01
 Status NA
 
 	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
 	import titles_gr_GR_cog.*
 
 	import iTags.*
@@ -49,6 +50,8 @@ Status NA
 				End-Section
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 			End-Section
 			Section antiphon2
@@ -294,6 +297,8 @@ Status NA
 				End-Section
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 			End-Section
 			Section antiphon2

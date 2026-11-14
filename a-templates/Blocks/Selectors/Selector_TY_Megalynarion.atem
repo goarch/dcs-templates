@@ -38,57 +38,78 @@ Status NA
 									Verse sid me.m02.d02_gr_GR_cog.meLI.TheotokosHymnVerse.text @ver End-Verse
 									Hymn sid me.m02.d02_gr_GR_cog.meLI.TheotokosHymn.text @ver media-off End-Hymn
 								End-Section
-							otherwise use: Insert_section default End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2, 5 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 5 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2, 6 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 6 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2, 7 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 7 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2, 8 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 8 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2, 5 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 5 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2, 6 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 6 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2, 5 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 5 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 3 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2, 7 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2, 7 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
-							otherwise use: Insert_section default End-Insert
+							Feb 2 use:
+								Insert_section meeting End-Insert
+							otherwise use:
+								Insert_section default End-Insert
 						end-when
 					otherwise use:
 						when-date-is

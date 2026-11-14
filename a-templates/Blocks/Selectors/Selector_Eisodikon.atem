@@ -97,43 +97,53 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section meeting End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section meeting End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
+							Feb 2 use:
+								Insert_section meeting End-Insert
 						end-when
 					otherwise use:
 						when-name-of-day-is
@@ -244,7 +254,8 @@ Status NA
 						Hymn sid movable.verses_gr_GR_cog.psLI.pe.d110.entrance.v1.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text media-off End-Hymn
 					111 thru 117 use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
+							Sunday use:
+								Insert_section usualSunday End-Insert
 							otherwise use:
 								Title role desig sid ti.EntranceHymn<Tmode>sid misc.Mode2</>End-Title
 								Media sid pe.d110_gr_GR_cog.peLI.MM.EntranceHymnAF.text End-Media
@@ -355,43 +366,53 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section meeting End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section meeting End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
+							Feb 2 use:
+								Insert_section meeting End-Insert
 						end-when
 					otherwise use:
 						when-name-of-day-is
@@ -502,7 +523,7 @@ Status NA
 						Hymn sid movable.verses_gr_GR_cog.psLI.pe.d110.entrance.v1.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver media-off sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
 					111 thru 117 use:
 						when-name-of-day-is
-							Sunday use: 
+							Sunday use:
 								Insert_section usualSunday End-Insert
 							otherwise use:
 								Title role desig sid ti.EntranceHymn<Tmode>sid misc.Mode2</>End-Title
@@ -580,48 +601,60 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section meeting End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section meeting End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
+							Feb 2 use:
+								Insert_section meeting End-Insert
 						end-when
 					otherwise use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
-							otherwise use: Insert_section meeting End-Insert
+							Sunday use:
+								Insert_section usualSunday End-Insert
+							otherwise use:
+								Insert_section meeting End-Insert
 						end-when
 				end-when
 			Mar 25 use:
@@ -676,7 +709,8 @@ Status NA
 						Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
 					111 thru 117 use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
+							Sunday use:
+								Insert_section usualSunday End-Insert
 							otherwise use:
 								Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text media-off sid pr.antiphon2.ascension.text @ver sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text media-off End-Hymn
 						end-when
@@ -744,7 +778,7 @@ Status NA
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: 
+							Feb 2 thru 6 use:
 								Insert_section eisodikon_refrain_sb.meeting End-Insert
 						end-when
 					16 use:

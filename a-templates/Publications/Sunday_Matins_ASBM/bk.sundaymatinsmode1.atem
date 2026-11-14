@@ -64,6 +64,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -96,6 +97,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -128,6 +130,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -160,6 +163,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -196,6 +200,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -232,6 +237,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -264,6 +270,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -300,6 +307,7 @@ Status Draft
 		End-Section
 		Section theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section

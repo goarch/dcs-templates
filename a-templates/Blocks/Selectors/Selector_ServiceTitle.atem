@@ -22,56 +22,87 @@ Status NA
 
 	Section on_evening_before
 		when-name-of-day-is
-			Sunday use: Para role servicesourcessection sid ti.OnSaturday sid ti.Evening End-Para
-			Monday use: Para role servicesourcessection sid ti.OnSunday sid ti.Evening End-Para
-			Tuesday use: Para role servicesourcessection sid ti.OnMonday sid ti.Evening End-Para
-			Wednesday use: Para role servicesourcessection sid ti.OnTuesday sid ti.Evening End-Para
-			Thursday use: Para role servicesourcessection sid ti.OnWednesday sid ti.Evening End-Para
-			Friday use: Para role servicesourcessection sid ti.OnThursday sid ti.Evening End-Para
-			Saturday use: Para role servicesourcessection sid ti.OnFriday sid ti.Evening End-Para
+			Sunday use:
+				Para role servicesourcessection sid ti.OnSaturday sid ti.Evening End-Para
+			Monday use:
+				Para role servicesourcessection sid ti.OnSunday sid ti.Evening End-Para
+			Tuesday use:
+				Para role servicesourcessection sid ti.OnMonday sid ti.Evening End-Para
+			Wednesday use:
+				Para role servicesourcessection sid ti.OnTuesday sid ti.Evening End-Para
+			Thursday use:
+				Para role servicesourcessection sid ti.OnWednesday sid ti.Evening End-Para
+			Friday use:
+				Para role servicesourcessection sid ti.OnThursday sid ti.Evening End-Para
+			Saturday use:
+				Para role servicesourcessection sid ti.OnFriday sid ti.Evening End-Para
 		end-when
 	End-Section
 
 	Section mode_on_evening_before
 		when-name-of-day-is
-			Sunday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSaturday sid ti.Evening End-Para
-			Monday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSunday sid ti.Evening End-Para
-			Tuesday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnMonday sid ti.Evening End-Para
-			Wednesday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnTuesday sid ti.Evening End-Para
-			Thursday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnWednesday sid ti.Evening End-Para
-			Friday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnThursday sid ti.Evening End-Para
-			Saturday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnFriday sid ti.Evening End-Para
+			Sunday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSaturday sid ti.Evening End-Para
+			Monday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSunday sid ti.Evening End-Para
+			Tuesday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnMonday sid ti.Evening End-Para
+			Wednesday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnTuesday sid ti.Evening End-Para
+			Thursday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnWednesday sid ti.Evening End-Para
+			Friday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnThursday sid ti.Evening End-Para
+			Saturday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnFriday sid ti.Evening End-Para
 		end-when
 	End-Section
 
 	Section mode_on_morning
 		when-name-of-day-is
-			Sunday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSunday sid ti.Morning End-Para
-			Monday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnMonday sid ti.Morning End-Para
-			Tuesday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnTuesday sid ti.Morning End-Para
-			Wednesday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnWednesday sid ti.Morning End-Para
-			Thursday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnThursday sid ti.Morning End-Para
-			Friday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnFriday sid ti.Morning End-Para
-			Saturday use: Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSaturday sid ti.Morning End-Para
+			Sunday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSunday sid ti.Morning End-Para
+			Monday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnMonday sid ti.Morning End-Para
+			Tuesday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnTuesday sid ti.Morning End-Para
+			Wednesday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnWednesday sid ti.Morning End-Para
+			Thursday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnThursday sid ti.Morning End-Para
+			Friday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnFriday sid ti.Morning End-Para
+			Saturday use:
+				Para role servicesourcessection rid ocVE.Stichera1.mode sid ti.OnSaturday sid ti.Morning End-Para
 		end-when
 	End-Section
 
 	Section of_day //mo
 		when-name-of-day-is
-			Sunday use: Para role servicesourcessection sid ti.ForSunday End-Para
-			Saturday use: Para role servicesourcessection sid ti.ForSaturday End-Para
-			otherwise use: Para role servicesourcessection sid ti.ForWeekday End-Para
+			Sunday use:
+				Para role servicesourcessection sid ti.ForSunday End-Para
+			Saturday use:
+				Para role servicesourcessection sid ti.ForSaturday End-Para
+			otherwise use:
+				Para role servicesourcessection sid ti.ForWeekday End-Para
 		end-when
 	End-Section
 	Section on_morning
 		when-name-of-day-is
-			Sunday use: Para role servicesourcessection sid ti.OnSunday sid ti.Morning End-Para
-			Monday use: Para role servicesourcessection sid ti.OnMonday sid ti.Morning End-Para
-			Tuesday use: Para role servicesourcessection sid ti.OnTuesday sid ti.Morning End-Para
-			Wednesday use: Para role servicesourcessection sid ti.OnWednesday sid ti.Morning End-Para
-			Thursday use: Para role servicesourcessection sid ti.OnThursday sid ti.Morning End-Para
-			Friday use: Para role servicesourcessection sid ti.OnFriday sid ti.Morning End-Para
-			Saturday use: Para role servicesourcessection sid ti.OnSaturday sid ti.Morning End-Para
+			Sunday use:
+				Para role servicesourcessection sid ti.OnSunday sid ti.Morning End-Para
+			Monday use:
+				Para role servicesourcessection sid ti.OnMonday sid ti.Morning End-Para
+			Tuesday use:
+				Para role servicesourcessection sid ti.OnTuesday sid ti.Morning End-Para
+			Wednesday use:
+				Para role servicesourcessection sid ti.OnWednesday sid ti.Morning End-Para
+			Thursday use:
+				Para role servicesourcessection sid ti.OnThursday sid ti.Morning End-Para
+			Friday use:
+				Para role servicesourcessection sid ti.OnFriday sid ti.Morning End-Para
+			Saturday use:
+				Para role servicesourcessection sid ti.OnSaturday sid ti.Morning End-Para
 		end-when
 	End-Section
 
@@ -1519,13 +1550,20 @@ Status NA
 	Section service_day_date
 		Title ldp@Service_Year End-Title
 		when-name-of-day-is
-			Sunday use: Title sid ti.OnSunday sid misc.separator.pipe rid meDA.date End-Title
-			Monday use: Title sid ti.OnMonday sid misc.separator.pipe rid meDA.date End-Title
-			Tuesday use: Title sid ti.OnTuesday sid misc.separator.pipe rid meDA.date End-Title
-			Wednesday use: Title sid ti.OnWednesday sid misc.separator.pipe rid meDA.date End-Title
-			Thursday use: Title sid ti.OnThursday sid misc.separator.pipe rid meDA.date End-Title
-			Friday use: Title sid ti.OnFriday sid misc.separator.pipe rid meDA.date End-Title
-			Saturday use: Title sid ti.OnSaturday sid misc.separator.pipe rid meDA.date End-Title
+			Sunday use:
+				Title sid ti.OnSunday sid misc.separator.pipe rid meDA.date End-Title
+			Monday use:
+				Title sid ti.OnMonday sid misc.separator.pipe rid meDA.date End-Title
+			Tuesday use:
+				Title sid ti.OnTuesday sid misc.separator.pipe rid meDA.date End-Title
+			Wednesday use:
+				Title sid ti.OnWednesday sid misc.separator.pipe rid meDA.date End-Title
+			Thursday use:
+				Title sid ti.OnThursday sid misc.separator.pipe rid meDA.date End-Title
+			Friday use:
+				Title sid ti.OnFriday sid misc.separator.pipe rid meDA.date End-Title
+			Saturday use:
+				Title sid ti.OnSaturday sid misc.separator.pipe rid meDA.date End-Title
 		end-when
 	End-Section
 

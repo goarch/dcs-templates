@@ -162,36 +162,57 @@ Status NA
 
 	Section after_doxology_incipit
 		when-movable-cycle-day-is
-			71 thru 77 use: Para<r>sid tyMAin.nodoxology.title</>End-Para
-			otherwise use: Para<r>sid tyMAin.afterdoxology.title</>End-Para
+			71 thru 77 use:
+				Para<r>sid tyMAin.nodoxology.title</>End-Para
+			otherwise use:
+				Para<r>sid tyMAin.afterdoxology.title</>End-Para
 		end-when
 		when-movable-cycle-day-is
-			43 use: Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit<r>sid ru.Or</>sid tyMAin.afterdoxology.text End-Reading
-			63 use: Reading sid tyMAin.afterdoxology.text End-Reading
-			64 use: Reading<r>sid ti.Feast</>sid tyTRin.palm.Apolytikion.text End-Reading
-			71 thru 77 use: Reading<r>sid ti.Pascha</>sid tyPEin.pascha.Apolytikion.text End-Reading
-			78 use: Reading<r>sid ti.Feast</>sid tyPEin.thomas.Apolytikion.text End-Reading
-			85, 92, 99, 106, 113, 127 use: Reading sid tyMAin.afterdoxology.text End-Reading
-			95 use: Reading<r>sid ti.Feast</>sid tyPEin.midpentecost.Apolytikion.text End-Reading
-			110 use: Reading<r>sid ti.Feast</>sid pe.d110_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
-			120 use: Reading<r>sid ti.Feast</>sid pe.d120_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
+			43 use:
+				Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit<r>sid ru.Or</>sid tyMAin.afterdoxology.text End-Reading
+			63 use:
+				Reading sid tyMAin.afterdoxology.text End-Reading
+			64 use:
+				Reading<r>sid ti.Feast</>sid tyTRin.palm.Apolytikion.text End-Reading
+			71 thru 77 use:
+				Reading<r>sid ti.Pascha</>sid tyPEin.pascha.Apolytikion.text End-Reading
+			78 use:
+				Reading<r>sid ti.Feast</>sid tyPEin.thomas.Apolytikion.text End-Reading
+			85, 92, 99, 106, 113, 127 use:
+				Reading sid tyMAin.afterdoxology.text End-Reading
+			95 use:
+				Reading<r>sid ti.Feast</>sid tyPEin.midpentecost.Apolytikion.text End-Reading
+			110 use:
+				Reading<r>sid ti.Feast</>sid pe.d110_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
+			120 use:
+				Reading<r>sid ti.Feast</>sid pe.d120_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
 			otherwise use:
 				when-date-is
-					Jan 6 use: Reading<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Aug 6 use: Reading<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Sep 14 use: Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Dec 25 use: Reading<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Jan 6 use:
+						Reading<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Aug 6 use:
+						Reading<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Sep 14 use:
+						Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Dec 25 use:
+						Reading<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
 					otherwise use:
 						when-name-of-day-is
 							Sunday use:	Reading sid tyMAin.afterdoxology.text End-Reading
 							otherwise use:
 								when-date-is
-									Jan 1 use: Reading<r>sid ti.Feast</>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.incipit End-Reading
-									Feb 2 use: Reading<r>sid ti.Feast</>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-									Mar 25 use: Reading<r>sid ti.Feast</>sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-									Aug 15 use: Reading<r>sid ti.Feast</>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-									Sep 8 use: Reading<r>sid ti.Feast</>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-									Nov 21 use: Reading<r>sid ti.Feast</>sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+									Jan 1 use:
+										Reading<r>sid ti.Feast</>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.incipit End-Reading
+									Feb 2 use:
+										Reading<r>sid ti.Feast</>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+									Mar 25 use:
+										Reading<r>sid ti.Feast</>sid me.m03.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+									Aug 15 use:
+										Reading<r>sid ti.Feast</>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+									Sep 8 use:
+										Reading<r>sid ti.Feast</>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+									Nov 21 use:
+										Reading<r>sid ti.Feast</>sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
 								end-when
 						end-when
 				end-when
@@ -220,49 +241,61 @@ Status NA
 					when-movable-cycle-day-is
 						1 thru 13 use:
 							when-date-is
-								Feb 2 thru 9 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 9 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 5 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 6 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 7 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 8 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 5 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 6 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 5 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						21 use:
 							when-date-is
-								Feb 2 thru 3 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 3 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 thru 7 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+								Feb 2 use:
+									Reading sid tyLIin.antiphon2.feb02.text End-Reading
 							end-when
-						otherwise use: Reading sid tyLIin.antiphon2.feb02.text End-Reading
+						otherwise use:
+							Reading sid tyLIin.antiphon2.feb02.text End-Reading
 					end-when
 				Mar 25 use:
 					Reading sid tyLIin.antiphon2.mar25.text End-Reading
@@ -275,57 +308,81 @@ Status NA
 					end-when
 				otherwise use:
 					when-movable-cycle-day-is
-						29, 43, 63 use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-						56 use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
-						64 use: Reading sid tyLIin.pr.antiphon2.palm.text End-Reading
-						71 thru 109 use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-						110 thru 118 use: Reading sid tyLIin.pr.antiphon2.ascension.text End-Reading
-						120 thru 126 use: Reading sid tyLIin.pr.antiphon2.pentecost.text End-Reading
+						29, 43, 63 use:
+							Reading sid tyLIin.antiphon2.sunday.text End-Reading
+						56 use:
+							Reading sid tyLIin.antiphon2.weekday.text End-Reading
+						64 use:
+							Reading sid tyLIin.pr.antiphon2.palm.text End-Reading
+						71 thru 109 use:
+							Reading sid tyLIin.antiphon2.sunday.text End-Reading
+						110 thru 118 use:
+							Reading sid tyLIin.pr.antiphon2.ascension.text End-Reading
+						120 thru 126 use:
+							Reading sid tyLIin.pr.antiphon2.pentecost.text End-Reading
 						otherwise use:
 							when-date-is
-								Jan 1 use: Reading sid tyLIin.antiphon2.jan01.text End-Reading
-								Jan 6 thru 14 use: Reading sid tyLIin.antiphon2.jan06.text End-Reading
+								Jan 1 use:
+									Reading sid tyLIin.antiphon2.jan01.text End-Reading
+								Jan 6 thru 14 use:
+									Reading sid tyLIin.antiphon2.jan06.text End-Reading
 								Aug 1 use:
 									Section aug01_antiphon2
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.antiphon2.sep14.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.antiphon2.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.antiphon2.sep14.text End-Reading
 										end-when
 									End-Section
-								Aug 6 thru 13 use: Reading sid tyLIin.antiphon2.aug06.text End-Reading
+								Aug 6 thru 13 use:
+									Reading sid tyLIin.antiphon2.aug06.text End-Reading
 								Aug 15 thru 23 use:
 									Section aug15_antiphon2
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.antiphon2.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.antiphon2.weekday.text End-Reading
 										end-when
 									End-Section
 								Sep 1 use:
 									when-name-of-day-is
-										Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-										otherwise use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
+										Sunday use:
+											Reading sid tyLIin.antiphon2.sunday.text End-Reading
+										otherwise use:
+											Reading sid tyLIin.antiphon2.weekday.text End-Reading
 									end-when
 								Sep 8 thru 12 use:
 									Section sep08_antiphon2
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.antiphon2.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.antiphon2.weekday.text End-Reading
 										end-when
 									End-Section
-								Sep 13 use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-								Sep 14 thru 21 use: Reading sid tyLIin.antiphon2.sep14.text End-Reading
+								Sep 13 use:
+									Reading sid tyLIin.antiphon2.sunday.text End-Reading
+								Sep 14 thru 21 use:
+									Reading sid tyLIin.antiphon2.sep14.text End-Reading
 								Nov 21 thru 25 use:
 									Section nov21_antiphon2
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.antiphon2.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.antiphon2.weekday.text End-Reading
 										end-when
 									End-Section
-								Dec 25 thru 31 use: Reading sid tyLIin.antiphon2.dec25.text End-Reading
+								Dec 25 thru 31 use:
+									Reading sid tyLIin.antiphon2.dec25.text End-Reading
 								otherwise use:
 									when-name-of-day-is
-										Sunday use: Reading sid tyLIin.antiphon2.sunday.text End-Reading
-										otherwise use: Reading sid tyLIin.antiphon2.weekday.text End-Reading
+										Sunday use:
+											Reading sid tyLIin.antiphon2.sunday.text End-Reading
+										otherwise use:
+											Reading sid tyLIin.antiphon2.weekday.text End-Reading
 									end-when
 							end-when
 					end-when
@@ -482,43 +539,53 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section meeting End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section meeting End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section meeting End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section meeting End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section meeting End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section meeting End-Insert
+							Feb 2 use:
+								Insert_section meeting End-Insert
 						end-when
 					otherwise use:
 						when-name-of-day-is
@@ -588,7 +655,8 @@ Status NA
 						Para role inaudible sid tyLIin.d110.entrance.v1.text sid tyLIin.Antiphon21.text sid tyLIin.d110.Antiphon2.text End-Para
 					111 thru 117 use:
 						when-name-of-day-is
-							Sunday use: Insert_section usualSunday End-Insert
+							Sunday use:
+								Insert_section usualSunday End-Insert
 							otherwise use:
 								Reading sid tyLIin.EntranceHymn1.text sid tyLIin.Antiphon21.text sid tyLIin.d110.Antiphon2.text End-Reading
 						end-when
@@ -641,8 +709,10 @@ Status NA
 			Jan 1 use:
 				Para role readingzero<r>sid ti.Feast</>sid tyMEin.m01.d01.Apolytikion1.text End-Para
 				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m01.d01.Apolytikion2.text End-Para
-			Jan 2 thru 4 use: Para role readingzero<r>sid tyLIin.ApForefeast.title</>sid tyMEin.m01.d02.Apolytikion1.text End-Para
-			Jan 5 use: Para role readingzero<r>sid tyLIin.ApForefeast.title</>sid tyMEin.m01.d05.Apolytikion1.text End-Para
+			Jan 2 thru 4 use:
+				Para role readingzero<r>sid tyLIin.ApForefeast.title</>sid tyMEin.m01.d02.Apolytikion1.text End-Para
+			Jan 5 use:
+				Para role readingzero<r>sid tyLIin.ApForefeast.title</>sid tyMEin.m01.d05.Apolytikion1.text End-Para
 			Jan 6, 8, 9, 10, 12, 13, 14 use:
 				Para role readingzero<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Jan 7 use:
@@ -651,73 +721,125 @@ Status NA
 			Jan 11 use:
 				Para role readingzero<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
-			Jan 15 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid me.m01.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 16 use: Para role readingzero<r>sid ti.Apostle</>sid me.m01.d16_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 17 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d17.Apolytikion1.text End-Para
-			Jan 18 use: Para role readingzero<r>sid ti.Hierarchs</>sid me.m01.d18_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 19 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d19.Apolytikion1.text End-Para
-			Jan 20 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m01.d20.Apolytikion1.text End-Para
-			Jan 21 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d21.Apolytikion1.text End-Para
+			Jan 15 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid me.m01.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 16 use:
+				Para role readingzero<r>sid ti.Apostle</>sid me.m01.d16_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 17 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d17.Apolytikion1.text End-Para
+			Jan 18 use:
+				Para role readingzero<r>sid ti.Hierarchs</>sid me.m01.d18_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 19 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d19.Apolytikion1.text End-Para
+			Jan 20 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m01.d20.Apolytikion1.text End-Para
+			Jan 21 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid tyMEin.m01.d21.Apolytikion1.text End-Para
 			Jan 22 use:
 				Para role readingzero<r>sid ti.Apostle</>sid me.m01.d22_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.DevoutMartyrM</>sid me.m01.d22_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
-			Jan 23 use: Para role readingzero<r>sid ti.Hieromartyr</>sid me.m01.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 25 use: Para role readingzero<r>sid ti.Hierarch</>sid me.m01.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 27 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m01.d27.Apolytikion1.text End-Para
-			Jan 28 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
-			Jan 29 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Jan 30 use: Para role readingzero<r>sid ti.Hierarchs</>sid me.m01.d30_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jan 31 use: Para role readingzero<r>sid tyLIin.ApSaints.title</>sid tyMEin.m01.d31.Apolytikion1.text End-Para
+			Jan 23 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid me.m01.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 25 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid me.m01.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 27 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m01.d27.Apolytikion1.text End-Para
+			Jan 28 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
+			Jan 29 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Jan 30 use:
+				Para role readingzero<r>sid ti.Hierarchs</>sid me.m01.d30_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jan 31 use:
+				Para role readingzero<r>sid tyLIin.ApSaints.title</>sid tyMEin.m01.d31.Apolytikion1.text End-Para
 			Feb 1 use:
 				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m02.d01_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
 				Para role readingzero<r>sid ti.Martyr</>sid he.ga_gr_GR_cog.heGA.OMartysSouKyrie.incipit End-Para
-			Feb 2 thru 9 use: Para role readingzero<r>sid ti.Feast</>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Feb 6 use: Para role readingzero<r>sid ti.SaintM</>sid me.m02.d06_gr_GR_cog.alt1.meVE.Apolytikion1.incipit End-Para
-			Feb 10 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m02.d10.Apolytikion1.text End-Para
-			Feb 11 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Feb 14 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m02.d14.Apolytikion1.text End-Para
-			Feb 24 use: Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m02.d24.Apolytikion1.text End-Para
-			Mar 9 use: Para role readingzero<r>sid ti.Martyrs</>sid tyMEin.m03.d09.Apolytikion1.text End-Para
-			Mar 24 use: Para role readingzero<r>sid ti.Forefestal_1hymn</>sid tyMEin.m03.d24.Apolytikion1.text End-Para
-			Mar 25 use: Para role readingzero<r>sid ti.Feast</>sid tyMEin.m03.d25.Apolytikion1.text End-Para
-			May 8 use: Para role readingzero<r>sid ti.Evangelist</>sid me.m05.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			May 21 use: Para role readingzero<r>sid ti.EqualsOfApostles</>sid me.m05.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			May 25 use: Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid me.m05.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Apr 23 use: Para role readingzero<r>sid ti.SaintM</>sid me.m04.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Feb 2 thru 9 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Feb 6 use:
+				Para role readingzero<r>sid ti.SaintM</>sid me.m02.d06_gr_GR_cog.alt1.meVE.Apolytikion1.incipit End-Para
+			Feb 10 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m02.d10.Apolytikion1.text End-Para
+			Feb 11 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Feb 14 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m02.d14.Apolytikion1.text End-Para
+			Feb 24 use:
+				Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m02.d24.Apolytikion1.text End-Para
+			Mar 9 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid tyMEin.m03.d09.Apolytikion1.text End-Para
+			Mar 24 use:
+				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid tyMEin.m03.d24.Apolytikion1.text End-Para
+			Mar 25 use:
+				Para role readingzero<r>sid ti.Feast</>sid tyMEin.m03.d25.Apolytikion1.text End-Para
+			May 8 use:
+				Para role readingzero<r>sid ti.Evangelist</>sid me.m05.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			May 21 use:
+				Para role readingzero<r>sid ti.EqualsOfApostles</>sid me.m05.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			May 25 use:
+				Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid me.m05.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Apr 23 use:
+				Para role readingzero<r>sid ti.SaintM</>sid me.m04.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Jun 14 use:
 				Para role readingzero<r>sid ti.Prophet</>sid me.m06.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.Hierarch</>sid he.ga_gr_GR_cog.heGA.KanonaPisteos.incipit End-Para
-			Jun 24 use: Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m06.d24.Apolytikion1.text End-Para
-			Jun 29 use: Para role readingzero<r>sid tyLIin.ApApostles.title</>sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jun 30 use: Para role readingzero<r>sid tyLIin.ApApostles.title</>sid tyMEin.m06.d30.Apolytikion1.text End-Para
-			Jul 2 use: Para role readingzero<r>sid ti.Theotokos</>sid me.m07.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jul 5 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid me.m07.d05_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jul 7 use: Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d07.Apolytikion1.text End-Para
-			Jul 11 use: Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d11.Apolytikion1.text End-Para
-			Jul 12 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m07.d12.Apolytikion1.text End-Para
+			Jun 24 use:
+				Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m06.d24.Apolytikion1.text End-Para
+			Jun 29 use:
+				Para role readingzero<r>sid tyLIin.ApApostles.title</>sid me.m06.d29_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jun 30 use:
+				Para role readingzero<r>sid tyLIin.ApApostles.title</>sid tyMEin.m06.d30.Apolytikion1.text End-Para
+			Jul 2 use:
+				Para role readingzero<r>sid ti.Theotokos</>sid me.m07.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jul 5 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid me.m07.d05_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jul 7 use:
+				Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d07.Apolytikion1.text End-Para
+			Jul 11 use:
+				Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d11.Apolytikion1.text End-Para
+			Jul 12 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m07.d12.Apolytikion1.text End-Para
 			Jul 13 thru 19 use:
 				when-name-of-day-is
-					Sunday use: Para role readingzero<r>sid ti.Fathers</>sid me.m07.dHF_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+					Sunday use:
+						Para role readingzero<r>sid ti.Fathers</>sid me.m07.dHF_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				end-when
-			Jul 20 use: Para role readingzero<r>sid ti.Prophet</>sid me.m07.d20_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jul 23 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Jul 24 use: Para role readingzero<r>sid ti.SaintW</>sid he.ga_gr_GR_cog.heGA.IAmnasSou.incipit End-Para
-			Jul 25 use: Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d25.Apolytikion1.text End-Para
-			Jul 26 use: Para role readingzero<r>sid ti.SaintW</>sid me.m07.d26_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
-			Jul 27 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid me.m07.d27_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Jul 31 use: Para role readingzero<r>sid ti.SaintM</>sid me.m07.d31_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 1 use: Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 2 use: Para role readingzero<r>sid ti.ProtomartyrM</>sid me.m08.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 6 thru 13 use: Para role readingzero<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 14 use: Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m08.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 15, 17, 18, 19, 20, 21, 22, 23 use: Para role readingzero<r>sid ti.Feast</>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jul 20 use:
+				Para role readingzero<r>sid ti.Prophet</>sid me.m07.d20_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jul 23 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Jul 24 use:
+				Para role readingzero<r>sid ti.SaintW</>sid he.ga_gr_GR_cog.heGA.IAmnasSou.incipit End-Para
+			Jul 25 use:
+				Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m07.d25.Apolytikion1.text End-Para
+			Jul 26 use:
+				Para role readingzero<r>sid ti.SaintW</>sid me.m07.d26_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
+			Jul 27 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid me.m07.d27_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Jul 31 use:
+				Para role readingzero<r>sid ti.SaintM</>sid me.m07.d31_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 1 use:
+				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 2 use:
+				Para role readingzero<r>sid ti.ProtomartyrM</>sid me.m08.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 6 thru 13 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 14 use:
+				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m08.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 15, 17, 18, 19, 20, 21, 22, 23 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Aug 16 use:
 				Para role readingzero<r>sid ti.HolyNapkin</>sid me.m08.d16_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.Feast</>sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Aug 25 use: Para role readingzero<r>sid tyLIin.ApApostles.title</>sid tyMEin.m08.d25.Apolytikion1.text End-Para
-			Aug 29 use: Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m08.d29.Apolytikion1.text End-Para
-			Aug 30 use: Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m08.d29.Apolytikion1.text End-Para
-			Aug 31 use: Para role readingzero<r>sid ti.Theotokos</>sid me.m08.d31_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Aug 25 use:
+				Para role readingzero<r>sid tyLIin.ApApostles.title</>sid tyMEin.m08.d25.Apolytikion1.text End-Para
+			Aug 29 use:
+				Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m08.d29.Apolytikion1.text End-Para
+			Aug 30 use:
+				Para role readingzero<r>sid tyLIin.ApForerunner.title</>sid tyMEin.m08.d29.Apolytikion1.text End-Para
+			Aug 31 use:
+				Para role readingzero<r>sid ti.Theotokos</>sid me.m08.d31_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Sep 1 use:
 				Para role readingzero<r>sid ti.Indiction</>sid tyMEin.m09.d01.Apolytikion1.text End-Para
 				Para role readingzero<r>sid ti.Theotokos</>sid tyMEin.m09.d01.Apolytikion2.text End-Para
@@ -725,81 +847,126 @@ Status NA
 			Sep 3 use:
 				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
 				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
-			Sep 4 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Sep 5 use: Para role readingzero<r>sid ti.Prophet</>sid tyMEin.m09.d05.Apolytikion1.text End-Para
-			Sep 6 use: Para role readingzero<r>sid ti.Archangel</>sid tyMEin.m09.d06.Apolytikion1.text End-Para
-			Sep 7 use: Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m09.d07_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Sep 8 thru 12 use: Para role readingzero<r>sid ti.Feast</>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Sep 4 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Sep 5 use:
+				Para role readingzero<r>sid ti.Prophet</>sid tyMEin.m09.d05.Apolytikion1.text End-Para
+			Sep 6 use:
+				Para role readingzero<r>sid ti.Archangel</>sid tyMEin.m09.d06.Apolytikion1.text End-Para
+			Sep 7 use:
+				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m09.d07_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Sep 8 thru 12 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Sep 13 use:
 				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m09.d13_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
 				Para role readingzero<r>sid ti.Consecration</>sid me.m09.d13_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Sep 14, 15, 16, 17, 18, 19, 21 use: Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Sep 14, 15, 16, 17, 18, 19, 21 use:
+				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Sep 16 use:
 				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid tyLIin.ApSaintW.title</>sid tyMEin.m09.d16.Apolytikion1.text End-Para
 			Sep 20 use:
 				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.Saints</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
-			Sep 22 use: Para role readingzero<r>sid ti.SaintM</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Sep 22 use:
+				Para role readingzero<r>sid ti.SaintM</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
 			Sep 24 use:
 				Para role readingzero<r>sid ti.Theotokos</>sid me.m09.d24_gr_GR_cog.alt1.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.SaintW</>sid me.m09.d24_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Sep 25 use: Para role readingzero<r>sid ti.SaintW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
-			Sep 26 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m09.d26.Apolytikion1.text End-Para
-			Sep 27 use: Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
-			Sep 28 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
-			Sep 29 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid he.ga_gr_GR_cog.heGA.TisErimouPolitis.incipit End-Para
+			Sep 25 use:
+				Para role readingzero<r>sid ti.SaintW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
+			Sep 26 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m09.d26.Apolytikion1.text End-Para
+			Sep 27 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
+			Sep 28 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
+			Sep 29 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid he.ga_gr_GR_cog.heGA.TisErimouPolitis.incipit End-Para
 			Oct 1 use:
 				Para role readingzero<r>sid ti.Apostle</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
 				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.EnSoiPaterAkrivos.incipit End-Para
-			Oct 2 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Oct 3 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m10.d03.Apolytikion1.text End-Para
-			Oct 6 use: Para role readingzero<r>sid tyLIin.ApApostle.title</>sid tyMEin.m10.d06.Apolytikion1.text End-Para
-			Oct 2 use: Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
-			Oct 8 use: Para role readingzero<r>sid ti.DevoutW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
-			Oct 9 use: Para role readingzero<r>sid ti.Apostle</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
+			Oct 2 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Oct 3 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m10.d03.Apolytikion1.text End-Para
+			Oct 6 use:
+				Para role readingzero<r>sid tyLIin.ApApostle.title</>sid tyMEin.m10.d06.Apolytikion1.text End-Para
+			Oct 2 use:
+				Para role readingzero<r>sid ti.Hieromartyr</>sid he.ga_gr_GR_cog.heGA.KaiTroponMetochos.incipit End-Para
+			Oct 8 use:
+				Para role readingzero<r>sid ti.DevoutW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
+			Oct 9 use:
+				Para role readingzero<r>sid ti.Apostle</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
 			Oct 11 thru 17 use:
 				when-name-of-day-is
-					Sunday use: Para role readingzero<r>sid ti.Fathers</>sid me.m10.dHF_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+					Sunday use:
+						Para role readingzero<r>sid ti.Fathers</>sid me.m10.dHF_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				end-when
-			Oct 18 use: Para role readingzero<r>sid ti.Evangelist</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
-			Oct 20 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m10.d20.Apolytikion1.text End-Para
+			Oct 18 use:
+				Para role readingzero<r>sid ti.Evangelist</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
+			Oct 20 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m10.d20.Apolytikion1.text End-Para
 			Oct 22 use:
 				Para role readingzero<r>sid ti.Hierarch</>sid he.ga_gr_GR_cog.heGA.KanonaPisteos.incipit End-Para
 				Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
-			Oct 23 use: Para role readingzero<r>sid ti.Apostle</>sid me.m10.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Oct 24 use: Para role readingzero<r>sid tyLIin.ApSaints.title</>sid tyMEin.m10.d24.Apolytikion1.text End-Para
-			Oct 25 use: Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
+			Oct 23 use:
+				Para role readingzero<r>sid ti.Apostle</>sid me.m10.d23_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Oct 24 use:
+				Para role readingzero<r>sid tyLIin.ApSaints.title</>sid tyMEin.m10.d24.Apolytikion1.text End-Para
+			Oct 25 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
 			Oct 26 use:
 				Para role readingzero<r>sid ti.Earthquake</>sid me.m10.d26_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
 				Para role readingzero<r>sid ti.SaintM</>sid me.m10.d26_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Oct 30 use: Para role readingzero<r>sid ti.Saints</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
-			Nov 1 use: Para role readingzero<r>sid ti.Saints</>sid me.m11.d01_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 2 use: Para role readingzero<r>sid ti.Martyrs</>sid me.m11.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Oct 30 use:
+				Para role readingzero<r>sid ti.Saints</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
+			Nov 1 use:
+				Para role readingzero<r>sid ti.Saints</>sid me.m11.d01_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 2 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid me.m11.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Nov 3 use:
 				Para role readingzero<r>sid ti.Martyrs</>sid tyMEin.m11.d03.Apolytikion1.text End-Para
 				Para role readingzero<r>sid ti.SaintM</>sid tyMEin.m11.d03.Apolytikion2.text End-Para
-			Nov 6 use: Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 7 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d07.Apolytikion2.text End-Para
-			Nov 8 use: Para role readingzero<r>sid ti.Bodiless</>sid me.m11.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 9 use: Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d09_gr_GR_cog.alt1.meVE.Apolytikion1.incipit End-Para
-			Nov 12 use: Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d12_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 13 use: Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 14 use: Para role readingzero<r>sid tyLIin.ApApostle.title</>sid tyMEin.m11.d14.Apolytikion1.text End-Para
-			Nov 15 use: Para role readingzero<r>sid ti.Martyrs</>sid me.m11.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 16 use: Para role readingzero<r>sid ti.Evangelist</>sid tyMEin.m06.d30.Apolytikion1.text End-Para
-			Nov 17 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d17.Apolytikion1.text End-Para
-			Nov 20 use: Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m11.d20_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
-			Nov 21 thru 24 use: Para role readingzero<r>sid ti.Feast</>sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			Nov 27 use: Para role readingzero<r>sid ti.SaintM</>sid he.ga_gr_GR_cog.heGA.OMartysSouKyrie.incipit End-Para
-			Nov 28 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d28.Apolytikion3.text End-Para
-			Nov 30 use: Para role readingzero<r>sid ti.Apostle</>sid me.m11.d30_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 6 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 7 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d07.Apolytikion2.text End-Para
+			Nov 8 use:
+				Para role readingzero<r>sid ti.Bodiless</>sid me.m11.d08_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 9 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d09_gr_GR_cog.alt1.meVE.Apolytikion1.incipit End-Para
+			Nov 12 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d12_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 13 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid me.m11.d13_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 14 use:
+				Para role readingzero<r>sid tyLIin.ApApostle.title</>sid tyMEin.m11.d14.Apolytikion1.text End-Para
+			Nov 15 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid me.m11.d15_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 16 use:
+				Para role readingzero<r>sid ti.Evangelist</>sid tyMEin.m06.d30.Apolytikion1.text End-Para
+			Nov 17 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d17.Apolytikion1.text End-Para
+			Nov 20 use:
+				Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m11.d20_gr_GR_cog.meVE.Apolytikion2.incipit End-Para
+			Nov 21 thru 24 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Nov 27 use:
+				Para role readingzero<r>sid ti.SaintM</>sid he.ga_gr_GR_cog.heGA.OMartysSouKyrie.incipit End-Para
+			Nov 28 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m11.d28.Apolytikion3.text End-Para
+			Nov 30 use:
+				Para role readingzero<r>sid ti.Apostle</>sid me.m11.d30_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Dec 4 use:
 				Para role readingzero<r>sid ti.SaintW</>sid me.m12.d04_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.SaintM</>sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.incipit End-Para
-			Dec 5 use: Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m12.d05.Apolytikion1.text End-Para
-			Dec 6 use: Para role readingzero<r>sid ti.Hierarch</>sid he.ga_gr_GR_cog.heGA.KanonaPisteos.incipit End-Para
-			Dec 10 use: Para role readingzero<r>sid ti.Martyrs</>sid ho.ho15.m12_gr_GR_cog.hoD10.Apolytikion1.incipit End-Para
+			Dec 5 use:
+				Para role readingzero<r>sid tyLIin.ApSaintM.title</>sid tyMEin.m12.d05.Apolytikion1.text End-Para
+			Dec 6 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid he.ga_gr_GR_cog.heGA.KanonaPisteos.incipit End-Para
+			Dec 10 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid ho.ho15.m12_gr_GR_cog.hoD10.Apolytikion1.incipit End-Para
 			Dec 11, 13, 14, 16, 17 use:
 				when-name-of-day-is
 					Sunday use:
@@ -834,7 +1001,8 @@ Status NA
 						Para role readingzero<r>sid ti.Forefestal_1hymn</>sid me.m12.d24_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 						Para role readingzero<r>sid ti.Fathers</>sid me.m12.dBC_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 				end-when
-			Dec 25 use: Para role readingzero<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			Dec 25 use:
+				Para role readingzero<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Dec 26, 28, 29, 30, 31 use:
 				when-name-of-day-is
 					Sunday use:
@@ -853,12 +1021,18 @@ Status NA
 
 	Section ap_incipit_mc
 		when-movable-cycle-day-is
-			29 use: Para role readingzero<r>sid ti.Feast</>sid tr.d029_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
-			36 use: Para role readingzero<r>sid ti.Hierarch</>sid tr.d036_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
-			43 use: Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
-			50 use: Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
-			57 use: Para role readingzero<r>sid ti.DevoutW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
-			63 use: Para role readingzero<r>sid ti.Lazarus</>sid tr.d063_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
+			29 use:
+				Para role readingzero<r>sid ti.Feast</>sid tr.d029_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
+			36 use:
+				Para role readingzero<r>sid ti.Hierarch</>sid tr.d036_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
+			43 use:
+				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+			50 use:
+				Para role readingzero<r>sid ti.DevoutSaintM</>sid he.ga_gr_GR_cog.heGA.TaisTonDakryonSou.incipit End-Para
+			57 use:
+				Para role readingzero<r>sid ti.DevoutW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
+			63 use:
+				Para role readingzero<r>sid ti.Lazarus</>sid tr.d063_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
 			64 use:
 				Para role readingzero<r>sid ti.Feast</>sid tr.d064_gr_GR_cog.trVE.Apolytikion1.incipit End-Para
 				Para role readingzero<r>sid ti.Feast</>sid tr.d064_gr_GR_cog.trVE.Apolytikion2.incipit End-Para
@@ -901,140 +1075,211 @@ Status NA
 	Section ko_incipit_by_season
 		Para<r>sid tyKOin.Kontakion.title</>End-Para
 		when-date-is
-			Jan 1 use: Reading<r>sid ti.Feast</>sid tyKOin.Jan01.Kontakion.text End-Reading
+			Jan 1 use:
+				Reading<r>sid ti.Feast</>sid tyKOin.Jan01.Kontakion.text End-Reading
 
-			Jan 2 thru 5 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Jan02.Kontakion.text End-Reading
+			Jan 2 thru 5 use:
+				Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Jan02.Kontakion.text End-Reading
 
-			Jan 6 thru 14 use: Reading<r>sid ti.Feast</>sid tyKOin.Jan06.Kontakion.text End-Reading
+			Jan 6 thru 14 use:
+				Reading<r>sid ti.Feast</>sid tyKOin.Jan06.Kontakion.text End-Reading
 
-			Jan 15 thru 31 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+			Jan 15 thru 31 use:
+				Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 
-			Feb 1 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Feb01.Kontakion.text End-Reading
+			Feb 1 use:
+				Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Feb01.Kontakion.text End-Reading
 
 			Feb 2 thru 9 use: //calculates leavetaking of Meeting
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2 thru 9 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 9 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 5 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 6 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 7 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 8 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 5 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 6 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 5 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2, 3 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 thru 7 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 8, 9 use: //Title role cover4 sid ti.Katavasias sid Triodion14.title End-Title
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+							Feb 2 use:
+								Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
+					otherwise use:
+						Reading<r>sid tyKOin.Feb02.Kontakion.title</>sid tyKOin.Feb02.Kontakion.text End-Reading
 				end-when
-			Mar 25 use: Reading<r>sid ti.Feast</>sid tyKOin.Mar25.Kontakion.text End-Reading
+			Mar 25 use:
+				Reading<r>sid ti.Feast</>sid tyKOin.Mar25.Kontakion.text End-Reading
 			otherwise use:
 				when-movable-cycle-day-is
-					1 use: Reading<r>sid ti.Triodion</>sid tyKOin.d001.Kontakion.text End-Reading
-					8 use: Reading<r>sid ti.Triodion</>sid tyKOin.d008.Kontakion.text End-Reading
-					14 use: Reading<r>sid ti.Deceased</>sid tyKOin.d014.Kontakion.text End-Reading
-					15 use: Reading<r>sid ti.Triodion</>sid tyKOin.d015.Kontakion.text End-Reading
-					22 use: Reading<r>sid ti.Triodion</>sid tyKOin.d022.Kontakion.text End-Reading
-					63 use: Reading<r>sid ti.Feast</>sid tyKOin.d063.Kontakion.text End-Reading
-					64 use: Reading<r>sid ti.Feast</>sid tyKOin.d064.Kontakion.text End-Reading
-					29, 36, 43, 50, 56 use: Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
-					35, 42, 49 use: Reading sid tyKOin.d127.Kontakion.text End-Reading
+					1 use:
+						Reading<r>sid ti.Triodion</>sid tyKOin.d001.Kontakion.text End-Reading
+					8 use:
+						Reading<r>sid ti.Triodion</>sid tyKOin.d008.Kontakion.text End-Reading
+					14 use:
+						Reading<r>sid ti.Deceased</>sid tyKOin.d014.Kontakion.text End-Reading
+					15 use:
+						Reading<r>sid ti.Triodion</>sid tyKOin.d015.Kontakion.text End-Reading
+					22 use:
+						Reading<r>sid ti.Triodion</>sid tyKOin.d022.Kontakion.text End-Reading
+					63 use:
+						Reading<r>sid ti.Feast</>sid tyKOin.d063.Kontakion.text End-Reading
+					64 use:
+						Reading<r>sid ti.Feast</>sid tyKOin.d064.Kontakion.text End-Reading
+					29, 36, 43, 50, 56 use:
+						Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
+					35, 42, 49 use:
+						Reading sid tyKOin.d127.Kontakion.text End-Reading
 					2, 3, 4, 5, 6, 7, 9, 10, 11, 12, 13, 16, 17, 18, 19, 20, 21, 28 use:
 						Reading sid tyKOin.default.text End-Reading
 					57 use:
 						when-date-is
-							Mar 1 thru 23 use: Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
-							Mar 24 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Mar24.Kontakion.text End-Reading
-							Mar 26 use: Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
-							otherwise use: Reading sid tyKOin.default.text End-Reading
+							Mar 1 thru 23 use:
+								Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
+							Mar 24 use:
+								Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Mar24.Kontakion.text End-Reading
+							Mar 26 use:
+								Reading<r>sid tyKOin.Mar25.Kontakion.title</>sid tyKOin.Mar25.Kontakion.text End-Reading
+							otherwise use:
+								Reading sid tyKOin.default.text End-Reading
 						end-when
-					71 thru 77 use: Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
-					78 use: Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
-					79 thru 84 use: Reading<r>sid ti.Feast</>sid tyKOin.d078.Kontakion.text End-Reading
-					85 thru 90 use: Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
-					91 use: Reading sid tyKOin.d085.Kontakion.text End-Reading
-					92 thru 94 use: Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
-					95, 96, 97, 98, 100, 101, 102 use: Reading<r>sid ti.Midpentecost</>sid tyKOin.d095.Kontakion.text End-Reading
-					99, 103, 104, 105, 106, 107, 108, 109 use: Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
-					110 thru 118 use: Reading<r>sid ti.Feast</>sid tyKOin.d110.Kontakion.text End-Reading
-					119 use: Reading<r>sid ti.Deceased</>sid tyKOin.d014.Kontakion.text End-Reading
-					120 thru 126 use: Reading<r>sid ti.Feast</>sid tyKOin.d120.Kontakion.text End-Reading
-					127 use: Reading<r>sid ti.Saints</>sid tyKOin.d127.Kontakion.text End-Reading
+					71 thru 77 use:
+						Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
+					78 use:
+						Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
+					79 thru 84 use:
+						Reading<r>sid ti.Feast</>sid tyKOin.d078.Kontakion.text End-Reading
+					85 thru 90 use:
+						Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
+					91 use:
+						Reading sid tyKOin.d085.Kontakion.text End-Reading
+					92 thru 94 use:
+						Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
+					95, 96, 97, 98, 100, 101, 102 use:
+						Reading<r>sid ti.Midpentecost</>sid tyKOin.d095.Kontakion.text End-Reading
+					99, 103, 104, 105, 106, 107, 108, 109 use:
+						Reading<r>sid ti.Pascha</>sid tyKOin.d00P.Kontakion.text End-Reading
+					110 thru 118 use:
+						Reading<r>sid ti.Feast</>sid tyKOin.d110.Kontakion.text End-Reading
+					119 use:
+						Reading<r>sid ti.Deceased</>sid tyKOin.d014.Kontakion.text End-Reading
+					120 thru 126 use:
+						Reading<r>sid ti.Feast</>sid tyKOin.d120.Kontakion.text End-Reading
+					127 use:
+						Reading<r>sid ti.Saints</>sid tyKOin.d127.Kontakion.text End-Reading
 					otherwise use:
 						when-date-is
-							Jul 2 use: Reading<r>sid ti.Theotokos</>sid tyKOin.Jul02.Kontakion.text End-Reading
-							Jul 25 use: Reading<r>sid ti.SaintW</>sid tyKOin.Jul25.Kontakion.text End-Reading
-							Jul 27 thru 31 use: Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
+							Jul 2 use:
+								Reading<r>sid ti.Theotokos</>sid tyKOin.Jul02.Kontakion.text End-Reading
+							Jul 25 use:
+								Reading<r>sid ti.SaintW</>sid tyKOin.Jul25.Kontakion.text End-Reading
+							Jul 27 thru 31 use:
+								Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
 							Aug 1 use:
 								when-name-of-day-is
-									Sunday use: Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
-									otherwise use: Reading<r>sid tyKOin.Sep14.Kontakion.title</>sid tyKOin.Sep14.Kontakion.text End-Reading
+									Sunday use:
+										Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
+									otherwise use:
+										Reading<r>sid tyKOin.Sep14.Kontakion.title</>sid tyKOin.Sep14.Kontakion.text End-Reading
 								end-when
-							Aug 2 thru 4 use: Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
-							Aug 5 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Aug05.Kontakion.text End-Reading
-							Aug 6 thru 13 use: Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
-							Aug 14 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Aug14.Kontakion.text End-Reading
-							Aug 15 thru 23 use: Reading<r>sid tyKOin.Aug15.Kontakion.title</>sid tyKOin.Aug15.Kontakion.text End-Reading
-							Aug 24 thru 30 use: Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Aug 31 use: Reading<r>sid ti.Theotokos</>sid tyKOin.Aug31.Kontakion.text End-Reading
-							Sep 1 use: Reading<r>sid ti.Indiction</>sid tyKOin.Sep01.Kontakion.text End-Reading
-							Sep 2 thru 6 use: Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Sep 7 use: Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Sep07.Kontakion.text End-Reading
-							Sep 8 thru 12 use: Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Sep 13 use: Reading<r>sid ti.Consecration</>sid me.m09.d13_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Sep 14 thru 21 use: Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Oct 28 use: Reading<r>sid ti.Theotokos</>sid tyKOin.Oct28.Kontakion.text End-Reading
-							Nov 8 thru 19 use: Reading<r>sid tyKOin.Nov21.Kontakion.title</>sid tyKOin.Nov21.Kontakion.text End-Reading
-							Nov 20 use: Reading<r>sid ti.Forefestal_1hymn</>sid me.m11.d20_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
-							Nov 21 thru 25 use: Reading<r>sid tyKOin.Nov21.Kontakion.title</>sid tyKOin.Nov21.Kontakion.text End-Reading
-							Nov 26 thru 30 use: Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
-							Dec 1 thru 8 use: Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
-							Dec 9 use: Reading<r>sid ti.Feast</>sid tyKOin.Dec09.Kontakion.text End-Reading
-							Dec 10 thru 24 use: Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
-							Dec 25 thru 31 use: Reading<r>sid ti.Feast</>sid tyKOin.Dec25.Kontakion.text End-Reading
-							otherwise use: Reading sid tyKOin.default.text End-Reading
+							Aug 2 thru 4 use:
+								Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
+							Aug 5 use:
+								Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Aug05.Kontakion.text End-Reading
+							Aug 6 thru 13 use:
+								Reading<r>sid tyKOin.Aug06.Kontakion.title</>sid tyKOin.Aug06.Kontakion.text End-Reading
+							Aug 14 use:
+								Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Aug14.Kontakion.text End-Reading
+							Aug 15 thru 23 use:
+								Reading<r>sid tyKOin.Aug15.Kontakion.title</>sid tyKOin.Aug15.Kontakion.text End-Reading
+							Aug 24 thru 30 use:
+								Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Aug 31 use:
+								Reading<r>sid ti.Theotokos</>sid tyKOin.Aug31.Kontakion.text End-Reading
+							Sep 1 use:
+								Reading<r>sid ti.Indiction</>sid tyKOin.Sep01.Kontakion.text End-Reading
+							Sep 2 thru 6 use:
+								Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Sep 7 use:
+								Reading<r>sid ti.Forefestal_1hymn</>sid tyKOin.Sep07.Kontakion.text End-Reading
+							Sep 8 thru 12 use:
+								Reading<r>sid tyKOin.Sep08.Kontakion.title</>sid me.m09.d08_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Sep 13 use:
+								Reading<r>sid ti.Consecration</>sid me.m09.d13_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Sep 14 thru 21 use:
+								Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Oct 28 use:
+								Reading<r>sid ti.Theotokos</>sid tyKOin.Oct28.Kontakion.text End-Reading
+							Nov 8 thru 19 use:
+								Reading<r>sid tyKOin.Nov21.Kontakion.title</>sid tyKOin.Nov21.Kontakion.text End-Reading
+							Nov 20 use:
+								Reading<r>sid ti.Forefestal_1hymn</>sid me.m11.d20_gr_GR_cog.meLI.Kontakion1.incipit End-Reading
+							Nov 21 thru 25 use:
+								Reading<r>sid tyKOin.Nov21.Kontakion.title</>sid tyKOin.Nov21.Kontakion.text End-Reading
+							Nov 26 thru 30 use:
+								Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
+							Dec 1 thru 8 use:
+								Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
+							Dec 9 use:
+								Reading<r>sid ti.Feast</>sid tyKOin.Dec09.Kontakion.text End-Reading
+							Dec 10 thru 24 use:
+								Reading<r>sid tyKOin.Dec20.Kontakion.title</>sid tyKOin.Dec20.Kontakion.text End-Reading
+							Dec 25 thru 31 use:
+								Reading<r>sid ti.Feast</>sid tyKOin.Dec25.Kontakion.text End-Reading
+							otherwise use:
+								Reading sid tyKOin.default.text End-Reading
 						end-when
 				end-when
 		end-when
@@ -1150,7 +1395,8 @@ Status NA
 							Feb 2, 5 use:
 								Para<r>sid tyLIin.theotokoshymn.title sid misc.separator.hyphen sid tyLIin.theotokoshymn.heirmos9.text</>End-Para
 								Reading sid tyLIin.theotokoshymn.meeting.text End-Reading
-							otherwise use: Reading sid tyLIin.theotokoshymn.default.text End-Reading
+							otherwise use:
+								Reading sid tyLIin.theotokoshymn.default.text End-Reading
 						end-when
 					19 use:
 						when-date-is
@@ -1166,7 +1412,8 @@ Status NA
 							Feb 2, 5 use:
 								Para<r>sid tyLIin.theotokoshymn.title sid misc.separator.hyphen sid tyLIin.theotokoshymn.heirmos9.text</>End-Para
 								Reading sid tyLIin.theotokoshymn.meeting.text End-Reading
-							otherwise use: Reading sid tyLIin.theotokoshymn.default.text End-Reading
+							otherwise use:
+								Reading sid tyLIin.theotokoshymn.default.text End-Reading
 						end-when
 					21 use:
 						when-date-is
@@ -1299,69 +1546,99 @@ Status NA
 				when-movable-cycle-day-is
 					1 thru 13 use:
 						when-date-is
-							Feb 2, 9 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 6 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 9 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 6 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-						//	Feb 5 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+						//	Feb 5 use:
+							Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 6 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 6 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					16 use:
 						when-date-is
-							Feb 2, 7 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 6 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 7 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 6 use:
+								Reading sid tyLIin.communionhymn.saints.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					17 use:
 						when-date-is
-							Feb 2, 8 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 6 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 8 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 6 use:
+								Reading sid tyLIin.communionhymn.saints.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					18 use:
 						when-date-is
-							Feb 2, 5 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 5 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					19 use:
 						when-date-is
-							Feb 2, 6 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 6 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					20 use:
 						when-date-is
-							Feb 2, 5 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 5 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 3 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					22 use:
 						when-date-is
-							Feb 2, 7 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 6 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 7 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 6 use:
+								Reading sid tyLIin.communionhymn.saints.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							otherwise use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 					otherwise use:
 						when-date-is
-							Feb 2, 9 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-							Feb 3 thru 8 use: Insert_section communion_hymn_DayOfWeek End-Insert
+							Feb 2, 9 use:
+								Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+							Feb 3 thru 8 use:
+								Insert_section communion_hymn_DayOfWeek End-Insert
 						end-when
 				end-when
 			Mar 25 use:
@@ -1369,35 +1646,56 @@ Status NA
 			otherwise use:
 				Section movable_cycle
 					when-movable-cycle-day-is
-						1, 8, 15, 22 use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-						14 use: Reading sid tyLIin.communionhymn.deceased.text End-Reading
-						21, 28 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-						43 use: Reading sid tyLIin.communionhymn.cross.text End-Reading
-						56 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-						63 use: Reading sid tyLIin.communionhymn.lazarus.text End-Reading
-						64 use: Reading sid tyLIin.communionhymn.palm.text End-Reading
-						71, 72, 73, 74, 75, 76, 77, 85, 92, 99, 106, 109 use: Reading sid tyLIin.communionhymn.pascha.text End-Reading
-						78, 84 use: Reading sid tyLIin.communionhymn.thomas.text End-Reading
-						95, 102 use: Reading sid tyLIin.communionhymn.midpentecost.text End-Reading
-						110, 118 use: Reading sid tyLIin.communionhymn.ascension.text End-Reading
-						113 use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-						119 use: Reading sid tyLIin.communionhymn.deceased.text End-Reading
-						120, 126 use: Reading sid tyLIin.communionhymn.pentecost.text End-Reading
-						121 use: Reading sid tyLIin.communionhymn.holyspirit.text End-Reading
+						1, 8, 15, 22 use:
+							Reading sid tyLIin.communionhymn.sunday.text End-Reading
+						14 use:
+							Reading sid tyLIin.communionhymn.deceased.text End-Reading
+						21, 28 use:
+							Reading sid tyLIin.communionhymn.saints.text End-Reading
+						43 use:
+							Reading sid tyLIin.communionhymn.cross.text End-Reading
+						56 use:
+							Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+						63 use:
+							Reading sid tyLIin.communionhymn.lazarus.text End-Reading
+						64 use:
+							Reading sid tyLIin.communionhymn.palm.text End-Reading
+						71, 72, 73, 74, 75, 76, 77, 85, 92, 99, 106, 109 use:
+							Reading sid tyLIin.communionhymn.pascha.text End-Reading
+						78, 84 use:
+							Reading sid tyLIin.communionhymn.thomas.text End-Reading
+						95, 102 use:
+							Reading sid tyLIin.communionhymn.midpentecost.text End-Reading
+						110, 118 use:
+							Reading sid tyLIin.communionhymn.ascension.text End-Reading
+						113 use:
+							Reading sid tyLIin.communionhymn.sunday.text End-Reading
+						119 use:
+							Reading sid tyLIin.communionhymn.deceased.text End-Reading
+						120, 126 use:
+							Reading sid tyLIin.communionhymn.pentecost.text End-Reading
+						121 use:
+							Reading sid tyLIin.communionhymn.holyspirit.text End-Reading
 						127 use:
 							Section allsaints
 								when-date-is
-									Jun 24 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-									Jun 29, 30 use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
-									Jul 1 use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-									otherwise use: Reading sid tyLIin.communionhymn.righteous.text End-Reading
+									Jun 24 use:
+										Reading sid tyLIin.communionhymn.saints.text End-Reading
+									Jun 29, 30 use:
+										Reading sid tyLIin.communionhymn.apostles.text End-Reading
+									Jul 1 use:
+										Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+									otherwise use:
+										Reading sid tyLIin.communionhymn.righteous.text End-Reading
 								end-when
 							End-Section
 						otherwise use:
 							Section menaion
 								when-date-is
-									Jan 1 use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-									Jan 6, 14 use: Reading sid tyLIin.communionhymn.epiphany.text End-Reading
+									Jan 1 use:
+										Reading sid tyLIin.communionhymn.sunday.text End-Reading
+									Jan 6, 14 use:
+										Reading sid tyLIin.communionhymn.epiphany.text End-Reading
 									Jan 7 use:
 										when-name-of-day-is
 											Sunday use:
@@ -1408,79 +1706,115 @@ Status NA
 										end-when
 									Jan 10, 31 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Jan 11, 17, 18, 20, 25, 27 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Jan 16 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
 									Jan 30 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostles.text End-Reading
 										end-when
 									Feb 1, 10, 24 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Mar 9 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
-									Mar 26 use: Reading sid tyLIin.communionhymn.annunciation.text End-Reading
-									Apr 23 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-									Apr 25, 30 use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
-									May 2, 25 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-									May 8, 10 use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
-									May 21 use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
-									Jun 4 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+									Mar 26 use:
+										Reading sid tyLIin.communionhymn.annunciation.text End-Reading
+									Apr 23 use:
+										Reading sid tyLIin.communionhymn.saints.text End-Reading
+									Apr 25, 30 use:
+										Reading sid tyLIin.communionhymn.apostle.text End-Reading
+									May 2, 25 use:
+										Reading sid tyLIin.communionhymn.saints.text End-Reading
+									May 8, 10 use:
+										Reading sid tyLIin.communionhymn.apostle.text End-Reading
+									May 21 use:
+										Reading sid tyLIin.communionhymn.apostles.text End-Reading
+									Jun 4 use:
+										Reading sid tyLIin.communionhymn.saints.text End-Reading
 									Jun 11 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostles.text End-Reading
 										end-when
-									Jun 24 use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-									Jun 29, 30 use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
+									Jun 24 use:
+										Reading sid tyLIin.communionhymn.saints.text End-Reading
+									Jun 29, 30 use:
+										Reading sid tyLIin.communionhymn.apostles.text End-Reading
 									Jul 1, 5, 7, 8, 11, 15, 17, 26, 27 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Jul 2 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
 										end-when
 									Jul 13 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.angels.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.angels.text End-Reading
 										end-when
 									Jul 20, 25 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.righteous.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.righteous.text End-Reading
 										end-when
 									Aug 1 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.cross.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.cross.text End-Reading
 										end-when
 									Aug 2, 25 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
-									Aug 6 use: Reading sid tyLIin.communionhymn.transfiguration.text End-Reading
+									Aug 6 use:
+										Reading sid tyLIin.communionhymn.transfiguration.text End-Reading
 									Aug 13 use:
 										when-name-of-day-is
 											Sunday use:
@@ -1491,118 +1825,166 @@ Status NA
 										end-when
 									Aug 15, 23 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
 										end-when
-									Aug 16 use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
+									Aug 16 use:
+										Reading sid tyLIin.communionhymn.sunday.text End-Reading
 									Aug 29 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Aug 31 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
 										end-when
 									Sep 1 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.indiction.text<inr>sid ru.Or</>sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.indiction.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.indiction.text<inr>sid ru.Or</>sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.indiction.text End-Reading
 										end-when
 									Sep 6 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.angels.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.angels.text End-Reading
 										end-when
 									Sep 8, 12 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
 										end-when
 									Sep 9 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.righteous.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.righteous.text End-Reading
 										end-when
 									Sep 13 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.consecration.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.consecration.text End-Reading
 										end-when
-									Sep 14 use: Reading sid tyLIin.communionhymn.cross.text End-Reading
+									Sep 14 use:
+										Reading sid tyLIin.communionhymn.cross.text End-Reading
 									Sep 16, 20, 23, 24, 28 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Sep 21 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.cross.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.cross.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.cross.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.cross.text End-Reading
 										end-when
 									Sep 26 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
 									Oct 6, 9, 23 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
 									Oct 18 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
 									Oct 26, 27 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Nov 1, 3, 13 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Nov 8 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.angels.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.angels.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.angels.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.angels.text End-Reading
 										end-when
 									Nov 14, 16, 30 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
 									Nov 21, 25 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.theotokos.text End-Reading
 										end-when
 									Dec 4, 5, 6, 12, 15 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.saints.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
 									Dec 9 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.righteous.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.righteous.text End-Reading
 										end-when
-									Dec 25 use: Reading sid tyLIin.communionhymn.christmas.text End-Reading
+									Dec 25 use:
+										Reading sid tyLIin.communionhymn.christmas.text End-Reading
 									Dec 26, 31 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.christmas.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.christmas.text End-Reading
 										end-when
 									Dec 27 use:
 										when-name-of-day-is
-											Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-											otherwise use: Reading sid tyLIin.communionhymn.apostle.text End-Reading
+											Sunday use:
+												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+											otherwise use:
+												Reading sid tyLIin.communionhymn.apostle.text End-Reading
 										end-when
-									otherwise use: Insert_section communion_hymn_DayOfWeek End-Insert
+									otherwise use:
+										Insert_section communion_hymn_DayOfWeek End-Insert
 								end-when
 							End-Section
 					end-when
@@ -1613,27 +1995,42 @@ Status NA
 	Section after_communion_hymn_incipit
 		Para<r>sid tyLIin.aftercommunion.title</>End-Para
 		when-movable-cycle-day-is
-			43 use: Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-			63 use: Reading<r>sid ti.Feast</>sid tyTRin.lazarus.Apolytikion.text End-Reading
-			64 use: Reading<r>sid ti.Feast</>sid tyTRin.lazarus.Apolytikion.text End-Reading
-			69 use: Reading sid tyTRin.holythursday.hymn.text End-Reading
+			43 use:
+				Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+			63 use:
+				Reading<r>sid ti.Feast</>sid tyTRin.lazarus.Apolytikion.text End-Reading
+			64 use:
+				Reading<r>sid ti.Feast</>sid tyTRin.lazarus.Apolytikion.text End-Reading
+			69 use:
+				Reading sid tyTRin.holythursday.hymn.text End-Reading
 			71 thru 77 use:
 				Reading sid tyPEin.pascha.Apolytikion.text End-Reading
 				Para<r>sid eu.lichrysbasil_gr_GR_cog.euLI.Key1703_pascha.text</>End-Para
 				Reading sid tyPEin.pascha.Apolytikion.text End-Reading
-			78 thru 109 use: Reading sid tyPEin.pascha.Apolytikion.text End-Reading
-			110 thru 118 use: Reading<r>sid ti.Feast</>sid pe.d110_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
-			119 use: Reading sid tyPEin.souls.Apolytikion.text End-Reading
-			120 use: Reading<r>sid ti.Feast</>sid pe.d120_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
-			121 thru 127 use: Reading sid tyLIin.aftercommunion.default End-Reading
+			78 thru 109 use:
+				Reading sid tyPEin.pascha.Apolytikion.text End-Reading
+			110 thru 118 use:
+				Reading<r>sid ti.Feast</>sid pe.d110_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
+			119 use:
+				Reading sid tyPEin.souls.Apolytikion.text End-Reading
+			120 use:
+				Reading<r>sid ti.Feast</>sid pe.d120_gr_GR_cog.peVE.Apolytikion1.incipit End-Reading
+			121 thru 127 use:
+				Reading sid tyLIin.aftercommunion.default End-Reading
 			otherwise use:
 				when-date-is
-					Jan 1 use: Reading<r>sid ti.Feast</>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.incipit End-Reading
-					Jan 6, 7, 14 use: Reading<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Aug 6, 13 use: Reading<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Sep 14, 21 use: Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					Dec 25, 26, 31 use: Reading<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
-					otherwise use: Reading sid tyLIin.aftercommunion.default End-Reading
+					Jan 1 use:
+						Reading<r>sid ti.Feast</>sid me.m01.d01_gr_GR_cog.meVE.Apolytikion2.incipit End-Reading
+					Jan 6, 7, 14 use:
+						Reading<r>sid ti.Feast</>sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Aug 6, 13 use:
+						Reading<r>sid ti.Feast</>sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Sep 14, 21 use:
+						Reading<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					Dec 25, 26, 31 use:
+						Reading<r>sid ti.Feast</>sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.incipit End-Reading
+					otherwise use:
+						Reading sid tyLIin.aftercommunion.default End-Reading
 				end-when
 		end-when
 	End-Section
@@ -1654,15 +2051,19 @@ Status NA
 				Para<r>sid tyLIin.dismissal.title</>sid dis00 sid dis00.pentecost sid dis01.incipit End-Para
 			otherwise use:
 				when-date-is
-					Jan 6 use: Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
-					Mar 25 use: Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
+					Jan 6 use:
+						Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
+					Mar 25 use:
+						Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
 					Mar 26 use:
 						when-name-of-day-is
 							Sunday use:
 								Para<r>sid tyLIin.dismissal.title</>sid dis00 sid dis00.resurrection.incipit End-Para
 						end-when
-					Aug 6 use: Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
-					Dec 25 use: Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
+					Aug 6 use:
+						Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
+					Dec 25 use:
+						Para<r>sid tyLIin.dismissal.title</>sid dis00 rid meDA.dismissal.incipit End-Para
 					otherwise use:
 						when-name-of-day-is
 							Sunday use:
@@ -1733,35 +2134,50 @@ Status NA
 
 			Section liturgy_selector
 				when-date-is
-					Jan 1 use: Title<inr>sid tyLIin.Basil.text</>End-Title
+					Jan 1 use:
+						Title<inr>sid tyLIin.Basil.text</>End-Title
 					Jan 6 use:
 						when-name-of-day-is
-							Sunday, Monday use: Title<inr>sid tyLIin.Basil.text</>End-Title
-							otherwise use: Title<inr>sid tyLIin.Chrysostom.text</>End-Title
+							Sunday, Monday use:
+								Title<inr>sid tyLIin.Basil.text</>End-Title
+							otherwise use:
+								Title<inr>sid tyLIin.Chrysostom.text</>End-Title
 						end-when
-					Mar 25 use: Title<inr>sid tyLIin.Chrysostom.text</>End-Title
+					Mar 25 use:
+						Title<inr>sid tyLIin.Chrysostom.text</>End-Title
 					Dec 25 use:
 						when-name-of-day-is
-							Sunday, Monday use: Title<inr>sid tyLIin.Basil.text</>End-Title
-							otherwise use: Title<inr>sid tyLIin.Chrysostom.text</>End-Title
+							Sunday, Monday use:
+								Title<inr>sid tyLIin.Basil.text</>End-Title
+							otherwise use:
+								Title<inr>sid tyLIin.Chrysostom.text</>End-Title
 						end-when
 					otherwise use:
 						when-movable-cycle-day-is
-							29, 36, 43, 50, 57 use: Title<inr>sid tyLIin.Basil.text</>End-Title
-							otherwise use: Title<inr>sid tyLIin.Chrysostom.text</>End-Title
+							29, 36, 43, 50, 57 use:
+								Title<inr>sid tyLIin.Basil.text</>End-Title
+							otherwise use:
+								Title<inr>sid tyLIin.Chrysostom.text</>End-Title
 						end-when
 				end-when
 			End-Section
 
 			Section communion_hymn_DayOfWeek
 				when-name-of-day-is
-					Sunday use: Reading sid tyLIin.communionhymn.sunday.text End-Reading
-					Monday use: Reading sid tyLIin.communionhymn.angels.text End-Reading
-					Tuesday use: Reading sid tyLIin.communionhymn.saints.text End-Reading
-					Wednesday use: Reading sid tyLIin.communionhymn.theotokos.text End-Reading
-					Thursday use: Reading sid tyLIin.communionhymn.apostles.text End-Reading
-					Friday use: Reading sid tyLIin.communionhymn.cross.text End-Reading
-					Saturday use: Reading sid tyLIin.communionhymn.deceased.text End-Reading
+					Sunday use:
+						Reading sid tyLIin.communionhymn.sunday.text End-Reading
+					Monday use:
+						Reading sid tyLIin.communionhymn.angels.text End-Reading
+					Tuesday use:
+						Reading sid tyLIin.communionhymn.saints.text End-Reading
+					Wednesday use:
+						Reading sid tyLIin.communionhymn.theotokos.text End-Reading
+					Thursday use:
+						Reading sid tyLIin.communionhymn.apostles.text End-Reading
+					Friday use:
+						Reading sid tyLIin.communionhymn.cross.text End-Reading
+					Saturday use:
+						Reading sid tyLIin.communionhymn.deceased.text End-Reading
 				end-when
 			End-Section
 

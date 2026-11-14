@@ -52,6 +52,7 @@ Status NA
 	End-Section
 
 	Title sid ti.Glory sid ti.BothNow sid ti.Alleluia End-Title
+	Verse sid pr.GloryToTheFather.text End-Verse
 
  //without Alleluia, for communion hymn
 	Section Section02

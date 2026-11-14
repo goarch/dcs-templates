@@ -7892,13 +7892,15 @@ Status NA
 					Section sunday
 						when-name-of-day-is
 							Sunday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 					Section saturday
 						when-name-of-day-is
 							Saturday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 				End-Section

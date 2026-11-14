@@ -406,7 +406,8 @@ Status NA
 			End-Section
 			Section gospel_me
 				when-date-is
-					Jan 1, 10, 25, 27 use: Insert_section Nov13 End-Insert
+					Jan 1, 10, 25, 27 use:
+						Insert_section Nov13 End-Insert
 					Jan 6 use:
 						Section Jan06
 							Actor sid ac.Priest End-Actor
@@ -446,7 +447,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Jan 18 use: Insert_section Jan30 End-Insert
+					Jan 18 use:
+						Insert_section Jan30 End-Insert
 					Jan 30 use:
 						Section Jan30
 							Actor sid ac.Priest End-Actor
@@ -512,7 +514,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Mar 25 use: Insert_section Sep08 End-Insert
+					Mar 25 use:
+						Insert_section Sep08 End-Insert
 					Apr 23 use:
 						Section Apr23
 							Actor sid ac.Priest End-Actor
@@ -526,10 +529,14 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					May 8 use: Insert_section Sep26 End-Insert
-					May 21 use: Insert_section Jan30 End-Insert
-					May 25 use: Insert_section Feb24 End-Insert
-					Jun 4 use: Insert_section Nov13 End-Insert
+					May 8 use:
+						Insert_section Sep26 End-Insert
+					May 21 use:
+						Insert_section Jan30 End-Insert
+					May 25 use:
+						Insert_section Feb24 End-Insert
+					Jun 4 use:
+						Insert_section Nov13 End-Insert
 					Jun 24 use:
 						Section Jun24
 							Actor sid ac.Priest End-Actor
@@ -543,7 +550,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Jun 29 use: Insert_section Sep26 End-Insert
+					Jun 29 use:
+						Insert_section Sep26 End-Insert
 					Jul 11 use:
 						Section Jul11
 							Actor sid ac.Priest End-Actor
@@ -597,7 +605,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Aug 15 use: Insert_section Sep08 End-Insert
+					Aug 15 use:
+						Insert_section Sep08 End-Insert
 					Aug 29 use:
 						Section Aug29
 							Actor sid ac.Priest End-Actor
@@ -611,7 +620,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Sep 1 use: Insert_section Jan17 End-Insert
+					Sep 1 use:
+						Insert_section Jan17 End-Insert
 					Sep 8 use:
 						Section Sep08
 							Actor sid ac.Priest End-Actor
@@ -677,8 +687,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Nov 2 use: Insert_section Oct26 End-Insert
-					Nov 3 use: Insert_section Apr23 End-Insert
+					Nov 2 use:
+						Insert_section Oct26 End-Insert
+					Nov 3 use:
+						Insert_section Apr23 End-Insert
 					Nov 8 use:
 						Section Nov08
 							Actor sid ac.Priest End-Actor
@@ -705,7 +717,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Nov 21 use: Insert_section Sep08 End-Insert
+					Nov 21 use:
+						Insert_section Sep08 End-Insert
 					Nov 25 use:
 						Section Nov25
 							Actor sid ac.Priest End-Actor
@@ -758,7 +771,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Dec 6, 12, 16 use: Insert_section Nov13 End-Insert
+					Dec 6, 12, 16 use:
+						Insert_section Nov13 End-Insert
 					Dec 25 use:
 						Section Dec25
 							Actor sid ac.Priest End-Actor
@@ -776,7 +790,8 @@ Status NA
 			End-Section
 			Section gospel_mealt1
 				when-date-is
-					Feb 6 use: Insert_section gospel_me.Nov13 End-Insert
+					Feb 6 use:
+						Insert_section gospel_me.Nov13 End-Insert
 					Feb 7 use:
 						Section Feb07
 							Actor sid ac.Priest End-Actor
@@ -881,8 +896,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Jul 25 use: Insert_section gospel_me.Sep08 End-Insert
-					Aug 16 use: Insert_section gospel_me.Dec05 End-Insert
+					Jul 25 use:
+						Insert_section gospel_me.Sep08 End-Insert
+					Aug 16 use:
+						Insert_section gospel_me.Dec05 End-Insert
 					Aug 24 use:
 						Section Aug24_StCosmas
 							Actor sid ac.Priest End-Actor
@@ -897,11 +914,16 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Aug 27 use: Insert_section gospel_me.Apr23 End-Insert
-					Sep 3 use: Insert_section gospel_me.Nov13 End-Insert
-					Sep 7 use: Insert_section gospel_me.Dec04 End-Insert
-					Sep 17 use: Insert_section gospel_me.Sep17 End-Insert
-					Sep 24 use: Insert_section gospel_me.Sep08 End-Insert
+					Aug 27 use:
+						Insert_section gospel_me.Apr23 End-Insert
+					Sep 3 use:
+						Insert_section gospel_me.Nov13 End-Insert
+					Sep 7 use:
+						Insert_section gospel_me.Dec04 End-Insert
+					Sep 17 use:
+						Insert_section gospel_me.Sep17 End-Insert
+					Sep 24 use:
+						Insert_section gospel_me.Sep08 End-Insert
 					Oct 18 use:
 						Section Oct18
 							Actor sid ac.Priest End-Actor
@@ -915,8 +937,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Oct 20 use: Insert_section gospel_me.Dec05 End-Insert
-					Oct 1, 28 use: Insert_section gospel_me.Sep08 End-Insert
+					Oct 20 use:
+						Insert_section gospel_me.Dec05 End-Insert
+					Oct 1, 28 use:
+						Insert_section gospel_me.Sep08 End-Insert
 					Oct 23 use:
 						Section Oct23_StJames
 							Actor sid ac.Priest End-Actor
@@ -943,7 +967,8 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Nov 14 use: Insert_section gospel_me.Nov13 End-Insert
+					Nov 14 use:
+						Insert_section gospel_me.Nov13 End-Insert
 					Nov 16 use:
 						Section Nov16
 							Actor sid ac.Priest End-Actor
@@ -958,8 +983,10 @@ Status NA
 							Actor sid ac.Choir End-Actor
 							Dialog sid pr.GloryToYouLord.text End-Dialog
 						End-Section
-					Nov 22, 26 use: Insert_section gospel_me.Dec05 End-Insert
-					Dec 2 use: Insert_section gospel_me.Jan17 End-Insert
+					Nov 22, 26 use:
+						Insert_section gospel_me.Dec05 End-Insert
+					Dec 2 use:
+						Insert_section gospel_me.Jan17 End-Insert
 					Dec 17 use:
 						Section Dec17_StDionysios
 							Actor sid ac.Priest End-Actor
@@ -1201,9 +1228,11 @@ Status NA
 					Section tr
 						Title role desig sid ti.IdiomelaTriodion End-Title
 						Title sid ti.Glory<Tmode>sid tr.d001_gr_GR_cog.trMA.PostGospelGlory.mode</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Media sid tr.d001_gr_GR_cog.trMA.PostGospelGlory.text End-Media
 						Hymn sid tr.d001_gr_GR_cog.trMA.PostGospelGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tmode>sid ti.SameMode</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media sid tr.d001_gr_GR_cog.trMA.PostGospelBoth.text End-Media
 						Hymn sid tr.d001_gr_GR_cog.trMA.PostGospelBoth.text @ver media-off End-Hymn
 						Title role desig sid misc.Idiomelon<Tmode>sid tr.d001_gr_GR_cog.trMA.PostGospelIdiomelon.mode</>End-Title
@@ -1214,9 +1243,11 @@ Status NA
 				otherwise use:
 					Section notr
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Media sid ho.ho03_gr_GR_cog.hoMA.PostGospelApostles.text End-Media
 						Hymn sid ho.ho03_gr_GR_cog.hoMA.PostGospelApostles.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media sid ho.ho03_gr_GR_cog.hoMA.PostGospelTheotokos.text End-Media
 						Hymn sid ho.ho03_gr_GR_cog.hoMA.PostGospelTheotokos.text @ver media-off End-Hymn
 						Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psMA.postgospelverse.v1.text End-Verse
@@ -1233,8 +1264,10 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media rid trMA.PostGospelGlory.text End-Media
 					Title sid ti.Glory<Tmode>rid trMA.PostGospelGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.PostGospelGlory.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tmode>sid ti.SameMode</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.PostGospelBoth.text @ver media-off End-Hymn
 					Title role desig sid misc.Idiomelon<Tmode>rid trMA.PostGospelIdiomelon.mode</>End-Title
 					Media rid trMA.PostGospelIdiomelon.text End-Media
@@ -1247,8 +1280,10 @@ Status NA
 					Actor sid ac.Choir End-Actor
 					Media rid peMA.PostGospelGlory.text End-Media
 					Title sid ti.Glory<Tmode>rid peMA.PostGospelGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid peMA.PostGospelGlory.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tmode>sid ti.SameMode</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.PostGospelBoth.text @ver media-off End-Hymn
 					Title role desig sid misc.Idiomelon<Tmode>rid peMA.PostGospelIdiomelon.mode</>End-Title
 					Media rid peMA.PostGospelIdiomelon.text End-Media
@@ -1261,9 +1296,11 @@ Status NA
 		Para role source sid ti.sourceMenaion End-Para
 		Actor sid ac.Choir End-Actor
 		Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media rid meMA.PostGospelGlory.text End-Media
 		Hymn rid meMA.PostGospelGlory.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media rid meMA.PostGospelBoth.text End-Media
 		Hymn rid meMA.PostGospelBoth.text @ver media-off End-Hymn
 		Title role desig sid misc.Idiomelon<Tmode>rid meMA.PostGospelIdiomelon.mode</>End-Title
@@ -1287,9 +1324,11 @@ Status NA
 		Para role source sid ti.sourceMeSupplement End-Para
 		Actor sid ac.Choir End-Actor
 		Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media rid alt1.meMA.PostGospelGlory.text End-Media
 		Hymn rid alt1.meMA.PostGospelGlory.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media rid alt1.meMA.PostGospelBoth.text End-Media
 		Hymn rid alt1.meMA.PostGospelBoth.text @ver media-off End-Hymn
 		Title role desig sid misc.Idiomelon<Tmode>rid alt1.meMA.PostGospelIdiomelon.mode</>End-Title
@@ -1309,9 +1348,11 @@ Status NA
 		Para role source sid ti.sourceMeSupplement End-Para
 		Actor sid ac.Choir End-Actor
 		Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media rid alt2.meMA.PostGospelGlory.text End-Media
 		Hymn rid alt2.meMA.PostGospelGlory.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media rid alt2.meMA.PostGospelBoth.text End-Media
 		Hymn rid alt2.meMA.PostGospelBoth.text @ver media-off End-Hymn
 		Title role desig sid misc.Idiomelon<Tmode>rid alt2.meMA.PostGospelIdiomelon.mode</>End-Title
@@ -1331,9 +1372,11 @@ Status NA
 		Para role source sid ti.sourcePeSupplement End-Para
 		Actor sid ac.Choir End-Actor
 		Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media rid alt1.peMA.PostGospelGlory.text End-Media
 		Hymn rid alt1.peMA.PostGospelGlory.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media rid alt1.peMA.PostGospelBoth.text End-Media
 		Hymn rid alt1.peMA.PostGospelBoth.text @ver media-off End-Hymn
 		Title role desig sid misc.Idiomelon<Tmode>rid alt1.peMA.PostGospelIdiomelon.mode</>End-Title

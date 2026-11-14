@@ -75,6 +75,7 @@ Status Final
 				Insert_section TI.g.r End-Insert
 				Section theotokion
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Para role source0 sid ti.sourceOctoechos End-Para
 					Title role mode sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.mode<Tmelody>sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.melody</>End-Title
 					Media sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.text End-Media
@@ -98,8 +99,10 @@ Status Final
 				Insert_section MA._12_Exaposteilarion__.append__.me__.exap1 End-Insert
 				Insert_section MA._12_Exaposteilarion__.append__.pascha_ End-Insert
 				when-movable-cycle-day-is
-					75 use: Insert_section MA._13_Lauds__.mode5__.noStichologia End-Insert
-					77 use: Insert_section MA._13_Lauds__.mode8__.noStichologia End-Insert
+					75 use:
+						Insert_section MA._13_Lauds__.mode5__.noStichologia End-Insert
+					77 use:
+						Insert_section MA._13_Lauds__.mode8__.noStichologia End-Insert
 				end-when
 				Insert_section MA._13_Lauds__.pe__.s_1234as1234 End-Insert
 				Insert_section TI.me.com1 End-Insert
@@ -453,6 +456,8 @@ Status Final
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section
@@ -464,6 +469,8 @@ Status Final
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section

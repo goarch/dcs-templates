@@ -50,6 +50,7 @@ Status NA
 		Reading<anum>sid misc.anum24</>sid liturgical.verses_gr_GR_cog.psHO.ecloge.pentecost.v24.text @ver sid ti.Alleluia<reference>sid liturgical.verses_gr_GR_cog.psHO.ecloge.pentecost.v24.info</>End-Reading
 	End-Section
 	Title sid ti.Glory sid ti.BothNow sid ti.Alleluia End-Title
+	Verse sid pr.GloryToTheFather.text End-Verse
 
  //without Alleluia, for communion hymn
 	Section Section02

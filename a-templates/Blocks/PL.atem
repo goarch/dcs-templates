@@ -406,6 +406,8 @@ Status NA
 							47 use:
 								Section cross
 									Title sid ti.GloryBothNow<Tmode>rid trVE.SticGlory.mode</>End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role desig sid ti.Cross End-Title
 									Media rid trVE.SticGlory.text End-Media
 									Hymn rid trVE.SticGlory.text @ver media-off End-Hymn
@@ -415,6 +417,8 @@ Status NA
 									Wednesday, Friday use:
 										Section stavrotheotokion
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid meVE.SticStavrotheotokion.mode<Tmelody>rid meVE.SticStavrotheotokion.melody</>End-Title
 											Media rid meVE.SticStavrotheotokion.text End-Media
 											Hymn rid meVE.SticStavrotheotokion.text @ver media-off End-Hymn
@@ -422,6 +426,8 @@ Status NA
 									otherwise use:
 										Section theotokion
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid meVE.SticTheotokion.mode<Tmelody>rid meVE.SticTheotokion.melody</>End-Title
 											Media rid meVE.SticTheotokion.text End-Media
 											Hymn rid meVE.SticTheotokion.text @ver media-off End-Hymn
@@ -479,6 +485,7 @@ Status NA
 						otherwise use:
 							Section Glory
 								Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid octrVE.SticGlory.mode End-Title
 								Media rid octrVE.SticGlory.text End-Media
 								Hymn rid octrVE.SticGlory.text @ver media-off End-Hymn
@@ -738,9 +745,12 @@ Status NA
 		Section hymn
 			Title role desig sid ti.CommunionHymn End-Title
 			when-date-is
-				Feb 11, 25 use: Insert_section Selector_CommunionHymn.Various.saints End-Insert
-				Mar 10 use: Insert_section Selector_CommunionHymn.Various.saints End-Insert
-				Apr 26 use: Insert_section Selector_CommunionHymn.Various.apostle End-Insert
+				Feb 11, 25 use:
+					Insert_section Selector_CommunionHymn.Various.saints End-Insert
+				Mar 10 use:
+					Insert_section Selector_CommunionHymn.Various.saints End-Insert
+				Apr 26 use:
+					Insert_section Selector_CommunionHymn.Various.apostle End-Insert
 				otherwise use:
 					Media sid eu.lipresanctified_gr_GR_cog.euPL.MM.Key1201.text End-Media
 					Hymn sid liturgical.verses_gr_GR_cog.psPL.communion.v1.text @ver media-off sid pr.Alleluia1.text End-Hymn

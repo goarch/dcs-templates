@@ -110,6 +110,7 @@ Status Final
 		Para role greekmelody sid eu.unction_gr_GR_cog.euUNC.Kathisma11.greekmelody End-Para
 		Hymn sid eu.unction_gr_GR_cog.euUNC.Kathisma11.text @ver End-Hymn
 		Title sid ti.Glory sid ti.BothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Title role desig sid eu.unction_gr_GR_cog.euUNC.Kathisma12.mode<Tmelody>sid eu.unction_gr_GR_cog.euUNC.Kathisma12.melody</>End-Title
 		Para role greekmelody sid eu.unction_gr_GR_cog.euUNC.Kathisma12.greekmelody End-Para
 		Hymn sid eu.unction_gr_GR_cog.euUNC.Kathisma12.text @ver End-Hymn
@@ -646,6 +647,7 @@ Status Final
 		Media sid me.m11.d01_gr_GR_cog.meMA.LaudsGlory.text End-Media
 		Hymn sid me.m11.d01_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
 		Title sid ti.Glory sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Title role mode sid misc.Mode4 End-Title
 		Media sid oc.m4.d1_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 		Hymn sid oc.m4.d1_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn

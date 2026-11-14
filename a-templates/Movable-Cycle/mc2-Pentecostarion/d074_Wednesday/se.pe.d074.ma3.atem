@@ -235,6 +235,7 @@ Status NA
 			Insert_section TI.g.r End-Insert
 			Section theotokion
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceOctoechos End-Para
 				Title role mode sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.mode<Tmelody>sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.melody</>End-Title
 				Media sid oc.m4.d5_gr_GR_cog.ocMA.Kathisma13.text End-Media

@@ -337,6 +337,7 @@ Status NA
 		Title role desig sid ti.Resurrectional_1hymn End-Title
 		Section Apolytikion_2
 			Title sid ti.Glory<Tdesig>sid ti.Saints</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Section hymn
 				Title role mode sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 				Media sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.text End-Media
@@ -345,6 +346,7 @@ Status NA
 		End-Section
 		Section Apolytikion_3
 			Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Section hymn
 				Title role mode sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
 				Media sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Media
@@ -381,6 +383,7 @@ Status NA
 		End-Section
 		Section Apolytikion_2
 			Title sid ti.Glory<Tdesig>sid ti.DevoutSaintM</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Section hymn
 				Title role mode sid he.ga_gr_GR_cog.heGA.OrthodoxiasOdigeM.mode End-Title
 				Media sid me.m12.d27_gr_GR_cog.meVE.MM.GeneralApolytikion2.text End-Media

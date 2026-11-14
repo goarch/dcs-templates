@@ -277,8 +277,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -291,8 +293,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -338,8 +342,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -370,8 +376,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -387,8 +395,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -402,8 +412,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -434,8 +446,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -449,8 +463,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -466,8 +482,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -481,8 +499,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -513,8 +533,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -530,8 +552,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -562,8 +586,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C14.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -577,8 +603,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -609,8 +637,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -624,8 +654,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -641,8 +673,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -656,8 +690,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -673,8 +709,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -720,8 +758,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 					End-Section
 					Section ode6c2_as910GB
@@ -735,8 +775,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -753,8 +795,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -786,8 +830,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -803,8 +849,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -836,8 +884,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 						Section ode6c2_12TrTas910GB
@@ -851,8 +901,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -868,8 +920,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -885,8 +939,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -918,8 +974,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 						Section ode6c2_123Tas910GB
@@ -933,8 +991,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C23.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -966,8 +1026,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -983,8 +1045,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -1000,8 +1064,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C1H.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 						End-Section
 						Section ode6c2_HH12as910GB
@@ -1015,8 +1081,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C2H.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -1032,8 +1100,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -1112,8 +1182,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_112Tas910GB
@@ -1127,8 +1199,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_1123as910GB
@@ -1142,8 +1216,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_1234as910GB
@@ -1157,8 +1233,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1172,8 +1250,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_124Tas910GB
@@ -1187,8 +1267,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_12_1Tas910GB_dec04
@@ -1202,8 +1284,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_445Tas910GB
@@ -1217,8 +1301,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C15.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1234,8 +1320,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_1123as910GB
@@ -1249,8 +1337,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_112Tas910GB
@@ -1264,8 +1354,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_1234as910GB
@@ -1279,8 +1371,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C24.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1294,8 +1388,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_12TrTas910GB
@@ -1309,8 +1405,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C2Tr.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1326,8 +1424,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid meMA.Ode6C32.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Ode6C33.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode6C3T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1374,8 +1474,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_1234as910GB
@@ -1389,8 +1491,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1404,8 +1508,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1437,8 +1543,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C24.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1452,8 +1560,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1469,8 +1579,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid alt1.meMA.Ode6C32.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid alt1.meMA.Ode6C33.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode6C3T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1502,8 +1614,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C14.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1517,8 +1631,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_12TrTas910GB
@@ -1532,8 +1648,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C1Tr.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1549,8 +1667,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1564,8 +1684,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C23.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_12TrTas910GB
@@ -1579,8 +1701,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode6C2Tr.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1612,8 +1736,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid peMA.Ode6C11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
 				End-Section
 				Section ode6_123Tas910GB
@@ -1627,8 +1753,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.Ode6C1T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1644,8 +1772,10 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					Hymn rid peMA.Ode6C22.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid peMA.Ode6C2Tr.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.Ode6C2T.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1957,8 +2087,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid ocLI.Beatitudes6.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -1987,14 +2119,18 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					when-name-of-day-is
 						Saturday use:
-						otherwise use: Title role desig sid ti.ForMartyrs_1hymn End-Title
+						otherwise use:
+							Title role desig sid ti.ForMartyrs_1hymn End-Title
 					end-when
 					Hymn rid ocLI.Beatitudes4.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
 					when-name-of-day-is
-						Wednesday, Friday use: Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
-						otherwise use: Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Wednesday, Friday use:
+							Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						otherwise use:
+							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
 					end-when
 					Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
 				End-Section
@@ -3189,8 +3325,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3204,8 +3342,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m01.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3252,8 +3392,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m02.d02_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3285,8 +3427,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m07.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3303,8 +3447,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3319,8 +3465,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m08.d06_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3352,8 +3500,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3368,8 +3518,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m08.d15_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3386,8 +3538,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3402,8 +3556,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m09.d08_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3435,8 +3591,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m09.d14_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3453,8 +3611,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m10.dHF_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3486,8 +3646,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C13.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C14.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3502,8 +3664,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2Tr.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m11.d21_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3535,8 +3699,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3551,8 +3717,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3569,8 +3737,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C1T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3585,8 +3755,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3603,8 +3775,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C23.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dFF_gr_GR_cog.meMA.Ode6C2T.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3651,8 +3825,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C11.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C12.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3667,8 +3843,10 @@ Status NA
 							Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C21.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.d25_gr_GR_cog.meMA.Ode6C22.text @ver media-off End-Hymn
 							Para role erc_li_beatitudes sid misc.custcontent End-Para
 						End-Section
@@ -3686,8 +3864,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.BothNow End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d078_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3720,8 +3900,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d085_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3738,8 +3920,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1F2.text @ver media-off End-Hymn
 								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d092_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3772,8 +3956,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3788,8 +3974,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2Tr.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d095_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3806,8 +3994,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
 								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d099_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3824,8 +4014,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1F1.text @ver media-off End-Hymn
 								Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1Tr.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d106_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3858,8 +4050,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3874,8 +4068,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C23.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d110_gr_GR_cog.peMA.Ode6C2T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3908,8 +4104,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d113_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3926,8 +4124,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d119_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3944,8 +4144,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C1H.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C11.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3960,8 +4162,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C2H.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C21.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d120_gr_GR_cog.peMA.Ode6C22.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -3978,8 +4182,10 @@ Status NA
 								Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C12.text @ver media-off End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C13.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid pe.d127_gr_GR_cog.peMA.Ode6C1T.text @ver media-off End-Hymn
 								Para role erc_li_beatitudes sid misc.custcontent End-Para
 							End-Section
@@ -4059,8 +4265,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4075,8 +4283,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4091,8 +4301,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4107,8 +4319,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4123,8 +4337,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4139,8 +4355,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4155,8 +4373,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4171,8 +4391,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C14.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C15.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4189,8 +4411,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4205,8 +4429,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4221,8 +4447,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4237,8 +4465,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C24.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4253,8 +4483,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4269,8 +4501,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C2Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4287,8 +4521,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid meMA.Ode6C32.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Ode6C33.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Ode6C3T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4336,8 +4572,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4352,8 +4590,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C14.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4368,8 +4608,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4402,8 +4644,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C24.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4418,8 +4662,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4436,8 +4682,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid alt1.meMA.Ode6C32.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid alt1.meMA.Ode6C33.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Ode6C3T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4470,8 +4718,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C14.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4486,8 +4736,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4502,8 +4754,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C1Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4520,8 +4774,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4536,8 +4792,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C23.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4552,8 +4810,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid trMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid trMA.Ode6C2Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4586,8 +4846,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid peMA.Ode6C11.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4602,8 +4864,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid peMA.Ode6C12.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid peMA.Ode6C13.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid peMA.Ode6C1T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -4620,8 +4884,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid peMA.Ode6C22.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid peMA.Ode6C2Tr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid peMA.Ode6C2T.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -5632,8 +5898,10 @@ Status NA
 						Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 						Hymn rid ocLI.Beatitudes6.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
 						Para role erc_li_beatitudes sid misc.custcontent End-Para
 					End-Section
@@ -5736,16 +6004,20 @@ Status NA
 					Verse sid le.go.os_gr_GR_cog.leosTY.Beatitudes_v10.text @ver End-Verse
 					when-name-of-day-is
 						Saturday use:
-						otherwise use: Title role desig sid ti.ForMartyrs_1hymn End-Title
+						otherwise use:
+							Title role desig sid ti.ForMartyrs_1hymn End-Title
 					end-when
 					Hymn rid ocLI.Beatitudes4.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid ocLI.BeatitudesTr.text @ver media-off End-Hymn
 					when-name-of-day-is
 						Wednesday, Friday use:
 							Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Hymn rid ocLI.BeatitudesT.text @ver media-off End-Hymn
 					Para role erc_li_beatitudes sid misc.custcontent End-Para

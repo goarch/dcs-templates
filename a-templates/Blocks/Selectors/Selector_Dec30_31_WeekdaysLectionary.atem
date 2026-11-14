@@ -40,7 +40,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_friday End-Insert
 						
 						//2028
-						329 use: 
+						329 use:
 							Insert_section LE._02_Gospel__.christmas__.satAC_ End-Insert
 						
 						//2029
@@ -48,7 +48,7 @@ Status NA
 							Insert_section LE._02_Gospel__.christmas__.sunAC_ End-Insert
 						
 						//2030
-						317 use: 
+						317 use:
 							Insert_section LE._02_Gospel__.daily_ End-Insert
 						
 						//2031
@@ -71,7 +71,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_saturday End-Insert
 						
 						//2028
-						330 use: 
+						330 use:
 							Insert_section LE._02_Gospel__.epiphany__.sunBE_ End-Insert
 						
 						//2029
@@ -79,7 +79,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.pretriodiongospels__.week_14_monday End-Insert
 						
 						//2030
-						318 use: 
+						318 use:
 							Insert_section LE._02_Gospel__.daily_ End-Insert
 						
 						//2031
@@ -107,7 +107,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_friday End-Insert
 						
 						//2028
-						329 use: 
+						329 use:
 							Insert_section LE._02_Gospel__.textonly__.christmas__.satAC_ End-Insert
 						
 						//2029
@@ -115,7 +115,7 @@ Status NA
 							Insert_section LE._02_Gospel__.textonly__.christmas__.sunAC_ End-Insert
 						
 						//2030
-						317 use: 
+						317 use:
 							Insert_section LE._02_Gospel__.textonly__.daily End-Insert
 						
 						//2031
@@ -138,7 +138,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_saturday End-Insert
 						
 						//2028
-						330 use: 
+						330 use:
 							Insert_section LE._02_Gospel__.textonly__.epiphany__.sunBE_ End-Insert
 						
 						//2029
@@ -146,7 +146,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_monday End-Insert
 						
 						//2030
-						318 use: 
+						318 use:
 							Insert_section LE._02_Gospel__.textonly__.daily End-Insert
 						
 						//2031
@@ -174,7 +174,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_friday.lesson End-Insert
 						
 						//2028
-						329 use: 
+						329 use:
 							Insert_section LE._02_Gospel__.textonly__.christmas__.satAC_.lesson End-Insert
 						
 						//2029
@@ -182,7 +182,7 @@ Status NA
 							Insert_section LE._02_Gospel__.textonly__.christmas__.sunAC_.lesson End-Insert
 						
 						//2030
-						317 use: 
+						317 use:
 							Insert_section LE._02_Gospel__.textonly__.daily.lesson End-Insert
 						
 						//2031
@@ -205,7 +205,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_saturday.lesson End-Insert
 						
 						//2028
-						330 use: 
+						330 use:
 							Insert_section LE._02_Gospel__.textonly__.epiphany__.sunBE_.lesson End-Insert
 						
 						//2029
@@ -213,7 +213,7 @@ Status NA
 							Insert_section Selector_PreTriodionWeekdaysLectionary.textonly_pretriodiongospels__.week_14_monday.lesson End-Insert
 						
 						//2030
-						318 use: 
+						318 use:
 							Insert_section LE._02_Gospel__.textonly__.daily.lesson End-Insert
 						
 						//2031
@@ -3482,13 +3482,15 @@ Status NA
 					Section sunday
 						when-name-of-day-is
 							Sunday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 					Section saturday
 						when-name-of-day-is
 							Saturday use:
-							otherwise use: Title role smalldesig sid ti.SkippedEpistleP End-Title
+							otherwise use:
+								Title role smalldesig sid ti.SkippedEpistleP End-Title
 						end-when
 					End-Section
 				End-Section

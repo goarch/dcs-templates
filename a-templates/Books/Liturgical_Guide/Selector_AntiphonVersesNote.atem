@@ -25,27 +25,44 @@ Template Selector_AntiphonVersesNote
 
 	Section note
 		when-date-is
-			Jan 1 use: Reading<r>sid tyLIin.antiphon_verses.jan01.note</>End-Reading
-			Jan 6 thru 14 use: Reading<r>sid tyLIin.antiphon_verses.jan06.note</>End-Reading
-			Feb 2 thru 9 use: Reading<r>sid tyLIin.antiphon_verses.feb02.note</>End-Reading
-			Mar 25 use: Reading<r>sid tyLIin.antiphon_verses.mar25.note</>End-Reading
+			Jan 1 use:
+				Reading<r>sid tyLIin.antiphon_verses.jan01.note</>End-Reading
+			Jan 6 thru 14 use:
+				Reading<r>sid tyLIin.antiphon_verses.jan06.note</>End-Reading
+			Feb 2 thru 9 use:
+				Reading<r>sid tyLIin.antiphon_verses.feb02.note</>End-Reading
+			Mar 25 use:
+				Reading<r>sid tyLIin.antiphon_verses.mar25.note</>End-Reading
 			otherwise use:
 				when-movable-cycle-day-is
-					29 use: Reading<r>sid tyLIin.antiphon_verses.lent1.note</>End-Reading
-					43 use: Reading<r>sid tyLIin.antiphon_verses.lent3.note</>End-Reading
-					64 use: Reading<r>sid tyLIin.antiphon_verses.palm.note</>End-Reading
-					71 thru 109 use: Reading<r>sid tyLIin.antiphon_verses.pascha.note</>End-Reading
-					110 thru 118 use: Reading<r>sid tyLIin.antiphon_verses.ascension.note</>End-Reading
-					120 thru 126 use: Reading<r>sid tyLIin.antiphon_verses.pentecost.note</>End-Reading
+					29 use:
+						Reading<r>sid tyLIin.antiphon_verses.lent1.note</>End-Reading
+					43 use:
+						Reading<r>sid tyLIin.antiphon_verses.lent3.note</>End-Reading
+					64 use:
+						Reading<r>sid tyLIin.antiphon_verses.palm.note</>End-Reading
+					71 thru 109 use:
+						Reading<r>sid tyLIin.antiphon_verses.pascha.note</>End-Reading
+					110 thru 118 use:
+						Reading<r>sid tyLIin.antiphon_verses.ascension.note</>End-Reading
+					120 thru 126 use:
+						Reading<r>sid tyLIin.antiphon_verses.pentecost.note</>End-Reading
 					otherwise use:
 						when-date-is
-							Aug 6 thru 13 use: Reading<r>sid tyLIin.antiphon_verses.aug06.note</>End-Reading
-							Aug 15 thru 23 use: Reading<r>sid tyLIin.antiphon_verses.aug15.note</>End-Reading
-							Sep 8 thru 12 use: Reading<r>sid tyLIin.antiphon_verses.sep08.note</>End-Reading
-							Sep 14 thru 22 use: Reading<r>sid tyLIin.antiphon_verses.sep14.note</>End-Reading
-							Nov 21 thru 25 use: Reading<r>sid tyLIin.antiphon_verses.nov21.note</>End-Reading
-							Dec 25 thru 31 use: Reading<r>sid tyLIin.antiphon_verses.dec25.note</>End-Reading
-							otherwise use: Reading<r>sid tyLIin.antiphon_verses.sunday.note</>End-Reading
+							Aug 6 thru 13 use:
+								Reading<r>sid tyLIin.antiphon_verses.aug06.note</>End-Reading
+							Aug 15 thru 23 use:
+								Reading<r>sid tyLIin.antiphon_verses.aug15.note</>End-Reading
+							Sep 8 thru 12 use:
+								Reading<r>sid tyLIin.antiphon_verses.sep08.note</>End-Reading
+							Sep 14 thru 22 use:
+								Reading<r>sid tyLIin.antiphon_verses.sep14.note</>End-Reading
+							Nov 21 thru 25 use:
+								Reading<r>sid tyLIin.antiphon_verses.nov21.note</>End-Reading
+							Dec 25 thru 31 use:
+								Reading<r>sid tyLIin.antiphon_verses.dec25.note</>End-Reading
+							otherwise use:
+								Reading<r>sid tyLIin.antiphon_verses.sunday.note</>End-Reading
 						end-when
 				end-when
 		end-when

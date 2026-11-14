@@ -80,6 +80,7 @@ Status Final
 						Insert_section VE._06_Litanies__.fullektenia End-Insert
 						Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
 						Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 							Set_Date month 2 day 2 year 2027 End_Date
 							Insert_section TI.b.f End-Insert

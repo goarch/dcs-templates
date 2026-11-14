@@ -62,14 +62,22 @@ Status NA
 				End-Section
 				Insert_section PL._01_Beginning End-Insert
 				when-movable-cycle-day-is
-					25, 26, 45 use: Insert_section PL._02_LordIHaveCried__.mode8__.for10 End-Insert
-					31, 32, 46 use: Insert_section PL._02_LordIHaveCried__.mode3__.for10 End-Insert
-					33 use: Insert_section PL._02_LordIHaveCried__.mode1__.for10 End-Insert
-					34 use: Insert_section PL._02_LordIHaveCried__.mode5__.for10 End-Insert
-					27, 35, 40 use: Insert_section PL._02_LordIHaveCried__.mode4__.for10 End-Insert
-					38, 39 use: Insert_section PL._02_LordIHaveCried__.mode2__.for10 End-Insert
-					41 use: Insert_section PL._02_LordIHaveCried__.mode6__.for10 End-Insert
-					42 use: Insert_section PL._02_LordIHaveCried__.mode7__.for10 End-Insert
+					25, 26, 45 use:
+						Insert_section PL._02_LordIHaveCried__.mode8__.for10 End-Insert
+					31, 32, 46 use:
+						Insert_section PL._02_LordIHaveCried__.mode3__.for10 End-Insert
+					33 use:
+						Insert_section PL._02_LordIHaveCried__.mode1__.for10 End-Insert
+					34 use:
+						Insert_section PL._02_LordIHaveCried__.mode5__.for10 End-Insert
+					27, 35, 40 use:
+						Insert_section PL._02_LordIHaveCried__.mode4__.for10 End-Insert
+					38, 39 use:
+						Insert_section PL._02_LordIHaveCried__.mode2__.for10 End-Insert
+					41 use:
+						Insert_section PL._02_LordIHaveCried__.mode6__.for10 End-Insert
+					42 use:
+						Insert_section PL._02_LordIHaveCried__.mode7__.for10 End-Insert
 				end-when
 				Insert_section PL._03_Stichera_.montuewedthur_.Idiomela_Triodion End-Insert
 				Insert_section PL._03_Stichera_.montuewedthur_.Stichera_Triodion End-Insert
@@ -81,6 +89,7 @@ Status NA
 				when-name-of-day-is
 					Wednesday, Friday use:
 						Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid oc.m6.d4_gr_GR_cog.ocVE.SticTheotokion.mode<Tmelody>sid oc.m6.d4_gr_GR_cog.ocVE.SticTheotokion.melody</>End-Title
 						Media sid oc.m6.d4_gr_GR_cog.ocVE.SticTheotokion.text End-Media
 						Hymn sid oc.m6.d4_gr_GR_cog.ocVE.SticTheotokion.text @ver media-off End-Hymn
@@ -88,6 +97,7 @@ Status NA
 						Insert_section VE._03_Stichera__.both__.firsttheotokion__.modeofweek End-Insert
 					otherwise use:
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode sid oc.m6.d2_gr_GR_cog.ocVE.SticTheotokion.mode<Tmelody>sid oc.m6.d2_gr_GR_cog.ocVE.SticTheotokion.melody</>End-Title
 						Media sid oc.m6.d2_gr_GR_cog.ocVE.SticTheotokion.text End-Media
 						Hymn sid oc.m6.d2_gr_GR_cog.ocVE.SticTheotokion.text @ver media-off End-Hymn

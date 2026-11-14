@@ -37,6 +37,7 @@ Status NA
 		End-Section
 		Section bf
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Insert_section Selector_FestalApolytikion.bf End-Insert
 		End-Section
 		Section da_theotokion
@@ -328,7 +329,8 @@ Status NA
 		Section theotokion__
 			Section mode1_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode1 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode1 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m1.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -357,7 +359,8 @@ Status NA
 			End-Section
 			Section mode2_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode2 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode2 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m2.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -386,7 +389,8 @@ Status NA
 			End-Section
 			Section mode3_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode3 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode3 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m3.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -415,7 +419,8 @@ Status NA
 			End-Section
 			Section mode4_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode4 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode4 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m4.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -444,7 +449,8 @@ Status NA
 			End-Section
 			Section mode5_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode5 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode5 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m5.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -473,7 +479,8 @@ Status NA
 			End-Section
 			Section mode6_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode6 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode6 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m6.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -502,7 +509,8 @@ Status NA
 			End-Section
 			Section mode7_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode7 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode7 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m7.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -531,7 +539,8 @@ Status NA
 			End-Section
 			Section mode8_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode8 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode8 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m8.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -561,6 +570,7 @@ Status NA
 		End-Section
 		Section tr
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Section hymn
 				Hymn rid trVE.Apolytikion1.text End-Hymn
 			End-Section
@@ -3263,6 +3273,8 @@ Status NA
 		End-Section
 		Section bf
 			Title sid ti.GloryBothNow End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Insert_section Selector_FestalApolytikion.bf End-Insert
 		End-Section
 		Section da_theotokion
@@ -3557,7 +3569,8 @@ Status NA
 			End-Section
 			Section mode1_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode1 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode1 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m1.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3586,7 +3599,8 @@ Status NA
 			End-Section
 			Section mode2_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode2 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode2 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m2.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3615,7 +3629,8 @@ Status NA
 			End-Section
 			Section mode3_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode3 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode3 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m3.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3644,7 +3659,8 @@ Status NA
 			End-Section
 			Section mode4_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode4 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode4 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m4.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3673,7 +3689,8 @@ Status NA
 			End-Section
 			Section mode5_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode5 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode5 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m5.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3702,7 +3719,8 @@ Status NA
 			End-Section
 			Section mode6_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode6 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode6 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m6.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3731,7 +3749,8 @@ Status NA
 			End-Section
 			Section mode7_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode7 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode7 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m7.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3760,7 +3779,8 @@ Status NA
 			End-Section
 			Section mode8_
 				when-name-of-day-is
-					Sunday use: Insert_section primarytheotokion__.mode8 End-Insert
+					Sunday use:
+						Insert_section primarytheotokion__.mode8 End-Insert
 					Monday use:
 						Section monday
 							Hymn sid oc.m8.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -3794,9 +3814,11 @@ Status NA
 			Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion1.text End-Hymn
 			Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion2.text End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion3.text End-Hymn
 			Rubric sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion4.note End-Rubric
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion4.text End-Hymn
 		End-Section
 	End-Section
@@ -3905,6 +3927,7 @@ Status NA
 		Title role desig sid ti.Apolytikion End-Title
 		Hymn rid peVE.Apolytikion1.text End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn rid peVE.Apolytikion2.text End-Hymn
 		Hymn rid peVE.ApolTheotokion.text End-Hymn
 	End-Section
@@ -3968,6 +3991,7 @@ Status NA
 	Section saturday1g2bt
 		Hymn sid oc.m2.d5_gr_GR_cog.ocMA.Kathisma32.text End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid oc.m2.d7_gr_GR_cog.ocMA.Kathisma23.text End-Hymn
 		Hymn sid oc.m2.d7_gr_GR_cog.ocMA.ApolTheotokion.text End-Hymn
 	End-Section
@@ -3991,6 +4015,7 @@ Status NA
 	Section tr12t
 		Hymn rid trVE.Apolytikion1.text End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn rid trVE.Apolytikion2.text End-Hymn
 		Hymn rid trVE.ApolTheotokion.text End-Hymn
 	End-Section
@@ -3998,8 +4023,10 @@ Status NA
 		Section hymns
 			Hymn rid trVE.Apolytikion1.text End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn rid trVE.Apolytikion2.text End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trVE.Apolytikion3.text End-Hymn
 		End-Section
 	End-Section
@@ -4020,6 +4047,7 @@ Status NA
 		Section both__
 			Section af
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Insert_section Selector_FestalApolytikion.NM.af End-Insert
 			End-Section
 			Section endofmatins_theotokion__
@@ -4283,7 +4311,8 @@ Status NA
 			Section theotokion__
 				Section mode1_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode1 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode1 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m1.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4312,7 +4341,8 @@ Status NA
 				End-Section
 				Section mode2_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode2 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode2 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m2.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4341,7 +4371,8 @@ Status NA
 				End-Section
 				Section mode3_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode3 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode3 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m3.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4370,7 +4401,8 @@ Status NA
 				End-Section
 				Section mode4_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode4 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode4 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m4.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4399,7 +4431,8 @@ Status NA
 				End-Section
 				Section mode5_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode5 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode5 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m5.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4428,7 +4461,8 @@ Status NA
 				End-Section
 				Section mode6_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode6 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode6 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m6.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4457,7 +4491,8 @@ Status NA
 				End-Section
 				Section mode7_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode7 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode7 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m7.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4486,7 +4521,8 @@ Status NA
 				End-Section
 				Section mode8_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode8 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode8 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m8.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -4516,6 +4552,7 @@ Status NA
 			End-Section
 			Section tr
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Section hymn
 					Hymn rid trVE.Apolytikion1.text End-Hymn
 				End-Section
@@ -5724,6 +5761,7 @@ Status NA
 		Section glory__
 			Section af
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Insert_section Selector_FestalApolytikion.NM.af End-Insert
 			End-Section
 			Section ga
@@ -6732,6 +6770,8 @@ Status NA
 		Section gloryboth__
 			Section af
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Insert_section Selector_FestalApolytikion.NM.af End-Insert
 			End-Section
 			Section endofmatins_theotokion__
@@ -6998,7 +7038,8 @@ Status NA
 				End-Section
 				Section mode1_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode1 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode1 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m1.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7027,7 +7068,8 @@ Status NA
 				End-Section
 				Section mode2_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode2 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode2 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m2.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7056,7 +7098,8 @@ Status NA
 				End-Section
 				Section mode3_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode3 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode3 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m3.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7085,7 +7128,8 @@ Status NA
 				End-Section
 				Section mode4_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode4 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode4 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m4.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7114,7 +7158,8 @@ Status NA
 				End-Section
 				Section mode5_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode5 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode5 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m5.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7143,7 +7188,8 @@ Status NA
 				End-Section
 				Section mode6_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode6 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode6 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m6.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7172,7 +7218,8 @@ Status NA
 				End-Section
 				Section mode7_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode7 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode7 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m7.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7201,7 +7248,8 @@ Status NA
 				End-Section
 				Section mode8_
 					when-name-of-day-is
-						Sunday use: Insert_section primarytheotokion__.mode8 End-Insert
+						Sunday use:
+							Insert_section primarytheotokion__.mode8 End-Insert
 						Monday use:
 							Section monday
 								Hymn sid oc.m8.d2_gr_GR_cog.ocVE.ApolTheotokionVM.text End-Hymn
@@ -7235,8 +7283,10 @@ Status NA
 				Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion1.text End-Hymn
 				Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion2.text End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion3.text End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid ho.ho10_gr_GR_cog.hoVE.LentApolytikion4.text End-Hymn
 			End-Section
 		End-Section
@@ -7331,6 +7381,7 @@ Status NA
 			Title role desig sid ti.Apolytikion End-Title
 			Hymn rid peVE.Apolytikion1.text End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn rid peVE.Apolytikion2.text End-Hymn
 			Hymn rid peVE.ApolTheotokion.text End-Hymn
 		End-Section
@@ -7410,6 +7461,7 @@ Status NA
 			Title role desig sid ti.Apolytikion End-Title
 			Hymn rid trVE.Apolytikion1.text End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn rid trVE.Apolytikion2.text End-Hymn
 			Hymn rid trVE.ApolTheotokion.text End-Hymn
 		End-Section
@@ -7417,8 +7469,10 @@ Status NA
 			Section hymns
 				Hymn rid trVE.Apolytikion1.text End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn rid trVE.Apolytikion2.text End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn rid trVE.Apolytikion3.text End-Hymn
 			End-Section
 		End-Section

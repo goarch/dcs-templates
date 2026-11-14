@@ -149,6 +149,7 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode3C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory sid ti.BothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode3C12.text<r>sid ru.Twice media-off</>End-Hymn
 		Section Katavasia_Litany
 			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
@@ -169,9 +170,11 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode4C12.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C12.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode4C13.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode4C13.text @ver media-off End-Hymn
 		Section Katavasia_Litany
@@ -193,6 +196,7 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode5C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory sid ti.BothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode5C12.text<r>sid ru.Twice media-off</>End-Hymn
 		Section Katavasia_Litany
 			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
@@ -213,6 +217,7 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode6C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory sid ti.BothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode6C12.text<r>sid ru.Twice media-off</>End-Hymn
 		Section Katavasia_Litany
 			Title role desig sid ti.Katavasia sid misc.Mode1 End-Title
@@ -233,9 +238,11 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode7C12.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C12.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode7C13.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode7C13.text @ver media-off End-Hymn
 		Section Katavasia_Litany
@@ -257,9 +264,11 @@ Status NA
 		Verse sid pr.verse_Resurrection.text End-Verse
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C11.text<r>sid ru.Twice media-off</>End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode8C12.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C12.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode8C13.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode8C13.text @ver media-off End-Hymn
 		Section Katavasia_Litany
@@ -288,10 +297,12 @@ Status NA
 		Media sid pe.d071_gr_GR_cog.peMA.Ode9C11.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C11.text @ver media-off End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1MTr.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode9C12.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C12.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Verse sid pe.d071_gr_GR_cog.peMA.Ode9C1MTh.text End-Verse
 		Media sid pe.d071_gr_GR_cog.peMA.Ode9C12.text End-Media
 		Hymn sid pe.d071_gr_GR_cog.peMA.Ode9C12.text @ver media-off End-Hymn
@@ -444,8 +455,10 @@ Status NA
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion4.text @ver End-Reading
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion5.text @ver End-Reading
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion6.text @ver End-Reading
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion7.text @ver End-Reading
 			Reading sid pr.res01.text<r>sid ru.Forty</>End-Reading
 			Reading sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Reading

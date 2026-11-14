@@ -53,8 +53,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode1C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode1C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode1C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode1K.text @ver End-Hymn
@@ -67,8 +69,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode3C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode3C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode3C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode3K.text @ver End-Hymn
@@ -87,8 +91,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode4C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode4C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode4C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode4K.text @ver End-Hymn
@@ -101,8 +107,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode5C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode5C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode5C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode5K.text @ver End-Hymn
@@ -115,8 +123,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode6C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode6C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode6C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode6K.text @ver End-Hymn
@@ -143,8 +153,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode7C12.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode7C13.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode7C14.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode7K.text @ver End-Hymn
@@ -159,6 +171,7 @@ Status Final
 			Verse sid ps_gr_GR_cog.bode8.v18.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode8C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode8C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
@@ -172,8 +185,10 @@ Status Final
 			Verse sid pr.verse_God.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode9C11.text @ver End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode9C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode9C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode9K.text @ver End-Hymn

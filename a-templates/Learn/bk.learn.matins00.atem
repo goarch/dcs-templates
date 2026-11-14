@@ -49,6 +49,7 @@ Status Draft
 			Media sid ho.ho03_gr_GR_cog.hoMA.PostGospelApostles.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.PostGospelApostles.text @ver media-off End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.PostGospelTheotokos.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.PostGospelTheotokos.text @ver media-off End-Hymn
 			Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psMA.postgospelverse.v1.text End-Verse
@@ -74,6 +75,7 @@ Status Draft
 		Section eotheotokion
 			Para role source sid ti.sourceOctoechos End-Para
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 		End-Section

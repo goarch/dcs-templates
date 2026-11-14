@@ -431,6 +431,8 @@ Status Final
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section
@@ -442,6 +444,8 @@ Status Final
 								Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 								Hymn rid peMA.Kathisma12.text End-Hymn
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 								Hymn rid peMA.Kathisma1T.text End-Hymn
 							End-Section

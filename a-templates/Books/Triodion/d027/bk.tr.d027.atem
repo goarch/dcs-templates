@@ -41,8 +41,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode1C202.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode1C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode1C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode2C2H.ode sid misc.Heirmos End-Title
@@ -61,8 +63,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode2C211.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode2C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode2C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode3C2H.ode sid misc.Heirmos End-Title
@@ -81,8 +85,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse1 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode3C218.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode3C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode3C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode4C1H.ode sid misc.Heirmos End-Title
@@ -105,8 +111,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode4C202.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode4C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode4C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode5C1H.ode sid misc.Heirmos End-Title
@@ -121,8 +129,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode5C201.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode5C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode5C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode6C1H.ode sid misc.Heirmos End-Title
@@ -137,8 +147,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode6C202.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode6C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode6C2T.text @ver End-Hymn
 
 //		Title<r>sid EitaPsallomenArgos</>End-Title
@@ -161,8 +173,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse2 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode7C202.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode7C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode7C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode8C1H.ode sid misc.Heirmos End-Title
@@ -183,6 +197,7 @@ Template bk.tr.d027
 		Title sid pr.WeBlessFather.text End-Title
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode8C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode8C2T.text @ver End-Hymn
 
 		Title role desig sid tr.d054_gr_GR_cog.trMA.Ode9C1H.ode sid misc.Heirmos End-Title
@@ -203,8 +218,10 @@ Template bk.tr.d027
 		Verse sid tr.d054_gr_GR_cog.trMA.C1.verse3 End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode9C203.text @ver End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode9C2Tr.text @ver End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid tr.d054_gr_GR_cog.trMA.Ode9C2T.text @ver End-Hymn
 		Title role desig sid misc.Heirmos End-Title
 		Para role heirmos sid tr.d054_gr_GR_cog.trMA.Ode9C1H.text End-Para

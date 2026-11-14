@@ -87,9 +87,11 @@ Status Draft
 				Rubric sid ti.RepeatHymn sid ru.Then End-Rubric
 				Break line End_Break
 				Title sid ti.Glory<Tmode>sid me.m01.d05_gr_GR_cog.meH1.Idiomelon3.mode</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media sid me.m01.d05_gr_GR_cog.meH1.Idiomelon3.text End-Media
 				Hymn sid me.m01.d05_gr_GR_cog.meH1.Idiomelon3.text @ver media-off End-Hymn
 				Title sid ti.BothNow<rubric>sid ti.Repeat</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Break line End_Break
 			End-Section
 			Section block6
@@ -197,9 +199,11 @@ Status Draft
 				Rubric sid ti.RepeatHymn sid ru.Then End-Rubric
 				Break line End_Break
 				Title sid ti.Glory<Tmode>sid me.m01.d05_gr_GR_cog.meH3.Idiomelon3.mode</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media sid me.m01.d05_gr_GR_cog.meH3.Idiomelon3.text End-Media
 				Hymn sid me.m01.d05_gr_GR_cog.meH3.Idiomelon3.text @ver media-off End-Hymn
 				Title sid ti.BothNow<rubric>sid ti.Repeat</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Break line End_Break
 			End-Section
 			Section block6
@@ -286,9 +290,11 @@ Status Draft
 				Rubric sid ti.RepeatHymn sid ru.Then End-Rubric
 				Break line End_Break
 				Title sid ti.Glory<Tmode>sid me.m01.d05_gr_GR_cog.meH6.Idiomelon3.mode</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media sid me.m01.d05_gr_GR_cog.meH6.Idiomelon3.text End-Media
 				Hymn sid me.m01.d05_gr_GR_cog.meH6.Idiomelon3.text @ver media-off End-Hymn
 				Title sid ti.BothNow<rubric>sid ti.Repeat</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Break line End_Break
 			End-Section
 			Section block6
@@ -376,6 +382,8 @@ Status Draft
 				Rubric sid ti.RepeatHymn sid ru.Then End-Rubric
 				Break line End_Break
 				Title sid ti.GloryBothNow<Tmode>sid me.m01.d05_gr_GR_cog.meH9.Idiomelon3.mode</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Rubric sid me.m01.d05_gr_GR_cog.meH9.Idiomelon3.rubric End-Rubric
 				Media sid me.m01.d05_gr_GR_cog.meH9.Idiomelon3.text End-Media
 				Hymn sid me.m01.d05_gr_GR_cog.meH9.Idiomelon3.text @ver media-off End-Hymn
@@ -437,9 +445,11 @@ Status Draft
 		Title role desig sid ps_gr_GR_cog.psa102.title End-Title
 		Reading sid ps_gr_GR_cog.psa102.text @ver End-Reading
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Title role desig sid ps_gr_GR_cog.psa145.title End-Title
 		Reading sid ps_gr_GR_cog.psa145.text @ver End-Reading
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Reading sid ho.ho07_gr_GR_cog.hoLI.OnlyBegotten.text End-Reading
 		Insert_section bk.ho.ho07.Beatitudes End-Insert
 		Break line End_Break
@@ -449,9 +459,13 @@ Status Draft
 		Reading sid pr.res01.text<r>sid ru.Twelve</>End-Reading
 		Reading sid ps_gr_GR_cog.psa112.v2.text<r>sid ru.Thrice</>End-Reading
 		Title sid ti.GloryBothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Title role desig sid ps_gr_GR_cog.psa33.title End-Title
 		Reading sid ps_gr_GR_cog.psa33.text @ver End-Reading
 		Title sid ti.GloryBothNow sid pr.res01.text<r>sid ru.Thrice</>sid pr.Bless_father.text End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Actor sid ac.Priest End-Actor
 		Dialog sid dis00 sid dis01 sid dis02 sid dis03 sid dis04 sid dis05 sid dis06 sid dis07 sid dis08<r>sid client_gr_GR_cog.cl.localpatronsaint1.dismissal</>sid dis09 sid dis10 sid dis88 End-Dialog
 		Dialog sid pr.ThroughThePrayers_fathers.text End-Dialog

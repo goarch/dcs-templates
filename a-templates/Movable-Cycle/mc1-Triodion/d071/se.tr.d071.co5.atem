@@ -88,6 +88,7 @@ Status NA
 			Verse sid ps_gr_GR_cog.bode8.v18.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode8C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid tr.d070_gr_GR_cog.trMA.Ode8C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse

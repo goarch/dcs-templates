@@ -1524,7 +1524,8 @@ Status NA
 						Rubric sid ru.fasting.explanation.triodion1 End-Rubric
 					End-Section
 				8, 9, 10, 12, 14, 15 use:
-				11, 13 use: Rubric sid ru.fasting.explanation.wedfri End-Rubric
+				11, 13 use:
+					Rubric sid ru.fasting.explanation.wedfri End-Rubric
 				16 thru 22 use:
 					Section triodion_week3
 						Rubric sid ru.fasting.explanation.triodion3 End-Rubric

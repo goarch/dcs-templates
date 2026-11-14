@@ -28,16 +28,24 @@ Status NA
 				Actor sid ac.Clergy End-Actor
 			End-Section
 			when-date-is
-				Jan 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Mar 25 use: Insert_section day_of_week End-Insert
-				Aug 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Sep 15 use: Insert_section GreatProkeimenon2 End-Insert
-				Dec 26 use: Insert_section GreatProkeimenon1 End-Insert
+				Jan 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Mar 25 use:
+					Insert_section day_of_week End-Insert
+				Aug 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Sep 15 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Dec 26 use:
+					Insert_section GreatProkeimenon1 End-Insert
 				otherwise use:
 					when-movable-cycle-day-is
-						14, 119 use: Insert_section Alleluia_Mode8 End-Insert
-						23, 37, 51 use: Insert_section LentProkeimenon1 End-Insert
-						30, 44, 58 use: Insert_section LentProkeimenon2 End-Insert
+						14, 119 use:
+							Insert_section Alleluia_Mode8 End-Insert
+						23, 37, 51 use:
+							Insert_section LentProkeimenon1 End-Insert
+						30, 44, 58 use:
+							Insert_section LentProkeimenon2 End-Insert
 						70 use:
 							Section onGoodFriday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode4</>End-Title
@@ -48,7 +56,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text End-Hymn
 							End-Section
-						72, 79, 121 use: Insert_section GreatProkeimenon1 End-Insert
+						72, 79, 121 use:
+							Insert_section GreatProkeimenon1 End-Insert
 						73 use:
 							Section onBrightMonday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
@@ -114,7 +123,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v4.text End-Verse
 								Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v1.text End-Hymn
 							End-Section
-						111 use: Insert_section GreatProkeimenon2 End-Insert
+						111 use:
+							Insert_section GreatProkeimenon2 End-Insert
 						otherwise use:
 								Section day_of_week
 									when-name-of-day-is
@@ -264,16 +274,24 @@ Status NA
 				Para role erc_ve_prokeimenon sid misc.custcontent End-Para
 			End-Section
 			when-date-is
-				Jan 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Mar 25 use: Insert_section day_of_week End-Insert
-				Aug 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Sep 15 use: Insert_section GreatProkeimenon2 End-Insert
-				Dec 26 use: Insert_section GreatProkeimenon1 End-Insert
+				Jan 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Mar 25 use:
+					Insert_section day_of_week End-Insert
+				Aug 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Sep 15 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Dec 26 use:
+					Insert_section GreatProkeimenon1 End-Insert
 				otherwise use:
 					when-movable-cycle-day-is
-						14, 119 use: Insert_section Alleluia_Mode8 End-Insert
-						23, 37, 51 use: Insert_section LentProkeimenon1 End-Insert
-						30, 44, 58 use: Insert_section LentProkeimenon2 End-Insert
+						14, 119 use:
+							Insert_section Alleluia_Mode8 End-Insert
+						23, 37, 51 use:
+							Insert_section LentProkeimenon1 End-Insert
+						30, 44, 58 use:
+							Insert_section LentProkeimenon2 End-Insert
 						70 use:
 							Section onGoodFriday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode4</>End-Title
@@ -285,7 +303,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text End-Hymn
 							End-Section
-						72, 79, 121 use: Insert_section GreatProkeimenon1 End-Insert
+						72, 79, 121 use:
+							Insert_section GreatProkeimenon1 End-Insert
 						73 use:
 							Section onBrightMonday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
@@ -354,7 +373,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v4.text End-Verse
 								Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v1.text End-Hymn
 							End-Section
-						111 use: Insert_section GreatProkeimenon2 End-Insert
+						111 use:
+							Insert_section GreatProkeimenon2 End-Insert
 						otherwise use:
 							Section day_of_week
 								when-name-of-day-is
@@ -511,16 +531,24 @@ Status NA
 				Actor sid ac.Choir End-Actor
 			End-Section
 			when-date-is
-				Jan 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Mar 25 use: Insert_section day_of_week End-Insert
-				Aug 7 use: Insert_section GreatProkeimenon2 End-Insert
-				Sep 15 use: Insert_section GreatProkeimenon2 End-Insert
-				Dec 26 use: Insert_section GreatProkeimenon1 End-Insert
+				Jan 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Mar 25 use:
+					Insert_section day_of_week End-Insert
+				Aug 7 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Sep 15 use:
+					Insert_section GreatProkeimenon2 End-Insert
+				Dec 26 use:
+					Insert_section GreatProkeimenon1 End-Insert
 				otherwise use:
 					when-movable-cycle-day-is
-						14, 119 use: Insert_section Alleluia_Mode8 End-Insert
-						23, 37, 51 use: Insert_section LentProkeimenon1 End-Insert
-						30, 44, 58 use: Insert_section LentProkeimenon2 End-Insert
+						14, 119 use:
+							Insert_section Alleluia_Mode8 End-Insert
+						23, 37, 51 use:
+							Insert_section LentProkeimenon1 End-Insert
+						30, 44, 58 use:
+							Insert_section LentProkeimenon2 End-Insert
 						70 use:
 							Section onGoodFriday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode4</>End-Title
@@ -529,7 +557,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v2.text End-Verse
 								Hymn sid movable.verses_gr_GR_cog.psVE.tr.d070.prokeimenon1.v1.text End-Hymn
 							End-Section
-						72, 79, 121 use: Insert_section GreatProkeimenon1 End-Insert
+						72, 79, 121 use:
+							Insert_section GreatProkeimenon1 End-Insert
 						73 use:
 							Section onBrightMonday
 								Title role desig sid ti.Prokeimenon<Tmode>sid misc.Mode7</>End-Title
@@ -590,7 +619,8 @@ Status NA
 								Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v4.text End-Verse
 								Hymn sid liturgical.verses_gr_GR_cog.psVE.prokeimenon.lent2.v1.text End-Hymn
 							End-Section
-						111 use: Insert_section GreatProkeimenon2 End-Insert
+						111 use:
+							Insert_section GreatProkeimenon2 End-Insert
 						otherwise use:
 							Section day_of_week
 								when-name-of-day-is

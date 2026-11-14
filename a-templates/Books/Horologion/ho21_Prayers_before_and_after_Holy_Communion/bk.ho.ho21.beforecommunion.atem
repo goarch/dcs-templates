@@ -123,6 +123,8 @@ Template bk.ho.ho21.beforecommunion
 		End-Section
 
 		Title sid ti.GloryBothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Section kontakion
 			Title role desig sid ti.Kontakion End-Title
 			Title role mode sid ho.ho21_gr_GR_cog.hoCA.Kontakion.mode<Tmelody>sid ho.ho21_gr_GR_cog.hoCA.Kontakion.melody</>End-Title
@@ -175,8 +177,10 @@ Template bk.ho.ho21.beforecommunion
 		Reading sid pr.res06.text End-Reading
 		Hymn sid ho.ho21_gr_GR_cog.hoPrayer.Key001.text @ver media-off End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid ho.ho21_gr_GR_cog.hoPrayer.Key002.text @ver media-off End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid ho.ho21_gr_GR_cog.hoPrayer.Key003.text @ver media-off End-Hymn
 		Title<rubric>sid ho.ho21_gr_GR_cog.hoPrayer.Key004.title</>End-Title
 		Hymn sid ho.ho21_gr_GR_cog.hoPrayer.Key004.text @ver media-off End-Hymn

@@ -225,8 +225,10 @@ Status NA
 		Rubric<optional>sid hiLIPR.Key402.note</>End-Rubric
 		Para role chant sid oc.m4.d1_gr_GR_cog.ocMA.OdeS1C12.text @ver End-Para
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Para role chant sid oc.m4.d1_gr_GR_cog.ocMA.OdeS7C12.text @ver End-Para
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Para role chant sid oc.m4.d1_gr_GR_cog.ocMA.OdeS7C1T.text @ver End-Para
 		Rubric sid hiLIPR.Key406.rubric End-Rubric
 		Para role chant sid pr.HeavenlyKing.text End-Para

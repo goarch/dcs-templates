@@ -20,6 +20,7 @@ Template Selector_Theotokion_Vine
 
 	Section theotokion
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Para role source0 sid ti.sourceOctoechos End-Para
 		Title role mode sid misc.Mode6 End-Title
 		when-movable-cycle-day-is

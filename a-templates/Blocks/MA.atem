@@ -407,8 +407,10 @@ Status NA
 				Title role mode rid octrMA.Triadic1.mode End-Title
 				Hymn rid octrMA.Triadic1.text rid daMA.Triadic1Ending.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn rid octrMA.Triadic2.text rid daMA.Triadic2Ending.text @ver media-off End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn rid octrMA.Triadic3.text rid daMA.Triadic3Ending.text @ver media-off End-Hymn
 			End-Section
 		End-Section
@@ -585,6 +587,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
@@ -596,6 +599,7 @@ Status NA
 			Section me__
 				Section kath11_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma11.mode<Tmelody>rid meMA.Kathisma11.melody</>End-Title
@@ -606,6 +610,7 @@ Status NA
 				End-Section
 				Section kath12_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
@@ -616,6 +621,7 @@ Status NA
 				End-Section
 				Section kath13_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma13.mode<Tmelody>rid meMA.Kathisma13.melody</>End-Title
@@ -625,6 +631,7 @@ Status NA
 				End-Section
 				Section kath1t_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma1T.mode<Tmelody>rid meMA.Kathisma1T.melody</>End-Title
@@ -636,6 +643,7 @@ Status NA
 			Section oc__
 				Section kath13
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceOctoechos End-Para
 						when-exists
@@ -665,6 +673,7 @@ Status NA
 		Section glory__
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
@@ -673,6 +682,7 @@ Status NA
 			Section me__
 				Section kath11_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma11.mode<Tmelody>rid meMA.Kathisma11.melody</>End-Title
@@ -683,6 +693,7 @@ Status NA
 				End-Section
 				Section kath12_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
@@ -696,6 +707,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma11.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma11.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
@@ -708,6 +721,8 @@ Status NA
 				Section alt1__
 					Section kath11_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode rid alt1.meMA.Kathisma11.mode<Tmelody>rid alt1.meMA.Kathisma11.melody</>End-Title
@@ -718,6 +733,8 @@ Status NA
 					End-Section
 					Section repeat11_
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt1.meMA.Kathisma11.mode<Tmelody>rid alt1.meMA.Kathisma11.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma11.greekmelody End-Title
@@ -726,6 +743,8 @@ Status NA
 					End-Section
 					Section kath12_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt1.meMA.Kathisma12.mode<Tmelody>rid alt1.meMA.Kathisma12.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma12.greekmelody End-Title
@@ -735,6 +754,8 @@ Status NA
 					End-Section
 					Section kath1t_
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt1.meMA.Kathisma1T.mode<Tmelody>rid alt1.meMA.Kathisma1T.melody</>End-Title
 							Media rid alt1.meMA.Kathisma1T.text End-Media
@@ -745,6 +766,8 @@ Status NA
 				Section alt2__
 					Section kath11_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMenaion End-Para
 							Title role mode rid alt2.meMA.Kathisma11.mode<Tmelody>rid alt2.meMA.Kathisma11.melody</>End-Title
@@ -755,6 +778,8 @@ Status NA
 					End-Section
 					Section repeat11_
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt2.meMA.Kathisma11.mode<Tmelody>rid alt2.meMA.Kathisma11.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma11.greekmelody End-Title
@@ -763,6 +788,8 @@ Status NA
 					End-Section
 					Section kath12_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt2.meMA.Kathisma12.mode<Tmelody>rid alt2.meMA.Kathisma12.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma12.greekmelody End-Title
@@ -772,6 +799,8 @@ Status NA
 					End-Section
 					Section kath1t_
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Title role mode rid alt2.meMA.Kathisma1T.mode<Tmelody>rid alt2.meMA.Kathisma1T.melody</>End-Title
 							Media rid alt2.meMA.Kathisma1T.text End-Media
@@ -781,6 +810,8 @@ Status NA
 				End-Section
 				Section kath11_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma11.mode<Tmelody>rid meMA.Kathisma11.melody</>End-Title
@@ -791,6 +822,8 @@ Status NA
 				End-Section
 				Section repeat11_
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid meMA.Kathisma11.mode<Tmelody>rid meMA.Kathisma11.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma11.greekmelody End-Title
@@ -799,6 +832,8 @@ Status NA
 				End-Section
 				Section kath12_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma12.greekmelody End-Title
@@ -808,6 +843,8 @@ Status NA
 				End-Section
 				Section kath1t_
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid meMA.Kathisma1T.mode<Tmelody>rid meMA.Kathisma1T.melody</>End-Title
 						Media rid meMA.Kathisma1T.text End-Media
@@ -818,6 +855,8 @@ Status NA
 			Section pe__
 				Section kath11_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.Kathisma11.mode<Tmelody>rid peMA.Kathisma11.melody</>End-Title
@@ -828,6 +867,8 @@ Status NA
 				End-Section
 				Section kath1t_
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
@@ -873,8 +914,12 @@ Status NA
 				when-movable-cycle-day-is
 					16, 17, 19 use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					18, 20 use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 				end-when
 				when-exists
 					rid octrMA.Kathisma1T.melody use:
@@ -924,8 +969,12 @@ Status NA
 				when-name-of-day-is
 					Monday, Tuesday, Thursday use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					Wednesday, Friday use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 				end-when
 				when-exists
 					rid octrMA.Kathisma1T.melody use:
@@ -966,6 +1015,8 @@ Status NA
 				Media rid octrMA.Kathisma13.text End-Media
 				Hymn rid octrMA.Kathisma13.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				when-exists
 					rid octrMA.Kathisma1T.melody use:
 						Title role mode rid octrMA.Kathisma1T.mode<Tmelody>rid octrMA.Kathisma1T.melody</>End-Title
@@ -1005,6 +1056,7 @@ Status NA
 				Media rid octrMA.Kathisma13.text End-Media
 				Hymn rid octrMA.Kathisma13.text @ver media-off End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				when-exists
 					rid octrMA.Kathisma14.melody use:
 						Title role mode rid octrMA.Kathisma14.mode<Tmelody>rid octrMA.Kathisma14.melody</>End-Title
@@ -1013,6 +1065,7 @@ Status NA
 				Media rid octrMA.Kathisma14.text End-Media
 				Hymn rid octrMA.Kathisma14.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				when-movable-cycle-day-is
 					14 use:
 						when-exists
@@ -1056,7 +1109,9 @@ Status NA
 						Media rid alt1.meMA.Kathisma11.text End-Media
 						Hymn rid alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid alt1.meMA.Kathisma1T.text End-Media
 						Hymn rid alt1.meMA.Kathisma1T.text @ver media-off End-Hymn
 					End-Section
@@ -1071,6 +1126,8 @@ Status NA
 						Media rid alt1.meMA.Kathisma11.text End-Media
 						Hymn rid alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -1084,6 +1141,8 @@ Status NA
 						Media rid alt1.meMA.Kathisma11.text End-Media
 						Hymn rid alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid alt1.meMA.Kathisma12.mode<Tmelody>rid alt1.meMA.Kathisma12.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Kathisma12.greekmelody End-Title
 						Media rid alt1.meMA.Kathisma12.text End-Media
@@ -1101,13 +1160,17 @@ Status NA
 						Hymn rid alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 						when-exists rid alt1.meMA.Kathisma12.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt1.meMA.Kathisma12.mode<Tmelody>rid alt1.meMA.Kathisma12.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma12.greekmelody End-Title
 							Media rid alt1.meMA.Kathisma12.text End-Media
 							Hymn rid alt1.meMA.Kathisma12.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt1.meMA.Kathisma1T.mode<Tmelody>rid alt1.meMA.Kathisma1T.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Kathisma1T.greekmelody End-Title
@@ -1127,6 +1190,7 @@ Status NA
 						when-exists rid alt1.meMA.Kathisma12.text
 							use:
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid alt1.meMA.Kathisma12.mode<Tmelody>rid alt1.meMA.Kathisma12.melody</>End-Title
 								Title role greekmelody rid alt1.meMA.Kathisma12.greekmelody End-Title
 								Media rid alt1.meMA.Kathisma12.text End-Media
@@ -1161,6 +1225,7 @@ Status NA
 				End-Section
 				Section kath1t_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMeSupplement End-Para
 						Title role mode rid alt1.meMA.Kathisma1T.mode<Tmelody>rid alt1.meMA.Kathisma1T.melody</>End-Title
@@ -1191,6 +1256,8 @@ Status NA
 						Media rid alt2.meMA.Kathisma11.text End-Media
 						Hymn rid alt2.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt2.meMA.Kathisma11.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -1204,6 +1271,8 @@ Status NA
 						Media rid alt2.meMA.Kathisma11.text End-Media
 						Hymn rid alt2.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid alt2.meMA.Kathisma12.mode<Tmelody>rid alt2.meMA.Kathisma12.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Kathisma12.greekmelody End-Title
 						Media rid alt2.meMA.Kathisma12.text End-Media
@@ -1220,6 +1289,8 @@ Status NA
 						Media rid alt2.meMA.Kathisma11.text End-Media
 						Hymn rid alt2.meMA.Kathisma11.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid alt2.meMA.Kathisma1T.mode<Tmelody>rid alt2.meMA.Kathisma1T.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Kathisma1T.greekmelody End-Title
 						Media rid alt2.meMA.Kathisma1T.text End-Media
@@ -1237,13 +1308,17 @@ Status NA
 						Hymn rid alt2.meMA.Kathisma11.text @ver media-off End-Hymn
 						when-exists rid alt2.meMA.Kathisma12.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt2.meMA.Kathisma12.mode<Tmelody>rid alt2.meMA.Kathisma12.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma12.greekmelody End-Title
 							Media rid alt2.meMA.Kathisma12.text End-Media
 							Hymn rid alt2.meMA.Kathisma12.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt2.meMA.Kathisma1T.mode<Tmelody>rid alt2.meMA.Kathisma1T.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Kathisma1T.greekmelody End-Title
@@ -1261,8 +1336,10 @@ Status NA
 				Media rid meMA.Kathisma11.text End-Media
 				Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid meMA.Kathisma1T.text End-Media
 				Hymn rid meMA.Kathisma1T.text @ver media-off End-Hymn
 			End-Section
@@ -1277,13 +1354,17 @@ Status NA
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 					when-exists rid meMA.Kathisma12.text use:
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma12.greekmelody End-Title
 						Media rid meMA.Kathisma12.text End-Media
 						Hymn rid meMA.Kathisma12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role mode rid meMA.Kathisma1T.mode<Tmelody>rid meMA.Kathisma1T.melody</>End-Title
 					Media rid meMA.Kathisma1T.text End-Media
@@ -1320,6 +1401,7 @@ Status NA
 					Media rid meMA.Kathisma11.text End-Media
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1333,6 +1415,8 @@ Status NA
 					Media rid meMA.Kathisma11.text End-Media
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -1346,6 +1430,8 @@ Status NA
 					Media rid meMA.Kathisma11.text End-Media
 					Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
 					Title role greekmelody rid meMA.Kathisma12.greekmelody End-Title
 					Media rid meMA.Kathisma12.text End-Media
@@ -1367,8 +1453,11 @@ Status NA
 						Media rid meMA.Kathisma12.text End-Media
 						Hymn rid meMA.Kathisma12.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 					otherwise use:
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role desig sid ti.Theotokion sid ti.SameMelody_1hymn End-Title
 					Media rid meMA.Kathisma1T.text End-Media
@@ -1385,8 +1474,11 @@ Status NA
 						Media rid meMA.Kathisma22.text End-Media
 						Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 					otherwise use:
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role desig sid ti.Theotokion sid ti.SameMelody_1hymn End-Title
 					Media rid meMA.Kathisma2T.text End-Media
@@ -1405,8 +1497,11 @@ Status NA
 							Media rid meMA.Kathisma32.text End-Media
 							Hymn rid meMA.Kathisma32.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role desig sid ti.Theotokion sid ti.SameMelody_1hymn End-Title
 						Media rid meMA.Kathisma3T.text End-Media
@@ -1617,8 +1712,12 @@ Status NA
 						when-name-of-day-is
 							Wednesday, Friday use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						when-exists
 							rid ocMA.Kathisma13.melody use:
@@ -1644,6 +1743,7 @@ Status NA
 					Media rid ocMA.Kathisma11.text End-Media
 					Hymn rid ocMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma12.melody use:
 							Title role mode rid ocMA.Kathisma12.mode<Tmelody>rid ocMA.Kathisma12.melody</>End-Title
@@ -1652,6 +1752,7 @@ Status NA
 					Media rid ocMA.Kathisma12.text End-Media
 					Hymn rid ocMA.Kathisma12.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid ocMA.Kathisma13.melody use:
 							Title role mode rid ocMA.Kathisma13.mode<Tmelody>rid ocMA.Kathisma13.melody</>End-Title
@@ -1674,6 +1775,7 @@ Status NA
 					Media rid ocMA.Kathisma11.text End-Media
 					Hymn rid ocMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma12.melody use:
 							Title role mode rid ocMA.Kathisma12.mode<Tmelody>rid ocMA.Kathisma12.melody</>End-Title
@@ -1696,6 +1798,7 @@ Status NA
 					Media rid ocMA.Kathisma11.text End-Media
 					Hymn rid ocMA.Kathisma11.text @ver media-off @day D1 End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma12.melody use:
 							Title role mode rid ocMA.Kathisma12.mode<Tmelody>rid ocMA.Kathisma12.melody</>End-Title
@@ -1704,6 +1807,7 @@ Status NA
 					Media rid ocMA.Kathisma12.text End-Media
 					Hymn rid ocMA.Kathisma12.text @ver media-off @day D1 End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid ocVE.ApolTheotokionVM.melody use:
 							Title role mode rid ocVE.ApolTheotokionVM.mode<Tmelody>rid ocVE.ApolTheotokionVM.melody</>End-Title
@@ -1741,6 +1845,7 @@ Status NA
 					Hymn rid ocMA.Kathisma11.text @ver media-off End-Hymn
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>rid meDA.commemoration.first_title</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode rid meMA.Kathisma11.mode<Tmelody>rid meMA.Kathisma11.melody</>End-Title
 					Title role greekmelody rid meMA.Kathisma11.greekmelody End-Title
 					Media rid meMA.Kathisma11.text End-Media
@@ -1760,6 +1865,7 @@ Status NA
 					Media rid ocMA.Kathisma11.text End-Media
 					Hymn rid ocMA.Kathisma11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma12.melody use:
 							Title role mode rid ocMA.Kathisma12.mode<Tmelody>rid ocMA.Kathisma12.melody</>End-Title
@@ -1768,6 +1874,7 @@ Status NA
 					Media rid ocMA.Kathisma12.text End-Media
 					Hymn rid ocMA.Kathisma12.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-mode-of-week-is
 						M1 use:
 							when-movable-cycle-day-is 43 use:
@@ -1933,6 +2040,8 @@ Status NA
 				Media rid peMA.Kathisma11.text End-Media
 				Hymn rid peMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn rid peMA.Kathisma11.text @ver media-off End-Hymn
 			End-Section
 			Section kath11g12b13
@@ -1944,12 +2053,14 @@ Status NA
 				Media rid peMA.Kathisma11.text End-Media
 				Hymn rid peMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 				Title role greekmelody rid peMA.Kathisma12.greekmelody End-Title
 				Media rid peMA.Kathisma12.text End-Media
 				Hymn rid peMA.Kathisma12.text @ver media-off End-Hymn
 				Section theotokion
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid peMA.Kathisma13.text End-Media
 					Hymn rid peMA.Kathisma13.text @ver media-off End-Hymn
 				End-Section
@@ -1963,11 +2074,13 @@ Status NA
 				Media rid peMA.Kathisma11.text End-Media
 				Hymn rid peMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid peMA.Kathisma12.mode<Tmelody>rid peMA.Kathisma12.melody</>End-Title
 				Title role greekmelody rid peMA.Kathisma12.greekmelody End-Title
 				Media rid peMA.Kathisma12.text End-Media
 				Hymn rid peMA.Kathisma12.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid peMA.Kathisma1T.text End-Media
 				Hymn rid peMA.Kathisma1T.text @ver media-off End-Hymn
 			End-Section
@@ -1985,9 +2098,11 @@ Status NA
 				Insert_section PsalmVerses.forMartyrs.verse2 End-Insert
 				Hymn rid peMA.Kathisma13.text @ver media-off End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media rid peMA.Kathisma14.text End-Media
 				Hymn rid peMA.Kathisma14.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid peMA.Kathisma1T.text End-Media
 				Hymn rid peMA.Kathisma1T.text @ver media-off End-Hymn
 			End-Section
@@ -2003,10 +2118,12 @@ Status NA
 							Media rid peMA.Kathisma11.text End-Media
 							Hymn rid peMA.Kathisma11.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tmode>rid peMA.Kathisma12.mode</><Tmelody>rid peMA.Kathisma12.melody</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role greekmelody rid peMA.Kathisma12.greekmelody End-Title
 							Media rid peMA.Kathisma12.text End-Media
 							Hymn rid peMA.Kathisma12.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 							Title role greekmelody rid peMA.Kathisma1T.greekmelody End-Title
 							Media rid peMA.Kathisma1T.text End-Media
@@ -2054,8 +2171,12 @@ Status NA
 									when-name-of-day-is
 										Wednesday, Friday use:
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 										otherwise use:
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 									end-when
 									Title role mode rid peMA.Kathisma1T.mode<Tmelody>rid peMA.Kathisma1T.melody</>End-Title
 									Title role greekmelody rid peMA.Kathisma1T.greekmelody End-Title
@@ -2145,6 +2266,8 @@ Status NA
 				Media rid trMA.Kathisma11.text End-Media
 				Hymn rid trMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn rid trMA.Kathisma11.text @ver media-off End-Hymn
 			End-Section
 			Section kath11gb12
@@ -2162,6 +2285,8 @@ Status NA
 				Media rid trMA.Kathisma11.text End-Media
 				Hymn rid trMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				when-exists
 					rid trMA.Kathisma12.melody use:
 						Title role mode rid trMA.Kathisma12.mode<Tmelody>rid trMA.Kathisma12.melody</>End-Title
@@ -2185,9 +2310,11 @@ Status NA
 				Media rid trMA.Kathisma11.text End-Media
 				Hymn rid trMA.Kathisma11.text @ver media-off End-Hymn
 				Title sid ti.Glory<bnr>sid ti.SameMelody_1hymn</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media rid trMA.Kathisma12.text End-Media
 				Hymn rid trMA.Kathisma12.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid trMA.Kathisma13.text End-Media
 				Hymn rid trMA.Kathisma13.text @ver media-off End-Hymn
 			End-Section
@@ -2217,6 +2344,8 @@ Status NA
 							Media rid alt1.meMA.Kathisma21.text End-Media
 							Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -2229,7 +2358,9 @@ Status NA
 							Media rid alt1.meMA.Kathisma21.text End-Media
 							Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid alt1.meMA.Kathisma2T.text End-Media
 							Hymn rid alt1.meMA.Kathisma2T.text @ver media-off End-Hymn
 						End-Section
@@ -2243,6 +2374,8 @@ Status NA
 							Media rid alt1.meMA.Kathisma21.text End-Media
 							Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid alt1.meMA.Kathisma22.mode<Tmelody>rid alt1.meMA.Kathisma22.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma22.greekmelody End-Title
 							Hymn rid alt1.meMA.Kathisma22.text @ver media-off End-Hymn
@@ -2258,13 +2391,17 @@ Status NA
 							Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 							when-exists rid alt1.meMA.Kathisma22.text use:
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid alt1.meMA.Kathisma22.mode<Tmelody>rid alt1.meMA.Kathisma22.melody</>End-Title
 								Title role greekmelody rid alt1.meMA.Kathisma22.greekmelody End-Title
 								Media rid alt1.meMA.Kathisma22.text End-Media
 								Hymn rid alt1.meMA.Kathisma22.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							end-when
 							Title role mode rid alt1.meMA.Kathisma2T.mode<Tmelody>rid alt1.meMA.Kathisma2T.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma2T.greekmelody End-Title
@@ -2283,6 +2420,7 @@ Status NA
 							when-exists rid alt1.meMA.Kathisma22.text
 								use:
 									Title sid ti.Glory End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
 									Title role mode rid alt1.meMA.Kathisma22.mode<Tmelody>rid alt1.meMA.Kathisma22.melody</>End-Title
 									Title role greekmelody rid alt1.meMA.Kathisma22.greekmelody End-Title
 									Media rid alt1.meMA.Kathisma22.text End-Media
@@ -2336,6 +2474,8 @@ Status NA
 							Media rid alt2.meMA.Kathisma21.text End-Media
 							Hymn rid alt2.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid alt2.meMA.Kathisma21.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -2348,6 +2488,8 @@ Status NA
 							Media rid alt2.meMA.Kathisma21.text End-Media
 							Hymn rid alt2.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid alt2.meMA.Kathisma22.mode<Tmelody>rid alt2.meMA.Kathisma22.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma22.greekmelody End-Title
 							Hymn rid alt2.meMA.Kathisma22.text @ver media-off End-Hymn
@@ -2362,6 +2504,8 @@ Status NA
 							Media rid alt2.meMA.Kathisma21.text End-Media
 							Hymn rid alt2.meMA.Kathisma21.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid alt2.meMA.Kathisma2T.mode<Tmelody>rid alt2.meMA.Kathisma2T.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma2T.greekmelody End-Title
 							Hymn rid alt2.meMA.Kathisma2T.text @ver media-off End-Hymn
@@ -2377,13 +2521,17 @@ Status NA
 							Hymn rid alt2.meMA.Kathisma21.text @ver media-off End-Hymn
 							when-exists rid alt2.meMA.Kathisma22.text use:
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid alt2.meMA.Kathisma22.mode<Tmelody>rid alt2.meMA.Kathisma22.melody</>End-Title
 								Title role greekmelody rid alt2.meMA.Kathisma22.greekmelody End-Title
 								Media rid alt2.meMA.Kathisma22.text End-Media
 								Hymn rid alt2.meMA.Kathisma22.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							end-when
 							Title role mode rid alt2.meMA.Kathisma2T.mode<Tmelody>rid alt2.meMA.Kathisma2T.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma2T.greekmelody End-Title
@@ -2409,6 +2557,7 @@ Status NA
 						Hymn rid meMA.Kathisma11.text @ver media-off End-Hymn
 						when-exists rid meMA.Kathisma12.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid meMA.Kathisma12.mode<Tmelody>rid meMA.Kathisma12.melody</>End-Title
 							Title role greekmelody rid meMA.Kathisma12.greekmelody End-Title
 							Media rid meMA.Kathisma12.text End-Media
@@ -2416,11 +2565,13 @@ Status NA
 							when-name-of-day-is
 								Wednesday, Friday use:
 									Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.Kathisma1St.mode<Tmelody>rid meMA.Kathisma1St.melody</>End-Title
 									Media rid meMA.Kathisma1St.text End-Media
 									Hymn rid meMA.Kathisma1St.text @ver media-off End-Hymn
 								otherwise use:
 									Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.Kathisma1T.mode<Tmelody>rid meMA.Kathisma1T.melody</>End-Title
 									Media rid meMA.Kathisma1T.text End-Media
 									Hymn rid meMA.Kathisma1T.text @ver media-off End-Hymn
@@ -2429,11 +2580,15 @@ Status NA
 							when-name-of-day-is
 								Wednesday, Friday use:
 									Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.Kathisma1St.mode<Tmelody>rid meMA.Kathisma1St.melody</>End-Title
 									Media rid meMA.Kathisma1St.text End-Media
 									Hymn rid meMA.Kathisma1St.text @ver media-off End-Hymn
 								otherwise use:
 									Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.Kathisma1T.mode<Tmelody>rid meMA.Kathisma1T.melody</>End-Title
 									Media rid meMA.Kathisma1T.text End-Media
 									Hymn rid meMA.Kathisma1T.text @ver media-off End-Hymn
@@ -2449,8 +2604,10 @@ Status NA
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
 					Media rid meMA.Kathisma2T.text End-Media
 					Hymn rid meMA.Kathisma2T.text @ver media-off End-Hymn
@@ -2465,13 +2622,17 @@ Status NA
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						when-exists rid meMA.Kathisma22.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
 							Title role greekmelody rid meMA.Kathisma22.greekmelody End-Title
 							Media rid meMA.Kathisma22.text End-Media
 							Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
 						Media rid meMA.Kathisma2T.text End-Media
@@ -2497,6 +2658,7 @@ Status NA
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -2509,6 +2671,8 @@ Status NA
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -2521,6 +2685,7 @@ Status NA
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tmode>rid meMA.Kathisma22.mode</><Tmelody>rid meMA.Kathisma22.melody</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role greekmelody rid meMA.Kathisma22.greekmelody End-Title
 						Media rid meMA.Kathisma22.text End-Media
 						Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
@@ -2535,6 +2700,8 @@ Status NA
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tmode>rid meMA.Kathisma22.mode</><Tmelody>rid meMA.Kathisma22.melody</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role greekmelody rid meMA.Kathisma22.greekmelody End-Title
 						Media rid meMA.Kathisma22.text End-Media
 						Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
@@ -2671,8 +2838,12 @@ Status NA
 						when-name-of-day-is
 							Wednesday, Friday use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						when-exists
 							rid ocMA.Kathisma23.melody use:
@@ -2697,6 +2868,7 @@ Status NA
 						Media rid ocMA.Kathisma21.text End-Media
 						Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid ocMA.Kathisma22.melody use:
 								Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -2705,6 +2877,7 @@ Status NA
 						Media rid ocMA.Kathisma22.text End-Media
 						Hymn rid ocMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid ocMA.Kathisma23.melody use:
 								Title role mode rid ocMA.Kathisma23.mode<Tmelody>rid ocMA.Kathisma23.melody</>End-Title
@@ -2726,6 +2899,7 @@ Status NA
 						Media rid ocMA.Kathisma21.text End-Media
 						Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid ocMA.Kathisma22.melody use:
 								Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -2749,6 +2923,7 @@ Status NA
 					End-Section
 					Section kath22
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid ocMA.Kathisma22.melody use:
 								Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -2759,6 +2934,7 @@ Status NA
 					End-Section
 					Section kath23_
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceOctoechos End-Para
 							when-exists
@@ -2788,11 +2964,13 @@ Status NA
 						Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 						Para role source sid ti.sourceMenaion End-Para
 						Title sid ti.Glory<Tdesig>rid meDA.commemoration.first_title</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma21.greekmelody End-Title
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.Kathisma2T.text End-Media
 						Hymn rid meMA.Kathisma2T.text @ver media-off End-Hymn
 					End-Section
@@ -2818,6 +2996,8 @@ Status NA
 						Media rid peMA.Kathisma21.text End-Media
 						Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -2829,11 +3009,13 @@ Status NA
 					Media rid peMA.Kathisma21.text End-Media
 					Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode rid peMA.Kathisma22.mode<Tmelody>rid peMA.Kathisma22.melody</>End-Title
 					Title role greekmelody rid peMA.Kathisma22.greekmelody End-Title
 					Media rid peMA.Kathisma22.text End-Media
 					Hymn rid peMA.Kathisma22.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid peMA.Kathisma23.mode<Tmelody>rid peMA.Kathisma23.melody</>End-Title
 					Title role greekmelody rid peMA.Kathisma23.greekmelody End-Title
 					Media rid peMA.Kathisma23.text End-Media
@@ -2881,6 +3063,8 @@ Status NA
 					Media rid trMA.Kathisma21.text End-Media
 					Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 				End-Section
 				Section kath21gb22
@@ -2896,6 +3080,8 @@ Status NA
 					Media rid trMA.Kathisma21.text End-Media
 					Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid trMA.Kathisma22.melody use:
 							Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -2918,6 +3104,7 @@ Status NA
 						Media rid trMA.Kathisma21.text End-Media
 						Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid trMA.Kathisma22.melody use:
 								Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -2926,6 +3113,7 @@ Status NA
 						Media rid trMA.Kathisma22.text End-Media
 						Hymn rid trMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid trMA.Kathisma23.melody use:
 								Title role mode rid trMA.Kathisma23.mode<Tmelody>rid trMA.Kathisma23.melody</>End-Title
@@ -2948,6 +3136,7 @@ Status NA
 						end-when
 						Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid trMA.Kathisma31.melody use:
 								Title role mode rid trMA.Kathisma31.mode<Tmelody>rid trMA.Kathisma31.melody</>End-Title
@@ -2955,6 +3144,7 @@ Status NA
 						end-when
 						Hymn rid trMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Kathisma32.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -2973,6 +3163,7 @@ Status NA
 					when-exists rid trMA.Kathisma23.text
 						use:
 							Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							when-exists
 								rid trMA.Kathisma22.melody use:
 									Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -2983,6 +3174,7 @@ Status NA
 							when-name-of-day-is
 								Monday, Tuesday, Thursday use:
 									Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									when-exists
 										rid trMA.Kathisma23.melody use:
 											Title role mode rid trMA.Kathisma23.mode<Tmelody>rid trMA.Kathisma23.melody</>End-Title
@@ -2992,6 +3184,7 @@ Status NA
 									Hymn rid trMA.Kathisma23.text @ver media-off End-Hymn
 								Wednesday, Friday use:
 									Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									when-exists
 										rid trMA.Kathisma23.melody use:
 											Title role mode rid trMA.Kathisma23.mode<Tmelody>rid trMA.Kathisma23.melody</>End-Title
@@ -3004,6 +3197,8 @@ Status NA
 							when-name-of-day-is
 								Monday, Tuesday, Thursday use:
 									Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
+									Verse sid pr.BothNowAndEver.text End-Verse
 									when-exists
 										rid trMA.Kathisma22.melody use:
 											Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -3013,6 +3208,8 @@ Status NA
 									Hymn rid trMA.Kathisma22.text @ver media-off End-Hymn
 								Wednesday, Friday use:
 									Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.GloryToTheFather.text End-Verse
+									Verse sid pr.BothNowAndEver.text End-Verse
 									when-exists
 										rid trMA.Kathisma22.melody use:
 											Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -3088,6 +3285,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
@@ -3099,6 +3297,7 @@ Status NA
 			Section me__
 				Section kath21_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
@@ -3109,6 +3308,7 @@ Status NA
 				End-Section
 				Section kath22_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
@@ -3119,6 +3319,7 @@ Status NA
 				End-Section
 				Section kath2t_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
@@ -3138,6 +3339,7 @@ Status NA
 		Section glory__
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
@@ -3146,6 +3348,7 @@ Status NA
 			Section me__
 				Section kath21_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
@@ -3156,6 +3359,7 @@ Status NA
 				End-Section
 				Section kath22_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
@@ -3169,6 +3373,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma21.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma21.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
@@ -3180,6 +3386,8 @@ Status NA
 			Section me__
 				Section kath21_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
@@ -3190,6 +3398,8 @@ Status NA
 				End-Section
 				Section repeat21_
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma21.greekmelody End-Title
@@ -3198,6 +3408,8 @@ Status NA
 				End-Section
 				Section kath22_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
@@ -3208,6 +3420,8 @@ Status NA
 				End-Section
 				Section kath2t_
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
 						Media rid meMA.Kathisma2T.text End-Media
@@ -3218,6 +3432,8 @@ Status NA
 			Section pe__
 				Section kath21_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.Kathisma21.mode<Tmelody>rid peMA.Kathisma21.melody</>End-Title
@@ -3251,7 +3467,9 @@ Status NA
 						Media rid alt1.meMA.Kathisma21.text End-Media
 						Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid alt1.meMA.Kathisma2T.text End-Media
 						Hymn rid alt1.meMA.Kathisma2T.text @ver media-off End-Hymn
 					End-Section
@@ -3266,6 +3484,8 @@ Status NA
 						Media rid alt1.meMA.Kathisma21.text End-Media
 						Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -3280,13 +3500,17 @@ Status NA
 						Hymn rid alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 						when-exists rid alt1.meMA.Kathisma22.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt1.meMA.Kathisma22.mode<Tmelody>rid alt1.meMA.Kathisma22.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma22.greekmelody End-Title
 							Media rid alt1.meMA.Kathisma22.text End-Media
 							Hymn rid alt1.meMA.Kathisma22.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt1.meMA.Kathisma2T.mode<Tmelody>rid alt1.meMA.Kathisma2T.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Kathisma2T.greekmelody End-Title
@@ -3296,6 +3520,7 @@ Status NA
 				End-Section
 				Section kath2t_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMeSupplement End-Para
 						Title role mode rid alt1.meMA.Kathisma2T.mode<Tmelody>rid alt1.meMA.Kathisma2T.melody</>End-Title
@@ -3325,8 +3550,10 @@ Status NA
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
 					Media rid meMA.Kathisma2T.text End-Media
 					Hymn rid meMA.Kathisma2T.text @ver media-off End-Hymn
@@ -3342,6 +3569,7 @@ Status NA
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -3355,6 +3583,8 @@ Status NA
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -3368,6 +3598,8 @@ Status NA
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
 					Title role greekmelody rid meMA.Kathisma22.greekmelody End-Title
 					Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
@@ -3384,13 +3616,17 @@ Status NA
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					when-exists rid meMA.Kathisma22.text use:
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid meMA.Kathisma22.mode<Tmelody>rid meMA.Kathisma22.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma22.greekmelody End-Title
 						Media rid meMA.Kathisma22.text End-Media
 						Hymn rid meMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role mode rid meMA.Kathisma2T.mode<Tmelody>rid meMA.Kathisma2T.melody</>End-Title
 					Media rid meMA.Kathisma2T.text End-Media
@@ -3509,6 +3745,8 @@ Status NA
 						Media rid ocMA.Kathisma22.text End-Media
 						Hymn rid ocMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid ocMA.Kathisma23.melody use:
 								Title role mode rid ocMA.Kathisma23.mode<Tmelody>rid ocMA.Kathisma23.melody</>End-Title
@@ -3533,6 +3771,7 @@ Status NA
 					Media rid ocMA.Kathisma21.text End-Media
 					Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma22.melody use:
 							Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -3541,6 +3780,7 @@ Status NA
 					Media rid ocMA.Kathisma22.text End-Media
 					Hymn rid ocMA.Kathisma22.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid ocMA.Kathisma23.melody use:
 							Title role mode rid ocMA.Kathisma23.mode<Tmelody>rid ocMA.Kathisma23.melody</>End-Title
@@ -3563,6 +3803,7 @@ Status NA
 					Media rid ocMA.Kathisma21.text End-Media
 					Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma22.melody use:
 							Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -3587,6 +3828,7 @@ Status NA
 				End-Section
 				Section kath22
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					when-exists
 						rid ocMA.Kathisma22.melody use:
 							Title role mode rid ocMA.Kathisma22.mode<Tmelody>rid ocMA.Kathisma22.melody</>End-Title
@@ -3597,6 +3839,7 @@ Status NA
 				End-Section
 				Section kath23_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceOctoechos End-Para
 						when-exists
@@ -3627,11 +3870,13 @@ Status NA
 					Hymn rid ocMA.Kathisma21.text @ver media-off End-Hymn
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>rid meDA.commemoration.first_title</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode rid meMA.Kathisma21.mode<Tmelody>rid meMA.Kathisma21.melody</>End-Title
 					Title role greekmelody rid meMA.Kathisma21.greekmelody End-Title
 					Media rid meMA.Kathisma21.text End-Media
 					Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid meMA.Kathisma2T.text End-Media
 					Hymn rid meMA.Kathisma2T.text @ver media-off End-Hymn
 				End-Section
@@ -3648,6 +3893,8 @@ Status NA
 					Media rid peMA.Kathisma21.text End-Media
 					Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -3660,11 +3907,13 @@ Status NA
 				Media rid peMA.Kathisma21.text End-Media
 				Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid peMA.Kathisma22.mode<Tmelody>rid peMA.Kathisma22.melody</>End-Title
 				Title role greekmelody rid peMA.Kathisma22.greekmelody End-Title
 				Media rid peMA.Kathisma22.text End-Media
 				Hymn rid peMA.Kathisma22.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid peMA.Kathisma23.text End-Media
 				Hymn rid peMA.Kathisma23.text @ver media-off End-Hymn
 			End-Section
@@ -3675,9 +3924,11 @@ Status NA
 				Media rid peMA.Kathisma21.text End-Media
 				Hymn rid peMA.Kathisma21.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media rid peMA.Kathisma21b.text End-Media
 				Hymn rid peMA.Kathisma21b.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid peMA.Kathisma22.text End-Media
 				Hymn rid peMA.Kathisma22.text @ver media-off End-Hymn
 			End-Section
@@ -3689,9 +3940,11 @@ Status NA
 			Media sid tr.d014_gr_GR_cog.trMA.Kathisma21.text End-Media
 			Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma21.text @ver media-off End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid tr.d014_gr_GR_cog.trMA.Kathisma21b.text End-Media
 			Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma21b.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid tr.d014_gr_GR_cog.trMA.Kathisma22.text End-Media
 			Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma22.text @ver media-off End-Hymn
 		End-Section
@@ -3710,6 +3963,8 @@ Status NA
 				Media rid trMA.Kathisma21.text End-Media
 				Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 			End-Section
 			Section kath21gb22_
@@ -3727,6 +3982,8 @@ Status NA
 					Media rid trMA.Kathisma21.text End-Media
 					Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid trMA.Kathisma22.melody use:
 							Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -3750,6 +4007,7 @@ Status NA
 				Media rid trMA.Kathisma21.text End-Media
 				Hymn rid trMA.Kathisma21.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				when-exists
 					rid trMA.Kathisma22.melody use:
 						Title role mode rid trMA.Kathisma22.mode<Tmelody>rid trMA.Kathisma22.melody</>End-Title
@@ -3758,6 +4016,7 @@ Status NA
 				Media rid trMA.Kathisma22.text End-Media
 				Hymn rid trMA.Kathisma22.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				when-exists
 					rid trMA.Kathisma23.melody use:
 						Title role mode rid trMA.Kathisma23.mode<Tmelody>rid trMA.Kathisma23.melody</>End-Title
@@ -3774,9 +4033,11 @@ Status NA
 				Media sid tr.d014_gr_GR_cog.trMA.Kathisma21.text End-Media
 				Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma21.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Media sid tr.d014_gr_GR_cog.trMA.Kathisma21b.text End-Media
 				Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma21b.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media sid tr.d014_gr_GR_cog.trMA.Kathisma22.text End-Media
 				Hymn sid tr.d014_gr_GR_cog.trMA.Kathisma22.text @ver media-off End-Hymn
 			End-Section
@@ -3800,12 +4061,14 @@ Status NA
 		End-Section
 		Section glory_triadic
 			Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Title role mode sid oc.m1.d1_gr_GR_cog.ocLI.BeatitudesTr.mode End-Title
 			Media sid oc.m1.d1_gr_GR_cog.ocLI.BeatitudesTr.text End-Media
 			Hymn sid oc.m1.d1_gr_GR_cog.ocLI.BeatitudesTr.text @ver media-off End-Hymn
 		End-Section
 		Section both_theotokion
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Title role mode sid oc.m1.d1_gr_GR_cog.ocLI.BeatitudesT.mode End-Title
 			when-movable-cycle-day-is
 				72 thru 109 use:
@@ -3979,6 +4242,8 @@ Status NA
 							Media rid alt1.meMA.Kathisma31.text End-Media
 							Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -3991,7 +4256,9 @@ Status NA
 							Media rid alt1.meMA.Kathisma31.text End-Media
 							Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid alt1.meMA.Kathisma3T.text End-Media
 							Hymn rid alt1.meMA.Kathisma3T.text @ver media-off End-Hymn
 						End-Section
@@ -4005,6 +4272,8 @@ Status NA
 							Media rid alt1.meMA.Kathisma31.text End-Media
 							Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid alt1.meMA.Kathisma32.mode<Tmelody>rid alt1.meMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma32.greekmelody End-Title
 							Media rid alt1.meMA.Kathisma32.text End-Media
@@ -4021,13 +4290,17 @@ Status NA
 							Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 							when-exists rid alt1.meMA.Kathisma32.text use:
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid alt1.meMA.Kathisma32.mode<Tmelody>rid alt1.meMA.Kathisma32.melody</>End-Title
 								Title role greekmelody rid alt1.meMA.Kathisma32.greekmelody End-Title
 								Media rid alt1.meMA.Kathisma32.text End-Media
 								Hymn rid alt1.meMA.Kathisma32.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							end-when
 							Title role mode rid alt1.meMA.Kathisma3T.mode<Tmelody>rid alt1.meMA.Kathisma3T.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma3T.greekmelody End-Title
@@ -4065,6 +4338,8 @@ Status NA
 							Media rid alt2.meMA.Kathisma31.text End-Media
 							Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 						End-Section
 					End-Section
@@ -4077,7 +4352,9 @@ Status NA
 							Media rid alt2.meMA.Kathisma31.text End-Media
 							Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid alt2.meMA.Kathisma3T.text End-Media
 							Hymn rid alt2.meMA.Kathisma3T.text @ver media-off End-Hymn
 						End-Section
@@ -4091,6 +4368,8 @@ Status NA
 							Media rid alt2.meMA.Kathisma31.text End-Media
 							Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid alt2.meMA.Kathisma32.mode<Tmelody>rid alt2.meMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma32.greekmelody End-Title
 							Media rid alt2.meMA.Kathisma32.text End-Media
@@ -4107,13 +4386,17 @@ Status NA
 							Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 							when-exists rid alt2.meMA.Kathisma32.text use:
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Title role mode rid alt2.meMA.Kathisma32.mode<Tmelody>rid alt2.meMA.Kathisma32.melody</>End-Title
 								Title role greekmelody rid alt2.meMA.Kathisma32.greekmelody End-Title
 								Media rid alt2.meMA.Kathisma32.text End-Media
 								Hymn rid alt2.meMA.Kathisma32.text @ver media-off End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 							otherwise use:
 								Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
+								Verse sid pr.BothNowAndEver.text End-Verse
 							end-when
 							Title role mode rid alt2.meMA.Kathisma3T.mode<Tmelody>rid alt2.meMA.Kathisma3T.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma3T.greekmelody End-Title
@@ -4150,6 +4433,8 @@ Status NA
 						Media rid meMA.Kathisma31.text End-Media
 						Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -4161,8 +4446,10 @@ Status NA
 					Media rid meMA.Kathisma31.text End-Media
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid meMA.Kathisma3T.text End-Media
 					Hymn rid meMA.Kathisma3T.text @ver media-off End-Hymn
 				End-Section
@@ -4175,6 +4462,8 @@ Status NA
 						Media rid meMA.Kathisma31.text End-Media
 						Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.Kathisma32.mode<Tmelody>rid meMA.Kathisma32.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma32.greekmelody End-Title
 						Media rid meMA.Kathisma32.text End-Media
@@ -4191,13 +4480,17 @@ Status NA
 						Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 						when-exists rid meMA.Kathisma32.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid meMA.Kathisma32.mode<Tmelody>rid meMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid meMA.Kathisma32.greekmelody End-Title
 							Media rid meMA.Kathisma32.text End-Media
 							Hymn rid meMA.Kathisma32.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid meMA.Kathisma3T.mode<Tmelody>rid meMA.Kathisma3T.melody</>End-Title
 						Media rid meMA.Kathisma3T.text End-Media
@@ -4267,8 +4560,12 @@ Status NA
 					when-name-of-day-is
 						Wednesday, Friday use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					when-exists
 						rid ocMA.Kathisma33.melody use:
@@ -4299,6 +4596,8 @@ Status NA
 						Media rid peMA.Kathisma31.text End-Media
 						Hymn rid peMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid peMA.Kathisma31.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -4325,6 +4624,8 @@ Status NA
 						Media rid trMA.Kathisma31.text End-Media
 						Hymn rid trMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid trMA.Kathisma31.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -4343,6 +4644,8 @@ Status NA
 					when-name-of-day-is
 						Monday, Tuesday, Thursday use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							when-exists
 								rid trMA.Kathisma32.melody use:
 									Title role mode rid trMA.Kathisma32.mode<Tmelody>rid trMA.Kathisma32.melody</>End-Title
@@ -4352,6 +4655,8 @@ Status NA
 							Hymn rid trMA.Kathisma32.text @ver media-off End-Hymn
 						Wednesday, Friday use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							when-exists
 								rid trMA.Kathisma32.melody use:
 									Title role mode rid trMA.Kathisma32.mode<Tmelody>rid trMA.Kathisma32.melody</>End-Title
@@ -4388,9 +4693,11 @@ Status NA
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.ResEvlog4.text media-off End-Hymn
 			Media sid ho.ho03_gr_GR_cog.hoMA.ResEvlog5.text End-Media
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.ResEvlog5.text media-off End-Hymn
 			Media sid ho.ho03_gr_GR_cog.hoMA.ResEvlog6.text End-Media
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.ResEvlog6.text media-off End-Hymn
 			Media sid ho.ho03_gr_GR_cog.hoMA.ResEvlog7.text End-Media
 			Hymn sid ho.ho03_gr_GR_cog.hoMA.ResEvlog7.text media-off<r>sid ru.Thrice media-off</>End-Hymn
@@ -4398,6 +4705,7 @@ Status NA
 		Section both__
 			Section consecration
 				Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
@@ -4417,6 +4725,7 @@ Status NA
 		Section glory__
 			Section consecration
 				Title sid ti.Glory<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
@@ -4426,6 +4735,8 @@ Status NA
 		Section gloryboth__
 			Section consecration
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Consecration</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourceEuchologion End-Para
 				Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 				Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
@@ -4437,6 +4748,8 @@ Status NA
 			Section pe__
 				Section kath31_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.Kathisma31.mode<Tmelody>rid peMA.Kathisma31.melody</>End-Title
@@ -4470,7 +4783,9 @@ Status NA
 						Media rid alt1.meMA.Kathisma31.text End-Media
 						Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid alt1.meMA.Kathisma3T.text End-Media
 						Hymn rid alt1.meMA.Kathisma3T.text @ver media-off End-Hymn
 					End-Section
@@ -4485,6 +4800,8 @@ Status NA
 						Media rid alt1.meMA.Kathisma31.text End-Media
 						Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -4498,6 +4815,8 @@ Status NA
 						Media rid alt1.meMA.Kathisma31.text End-Media
 						Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid alt1.meMA.Kathisma32.mode<Tmelody>rid alt1.meMA.Kathisma32.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Kathisma32.greekmelody End-Title
 						Hymn rid alt1.meMA.Kathisma32.text @ver media-off End-Hymn
@@ -4514,13 +4833,17 @@ Status NA
 						Hymn rid alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 						when-exists rid alt1.meMA.Kathisma32.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt1.meMA.Kathisma32.mode<Tmelody>rid alt1.meMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid alt1.meMA.Kathisma32.greekmelody End-Title
 							Media rid alt1.meMA.Kathisma32.text End-Media
 							Hymn rid alt1.meMA.Kathisma32.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt1.meMA.Kathisma3T.mode<Tmelody>rid alt1.meMA.Kathisma3T.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Kathisma3T.greekmelody End-Title
@@ -4551,7 +4874,9 @@ Status NA
 						Media rid alt2.meMA.Kathisma31.text End-Media
 						Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid alt2.meMA.Kathisma3T.text End-Media
 						Hymn rid alt2.meMA.Kathisma3T.text @ver media-off End-Hymn
 					End-Section
@@ -4566,6 +4891,8 @@ Status NA
 						Media rid alt2.meMA.Kathisma31.text End-Media
 						Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 					End-Section
 				End-Section
@@ -4579,6 +4906,8 @@ Status NA
 						Media rid alt2.meMA.Kathisma31.text End-Media
 						Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid alt2.meMA.Kathisma32.mode<Tmelody>rid alt2.meMA.Kathisma32.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Kathisma32.greekmelody End-Title
 						Hymn rid alt2.meMA.Kathisma32.text @ver media-off End-Hymn
@@ -4595,13 +4924,17 @@ Status NA
 						Hymn rid alt2.meMA.Kathisma31.text @ver media-off End-Hymn
 						when-exists rid alt2.meMA.Kathisma32.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt2.meMA.Kathisma32.mode<Tmelody>rid alt2.meMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid alt2.meMA.Kathisma32.greekmelody End-Title
 							Media rid alt2.meMA.Kathisma32.text End-Media
 							Hymn rid alt2.meMA.Kathisma32.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt2.meMA.Kathisma3T.mode<Tmelody>rid alt2.meMA.Kathisma3T.melody</>End-Title
 						Title role greekmelody rid alt2.meMA.Kathisma3T.greekmelody End-Title
@@ -4631,6 +4964,8 @@ Status NA
 					Media rid meMA.Kathisma31.text End-Media
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -4644,6 +4979,8 @@ Status NA
 					Media rid meMA.Kathisma31.text End-Media
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Kathisma32.mode<Tmelody>rid meMA.Kathisma32.melody</>End-Title
 					Title role greekmelody rid meMA.Kathisma32.greekmelody End-Title
 					Media rid meMA.Kathisma32.text End-Media
@@ -4661,13 +4998,17 @@ Status NA
 					Hymn rid meMA.Kathisma31.text @ver media-off End-Hymn
 					when-exists rid meMA.Kathisma32.text use:
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid meMA.Kathisma32.mode<Tmelody>rid meMA.Kathisma32.melody</>End-Title
 						Title role greekmelody rid meMA.Kathisma32.greekmelody End-Title
 						Media rid meMA.Kathisma32.text End-Media
 						Hymn rid meMA.Kathisma32.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role mode rid meMA.Kathisma3T.mode<Tmelody>rid meMA.Kathisma3T.melody</>End-Title
 					Media rid meMA.Kathisma3T.text End-Media
@@ -4718,6 +5059,8 @@ Status NA
 				Media rid ocMA.Kathisma32.text End-Media
 				Hymn rid ocMA.Kathisma32.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				when-exists
 					rid ocMA.Kathisma33.melody use:
 						Title role mode rid ocMA.Kathisma33.mode<Tmelody>rid ocMA.Kathisma33.melody</>End-Title
@@ -4740,13 +5083,17 @@ Status NA
 						Hymn rid alt1.peMA.Kathisma31.text @ver media-off End-Hymn
 						when-exists rid alt1.peMA.Kathisma32.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Title role mode rid alt1.peMA.Kathisma32.mode<Tmelody>rid alt1.peMA.Kathisma32.melody</>End-Title
 							Title role greekmelody rid alt1.peMA.Kathisma32.greekmelody End-Title
 							Media rid alt1.peMA.Kathisma32.text End-Media
 							Hymn rid alt1.peMA.Kathisma32.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						end-when
 						Title role mode rid alt1.peMA.Kathisma3T.mode<Tmelody>rid alt1.peMA.Kathisma3T.melody</>End-Title
 						Title role greekmelody rid alt1.peMA.Kathisma3T.greekmelody End-Title
@@ -4765,6 +5112,8 @@ Status NA
 					Media rid peMA.Kathisma31.text End-Media
 					Hymn rid peMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid peMA.Kathisma31.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -4785,6 +5134,8 @@ Status NA
 					Media rid trMA.Kathisma31.text End-Media
 					Hymn rid trMA.Kathisma31.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Kathisma31.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -4821,8 +5172,10 @@ Status NA
 					Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon11.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 					Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon12.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon13.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon23.text @ver media-off End-Hymn
 				End-Section
 				Section prokeimenon
@@ -4841,6 +5194,8 @@ Status NA
 					Media rid ocMA.Antiphon12.text End-Media
 					Hymn rid ocMA.Antiphon12.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMA.Antiphon13.text End-Media
 					Hymn rid ocMA.Antiphon13.text @ver media-off End-Hymn
 					Title role desig sid ti.Antiphon2 End-Title
@@ -4849,6 +5204,8 @@ Status NA
 					Media rid ocMA.Antiphon22.text End-Media
 					Hymn rid ocMA.Antiphon22.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMA.Antiphon23.text End-Media
 					Hymn rid ocMA.Antiphon23.text @ver media-off End-Hymn
 					Title role desig sid ti.Antiphon3 End-Title
@@ -4857,6 +5214,8 @@ Status NA
 					Media rid ocMA.Antiphon32.text End-Media
 					Hymn rid ocMA.Antiphon32.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMA.Antiphon33.text End-Media
 					Hymn rid ocMA.Antiphon33.text @ver media-off End-Hymn
 					when-mode-of-week-is M8 use:
@@ -4866,6 +5225,8 @@ Status NA
 						Media rid ocMA.Antiphon42.text End-Media
 						Hymn rid ocMA.Antiphon42.text @ver media-off End-Hymn
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid ocMA.Antiphon43.text End-Media
 						Hymn rid ocMA.Antiphon43.text @ver media-off End-Hymn
 					end-when
@@ -4919,8 +5280,10 @@ Status NA
 				Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon11.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 				Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon12.text @ver media-off<r>sid ru.Twice media-off</>End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon13.text @ver media-off End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid oc.m4.d1_gr_GR_cog.ocMA.Antiphon23.text @ver media-off End-Hymn
 			End-Section
 			Section prokeimenon
@@ -4950,6 +5313,8 @@ Status NA
 				Media rid ocMA.Antiphon12.text End-Media
 				Hymn rid ocMA.Antiphon12.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid ocMA.Antiphon13.text End-Media
 				Hymn rid ocMA.Antiphon13.text @ver media-off End-Hymn
 				Title role desig sid ti.Antiphon2 End-Title
@@ -4958,6 +5323,8 @@ Status NA
 				Media rid ocMA.Antiphon22.text End-Media
 				Hymn rid ocMA.Antiphon22.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid ocMA.Antiphon23.text End-Media
 				Hymn rid ocMA.Antiphon23.text @ver media-off End-Hymn
 				Title role desig sid ti.Antiphon3 End-Title
@@ -4966,6 +5333,8 @@ Status NA
 				Media rid ocMA.Antiphon32.text End-Media
 				Hymn rid ocMA.Antiphon32.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media rid ocMA.Antiphon33.text End-Media
 				Hymn rid ocMA.Antiphon33.text @ver media-off End-Hymn
 				when-mode-of-week-is M8 use:
@@ -4975,6 +5344,8 @@ Status NA
 					Media rid ocMA.Antiphon42.text End-Media
 					Hymn rid ocMA.Antiphon42.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMA.Antiphon43.text End-Media
 					Hymn rid ocMA.Antiphon43.text @ver media-off End-Hymn
 				end-when
@@ -5319,6 +5690,8 @@ Status NA
 					Media rid alt1.meMA.Ode3Kathisma1.text End-Media
 					Hymn rid alt1.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid alt1.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -5331,6 +5704,7 @@ Status NA
 				Media rid alt1.meMA.Ode3Kathisma1.text End-Media
 				Hymn rid alt1.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid alt1.meMA.Ode3Kathisma2.mode<Tmelody>rid alt1.meMA.Ode3Kathisma2.melody</>End-Title
 				Title role greekmelody rid alt1.meMA.Ode3Kathisma2.greekmelody End-Title
 				Hymn rid alt1.meMA.Ode3Kathisma2.text End-Hymn
@@ -5350,6 +5724,7 @@ Status NA
 				when-exists
 					rid alt1.meMA.Ode3Kathisma2.text use:
 						Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid alt1.meMA.Ode3Kathisma2.mode<Tmelody>rid alt1.meMA.Ode3Kathisma2.melody</>End-Title
 						Title role greekmelody rid alt1.meMA.Ode3Kathisma2.greekmelody End-Title
 						Hymn rid alt1.meMA.Ode3Kathisma2.text End-Hymn
@@ -5359,6 +5734,7 @@ Status NA
 									Wednesday, Friday use:
 										Section stavrotheotokion
 											Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid alt1.meMA.Ode3KathismaSt.mode<Tmelody>rid alt1.meMA.Ode3KathismaSt.melody</>End-Title
 											Title role greekmelody rid alt1.meMA.Ode3KathismaSt.greekmelody End-Title
 											Media rid alt1.meMA.Ode3KathismaSt.text End-Media
@@ -5367,6 +5743,7 @@ Status NA
 									otherwise use:
 										Section theotokion
 											Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid alt1.meMA.Ode3KathismaT.mode<Tmelody>rid alt1.meMA.Ode3KathismaT.melody</>End-Title
 											Title role greekmelody rid alt1.meMA.Ode3KathismaT.greekmelody End-Title
 											Media rid alt1.meMA.Ode3KathismaT.text End-Media
@@ -5383,6 +5760,8 @@ Status NA
 									Wednesday, Friday use:
 										Section GBstavrotheotokion
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid alt1.meMA.Ode3KathismaSt.mode<Tmelody>rid alt1.meMA.Ode3KathismaSt.melody</>End-Title
 											Title role greekmelody rid alt1.meMA.Ode3KathismaSt.greekmelody End-Title
 											Media rid alt1.meMA.Ode3KathismaSt.text End-Media
@@ -5391,6 +5770,8 @@ Status NA
 									otherwise use:
 										Section GBtheotokion
 											Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+											Verse sid pr.GloryToTheFather.text End-Verse
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid alt1.meMA.Ode3KathismaT.mode<Tmelody>rid alt1.meMA.Ode3KathismaT.melody</>End-Title
 											Title role greekmelody rid alt1.meMA.Ode3KathismaT.greekmelody End-Title
 											Media rid alt1.meMA.Ode3KathismaT.text End-Media
@@ -5422,6 +5803,8 @@ Status NA
 				Media rid alt1.peMA.Ode3Kathisma1.text End-Media
 				Hymn rid alt1.peMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role mode rid alt1.peMA.Ode3Kathisma2.mode<Tmelody>rid alt1.peMA.Ode3Kathisma2.melody</>End-Title
 				Title role greekmelody rid alt1.peMA.Ode3Kathisma2.greekmelody End-Title
 				Media rid alt1.peMA.Ode3Kathisma2.text End-Media
@@ -5499,6 +5882,7 @@ Status NA
 						End-Section
 						Section kath2
 							Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Section hymn
 								when-exists
 									rid trMA.Ode3Kathisma2.melody use:
@@ -5512,6 +5896,7 @@ Status NA
 						End-Section
 						Section kath3_theotokion
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 								when-exists
 									rid trMA.Ode3Kathisma3.melody use:
 										Title role mode rid trMA.Ode3Kathisma3.mode<Tmelody>rid trMA.Ode3Kathisma3.melody</>End-Title
@@ -5533,6 +5918,7 @@ Status NA
 								Wednesday, Friday use:
 									Section stavrotheotokion
 										Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid alt1.meMA.Ode3KathismaSt.mode<Tmelody>rid alt1.meMA.Ode3KathismaSt.melody</>End-Title
 										Title role greekmelody rid alt1.meMA.Ode3KathismaSt.greekmelody End-Title
 										Media rid alt1.meMA.Ode3KathismaSt.text End-Media
@@ -5541,6 +5927,7 @@ Status NA
 								otherwise use:
 									Section theotokion
 										Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid alt1.meMA.Ode3KathismaT.mode<Tmelody>rid alt1.meMA.Ode3KathismaT.melody</>End-Title
 										Title role greekmelody rid alt1.meMA.Ode3KathismaT.greekmelody End-Title
 										Media rid alt1.meMA.Ode3KathismaT.text End-Media
@@ -5558,6 +5945,7 @@ Status NA
 								Wednesday, Friday use:
 									Section stavrotheotokion
 										Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid meMA.Ode3KathismaSt.mode<Tmelody>rid meMA.Ode3KathismaSt.melody</>End-Title
 										Media rid meMA.Ode3KathismaSt.text End-Media
 										Hymn rid meMA.Ode3KathismaSt.text @ver media-off End-Hymn
@@ -5565,6 +5953,7 @@ Status NA
 								otherwise use:
 									Section theotokion
 										Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid meMA.Ode3KathismaT.mode<Tmelody>rid meMA.Ode3KathismaT.melody</>End-Title
 										Media rid meMA.Ode3KathismaT.text End-Media
 										Hymn rid meMA.Ode3KathismaT.text @ver media-off End-Hymn
@@ -5578,6 +5967,7 @@ Status NA
 			Section glory__
 				Section mealt11_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMeSupplement End-Para
 						Title role mode rid alt1.meMA.Ode3Kathisma1.mode<Tmelody>rid alt1.meMA.Ode3Kathisma1.melody</>End-Title
@@ -5595,6 +5985,8 @@ Status NA
 								Wednesday, Friday use:
 									Section stavrotheotokion
 										Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+										Verse sid pr.GloryToTheFather.text End-Verse
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid meMA.Ode3KathismaSt.mode<Tmelody>rid meMA.Ode3KathismaSt.melody</>End-Title
 										Media rid meMA.Ode3KathismaSt.text End-Media
 										Hymn rid meMA.Ode3KathismaSt.text @ver media-off End-Hymn
@@ -5602,6 +5994,8 @@ Status NA
 								otherwise use:
 									Section theotokion
 										Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+										Verse sid pr.GloryToTheFather.text End-Verse
+										Verse sid pr.BothNowAndEver.text End-Verse
 										Title role mode rid meMA.Ode3KathismaT.mode<Tmelody>rid meMA.Ode3KathismaT.melody</>End-Title
 										Media rid meMA.Ode3KathismaT.text End-Media
 										Hymn rid meMA.Ode3KathismaT.text @ver media-off End-Hymn
@@ -5613,6 +6007,8 @@ Status NA
 				End-Section
 				Section pe1
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Para role source0 sid ti.sourcePentecostarion End-Para
 					Title role mode rid peMA.Ode3Kathisma1.mode<Tmelody>rid peMA.Ode3Kathisma1.melody</>End-Title
 					Media rid peMA.Ode3Kathisma1.text End-Media
@@ -5648,7 +6044,8 @@ Status NA
 				Title role desig sid ti.Kathisma End-Title
 				when-exists
 					rid meMA.C1.notice use:
-					otherwise use: Para role source0 sid ti.sourceMenaion End-Para
+					otherwise use:
+						Para role source0 sid ti.sourceMenaion End-Para
 				end-when
 				Title role mode rid meMA.Ode3Kathisma1.mode<Tmelody>rid meMA.Ode3Kathisma1.melody</>End-Title
 				Title role greekmelody rid meMA.Ode3Kathisma1.greekmelody End-Title
@@ -5657,6 +6054,7 @@ Status NA
 				when-exists
 					rid meMA.Ode3Kathisma2.text use:
 						Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Title role mode rid meMA.Ode3Kathisma2.mode<Tmelody>rid meMA.Ode3Kathisma2.melody</>End-Title
 						Title role greekmelody rid meMA.Ode3Kathisma2.greekmelody End-Title
 						Media rid meMA.Ode3Kathisma2.text End-Media
@@ -5667,6 +6065,7 @@ Status NA
 									Wednesday, Friday use:
 										Section stavrotheotokion
 											Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Title role mode rid meMA.Ode3KathismaSt.mode<Tmelody>rid meMA.Ode3KathismaSt.melody</>End-Title
 											Media rid meMA.Ode3KathismaSt.text End-Media
 											Hymn rid meMA.Ode3KathismaSt.text @ver media-off End-Hymn
@@ -5674,6 +6073,7 @@ Status NA
 									otherwise use:
 										Section theotokion
 											Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+											Verse sid pr.BothNowAndEver.text End-Verse
 											Section nt
 												Title role mode rid meMA.Ode3KathismaT.mode<Tmelody>rid meMA.Ode3KathismaT.melody</>End-Title
 												Media rid meMA.Ode3KathismaT.text End-Media
@@ -5692,6 +6092,8 @@ Status NA
 										Wednesday, Friday use:
 											Section GBstavrotheotokion
 												Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+												Verse sid pr.GloryToTheFather.text End-Verse
+												Verse sid pr.BothNowAndEver.text End-Verse
 												Title role mode rid meMA.Ode3KathismaSt.mode<Tmelody>rid meMA.Ode3KathismaSt.melody</>End-Title
 												Media rid meMA.Ode3KathismaSt.text End-Media
 												Hymn rid meMA.Ode3KathismaSt.text @ver media-off End-Hymn
@@ -5699,6 +6101,8 @@ Status NA
 										otherwise use:
 											Section GBtheotokion
 												Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+												Verse sid pr.GloryToTheFather.text End-Verse
+												Verse sid pr.BothNowAndEver.text End-Verse
 												Title role mode rid meMA.Ode3KathismaT.mode<Tmelody>rid meMA.Ode3KathismaT.melody</>End-Title
 												Media rid meMA.Ode3KathismaT.text End-Media
 												Hymn rid meMA.Ode3KathismaT.text @ver media-off End-Hymn
@@ -5731,6 +6135,8 @@ Status NA
 					Media rid meMA.Ode3Kathisma1.text End-Media
 					Hymn rid meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				End-Section
 			End-Section
@@ -5746,11 +6152,15 @@ Status NA
 					when-exists 
 						rid meMA.Ode3Kathisma2.text use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Another_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid meMA.Ode3Kathisma2.mode<Tmelody>rid meMA.Ode3Kathisma2.melody</>End-Title
 							Title role greekmelody rid meMA.Ode3Kathisma2.greekmelody End-Title
 							Hymn rid meMA.Ode3Kathisma2.text @ver media-off End-Hymn
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					end-when
 				End-Section
@@ -5765,6 +6175,8 @@ Status NA
 					Media rid meMA.Ode3Kathisma1.text End-Media
 					Hymn rid meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid meMA.Ode3Kathisma3.mode<Tmelody>rid meMA.Ode3Kathisma3.melody</>End-Title
 					Title role greekmelody rid meMA.Ode3Kathisma3.greekmelody End-Title
 					Hymn rid meMA.Ode3Kathisma3.text @ver media-off End-Hymn
@@ -5779,11 +6191,13 @@ Status NA
 				Media rid meMA.Ode3Kathisma1.text End-Media
 				Hymn rid meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid meMA.Ode3Kathisma2.mode<Tmelody>rid meMA.Ode3Kathisma2.melody</>End-Title
 				Title role greekmelody rid meMA.Ode3Kathisma2.greekmelody End-Title
 				Media rid meMA.Ode3Kathisma2.text End-Media
 				Hymn rid meMA.Ode3Kathisma2.text @ver media-off End-Hymn
 				Title sid ti.BothNow End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role mode rid meMA.Ode3Kathisma3.mode<Tmelody>rid meMA.Ode3Kathisma3.melody</>End-Title
 				Title role greekmelody rid meMA.Ode3Kathisma3.greekmelody End-Title
 				Media rid meMA.Ode3Kathisma3.text End-Media
@@ -5871,6 +6285,8 @@ Status NA
 				Media rid peMA.Ode3Kathisma1.text End-Media
 				Hymn rid peMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Title role mode rid peMA.Ode3Kathisma2.mode<Tmelody>rid peMA.Ode3Kathisma2.melody</>End-Title
 				Title role greekmelody rid peMA.Ode3Kathisma2.greekmelody End-Title
 				Media rid peMA.Ode3Kathisma2.text End-Media
@@ -5885,6 +6301,7 @@ Status NA
 				Media rid peMA.Ode3Kathisma1.text End-Media
 				Hymn rid peMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Title role mode rid peMA.Ode3Kathisma2.mode<Tmelody>rid peMA.Ode3Kathisma2.melody</>End-Title
 				Title role greekmelody rid peMA.Ode3Kathisma2.greekmelody End-Title
 				Media rid peMA.Ode3Kathisma2.text End-Media
@@ -6001,9 +6418,11 @@ Status NA
 					Media rid trMA.Ode3Kathisma3.text End-Media
 					Hymn rid trMA.Ode3Kathisma3.text @ver media-off End-Hymn
 					Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode rid trMA.Ode3Kathisma4.mode<Tmelody>rid trMA.Ode3Kathisma4.melody</>End-Title
 					Hymn rid trMA.Ode3Kathisma4.text End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode rid trMA.Ode3Kathisma5.mode<Tmelody>rid trMA.Ode3Kathisma5.melody</>End-Title
 					Media rid trMA.Ode3Kathisma5.text End-Media
 					Hymn rid trMA.Ode3Kathisma5.text @ver media-off End-Hymn
@@ -6019,8 +6438,10 @@ Status NA
 					Media rid trMA.Ode3Kathisma2.text End-Media
 					Hymn rid trMA.Ode3Kathisma2.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn rid trMA.Ode3Kathisma3.text End-Hymn
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid trMA.Ode3Kathisma4.text End-Media
 					Hymn rid trMA.Ode3Kathisma4.text @ver media-off End-Hymn
 				End-Section
@@ -6035,6 +6456,7 @@ Status NA
 					End-Section
 					Section kath2
 						Title sid ti.Glory<Tdesig>sid ti.Another_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Section hymn
 							Title role mode rid trMA.Ode3Kathisma2.mode<Tmelody>rid trMA.Ode3Kathisma2.melody</>End-Title
 							Hymn rid trMA.Ode3Kathisma2.text End-Hymn
@@ -6042,6 +6464,7 @@ Status NA
 					End-Section
 					Section kath3_theotokion
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid trMA.Ode3Kathisma3.mode<Tmelody>rid trMA.Ode3Kathisma3.melody</>End-Title
 						Media rid trMA.Ode3Kathisma3.text End-Media
 						Hymn rid trMA.Ode3Kathisma3.text @ver media-off End-Hymn
@@ -6061,6 +6484,8 @@ Status NA
 					Media rid trMA.Ode3Kathisma1.text End-Media
 					Hymn rid trMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn rid trMA.Ode3Kathisma1.text @ver media-off End-Hymn
 				End-Section
 				Section kath1gb2
@@ -6077,6 +6502,8 @@ Status NA
 					Media rid trMA.Ode3Kathisma1.text End-Media
 					Hymn rid trMA.Ode3Kathisma1.text @ver media-off End-Hymn
 					Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					when-exists
 						rid trMA.Ode3Kathisma2.melody use:
 							Title role mode rid trMA.Ode3Kathisma2.mode<Tmelody>rid trMA.Ode3Kathisma2.melody</>End-Title
@@ -6086,10 +6513,14 @@ Status NA
 				End-Section
 				Section sunday
 					when-movable-cycle-day-is
-						1, 22, 29, 50 use: Insert_section kath1g2b3_ End-Insert
-						8, 36, 57 use: Insert_section kath1gb2 End-Insert
-						15 use: Insert_section kath3g4b5 End-Insert
-						43 use: Insert_section kath1v2g3b4 End-Insert
+						1, 22, 29, 50 use:
+							Insert_section kath1g2b3_ End-Insert
+						8, 36, 57 use:
+							Insert_section kath1gb2 End-Insert
+						15 use:
+							Insert_section kath3g4b5 End-Insert
+						43 use:
+							Insert_section kath1v2g3b4 End-Insert
 					end-when
 				End-Section
 			End-Section
@@ -6209,7 +6640,8 @@ Status NA
 			Section modeofcanon__
 				Section me1
 					when-exists
-						rid meMA.Ode9C1.notice use: Rubric rid meMA.Ode9C1.notice End-Rubric
+						rid meMA.Ode9C1.notice use:
+							Rubric rid meMA.Ode9C1.notice End-Rubric
 					end-when
 					Title role desig sid misc.Ode9 End-Title
 					Title role desig sid titles_gr_GR_cog.ti.Magnificat<Tmode>rid meMA.Ode9C11.mode</>End-Title
@@ -6730,7 +7162,8 @@ Status NA
 			End-Section
 			Section tr_
 				when-movable-cycle-day-is
-					1 use: Insert_section tr0 End-Insert
+					1 use:
+						Insert_section tr0 End-Insert
 				end-when
 				Title role desig sid ti.Kontakion End-Title
 				Section konoik_nt_
@@ -8837,6 +9270,7 @@ Status NA
 			Section eotheotokion
 				Para role source sid ti.sourceOctoechos End-Para
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 				Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 			End-Section
@@ -8845,6 +9279,7 @@ Status NA
 					Monday, Tuesday, Thursday, Saturday use:
 						Section theotokion
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid meMA.LaudsTheotokion.mode<Tmelody>rid meMA.LaudsTheotokion.melody</>End-Title
 							Title role greekmelody rid meMA.LaudsTheotokion.greekmelody End-Title
 							Media rid meMA.LaudsTheotokion.text End-Media
@@ -8855,6 +9290,7 @@ Status NA
 							rid meMA.LaudsStavrotheotokion.text use:
 								Section stavrotheotokion
 									Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.LaudsStavrotheotokion.mode<Tmelody>rid meMA.LaudsStavrotheotokion.melody</>End-Title
 									Title role greekmelody rid meMA.LaudsStavrotheotokion.greekmelody End-Title
 									Media rid meMA.LaudsStavrotheotokion.text End-Media
@@ -8869,6 +9305,7 @@ Status NA
 				Section alt1__
 					Section bothasboth_
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
 							Title role mode rid alt1.meMA.LaudsBoth.mode End-Title
@@ -8879,12 +9316,14 @@ Status NA
 					Section theotokion
 						Para role source sid ti.sourceMeSupplement End-Para
 						Title sid ti.BothNow<Tmode>rid alt1.meMA.LaudsTheotokion.mode</><Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid alt1.meMA.LaudsTheotokion.text End-Media
 						Hymn rid alt1.meMA.LaudsTheotokion.text @ver media-off End-Hymn
 					End-Section
 				End-Section
 				Section bothasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsBoth.mode End-Title
@@ -8894,6 +9333,7 @@ Status NA
 				End-Section
 				Section gloryasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsGlory.mode End-Title
@@ -8904,6 +9344,7 @@ Status NA
 				Section theotokion
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.BothNow<Tmode>rid meMA.LaudsTheotokion.mode</><Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid meMA.LaudsTheotokion.text End-Media
 					Hymn rid meMA.LaudsTheotokion.text @ver media-off End-Hymn
 				End-Section
@@ -8912,6 +9353,7 @@ Status NA
 			End-Section
 			Section pascha_
 				Title sid ti.BothNow<Tdesig>sid ti.Pascha</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Para role source0 sid ti.sourcePentecostarion End-Para
 				when-movable-cycle-day-is
 					71, 72, 73, 74, 75, 76, 77, 109 use:
@@ -8924,6 +9366,7 @@ Status NA
 			Section pe__
 				Section bothasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.LaudsBoth.mode End-Title
@@ -8933,6 +9376,7 @@ Status NA
 				End-Section
 				Section gloryasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.LaudsGlory.mode End-Title
@@ -8942,6 +9386,7 @@ Status NA
 				End-Section
 				Section litygloryasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peVE.LityGlory.mode End-Title
@@ -8954,6 +9399,7 @@ Status NA
 				Section mode1
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode1 End-Title
 					Media sid oc.m1.d3_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m1.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
@@ -8961,6 +9407,7 @@ Status NA
 				Section mode2
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode2 End-Title
 					Media sid ho.ho23_gr_GR_cog.hoCA.Troparion7.text End-Media
 					Hymn sid ho.ho23_gr_GR_cog.hoCA.Troparion7.text @ver media-off End-Hymn
@@ -8968,6 +9415,7 @@ Status NA
 				Section mode3
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode3 End-Title
 					Media sid oc.m3.d2_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m3.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
@@ -8975,6 +9423,7 @@ Status NA
 				Section mode4
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode4 End-Title
 					Media sid oc.m4.d2_gr_GR_cog.ocMA.AposTheotokion.text End-Media
 					Hymn sid oc.m4.d2_gr_GR_cog.ocMA.AposTheotokion.text @ver media-off End-Hymn
@@ -8982,6 +9431,7 @@ Status NA
 				Section mode5
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode5 End-Title
 					Media sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m5.d3_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
@@ -8992,6 +9442,7 @@ Status NA
 				Section mode7
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode7 End-Title
 					Media sid oc.m7.d5_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 					Hymn sid oc.m7.d5_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
@@ -8999,6 +9450,7 @@ Status NA
 				Section mode8
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid misc.Mode8 End-Title
 					Media sid oc.m8.d5_gr_GR_cog.ocMA.AposTheotokion.text End-Media
 					Hymn sid oc.m8.d5_gr_GR_cog.ocMA.AposTheotokion.text @ver media-off End-Hymn
@@ -9007,6 +9459,7 @@ Status NA
 			Section tr__
 				Section bothasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.LaudsBoth.mode End-Title
@@ -9016,6 +9469,7 @@ Status NA
 				End-Section
 				Section theotokion_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid trMA.LaudsTheotokion.mode<Tmelody>rid trMA.LaudsTheotokion.melody</>End-Title
 						Media rid trMA.LaudsTheotokion.text End-Media
@@ -9140,12 +9594,14 @@ Status NA
 				Section eothinon
 					Para role source sid ti.sourceOctoechos End-Para
 					Title sid ti.Glory<Tmode>rid eo.Doxasticon.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role desig rid eo.title End-Title
 					Media rid eo.Doxasticon.text End-Media
 					Hymn rid eo.Doxasticon.text @ver media-off End-Hymn
 				End-Section
 				Section theotokion
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text End-Media
 					Hymn sid ho.ho03_gr_GR_cog.hoMA.LaudsSunTheotokion.text @ver media-off End-Hymn
 				End-Section
@@ -9154,6 +9610,7 @@ Status NA
 				Section alt1__
 					Section gloryasglory_
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
 							Title role mode rid alt1.meMA.LaudsGlory.mode End-Title
@@ -9165,6 +9622,7 @@ Status NA
 				Section alt2__
 					Section gloryasglory_
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
 							Title role mode rid alt2.meMA.LaudsGlory.mode End-Title
@@ -9175,6 +9633,7 @@ Status NA
 				End-Section
 				Section bothasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsBoth.mode End-Title
@@ -9185,6 +9644,7 @@ Status NA
 				Section DecAC
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.Feast</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 					Media sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
@@ -9192,6 +9652,7 @@ Status NA
 				Section DecBC
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.Forefathers</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode sid me.m12.dBC_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 					Media sid me.m12.dBC_gr_GR_cog.meMA.LaudsGlory.text End-Media
 					Hymn sid me.m12.dBC_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
@@ -9199,12 +9660,14 @@ Status NA
 				Section DecFF
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.Forefathers</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode sid me.m12.dFF_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 					Media sid me.m12.dFF_gr_GR_cog.meMA.LaudsGlory.text End-Media
 					Hymn sid me.m12.dFF_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
 				End-Section
 				Section gloryasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsGlory.mode End-Title
@@ -9215,6 +9678,7 @@ Status NA
 				Section JulHF
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.Fathers</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode sid me.m07.dHF_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 					Media sid me.m07.dHF_gr_GR_cog.meMA.LaudsGlory.text End-Media
 					Hymn sid me.m07.dHF_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
@@ -9222,6 +9686,7 @@ Status NA
 				Section OctHF
 					Para role source sid ti.sourceMenaion End-Para
 					Title sid ti.Glory<Tdesig>sid ti.Fathers</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Title role mode sid me.m10.dHF_gr_GR_cog.meMA.LaudsGlory.mode End-Title
 					Media sid me.m10.dHF_gr_GR_cog.meMA.LaudsGlory.text End-Media
 					Hymn sid me.m10.dHF_gr_GR_cog.meMA.LaudsGlory.text @ver media-off End-Hymn
@@ -9231,6 +9696,7 @@ Status NA
 				Section alt1__
 					Section gloryasglory_
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourcePeSupplement End-Para
 							Title role mode rid alt1.peMA.LaudsGlory.mode End-Title
@@ -9241,6 +9707,7 @@ Status NA
 				End-Section
 				Section gloryasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.LaudsGlory.mode End-Title
@@ -9252,6 +9719,7 @@ Status NA
 			Section tr__
 				Section gloryasglory_
 					Title sid ti.Glory<Tdesig>sid ti.Triodion</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.LaudsGlory.mode End-Title
@@ -9273,6 +9741,8 @@ Status NA
 				Section alt1__
 					Section gloryasgloryboth_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourceMeSupplement End-Para
 							Title role mode rid alt1.meMA.LaudsGlory.mode End-Title
@@ -9283,6 +9753,8 @@ Status NA
 				End-Section
 				Section bothasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsBoth.mode End-Title
@@ -9292,6 +9764,8 @@ Status NA
 				End-Section
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.LaudsGlory.mode End-Title
@@ -9302,6 +9776,8 @@ Status NA
 			End-Section
 			Section pascha_
 				Title sid ti.GloryBothNow<Tdesig>sid ti.Pascha</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Rubric sid pe.d071_gr_GR_cog.peMA.PaschaDoxastikon.note End-Rubric
 				Section hymn
 					Para role source sid ti.sourcePentecostarion End-Para
@@ -9313,6 +9789,8 @@ Status NA
 			Section pe__
 				Section bothasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.LaudsBoth.mode End-Title
@@ -9322,6 +9800,8 @@ Status NA
 				End-Section
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.LaudsGlory.mode End-Title
@@ -9333,6 +9813,8 @@ Status NA
 			Section tr__
 				Section bothasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.LaudsBoth.mode End-Title
@@ -9342,6 +9824,8 @@ Status NA
 				End-Section
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.LaudsGlory.mode End-Title
@@ -10216,11 +10700,15 @@ Status NA
 				when-exists
 					rid meMA.LaudsBoth.text use:
 						Title sid ti.Glory<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.LaudsGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.LaudsBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.LaudsGlory.text @ver media-off End-Hymn
 				end-when
 			End-Section
@@ -11314,11 +11802,15 @@ Status NA
 				when-exists
 					rid meMA.LaudsBoth.text use:
 						Title sid ti.Glory<Tmelody>rid meMA.LaudsGlory.melody</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Hymn rid meMA.LaudsGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tmelody>rid meMA.LaudsBoth.melody</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.LaudsBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tmelody>rid meMA.LaudsGlory.melody</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Hymn rid meMA.LaudsGlory.text @ver media-off End-Hymn
 				end-when
 			End-Section
@@ -12337,20 +12829,26 @@ Status NA
 					when-mode-of-week-is
 						M1 use:
 							Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Media rid ocMA.Lauds5.text End-Media
 							Hymn rid ocMA.Lauds5.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</><Tmelody>rid ocMA.LaudsTheotokion.melody</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid ocMA.LaudsTheotokion.text End-Media
 							Hymn rid ocMA.LaudsTheotokion.text @ver media-off End-Hymn
 						M2, M3, M5 use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>rid ocMA.LaudsTheotokion.melody</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid ocMA.LaudsTheotokion.text End-Media
 							Hymn rid ocMA.LaudsTheotokion.text @ver media-off End-Hymn
 						M4, M6, M7, M8 use:
 							Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Media rid ocMA.LaudsGlory.text End-Media
 							Hymn rid ocMA.LaudsGlory.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</><Tmelody>rid ocMA.LaudsTheotokion.melody</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Media rid ocMA.LaudsTheotokion.text End-Media
 							Hymn rid ocMA.LaudsTheotokion.text @ver media-off End-Hymn
 					end-when
@@ -13174,6 +13672,7 @@ Status NA
 					End-Section
 					Section glory_fordeceased
 						Title sid ti.Glory<Tdesig>sid ti.ForDead_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						when-exists
 							rid octrMA.LaudsGlory.melody use:
 								Title role mode rid octrMA.LaudsGlory.mode<Tmelody>rid octrMA.LaudsGlory.melody</>End-Title
@@ -13184,6 +13683,7 @@ Status NA
 					End-Section
 					Section both_theotokion
 						Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid octrMA.LaudsTheotokion.melody use:
 								Title role mode rid octrMA.LaudsTheotokion.mode<Tmelody>rid octrMA.LaudsTheotokion.melody</>End-Title
@@ -13234,20 +13734,30 @@ Status NA
 					Hymn rid trMA.Lauds1.text @ver media-off End-Hymn
 					Media rid trMA.Lauds2.text End-Media
 					when-movable-cycle-day-is
-						29 use: Insert_section MA.Lauds_Verses.v07 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse1 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse1 End-Insert
+						29 use:
+							Insert_section MA.Lauds_Verses.v07 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse1 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse1 End-Insert
 					end-when
 					Hymn rid trMA.Lauds2.text @ver media-off End-Hymn
 					Media rid trMA.Lauds3.text End-Media
 					when-movable-cycle-day-is
-						29 use: Insert_section MA.Lauds_Verses.v08 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse2 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse2 End-Insert
+						29 use:
+							Insert_section MA.Lauds_Verses.v08 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse2 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse2 End-Insert
 					end-when
 					Hymn rid trMA.Lauds3.text @ver media-off End-Hymn
 				End-Section
@@ -13299,20 +13809,30 @@ Status NA
 					Hymn rid trMA.Lauds1.text @ver media-off End-Hymn
 					Media rid trMA.Lauds2.text End-Media
 					when-movable-cycle-day-is
-						29 use: Insert_section MA.Lauds_Verses.v07 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse1 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse1 End-Insert
+						29 use:
+							Insert_section MA.Lauds_Verses.v07 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse1 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse1 End-Insert
 					end-when
 					Hymn rid trMA.Lauds2.text @ver media-off End-Hymn
 					Media rid trMA.Lauds3.text End-Media
 					when-movable-cycle-day-is
-						29 use: Insert_section MA.Lauds_Verses.v08 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse2 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse2 End-Insert
+						29 use:
+							Insert_section MA.Lauds_Verses.v08 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse2 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse2 End-Insert
 					end-when
 					Hymn rid trMA.Lauds3.text @ver media-off End-Hymn
 				End-Section
@@ -13486,6 +14006,7 @@ Status NA
 			Section me__
 				Section bothasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.AposBoth.mode End-Title
@@ -13497,12 +14018,14 @@ Status NA
 					when-name-of-day-is
 						Wednesday, Friday use:
 							Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid meMA.AposStavrotheotokion.mode<Tmelody>rid meMA.AposStavrotheotokion.melody</>End-Title
 							Title role greekmelody rid meMA.AposStavrotheotokion.greekmelody End-Title
 							Media rid meMA.AposStavrotheotokion.text End-Media
 							Hymn rid meMA.AposStavrotheotokion.text @ver media-off End-Hymn
 						otherwise use:
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid meMA.AposTheotokion.mode<Tmelody>rid meMA.AposTheotokion.melody</>End-Title
 							Title role greekmelody rid meMA.AposTheotokion.greekmelody End-Title
 							Media rid meMA.AposTheotokion.text End-Media
@@ -13515,6 +14038,7 @@ Status NA
 					Monday, Tuesday, Thursday, Saturday use:
 						Section theotokion
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode rid meMA.AposTheotokion.mode<Tmelody>rid meMA.AposTheotokion.melody</>End-Title
 							Title role greekmelody rid meMA.AposTheotokion.greekmelody End-Title
 							Media rid meMA.AposTheotokion.text End-Media
@@ -13525,6 +14049,7 @@ Status NA
 							rid meMA.AposStavrotheotokion.text use:
 								Section stavrotheotokion
 									Title sid ti.BothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+									Verse sid pr.BothNowAndEver.text End-Verse
 									Title role mode rid meMA.AposStavrotheotokion.mode<Tmelody>rid meMA.AposStavrotheotokion.melody</>End-Title
 									Title role greekmelody rid meMA.AposStavrotheotokion.greekmelody End-Title
 									Media rid meMA.AposStavrotheotokion.text End-Media
@@ -13538,6 +14063,7 @@ Status NA
 			Section pe__
 				Section gloryasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.AposGlory.mode<Tmelody>rid peMA.AposGlory.melody</>End-Title
@@ -13548,6 +14074,7 @@ Status NA
 				End-Section
 				Section theotokion_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid peMA.AposTheotokion.mode<Tmelody>rid peMA.AposTheotokion.melody</>End-Title
 						Media rid peMA.AposTheotokion.text End-Media
@@ -13558,6 +14085,7 @@ Status NA
 			Section tr__
 				Section bothasboth_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.AposBoth.mode End-Title
@@ -13567,6 +14095,7 @@ Status NA
 				End-Section
 				Section theotokion_
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Title role mode rid trMA.AposTheotokion.mode<Tmelody>rid trMA.AposTheotokion.melody</>End-Title
 						Media rid trMA.AposTheotokion.text End-Media
@@ -13579,6 +14108,7 @@ Status NA
 			Section me__
 				Section gloryasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.AposGlory.mode End-Title
@@ -13590,6 +14120,7 @@ Status NA
 			Section pe__
 				Section gloryasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.AposGlory.mode End-Title
@@ -13601,6 +14132,7 @@ Status NA
 			Section tr__
 				Section gloryasglory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.AposGlory.mode End-Title
@@ -13614,6 +14146,8 @@ Status NA
 			Section me__
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meMA.AposGlory.mode End-Title
@@ -13625,6 +14159,8 @@ Status NA
 			Section pe__
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peMA.AposGlory.mode End-Title
@@ -13636,6 +14172,8 @@ Status NA
 			Section tr__
 				Section gloryasgloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceTriodion End-Para
 						Title role mode rid trMA.AposGlory.mode End-Title
@@ -13647,8 +14185,12 @@ Status NA
 					when-name-of-day-is
 						Wednesday, Friday use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 					end-when
 					Title role mode rid trMA.AposTheotokion.mode<Tmelody>rid trMA.AposTheotokion.melody</>End-Title
 					Title role greekmelody rid trMA.AposTheotokion.greekmelody End-Title
@@ -13761,14 +14303,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -13817,14 +14364,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -13859,14 +14411,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -13901,14 +14458,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -13957,14 +14519,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -13999,14 +14566,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -14041,14 +14613,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -14083,14 +14660,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -14125,14 +14707,19 @@ Status NA
 				when-exists
 					rid meMA.AposBoth.text use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid meMA.AposGlory.mode<Tmelody>rid meMA.AposGlory.melody</>End-Title
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 						Title sid ti.BothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposBoth.text End-Media
 						Hymn rid meMA.AposBoth.text @ver media-off End-Hymn
 					otherwise use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.SameMelody_1hymn</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Media rid meMA.AposGlory.text End-Media
 						Hymn rid meMA.AposGlory.text @ver media-off End-Hymn
 				end-when
@@ -14219,6 +14806,8 @@ Status NA
 				when-name-of-day-is
 					Monday, Tuesday, Thursday use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid ocMA.AposTheotokion.melody use:
 								Title role melody rid ocMA.AposTheotokion.melody End-Title
@@ -14228,6 +14817,8 @@ Status NA
 						Hymn rid ocMA.AposTheotokion.text @ver media-off End-Hymn
 					Wednesday, Friday use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Stavrotheotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid ocMA.AposTheotokion.melody use:
 								Title role melody rid ocMA.AposTheotokion.melody End-Title
@@ -14237,6 +14828,8 @@ Status NA
 						Hymn rid ocMA.AposTheotokion.text @ver media-off End-Hymn
 					Saturday use:
 						Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						when-exists
 							rid ocMA.AposTheotokion.melody use:
 								Title role melody rid ocMA.AposTheotokion.melody End-Title
@@ -14577,11 +15170,15 @@ Status NA
 					when-exists
 						rid octrMA.AposGlory.text use:
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn rid octrMA.AposGlory.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid octrMA.AposTheotokion.text @ver media-off End-Hymn
 						otherwise use:
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn rid octrMA.AposTheotokion.text @ver media-off End-Hymn
 					end-when
 				End-Section
@@ -15108,14 +15705,22 @@ Status NA
 	End-Section
 	Section laudsstichologia_media_modeofweek
 		when-mode-of-week-is
-			M1 use: Media sid oc.m1.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M2 use: Media sid oc.m2.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M3 use: Media sid oc.m3.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M4 use: Media sid oc.m4.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M5 use: Media sid oc.m5.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M6 use: Media sid oc.m6.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M7 use: Media sid oc.m7.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
-			M8 use: Media sid oc.m8.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M1 use:
+				Media sid oc.m1.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M2 use:
+				Media sid oc.m2.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M3 use:
+				Media sid oc.m3.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M4 use:
+				Media sid oc.m4.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M5 use:
+				Media sid oc.m5.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M6 use:
+				Media sid oc.m6.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M7 use:
+				Media sid oc.m7.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
+			M8 use:
+				Media sid oc.m8.d1_gr_GR_cog.ocMA.MM.LaudsStichologia.text End-Media
 		end-when
 	End-Section
 	Section Lauds_ModeOfWeek

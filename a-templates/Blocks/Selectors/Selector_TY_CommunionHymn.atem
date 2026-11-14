@@ -237,9 +237,12 @@ Status NA
 						127 use:
 							Section allsaints
 								when-date-is
-									Jun 24 use: Insert_section DayOfWeek.onTuesday End-Insert
-									Jun 29, 30 use: Insert_section DayOfWeek.onThursday End-Insert
-									Jul 1 use: Insert_section DayOfWeek.onWednesday End-Insert
+									Jun 24 use:
+										Insert_section DayOfWeek.onTuesday End-Insert
+									Jun 29, 30 use:
+										Insert_section DayOfWeek.onThursday End-Insert
+									Jul 1 use:
+										Insert_section DayOfWeek.onWednesday End-Insert
 									otherwise use:
 										Insert_section bk.ap.da.d7.communion_title End-Insert
 										Insert_section bk.ap.da.d7.communion_hymn End-Insert
@@ -248,7 +251,8 @@ Status NA
 						otherwise use:
 							Section menaion
 								when-date-is
-									Jan 1 use: Insert_section DayOfWeek.onSunday End-Insert
+									Jan 1 use:
+										Insert_section DayOfWeek.onSunday End-Insert
 									Jan 6, 14 use:
 										Insert_section bk.ap.me.m01.d06.communion_title End-Insert
 										Insert_section bk.ap.me.m01.d06.communion_hymn End-Insert
@@ -258,12 +262,15 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Jan 10, 29, 31 use:
 										when-name-of-day-is
-											Sunday use: Insert_section DayOfWeek.onSunday End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											Sunday use:
+												Insert_section DayOfWeek.onSunday End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Jan 11, 15, 17, 18, 20, 25, 27 use:
 										when-name-of-day-is
@@ -271,7 +278,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Jan 16 use:
 										when-name-of-day-is
@@ -279,7 +287,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Jan 30 use:
 										when-name-of-day-is
@@ -287,7 +296,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostles End-Insert
-											otherwise use: Insert_section Various.apostles End-Insert
+											otherwise use:
+												Insert_section Various.apostles End-Insert
 										end-when
 									Feb 1, 10, 24 use:
 										when-name-of-day-is
@@ -295,7 +305,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Mar 9 use:
 										when-name-of-day-is
@@ -303,30 +314,42 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
-									Mar 26 use: Insert_section annunciation End-Insert
-									Apr 23 use: Insert_section Various.saints End-Insert
-									Apr 25, 30 use: Insert_section Various.apostle End-Insert
-									May 2, 25 use: Insert_section Various.saints End-Insert
-									May 8, 10 use: Insert_section Various.apostle End-Insert
-									May 21 use: Insert_section Various.apostles End-Insert
-									Jun 4 use: Insert_section Various.saints End-Insert
+									Mar 26 use:
+										Insert_section annunciation End-Insert
+									Apr 23 use:
+										Insert_section Various.saints End-Insert
+									Apr 25, 30 use:
+										Insert_section Various.apostle End-Insert
+									May 2, 25 use:
+										Insert_section Various.saints End-Insert
+									May 8, 10 use:
+										Insert_section Various.apostle End-Insert
+									May 21 use:
+										Insert_section Various.apostles End-Insert
+									Jun 4 use:
+										Insert_section Various.saints End-Insert
 									Jun 11 use:
 										when-name-of-day-is
-											Sunday use: Insert_section DayOfWeek.onSunday End-Insert
-											otherwise use: Insert_section Various.apostles End-Insert
+											Sunday use:
+												Insert_section DayOfWeek.onSunday End-Insert
+											otherwise use:
+												Insert_section Various.apostles End-Insert
 										end-when
 									Jun 24 use:
 										Insert_section DayOfWeek.onTuesday End-Insert
-									Jun 29, 30 use: Insert_section DayOfWeek.onThursday End-Insert
+									Jun 29, 30 use:
+										Insert_section DayOfWeek.onThursday End-Insert
 									Jul 1, 5, 7, 8, 11, 15, 17, 26, 27 use:
 										when-name-of-day-is
 											Sunday use:
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Jul 2 use:
 										when-name-of-day-is
@@ -334,7 +357,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.theotokos End-Insert
-											otherwise use: Insert_section Various.theotokos End-Insert
+											otherwise use:
+												Insert_section Various.theotokos End-Insert
 										end-when
 									Jul 13 use:
 										when-name-of-day-is
@@ -342,7 +366,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert //for Holy Fathers
-											otherwise use: Insert_section Various.angels End-Insert
+											otherwise use:
+												Insert_section Various.angels End-Insert
 										end-when
 									Jul 20, 25 use:
 										when-name-of-day-is
@@ -350,7 +375,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.righteous End-Insert
-											otherwise use: Insert_section Various.righteous End-Insert
+											otherwise use:
+												Insert_section Various.righteous End-Insert
 										end-when
 									Aug 1 use:
 										when-name-of-day-is
@@ -358,7 +384,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.cross End-Insert
-											otherwise use: Insert_section Various.cross End-Insert
+											otherwise use:
+												Insert_section Various.cross End-Insert
 										end-when
 									Aug 2 use:
 										when-name-of-day-is
@@ -366,7 +393,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Aug 6 use:
 										Para role typikon<b>sid ty.typikon.parts_gr_GR_cog.tyPart.CommunionHymn</>sid menaion.verses_gr_GR_cog.psLI.m08.d06.communion.v1.text sid pr.Alleluia1.text End-Para
@@ -390,14 +418,16 @@ Status NA
 											otherwise use:
 												Insert_section Various.theotokos End-Insert
 										end-when
-									Aug 16 use: Insert_section DayOfWeek.onSunday End-Insert
+									Aug 16 use:
+										Insert_section DayOfWeek.onSunday End-Insert
 									Aug 25 use:
 										when-name-of-day-is
 											Sunday use:
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostles End-Insert
-											otherwise use: Insert_section Various.apostles End-Insert
+											otherwise use:
+												Insert_section Various.apostles End-Insert
 										end-when
 									Aug 26 use:
 										when-name-of-day-is
@@ -405,7 +435,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Aug 29 use:
 										when-name-of-day-is
@@ -422,7 +453,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.theotokos End-Insert
-											otherwise use: Insert_section Various.theotokos End-Insert
+											otherwise use:
+												Insert_section Various.theotokos End-Insert
 										end-when
 									Sep 1 use:
 										when-name-of-day-is
@@ -441,7 +473,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.angels End-Insert
-											otherwise use: Insert_section Various.angels End-Insert
+											otherwise use:
+												Insert_section Various.angels End-Insert
 										end-when
 									Sep 8, 12 use:
 										when-name-of-day-is
@@ -458,7 +491,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.righteous End-Insert
-											otherwise use: Insert_section Various.righteous End-Insert
+											otherwise use:
+												Insert_section Various.righteous End-Insert
 										end-when
 									Sep 13 use:
 										when-name-of-day-is
@@ -466,7 +500,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.consecration End-Insert
-											otherwise use: Insert_section Various.consecration End-Insert
+											otherwise use:
+												Insert_section Various.consecration End-Insert
 										end-when
 									Sep 14 use:
 										Insert_section bk.ap.me.m09.d14.communion_title End-Insert
@@ -477,12 +512,15 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Sep 28 use:
 										when-name-of-day-is
-											Sunday use: Insert_section DayOfWeek.onSunday End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											Sunday use:
+												Insert_section DayOfWeek.onSunday End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Sep 21 use:
 										when-name-of-day-is
@@ -501,7 +539,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Oct 6, 9, 23 use:
 										when-name-of-day-is
@@ -509,7 +548,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Oct 18 use:
 										when-name-of-day-is
@@ -517,7 +557,8 @@ Status NA
 											//	Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 												Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Oct 26 use:
 										when-name-of-day-is
@@ -525,12 +566,15 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Oct 27 use:
 										when-name-of-day-is
-											Sunday use: Insert_section DayOfWeek.onSunday End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											Sunday use:
+												Insert_section DayOfWeek.onSunday End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Nov 1, 3, 11, 13 use:
 										when-name-of-day-is
@@ -538,7 +582,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Nov 8 use:
 										when-name-of-day-is
@@ -546,7 +591,8 @@ Status NA
 											//	Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 												Insert_section Various.angels End-Insert
-											otherwise use: Insert_section Various.angels End-Insert
+											otherwise use:
+												Insert_section Various.angels End-Insert
 										end-when
 									Nov 14, 16, 30 use:
 										when-name-of-day-is
@@ -554,7 +600,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.apostle End-Insert
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									Nov 21, 25 use:
 										when-name-of-day-is
@@ -562,7 +609,8 @@ Status NA
 											//	Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 												Insert_section Various.theotokos End-Insert
-											otherwise use: Insert_section Various.theotokos End-Insert
+											otherwise use:
+												Insert_section Various.theotokos End-Insert
 										end-when
 									Dec 4, 5, 6, 12, 15 use:
 										when-name-of-day-is
@@ -570,7 +618,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 											//	Rubric sid ru.AndTheFollowing End-Rubric
 											//	Insert_section Various.saints End-Insert
-											otherwise use: Insert_section Various.saints End-Insert
+											otherwise use:
+												Insert_section Various.saints End-Insert
 										end-when
 									Dec 9 use:
 										when-name-of-day-is
@@ -605,7 +654,8 @@ Status NA
 												Insert_section DayOfWeek.onSunday End-Insert
 												Rubric sid ru.AndTheFollowing End-Rubric
 												Insert_section Various.righteous End-Insert //for dAC
-											otherwise use: Insert_section Various.apostle End-Insert
+											otherwise use:
+												Insert_section Various.apostle End-Insert
 										end-when
 									otherwise use:
 										Insert_section DayOfWeek End-Insert
@@ -624,7 +674,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Jul 12, 22 use:
 				when-name-of-day-is
@@ -632,7 +683,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Aug 16, 24, 27 use:
 				when-name-of-day-is
@@ -640,7 +692,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Sep 3, 7, 17 use:
 				when-name-of-day-is
@@ -648,7 +701,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Sep 24 use:
 				when-name-of-day-is
@@ -656,7 +710,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.theotokos End-Insert
-					otherwise use: Insert_section Various.theotokos End-Insert
+					otherwise use:
+						Insert_section Various.theotokos End-Insert
 				end-when
 			Oct 20 use:
 				when-name-of-day-is
@@ -664,7 +719,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Oct 1, 28 use:
 				when-name-of-day-is
@@ -672,7 +728,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.theotokos End-Insert
-					otherwise use: Insert_section Various.theotokos End-Insert
+					otherwise use:
+						Insert_section Various.theotokos End-Insert
 				end-when
 			Nov 9, 14, 22 use:
 				when-name-of-day-is
@@ -680,7 +737,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 			Dec 2, 17 use:
 				when-name-of-day-is
@@ -688,7 +746,8 @@ Status NA
 						Insert_section DayOfWeek.onSunday End-Insert
 						Rubric sid ru.AndTheFollowing End-Rubric
 						Insert_section Various.saints End-Insert
-					otherwise use: Insert_section Various.saints End-Insert
+					otherwise use:
+						Insert_section Various.saints End-Insert
 				end-when
 		end-when
 	End-Section

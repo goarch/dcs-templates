@@ -98,7 +98,8 @@ Status NA
 				Section john_merciful
 					Dialog sid pr.sup00.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07_john.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text rid meDA.insert1 rid meDA.insert2 sid pr.sup15.text sid pr.sup99.text End-Dialog
 				End-Section
-			Nov 13 use: Insert_section john_chrys End-Insert
+			Nov 13 use:
+				Insert_section john_chrys End-Insert
 			Nov 25 use:
 				Section catherine
 					Dialog sid pr.sup00.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11_catherine.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text rid meDA.insert1 rid meDA.insert2 sid pr.sup15.text sid pr.sup99.text End-Dialog
@@ -206,7 +207,8 @@ Status NA
 				Section john_merciful
 					Dialog sid pr.sup00a.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07_john.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text rid meDA.insert1 rid meDA.insert2 sid pr.sup15.text End-Dialog
 				End-Section
-			Nov 13 use: Insert_section john_chrys End-Insert
+			Nov 13 use:
+				Insert_section john_chrys End-Insert
 			Nov 25 use:
 				Section catherine
 					Dialog sid pr.sup00a.text sid pr.sup01.text sid pr.sup02.text sid pr.sup03.text sid pr.sup04.text sid pr.sup05.text sid pr.sup06.text sid pr.sup07.text sid pr.sup08.text sid pr.sup09.text sid pr.sup10.text sid pr.sup11_catherine.text sid pr.sup12.text sid client_gr_GR_cog.cl.localpatronsaint1.supplication sid pr.sup14.text rid meDA.insert1 rid meDA.insert2 sid pr.sup15.text End-Dialog

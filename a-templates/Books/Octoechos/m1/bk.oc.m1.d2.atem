@@ -61,6 +61,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.Stichera6.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.Stichera6.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.SticTheotokion.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.SticTheotokion.text @ver media-off End-Hymn
 			Section prokeimenon
@@ -80,6 +82,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocVE.AposTheotokion.text @ver media-off End-Hymn
 			Rubric sid octoechos.rubrics_gr_GR_cog.ocVE.R013.rubric End-Rubric
@@ -96,6 +100,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma12.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma12.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma13.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma13.text @ver media-off End-Hymn
 			Title role desig sid ti.AfterPsalter2Kathismata End-Title
@@ -105,6 +111,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma22.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma22.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma23.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma23.text @ver media-off End-Hymn
 			Title role desig sid ti.AfterPsalter3Kathismata End-Title
@@ -115,6 +123,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma32.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma32.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Title role melody sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.melody End-Title
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Kathisma33.text @ver media-off End-Hymn
@@ -336,6 +346,8 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.Aposticha3.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</><Tmelody>sid oc.m1.d2_gr_GR_cog.ocMA.AposTheotokion.melody</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocMA.AposTheotokion.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocMA.AposTheotokion.text @ver media-off End-Hymn
 		End-Section
@@ -353,9 +365,11 @@ Status Draft
 			Media sid oc.m1.d2_gr_GR_cog.ocLI.Beatitudes4.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocLI.Beatitudes4.text @ver media-off End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocLI.BeatitudesTr.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocLI.BeatitudesTr.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid oc.m1.d2_gr_GR_cog.ocLI.BeatitudesT.text End-Media
 			Hymn sid oc.m1.d2_gr_GR_cog.ocLI.BeatitudesT.text @ver media-off End-Hymn
 		End-Section

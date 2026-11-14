@@ -181,6 +181,7 @@ Status NA
 	Section VE_03_CONS_SticBoth_clientname__
 		Section AME
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -188,6 +189,7 @@ Status NA
 		End-Section
 		Section ATL
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -195,6 +197,7 @@ Status NA
 		End-Section
 		Section BOS
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -202,6 +205,7 @@ Status NA
 		End-Section
 		Section CHI
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -209,6 +213,7 @@ Status NA
 		End-Section
 		Section DEN
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -216,6 +221,7 @@ Status NA
 		End-Section
 		Section DET
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -223,6 +229,7 @@ Status NA
 		End-Section
 		Section NEW
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -230,6 +237,7 @@ Status NA
 		End-Section
 		Section PIT
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -237,6 +245,7 @@ Status NA
 		End-Section
 		Section SAN
 			Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para role source0 sid ti.sourceEuchologion End-Para
 			Title role mode sid eu.consecration_gr_GR_cog.euVE.SticBoth.mode End-Title
 			Media sid client_gr_GR_cog.cl.conVE.SticBoth.churchname.text End-Media
@@ -2940,9 +2949,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyAME.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyAME.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section ATL__
@@ -2954,9 +2965,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyATL.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyATL.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section BOS__
@@ -2968,9 +2981,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyBOS.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyBOS.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section CHI__
@@ -2982,9 +2997,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyCHI.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyCHI.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section DEN__
@@ -2996,9 +3013,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyDEN.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyDEN.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section DET__
@@ -3010,9 +3029,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyDET.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyDET.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section ECU__
@@ -3024,9 +3045,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyECU.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyECU.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section NEW__
@@ -3038,9 +3061,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyNEW.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyNEW.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section PIT__
@@ -3052,9 +3077,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tyPIT.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tyPIT.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 		Section SAN__
@@ -3066,9 +3093,11 @@ Status NA
 			End-Section
 			Section both
 				Title sid ti.BothNow<Tdesig>rid tySAN.localchurch.title</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 			End-Section
 			Section glory
 				Title sid ti.Glory<Tdesig>rid tySAN.localchurch.title</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 			End-Section
 		End-Section
 	End-Section

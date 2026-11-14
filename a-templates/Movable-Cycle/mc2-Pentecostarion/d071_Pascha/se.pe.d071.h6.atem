@@ -53,8 +53,10 @@ Status Draft
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion4.text End-Reading
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion5.text End-Reading
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion6.text End-Reading
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Reading sid ho.ho14_gr_GR_cog.hoPH.Troparion7.text End-Reading
 		End-Section
 		Section block2

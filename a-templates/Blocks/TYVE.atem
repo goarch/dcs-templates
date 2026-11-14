@@ -3862,14 +3862,17 @@ Status NA
 							Section saturday
 								Hymn rid ocVE.Aposticha1.text End-Hymn
 								Insert_section PsalmVerses.forVespersAposticha.friday.verse1 End-Insert
-								when-exists rid ocVE.Aposticha2.melody use: Title role melody rid ocVE.Aposticha2.melody End-Title end-when
+								when-exists rid ocVE.Aposticha2.melody use:
+									Title role melody rid ocVE.Aposticha2.melody End-Title end-when
 								Hymn rid ocVE.Aposticha2.text End-Hymn
 								Insert_section PsalmVerses.forVespersAposticha.friday.verse2 End-Insert
-								when-exists rid ocVE.Aposticha3.melody use: Title role melody rid ocVE.Aposticha3.melody End-Title end-when
+								when-exists rid ocVE.Aposticha3.melody use:
+									Title role melody rid ocVE.Aposticha3.melody End-Title end-when
 								Hymn rid ocVE.Aposticha3.text End-Hymn
 								when-exists rid ocVE.Aposticha4.text use:
 									Insert_section PsalmVerses.forVespersAposticha.friday.verse3 End-Insert
-									when-exists rid ocVE.Aposticha4.melody use: Title role melody rid ocVE.Aposticha4.melody End-Title end-when
+									when-exists rid ocVE.Aposticha4.melody use:
+										Title role melody rid ocVE.Aposticha4.melody End-Title end-when
 									Hymn rid ocVE.Aposticha4.text End-Hymn
 								end-when
 							End-Section
@@ -3877,10 +3880,12 @@ Status NA
 							Section montuewedthufri
 								Hymn rid ocVE.Aposticha1.text End-Hymn
 								Insert_section PsalmVerses.forVespersAposticha.weekday.verse1 End-Insert
-								when-exists rid ocVE.Aposticha2.melody use: Title role melody rid ocVE.Aposticha2.melody End-Title end-when
+								when-exists rid ocVE.Aposticha2.melody use:
+									Title role melody rid ocVE.Aposticha2.melody End-Title end-when
 								Hymn rid ocVE.Aposticha2.text End-Hymn
 								Insert_section PsalmVerses.forVespersAposticha.weekday.verse2 End-Insert
-								when-exists rid ocVE.Aposticha3.melody use: Title role melody rid ocVE.Aposticha3.melody End-Title end-when
+								when-exists rid ocVE.Aposticha3.melody use:
+									Title role melody rid ocVE.Aposticha3.melody End-Title end-when
 								Hymn rid ocVE.Aposticha3.text End-Hymn
 							End-Section
 					end-when
@@ -3888,9 +3893,11 @@ Status NA
 				Section theotokion
 					when-name-of-day-is
 						Monday, Tuesday, Thursday, Saturday use:
-							when-exists rid ocVE.AposTheotokion.melody use: Title role melody rid ocVE.AposTheotokion.melody End-Title end-when
+							when-exists rid ocVE.AposTheotokion.melody use:
+								Title role melody rid ocVE.AposTheotokion.melody End-Title end-when
 						Wednesday, Friday use:
-							when-exists rid ocVE.AposTheotokion.melody use: Title role melody rid ocVE.AposTheotokion.melody End-Title end-when
+							when-exists rid ocVE.AposTheotokion.melody use:
+								Title role melody rid ocVE.AposTheotokion.melody End-Title end-when
 					end-when
 					Hymn rid ocVE.AposTheotokion.text End-Hymn
 				End-Section

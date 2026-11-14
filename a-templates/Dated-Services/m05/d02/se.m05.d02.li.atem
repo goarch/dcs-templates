@@ -111,7 +111,7 @@ Status Final
 				Insert_section LI._09_Dismissal__.commemoration End-Insert
 			End-Section
 
-		79 thru 84 use: 
+		79 thru 84 use:
 			Section Instance04
 				Insert_section sb.cover_pages.li End-Insert
 				Insert_section ST.li.pe_me1 End-Insert

@@ -52,8 +52,10 @@ Status Final
 			Title role mode sid oc.m1.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m1.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m1.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m1.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -61,8 +63,10 @@ Status Final
 			Title role mode sid oc.m2.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m2.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m2.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m2.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -70,8 +74,10 @@ Status Final
 			Title role mode sid oc.m3.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m3.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m3.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m3.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -79,8 +85,10 @@ Status Final
 			Title role mode sid oc.m4.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m4.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m4.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m4.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -88,8 +96,10 @@ Status Final
 			Title role mode sid oc.m5.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m5.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m5.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m5.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -97,8 +107,10 @@ Status Final
 			Title role mode sid oc.m6.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m6.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m6.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m6.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -106,8 +118,10 @@ Status Final
 			Title role mode sid oc.m7.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m7.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m7.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m7.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title
@@ -115,8 +129,10 @@ Status Final
 			Title role mode sid oc.m8.d2_gr_GR_cog.octrMA.Triadic1.mode End-Title
 			Hymn sid oc.m8.d2_gr_GR_cog.octrMA.Triadic1.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.Glory End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Hymn sid oc.m8.d2_gr_GR_cog.octrMA.Triadic2.text @ver sid misc.punctuation.ellipsis<r>sid misc.separator.asterisk</>End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn sid oc.m8.d2_gr_GR_cog.octrMA.Triadic3.text sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 		End-Section
 		Title sid misc.horizontal_line.solid1 End-Title

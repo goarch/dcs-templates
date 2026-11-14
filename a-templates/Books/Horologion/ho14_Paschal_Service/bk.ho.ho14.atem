@@ -59,8 +59,10 @@ Status NA
 		Para role chant sid ho.ho14_gr_GR_cog.hoPH.Troparion4.text End-Para
 		Para role chant sid ho.ho14_gr_GR_cog.hoPH.Troparion5.text End-Para
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Para role chant sid ho.ho14_gr_GR_cog.hoPH.Troparion6.text End-Para
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Para role chant sid ho.ho14_gr_GR_cog.hoPH.Troparion7.text End-Para
 		Reading sid pr.res01.text<r>sid ru.Forty</>sid ti.Glory sid ti.BothNow End-Reading
 		Reading sid pr.GreaterInHonor.text End-Reading

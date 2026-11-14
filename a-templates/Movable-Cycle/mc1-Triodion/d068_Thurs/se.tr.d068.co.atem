@@ -72,8 +72,10 @@ Status NA
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode4C16.text @ver End-Hymn
 				Verse sid pr.verse_God.text End-Verse
 				Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode4C1Tr.text @ver End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode4C1T.text @ver End-Hymn
 			End-Section
 			Title role desig sid ti.Kathisma End-Title
@@ -98,8 +100,10 @@ Status NA
 				Verse sid pr.verse_God.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode8C17.text @ver End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode8C1Tr.text @ver End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode8C1T.text @ver End-Hymn
 			End-Section
 			Section ode9
@@ -122,8 +126,10 @@ Status NA
 				Verse sid pr.verse_God.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode9C18.text @ver End-Hymn
 				Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode9C1Tr.text @ver End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid tr.d068_gr_GR_cog.trCO.Ode9C1T.text @ver End-Hymn
 				Title role desig sid ti.Heirmos End-Title
 				Para role heirmos sid tr.d068_gr_GR_cog.trCO.Ode9C1H.text @ver End-Para

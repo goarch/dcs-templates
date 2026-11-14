@@ -84,8 +84,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode1C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode1C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode1C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode1_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -104,8 +106,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode3_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -148,8 +152,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode4C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode4C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode4C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode4_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -168,8 +174,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode5C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode5C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode5C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode5_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -188,8 +196,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode6C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode6_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -225,8 +235,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode7C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode7C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode7C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode7_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -245,8 +257,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode8C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode8C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode8C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode8_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
@@ -294,8 +308,10 @@ Status Final
 								Verse sid pr.verse_SaintM.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C12.text @ver End-Hymn
 								Title sid ti.Glory End-Title
+								Verse sid pr.GloryToTheFather.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C13.text @ver End-Hymn
 								Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+								Verse sid pr.BothNowAndEver.text End-Verse
 								Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode9C1T.text @ver End-Hymn
 							End-Section
 						Para role emc_ode9_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para

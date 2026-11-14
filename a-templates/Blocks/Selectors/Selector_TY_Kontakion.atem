@@ -113,55 +113,66 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section Meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section Meeting End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section Meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section Meeting End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section Meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section Meeting End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section Meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section Meeting End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section Meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section Meeting End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section Meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section Meeting End-Insert
 							Feb 8, 9 use: //Title role cover4 sid ti.Katavasias sid Triodion14.title End-Title
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section Meeting End-Insert
+							Feb 2 use:
+								Insert_section Meeting End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
-					otherwise use: Insert_section Meeting End-Insert
+					otherwise use:
+						Insert_section Meeting End-Insert
 				end-when
 			Mar 25 use:
 				Section Annunciation
@@ -418,52 +429,62 @@ Status NA
 						end-when
 					14 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					15 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section Meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section Meeting End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					16 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section Meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section Meeting End-Insert
 							Feb 8, 9 use: //no
 						end-when
 					17 use:
 						when-date-is
-							Feb 2 thru 8 use: Insert_section Meeting End-Insert
+							Feb 2 thru 8 use:
+								Insert_section Meeting End-Insert
 							Feb 9 use: //no
 						end-when
 					18 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					19 use:
 						when-date-is
-							Feb 2 thru 6 use: Insert_section Meeting End-Insert
+							Feb 2 thru 6 use:
+								Insert_section Meeting End-Insert
 							Feb 7 thru 9 use: //no
 						end-when
 					20 use:
 						when-date-is
-							Feb 2 thru 5 use: Insert_section Meeting End-Insert
+							Feb 2 thru 5 use:
+								Insert_section Meeting End-Insert
 							Feb 6 thru 9 use: //no
 						end-when
 					21 use:
 						when-date-is
-							Feb 2, 3 use: Insert_section Meeting End-Insert
+							Feb 2, 3 use:
+								Insert_section Meeting End-Insert
 							Feb 4 thru 9 use: //no
 						end-when
 					22 use:
 						when-date-is
-							Feb 2 thru 7 use: Insert_section Meeting End-Insert
+							Feb 2 thru 7 use:
+								Insert_section Meeting End-Insert
 							Feb 8, 9 use: //Title role cover4 sid ti.Katavasias sid Triodion14.title</><r>sid ty.typikon.parts_gr_GR_cog.tyRubric.Read</>End-Para
 						end-when
 					23 use:
 						when-date-is
-							Feb 2 use: Insert_section Meeting End-Insert
+							Feb 2 use:
+								Insert_section Meeting End-Insert
 							Feb 3 thru 9 use: //no
 						end-when
 					otherwise use:

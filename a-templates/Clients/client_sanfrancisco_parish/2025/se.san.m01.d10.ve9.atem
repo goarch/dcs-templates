@@ -57,6 +57,7 @@ Status NA
 		Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
 		Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._03_Stichera__.both__.me__.bothasboth_.hymn End-Insert
 		Insert_section VE._04_Middle__.hierarchical__.entrance End-Insert
 		Insert_section VE._05_Readings__.hierarchical End-Insert
@@ -70,8 +71,10 @@ Status NA
 		End-Section
 		Insert_section VE._08_Aposticha__.me__.p_epiphany12 End-Insert
 		Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.me__.bothasboth_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.hierarchical End-Insert
 		Insert_section AP.HIRgoa_local__.SAN End-Insert

@@ -65,7 +65,8 @@ Status Final
 						Section katavasia
 							when-movable-cycle-day-is
 								14 use:
-								otherwise use: Insert_section KA._title End-Insert
+								otherwise use:
+									Insert_section KA._title End-Insert
 							end-when
 						End-Section
 					End-Section

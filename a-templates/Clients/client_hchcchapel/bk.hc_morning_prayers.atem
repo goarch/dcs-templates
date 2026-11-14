@@ -55,8 +55,10 @@ Status NA
 		Dialog sid pr.res04.text End-Dialog
 		Hymn sid oc.m1.d2_gr_GR_cog.octrMA.Triadic3.text @ver media-off End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid oc.m2.d2_gr_GR_cog.octrMA.Triadic3.text @ver media-off End-Hymn
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid oc.m3.d2_gr_GR_cog.octrMA.Triadic3.text @ver media-off End-Hymn
 		Rubric sid ho.ho01_gr_GR_cog.hoPP.key06.text End-Rubric
 		Title role desig sid ho.ho01_gr_GR_cog.hoPP.key07.text End-Title

@@ -273,6 +273,7 @@ Status NA
 				End-Section
 				Section glory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Title role mode rid meVE.LityGlory.mode End-Title
 						Media rid meVE.LityGlory.text End-Media
@@ -281,6 +282,8 @@ Status NA
 				End-Section
 				Section gloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid meVE.LityGlory.mode</>End-Title
@@ -290,6 +293,7 @@ Status NA
 				End-Section
 				Section both_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid meVE.LityBoth.mode End-Title
@@ -341,6 +345,7 @@ Status NA
 				End-Section
 				Section glory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Title role desig sid misc.Idiomelon<Tmode>rid alt1.meVE.LityGlory.mode</>End-Title
 						Media rid alt1.meVE.LityGlory.text End-Media
@@ -349,6 +354,8 @@ Status NA
 				End-Section
 				Section gloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid alt1.meVE.LityGlory.mode</>End-Title
@@ -358,6 +365,7 @@ Status NA
 				End-Section
 				Section both_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid alt1.meVE.LityBoth.mode End-Title
@@ -409,6 +417,7 @@ Status NA
 				End-Section
 				Section glory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Title role desig sid misc.Idiomelon<Tmode>rid alt2.meVE.LityGlory.mode</>End-Title
 						Media rid alt2.meVE.LityGlory.text End-Media
@@ -417,6 +426,8 @@ Status NA
 				End-Section
 				Section gloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid alt2.meVE.LityGlory.mode</>End-Title
@@ -426,6 +437,7 @@ Status NA
 				End-Section
 				Section both_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourceMenaion End-Para
 						Title role mode rid alt2.meVE.LityBoth.mode End-Title
@@ -462,6 +474,8 @@ Status NA
 					End-Section
 					Section gloryboth_
 						Title sid ti.GloryBothNow End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Section hymn
 							Para role source0 sid ti.sourcePeSupplement End-Para
 							Title role desig sid misc.Idiomelon<Tmode>rid alt1.peVE.LityGlory.mode</>End-Title
@@ -508,6 +522,7 @@ Status NA
 				End-Section
 				Section glory_
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid peVE.LityGlory.mode</>End-Title
@@ -517,6 +532,8 @@ Status NA
 				End-Section
 				Section gloryboth_
 					Title sid ti.GloryBothNow End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role desig sid misc.Idiomelon<Tmode>rid peVE.LityGlory.mode</>End-Title
@@ -526,6 +543,7 @@ Status NA
 				End-Section
 				Section both_
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Section hymn
 						Para role source0 sid ti.sourcePentecostarion End-Para
 						Title role mode rid peVE.LityBoth.mode End-Title

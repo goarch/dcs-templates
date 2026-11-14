@@ -80,6 +80,7 @@ Status Final
 				Insert_section VE._03_Stichera__.me__.DecAC_p_123as8910 End-Insert
 				Section block1
 					Title sid ti.Glory<Tmode>sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.text @ver media-off End-Hymn
 				End-Section
@@ -89,6 +90,7 @@ Status Final
 				Insert_section VE._08_Aposticha__.oc__.sunday__.aposticha1234 End-Insert
 				Section block2
 					Title sid ti.Glory<Tmode>sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.text @ver media-off End-Hymn
 				End-Section
@@ -98,6 +100,7 @@ Status Final
 				Insert_section AP.res__.modeofweek End-Insert
 				Section block3
 					Title sid ti.Glory<Tdesig>sid ti.AncestorsOfGod</><Tmode>sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section
@@ -125,6 +128,7 @@ Status Final
 				Insert_section VE._03_Stichera__.me__.DecAC_p_123as8910 End-Insert
 				Section block1
 					Title sid ti.Glory<Tmode>sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.SticGlory.text @ver media-off End-Hymn
 				End-Section
@@ -134,6 +138,7 @@ Status Final
 				Insert_section VE._08_Aposticha__.me__.i_christmas12 End-Insert
 				Section block2
 					Title sid ti.Glory<Tmode>sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.AposGlory.text @ver media-off End-Hymn
 				End-Section
@@ -143,6 +148,7 @@ Status Final
 				Insert_section AP.af End-Insert
 				Section block3
 					Title sid ti.Glory<Tdesig>sid ti.AncestorsOfGod</><Tmode>sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.mode</>End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.text End-Media
 					Hymn sid me.m12.dAC_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
 				End-Section

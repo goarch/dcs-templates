@@ -59,9 +59,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.Stichera4.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.Stichera4.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meSV.SticGlory.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.SticGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.SticGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</><Tmode>sid me.m12.d02_gr_GR_cog.alt1.meSV.SticBoth.mode</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.SticBoth.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.SticBoth.text @ver media-off End-Hymn
 			Title role desig sid ti.Aposticha End-Title
@@ -75,9 +77,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.Aposticha3.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tdesig>sid ti.Triadic</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.AposGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.AposGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meSV.AposBoth.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meSV.AposBoth.text @ver media-off End-Hymn
 		End-Section
@@ -99,9 +103,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.Stichera06.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.Stichera06.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meVE.SticGlory.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.SticGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.SticGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</><Tmode>sid me.m12.d02_gr_GR_cog.alt1.meVE.SticTheotokion.mode</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.SticTheotokion.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.SticTheotokion.text @ver media-off End-Hymn
 			Break line End_Break
@@ -138,9 +144,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.Lity4.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.Lity4.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meVE.LityGlory.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.LityGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.LityGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.LityBoth.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.LityBoth.text @ver media-off End-Hymn
 
@@ -155,9 +163,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.Aposticha3.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.Aposticha3.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meVE.AposGlory.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.AposGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.AposGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meVE.AposBoth.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meVE.AposBoth.text @ver media-off End-Hymn
 			Title role desig sid ti.Apolytikion End-Title
@@ -178,7 +188,9 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma11.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma11.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma1T.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma1T.text @ver media-off End-Hymn
 			Title role desig sid ti.AfterPsalter2 sid ti.Kathisma End-Title
@@ -186,7 +198,9 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma21.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma21.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma2T.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma2T.text @ver media-off End-Hymn
 			Title role desig sid ti.AfterPolyeleos sid ti.Kathisma End-Title
@@ -194,7 +208,9 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma31.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma31.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma3T.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Kathisma3T.text @ver media-off End-Hymn
 
@@ -205,9 +221,11 @@ Status Final
 			Insert_section bk.ev.me.m01.d17.matins.go_lesson End-Insert
 
 			Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.PostGospelGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.PostGospelGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.PostGospelBoth.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.PostGospelBoth.text @ver media-off End-Hymn
 			Title role desig sid misc.Idiomelon<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meMA.PostGospelIdiomelon.mode</>End-Title
@@ -239,7 +257,9 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode3Kathisma1.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion sid ti.SameMelody_1hymn</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode3KathismaT.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode3KathismaT.text @ver media-off End-Hymn
 			Title role desig sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode4C11.ode<Tmelody>sid me.m12.d02_gr_GR_cog.alt1.meMA.Ode4C11.melody</>End-Title
@@ -338,9 +358,11 @@ Status Final
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.Lauds4.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.Lauds4.text @ver media-off End-Hymn
 			Title sid ti.Glory<Tmode>sid me.m12.d02_gr_GR_cog.alt1.meMA.LaudsGlory.mode</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.LaudsGlory.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.LaudsGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid me.m12.d02_gr_GR_cog.alt1.meMA.LaudsTheotokion.text End-Media
 			Hymn sid me.m12.d02_gr_GR_cog.alt1.meMA.LaudsTheotokion.text @ver media-off End-Hymn
 		End-Section

@@ -710,6 +710,8 @@ Status NA
 				End-Section
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid ho.ho07_gr_GR_cog.hoLI.Antiphon1.text media-off End-Hymn
 			End-Section
 			Section antiphon2

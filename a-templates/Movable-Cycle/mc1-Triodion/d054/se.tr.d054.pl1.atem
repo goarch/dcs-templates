@@ -129,6 +129,8 @@ Status NA
 		End-Section
 		Section block5
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid tr.d054_gr_GR_cog.trVE.Stichera0Th.text End-Media
 			Hymn sid tr.d054_gr_GR_cog.trVE.Stichera0Th.text @ver media-off End-Hymn
 		End-Section

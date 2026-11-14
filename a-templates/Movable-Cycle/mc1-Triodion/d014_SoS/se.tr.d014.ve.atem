@@ -89,6 +89,7 @@ Status NA
 		End-Section
 		Insert_section VE._08_Aposticha__.glory__.tr_ End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.tr_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.Priest.symeon End-Insert
 

@@ -74,43 +74,53 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section meeting End-Insert
+								Feb 2 thru 8 use:
+									Insert_section meeting End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2, 3 use: Insert_section meeting End-Insert
+								Feb 2, 3 use:
+									Insert_section meeting End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section meeting End-Insert
+								Feb 2 use:
+									Insert_section meeting End-Insert
 							end-when
 						otherwise use:
 							when-name-of-day-is
@@ -182,7 +192,8 @@ Status NA
 							Para role typikonindent sid movable.verses_gr_GR_cog.psLI.pe.d110.entrance.v1.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.incipit End-Para
 						111 thru 117 use:
 							when-name-of-day-is
-								Sunday use: Insert_section usualSunday End-Insert
+								Sunday use:
+									Insert_section usualSunday End-Insert
 								otherwise use:
 									Para role typikonindent sid ho.ho07_gr_GR_cog.hoLI.EntranceHymn.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.incipit End-Para
 							end-when
@@ -266,43 +277,53 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section meeting End-Insert
+								Feb 2 thru 8 use:
+									Insert_section meeting End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2, 3 use: Insert_section meeting End-Insert
+								Feb 2, 3 use:
+									Insert_section meeting End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section meeting End-Insert
+								Feb 2 use:
+									Insert_section meeting End-Insert
 							end-when
 						otherwise use:
 							when-name-of-day-is
@@ -367,7 +388,8 @@ Status NA
 							Para role typikonindent sid movable.verses_gr_GR_cog.psLI.pe.d110.entrance.v1.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text End-Para
 						111 thru 117 use:
 							when-name-of-day-is
-								Sunday use: Insert_section usualSunday End-Insert
+								Sunday use:
+									Insert_section usualSunday End-Insert
 								otherwise use:
 									Para role typikonindent sid ho.ho07_gr_GR_cog.hoLI.EntranceHymn.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text End-Para
 							end-when
@@ -428,48 +450,60 @@ Status NA
 							end-when
 						14 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						15 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						16 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						17 use:
 							when-date-is
-								Feb 2 thru 8 use: Insert_section meeting End-Insert
+								Feb 2 thru 8 use:
+									Insert_section meeting End-Insert
 							end-when
 						18 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						19 use:
 							when-date-is
-								Feb 2 thru 6 use: Insert_section meeting End-Insert
+								Feb 2 thru 6 use:
+									Insert_section meeting End-Insert
 							end-when
 						20 use:
 							when-date-is
-								Feb 2 thru 5 use: Insert_section meeting End-Insert
+								Feb 2 thru 5 use:
+									Insert_section meeting End-Insert
 							end-when
 						21 use:
 							when-date-is
-								Feb 2, 3 use: Insert_section meeting End-Insert
+								Feb 2, 3 use:
+									Insert_section meeting End-Insert
 							end-when
 						22 use:
 							when-date-is
-								Feb 2 thru 7 use: Insert_section meeting End-Insert
+								Feb 2 thru 7 use:
+									Insert_section meeting End-Insert
 							end-when
 						23 use:
 							when-date-is
-								Feb 2 use: Insert_section meeting End-Insert
+								Feb 2 use:
+									Insert_section meeting End-Insert
 							end-when
 						otherwise use:
 							when-name-of-day-is
-								Sunday use: Insert_section usualSunday End-Insert
-								otherwise use: Insert_section meeting End-Insert
+								Sunday use:
+									Insert_section usualSunday End-Insert
+								otherwise use:
+									Insert_section meeting End-Insert
 							end-when
 					end-when
 				Mar 25 use:
@@ -518,7 +552,8 @@ Status NA
 							Para role typikonindent sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text End-Para
 						111 thru 117 use:
 							when-name-of-day-is
-								Sunday use: Insert_section usualSunday End-Insert
+								Sunday use:
+									Insert_section usualSunday End-Insert
 								otherwise use:
 									Para role typikonindent sid ho.ho07_gr_GR_cog.hoLI.Antiphon21.text sid pr.antiphon2.ascension.text sid ho.ho07_gr_GR_cog.hoLI.Antiphon22.text End-Para
 							end-when

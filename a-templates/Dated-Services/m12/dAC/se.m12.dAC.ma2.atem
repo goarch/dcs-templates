@@ -94,6 +94,8 @@ Status NA
 							Media sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma1.text End-Media
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Another_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.mode<Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.melody</>End-Title
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.text @ver media-off End-Hymn
 						End-Section
@@ -282,6 +284,8 @@ Status NA
 							Media sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma1.text End-Media
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma1.text @ver media-off End-Hymn
 							Title sid ti.GloryBothNow<Tdesig>sid ti.Another_1hymn</>End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Title role mode sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.mode<Tmelody>sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.melody</>End-Title
 							Hymn sid me.m12.dAC_gr_GR_cog.meMA.Ode3Kathisma2.text @ver media-off End-Hymn
 						End-Section

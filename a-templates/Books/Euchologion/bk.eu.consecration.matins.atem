@@ -43,12 +43,14 @@ Status NA
 	End-Section
 	Section Section02
 	//	Title sid ti.Glory<Tdesig>sid ti.Feast</>End-Title
+	//	Verse sid pr.GloryToTheFather.text End-Verse
 	//	Title role mode sid peVE.Apolytikion1.mode End-Title
 	//	Media sid peVE.Apolytikion1.text End-Media
 	//	Hymn sid peVE.Apolytikion1.text @ver media-off End-Hymn
 	End-Section
 	Section Section03
 		Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Title role mode sid eu.consecration_gr_GR_cog.euVE.Apolytikion.mode End-Title
 		Media sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text End-Media
 		Hymn sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text @ver media-off End-Hymn
@@ -61,6 +63,8 @@ Status NA
 		Media sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text End-Media
 		Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
 		Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma11.text @ver media-off End-Hymn
 	End-Section
 	Section Section05
@@ -69,6 +73,8 @@ Status NA
 		Media sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text End-Media
 		Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma21.text @ver media-off End-Hymn
 		Title sid ti.GloryBothNow End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Title role mode sid eu.consecration_gr_GR_cog.euMA.Kathisma31.mode<Tmelody>sid eu.consecration_gr_GR_cog.euMA.Kathisma31.melody</>End-Title
 		Media sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text End-Media
 		Hymn sid eu.consecration_gr_GR_cog.euMA.Kathisma31.text @ver media-off End-Hymn
@@ -96,9 +102,11 @@ Status NA
 		Section Part3
 			Actor sid ac.Choir End-Actor
 			Title sid ti.Glory<Tmode>sid misc.Mode2</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
 			Media sid pe.d120_gr_GR_cog.peMA.PostGospelGlory.text End-Media
 			Hymn sid pe.d120_gr_GR_cog.peMA.PostGospelGlory.text @ver media-off End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media sid pe.d120_gr_GR_cog.peMA.PostGospelBoth.text End-Media
 			Hymn sid pe.d120_gr_GR_cog.peMA.PostGospelBoth.text @ver media-off End-Hymn
 			Title role desig sid misc.Idiomelon<Tmode>sid pe.d120_gr_GR_cog.peMA.PostGospelIdiomelon.mode</>End-Title
@@ -152,12 +160,14 @@ Status NA
 	End-Section
 	Section Section11
 		Title sid ti.Glory<Tdesig>sid ti.Feast</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 	//	Title role mode sid peMA.LaudsGlory.mode End-Title
 	//	Media sid peMA.LaudsGlory.text End-Media
 	//	Hymn sid peMA.LaudsGlory.text @ver media-off End-Hymn
 	End-Section
 	Section Section12
 		Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Title role mode sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.mode End-Title
 		Media sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.text End-Media
 		Hymn sid eu.consecration_gr_GR_cog.euMA.LaudsBoth.text @ver media-off End-Hymn

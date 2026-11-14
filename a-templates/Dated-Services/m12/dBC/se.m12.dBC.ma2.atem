@@ -86,8 +86,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C14.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C15.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C1T.text @ver End-Hymn
 						Para role emc_ode1_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._1 End-Insert
@@ -105,8 +107,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C1T.text @ver End-Hymn
 						Para role emc_ode3_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._3 End-Insert
@@ -141,8 +145,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C1T.text @ver End-Hymn
 						Para role emc_ode4_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._4 End-Insert
@@ -160,8 +166,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C1T.text @ver End-Hymn
 						Para role emc_ode5_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._5 End-Insert
@@ -179,8 +187,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C1T.text @ver End-Hymn
 						Para role emc_ode6_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._6 End-Insert
@@ -231,8 +241,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C1T.text @ver End-Hymn
 						Para role emc_ode7_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._7 End-Insert
@@ -250,8 +262,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C1T.text @ver End-Hymn
 						Para role emc_ode8_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._8 End-Insert
@@ -291,8 +305,10 @@ Status NA
 							Verse sid pr.verse_SaintsM.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C13.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C14.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C1T.text @ver End-Hymn
 						Para role emc_ode9_me_canon1 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_magnificat_modeofkatavasia sid website.preferences.titles_gr_GR_cog.mc.magnificat.modeofkatavasia End-Para
@@ -328,6 +344,7 @@ Status NA
 				Insert_section MA._02_Kathisma1__.oc__.sunday__.kath1112 End-Insert
 				Section block2
 					Title sid ti.BothNow<Tdesig>sid ti.Forefestal_1hymn</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 					Media sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.text End-Media
 					Hymn sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.text @ver media-off End-Hymn
@@ -335,6 +352,7 @@ Status NA
 				Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath2122 End-Insert
 				Section block3
 					Title sid ti.BothNow<Tdesig>sid ti.Forefestal_1hymn</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 					Media sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.text End-Media
 					Hymn sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.text @ver media-off End-Hymn
@@ -368,6 +386,7 @@ Status NA
 				Insert_section MA._02_Kathisma1__.oc__.sunday__.kath1112 End-Insert
 				Section block2
 					Title sid ti.BothNow<Tdesig>sid ti.Forefestal_1hymn</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.mode<Tmelody>sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.melody</>End-Title
 					Media sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.text End-Media
 					Hymn sid me.m12.d24_gr_GR_cog.meMA.Kathisma11.text @ver media-off End-Hymn
@@ -375,6 +394,7 @@ Status NA
 				Insert_section MA._03_Kathisma2__.append__.oc__.sunday__.kath2122 End-Insert
 				Section block3
 					Title sid ti.BothNow<Tdesig>sid ti.Forefestal_1hymn</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Title role mode sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.mode<Tmelody>sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.melody</>End-Title
 					Media sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.text End-Media
 					Hymn sid me.m12.d24_gr_GR_cog.meMA.Kathisma21.text @ver media-off End-Hymn
@@ -421,8 +441,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode1C2T.text @ver End-Hymn
 						Para role emc_ode1_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._1 End-Insert
@@ -456,8 +478,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode3C2T.text @ver End-Hymn
 						Para role emc_ode3_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._3 End-Insert
@@ -503,8 +527,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode4C2T.text @ver End-Hymn
 						Para role emc_ode4_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._4 End-Insert
@@ -538,8 +564,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode5C2T.text @ver End-Hymn
 						Para role emc_ode5_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._5 End-Insert
@@ -573,8 +601,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode6C2T.text @ver End-Hymn
 						Para role emc_ode6_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._6 End-Insert
@@ -626,8 +656,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode7C2T.text @ver End-Hymn
 						Para role emc_ode7_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._7 End-Insert
@@ -661,8 +693,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode8C2T.text @ver End-Hymn
 						Para role emc_ode8_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Insert_section KA2.append__._8 End-Insert
@@ -717,8 +751,10 @@ Status NA
 							Verse sid pr.verse_God.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C21.text @ver End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C22.text @ver End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid me.m12.dBC_gr_GR_cog.meMA.Ode9C2T.text @ver End-Hymn
 						Para role emc_ode9_me_canon2 sid website.preferences.titles_gr_GR_cog.mc.tag End-Para
 						Para role bmc_magnificat_modeofkatavasia sid website.preferences.titles_gr_GR_cog.mc.magnificat.modeofkatavasia End-Para

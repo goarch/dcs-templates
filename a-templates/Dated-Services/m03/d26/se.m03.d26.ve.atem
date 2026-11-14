@@ -148,8 +148,10 @@ Status Final
 					Para role servicesources sid misc.book.Horologion.name End-Para
 					Para role servicesourcessection sid ho.ho22_gr_GR_cog.hoSA.title1 sid ho.ho22_gr_GR_cog.hoSA.title3 sid ho.ho22_gr_GR_cog.hoSA.title4 End-Para
 					when-movable-cycle-day-is
-						35 use: Para role servicesourcessection sid ti.Stanza2 End-Para
-						42 use: Para role servicesourcessection sid ti.Stanza3 End-Para
+						35 use:
+							Para role servicesourcessection sid ti.Stanza2 End-Para
+						42 use:
+							Para role servicesourcessection sid ti.Stanza3 End-Para
 					end-when
 					Title sid misc.horizontal_line.solid1 End-Title
 					Break line End_Break

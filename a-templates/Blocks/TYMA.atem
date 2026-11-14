@@ -1442,19 +1442,24 @@ Status NA
 								M1, M2, M3, M4, M8 use:
 									Hymn rid ocMA.Kathisma21.text End-Hymn
 									Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psMA.saturday.kathismata.v3.text End-Verse
-									when-exists rid ocMA.Kathisma22.melody use: Title role melody rid ocMA.Kathisma22.melody End-Title end-when
+									when-exists rid ocMA.Kathisma22.melody use:
+										Title role melody rid ocMA.Kathisma22.melody End-Title end-when
 									Hymn rid ocMA.Kathisma22.text End-Hymn
 									Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psMA.saturday.kathismata.v4.text End-Verse
-									when-exists rid ocMA.Kathisma23.melody use: Title role melody rid ocMA.Kathisma23.melody End-Title end-when
+									when-exists rid ocMA.Kathisma23.melody use:
+										Title role melody rid ocMA.Kathisma23.melody End-Title end-when
 									Hymn rid ocMA.Kathisma23.text End-Hymn
-									when-exists rid ocMA.Kathisma24.melody use: Title role melody rid ocMA.Kathisma24.melody End-Title end-when
+									when-exists rid ocMA.Kathisma24.melody use:
+										Title role melody rid ocMA.Kathisma24.melody End-Title end-when
 									Hymn rid ocMA.Kathisma24.text End-Hymn
 								M5, M6, M7 use:
 									Hymn rid ocMA.Kathisma21.text End-Hymn
 									Verse<bnr>sid misc.vVerse</>sid liturgical.verses_gr_GR_cog.psMA.saturday.kathismata.v3.text End-Verse
-									when-exists rid ocMA.Kathisma22.melody use: Title role melody rid ocMA.Kathisma22.melody End-Title end-when
+									when-exists rid ocMA.Kathisma22.melody use:
+										Title role melody rid ocMA.Kathisma22.melody End-Title end-when
 									Hymn rid ocMA.Kathisma22.text End-Hymn
-									when-exists rid ocMA.Kathisma23.melody use: Title role melody rid ocMA.Kathisma23.melody End-Title end-when
+									when-exists rid ocMA.Kathisma23.melody use:
+										Title role melody rid ocMA.Kathisma23.melody End-Title end-when
 									Hymn rid ocMA.Kathisma23.text End-Hymn
 							end-when
 						End-Section
@@ -2685,10 +2690,14 @@ Status NA
 				End-Section
 				Section sunday
 					when-movable-cycle-day-is
-						1, 22, 29, 50 use: Insert_section kath1g2b3_ End-Insert
-						8, 36, 57 use: Insert_section kath1gb2 End-Insert
-						15 use: Insert_section kath3g4b5 End-Insert
-						43 use: Insert_section kath1v2g3b4 End-Insert
+						1, 22, 29, 50 use:
+							Insert_section kath1g2b3_ End-Insert
+						8, 36, 57 use:
+							Insert_section kath1gb2 End-Insert
+						15 use:
+							Insert_section kath3g4b5 End-Insert
+						43 use:
+							Insert_section kath1v2g3b4 End-Insert
 					end-when
 				End-Section
 			End-Section
@@ -2710,7 +2719,8 @@ Status NA
 			Section modeofcanon__
 				Section me1
 					when-exists
-						rid meMA.Ode9C1.notice use: Rubric rid meMA.Ode9C1.notice End-Rubric
+						rid meMA.Ode9C1.notice use:
+							Rubric rid meMA.Ode9C1.notice End-Rubric
 					end-when
 				End-Section
 				Section me2
@@ -2946,7 +2956,8 @@ Status NA
 			End-Section
 			Section tr_
 				when-movable-cycle-day-is
-					1 use: Insert_section tr0 End-Insert
+					1 use:
+						Insert_section tr0 End-Insert
 				end-when
 				Section konoik_nt_
 					Section kontakion_nt
@@ -6161,19 +6172,29 @@ Status NA
 					Insert_section Lauds_Verses.v06 End-Insert
 					Hymn rid trMA.Lauds1.text End-Hymn
 					when-movable-cycle-day-is
-						29 use: Insert_section Lauds_Verses.v07 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse1 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse1 End-Insert
+						29 use:
+							Insert_section Lauds_Verses.v07 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse1 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse1 End-Insert
 					end-when
 					Hymn rid trMA.Lauds2.text End-Hymn
 					when-movable-cycle-day-is
-						29 use: Insert_section Lauds_Verses.v08 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse2 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse2 End-Insert
+						29 use:
+							Insert_section Lauds_Verses.v08 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse2 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse2 End-Insert
 					end-when
 					Hymn rid trMA.Lauds3.text End-Hymn
 				End-Section
@@ -6205,19 +6226,29 @@ Status NA
 					Insert_section Lauds_Verses.v06 End-Insert
 					Hymn rid trMA.Lauds1.text End-Hymn
 					when-movable-cycle-day-is
-						29 use: Insert_section Lauds_Verses.v07 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse1 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse1 End-Insert
+						29 use:
+							Insert_section Lauds_Verses.v07 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse5 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse1 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse1 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse1 End-Insert
 					end-when
 					Hymn rid trMA.Lauds2.text End-Hymn
 					when-movable-cycle-day-is
-						29 use: Insert_section Lauds_Verses.v08 End-Insert
-						36 use: Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
-						43 use: Insert_section PsalmVerses.forCross.verse2 End-Insert
-						50 use: Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
-						57 use: Insert_section PsalmVerses.forWomen.verse2 End-Insert
+						29 use:
+							Insert_section Lauds_Verses.v08 End-Insert
+						36 use:
+							Insert_section PsalmVerses.forHierarchs.verse2 End-Insert
+						43 use:
+							Insert_section PsalmVerses.forCross.verse2 End-Insert
+						50 use:
+							Insert_section PsalmVerses.forDevoutMen.verse2 End-Insert
+						57 use:
+							Insert_section PsalmVerses.forWomen.verse2 End-Insert
 					end-when
 					Hymn rid trMA.Lauds3.text End-Hymn
 				End-Section

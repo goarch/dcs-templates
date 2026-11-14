@@ -63,8 +63,10 @@ Status Draft
 		Verse sid ps_gr_GR_cog.psa33.v6.text @ver End-Verse
 		Reading sid ho.ho07_gr_GR_cog.hoTY.Key0215.text End-Reading
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Reading sid ho.ho07_gr_GR_cog.hoTY.Key0216.text End-Reading
 		Title sid ti.BothNow End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Reading sid pr.Creed.text @ver sid pr.res04.text End-Reading
 		Reading sid ho.ho07_gr_GR_cog.hoTY.Key0217.text End-Reading
 		Reading sid pr.OurFather.text End-Reading

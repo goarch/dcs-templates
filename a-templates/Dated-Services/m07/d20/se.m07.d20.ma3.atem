@@ -114,11 +114,13 @@ Status Final
 						Media rid meMA.Kathisma21.text End-Media
 						Hymn rid meMA.Kathisma21.text @ver media-off End-Hymn
 						Title sid ti.Glory End-Title
+						Verse sid pr.GloryToTheFather.text End-Verse
 						Para role source0 sid ti.sourceMeSupplement End-Para
 						Title role mode rid me.alt1.meMA.Kathisma22.mode<Tmelody>rid me.alt1.meMA.Kathisma22.melody</>End-Title
 						Media rid me.alt1.meMA.Kathisma22.text End-Media
 						Hymn rid me.alt1.meMA.Kathisma22.text @ver media-off End-Hymn
 						Title sid ti.BothNow End-Title
+						Verse sid pr.BothNowAndEver.text End-Verse
 						Title role mode rid me.alt1.meMA.Kathisma2T.mode<Tmelody>rid me.alt1.meMA.Kathisma2T.melody</>End-Title
 						Media rid me.alt1.meMA.Kathisma2T.text End-Media
 						Hymn rid me.alt1.meMA.Kathisma2T.text @ver media-off End-Hymn

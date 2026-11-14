@@ -44,6 +44,8 @@ Status NA
 				Media sid liturgical.verses_gr_GR_cog.psVE.kathisma1.selection01.v06.text End-Media
 				Hymn sid liturgical.verses_gr_GR_cog.psVE.kathisma1.selection01.v06.text @ver media-off sid pr.Alleluia3Glory.text sid pr.Alleluia1.text End-Hymn
 				Title sid ti.GloryBothNow End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid pr.Alleluia3Glory.text sid pr.Alleluia1.text End-Hymn
 			End-Section
 			Section sung
@@ -307,7 +309,7 @@ Status NA
 		Section kathisma__
 			Section has_litany
 				when-movable-cycle-day-is
-					65 use: 
+					65 use:
 						Section hw_monday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -316,7 +318,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany02_deacon_parentheses End-Insert
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -325,7 +327,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany02_deacon_parentheses End-Insert
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -460,13 +462,13 @@ Status NA
 							Insert_section Kathisma08 End-Insert
 							Insert_section end__.no_litany End-Insert
 						End-Section
-				//	65 use: 
+				//	65 use:
 				//		Section hw_monday
 				//		End-Section
-				//	66 use: 
+				//	66 use:
 				//		Section hw_tuesday
 				//		End-Section
-				//	67 use: 
+				//	67 use:
 				//		Section hw_wednesday
 				//		End-Section
 					otherwise use:
@@ -523,15 +525,15 @@ Status NA
 		Section rubric__
 			Section has_litany
 				when-movable-cycle-day-is
-					65 use: 
+					65 use:
 						Section hw_monday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum4 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum9 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum14 sid lecPS.rubric_litany End-Rubric
 						End-Section
@@ -648,7 +650,7 @@ Status NA
 		Section kathisma__
 			Section has_litany
 				when-movable-cycle-day-is
-					65 use: 
+					65 use:
 						Section hw_monday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -657,7 +659,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany03_deacon_parentheses End-Insert
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -666,7 +668,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany03_deacon_parentheses End-Insert
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -798,13 +800,13 @@ Status NA
 						Section lent5_thursday
 							Rubric sid lecPS.rubric_nokathisma End-Rubric
 						End-Section
-				//	65 use: 
+				//	65 use:
 				//		Section hw_monday
 				//		End-Section
-				//	66 use: 
+				//	66 use:
 				//		Section hw_tuesday
 				//		End-Section
-				//	67 use: 
+				//	67 use:
 				//		Section hw_wednesday
 				//		End-Section
 					otherwise use:
@@ -895,15 +897,15 @@ Status NA
 						Section lent5_thursday
 							Rubric sid lecPS.rubric_nokathisma End-Rubric
 						End-Section
-					65 use: 
+					65 use:
 						Section hw_monday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum5 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum10 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum15 sid lecPS.rubric_litany End-Rubric
 						End-Section
@@ -1020,7 +1022,7 @@ Status NA
 		Section kathisma__
 			Section has_litany
 				when-movable-cycle-day-is
-					65 use: 
+					65 use:
 						Section hw_monday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -1029,7 +1031,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany04_deacon_parentheses End-Insert
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -1038,7 +1040,7 @@ Status NA
 							Break line End_Break
 							Insert_section LN.ShortLitany04_deacon_parentheses End-Insert
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Actor sid ac.Reader End-Actor
 							Insert_section intro End-Insert
@@ -1159,13 +1161,13 @@ Status NA
 						Section lent5_thursday
 							Rubric sid lecPS.rubric_nokathisma End-Rubric
 						End-Section
-				//	65 use: 
+				//	65 use:
 				//		Section hw_monday
 				//		End-Section
-				//	66 use: 
+				//	66 use:
 				//		Section hw_tuesday
 				//		End-Section
-				//	67 use: 
+				//	67 use:
 				//		Section hw_wednesday
 				//		End-Section
 					otherwise use:
@@ -1251,15 +1253,15 @@ Status NA
 						Section lent5_thursday
 							Rubric sid lecPS.rubric_nokathisma End-Rubric
 						End-Section
-					65 use: 
+					65 use:
 						Section hw_monday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum6 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					66 use: 
+					66 use:
 						Section hw_tuesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum11 sid lecPS.rubric_litany End-Rubric
 						End-Section
-					67 use: 
+					67 use:
 						Section hw_wednesday
 							Rubric sid lecPS.rubric_kathisma sid misc.anum16 sid lecPS.rubric_litany End-Rubric
 						End-Section

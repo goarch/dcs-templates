@@ -99,15 +99,19 @@ Status Final
 					Verse sid me.m01.d04_gr_GR_cog.meCO.C1.verse End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode1C11.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode1C12.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode1C13.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode3C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode3C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode3C1H.melody</>End-Title
 					Para role heirmos sid me.m01.d04_gr_GR_cog.meCO.Ode3C1H.text @ver<r>sid ru.Twice media-off</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode3C11.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode3C12.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode4C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode4C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode4C1H.melody</>End-Title
@@ -115,22 +119,28 @@ Status Final
 					Verse sid me.m01.d04_gr_GR_cog.meCO.C1.verse End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode4C11.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode4C12.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode4C13.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode5C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode5C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode5C1H.melody</>End-Title
 					Para role heirmos sid me.m01.d04_gr_GR_cog.meCO.Ode5C1H.text @ver<r>sid ru.Twice media-off</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode5C11.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode5C12.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode6C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode6C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode6C1H.melody</>End-Title
 					Para role heirmos sid me.m01.d04_gr_GR_cog.meCO.Ode6C1H.text @ver<r>sid ru.Twice media-off</>End-Para
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode6C11.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode6C12.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode7C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode7C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode7C1H.melody</>End-Title
@@ -138,8 +148,10 @@ Status Final
 					Verse sid me.m01.d04_gr_GR_cog.meCO.C1.verse End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode7C11.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode7C12.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode7C13.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode8C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode8C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode8C1H.melody</>End-Title
@@ -147,8 +159,10 @@ Status Final
 					Verse sid me.m01.d04_gr_GR_cog.meCO.C1.verse End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode8C11.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode8C12.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode8C13.text @ver End-Hymn
 
 					Title role desig sid me.m01.d04_gr_GR_cog.meCO.Ode9C1H.ode<Tmode>sid me.m01.d04_gr_GR_cog.meCO.Ode9C1H.mode</><Tdesig>sid me.m01.d04_gr_GR_cog.meCO.Ode9C1H.melody</>End-Title
@@ -156,8 +170,10 @@ Status Final
 					Verse sid me.m01.d04_gr_GR_cog.meCO.C1.verse End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode9C11.text @ver End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode9C12.text @ver End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Hymn sid me.m01.d04_gr_GR_cog.meCO.Ode9C13.text @ver End-Hymn
 					Para role heirmos sid me.m01.d04_gr_GR_cog.meCO.Ode9C1H.text @ver End-Para
 				End-Section

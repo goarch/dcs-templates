@@ -67,6 +67,7 @@ Status Draft
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
 			Para sid misc.punctuation.ellipsis sid da.d2_gr_GR_cog.daMA.Triadic2Ending.text media-off End-Para
 			Title sid ti.BothNow<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para sid misc.punctuation.ellipsis sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text media-off End-Para
 		End-Section
 		Section ShortLitany02
@@ -243,6 +244,7 @@ Status Draft
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
 			Para sid misc.punctuation.ellipsis sid da.d3_gr_GR_cog.daMA.Triadic2Ending.text media-off End-Para
 			Title sid ti.BothNow<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para sid misc.punctuation.ellipsis sid da.d3_gr_GR_cog.daMA.Triadic3Ending.text media-off End-Para
 		End-Section
 		Section ShortLitany02
@@ -408,6 +410,7 @@ Status Draft
 			Title sid ti.Glory<Tdesig>sid ti.Repeat</>End-Title
 			Para sid misc.punctuation.ellipsis sid da.d4_gr_GR_cog.daMA.Triadic2Ending.text media-off End-Para
 			Title sid ti.BothNow<Tdesig>sid ti.Repeat</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Para sid misc.punctuation.ellipsis sid da.d4_gr_GR_cog.daMA.Triadic3Ending.text media-off End-Para
 		End-Section
 		Section ShortLitany02
@@ -624,6 +627,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode1C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode1C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode1K.text @ver End-Hymn
@@ -636,6 +640,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode3C11.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode3C12.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode3K.text @ver End-Hymn
@@ -664,6 +669,7 @@ Status Draft
 			Media rid trMA.Ode3Kathisma2.text End-Media
 			Hymn rid trMA.Ode3Kathisma2.text @ver media-off End-Hymn
 			Title sid ti.BothNow<Tmode>rid trMA.Ode3Kathisma3.mode</><Tmelody>rid trMA.Ode3Kathisma3.melody</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid trMA.Ode3Kathisma3.text End-Media
 			Hymn rid trMA.Ode3Kathisma3.text @ver media-off End-Hymn
 		End-Section
@@ -677,6 +683,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode4C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode4C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode4K.text @ver End-Hymn
@@ -689,6 +696,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode5C11.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode5C12.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode5K.text @ver End-Hymn
@@ -701,6 +709,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode6C11.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode6C12.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode6K.text @ver End-Hymn
@@ -750,6 +759,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode7C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode7C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode7K.text @ver End-Hymn
@@ -764,6 +774,7 @@ Status Draft
 			Verse sid ps_gr_GR_cog.bode8.v18.text End-Verse
 			Hymn rid trMA.Ode8C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode8C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Verse sid ps_gr_GR_cog.bode8.v19.text End-Verse
@@ -780,6 +791,7 @@ Status Draft
 			Title sid ti.Glory End-Title
 			Hymn rid trMA.Ode9C12.text @ver End-Hymn
 			Title sid ti.BothNow End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Hymn rid trMA.Ode9C13.text @ver End-Hymn
 			Title role desig sid ti.Katavasia End-Title
 			Hymn rid trMA.Ode9K.text @ver End-Hymn

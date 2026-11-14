@@ -115,14 +115,17 @@ Status Final
 		Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
 		Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_ End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._03_Stichera__.both__.me__.bothasboth_.hymn End-Insert
 		Insert_section VE._04_Middle__.entrance End-Insert
 		Insert_section VE._05_Readings__.reader End-Insert
 		Insert_section VE._06_Litanies__.fullektenia End-Insert
 		Insert_section VE._08_Aposticha__.me__.p_epiphany12 End-Insert
 		Title sid ti.Glory<Tdesig>sid ti.SaintM</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 		Title sid ti.BothNow<Tdesig>sid ti.Feast</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Insert_section VE._08_Aposticha__.both__.me__.bothasboth_.hymn End-Insert
 		Insert_section VE._09_Symeon_Trisagion__.Priest End-Insert
 		Insert_section AP.me1_ End-Insert

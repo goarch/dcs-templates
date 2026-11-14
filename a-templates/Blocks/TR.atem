@@ -47,6 +47,8 @@ Status NA
 		Media rid trTE.Troparion.text End-Media
 		Hymn rid trTE.Troparion.text @ver media-off End-Hymn
 		Title sid ti.GloryBothNow<Tdesig>sid ti.Repeat</>End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Break line End_Break
 	End-Section
 

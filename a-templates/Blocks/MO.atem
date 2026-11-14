@@ -117,6 +117,7 @@ Status NA
 					Media rid ocMO.Ode12.text End-Media
 					Hymn rid ocMO.Ode12.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode13.text End-Media
 					Hymn rid ocMO.Ode13.text @ver media-off End-Hymn
 				otherwise use:
@@ -124,10 +125,12 @@ Status NA
 					Media rid ocMO.Ode11.text End-Media
 					Hymn rid ocMO.Ode11.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode12.text End-Media
 					Hymn rid ocMO.Ode12.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode1T.text End-Media
 			Hymn rid ocMO.Ode1T.text @ver media-off End-Hymn
 		End-Section
@@ -144,6 +147,7 @@ Status NA
 					Media rid ocMO.Ode32.text End-Media
 					Hymn rid ocMO.Ode32.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode33.text End-Media
 					Hymn rid ocMO.Ode33.text @ver media-off End-Hymn
 				otherwise use:
@@ -151,10 +155,12 @@ Status NA
 					Media rid ocMO.Ode31.text End-Media
 					Hymn rid ocMO.Ode31.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode32.text End-Media
 					Hymn rid ocMO.Ode32.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode3T.text End-Media
 			Hymn rid ocMO.Ode3T.text @ver media-off End-Hymn
 		End-Section
@@ -165,6 +171,8 @@ Status NA
 			Media rid ocMO.Kathisma11.text End-Media
 			Hymn rid ocMO.Kathisma11.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Title role mode rid ocMO.Kathisma12.mode<Tmelody>rid ocMO.Kathisma12.melody</>End-Title
 			Hymn rid ocMO.Kathisma12.text @ver media-off End-Hymn
 		End-Section
@@ -181,6 +189,7 @@ Status NA
 					Media rid ocMO.Ode42.text End-Media
 					Hymn rid ocMO.Ode42.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode43.text End-Media
 					Hymn rid ocMO.Ode43.text @ver media-off End-Hymn
 				otherwise use:
@@ -188,10 +197,12 @@ Status NA
 					Media rid ocMO.Ode41.text End-Media
 					Hymn rid ocMO.Ode41.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode42.text End-Media
 					Hymn rid ocMO.Ode42.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode4T.text End-Media
 			Hymn rid ocMO.Ode4T.text @ver media-off End-Hymn
 		End-Section
@@ -208,6 +219,7 @@ Status NA
 					Media rid ocMO.Ode52.text End-Media
 					Hymn rid ocMO.Ode52.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode53.text End-Media
 					Hymn rid ocMO.Ode53.text @ver media-off End-Hymn
 				otherwise use:
@@ -215,10 +227,12 @@ Status NA
 					Media rid ocMO.Ode51.text End-Media
 					Hymn rid ocMO.Ode51.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode52.text End-Media
 					Hymn rid ocMO.Ode52.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode5T.text End-Media
 			Hymn rid ocMO.Ode5T.text @ver media-off End-Hymn
 		End-Section
@@ -235,6 +249,7 @@ Status NA
 					Media rid ocMO.Ode62.text End-Media
 					Hymn rid ocMO.Ode62.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode63.text End-Media
 					Hymn rid ocMO.Ode63.text @ver media-off End-Hymn
 				otherwise use:
@@ -242,10 +257,12 @@ Status NA
 					Media rid ocMO.Ode61.text End-Media
 					Hymn rid ocMO.Ode61.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode62.text End-Media
 					Hymn rid ocMO.Ode62.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode6T.text End-Media
 			Hymn rid ocMO.Ode6T.text @ver media-off End-Hymn
 		End-Section
@@ -256,6 +273,8 @@ Status NA
 			Media rid ocMO.Kathisma21.text End-Media
 			Hymn rid ocMO.Kathisma21.text @ver media-off End-Hymn
 			Title sid ti.GloryBothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.GloryToTheFather.text End-Verse
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Title role mode rid ocMO.Kathisma22.mode<Tmelody>rid ocMO.Kathisma22.melody</>End-Title
 			Hymn rid ocMO.Kathisma22.text @ver media-off End-Hymn
 		End-Section
@@ -272,6 +291,7 @@ Status NA
 					Media rid ocMO.Ode72.text End-Media
 					Hymn rid ocMO.Ode72.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode73.text End-Media
 					Hymn rid ocMO.Ode73.text @ver media-off End-Hymn
 				otherwise use:
@@ -279,10 +299,12 @@ Status NA
 					Media rid ocMO.Ode71.text End-Media
 					Hymn rid ocMO.Ode71.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode72.text End-Media
 					Hymn rid ocMO.Ode72.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode7T.text End-Media
 			Hymn rid ocMO.Ode7T.text @ver media-off End-Hymn
 		End-Section
@@ -301,6 +323,7 @@ Status NA
 							Media rid ocMO.Ode82.text End-Media
 							Hymn rid ocMO.Ode82.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Media rid ocMO.Ode83.text End-Media
 							Hymn rid ocMO.Ode83.text @ver media-off End-Hymn
 						otherwise use:
@@ -308,10 +331,12 @@ Status NA
 							Media rid ocMO.Ode81.text End-Media
 							Hymn rid ocMO.Ode81.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Media rid ocMO.Ode82.text End-Media
 							Hymn rid ocMO.Ode82.text @ver media-off End-Hymn
 					end-when
 					Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMO.Ode8T.text End-Media
 					Hymn rid ocMO.Ode8T.text @ver media-off End-Hymn
 				otherwise use:
@@ -319,9 +344,11 @@ Status NA
 					Media rid ocMO.Ode81.text End-Media
 					Hymn rid ocMO.Ode81.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode82.text End-Media
 					Hymn rid ocMO.Ode82.text @ver media-off End-Hymn
 					Title sid ti.BothNow End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
 					Media rid ocMO.Ode83.text End-Media
 					Hymn rid ocMO.Ode83.text @ver media-off End-Hymn
 		end-when
@@ -339,6 +366,7 @@ Status NA
 					Media rid ocMO.Ode92.text End-Media
 					Hymn rid ocMO.Ode92.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode93.text End-Media
 					Hymn rid ocMO.Ode93.text @ver media-off End-Hymn
 				otherwise use:
@@ -346,10 +374,12 @@ Status NA
 					Media rid ocMO.Ode91.text End-Media
 					Hymn rid ocMO.Ode91.text @ver media-off End-Hymn
 					Title sid ti.Glory End-Title
+					Verse sid pr.GloryToTheFather.text End-Verse
 					Media rid ocMO.Ode92.text End-Media
 					Hymn rid ocMO.Ode92.text @ver media-off End-Hymn
 			end-when
 			Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+			Verse sid pr.BothNowAndEver.text End-Verse
 			Media rid ocMO.Ode9T.text End-Media
 			Hymn rid ocMO.Ode9T.text @ver media-off End-Hymn
 		End-Section
@@ -366,6 +396,8 @@ Status NA
 	End-Section
 	Section _05_creed
 	//	Title sid ti.GloryBothNow End-Title
+	//	Verse sid pr.GloryToTheFather.text End-Verse
+	//	Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid pr.GloryToTheFather.text sid pr.BothNowAndEver.text End-Hymn
 		Media sid pr.Creed.text End-Media
 		Hymn sid pr.Creed.text @ver media-off sid pr.res04.text End-Hymn
@@ -419,14 +451,18 @@ Status NA
 							Title role desig sid ho.ho02_gr_GR_cog.hoMO.SaturdayTroparion1.mode End-Title
 							Hymn sid ho.ho02_gr_GR_cog.hoMO.SaturdayTroparion1.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid ho.ho02_gr_GR_cog.hoMO.SaturdayTroparion2.text @ver media-off End-Hymn
 							Title sid ti.BothNow End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid ho.ho02_gr_GR_cog.hoMO.SaturdayTroparion3.text @ver media-off End-Hymn
 						otherwise use:
 							Hymn sid tr.d065_gr_GR_cog.trMA.Troparion.text media-off sid da.d2_gr_GR_cog.daMA.Triadic3Ending.text @ver media-off End-Hymn
 							Title sid ti.Glory End-Title
+							Verse sid pr.GloryToTheFather.text End-Verse
 							Hymn sid oc.m8.d2_gr_GR_cog.ocMA.Kathisma12.text @ver media-off End-Hymn
 							Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
 							Hymn sid ho.ho02_gr_GR_cog.hoMO.AfterCreedTheotokion.text @ver media-off End-Hymn
 					end-when
 			end-when
@@ -484,8 +520,10 @@ Status NA
 				Hymn sid oc.m2.d7_gr_GR_cog.ocMA.Kathisma23.text @ver media-off End-Hymn
 				Hymn sid oc.m8.d7_gr_GR_cog.ocMA.Kathisma23.text @ver media-off End-Hymn
 				Title sid ti.Glory End-Title
+				Verse sid pr.GloryToTheFather.text End-Verse
 				Hymn sid tr.d014_gr_GR_cog.trMA.Kontakion1.text @ver media-off End-Hymn
 				Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+				Verse sid pr.BothNowAndEver.text End-Verse
 				Hymn sid me.m08.d15_gr_GR_cog.meMA.Hypakoe.text @ver media-off End-Hymn
 		end-when
 	End-Section
@@ -505,8 +543,10 @@ Status NA
 		Media sid ho.ho12_gr_GR_cog.hoCO.Key0804.text End-Media
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0804.text @ver media-off End-Hymn
 		Title sid ti.Glory End-Title
+		Verse sid pr.GloryToTheFather.text End-Verse
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0805.text @ver media-off End-Hymn
 		Title sid ti.BothNow<Tdesig>sid ti.Theotokion</>End-Title
+		Verse sid pr.BothNowAndEver.text End-Verse
 		Hymn sid ho.ho12_gr_GR_cog.hoCO.Key0806.text @ver media-off End-Hymn
 	End-Section
 	Section _13_end_dismissal__
@@ -560,14 +600,20 @@ Status NA
 					Title role desig sid ho.ho02_gr_GR_cog.hoMO.StBasilPrayer1.title End-Title
 					Reading sid ho.ho02_gr_GR_cog.hoMO.StBasilPrayer1.text @ver End-Reading
 				End-Section
-			Oct 1 thru 31 use: Insert_section prayer1 End-Insert
-			Nov 1 thru 30 use: Insert_section prayer1 End-Insert
-			Dec 1 thru 31 use: Insert_section prayer1 End-Insert
-			Jan 1 thru 31 use: Insert_section prayer1 End-Insert
-			Feb 1 thru 29 use: Insert_section prayer1 End-Insert
+			Oct 1 thru 31 use:
+				Insert_section prayer1 End-Insert
+			Nov 1 thru 30 use:
+				Insert_section prayer1 End-Insert
+			Dec 1 thru 31 use:
+				Insert_section prayer1 End-Insert
+			Jan 1 thru 31 use:
+				Insert_section prayer1 End-Insert
+			Feb 1 thru 29 use:
+				Insert_section prayer1 End-Insert
 			otherwise use:
 				when-movable-cycle-day-is
-					1 thru 63 use: Insert_section prayer1 End-Insert
+					1 thru 63 use:
+						Insert_section prayer1 End-Insert
 				end-when
 		end-when
 	End-Section
