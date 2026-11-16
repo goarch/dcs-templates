@@ -821,6 +821,7 @@ Status NA
 				Para role readingzero<r>sid ti.SaintM</>sid me.m07.d31_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Aug 1 use:
 				Para role readingzero<r>sid ti.Cross</>sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
+				Para role readingzero<r>sid ti.Saints</>sid he.ga_gr_GR_cog.heGA.TasAlgidonas.incipit End-Para
 			Aug 2 use:
 				Para role readingzero<r>sid ti.ProtomartyrM</>sid me.m08.d02_gr_GR_cog.meVE.Apolytikion1.incipit End-Para
 			Aug 6 thru 13 use:
@@ -1835,7 +1836,8 @@ Status NA
 									Aug 29 use:
 										when-name-of-day-is
 											Sunday use:
-												Reading sid tyLIin.communionhymn.sunday.text End-Reading
+												Reading sid tyLIin.communionhymn.saints.text End-Reading
+											//	Reading sid tyLIin.communionhymn.sunday.text End-Reading
 											otherwise use:
 												Reading sid tyLIin.communionhymn.saints.text End-Reading
 										end-when
