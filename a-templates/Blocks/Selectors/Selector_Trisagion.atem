@@ -2,6 +2,9 @@ Template Selector_Trisagion
 
 Status NA
 
+	import hi.ep.rubrics_gr_GR_cog.*
+
+
 	import da.*
 	import oc.*
 	import me.*
@@ -258,12 +261,17 @@ Status NA
 		Section dynamis_dialog_priest
 			Actor<adepr>sid ac.sb.DePr</>End-Actor
 			Dialog<ddepr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0602.text</>End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_028a.text End-Para
 			Para role actorinaudible<adepr>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible<ddebl>sid pr.Command_bishop.text</>End-Para
+Para role ephi_rubric sid ruLI.Rubric_029a.text End-Para
+Para role ephi_rubric sid ruLI.Rubric_030a.text End-Para
 			Para role actorinaudible<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0604.text</>End-Para
+Para role ephi_rubric sid ruLI.Rubric_031a.text End-Para
 			Para role actorinaudible<adebl>sid ac.sb.DeBl<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible<ddebl>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0605.text</>End-Para
+Para role ephi_rubric sid ruLI.Rubric_032a.text End-Para
 			Para role actorinaudible<apr>sid ac.Priest<rubric>sid ru.InALowVoice</></>End-Para
 			Para role inaudible<dpr>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0606.text</>End-Para
 		End-Section

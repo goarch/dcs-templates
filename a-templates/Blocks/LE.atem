@@ -2,6 +2,9 @@ Template LE
 
 Status NA
 
+	import hi.ep.rubrics_gr_GR_cog.*
+
+
 	import da.*
 	import oc.*
 	import me.*
@@ -276,6 +279,7 @@ Status NA
 				Insert_section LectionaryEpistleTitle.Epistle_Title End-Insert
 			End-Section
 			Section prokeimenon
+Para role ephi_rubric sid ruLI.Rubric_033a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Reader End-Actor
@@ -283,15 +287,21 @@ Status NA
 				Insert_section LectionaryEpProkeimenon.ep_prokeimeon_verse End-Insert
 			End-Section
 			Section lesson
+Para role ephi_rubric sid ruLI.Rubric_034a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc17.text</>End-Dialog
 				Actor sid ac.Reader End-Actor
 				Insert_section LectionaryEpistleBook.Epistle_Book End-Insert
+Para role ephi_rubric sid ruLI.Rubric_035a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc19.text</>End-Dialog
 				Actor sid ac.Reader End-Actor
 				Insert_section LectionaryEpistleChapverse.Epistle_Chapverse End-Insert
 				Insert_section LectionaryEpistleText.Epistle_Text End-Insert
+Para role ephi_rubric sid ruLI.Rubric_036a.text End-Para
+Para role ephi_note sid ruLI.Note_09a.text End-Para
+Insert_section LE.PrayerBeforeGospel End-Insert
+Para role ephi_rubric sid ruLI.Rubric_043a.text End-Para
 				Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 				Dialog<dprhi>sid pr.epi02.text</>End-Dialog
 			End-Section
@@ -618,6 +628,7 @@ Status NA
 				End-Section
 			End-Section
 		End-Section
+
 		Section menaion_ //computes
 			Title<smaller>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0700.title</>End-Title
 			Section title
@@ -2997,10 +3008,16 @@ Status NA
 	End-Section
 
 		Section PrayerBeforeGospel
-			Title role desig sid ti.HolyGospel End-Title
+		//	Title role desig sid ti.HolyGospel End-Title
 			Title<smallred>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0704.title</>End-Title
 			Actor<aprhi>sid ac.sb.PrHi<rubric>sid ru.InALowVoice</></>End-Actor
 			Para role inaudible<dprhi>sid eu.lichrysbasil_gr_GR_cog.euLI.Key0704.text</>End-Para
+Para role ephi_rubric sid ruLI.Rubric_037a.text End-Para
+Dialog<dde>sid ruLI.Rubric_038a.text </>End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_039a.text End-Para
+Dialog<dprhi>sid ruLI.Rubric_040a.text </>End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_041a.text End-Para
+Para role ephi_rubric sid ruLI.Rubric_042a.text End-Para
 			Para role bkmrk05 sid misc.bookmark End-Para
 		End-Section
 
@@ -3308,38 +3325,50 @@ Status NA
 				End-Section	//Lesson
 			End-Section
 		End-Section
+
 		Section daily_
 			Section alleluia
+Para role ephi_rubric sid ruLI.Rubric_044a.text End-Para
 				Actor sid ac.Choir End-Actor
 				Media sid ho.ho07_gr_GR_cog.hoLI.MM.GospelAlleluia.text End-Media
 				Para role chant sid pr.Alleluia3.text End-Para
 				Rubric sid client_gr_GR_cog.cl.LI.R004.rubric End-Rubric
 			End-Section
-			Insert_section LE.PrayerBeforeGospel End-Insert
+		//	Insert_section LE.PrayerBeforeGospel End-Insert
 			Section lesson
 				//Insert_section LectionaryGospelTitle.Gospel_Title End-Insert
+Para role ephi_rubric sid ruLI.Rubric_045a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Dialog<ddepr>sid pr.exc17.text sid pr.exc18.text sid pr.gos02.text</>End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_046a.text End-Para
 				Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 				Dialog<dprhi>sid pr.pet31.text</>End-Dialog
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.res05.text End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_047a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section LectionaryGospelBook.Gospel_Book End-Insert
+Para role ephi_rubric sid ruLI.Rubric_048a.text End-Para
 				Actor<apr>sid ac.Priest</>End-Actor
 				Dialog<dpr>sid pr.exc19.text</>End-Dialog
+Para role ephi_note sid ruLI.Note_12a.text End-Para
 				Actor sid ac.Choir End-Actor
 				Dialog sid pr.GloryToYouLord.text End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_049a.text End-Para
 				Actor<adepr>sid ac.sb.DePr</>End-Actor
 				Insert_section LectionaryGospelChapverse.Gospel_Chapverse End-Insert
 				Insert_section LectionaryGospelText.Gospel_Text End-Insert
+Para role ephi_rubric sid ruLI.Rubric_050a.text End-Para
 				Actor<aprhi>sid ac.sb.PrHi</>End-Actor
 				Dialog<dprhi>sid pr.gos05.text</>End-Dialog
+Para role ephi_rubric sid ruLI.Rubric_051a.text End-Para
+Para role ephi_rubric sid ruLI.Rubric_052a.text End-Para
 				Actor sid ac.Choir End-Actor
 			//	Media sid pr.gos07.text End-Media
 				Dialog sid pr.GloryToYouLord.text End-Dialog
 			End-Section	//Lesson
 		End-Section
+
 		Section dec_30_31__
 			Section liturgy
 				Insert_section Selector_Dec30_31_WeekdaysLectionary.gospel.liturgy End-Insert
