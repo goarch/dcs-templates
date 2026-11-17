@@ -1,4 +1,4 @@
-Template bk.tyLG_2027.m11.d08
+Template bk.tyLG_2027.m12.d05
 
 Status Final
 
@@ -25,7 +25,7 @@ Status Final
 	import roles.*
 
 	Head
-		Set_Date month 11 day 8 year 2027 End_Date
+		Set_Date month 12 day 5 year 2027 End_Date
 			Page_Header_Even
 				center @text "Liturgical Guide for GOA Parishes"
 			End_Page_Header_Even

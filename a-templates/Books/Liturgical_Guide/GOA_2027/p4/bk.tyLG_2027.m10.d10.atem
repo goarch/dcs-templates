@@ -1,4 +1,4 @@
-Template bk.tyLG_2027.m11.d01
+Template bk.tyLG_2027.m10.d10
 
 Status Final
 
@@ -25,7 +25,7 @@ Status Final
 	import roles.*
 
 	Head
-		Set_Date month 11 day 1 year 2027 End_Date
+		Set_Date month 10 day 10 year 2027 End_Date
 			Page_Header_Even
 				center @text "Liturgical Guide for GOA Parishes"
 			End_Page_Header_Even
@@ -58,7 +58,7 @@ Status Final
 			Insert_section trisagios_incipit End-Insert
 
 		//Readings
-			Insert_section Selector_Epistle.menaion End-Insert
+			Insert_section Selector_Epistle.daily End-Insert
 			Insert_section Selector_Gospel.daily End-Insert
 
 		//Liturgical
