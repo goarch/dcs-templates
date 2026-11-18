@@ -899,6 +899,8 @@ Status NA
 				Para role readingzero<r>sid ti.DevoutW</>sid he.ga_gr_GR_cog.heGA.EnSoiMiterAkrivos.incipit End-Para
 			Oct 9 use:
 				Para role readingzero<r>sid ti.Apostle</>sid he.ga_gr_GR_cog.heGA.ApostoleAgie.incipit End-Para
+			Oct 10 use:
+				Para role readingzero<r>sid ti.Martyrs</>sid he.ga_gr_GR_cog.heGA.OiMartyresSouKyrie.incipit End-Para
 			Oct 11 thru 17 use:
 				when-name-of-day-is
 					Sunday use:
