@@ -747,10 +747,6 @@ Status NA
 		end-when
 	End-Section
 
-
-
-
-
 	Section lauds_church_saints_as678
 		when-movable-cycle-day-is
 			73 use:

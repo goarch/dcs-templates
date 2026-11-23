@@ -25,11 +25,12 @@ Status Review
 	import roles.*
 
 	Head
-		Set_Date month 0 day 0 year 0000 End_Date
+		Set_Date month 11 day 14 year 2026 End_Date
 	End_Head
 
 	Section church_date
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+		Set_Date month 4 day 23 End_Date
+		Para role date_setting sid misc.datesetting rid meDA.date End-Para
 	End-Section
 	
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
