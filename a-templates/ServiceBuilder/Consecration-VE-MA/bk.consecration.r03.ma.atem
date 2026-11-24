@@ -1,0 +1,127 @@
+Template bk.consecration.r03.ma 
+
+Status Review
+
+//f01
+//When the church is named for the Resurrection
+//When the consecration is conducted on a weekday or Sunday, on the date of a celebrated saint
+
+	import da.*
+	import oc.*
+	import me.*
+	import eo.*
+	import tr.*
+	import pe.*
+
+	import actors_gr_GR_cog.*
+	import dismissals_gr_GR_cog.*
+	import miscellanea_gr_GR_cog.*
+	import prayers_gr_GR_cog.*
+	import rubrical_gr_GR_cog.*
+	import titles_gr_GR_cog.*
+
+	import iTags.*
+	import bTags.*
+	import roles.*
+
+	Head
+		Set_Date month 0 day 0 year 0000 End_Date
+	End_Head
+
+	when-name-of-day-is
+		Sunday use:
+			Section Instance_r03_Sunday
+				Insert_section CONS.Service_Title__.Matins End-Insert
+				Insert_section MA._01_Beginning__.modeofweek End-Insert
+				Insert_section AP.res__.modeofweek End-Insert
+				Insert_section AP.client1 End-Insert
+				Insert_section CONS.AP.glory__.celeb_saint End-Insert
+				Insert_section AP.both__.consecration End-Insert
+				Insert_section MA._02_Kathisma1__.litany End-Insert
+				Insert_section MA._02_Kathisma1__.oc__.sunday__.kath11 End-Insert
+				Insert_section CONS.MA_02_Kathisma1__.glory__.celeb_saint End-Insert
+				Insert_section MA._02_Kathisma1__.both__.consecration End-Insert
+				Insert_section MA._03_Kathisma2__.oc__.sunday__.kath21 End-Insert
+				Insert_section CONS.MA_03_Kathisma2__.glory__.celeb_saint End-Insert
+				Insert_section MA._03_Kathisma2__.both__.consecration End-Insert
+				Insert_section CONS.MA_05_Kathisma3__.celeb_saint End-Insert
+				Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+				Insert_section MA._05_Kathisma3__.resurrectional_evlogetaria End-Insert
+				Insert_section MA._06_Antiphons__.sunday_ End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode6 End-Insert
+				Insert_section CONS.MA_11_Kontakion__.celeb_saint End-Insert
+				Insert_section SY.Synaxarion End-Insert
+				Insert_section hKA._1345678 End-Insert
+				Insert_section MA._07_Gospel__.yes__.hierarch__.eo End-Insert
+				Insert_section MA._08_Supplication__.priest__.plain End-Insert
+				Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+				Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+				Insert_section hKA._9 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section MA._12_Exaposteilarion__.hierarchical__.eo__.eoofweek_.exap End-Insert
+				Insert_section CONS.MA_12_Exaposteilarion__.append__.celeb_saint End-Insert
+				Insert_section CONS.MA_12_Exaposteilarion__.append__.consecration End-Insert
+				Insert_section MA._13_Lauds__.hierarchical__.modeofweek End-Insert
+				Insert_section CONS.MA_prayers End-Insert
+				Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+				Insert_section MA._13_Lauds__.oc__.s_123as123 End-Insert
+				Insert_section MA._13_Lauds__.consecration__.p_12as45 End-Insert
+				Insert_section CONS.MA_13_Lauds__.celeb_saint__.as_678 End-Insert
+				Insert_section MA._13_Lauds__.glory__.eo_ End-Insert
+				Insert_section MA._14_Doxology__.great End-Insert
+				Insert_section AP.consecration End-Insert
+				Section End
+					Insert_section LN.FervLitany_short_deacon_choir End-Insert
+					Insert_section LN.CompLitanyMA_deacon_choir End-Insert
+					Insert_section LN.hBowHeadsMA_deacon_choir End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part1 End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
+				End-Section
+				Insert_section MA._20_Dismissal__.hierarchical__.commemoration End-Insert
+			End-Section
+		otherwise use:
+			Section Instance_r03_Weekday
+				Insert_section CONS.Service_Title__.Matins End-Insert
+				Insert_section MA._01_Beginning__.mode8 End-Insert
+				Insert_section AP.client1 End-Insert
+				Insert_section CONS.AP.glory__.celeb_saint End-Insert
+				Insert_section AP.both__.consecration End-Insert
+				Insert_section MA._02_Kathisma1__.litany End-Insert
+				Insert_section CONS.MA_02_Kathisma1__.celeb_saint End-Insert
+				Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+				Insert_section CONS.MA_03_Kathisma2__.celeb_saint End-Insert
+				Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+				Insert_section CONS.MA_05_Kathisma3__.celeb_saint End-Insert
+				Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+				Insert_section CONS.MA_06_07_08_Gospel__.celeb_saint End-Insert
+				Insert_section CONS.MA_11_Kontakion__.celeb_saint End-Insert
+				Insert_section SY.Synaxarion End-Insert
+				Insert_section hKA._1345678 End-Insert
+				Insert_section MA._10_Canon__.ode9_intro__.hierarch End-Insert
+				Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
+				Insert_section hKA._9 End-Insert
+				Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
+				Insert_section CONS.MA_12_Exaposteilarion__.celeb_saint End-Insert
+				Insert_section CONS.MA_12_Exaposteilarion__.append__.consecration End-Insert
+				Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
+				Insert_section CONS.MA_prayers End-Insert
+				Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+				Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+				Insert_section Selector_Consecration.lauds_celeb_saint_as456 End-Insert
+				Insert_section CONS.MA_13_Lauds__.glory__.celeb_saint End-Insert
+				Insert_section MA._13_Lauds__.both__.consecration End-Insert
+				Insert_section MA._14_Doxology__.great End-Insert
+				Insert_section AP.consecration End-Insert
+				Section End
+					Insert_section LN.FervLitany_short_deacon_choir End-Insert
+					Insert_section LN.CompLitanyMA_deacon_choir End-Insert
+					Insert_section LN.hBowHeadsMA_deacon_choir End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part1 End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
+					Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
+				End-Section
+				Insert_section MA._20_Dismissal__.hierarchical__.commemoration End-Insert
+			End-Section
+	end-when
+End-Template

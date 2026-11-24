@@ -29,13 +29,6 @@ Status NA
 	End-Section
 		Section lihc1_mode //really only needed for feasts of the Lord and the Mother of God
 			when-movable-cycle-day-is
-				71 use:
-					Section Resurrection
-						Actor sid ac.Chanter End-Actor
-						Dialog sid pr.Command_holybishop.text sid oc.m1.d1_gr_GR_cog.ocVE.Stichera1.mode End-Dialog
-						Actor sid ac.Choir End-Actor
-						Title role mode sid oc.m1.d1_gr_GR_cog.ocVE.Stichera1.mode End-Title
-					End-Section
 				78 use:
 					Section ThomasSunday
 						Actor sid ac.Chanter End-Actor
@@ -2633,8 +2626,6 @@ Status NA
 		End-Section
 		Section lihc1_media_mode
 			when-movable-cycle-day-is
-				71 use:
-					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
 				78 use:
 					Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
 				95 use:
@@ -3382,8 +3373,6 @@ Status NA
 		End-Section
 		Section lihc2_media_mode
 			when-movable-cycle-day-is
-				71 use:
-					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
 				78 use:
 					Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
 				95 use:
@@ -4881,21 +4870,6 @@ Status NA
 		Section as_123
 			Insert_section TI.local_church End-Insert
 			when-movable-cycle-day-is
-				71 use:
-					Title role desig sid ti.SticheraResurrectional<Tmode>rid ocVE.Stichera1.mode @day D1</>End-Title
-					Para role source0 sid ti.sourceOctoechos End-Para
-					Title role desig sid ti.Sticheron1 End-Title
-					Media rid ocVE.Stichera1.text @day D1 End-Media
-					Insert_section VE.LIHC_Verses.v01 End-Insert
-					Hymn rid ocVE.Stichera1.text @ver media-off @day D1 End-Hymn
-					Title role desig sid ti.Sticheron2 End-Title
-					Media rid ocVE.Stichera2.text @day D1 End-Media
-					Insert_section VE.LIHC_Verses.v02 End-Insert
-					Hymn rid ocVE.Stichera2.text @ver media-off @day D1 End-Hymn
-					Title role desig sid ti.Sticheron3 End-Title
-					Media rid ocVE.Stichera3.text @day D1 End-Media
-					Insert_section VE.LIHC_Verses.v03 End-Insert
-					Hymn rid ocVE.Stichera3.text @ver media-off @day D1 End-Hymn
 				95 use:
 					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_123as123 End-Insert
@@ -4940,22 +4914,6 @@ Status NA
 		Section as_3456
 			Insert_section TI.stp.local_church End-Insert
 			when-movable-cycle-day-is
-				71 use:
-					Title role desig sid ti.SticheraResurrectional<Tmode>rid ocVE.Stichera1.mode @day D1</>End-Title
-					Para role source0 sid ti.sourceOctoechos End-Para
-					Title role desig sid ti.Sticheron1 End-Title
-					Media rid ocVE.MM.Stichera1234as3456.text @day D1 End-Media
-					Insert_section VE.LIHC_Verses.v03 End-Insert
-					Hymn rid ocVE.Stichera1.text @ver media-off @day D1 End-Hymn
-					Title role desig sid ti.Sticheron2 End-Title
-					Insert_section VE.LIHC_Verses.v04 End-Insert
-					Hymn rid ocVE.Stichera2.text @ver media-off @day D1 End-Hymn
-					Title role desig sid ti.Sticheron3 End-Title
-					Insert_section VE.LIHC_Verses.v05 End-Insert
-					Hymn rid ocVE.Stichera3.text @ver media-off End-Hymn
-					Title role desig sid ti.Sticheron4 End-Title
-					Insert_section VE.LIHC_Verses.v06 End-Insert
-					Hymn rid ocVE.Stichera4.text @ver media-off @day D1 End-Hymn
 				95 use:
 					Title role smallcenter sid ti.ForMidpentecost End-Title
 					Insert_section VE._03_Stichera__.pe__.p_1123as3456 End-Insert
@@ -7573,8 +7531,6 @@ Status NA
 	Section aposglory_church_feast
 		Insert_section TI.g.local_church End-Insert
 		when-movable-cycle-day-is
-			71 use:
-				Insert_section VE._08_Aposticha__.both__.pascha_.hymn End-Insert
 			95 use:
 				Title role smallcenter sid ti.ForMidpentecost End-Title
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
@@ -10518,8 +10474,6 @@ Status NA
 	End-Section
 	Section matins_gospel_church_feast
 			when-movable-cycle-day-is
-				71 use:
-					Insert_section MA._07_Gospel__.no__.hierarch__.psalm50 End-Insert
 				78 use:
 					Insert_section MA._06_Antiphons__.mode41_prokeimenon_ End-Insert
 					Insert_section MA._07_Gospel__.yes__.priest__.mc End-Insert
@@ -11665,8 +11619,6 @@ Status NA
 	Section exaposteilarion_feast
 		Insert_section TI.e.f End-Insert
 		when-movable-cycle-day-is
-			71 use:
-				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
 			78 use:
 				Insert_section MA._12_Exaposteilarion__.pe__.exap1.hymn End-Insert
 			95 use:

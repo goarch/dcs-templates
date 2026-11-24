@@ -28,11 +28,6 @@ Status Review
 		Set_Date month 9 day 8 year 2026 End_Date
 	End_Head
 
-	Section church_date
-		Insert_section CONS.DateSetting__.CHURCH_NAME.Ascension End-Insert
-	End-Section
-	
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 	Section Instance_f06
 		Insert_section CONS.Service_Title__.Matins End-Insert
 		Insert_section CONS.MA_01_Beginning__.mode_of_feast End-Insert

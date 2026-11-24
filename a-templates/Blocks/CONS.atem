@@ -634,6 +634,29 @@ Status NA
 				Insert_section VE.LIHC_Verses.v10 End-Insert
 				Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera04.text @ver media-off End-Hymn
 			End-Section
+			Section i_123456as5678910
+				Title role desig sid ti.SticheraConsecration End-Title
+				Para role source0 sid ti.sourceEuchologion End-Para
+				Media sid eu.consecration_gr_GR_cog.euVE.MM.Stichera123456as5678910.text End-Media
+				Title role desig sid ti.Idiomelon1<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera01.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v05 End-Insert
+				Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera01.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon2<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera02.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v06 End-Insert
+				Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera02.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon3<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera03.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v07 End-Insert
+				Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera03.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon4<Tmode>sid eu.consecration_gr_GR_cog.euVE.Stichera04.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v08 End-Insert
+				Hymn sid eu.consecration_gr_GR_cog.euVE.Stichera04.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon5<Tmode>sid me.m09.d13_gr_GR_cog.meMA.Lauds5.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v09 End-Insert
+				Hymn sid me.m09.d13_gr_GR_cog.meMA.Lauds5.text @ver media-off End-Hymn
+				Title role desig sid ti.Idiomelon6<Tmode>sid me.m09.d13_gr_GR_cog.meMA.Lauds6.mode</>End-Title
+				Insert_section VE.LIHC_Verses.v10 End-Insert
+				Hymn sid me.m09.d13_gr_GR_cog.meMA.Lauds6.text @ver media-off End-Hymn
+			End-Section
 		End-Section
 		Section feast__
 			Section as_123
