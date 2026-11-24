@@ -2,10 +2,6 @@ Template bk.consecration.s11.ve
 
 Status Review
 
-//s11
-//When the church is named for a saint
-//When the consecration is conducted on a weekday, during a festal period, on the date of a celebrated saint 
-
 	import da.*
 	import oc.*
 	import me.*
@@ -25,13 +21,11 @@ Status Review
 	import roles.*
 
 	Head
-		//The full date of the consecration needs to be set here
 		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
 	Section church_date
-		//Ctrl+spacebar right after CHURCH_NAME to select the name of the church being consecrated
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+		Set_Date month 0 day 0 End_Date
 	End-Section
 	
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert

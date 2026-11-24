@@ -2,10 +2,6 @@ Template bk.consecration.s02.ma
 
 Status Review
 
-//s02
-//When the church is named for a saint
-//When the consecration is conducted on a Sunday without a celebrated saint
-
 	import da.*
 	import oc.*
 	import me.*
@@ -29,7 +25,7 @@ Status Review
 	End_Head
 
 	Section church_date
-		Insert_section CONS.DateSetting__.CHURCH_NAME End-Insert
+		Set_Date month 0 day 0 End_Date
 	End-Section
 	
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert

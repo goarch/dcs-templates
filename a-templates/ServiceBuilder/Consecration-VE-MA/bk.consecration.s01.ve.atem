@@ -2,10 +2,6 @@ Template bk.consecration.s01.ve
 
 Status Review
 
-//s01
-//When the church is named for a saint
-//When the consecration is conducted on a weekday without a celebrated saint
-
 	import da.*
 	import oc.*
 	import me.*
@@ -25,12 +21,11 @@ Status Review
 	import roles.*
 
 	Head
-		Set_Date month 11 day 14 year 2026 End_Date
+		Set_Date month 0 day 0 year 0000 End_Date
 	End_Head
 
 	Section church_date
-		Set_Date month 4 day 23 End_Date
-		Para role date_setting sid misc.datesetting rid meDA.date End-Para
+		Set_Date month 0 day 0 End_Date
 	End-Section
 	
 	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
