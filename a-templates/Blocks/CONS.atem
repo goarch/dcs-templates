@@ -660,20 +660,7 @@ Status NA
 		End-Section
 		Section feast__
 			Section as_123
-				Insert_section TI.stp.f End-Insert
-				when-movable-cycle-day-is
-					95 use:
-						Insert_section VE._03_Stichera__.pe__.p_123as123 End-Insert
-					110, 120 use:
-						Insert_section VE._03_Stichera__.pe__.i_123as123 End-Insert
-					otherwise use:
-						when-exists
-							rid meVE.Stichera01.melody use:
-								Insert_section VE._03_Stichera__.me__.p_123as123 End-Insert
-							otherwise use:
-								Insert_section VE._03_Stichera__.me__.i_123as123 End-Insert
-						end-when
-				end-when
+				Insert_section Selector_Consecration.stichera_feast.as_123 End-Insert
 			End-Section
 			Section as_1234
 				Insert_section Selector_Consecration.stichera_feast.as_1234 End-Insert
