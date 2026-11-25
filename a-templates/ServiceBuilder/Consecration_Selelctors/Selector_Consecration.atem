@@ -5445,9 +5445,6 @@ Status NA
 				May 25 use:
 					Insert_section TI.s._06_forerunner End-Insert
 					Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
-				Jun 4 use:
-					Insert_section TI.s._00_saint_.m End-Insert
-					Insert_section VE._03_Stichera__.me__.p_123as678 End-Insert
 				Jun 24 use:
 					Insert_section TI.s._06_forerunner End-Insert
 					Insert_section VE._03_Stichera__.me__.i_123as678 End-Insert
@@ -5607,9 +5604,6 @@ Status NA
 					Insert_section VE._03_Stichera__.me__.p_1123as78910 End-Insert
 				May 25 use:
 					Insert_section TI.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.p_1123as78910 End-Insert
-				Jun 4 use:
-					Insert_section TI.s._00_saint_.m End-Insert
 					Insert_section VE._03_Stichera__.me__.p_1123as78910 End-Insert
 				Jun 24 use:
 					Insert_section TI.s._06_forerunner End-Insert
@@ -5773,9 +5767,6 @@ Status NA
 					Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
 				May 25 use:
 					Insert_section TI.s._06_forerunner End-Insert
-					Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
-				Jun 4 use:
-					Insert_section TI.s._00_saint_.m End-Insert
 					Insert_section VE._03_Stichera__.me__.p_123as8910 End-Insert
 				Jun 24 use:
 					Insert_section TI.s._06_forerunner End-Insert
@@ -6083,9 +6074,6 @@ Status NA
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					May 25 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
-						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
-					Jun 4 use:
-						Insert_section TI.g.s._00_saint_.m End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.gloryasglory_.hymn End-Insert
 					Jun 24 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
@@ -7042,9 +7030,6 @@ Status NA
 					May 25 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section VE._08_Aposticha__.me__.p_forerunner34 End-Insert
-					Jun 4 use:
-						Insert_section TI.s._00_saint_.m End-Insert
-						Insert_section VE._08_Aposticha__.me__.p_hierarchs12 End-Insert
 					Jun 24 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section VE._08_Aposticha__.me__.i_forerunner56 End-Insert
@@ -7322,9 +7307,6 @@ Status NA
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					May 25 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
-						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
-					Jun 4 use:
-						Insert_section TI.g.s._00_saint_.m End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					Jun 24 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
@@ -7819,9 +7801,6 @@ Status NA
 					May 25 use:
 						Insert_section TI.a.s._06_forerunner End-Insert
 						Insert_section AP.me1_.hymn End-Insert
-					Jun 4 use:
-						Insert_section TI.a.s._00_saint_.m End-Insert
-						Insert_section AP.me1_.hymn End-Insert
 					Jun 24 use:
 						Insert_section TI.a.s._06_forerunner End-Insert
 						Insert_section AP.me1_.hymn End-Insert
@@ -7991,9 +7970,6 @@ Status NA
 					May 25 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
 						Insert_section AP.me1_.hymn End-Insert
-					Jun 4 use:
-						Insert_section TI.g.s._00_saint_.m End-Insert
-						Insert_section AP.me1_.hymn End-Insert
 					Jun 24 use:
 						Insert_section TI.g.s._06_forerunner End-Insert
 						Insert_section AP.me1_.hymn End-Insert
@@ -8145,8 +8121,6 @@ Status NA
 						Insert_section MA._01_Beginning__.mode8 End-Insert
 					May 25 use:
 						Insert_section MA._01_Beginning__.mode4 End-Insert
-					Jun 4 use:
-						Insert_section MA._01_Beginning__.mode1 End-Insert
 					Jun 24 use:
 						Insert_section MA._01_Beginning__.mode4 End-Insert
 					Jun 29 use:
@@ -8441,9 +8415,6 @@ Status NA
 			May 25 use:
 				Insert_section TI.ka1.s._06_forerunner End-Insert
 				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.ka1.s._00_saint_.m End-Insert
-				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.ka1.s._06_forerunner End-Insert
 				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -8607,9 +8578,6 @@ Status NA
 			May 25 use:
 				Insert_section TI.ka2.s._06_forerunner End-Insert
 				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.ka2.s._00_saint_.m End-Insert
-				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.ka2.s._06_forerunner End-Insert
 				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -8772,9 +8740,6 @@ Status NA
 				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 			May 25 use:
 				Insert_section TI.ka3.s._06_forerunner End-Insert
-				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.ka3.s._00_saint_.m End-Insert
 				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.ka3.s._06_forerunner End-Insert
@@ -8940,9 +8905,6 @@ Status NA
 			May 25 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
 				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.g.s._00_saint_.m End-Insert
-				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
 				Insert_section MA._02_Kathisma1__.me__.kath11_.hymn End-Insert
@@ -9106,9 +9068,6 @@ Status NA
 			May 25 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
 				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.g.s._00_saint_.m End-Insert
-				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
 				Insert_section MA._03_Kathisma2__.me__.kath21_.hymn End-Insert
@@ -9271,9 +9230,6 @@ Status NA
 				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 			May 25 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
-				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.g.s._00_saint_.m End-Insert
 				Insert_section MA._05_Kathisma3__.me__.kath31_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
@@ -10661,9 +10617,6 @@ Status NA
 			May 25 use:
 				Insert_section TI.k.s._06_forerunner End-Insert
 				Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
-			Jun 4 use:
-				Insert_section TI.k.s._00_saint_.m End-Insert
-				Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
 			Jun 24 use:
 				Insert_section TI.k.s._06_forerunner End-Insert
 				Insert_section MA._11_Kontakion__.append__.me1_.konoik_nt End-Insert
@@ -10881,9 +10834,6 @@ Status NA
 							Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 						May 25 use:
 							Insert_section TI.s._06_forerunner End-Insert
-							Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
-						Jun 4 use:
-							Insert_section TI.s._00_saint_.m End-Insert //no trans
 							Insert_section CAv.ode9.append.me1.nt_123tasVVGB End-Insert
 						Jun 24 use:
 							Insert_section TI.s._06_forerunner End-Insert
@@ -11369,9 +11319,6 @@ Status NA
 						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
 					May 25 use:
 						Insert_section TI.e.s._06_forerunner End-Insert
-						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
-					Jun 4 use:
-						Insert_section TI.e.s._00_saint_.m End-Insert
 						Insert_section MA._12_Exaposteilarion__.me__.exap1_.hymn End-Insert
 					Jun 24 use:
 						Insert_section TI.e.s._06_forerunner End-Insert
@@ -11942,9 +11889,6 @@ Status NA
 					May 25 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
-					Jun 4 use:
-						Insert_section TI.s._00_saint_.m End-Insert
-						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
 					Jun 24 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section MA._13_Lauds__.me__.p_123as345 End-Insert
@@ -12113,9 +12057,6 @@ Status NA
 						Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
 					May 25 use:
 						Insert_section TI.s._06_forerunner End-Insert
-						Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
-					Jun 4 use:
-						Insert_section TI.s._00_saint_.m End-Insert
 						Insert_section MA._13_Lauds__.me__.p_123as456 End-Insert
 					Jun 24 use:
 						Insert_section TI.s._06_forerunner End-Insert
@@ -12286,9 +12227,6 @@ Status NA
 					May 25 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section MA._13_Lauds__.me__.p_123as6forerunner34 End-Insert
-					Jun 4 use:
-						Insert_section TI.s._00_saint_.m End-Insert
-						Insert_section MA._13_Lauds__.me__.p_123as6hierarchs12 End-Insert
 					Jun 24 use:
 						Insert_section TI.s._06_forerunner End-Insert
 						Insert_section MA._13_Lauds__.me__.p_123as6forerunner56 End-Insert
@@ -13022,9 +12960,6 @@ Status NA
 				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 			May 25 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
-				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
-			Jun 4 use:
-				Insert_section TI.g.s._00_saint_.m End-Insert
 				Insert_section MA._13_Lauds__.glory__.me__.gloryasglory_.hymn End-Insert
 			Jun 24 use:
 				Insert_section TI.g.s._06_forerunner End-Insert
