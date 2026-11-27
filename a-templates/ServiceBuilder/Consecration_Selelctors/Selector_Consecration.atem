@@ -1200,13 +1200,13 @@ Status NA
 								Actor sid ac.Choir End-Actor
 								Title role mode sid me.m06.d11_gr_GR_cog.meVE.Stichera01.mode End-Title
 							End-Section
-						Jun 12 use:
-							Section Jun12_GerasimosAbidou
-								Actor sid ac.Chanter End-Actor
-								Dialog sid pr.Command_holybishop.text sid me.m06.d12_gr_GR_cog.alt1.meVE.Stichera01.mode End-Dialog
-								Actor sid ac.Choir End-Actor
-								Title role mode sid me.m06.d12_gr_GR_cog.alt1.meVE.Stichera01.mode End-Title
-							End-Section
+					//	Jun 12 use:
+					//		Section Jun12_GerasimosAbidou
+					//			Actor sid ac.Chanter End-Actor
+					//			Dialog sid pr.Command_holybishop.text sid me.m06.d12_gr_GR_cog.alt1.meVE.Stichera01.mode End-Dialog
+					//			Actor sid ac.Choir End-Actor
+					//			Title role mode sid me.m06.d12_gr_GR_cog.alt1.meVE.Stichera01.mode End-Title
+					//		End-Section
 						Jun 13 use:
 							Section Jun13
 								Actor sid ac.Chanter End-Actor
@@ -2962,8 +2962,8 @@ Status NA
 							Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
 						Jun 11 use:
 							Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
-						Jun 12 use: //Gerasimos Abidou
-							Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Media rid ocVE.MM.LIHC1.text @mode M1 @day D1 End-Media
 						Jun 13 use:
 							Media rid ocVE.MM.LIHC1.text @mode M4 @day D1 End-Media
 						Jun 14 use:
@@ -3709,8 +3709,8 @@ Status NA
 							Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
 						Jun 11 use:
 							Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
-						Jun 12 use: //Gerasimos Abidou
-							Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Media rid ocVE.MM.LIHC2.text @mode M1 @day D1 End-Media
 						Jun 13 use:
 							Media rid ocVE.MM.LIHC2.text @mode M4 @day D1 End-Media
 						Jun 14 use:
@@ -4456,8 +4456,8 @@ Status NA
 							Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
 						Jun 11 use:
 							Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
-						Jun 12 use: //Gerasimos Abidou
-							Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Media rid ocVE.MM.Stichologia.text @mode M1 @day D1 End-Media
 						Jun 13 use:
 							Media rid ocVE.MM.Stichologia.text @mode M4 @day D1 End-Media
 						Jun 14 use:
@@ -5057,8 +5057,8 @@ Status NA
 							Insert_section VE._03_Stichera__.me__.alt1__.p_1123as78910 End-Insert
 						Feb 19 use: //Philothea
 							Insert_section VE._03_Stichera__.me__.alt1__.p_1123as78910 End-Insert
-						Jun 12 use: //Gerasimos Abidou
-							Insert_section VE._03_Stichera__.me__.alt1__.p_1123as78910 End-Insert
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Insert_section VE._03_Stichera__.me__.alt1__.p_1123as78910 End-Insert
 						Jul 22 use: //Markella
 							Insert_section VE._03_Stichera__.me__.alt1__.p_1234as78910 End-Insert
 						Aug 24 use: //Kosmas Aitolos
@@ -5117,8 +5117,8 @@ Status NA
 							Insert_section VE._03_Stichera__.me__.alt1__.p_123as8910 End-Insert
 						Feb 19 use: //Philothea
 							Insert_section VE._03_Stichera__.me__.alt1__.p_123as8910 End-Insert
-						Jun 12 use: //Gerasimos Abidou
-							Insert_section VE._03_Stichera__.me__.alt1__.p_123as8910 End-Insert
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Insert_section VE._03_Stichera__.me__.alt1__.p_123as8910 End-Insert
 						Jul 22 use: //Markella
 							Insert_section VE._03_Stichera__.me__.alt1__.p_123as8910 End-Insert
 						Aug 24 use: //Kosmas Aitolos
@@ -5172,8 +5172,8 @@ Status NA
 							Insert_section VE._03_Stichera__.me__.alt1__.p_12as910 End-Insert
 						Feb 19 use: //Philothea
 							Insert_section VE._03_Stichera__.me__.alt1__.p_12as910 End-Insert
-						Jun 12 use: //Gerasimos Abidou
-							Insert_section VE._03_Stichera__.me__.alt1__.p_12as910 End-Insert
+					//	Jun 12 use: //Gerasimos Abidou
+					//		Insert_section VE._03_Stichera__.me__.alt1__.p_12as910 End-Insert
 						Jul 22 use: //Markella
 							Insert_section VE._03_Stichera__.me__.alt1__.p_12as910 End-Insert
 						Aug 24 use: //Kosmas Aitolos
@@ -6241,9 +6241,9 @@ Status NA
 					Feb 19 use: //Philothea
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -6294,9 +6294,9 @@ Status NA
 					Feb 19 use: //Philothea
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -7198,46 +7198,38 @@ Status NA
 		end-when		
 	End-Section
 	Section aposglory_feastoflord //on feasts of the Lord
+		Insert_section TI.g.f End-Insert
 		Section hymn
 			when-movable-cycle-day-is
 				78, 95, 110, 120 use:
-					Insert_section TI.g.f End-Insert
 					Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
 				otherwise use:
 					when-date-is
 						Jan 6 use:
-							Insert_section TI.g.f End-Insert
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Mar 25 use:
-							Insert_section TI.g.f End-Insert
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Aug 6 use:
-							Insert_section TI.g.f End-Insert
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Sep 14 use:
-							Insert_section TI.g.f End-Insert
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 						Dec 25 use:
-							Insert_section TI.g.f End-Insert
 							Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 					end-when
 			end-when
 		End-Section
 	End-Section
 	Section aposglory_feastofmother //on feasts of the Mother of God
+		Insert_section TI.g.f End-Insert
 		Section hymn
 			when-date-is
 				Feb 2 use:
-					Insert_section TI.g.f End-Insert
 					Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Aug 15 use:
-					Insert_section TI.g.f End-Insert
 					Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Sep 8 use:
-					Insert_section TI.g.f End-Insert
 					Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 				Nov 21 use:
-					Insert_section TI.g.f End-Insert
 					Insert_section VE._08_Aposticha__.glory__.me__.gloryasglory_.hymn End-Insert
 			end-when
 		End-Section
@@ -7587,10 +7579,10 @@ Status NA
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 						Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-						Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//		Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -7644,8 +7636,8 @@ Status NA
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Feb 19 use: //Philothea
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 					Aug 27 use: //Phanourios
@@ -7680,38 +7672,60 @@ Status NA
 			127 use:
 				Insert_section TI.g.local_church End-Insert
 				Insert_section VE._08_Aposticha__.glory__.pe__.gloryasglory_.hymn End-Insert
+				Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+				Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 			otherwise use:
 				when-date-is
 					Feb 6 use: //Photius
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Feb 19 use: //Philothea
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+				//		Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Aug 27 use: //Phanourios
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Oct 20 use: //Gerasimos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Oct 28 use: //Holy Protection
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Nov 9 use: //Nektarios
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Dec 2 use: //Porphyrios
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					Dec 17 use: //Dionysios Aigina
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
 					otherwise use:
 						when-exists
 							rid meVE.AposGlory.text use:
@@ -9606,11 +9620,11 @@ Status NA
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
 						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.ka1.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
-						Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.ka1.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+				//		Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.ka1.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -9682,11 +9696,11 @@ Status NA
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
 						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.ka2.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
-						Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.ka2.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+				//		Insert_section MA._03_Kathisma2__.gloryboth__.consecration End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.ka2.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -9758,11 +9772,11 @@ Status NA
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
 						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.ka3.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
-						Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.ka3.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+				//		Insert_section MA._05_Kathisma3__.gloryboth__.consecration End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.ka3.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -9837,12 +9851,12 @@ Status NA
 						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._02_Kathisma1__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -9925,12 +9939,12 @@ Status NA
 						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._03_Kathisma2__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -10013,12 +10027,12 @@ Status NA
 						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._05_Kathisma3__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -10102,12 +10116,12 @@ Status NA
 						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._02_Kathisma1__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._02_Kathisma1__.me__.alt1__.kath11_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._02_Kathisma1__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -10190,12 +10204,12 @@ Status NA
 						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._03_Kathisma2__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._03_Kathisma2__.me__.alt1__.kath21_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._03_Kathisma2__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -10278,12 +10292,12 @@ Status NA
 						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-						Insert_section MA._05_Kathisma3__.both__.feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._05_Kathisma3__.me__.alt1__.kath31_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+				//		Insert_section MA._05_Kathisma3__.both__.feast End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.g.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -10358,10 +10372,10 @@ Status NA
 				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
 				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
 				Insert_section MA._08_Supplication__.priest__.com End-Insert
-			Jun 12 use: //Gerasimos Abidou
-				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
-				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
-				Insert_section MA._08_Supplication__.priest__.plain End-Insert
+		//	Jun 12 use: //Gerasimos Abidou
+		//		Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
+		//		Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
+		//		Insert_section MA._08_Supplication__.priest__.plain End-Insert
 			Aug 24 use: //Kosmas Aitolos
 				Insert_section MA._06_Antiphons__.mode41_mealt1_prokeimenon_ End-Insert
 				Insert_section MA._07_Gospel__.yes__.hierarch__.mealt1 End-Insert
@@ -11447,11 +11461,11 @@ Status NA
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
-						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+				//		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -11523,11 +11537,11 @@ Status NA
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
 						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.e.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
-						Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.e.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._12_Exaposteilarion__.append__.me__.alt1__.exap1 End-Insert
+				//		Insert_section MA._12_Exaposteilarion__.append__.consecration End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.e.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -12436,12 +12450,12 @@ Status NA
 							Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 							Insert_section MA._13_Lauds__.me__.p_123as6equaltoapostles12 End-Insert
 						End-Section
-					Jun 12 use:
-						Section Jun12
-							Insert_section TI.local_church End-Insert
-							Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-							Insert_section MA._13_Lauds__.me__.alt1__.p_123as6devoutmen21 End-Insert
-						End-Section
+				//	Jun 12 use:
+				//		Section Jun12
+				//			Insert_section TI.local_church End-Insert
+				//			Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//			Insert_section MA._13_Lauds__.me__.alt1__.p_123as6devoutmen21 End-Insert
+				//		End-Section
 					Jun 29 use:
 						Section Jun29
 							Insert_section TI.local_church End-Insert
@@ -12648,12 +12662,12 @@ Status NA
 						Insert_section TI.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
 						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
-						Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
-						Insert_section TI.local_church End-Insert
-						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
-						Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section MA._13_Lauds__.stichologia__.sung__.for6_nocollapse End-Insert
+				//		Insert_section MA._13_Lauds__.consecration__.p_123as123 End-Insert
+				//		Insert_section TI.local_church End-Insert
+				//		Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
+				//		Insert_section MA._13_Lauds__.me__.alt1__.p_123as456 End-Insert
 					Jul 22 use: //Markella
 						Insert_section TI.local_church End-Insert
 						Title role smallcenter sid client_gr_GR_cog.cl.localchurch.title End-Title
@@ -13086,11 +13100,11 @@ Status NA
 						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 						Insert_section Selector_Consecration.lauds_both_feast End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
-						Insert_section Selector_Consecration.lauds_both_feast End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//		Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+				//		Insert_section Selector_Consecration.lauds_both_feast End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -13171,10 +13185,10 @@ Status NA
 						Insert_section TI.g.local_church End-Insert
 						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 						Insert_section MA._13_Lauds__.both__.consecration End-Insert
-					Jun 12 use: //Gerasimos Abidou
-						Insert_section TI.g.local_church End-Insert
-						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
-						Insert_section MA._13_Lauds__.both__.consecration End-Insert
+				//	Jun 12 use: //Gerasimos Abidou
+				//		Insert_section TI.g.local_church End-Insert
+				//		Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+				//		Insert_section MA._13_Lauds__.both__.consecration End-Insert
 					Aug 24 use: //Kosmas Aitolos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section MA._13_Lauds__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
