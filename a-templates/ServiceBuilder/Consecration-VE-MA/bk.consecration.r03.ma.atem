@@ -36,7 +36,7 @@ Status Review
 				Insert_section AP.res__.modeofweek End-Insert
 				Insert_section AP.client1 End-Insert
 				Insert_section CONS.AP.glory__.celeb_saint End-Insert
-				Insert_section AP.both__.consecration End-Insert
+				Insert_section CONS.AP.both__.feast_or_consecration End-Insert
 				Insert_section MA._02_Kathisma1__.litany End-Insert
 				Insert_section MA._02_Kathisma1__.oc__.sunday__.kath11 End-Insert
 				Insert_section CONS.MA_02_Kathisma1__.glory__.celeb_saint End-Insert
@@ -86,7 +86,7 @@ Status Review
 				Insert_section MA._01_Beginning__.mode8 End-Insert
 				Insert_section AP.client1 End-Insert
 				Insert_section CONS.AP.glory__.celeb_saint End-Insert
-				Insert_section AP.both__.consecration End-Insert
+				Insert_section CONS.AP.both__.feast_or_consecration End-Insert
 				Insert_section MA._02_Kathisma1__.litany End-Insert
 				Insert_section CONS.MA_02_Kathisma1__.celeb_saint End-Insert
 				Insert_section MA._02_Kathisma1__.gloryboth__.consecration End-Insert

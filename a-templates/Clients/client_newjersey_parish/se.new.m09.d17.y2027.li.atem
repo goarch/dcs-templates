@@ -1,4 +1,4 @@
-Template se.chi.m09.d18.y2027.li
+Template se.new.m09.d17.y2027.li
 
 Status Final
 
@@ -22,7 +22,7 @@ Status Final
 	import roles.*
 
 	Head
-		Set_Date month 9 day 18 year 2027 End_Date
+		Set_Date month 9 day 17 year 2027 End_Date
 			Page_Header_Even
 				center @lookup sid template.titles_gr_GR_cog.li4.pdf.header lang L1 @lookup rid daOnDay.text lang L1 @lookup rid meDA.pdfheaderdate lang L1
 			End_Page_Header_Even
@@ -82,8 +82,10 @@ Status Final
 				Section hymns
 					Insert_section AP.af End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.apolytikion2 End-Insert
-					Insert_section TI.s._00_saint_.m End-Insert
-					Insert_section AP.ganame.Sep18__.eumenius_.hymn End-Insert
+					Insert_section TI.s._00_saint_.wp End-Insert
+					Insert_section AP.me2ger_.hymn End-Insert
+					Insert_section TI.additional._ End-Insert
+					Insert_section AP.me3_.hymn End-Insert
 					Insert_section LI._05_AfterEntranceHymns__.local_church_apolytikion End-Insert
 					Insert_section KO.seasonal End-Insert
 				End-Section
@@ -105,7 +107,7 @@ Status Final
 						Para role erc_li_gospel sid misc.custcontent End-Para
 				end-when
 				Insert_section LI._08_Liturgy__.chrys_default End-Insert
-				Insert_section LI._09_Dismissal__.nocommemoration End-Insert
+				Insert_section LI._09_Dismissal__.commemoration End-Insert
 			End-Section
 	end-when
 

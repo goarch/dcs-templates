@@ -885,6 +885,11 @@ Status NA
 	End-Section
 
 	Section AP
+		Section both__
+			Section feast_or_consecration
+				Insert_section Selector_Consecration.apolytikion_both_feast_or_consecration End-Insert
+			End-Section
+		End-Section
 		Section glory__
 			Section celeb_saint
 				Insert_section Selector_Consecration.apolytikion_glory_celeb_saint End-Insert

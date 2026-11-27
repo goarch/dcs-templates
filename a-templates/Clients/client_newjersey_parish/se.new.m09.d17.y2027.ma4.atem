@@ -1,10 +1,6 @@
-Template se.m11.d05.y2026.ma4
+Template se.new.m09.d17.y2027.ma4
 
-Status Review
-
-//s01
-//When the church is named for a saint
-//When the consecration is conducted on a weekday without a celebrated saint
+Status Final
 
 	import da.*
 	import oc.*
@@ -25,27 +21,20 @@ Status Review
 	import roles.*
 
 	Head
-		Set_Date month 11 day 5 year 2026 End_Date
+		Set_Date month 9 day 17 year 2027 End_Date
 	End_Head
 
-	Section church_date
-		Set_Date month 4 day 23 End_Date
-	End-Section
-	
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
-	Section Instance_s01
+	Section Instance_s03
 		Insert_section CONS.Service_Title__.Matins End-Insert
 		Insert_section MA._01_Beginning__.mode4 End-Insert
 		Insert_section AP.consecration End-Insert
 		Insert_section AP.glory__.client1 End-Insert
-		Insert_section AP.both__.consecration End-Insert
+		Insert_section CONS.AP.both__.feast_or_consecration End-Insert
 		Insert_section MA._02_Kathisma1__.litany End-Insert
-	Insert_section church_date End-Insert
 		Insert_section CONS.MA_02_Kathisma1__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_03_Kathisma2__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_05_Kathisma3__.church_saint_and_consecration End-Insert
 		Insert_section CONS.MA_06_07_08_Gospel__.church_saint End-Insert
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._11_Kontakion__.consecration End-Insert
 		Insert_section SY.Synaxarion End-Insert
 		Insert_section hKA._1345678 End-Insert
@@ -53,13 +42,11 @@ Status Review
 		Insert_section MA._10_Canon__.magnificat__.modeofkatavasia End-Insert
 		Insert_section hKA._9 End-Insert
 		Insert_section MA._10_Canon__.litanies__.ode9 End-Insert
-	Insert_section church_date End-Insert
 		Insert_section CONS.MA_12_Exaposteilarion__.church_saint_and_consecration End-Insert
 		Insert_section MA._13_Lauds__.hierarchical__.mode4 End-Insert
 		Insert_section CONS.MA_prayers End-Insert
 		Insert_section CONS.MA_13_Lauds__.consecration_and_church_saint End-Insert
 		Insert_section CONS.MA_13_Lauds__.glory_and_both__.church_saint_and_consecration End-Insert
-	Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
 		Insert_section MA._14_Doxology__.great End-Insert
 		Insert_section AP.consecration End-Insert
 		Section End
@@ -70,7 +57,7 @@ Status Review
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part2 End-Insert
 			Insert_section MA._18_End__.hierarchical__.wisdom123.part3 End-Insert
 		End-Section
-		Insert_section MA._20_Dismissal__.hierarchical__.nocommemoration End-Insert
+		Insert_section MA._20_Dismissal__.hierarchical__.commemoration End-Insert
 	End-Section
 
 End-Template

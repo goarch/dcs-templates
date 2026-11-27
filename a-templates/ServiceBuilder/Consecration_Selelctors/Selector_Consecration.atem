@@ -5083,6 +5083,8 @@ Status NA
 									Insert_section VE._03_Stichera__.me__.p_4456as78910 End-Insert
 								Jul 26 use: //Paraskevi
 									Insert_section VE._03_Stichera__.me__.p_4456as78910 End-Insert
+								Sep 17 use: //Sophia
+									Insert_section VE._03_Stichera__.me__.p_4456as78910 End-Insert
 								otherwise use:
 									Section menaion
 										when-exists
@@ -6250,6 +6252,9 @@ Status NA
 					Aug 27 use: //Phanourios
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
+					Sep 17 use:
+						Insert_section CONS.DateSetting__.Reset_to_Default End-Insert
+						Insert_section CONS.VE_03_Stichera__.gloryboth__.consecration_with_clientname_ End-Insert
 					Oct 20 use: //Gerasimos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._03_Stichera__.glory__.me__.alt1__.eightmodedoxasticonasglory_.hymn End-Insert
@@ -7591,6 +7596,8 @@ Status NA
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 						Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
+					Sep 17 use: //Sophia
+						Insert_section CONS.VE_08_Aposticha__.gloryboth__.consecration End-Insert
 					Oct 20 use: //Gerasimos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -7701,6 +7708,10 @@ Status NA
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
 						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
 						Insert_section CONS.VE_08_Aposticha__.both__.feast End-Insert
+					Sep 17 use: //Sophia
+						Insert_section CONS.DateSetting__.Principal_Feast_of_Period End-Insert
+						Insert_section CONS.VE_08_Aposticha__.glory__.feast End-Insert
+						Insert_section CONS.VE_08_Aposticha__.both__.consecration End-Insert
 					Oct 20 use: //Gerasimos
 						Insert_section TI.g.local_church End-Insert
 						Insert_section VE._08_Aposticha__.glory__.me__.alt1__.gloryasglory_.hymn End-Insert
@@ -7754,6 +7765,131 @@ Status NA
 		Insert_section aposglory_feastofmother.hymn End-Insert
 	End-Section
 
+	Section apolytikion_both_feast_or_consecration
+		when-movable-cycle-day-is
+			78 thru 84 use:
+				Section thomas
+					Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d078_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d078_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d078_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			95 thru 102 use:
+				Section midpentecost
+					Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d095_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d095_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d095_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			110 thru 118 use:
+				Section ascension
+					Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d110_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d110_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			120 thru 126 use:
+				Section pentecost
+					Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+					Verse sid pr.BothNowAndEver.text End-Verse
+					Para role source0 sid ti.sourcePentecostarion End-Para
+					Title role mode sid pe.d120_gr_GR_cog.peVE.Apolytikion1.mode End-Title
+					Media sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text End-Media
+					Hymn sid pe.d120_gr_GR_cog.peVE.Apolytikion1.text @ver media-off End-Hymn
+				End-Section
+			otherwise use:
+				when-date-is
+					Jan 6 thru 14 use:
+						Section Epiphany
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m01.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Feb 2 thru 9 use:
+						Section Meeting
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m02.d02_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Aug 6 thru 13 use:
+						Section Transfiguration
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m08.d06_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Aug 15 thru 23 use:
+						Section Dormition
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m08.d15_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Sep 8 thru 12 use:
+						Section Theotokos_Birth
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m09.d08_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Sep 14 thru 21 use:
+						Section Cross
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m09.d14_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Nov 21 thru 25 use:
+						Section Theotokos_Entry
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m11.d21_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					Dec 25 thru 31 use:
+						Section Christmas
+							Title sid ti.BothNow<Tdesig>sid ti.ApolytikionFeast</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceMenaion End-Para
+							Title role mode sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.mode End-Title
+							Media sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text End-Media
+							Hymn sid me.m12.d25_gr_GR_cog.meVE.Apolytikion1.text @ver media-off End-Hymn
+						End-Section
+					otherwise use:
+						Section consecration
+							Title sid ti.BothNow<Tdesig>sid ti.Consecration</>End-Title
+							Verse sid pr.BothNowAndEver.text End-Verse
+							Para role source0 sid ti.sourceEuchologion End-Para
+							Title role mode sid eu.consecration_gr_GR_cog.euVE.Apolytikion.mode<Tmelody>sid eu.consecration_gr_GR_cog.euVE.Apolytikion.melody</>End-Title
+							Media sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text End-Media
+							Hymn sid eu.consecration_gr_GR_cog.euVE.Apolytikion.text @ver media-off End-Hymn
+						End-Section
+				end-when
+		end-when
+	End-Section
+	
 	Section apolytikion_celeb_saint
 		when-movable-cycle-day-is
 			127 use:
